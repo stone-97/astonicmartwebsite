@@ -1,0 +1,188 @@
+<div class="container mt-4">
+
+  <!-- Marketplace Header -->
+  <div class="card shadow-sm p-3 text-center mb-4 marketplace-header">
+    <h2 class="mb-2">Our Marketplace</h2>
+    <p class="mb-0 text-muted">
+      Our marketplace is professionally designed to provide high quality
+      industrial, safety and technical products. Browse our collection
+      and discover reliable equipment built for performance and safety.
+    </p>
+  </div>
+
+  <!-- Filter Toggle -->
+  <div class="text-center mb-3">
+    <button
+      class="btn btn-outline-dark px-4"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#marketFilters"
+      aria-expanded="true"
+      aria-controls="marketFilters"
+    >
+      <i class="bi bi-funnel me-2"></i> Filter Products
+    </button>
+  </div>
+
+  <!-- Filters -->
+  <div class="collapse show" id="marketFilters">
+    <div class="row mb-4">
+
+      <div class="col-12">
+        <h5 class="mb-3">Filter Products</h5>
+
+        <!-- Selected Filters -->
+        <div
+          class="selected-filters mb-3"
+          *ngIf="selectedBrands.length || selectedCategories.length"
+        >
+          <span class="me-2 text-muted small">Active Filters:</span>
+
+          <span
+            *ngFor="let brand of selectedBrands"
+            class="badge bg-primary me-2 mb-2 p-2"
+          >
+            {{ brand }}
+            <button
+              type="button"
+              class="btn-close btn-close-white ms-2"
+              style="font-size: 0.7em;"
+              (click)="removeBrand(brand)"
+            ></button>
+          </span>
+
+          <span
+            *ngFor="let cat of selectedCategories"
+            class="badge bg-success me-2 mb-2 p-2"
+          >
+            {{ cat }}
+            <button
+              type="button"
+              class="btn-close btn-close-white ms-2"
+              style="font-size: 0.7em;"
+              (click)="removeCategory(cat)"
+            ></button>
+          </span>
+
+          <button
+            class="btn btn-sm btn-link text-danger ms-2"
+            (click)="clearFilters()"
+          >
+            Clear All
+          </button>
+        </div>
+
+        <!-- Filter Cards -->
+        <div class="row g-4">
+
+          <!-- Brands -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-header bg-light py-3">
+                <strong>Brands</strong>
+              </div>
+               <div class="card-body filter-scroll">
+                <div
+                  class="form-check mb-2"
+                  *ngFor="let brand of uniqueBrands"
+                >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    [id]="'brand-' + brand"
+                    [checked]="selectedBrands.includes(brand)"
+                    (change)="toggleBrandFilter(brand)"
+                  />
+
+                  <label
+                    class="form-check-label"
+                    [for]="'brand-' + brand"
+                  >
+                    {{ brand }}
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Categories -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-header bg-light py-3">
+                <strong>Categories</strong>
+              </div>
+
+              <div
+                class="card-body"
+                style="max-height: 180px; overflow-y: auto;"
+              >
+                <div
+                  class="form-check mb-2"
+                  *ngFor="let cat of uniqueCategories"
+                >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    [id]="'cat-' + cat"
+                    [checked]="selectedCategories.includes(cat)"
+                    (change)="toggleCategoryFilter(cat)"
+                  />
+
+                  <label
+                    class="form-check-label"
+                    [for]="'cat-' + cat"
+                  >
+                    {{ cat }}
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price -->
+          <div class="col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-header bg-light py-3">
+                <strong>Price Range (₦)</strong>
+              </div>
+
+              <div class="card-body">
+                <input
+                  type="number"
+                  class="form-control mb-3"
+                  [(ngModel)]="minPrice"
+                  placeholder="Minimum Price"
+                />
+
+                <input
+                  type="number"
+                  class="form-control mb-3"
+                  [(ngModel)]="maxPrice"
+                  placeholder="Maximum Price"
+                />
+
+                <button
+                  class="btn btn-dark w-100"
+                  (click)="applyFilters()"
+                >
+                  Apply Filter
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Product List -->
+  <div class="product-list-wrapper">
+  <app-product-list
+    [products]="filteredProducts"
+    [itemsPerPage]="9"
+  ></app-product-list>
+</div>
+
+</div>

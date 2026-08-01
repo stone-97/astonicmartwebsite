@@ -1,0 +1,32 @@
+.contact_form_wrapper {
+  background: linear-gradient(135deg, #f9f9f9, #e3f2fd);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact_form input,
+.contact_form textarea {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.primary-btn {
+  background-color: orange;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover:not(:disabled) {
+  background-color: rgb(96, 64, 6);
+}
+
+.primary-btn:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}

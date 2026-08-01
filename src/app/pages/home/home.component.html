@@ -1,0 +1,1035 @@
+<div
+  class="image-preview-overlay"
+  *ngIf="selectedPreviewImage"
+  (click)="closePreview()"
+>
+  <img
+    [src]="selectedPreviewImage"
+    class="preview-image"
+    (click)="$event.stopPropagation()"
+  >
+
+  <span
+    class="close-preview"
+    (click)="closePreview()"
+  >
+    ✕
+  </span>
+</div>
+
+
+<!-- slider starts -->
+  
+<app-slider></app-slider>
+<div class="text-center my-4">
+<button class="btn btn-secondary text-dark d-block mx-auto"
+        data-bs-toggle="modal"
+        data-bs-target="#quoteModal">
+  Get a Quote
+</button>
+</div>
+
+<!-- slider end -->
+
+<div class="modal fade" id="quoteModal" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content quote-modal">
+
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold">Request a Quote</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <app-get-a-quote></app-get-a-quote>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+ <!-- Stats Section -->
+<section class="stats-section py-5 bg-light text-center" style="margin-top: 100px;">
+ <div class="container-fluid px-4">
+
+    <div class="row g-8">
+      <div class="col-6 col-md-3">
+        <div class="stat-box shadow-sm p-4 rounded">
+          <h2 class="fw-bold mb-1 counter" data-target="500" style="color: #ffba00;">500</h2>
+          <p style="font-size:larger; color: white;">Products Available</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-box shadow-sm p-4 rounded">
+          <h2 class="text-primary fw-bold mb-1 counter" data-target="1200">1200</h2>
+                    <p style="font-size:larger; color: white;">Happy Customers</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-box shadow-sm p-4 rounded">
+          <h2 class="fw-bold mb-1 counter" data-target="30" style="color: #ffba00;">30+</h2>
+         <p style="font-size:larger; color: white;">Trusted Brands</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-box shadow-sm p-4 rounded">
+          <h2 class="text-primary fw-bold mb-1 counter" data-target="10">10</h2>
+        <p style="font-size:larger; color: white;">Years of Experience</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Banner begins -->
+<div class="hero-banner-wrapper">
+
+    <!-- Left side (Video) -->
+    <div class="hero-col">
+        <video autoplay muted loop playsinline>
+            <source src="../../../assets/video/ai safety video 1.mp4" type="video/mp4">
+        </video>
+
+        <div class="banner-overlay">
+            <h1 style="font-weight: bolder; color: white;">
+                Top-Grade <br> Safety Tools!
+            </h1>
+
+            <p>Discover premium safety gear, durable tools, and heavy-duty industrial equipment.</p>
+
+<a routerLink="/shopcategories" class="add-bag d-flex align-items-center add-bag-link">
+  <span class="add-btn"><span class="lnr lnr-cart"></span></span>
+  <span class="add-text text-uppercase bg-white">Shop Now</span>
+</a>
+
+        </div>
+    </div>
+
+    <!-- Right side (Image) -->
+    <div class="hero-col">
+        <img src="../../../assets/img/chatgt.png" alt="Banner Image" class="img-fluid">
+    </div>
+
+</div>
+
+
+
+<!-- Banner ends -->
+
+
+<!-- features start -->
+<section class="features-area section_gap">
+<div class="container px-4 px-md-5">
+		<div class="row features-inner">
+
+			<!-- single feature -->
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="single-features">
+					<div class="f-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="50px" fill="#e3e3e3"><path d="M280-160q-50 0-85-35t-35-85H60l18-80h113q17-19 40-29.5t49-10.5q26 0 49 10.5t40 29.5h167l84-360H182l4-17q6-28 27.5-45.5T264-800h456l-37 160h117l120 160-40 200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H400q0 50-35 85t-85 35Zm357-280h193l4-21-74-99h-95l-28 120Zm-19-273 2-7-84 360 2-7 34-146 46-200ZM20-427l20-80h220l-20 80H20Zm80-146 20-80h260l-20 80H100Zm180 333q17 0 28.5-11.5T320-280q0-17-11.5-28.5T280-320q-17 0-28.5 11.5T240-280q0 17 11.5 28.5T280-240Zm400 0q17 0 28.5-11.5T720-280q0-17-11.5-28.5T680-320q-17 0-28.5 11.5T640-280q0 17 11.5 28.5T680-240Z"/></svg>
+					</div>
+					<h6 class="Delivery">Free Delivery</h6>
+					<p class="hover-text">Fast delivery nationwide</p>
+				</div>
+			</div>
+
+			<!-- single feature -->
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="single-features">
+					<div class="f-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#e3e3e3"><path d="m480-320 56-56-63-64h167v-80H473l63-64-56-56-160 160 160 160ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h168q13-36 43.5-58t68.5-22q38 0 68.5 22t43.5 58h168q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm280-590q13 0 21.5-8.5T510-820q0-13-8.5-21.5T480-850q-13 0-21.5 8.5T450-820q0 13 8.5 21.5T480-790ZM200-200v-560 560Z"/></svg>
+					</div>
+					<h6 class="Delivery">Return Policy</h6>
+					<p class="hover-text">Simple return process</p>
+				</div>
+			</div>
+
+			<!-- single feature -->
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="single-features">
+					<div class="f-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#e3e3e3"><path d="M440-120v-80h320v-284q0-117-81.5-198.5T480-764q-117 0-198.5 81.5T200-484v244h-40q-33 0-56.5-23.5T80-320v-80q0-21 10.5-39.5T120-469l3-53q8-68 39.5-126t79-101q47.5-43 109-67T480-840q68 0 129 24t109 66.5Q766-707 797-649t40 126l3 52q19 9 29.5 27t10.5 38v92q0 20-10.5 38T840-249v49q0 33-23.5 56.5T760-120H440Zm-80-280q-17 0-28.5-11.5T320-440q0-17 11.5-28.5T360-480q17 0 28.5 11.5T400-440q0 17-11.5 28.5T360-400Zm240 0q-17 0-28.5-11.5T560-440q0-17 11.5-28.5T600-480q17 0 28.5 11.5T640-440q0 17-11.5 28.5T600-400Zm-359-62q-7-106 64-182t177-76q89 0 156.5 56.5T720-519q-91-1-167.5-49T435-698q-16 80-67.5 142.5T241-462Z"/></svg>
+					</div>
+					<h6 class="Delivery">24/7 Support</h6>
+					<p class="hover-text">Support around the clock</p>
+				</div>
+			</div>
+
+			<!-- single feature -->
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="single-features">
+					<div class="f-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#e3e3e3"><path d="M480-520q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35ZM200-400q-33 0-56.5-23.5T120-480v-320q0-33 23.5-56.5T200-880h560q33 0 56.5 23.5T840-800v320q0 33-23.5 56.5T760-400H200Zm80-80h400q0-33 23.5-56.5T760-560v-160q-33 0-56.5-23.5T680-800H280q0 33-23.5 56.5T200-720v160q33 0 56.5 23.5T280-480Zm-80 0v-320 320ZM480-80l160-160-56-56-64 64v-128h-80v128l-64-64-56 56L480-80Z"/></svg>
+					</div>
+					<h6 class="Delivery">Payment Method</h6>
+					<p class="hover-text">Secure payment options</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+ <!-- features end -->
+
+
+  <div class="d-flex justify-content-center align-items-center flex-wrap brand-logos position-relative">
+      <div class="top-brands-label position-absolute">
+        <h5 style="color: white;">Top Sellers</h5>
+      </div>
+
+<!-- Start Product Carousel Area -->
+
+<div class="carousel2-container">
+  <div class="carousel2-track">
+
+    <div
+      class="carousel2-card"
+      *ngFor="let product of carouselProducts"
+      (click)="openProduct(product)"
+      style="cursor:pointer"
+    >
+      <!-- ribbon -->
+      <div class="carousel2-ribbon">Top Sales</div>
+
+      <!-- images -->
+     <div class="carousel2-image">
+
+  <!-- main image -->
+  <div class="carousel2-main-container">
+    <img
+      [src]="product.images[0]"
+      [alt]="product.name"
+      class="carousel2-main"
+    />
+  </div>
+
+  <!-- extra images -->
+  <div
+    class="carousel2-extra"
+    *ngIf="product.images.length > 1"
+  >
+    <img
+      *ngFor="let img of product.images.slice(1,3)"
+      [src]="img"
+      [alt]="product.name"
+      (click)="previewImage(img, $event)"
+    />
+  </div>
+
+</div>
+
+      <!-- details -->
+      <div class="carousel2-details">
+
+        <h6 class="carousel2-name">
+          {{ product.name }}
+        </h6>
+
+        <div class="carousel2-price">
+
+          <ng-container *ngIf="product.discountPrice; else normalPrice">
+
+            <span class="carousel2-actual">
+              ₦{{ product.discountPrice | number }}
+            </span>
+
+            <span class="carousel2-discount">
+              ₦{{ product.price | number }}
+            </span>
+
+          </ng-container>
+
+          <ng-template #normalPrice>
+            <span class="carousel2-actual">
+              ₦{{ product.price | number }}
+            </span>
+          </ng-template>
+
+        </div>
+
+        <div class="carousel2-brand">
+          <i class="fas fa-check-square"></i>
+          {{ product.brand }}
+        </div>
+
+        <div class="carousel2-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- End category Area -->
+
+<!-- start product Area -->
+<section class="owl-carousel active-product-area section_gap">
+	<!-- single product slide -->
+	<div class="single-product-slider">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6 text-center">
+					<div class="section-title">
+						<h1>Latest Products</h1>
+						<p>Discover our newest range of premium safety gear, industrial tools, and advanced cleaning
+							equipment built for performance and durability. From pressure washers and scrubbers to
+							cranes, drills, and impact wrenches—every item is designed to keep your workspace efficient,
+							clean, and secure. Whether you're upgrading your tools, enhancing safety, or simplifying
+							domestic tasks, we've got the solution for you.</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+
+  <div
+    class="col-lg-3 col-md-6"
+    *ngFor="let product of latestProducts"
+  >
+
+    <div class="single-product">
+
+      <!-- IMAGE -->
+      <div
+        class="img-wrapper unique-container"
+        (click)="openProduct(product)"
+      >
+
+        <img
+          class="img-fluid product-img"
+        [src]="product.images[0]"
+          [alt]="product.name"
+        >
+
+        <div class="discount-badge">
+          SALE
+        </div>
+
+        <div class="brand-tag">
+          Astonic Mart
+        </div>
+
+      </div>
+
+      <!-- DETAILS -->
+      <div class="product-details">
+
+        <h6>
+          {{ product.name }}
+        </h6>
+
+        <div class="price">
+
+          <h6>
+          ₦{{ product.discountPrice | number }}
+          </h6>
+
+          <h6 class="l-through">
+            ₦{{ product.price | number }}
+          </h6>
+
+        </div>
+
+        <div class="prd-bottom">
+
+          <a
+            href="javascript:void(0)"
+            class="social-info"
+          >
+            <span class="ti-bag"></span>
+            <p class="hover-text">add to bag</p>
+          </a>
+
+          <a
+            href="javascript:void(0)"
+            class="social-info"
+          >
+            <span class="lnr lnr-heart"></span>
+            <p class="hover-text">Wishlist</p>
+          </a>
+
+          <a
+            href="javascript:void(0)"
+            class="social-info"
+          >
+            <span class="lnr lnr-sync"></span>
+            <p class="hover-text">compare</p>
+          </a>
+
+          <a
+            href="javascript:void(0)"
+            class="social-info"
+            (click)="openProduct(product)"
+          >
+            <span class="lnr lnr-move"></span>
+            <p class="hover-text">view more</p>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+		</div>
+	</div>
+	<!-- single product slide -->
+	<div class="single-product-slider">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6 text-center">
+					<div class="section-title">
+						<h1>Coming Products</h1>
+						<p>Stay ahead with our upcoming collection of cutting-edge safety tools, heavy-duty machinery,
+							and innovative cleaning solutions. From new-generation pressure washers to advanced
+							industrial equipment and protective gear, we’re expanding to serve your needs
+							better—smarter, safer, and more efficiently.</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+
+  <div
+    class="col-lg-3 col-md-6"
+  *ngFor="let product of comingProducts"
+  >
+
+    <div class="single-product">
+
+      <!-- IMAGE -->
+      <div
+        class="img-wrapper unique-container"
+        (click)="openProduct(product)"
+      >
+
+        <img
+          class="img-fluid product-img"
+        [src]="product.images[0]"
+          [alt]="product.name"
+        >
+
+        <div class="discount-badge">
+          SALE
+        </div>
+
+        <div class="brand-tag">
+          Astonic Mart
+        </div>
+
+      </div>
+
+      <!-- DETAILS -->
+      <div class="product-details">
+
+        <h6>
+          {{ product.name }}
+        </h6>
+
+        <div class="price">
+
+          <h6>
+          ₦{{ product.discountPrice | number }}
+          </h6>
+
+          <h6 class="l-through">
+            ₦{{ product.price | number }}
+          </h6>
+
+        </div>
+
+        <div class="prd-bottom">
+
+          <a
+            href="javascript:void(0)"
+            class="social-info"
+          >
+            <span class="ti-bag"></span>
+            <p class="hover-text">add to bag</p>
+          </a>
+
+          <a
+            href="javascript:void(0)"
+            class="social-info"
+          >
+            <span class="lnr lnr-heart"></span>
+            <p class="hover-text">Wishlist</p>
+          </a>
+
+          <a
+            href="javascript:void(0)"
+            class="social-info"
+          >
+            <span class="lnr lnr-sync"></span>
+            <p class="hover-text">compare</p>
+          </a>
+
+          <a
+            href="javascript:void(0)"
+            class="social-info"
+            (click)="openProduct(product)"
+          >
+            <span class="lnr lnr-move"></span>
+            <p class="hover-text">view more</p>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+		</div>
+	</div>
+</section>
+<!-- end product Area -->
+
+
+<!-- Full Width Banner -->
+<div class="banner-section" style="margin-bottom: 50px;">
+  <div class="banner-overlay">
+    <h1>Safety, Security, Machinery, Power Tools, Automation</h1>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Start exclusive deal Area -->
+<section class="exclusive-deal-area">
+	<div class="container-fluid">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-6 no-padding exclusive-left">
+          <!-- Background Image -->
+
+			<div class="clock_sec clockdiv" id="clockdiv">
+
+    <div class="deal-text">
+        <h1>Exclusive Hot Deal Ends Soon!</h1>
+        <p>Who are in extremely love with eco friendly system.</p>
+    </div>
+
+    <div class="clock-wrap">
+
+        <div class="clockinner">
+            <h1 class="days">150</h1>
+            <span class="smalltext">Days</span>
+        </div>
+
+        <div class="clockinner">
+            <h1 class="hours">23</h1>
+            <span class="smalltext">Hours</span>
+        </div>
+
+        <div class="clockinner">
+            <h1 class="minutes">47</h1>
+            <span class="smalltext">Mins</span>
+        </div>
+
+        <div class="clockinner">
+            <h1 class="seconds">59</h1>
+            <span class="smalltext">Secs</span>
+        </div>
+
+    </div>
+
+</div>
+			<a [routerLink]="['/product', 2215]" class="primary-btn">
+  Shop Now
+</a>
+			</div>
+			<div class="col-lg-6 no-padding exclusive-right">
+<div class="active-exclusive-product-slider custom-exclusive-slider">
+<div class="single-exclusive-slider">
+
+    <div class="product-image">
+        <a [routerLink]="['/product', 2034]">
+            <img class="img-fluid"
+                 src="../../../assets/img/emergency-shower-eyewash-system.jpg"
+                 alt="Stainless Emergency Eye Wash Station">
+        </a>
+    </div>
+
+    <div class="product-details">
+        <div class="price">
+            <h6 style="color:#e63946; font-weight:bold; font-size:18px;">₦450,000</h6>
+             <h6 class="l-through" style="color:#777; font-size:16px;">₦500,000</h6>
+        </div>
+        <h4 style="color: #041e38;">
+            Stainless Emergency Eye Wash Station – Essential Safety
+        </h4>
+        <p style="font-size: 14px; color:#555; margin-top:8px;">
+            Built from durable stainless steel, this eye wash station ensures quick, reliable 
+            emergency response in labs, factories, and construction sites.
+        </p>
+       <div class="add-bag d-flex align-items-center justify-content-center">
+
+  <a class="add-btn"
+     [routerLink]="['/product', 2034]">
+
+    <span class="ti-bag"></span>
+
+  </a>
+
+  <span class="add-text text-uppercase">
+   Shop Now
+  </span>
+
+</div>
+    </div>
+</div>
+
+<!-- single exclusive carousel -->
+<div class="single-exclusive-slider">
+
+    <div class="product-image">
+        <a [routerLink]="['/product', 2035]">
+            <img
+                class="img-fluid"
+                src="../../../assets/img/emergency-shower-eyewash-system2.jpg"
+                alt="Stainless Emergency Eye Wash Station">
+        </a>
+    </div>
+
+    <div class="product-details">
+
+        <div class="price">
+            <h6 style="color:#e63946;font-weight:bold;font-size:18px;">
+                ₦400,000
+            </h6>
+
+            <h6 class="l-through" style="color:#777;font-size:16px;">
+                ₦470,000
+            </h6>
+        </div>
+
+        <h4 style="color:#041e38;">
+            Stay Protected with Stainless Emergency Eye Wash Station
+        </h4>
+
+        <p style="font-size:14px;color:#555;margin-top:8px;">
+            Designed for maximum safety, this station provides fast eye and face rinse in case
+            of accidents, keeping workplaces compliant and workers protected.
+        </p>
+
+        <div class="add-bag d-flex align-items-center justify-content-center">
+
+            <a class="add-btn"
+               [routerLink]="['/product',2035]">
+                <span class="ti-bag"></span>
+            </a>
+
+            <span class="add-text text-uppercase">
+                Shop Now
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+<!-- End exclusive deal Area --> <br> <br>
+
+  
+<section class="brand-area section_gap position-relative">
+  <div class="container">
+
+    
+   <!-- Logos in one horizontal line -->
+<div class="d-flex justify-content-center align-items-center flex-wrap brand-logos position-relative">
+  <div class="top-brands-label position-absolute">
+    <h5 style="color: white;">Top Brands</h5>
+  </div>
+
+  <div class="logo-container">
+    <div class="logo-track">
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Dewalt' }">
+        <img src="../../../assets/img/dewalt-logo-png.png" alt="Dewalt Logo">
+      </a>
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Bosch' }">
+        <img src="../../../assets/img/bosch logo.jpg" alt="Bosch Logo">
+      </a>
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Red Wing' }">
+        <img src="../../../assets/img/red-wing-logo.png" alt="Red Wing Logo">
+      </a>
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Maxmech' }">
+        <img src="../../../assets/img/maxmech logo.jpg2.jpg" alt="Maxmech Logo">
+      </a>
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Karcher' }">
+        <img src="../../../assets/img/karcher logo.png" alt="Karcher Logo">
+      </a>
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Makita' }">
+        <img src="../../../assets/img/makita logo.png" alt="Makita Logo">
+      </a>
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Ingco' }">
+        <img src="../../../assets/img/inggco logo.jpg" alt="Ingco Logo">
+      </a>
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Safety Jogger' }">
+        <img src="../../../assets/img/safety jogger logo.jpg" alt="Safety Jogger Logo">
+      </a>
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Total' }">
+        <img src="../../../assets/img/total logo.png" alt="Total Logo">
+      </a>
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: '3M' }">
+        <img src="../../../assets/img/3mlogo.jpg" alt="3M Logo">
+      </a>
+
+      <!-- repeat first logo for slider loop -->
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Dewalt' }">
+        <img src="../../../assets/img/dewalt-logo-png.png" alt="Dewalt Logo">
+      </a>
+
+      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'MSA Safety' }">
+        <img src="../../../assets/img/logos/MSA safety logo.png" alt="MSA Safety Logo">
+      </a>
+
+
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+<!-- End brand Area -->
+
+
+
+<!-- Start related-product Area -->
+<section class="related-product-area section_gap_bottom">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-title" style="color:black;">
+          <h1>Deals of the Week</h1>
+          <p style="font-size: large; color:black;">
+            Gear up with our hottest deals! Safety, industrial,
+            and security essentials at prices you can’t ignore—shop today!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <!-- LEFT PRODUCTS -->
+      <div class="col-lg-9">
+        <div class="row">
+
+        <div
+  class="col-lg-4 col-md-4 col-sm-6 mb-20"
+  *ngFor="let product of dealsOfWeek"
+>
+  <div class="single-related-product d-flex">
+
+    <a
+      (click)="openProduct(product)"
+      style="cursor:pointer"
+    >
+      <img
+        [src]="product.images[0]"
+        height="60"
+        width="60"
+        [alt]="product.name"
+      />
+    </a>
+
+    <div class="desc">
+      <a
+        class="title"
+        (click)="openProduct(product)"
+        style="cursor:pointer"
+      >
+        {{ product.name }}
+      </a>
+<div class="price">
+
+  <ng-container *ngIf="product.discountPrice; else normalPrice">
+    <h6 class="l-through">₦{{ product.price | number }}</h6>
+    <h5 class="discount-price">
+      ₦{{ product.discountPrice | number }}
+    </h5>
+  </ng-container>
+
+  <ng-template #normalPrice>
+    <h5 class="normal-price">
+      ₦{{ product.price | number }}
+    </h5>
+  </ng-template>
+
+</div>
+    </div>
+
+  </div>
+</div>
+        </div>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-3">
+        <div class="ctg-right">
+          <a href="#">
+            <img
+              class="img-fluid d-block mx-auto"
+              src="../../../assets/img/category/c5.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End related-product Area -->
+
+
+
+
+<section class="video-showcase py-5" *ngIf="videoFeeds.length > 0">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <span class="video-mini-title">ASTONIC MART MEDIA</span>
+
+      <h2 class="video-main-title">
+        See Astonic Mart In Action
+      </h2>
+
+      <p class="video-subtitle">
+        Explore product demonstrations, delivery highlights, safety solutions,
+        and industrial equipment showcases that reflect our commitment to
+        <strong>Accuracy In Every Tool.</strong>
+      </p>
+    </div>
+
+<div class="video-slider owl-carousel">
+
+  <div
+    class="item"
+    *ngFor="let video of videoFeeds"
+  >
+    <div class="video-card">
+
+      <div class="video-thumb" (click)="openVideo(video.link)">
+        <img [src]="getThumbnail(video.link)" alt="video cover">
+
+        <div class="play-btn">
+          ▶
+        </div>
+      </div>
+
+      <div class="video-content">
+        <h5>{{ video.title }}</h5>
+        <p>{{ video.description }}</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+  </div>
+</section>
+<div class="video-modal" *ngIf="selectedVideo" (click)="closeVideo()">
+  <div class="video-modal-content" (click)="$event.stopPropagation()">
+
+    <span class="close-btn" (click)="closeVideo()">×</span>
+
+    <iframe
+      width="100%"
+      height="450"
+      [src]="selectedVideo"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+
+  </div>
+</div>
+
+
+
+<!-- testimonials -->
+
+<!-- ===== Plain HTML (no Bootstrap JS required) ===== -->
+<section class="testi-section py-5">
+  <div class="container">
+    <h2 class="testi-title mb-4">What Our Customers Say</h2>
+
+    <div class="testi-slider">
+
+      <!-- Slide 1 -->
+      <div class="testi-group">
+        <div class="testi-card">
+          <div class="testi-img-wrapper">
+            <img src="https://images.pexels.com/photos/32798926/pexels-photo-32798926.jpeg" alt="Chinedu Okafor">
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>“I ordered a pressure washer from Astonic Mart and I must say, I’m impressed!
+                    The product came exactly as described and works perfectly. Delivery was swift,
+                    and customer support followed up till I received my item.”</p>
+          <h4>— Chinedu Okafor, Enugu (Nigeria)</h4>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-img-wrapper">
+            <img src="https://images.pexels.com/photos/34339291/pexels-photo-34339291.jpeg" alt="Aisha Lawal">
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>“At first, I was a bit skeptical about making a pre-order payment, but the team
+            assured me and kept me updated all through. My industrial vacuum cleaner arrived
+            in perfect condition — just as promised! Astonic Mart is 100% legit!”</p>
+          <h4>— Aisha Lawal, Abuja (Nigeria)</h4>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-img-wrapper">
+            <img src="https://images.pexels.com/photos/33630755/pexels-photo-33630755.jpeg" alt="Emmanuel Johnson">
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>“Excellent service! I got my safety helmet and gloves at a good price.
+            The quality is top-notch, and packaging was neat. Definitely my go-to
+            store for industrial tools now.”</p>
+          <h4>— Emmanuel Johnson, Port Harcourt (Nigeria)</h4>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="testi-group">
+        <div class="testi-card">
+          <div class="testi-img-wrapper">
+            <img src="https://images.pexels.com/photos/3070508/pexels-photo-3070508.jpeg" alt="Grace Nwosu">
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>“I’ve bought from this site three times, and each experience gets better.
+            Their customer care is always available on WhatsApp, and delivery time is fast.
+            I even got a small discount on my last order — nice touch!”</p>
+          <h4>— Grace Nwosu, Lagos (Nigeria)</h4>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-img-wrapper">
+            <img src="https://images.pexels.com/photos/29292086/pexels-photo-29292086.jpeg" alt="Musa Danjuma">
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>   “Astonic Mart delivers what they promise. My fire extinguisher set arrived
+                    faster than expected. I appreciate their honesty and professionalism —
+                    it’s hard to find reliable sellers these days!”</p>
+          <h4>— Musa Danjuma, Kano (Nigeria)</h4>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-img-wrapper">
+            <img src="https://images.pexels.com/photos/34295057/pexels-photo-34295057.jpeg" alt="Kwame Mensah">
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>  “I ordered industrial gloves and a vacuum cleaner from Ghana, and the package arrived safely.
+                Their customer team made sure shipping was smooth. Very reliable store across borders!”</p>
+          <h4>— Kwame Mensah, Accra (Ghana)</h4>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="testi-group">
+        <div class="testi-card">
+          <div class="testi-img-wrapper">
+            <img src="https://images.pexels.com/photos/6865336/pexels-photo-6865336.jpeg" alt="Marie Etoundi">
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p> “I’m based in Cameroon and was surprised at how fast the delivery was.
+                The machine I bought works perfectly. Astonic Mart’s support team is amazing.”</p>
+          <h4>— Marie Etoundi, Yaoundé (Cameroon)</h4>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-img-wrapper">
+            <img src="https://images.pexels.com/photos/5931726/pexels-photo-5931726.jpeg" alt="Jean Kossi">
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>   “Great experience! I purchased cleaning equipment from Cotonou.
+                    Everything arrived as described and well-packed. Highly recommended.”</p>
+          <h4>— Jean Kossi, Cotonou (Benin)</h4>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-img-wrapper">
+            <img src="https://images.pexels.com/photos/29274866/pexels-photo-29274866.jpeg" alt="Abdoulaye Issoufou">
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p> “Very smooth order process from Niger Republic. I appreciate their communication
+               and safe packaging. I’ll definitely buy again.”</p>
+          <h4>— Abdoulaye Issoufou, Niamey (Niger)</h4>
+        </div>
+      </div>
+
+      <!-- Arrows (non-functional) -->
+      <div class="testi-arrow left">&#10094;</div>
+      <div class="testi-arrow right">&#10095;</div>
+
+    </div>
+  </div>
+</section>
+<!-- testimonias end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

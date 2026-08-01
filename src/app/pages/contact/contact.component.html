@@ -1,0 +1,183 @@
+
+
+	<!-- Start Banner Area -->
+	<section class="banner-area organic-breadcrumb" >
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>Contact Us</h1>
+					<nav class="d-flex align-items-center">
+						<!-- <a href="/home">Home<span class="lnr lnr-arrow-right"></span></a> -->
+            <a routerLink="/">Home <span class="lnr lnr-arrow-right"></span></a>
+						<a href="category.html">Contact</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Banner Area -->
+
+
+<!-- Google map starts -->
+<div class="map-container"
+     style="width: 100%; height: 400px; border-radius: 10px; overflow: hidden; margin-bottom: 40px;">
+  <iframe
+    width="100%"
+    height="100%"
+    style="border:0;"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps?q=Amuwo+Odofin,+Lagos+Mainland,+Lagos+State,+Nigeria&output=embed">
+  </iframe>
+</div>
+<!-- Google map ends -->
+
+<!-- Google map ends -->
+
+
+
+ 
+<!--================Contact Area =================-->
+<section class="contact_area section_gap_bottom" style="padding-top: 10px;">
+  <div class="container">
+    <div class="row">
+      
+
+    
+      <!-- Contact Info -->
+      <div class="col-lg-3">
+        <div class="contact_info">
+          <div class="info_item">
+            <i class="lnr lnr-home"></i>
+            <h6>Lagos, Nigeria</h6>
+            <p>Amuwo Odofin,Lagos</p>
+          </div>
+          <div class="info_item">
+            <i class="lnr lnr-phone-handset"></i>
+        <a href="tel:+2349074375786">+234 9074 375 786</a>
+            <p>Mon to Sat 9am to 6 pm</p>
+          </div>
+          <div class="info_item">
+            <i class="lnr lnr-envelope"></i>
+            <h6><a href="mailto:support@theastonicmart.com">support&#64;theastonicmart.com</a></h6>
+            <p>Send us your query anytime!</p>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- Contact Form with background -->
+<div class="col-lg-9">
+  <div class="contact_form_wrapper">
+
+     <!-- ✅ Success Message -->
+    <div *ngIf="successMessage" class="alert alert-success mt-3">
+      {{ successMessage }}
+    </div>
+
+    <form class="row contact_form"
+          #contactForm="ngForm"
+          (ngSubmit)="onSubmit(contactForm)" novalidate>
+
+      <!-- Name -->
+      <div class="col-md-6">
+        <div class="form-group">
+          <input type="text"
+                 class="form-control"
+                 id="name"
+                 name="name"
+                 placeholder="Enter your name"
+                 ngModel
+                 #name="ngModel"
+                 required>
+          <div *ngIf="name.invalid && (name.dirty || name.touched || contactForm.submitted)">
+            <small class="text-danger" *ngIf="name.errors?.['required']">
+              Name is required
+            </small>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <input type="email"
+                 class="form-control"
+                 id="email"
+                 name="email"
+                 placeholder="Enter email address"
+                 ngModel
+                 #email="ngModel"
+                 required
+                 email>
+          <div *ngIf="email.invalid && (email.dirty || email.touched || contactForm.submitted)">
+            <small class="text-danger" *ngIf="email.errors?.['required']">
+              Email is required
+            </small>
+            <small class="text-danger" *ngIf="email.errors?.['email']">
+              Invalid email format
+            </small>
+          </div>
+        </div>
+
+        <!-- Subject -->
+        <div class="form-group">
+          <input type="text"
+                 class="form-control"
+                 id="subject"
+                 name="subject"
+                 placeholder="Enter Subject"
+                 ngModel
+                 #subject="ngModel"
+                 required>
+          <div *ngIf="subject.invalid && (subject.dirty || subject.touched || contactForm.submitted)">
+            <small class="text-danger" *ngIf="subject.errors?.['required']">
+              Subject is required
+            </small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Message -->
+      <div class="col-md-6">
+        <div class="form-group">
+          <textarea class="form-control"
+                    name="message"
+                    id="message"
+                    rows="4"
+                    placeholder="Enter Message"
+                    ngModel
+                    #message="ngModel"
+                    required></textarea>
+          <div *ngIf="message.invalid && (message.dirty || message.touched || contactForm.submitted)">
+            <small class="text-danger" *ngIf="message.errors?.['required']">
+              Message is required
+            </small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="col-md-12 text-right">
+   <button type="submit" [disabled]="!contactForm.valid" class="primary-btn">
+  Send Message
+</button>
+
+
+
+      </div>
+    </form>
+
+   
+  </div>
+</div>
+
+
+    </div>  
+  </div>
+
+</section>
+
+
+<!--================Contact Area =================-->
+

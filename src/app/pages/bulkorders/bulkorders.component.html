@@ -1,0 +1,158 @@
+<div class="container mt-5">
+
+  <!-- 🔥 HEADER -->
+  <h2 class="mb-2 text-danger">Get Discount on Bulk Orders</h2>
+
+  <p class="text-muted">
+    Send your list and get a fast quote with special pricing.<br>
+    <small>✔ Best prices ✔ Fast response ✔ Nationwide delivery</small>
+  </p>
+
+  <form (ngSubmit)="submitBulkOrder()" #bulkForm="ngForm">
+
+    <!-- NAME + PHONE -->
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <label>Full Name</label>
+        <input type="text" name="name"
+          [(ngModel)]="form.name"
+          class="form-control"
+          placeholder="Enter your full name"
+          required>
+      </div>
+
+      <div class="col-md-6 mb-3">
+        <label>Phone Number</label>
+        <input type="text" name="phone"
+          [(ngModel)]="form.phone"
+          class="form-control"
+          placeholder="Enter your phone number"
+          required>
+      </div>
+    </div>
+
+    <!-- EMAIL -->
+    <div class="mb-3">
+      <label>Email Address (Optional)</label>
+      <input type="email" name="email"
+        [(ngModel)]="form.email"
+        class="form-control"
+        placeholder="Enter your email">
+    </div>
+
+    <!-- COMPANY -->
+    <div class="mb-3">
+      <label>Company Name (Optional)</label>
+      <input type="text" name="company"
+        [(ngModel)]="form.company"
+        class="form-control"
+        placeholder="Enter company name">
+    </div>
+
+    <!-- COUNTRY -->
+<div class="mb-3">
+  <label>Country</label>
+  <select
+    class="form-control no-nice-select"
+    [(ngModel)]="form.country"
+    name="country"
+    required
+    (change)="loadStates(form.country)">
+
+    <option value="">Select Country</option>
+
+    <option *ngFor="let c of countries" [value]="c.isoCode">
+      {{ c.name }}
+    </option>
+  </select>
+</div>
+
+<!-- STATE -->
+<div class="mb-3">
+  <label>State</label>
+  <select
+    class="form-control no-nice-select"
+    [(ngModel)]="form.state"
+    name="state"
+    required>
+
+    <option value="">Select State</option>
+
+    <option *ngFor="let s of states" [value]="s.isoCode">
+      {{ s.name }}
+    </option>
+  </select>
+</div>
+
+    <!-- CITY -->
+    <div class="mb-3">
+      <label>City</label>
+      <input type="text"
+        name="city"
+        [(ngModel)]="form.city"
+        class="form-control"
+        placeholder="e.g. Ikeja, Surulere"
+        required>
+    </div>
+
+    <!-- URGENCY -->
+    <div class="mb-3">
+      <label>Delivery Time (Optional)</label>
+      <select name="urgency"
+        [(ngModel)]="form.urgency"
+        class="form-control">
+
+        <option value="">Select delivery time</option>
+        <option value="Urgent (1-2 days)">Urgent (1-2 days)</option>
+        <option value="Normal (3-5 days)">Normal (3-5 days)</option>
+        <option value="Flexible">Flexible</option>
+      </select>
+    </div>
+
+    <!-- ORDER LIST -->
+<div class="row">
+  <div class="col-md-12 mb-3">
+
+    <label class="form-label">
+      Order List
+    </label>
+
+    <textarea
+      name="orderList"
+      [(ngModel)]="form.orderList"
+      class="form-control"
+      rows="6"
+      placeholder="e.g.
+2 × Air Compressor
+5 × Fire Extinguisher Ball"
+      required>
+    </textarea>
+
+  </div>
+</div>
+    <!-- NOTES -->
+    <div class="mb-3">
+      <label>Additional Notes (Optional)</label>
+      <textarea name="notes"
+        [(ngModel)]="form.notes"
+        class="form-control"
+        rows="3"
+        placeholder="Any extra instructions..."></textarea>
+    </div>
+
+    <!-- BUTTON -->
+    <button class="btn btn-danger w-100">
+      Get My Discount Quote
+    </button>
+
+  </form>
+
+  <!-- WHATSAPP -->
+  <div class="mt-4 text-center">
+    <a href="https://wa.me/2349074375786?text=Hello, I want a bulk order quote"
+       class="btn btn-success w-100">
+      Chat on WhatsApp for Faster Response
+    </a>
+  </div>
+
+</div>

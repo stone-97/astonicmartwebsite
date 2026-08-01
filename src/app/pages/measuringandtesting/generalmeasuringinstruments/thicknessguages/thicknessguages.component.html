@@ -1,0 +1,1502 @@
+<div class="container" style="margin-top: 20px">
+  <div class="row">
+    <div class="col-xl-3 col-lg-4 col-md-5">
+      <div class="sidebar-categories">
+        <div class="head">Browse Categories</div>
+        <ul class="main-categories">
+          <li class="main-nav-list">
+            <a
+              data-toggle="collapse"
+              href="#ppe"
+              aria-expanded="false"
+              aria-controls="ppe"
+            >
+              <span class="lnr lnr-arrow-right"></span> Safety & PPE
+            </a>
+
+            <ul class="collapse" id="ppe">
+              <!-- By Category -->
+              <li class="main-nav-list child">
+                <a
+                  data-toggle="collapse"
+                  href="#ppebyCategory"
+                  aria-expanded="false"
+                  aria-controls="ppebyCategory"
+                >
+                  By Category
+                </a>
+
+                <ul class="collapse" id="ppebyCategory">
+                  <!-- Main Items -->
+                  <li *ngFor="let item of ppeMainItems">
+                    <a [routerLink]="item?.link">{{ item?.name }}</a>
+                  </li>
+
+                  <!-- Clothing -->
+                  <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                      href="#ppeclothingCat"
+                      aria-expanded="false"
+                      aria-controls="ppeclothingCat"
+                    >
+                      Clothing
+                    </a>
+
+                    <ul class="collapse" id="ppeclothingCat">
+                      <li *ngFor="let item of ppeClothing">
+                        <a [routerLink]="item?.link">{{ item?.name }}</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Security -->
+                  <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                      href="#ppesecurity"
+                      aria-expanded="false"
+                      aria-controls="ppesecurity"
+                    >
+                      Security & Surveillance
+                    </a>
+
+                    <ul class="collapse" id="ppesecurity">
+                      <li *ngFor="let item of ppeSecurity">
+                        <a [routerLink]="item?.link">{{ item?.name }}</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Head Protection -->
+                  <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                      href="#ppeheadProtection"
+                      aria-expanded="false"
+                      aria-controls="ppeheadProtection"
+                    >
+                      Head Protections
+                    </a>
+
+                    <ul class="collapse" id="ppeheadProtection">
+                      <li *ngFor="let item of headProtection">
+                        <a [routerLink]="item?.link">{{ item?.name }}</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Respiratory -->
+                  <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                      href="#pperespHearProtection"
+                      aria-expanded="false"
+                      aria-controls="pperespHearProtection"
+                    >
+                      Respiratory & Hearing Protection
+                    </a>
+
+                    <ul class="collapse" id="pperespHearProtection">
+                      <li *ngFor="let item of respHearProtection">
+                        <a [routerLink]="item?.link">{{ item?.name }}</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                 
+                </ul>
+              </li>
+
+              <!-- By Brands -->
+              <li class="main-nav-list child">
+                <a
+                  data-toggle="collapse"
+                  href="#ppebyBrands"
+                  aria-expanded="false"
+                  aria-controls="ppebyBrands"
+                >
+                  By Brands
+                </a>
+
+                <ul class="collapse" id="ppebyBrands">
+                  <li *ngFor="let brand of ppeBrands">
+  <a
+    [routerLink]="['/pagination']"
+   [queryParams]="{
+  brand: brand.name,
+  parentCategory: 'safety ppe'
+}"
+  >
+    {{ brand.name }}
+  </a>
+</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+
+          <!-- power tools -->
+          <li class="main-nav-list">
+            <a
+              data-toggle="collapse"
+              href="#powerTools"
+              aria-expanded="false"
+              aria-controls="powerTools"
+            >
+              <span class="lnr lnr-arrow-right"></span> Power Hand Tools
+            </a>
+
+            <ul class="collapse" id="powerTools">
+              <!-- By Category -->
+              <li class="main-nav-list child">
+                <a
+                  data-toggle="collapse"
+                  href="#powerByCategory"
+                  aria-expanded="false"
+                  aria-controls="powerByCategory"
+                >
+                  By Category
+                </a>
+
+                <ul class="collapse" id="powerByCategory">
+                  <!-- Dynamic categories -->
+                  <li *ngFor="let item of powerToolCategories">
+                    <a [routerLink]="item?.link">{{ item?.name }}</a>
+                  </li>
+
+                  <!-- Drills -->
+<li class="main-nav-list child">
+  <a
+    data-toggle="collapse"
+    href="#powerdrills"
+    aria-expanded="false"
+    aria-controls="powerdrills"
+  >
+    Drills
+  </a>
+
+  <ul class="collapse" id="powerdrills">
+
+    <li *ngFor="let item of drillCategories; let i = index">
+
+      <!-- HAS SUB CATEGORY -->
+      <ng-container *ngIf="item.subCategories">
+
+        <a
+          data-toggle="collapse"
+          [attr.href]="'#drill' + i"
+          aria-expanded="false"
+        >
+          {{ item.name }}
+        </a>
+
+        <ul
+          class="collapse"
+          [id]="'drill' + i"
+        >
+          <li *ngFor="let sub of item.subCategories">
+            <a [routerLink]="sub.link">
+              {{ sub.name }}
+            </a>
+          </li>
+        </ul>
+
+      </ng-container>
+
+      <!-- NORMAL CATEGORY -->
+      <ng-container *ngIf="!item.subCategories">
+        <a [routerLink]="item.link">
+          {{ item.name }}
+        </a>
+      </ng-container>
+
+    </li>
+
+  </ul>
+</li>
+
+                <!-- Grinders -->
+<li class="main-nav-list child">
+  <a
+    data-toggle="collapse"
+    href="#powergrinders"
+    aria-expanded="false"
+    aria-controls="powergrinders"
+  >
+    Grinders
+  </a>
+
+  <ul class="collapse" id="powergrinders">
+
+    <li *ngFor="let item of grinderCategories; let i = index">
+
+      <!-- HAS SUB CATEGORY -->
+      <ng-container *ngIf="item.subCategories">
+
+        <a
+          data-toggle="collapse"
+          [attr.href]="'#grinder' + i"
+          aria-expanded="false"
+        >
+          {{ item.name }}
+        </a>
+
+        <ul
+          class="collapse"
+          [id]="'grinder' + i"
+        >
+          <li *ngFor="let sub of item.subCategories">
+            <a [routerLink]="sub.link">
+              {{ sub.name }}
+            </a>
+          </li>
+        </ul>
+
+      </ng-container>
+
+      <!-- NORMAL CATEGORY -->
+      <ng-container *ngIf="!item.subCategories">
+        <a [routerLink]="item.link">
+          {{ item.name }}
+        </a>
+      </ng-container>
+
+    </li>
+
+  </ul>
+</li>
+                  <!-- Saws -->
+                 <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                      href="#powersaws"
+                      aria-expanded="false"
+                      aria-controls="powersaws"
+                    >
+                      Saws
+                    </a>
+
+                    <ul class="collapse" id="powersaws">
+                      <li *ngFor="let item of sawCategories">
+                        <a [routerLink]="item?.link">{{ item?.name }}</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Impact Wrenches -->
+                 <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                      href="#powerimpactWrenches"
+                      aria-expanded="false"
+                      aria-controls="powerimpactWrenches"
+                    >
+                      Impact Wrenches
+                    </a>
+
+                    <ul class="collapse" id="powerimpactWrenches">
+                      <li *ngFor="let item of impactWrenchCategories">
+                        <a [routerLink]="item?.link">{{ item?.name }}</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Jack Hammers -->
+                <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                      href="#powerjackhammers"
+                      aria-expanded="false"
+                      aria-controls="powerjackhammers"
+                    >
+                      Jack Hammers
+                    </a>
+
+                    <ul class="collapse" id="powerjackhammers">
+                      <li *ngFor="let item of jackHammerCategories">
+                        <a [routerLink]="item?.link">{{ item?.name }}</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Blowers -->
+                  <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                      href="#powerBlowers"
+                      aria-expanded="false"
+                      aria-controls="powerBlowers"
+                    >
+                      Blowers
+                    </a>
+
+                    <ul class="collapse" id="powerBlowers">
+                      <!-- Categories -->
+                      <li *ngFor="let item of blowerCategories">
+                        <a [routerLink]="item?.link">{{ item?.name }}</a>
+                      </li>
+
+                      <!-- Brands -->
+                      <li class="main-nav-list child">
+                        <a
+                          data-toggle="collapse"
+                          href="#powerBlowerBrands"
+                          aria-expanded="false"
+                          aria-controls="powerBlowerBrands"
+                        >
+                          By Brands
+                        </a>
+
+                        <ul class="collapse" id="powerBlowerBrands">
+                          <li *ngFor="let brand of blowerBrands">
+  <a
+    [routerLink]="['/pagination']"
+  [queryParams]="{
+  brand: brand.name,
+  parentCategory: 'blowers'
+}"
+  >
+    {{ brand.name }}
+  </a>
+</li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    
+                  </li>
+
+                  <!-- PRESSURE WASHERS HERE -->
+<li class="main-nav-list child">
+  <a
+    data-toggle="collapse"
+   href="#powerPressureWashers"
+    aria-expanded="false"
+   aria-controls="powerPressureWashers"
+  >
+    Pressure Washers
+  </a>
+
+<ul class="collapse" id="powerPressureWashers">
+
+    <li class="main-nav-list child">
+      <a data-toggle="collapse"href="#powerPwCategory">
+        By Category
+      </a>
+
+      <ul class="collapse" id="powerPwCategory">
+        <li *ngFor="let cat of powerToolPressureWashers.categories">
+          <a [routerLink]="cat.link">{{ cat.name }}</a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="main-nav-list child">
+      <a data-toggle="collapse"href="#powerPwBrands">
+        By Brands
+      </a>
+
+   <ul class="collapse" id="powerPwBrands">
+        <li *ngFor="let brand of powerToolPressureWashers.brands">
+          <a
+            [routerLink]="['/pagination']"
+           [queryParams]="{
+  brand: brand.name,
+  parentCategory: 'pressure washers'
+}"
+          >
+            {{ brand.name }}
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <li *ngIf="powerToolPressureWashers.accessories">
+      <a [routerLink]="powerToolPressureWashers.accessories.link">
+        {{ powerToolPressureWashers.accessories.name }}
+      </a>
+    </li>
+
+  </ul>
+</li>
+                </ul>
+              </li>
+
+              <!-- By Brands -->
+              <li class="main-nav-list child">
+                <a
+                  data-toggle="collapse"
+                  href="#powerByBrands"
+                  aria-expanded="false"
+                  aria-controls="powerByBrands"
+                >
+                  By Brands
+                </a>
+
+                <ul class="collapse" id="powerByBrands">
+          <li *ngFor="let brand of powerBrands">
+  <a
+    [routerLink]="['/pagination']"
+   [queryParams]="{
+  brand: brand.name,
+  parentCategory: 'power-tools'
+}"
+  >
+    {{ brand.name }}
+  </a>
+</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+
+          <!-- marine offshore -->
+<!-- Marine & Offshore -->
+<li class="main-nav-list">
+  <a
+    data-toggle="collapse"
+    href="#marineOffshoreCategory"
+    aria-expanded="false"
+    aria-controls="marineOffshoreCategory"
+  >
+    <span class="lnr lnr-arrow-right"></span>
+    Marine & Offshore
+  </a>
+
+  <ul class="collapse" id="marineOffshoreCategory">
+    <li *ngFor="let item of marineOffshore">
+      <a [routerLink]="item?.link">
+        {{ item?.name }}
+      </a>
+    </li>
+  </ul>
+</li>
+
+
+        
+        <!-- Sealant & Adhesive -->
+<li class="main-nav-list">
+  <a
+    data-toggle="collapse"
+    href="#sealantAdhesive"
+    aria-expanded="false"
+    aria-controls="sealantAdhesive"
+  >
+    <span class="lnr lnr-arrow-right"></span>
+    Sealant & Adhesive
+  </a>
+
+  <ul class="collapse" id="sealantAdhesive">
+    <li *ngFor="let item of sealantAdhesiveCategories">
+      <a [routerLink]="item?.link">{{ item?.name }}</a>
+    </li>
+  </ul>
+</li>
+
+
+<!-- Lubricants, Chemical & Protective Sprayers -->
+<li class="main-nav-list">
+  <a
+    data-toggle="collapse"
+    href="#lubricantsChemicalProtectiveSprayers"
+    aria-expanded="false"
+    aria-controls="lubricantsChemicalProtectiveSprayers"
+  >
+    <span class="lnr lnr-arrow-right"></span>
+    Lubricants, Chemical & Protective Sprayers
+    <span class="number"></span>
+  </a>
+
+  <ul
+    class="collapse"
+    id="lubricantsChemicalProtectiveSprayers"
+  >
+    <li *ngFor="let item of Lubricantschemicalandprotectivesprayers">
+      <a [routerLink]="item?.link">
+        {{ item?.name }}
+      </a>
+    </li>
+  </ul>
+</li>
+
+      
+         <!-- Safety & Traffic -->
+<li class="main-nav-list">
+  <a
+    data-toggle="collapse"
+    href="#safetyTraffic"
+    aria-expanded="false"
+    aria-controls="safetyTraffic"
+  >
+    <span class="lnr lnr-arrow-right"></span>
+    Safety & Traffic
+    <span class="number"></span>
+  </a>
+
+  <ul class="collapse" id="safetyTraffic">
+
+    <!-- Traffic Safety -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#trafficSafety"
+        aria-expanded="false"
+        aria-controls="trafficSafety"
+      >
+        Traffic Safety
+      </a>
+
+      <ul class="collapse" id="trafficSafety">
+        <li *ngFor="let item of trafficSafetyCategories">
+          <a [routerLink]="item?.link">
+            {{ item?.name }}
+            <span class="number">{{ item?.count }}</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Fire Safety -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#fireSafety"
+        aria-expanded="false"
+        aria-controls="fireSafety"
+      >
+        Fire Safety
+      </a>
+
+      <ul class="collapse" id="fireSafety">
+        <li *ngFor="let item of fireSafetyCategories">
+          <a [routerLink]="item?.link">
+            {{ item?.name }}
+            <span class="number">{{ item?.count }}</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+  </ul>
+</li>
+
+          <!-- workshopGarage -->
+      
+
+<li class="main-nav-list">
+  <a
+    data-toggle="collapse"
+    href="#workshopGarage"
+    aria-expanded="false"
+    aria-controls="workshopGarage"
+  >
+    <span class="lnr lnr-arrow-right"></span>
+    Workshop & Garage
+    <span class="number"></span>
+  </a>
+
+  <ul class="collapse" id="workshopGarage">
+
+    <!-- Direct Workshop Categories -->
+    <li *ngFor="let item of workshopGarageCategories">
+      <a [routerLink]="item?.link">{{ item?.name }}</a>
+    </li>
+
+    <!-- Lifting & Handling Equipment -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#liftingHandling"
+        aria-expanded="false"
+        aria-controls="liftingHandling"
+      >
+        <span class="lnr lnr-arrow-right"></span>
+        Lifting & Handling Equipment
+        <span class="number"></span>
+      </a>
+
+      <ul class="collapse" id="liftingHandling">
+        <li *ngFor="let item of liftingHandlingCategories">
+          <a [routerLink]="item?.link">{{ item?.name }}</a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Wheel Service Equipment -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#wheelService"
+        aria-expanded="false"
+        aria-controls="wheelService"
+      >
+        <span class="lnr lnr-arrow-right"></span>
+        Wheel Service Equipment
+        <span class="number"></span>
+      </a>
+
+      <ul class="collapse" id="wheelService">
+        <li *ngFor="let item of wheelServiceCategories">
+          <a [routerLink]="item?.link">{{ item?.name }}</a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Ladders -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#ladders"
+        aria-expanded="false"
+        aria-controls="ladders"
+      >
+        <span class="lnr lnr-arrow-right"></span>
+        Ladders
+        <span class="number"></span>
+      </a>
+
+      <ul class="collapse" id="ladders">
+        <li *ngFor="let item of ladderCategories">
+          <a [routerLink]="item?.link">
+            {{ item?.name }}
+            <span class="number">{{ item?.count }}</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+
+  </ul>
+</li>
+       
+
+       
+       <!-- Electrical Equipment -->
+<li class="main-nav-list">
+  <a
+    data-toggle="collapse"
+    href="#electricalEquipment"
+    aria-expanded="false"
+    aria-controls="electricalEquipment"
+  >
+    <span class="lnr lnr-arrow-right"></span>
+    Electrical Equipment
+  </a>
+
+  <ul class="collapse" id="electricalEquipment">
+
+    <!-- Direct Electrical Categories -->
+    <li *ngFor="let item of electricalCategories">
+      <a [routerLink]="item?.link">{{ item?.name }}</a>
+    </li>
+
+    <!-- Generators -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#generators"
+        aria-expanded="false"
+        aria-controls="generators"
+      >
+        Generators
+        <span class="number"></span>
+      </a>
+
+      <ul class="collapse" id="generators">
+        <li *ngFor="let item of generatorCategories">
+          <a [routerLink]="item?.link">{{ item?.name }}</a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Welding Machines -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#weldingMachines"
+        aria-expanded="false"
+        aria-controls="weldingMachines"
+      >
+        Welding Machines
+        <span class="number"></span>
+      </a>
+
+      <ul class="collapse" id="weldingMachines">
+        <li *ngFor="let item of weldingCategories">
+          <a [routerLink]="item?.link">{{ item?.name }}</a>
+        </li>
+      </ul>
+    </li>
+
+  </ul>
+</li>
+
+          <!-- measuring and testing -->
+        
+<li class="main-nav-list">
+  <a
+    data-toggle="collapse"
+    href="#measuringTesting"
+    aria-expanded="false"
+    aria-controls="measuringTesting"
+  >
+    <span class="lnr lnr-arrow-right"></span>
+    Measuring & Testing
+    <span class="number"></span>
+  </a>
+
+  <ul class="collapse" id="measuringTesting">
+
+    <!-- Main Categories -->
+    <li
+      class="main-nav-list child"
+      *ngFor="let category of measuringTestingCategories"
+    >
+
+      <!-- Expandable Category -->
+      <a
+        *ngIf="!category.link; else directCategory"
+        data-toggle="collapse"
+        [attr.href]="'#' + category.id"
+        aria-expanded="false"
+        [attr.aria-controls]="category.id"
+      >
+        {{ category.name }}
+        <span *ngIf="category.number" class="number">
+          ({{ category.number }})
+        </span>
+      </a>
+
+      <!-- Direct Category -->
+      <ng-template #directCategory>
+        <a [routerLink]="category.link">
+          {{ category.name }}
+          <span *ngIf="category.number" class="number">
+            ({{ category.number }})
+          </span>
+        </a>
+      </ng-template>
+
+      <ul
+        *ngIf="category.children?.length || category.items?.length"
+        class="collapse"
+        [attr.id]="category.id"
+      >
+
+        <!-- Final Items (NO child class) -->
+        <li *ngFor="let item of category.items ?? []">
+          <a [routerLink]="item.link">
+            {{ item.name }}
+            <span *ngIf="item.number" class="number">
+              ({{ item.number }})
+            </span>
+          </a>
+        </li>
+
+        <!-- Expandable Child Categories -->
+        <li
+          class="main-nav-list child"
+          *ngFor="let child of category.children ?? []"
+        >
+
+          <!-- Direct Link -->
+          <a
+            *ngIf="child.link; else childCollapse"
+            [routerLink]="child.link"
+          >
+            {{ child.name }}
+            <span *ngIf="child.number" class="number">
+              ({{ child.number }})
+            </span>
+          </a>
+
+          <!-- Expandable Child -->
+          <ng-template #childCollapse>
+
+            <a
+              data-toggle="collapse"
+              [attr.href]="'#' + child.id"
+              aria-expanded="false"
+              [attr.aria-controls]="child.id"
+            >
+              {{ child.name }}
+              <span *ngIf="child.number" class="number">
+                ({{ child.number }})
+              </span>
+            </a>
+
+            <ul class="collapse" [attr.id]="child.id">
+
+              <!-- Final Items (NO child class) -->
+              <li *ngFor="let sub of child.items ?? []">
+                <a [routerLink]="sub.link">
+                  {{ sub.name }}
+                  <span *ngIf="sub.number" class="number">
+                    ({{ sub.number }})
+                  </span>
+                </a>
+              </li>
+
+            </ul>
+
+          </ng-template>
+
+        </li>
+
+      </ul>
+
+    </li>
+
+  </ul>
+</li>
+          <!-- handtools -->
+          <li class="main-nav-list">
+            <a
+              data-toggle="collapse"
+              href="#handTools"
+              aria-expanded="false"
+              aria-controls="handTools"
+            >
+              <span class="lnr lnr-arrow-right"></span> Hand Tools & Accessories
+              <span class="number"></span>
+            </a>
+
+            <ul class="collapse" id="handTools">
+              <!-- By Category -->
+              <li class="main-nav-list child">
+                <a
+                  data-toggle="collapse"
+                  href="#handToolsCategory"
+                  aria-expanded="false"
+                  aria-controls="handToolsCategory"
+                >
+                  By Category <span class="number"></span>
+                </a>
+
+                <ul class="collapse" id="handToolsCategory">
+                 <li *ngFor="let item of handToolsCategories">
+  <a [routerLink]="item?.link">{{ item?.name }}</a>
+</li>
+
+                  <!-- Accessories -->
+                  <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                      href="#handToolAccessories"
+                      aria-expanded="false"
+                      aria-controls="handToolAccessories"
+                    >
+                      Hand Tool Accessories
+                    </a>
+
+                    <ul class="collapse" id="handToolAccessories">
+                    <li *ngFor="let item of handToolAccessories">
+  <a [routerLink]="item?.link">{{ item?.name }}</a>
+</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- By Brands -->
+              <li class="main-nav-list child">
+                <a
+                  data-toggle="collapse"
+                  href="#handToolsBrands"
+                  aria-expanded="false"
+                  aria-controls="handToolsBrands"
+                >
+                  By Brands <span class="number"></span>
+                </a>
+
+             <ul class="collapse" id="handToolsBrands">
+  <li *ngFor="let brand of handToolsBrands">
+  <a
+    [routerLink]="['/pagination']"
+    [queryParams]="{
+      brand: brand.name,
+      group: 'hand tools'
+    }"
+  >
+    {{ brand.name }}
+  </a>
+</li>
+</ul>
+              </li>
+            </ul>
+          </li>
+
+        
+          <!-- Construction Equipment -->
+<li class="main-nav-list">
+  <a
+    data-toggle="collapse"
+    href="#constructionEquip"
+    aria-expanded="false"
+    aria-controls="constructionEquip"
+  >
+    <span class="lnr lnr-arrow-right"></span>
+    Construction Equipment
+  </a>
+
+  <ul class="collapse" id="constructionEquip">
+    <li *ngFor="let item of constructionEquipment">
+      <a [routerLink]="item?.link">{{ item?.name }}</a>
+    </li>
+  </ul>
+</li>
+          <!-- pumping machines -->
+
+         <li class="main-nav-list">
+  <a
+    data-toggle="collapse"
+    href="#pumpingMachines"
+    aria-expanded="false"
+    aria-controls="pumpingMachines"
+  >
+    Pumping Machines
+  </a>
+
+  <ul class="collapse" id="pumpingMachines">
+    <li *ngFor="let item of pumpingMachines">
+      <a [routerLink]="item?.link">{{ item?.name }}</a>
+    </li>
+  </ul>
+</li>
+
+          <!-- cleaning and garden supplies -->
+        
+          <li class="main-nav-list">
+            <a
+              data-toggle="collapse"
+              href="#cleaningOutdoor"
+              aria-expanded="false"
+              aria-controls="cleaningOutdoor"
+            >
+              <span class="lnr lnr-arrow-right"></span> Cleaning & Garden
+              Supplies
+              <span class="number"></span>
+            </a>
+
+            <ul class="collapse" id="cleaningOutdoor">
+              <!-- Main Items -->
+           <li *ngFor="let item of cleaningGardenSupplies.main">
+  <a [routerLink]="item?.link">{{ item?.name }}</a>
+</li>
+
+              <!-- Pressure Washers -->
+              <li class="main-nav-list child">
+                <a
+                  data-toggle="collapse"
+               href="#cleanPressureWashers"
+             aria-controls="cleanPressureWashers"
+                >
+                  Pressure Washers
+                </a>
+
+                <ul class="collapse" id="cleanPressureWashers">
+                  <!-- Categories -->
+                  <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                     href="#cleanPwCategory"
+aria-controls="cleanPwCategory"
+                    >
+                      By Category
+                    </a>
+                   <ul class="collapse" id="cleanPwCategory">
+                     <li *ngFor="let cat of cleaningGardenSupplies.pressureWashers.categories">
+                        <a [routerLink]="cat?.link">{{ cat?.name }}</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Brands -->
+                  <li class="main-nav-list child">
+                    <a
+                      data-toggle="collapse"
+                    href="#cleanPwBrands"
+aria-controls="cleanPwBrands"
+                    >
+                      By Brands
+                    </a>
+                   <ul class="collapse" id="cleanPwBrands">
+                    <li *ngFor="let brand of cleaningGardenSupplies.pressureWashers.brands">
+                        <a
+  [routerLink]="['/pagination']"
+  [queryParams]="{
+  brand: brand.name,
+  parentCategory: 'pressure washers'
+}"
+>
+  {{ brand.name }}
+</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Accessories -->
+                <li *ngIf="cleaningGardenSupplies.pressureWashers.accessories">
+                    <a
+                      [routerLink]="
+                        cleaningGardenSupplies.pressureWashers.accessories.link
+                      "
+                    >
+                      {{
+                        cleaningGardenSupplies.pressureWashers.accessories.name
+                      }}
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+
+             <!-- Blowers -->
+<li class="main-nav-list child">
+  <a
+    data-toggle="collapse"
+    href="#cleanBlowers"
+    aria-expanded="false"
+    aria-controls="cleanBlowers"
+  >
+    Blowers
+  </a>
+
+  <ul class="collapse" id="cleanBlowers">
+    <!-- By Category -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#cleanBlowersCategory"
+        aria-controls="cleanBlowersCategory"
+      >
+        By Category
+      </a>
+
+      <ul class="collapse" id="cleanBlowersCategory">
+        <li *ngFor="let cat of cleaningGardenSupplies.blowers.categories">
+          <a [routerLink]="cat?.link">{{ cat?.name }}</a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- By Brands -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#cleanBlowersBrands"
+        aria-controls="cleanBlowersBrands"
+      >
+        By Brands
+      </a>
+
+      <ul class="collapse" id="cleanBlowersBrands">
+        <li *ngFor="let brand of cleaningGardenSupplies.blowers.brands">
+          <a
+            [routerLink]="['/pagination']"
+            [queryParams]="{
+              brand: brand.name,
+              parentCategory: 'blowers'
+            }"
+          >
+            {{ brand.name }}
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<!-- Hose -->
+<li class="main-nav-list child">
+  <a
+    data-toggle="collapse"
+    href="#hose"
+    aria-controls="hose"
+  >
+    Hose
+  </a>
+
+  <ul class="collapse" id="hose">
+    <li *ngFor="let item of cleaningGardenSupplies.hose">
+      <a [routerLink]="item?.link">{{ item?.name }}</a>
+    </li>
+  </ul>
+</li>
+
+<!-- Vacuum Cleaners -->
+<li class="main-nav-list child">
+  <a
+    data-toggle="collapse"
+    href="#vacuumCleaners"
+    aria-controls="vacuumCleaners"
+  >
+    Vacuum Cleaners
+  </a>
+
+  <ul class="collapse" id="vacuumCleaners">
+
+    <!-- Categories -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#vcCategory"
+        aria-controls="vcCategory"
+      >
+        By Category
+      </a>
+
+      <ul class="collapse" id="vcCategory">
+        <li *ngFor="let cat of cleaningGardenSupplies.vacuumCleaners.categories">
+          <a [routerLink]="cat?.link">{{ cat?.name }}</a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Brands -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#vcBrands"
+        aria-controls="vcBrands"
+      >
+        By Brands
+      </a>
+
+      <ul class="collapse" id="vcBrands">
+        <li *ngFor="let brand of cleaningGardenSupplies.vacuumCleaners.brands">
+          <a
+            [routerLink]="['/pagination']"
+            [queryParams]="{
+              brand: brand.name,
+              parentCategory: 'vacuum cleaners'
+            }"
+          >
+            {{ brand.name }}
+          </a>
+        </li>
+      </ul>
+    </li>
+
+  </ul>
+</li>
+
+<!-- Lawn Mowers -->
+<li class="main-nav-list child">
+  <a
+    data-toggle="collapse"
+    href="#lawnMowers"
+    aria-controls="lawnMowers"
+  >
+    Lawn Mowers
+  </a>
+
+  <ul class="collapse" id="lawnMowers">
+
+    <!-- Categories -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#lmCategory"
+        aria-controls="lmCategory"
+      >
+        By Category
+      </a>
+
+      <ul class="collapse" id="lmCategory">
+        <li *ngFor="let cat of cleaningGardenSupplies.lawnMowers.categories">
+          <a [routerLink]="cat?.link">{{ cat?.name }}</a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Brands -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#lmBrands"
+        aria-controls="lmBrands"
+      >
+        By Brands
+      </a>
+
+      <ul class="collapse" id="lmBrands">
+        <li *ngFor="let brand of cleaningGardenSupplies.lawnMowers.brands">
+          <a
+            [routerLink]="['/pagination']"
+            [queryParams]="{
+              brand: brand.name,
+              parentCategory: 'lawn mowers'
+            }"
+          >
+            {{ brand.name }}
+          </a>
+        </li>
+      </ul>
+    </li>
+
+  </ul>
+</li>
+
+<!-- Brush Cutters -->
+<li class="main-nav-list child">
+  <a
+    data-toggle="collapse"
+    href="#brushCutters"
+    aria-controls="brushCutters"
+  >
+    Brush Cutters
+  </a>
+
+  <ul class="collapse" id="brushCutters">
+
+    <!-- Categories -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#bcCategory"
+        aria-controls="bcCategory"
+      >
+        By Category
+      </a>
+
+      <ul class="collapse" id="bcCategory">
+        <li *ngFor="let cat of cleaningGardenSupplies.brushCutters.categories">
+          <a [routerLink]="cat?.link">{{ cat?.name }}</a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Brands -->
+    <li class="main-nav-list child">
+      <a
+        data-toggle="collapse"
+        href="#bcBrands"
+        aria-controls="bcBrands"
+      >
+        By Brands
+      </a>
+
+      <ul class="collapse" id="bcBrands">
+        <li *ngFor="let brand of cleaningGardenSupplies.brushCutters.brands">
+          <a
+            [routerLink]="['/pagination']"
+            [queryParams]="{
+              brand: brand.name,
+              parentCategory: 'brush cutters'
+            }"
+          >
+            {{ brand.name }}
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Accessories -->
+    <li *ngIf="cleaningGardenSupplies.brushCutters.accessories">
+      <a
+        [routerLink]="cleaningGardenSupplies.brushCutters.accessories.link"
+      >
+        {{ cleaningGardenSupplies.brushCutters.accessories.name }}
+      </a>
+    </li>
+
+  </ul>
+</li>
+            </ul>
+          </li>
+          <!-- farm equipment -->
+
+         <li class="main-nav-list">
+  <a
+    data-toggle="collapse"
+    href="#farmEquipment"
+    aria-expanded="false"
+    aria-controls="farmEquipment"
+  >
+    <span class="lnr lnr-arrow-right"></span>
+    Farm Equipments
+  </a>
+
+  <ul class="collapse" id="farmEquipment">
+    <li *ngFor="let item of farmCategories">
+      <a [routerLink]="item.link">{{ item.name }}</a>
+    </li>
+  </ul>
+</li>
+        </ul>
+      </div>
+      <div class="sidebar-filter mt-50">
+
+  <div class="top-filter-head">
+    Product Filters
+  </div>
+
+  <!-- Brands -->
+  <div class="common-filter mb-4">
+    <div class="head">Brands</div>
+
+    <div class="brand-filter-box">
+      <ul class="mb-0">
+        <li
+          class="filter-list"
+          *ngFor="let brand of uniqueBrands"
+        >
+          <label class="brand-check">
+            <input
+              type="checkbox"
+              [checked]="selectedBrands.includes(brand)"
+              (change)="toggleBrandFilter(brand)"
+            />
+
+            <span>{{ brand }}</span>
+          </label>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Budget -->
+  <div class="common-filter">
+    <div class="head">Shop by Budget (₦)</div>
+
+    <div class="budget-box">
+      <input
+        type="number"
+        class="form-control mb-3"
+        placeholder="Minimum price"
+        [(ngModel)]="minPrice"
+      />
+
+      <input
+        type="number"
+        class="form-control mb-3"
+        placeholder="Maximum price"
+        [(ngModel)]="maxPrice"
+      />
+
+      <button
+        class="primary-btn w-100"
+        (click)="applyFilters()"
+      >
+        Apply Filter
+      </button>
+    </div>
+  </div>
+
+</div>
+    </div>
+    <div class="col-xl-9 col-lg-8 col-md-7">
+      <!-- Start Filter Bar + Product List -->
+<app-product-list 
+  [products]="filteredProducts" 
+  [itemsPerPage]="9">
+</app-product-list>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="text-center mt-4">
+    <button
+  [routerLink]="['/pagination']"
+  [queryParams]="{ priority: 'thickness-gauges' }"
+  class="primary-btn">
+  View More
+</button>
+</div>
+
+
+
+<!-- Start related-product Area -->
+<section class="related-product-area section_gap_bottom">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-title" style="color:black;">
+          <h1>Deals of the Week</h1>
+          <p style="font-size: large; color:black;">
+            Gear up with our hottest deals! Safety, industrial,
+            and security essentials at prices you can’t ignore—shop today!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <!-- LEFT PRODUCTS -->
+      <div class="col-lg-9">
+        <div class="row">
+
+        <div
+  class="col-lg-4 col-md-4 col-sm-6 mb-20"
+  *ngFor="let product of dealsOfWeek"
+>
+  <div class="single-related-product d-flex">
+
+    <a
+      (click)="openProduct(product)"
+      style="cursor:pointer"
+    >
+      <img
+        [src]="product.images[0]"
+        height="60"
+        width="60"
+        [alt]="product.name"
+      />
+    </a>
+
+    <div class="desc">
+      <a
+        class="title"
+        (click)="openProduct(product)"
+        style="cursor:pointer"
+      >
+        {{ product.name }}
+      </a>
+<div class="price">
+
+  <ng-container *ngIf="product.discountPrice; else normalPrice">
+    <h6 class="l-through">₦{{ product.price | number }}</h6>
+    <h5 class="discount-price">
+      ₦{{ product.discountPrice | number }}
+    </h5>
+  </ng-container>
+
+  <ng-template #normalPrice>
+    <h5 class="normal-price">
+      ₦{{ product.price | number }}
+    </h5>
+  </ng-template>
+
+</div>
+    </div>
+
+  </div>
+</div>
+        </div>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-3">
+        <div class="ctg-right">
+          <a href="#">
+            <img
+              class="img-fluid d-block mx-auto"
+              src="../../../assets/img/category/c5.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End related-product Area -->
+

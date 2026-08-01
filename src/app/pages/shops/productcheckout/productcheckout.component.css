@@ -1,0 +1,43 @@
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    height: 45px;
+    border-radius: 0;
+}
+
+/* Keep dropdown normal */
+select.form-control {
+    height: 45px;
+    display: block;
+}
+
+/* Spacing */
+.row.contact_form>div {
+    margin-bottom: 10px;
+}
+
+
+
+/* error messages */
+
+.invalid-feedback {
+    display: block;
+    font-size: 13px;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+    box-shadow: none;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}

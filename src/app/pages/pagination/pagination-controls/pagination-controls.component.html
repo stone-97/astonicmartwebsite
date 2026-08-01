@@ -1,0 +1,27 @@
+<div class="text-center mt-5 pagination-controls" *ngIf="totalPages > 1">
+  <button class="btn btn-outline-dark me-3 px-4 py-2"
+          (click)="prev()"
+          [disabled]="currentPage === 1">
+    Previous
+  </button>
+
+  <!-- Page numbers (shows max 5 pages with ellipsis logic) -->
+  <ng-container *ngFor="let page of visiblePages">
+    <button *ngIf="page === currentPage"
+            class="btn btn-primary mx-1 px-3 py-2"
+            [class.active]="page === currentPage">
+      {{ page }}
+    </button>
+    <button *ngIf="page !== currentPage"
+            class="btn btn-outline-primary mx-1 px-3 py-2"
+            (click)="goTo(page)">
+      {{ page }}
+    </button>
+  </ng-container>
+
+  <button class="btn btn-primary px-4 py-2 ms-3"
+          (click)="next()"
+          [disabled]="currentPage === totalPages">
+    Next
+  </button>
+</div>

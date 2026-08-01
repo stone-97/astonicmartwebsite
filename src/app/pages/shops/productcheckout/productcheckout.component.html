@@ -1,0 +1,355 @@
+<section class="checkout_area section_gap">
+  <div class="container">
+
+    <div class="billing_details">
+      <div class="row">
+
+        <!-- ================= LEFT FORM ================= -->
+        <div class="col-lg-8">
+          <h3>Billing Details</h3>
+<form class="row contact_form" #formRef="ngForm">
+
+  <!-- FIRST NAME -->
+  <div class="col-md-6 form-group">
+    <input type="text" class="form-control"
+      [ngClass]="{'is-invalid': firstName.invalid && firstName.touched}"
+      [(ngModel)]="formData.firstName"
+      name="firstName"
+      #firstName="ngModel"
+      required
+      placeholder="First Name">
+
+    <div *ngIf="firstName.invalid && firstName.touched" class="invalid-feedback">
+      First name is required
+    </div>
+  </div>
+
+  <!-- LAST NAME -->
+  <div class="col-md-6 form-group">
+    <input type="text" class="form-control"
+      [(ngModel)]="formData.lastName"
+      name="lastName"
+      placeholder="Last Name">
+  </div>
+
+  <!-- PHONE -->
+  <div class="col-md-6 form-group">
+    <input type="text" class="form-control"
+      [ngClass]="{'is-invalid': phone.invalid && phone.touched}"
+      [(ngModel)]="formData.phone"
+      name="phone"
+      #phone="ngModel"
+      required
+      placeholder="Phone Number">
+
+    <div *ngIf="phone.invalid && phone.touched" class="invalid-feedback">
+      Phone number is required
+    </div>
+  </div>
+
+  <!-- ALT PHONE -->
+  <div class="col-md-6 form-group">
+    <input type="text" class="form-control"
+      [(ngModel)]="formData.altPhone"
+      name="altPhone"
+      placeholder="Alternate Phone (Optional)">
+  </div>
+
+  <!-- EMAIL -->
+  <div class="col-md-6 form-group">
+    <input type="email" class="form-control"
+      [ngClass]="{'is-invalid': email.invalid && email.touched}"
+      [(ngModel)]="formData.email"
+      name="email"
+      #email="ngModel"
+      required
+      email
+      placeholder="Email Address">
+
+    <div *ngIf="email.invalid && email.touched" class="invalid-feedback">
+      Enter a valid email
+    </div>
+  </div>
+
+  <!-- COMPANY -->
+  <div class="col-md-6 form-group">
+    <input type="text" class="form-control"
+      [(ngModel)]="formData.company"
+      name="company"
+      placeholder="Company Name (Optional)">
+  </div>
+
+  <!-- ADDRESS -->
+  <div class="col-md-12 form-group">
+    <input type="text" class="form-control"
+      [ngClass]="{'is-invalid': address.invalid && address.touched}"
+      [(ngModel)]="formData.address"
+      name="address"
+      #address="ngModel"
+      required
+      placeholder="Address">
+
+    <div *ngIf="address.invalid && address.touched" class="invalid-feedback">
+      Address is required
+    </div>
+  </div>
+<!-- COUNTRY -->
+<div class="col-md-6 form-group">
+  <label for="country">Country</label>
+  <select
+    id="country"
+    class="form-control no-nice-select"
+    [ngClass]="{'is-invalid': country.invalid && country.touched}"
+    [(ngModel)]="formData.country"
+    name="country"
+    #country="ngModel"
+    required
+    (change)="loadStates(formData.country); onCityChange()"
+  >
+    <option value="">Select Country</option>
+
+    <option *ngFor="let c of countries" [value]="c.isoCode">
+      {{ c.name }}
+    </option>
+  </select>
+
+  <div *ngIf="country.invalid && country.touched" class="invalid-feedback">
+    Country is required
+  </div>
+</div>
+
+<!-- STATE -->
+<div class="col-md-6 form-group">
+  <label for="state">State</label>
+  <select
+    id="state"
+    class="form-control no-nice-select"
+    [ngClass]="{'is-invalid': state.invalid && state.touched}"
+    [(ngModel)]="formData.state"
+    name="state"
+    #state="ngModel"
+    required
+    (change)="onCityChange()"
+  >
+    <option value="">Select State</option>
+
+    <option *ngFor="let s of states" [value]="s.isoCode">
+      {{ s.name }}
+    </option>
+  </select>
+
+  <div *ngIf="state.invalid && state.touched" class="invalid-feedback">
+    State is required
+  </div>
+</div>
+
+  <!-- CITY -->
+  <div class="col-md-6 form-group">
+    <input type="text" class="form-control"
+      [ngClass]="{'is-invalid': city.invalid && city.touched}"
+      [(ngModel)]="formData.city"
+      name="city"
+      #city="ngModel"
+      required
+      placeholder="City">
+
+    <div *ngIf="city.invalid && city.touched" class="invalid-feedback">
+      City is required
+    </div>
+  </div>
+
+  <!-- POSTAL -->
+  <div class="col-md-6 form-group">
+    <input type="text" class="form-control"
+      [(ngModel)]="formData.postalCode"
+      name="postalCode"
+      placeholder="Postal Code (Optional)">
+  </div>
+
+  <!-- DELIVERY MESSAGE -->
+  <div *ngIf="deliveryMessage" class="alert alert-info mt-2">
+    {{ deliveryMessage }}
+  </div>
+
+</form>
+        </div>
+
+        <!-- ================= RIGHT SIDE ================= -->
+        <div class="col-lg-4">
+          <div class="order_box">
+
+            <h2>Your Order</h2>
+
+            <!-- PRODUCTS -->
+            <ul class="list">
+              <li><a>Product <span>Total</span></a></li>
+
+              <li *ngFor="let item of cartItems">
+                <a>
+                  {{item.name}}
+                  <span class="middle">x {{item.quantity}}</span>
+                  <span class="last">₦{{item.price * item.quantity}}</span>
+                </a>
+              </li>
+            </ul>
+
+            <!-- TOTAL -->
+            <ul class="list list_2">
+              <li><a>Total <span>₦{{ getTotal() }}</span></a></li>
+            </ul>
+
+
+<!-- ================= PAYMENT OPTIONS ================= -->
+<div *ngIf="deliveryType">
+
+ <h5 *ngIf="deliveryType === 'outside' || deliveryType === 'international'"
+    class="mb-3">
+  <strong>Select Payment Method</strong>
+</h5>
+
+  <!-- LAGOS -->
+<div *ngIf="deliveryType === 'lagos'" class="alert alert-success">
+  <h6><strong>Payment Method</strong></h6>
+
+  <p class="mb-1">
+    ✔ Pay on Delivery
+  </p>
+
+  <small>
+    Payment will be made when your item is delivered.
+  </small>
+</div>
+
+<!-- OUTSIDE LAGOS -->
+<div *ngIf="deliveryType === 'outside'" class="payment_item">
+
+  <div>
+    <input type="radio"
+           name="payment"
+           value="transfer"
+           [(ngModel)]="selectedPayment"
+           [ngModelOptions]="{standalone: true}">
+    <label><strong>Pay 50% Now, Balance on Delivery</strong></label>
+  </div>
+
+  <p style="color:#ff9800;">
+    ✔ Pay 50% now<br>
+    ✔ Balance on delivery
+  </p>
+
+  <!-- ✅ ADD THIS EXACTLY HERE -->
+  <div *ngIf="selectedPayment === 'transfer'" style="margin-top:10px;">
+
+  <p>
+  <strong>50% To Pay Now:</strong>
+  ₦{{ getTotal() * 0.5 | number:'1.0-0' }}
+</p>
+
+<p>
+  <strong>Balance:</strong>
+  ₦{{ getTotal() * 0.5 | number:'1.0-0' }}
+</p>
+
+  </div>
+
+  <hr>
+
+  <div>
+    <input type="radio"
+           name="payment"
+           value="online"
+           [(ngModel)]="selectedPayment"
+           [ngModelOptions]="{standalone: true}">
+    <label><strong> Pay Full Amount with Card</strong></label>
+  </div>
+
+</div>
+
+  <!-- ✅ INTERNATIONAL (NOW OUTSIDE) -->
+ <div *ngIf="deliveryType === 'international'" class="payment_item">
+
+  <label>
+    <strong>Request International Shipping Quote</strong>
+  </label>
+
+  <p style="color:blue;">
+    🌍 Submit your order request. Shipping costs, customs duties,
+    taxes and import charges will be calculated and communicated
+    before payment is required.
+  </p>
+
+</div>
+
+</div>
+
+<!-- DELIVERY INFO -->
+<div class="alert alert-info mt-2">
+  🚚 Lagos Delivery: Pay when your item arrives at your location.
+</div>
+
+<!-- DELIVERY POLICY -->
+<a routerLink="/deliverypolicy" class="delivery-link">
+  📦 View delivery policy
+</a>
+
+<!-- TERMS -->
+<div class="creat_account mt-2">
+  <input type="checkbox"
+         [(ngModel)]="acceptedTerms"
+         name="terms"
+         id="terms">
+  <label for="terms">I agree to terms & conditions</label>
+</div>
+
+<!-- PLACE ORDER -->
+<button (click)="placeOrder(formRef)" class="primary-btn w-100 mt-3">
+  Place Order
+</button>
+
+<!-- ================= AFTER ORDER ================= -->
+<div *ngIf="orderPlaced" class="mt-4">
+
+  <h4>Order Confirmed ✅</h4>
+  <p><strong>Order ID:</strong> {{ orderId }}</p>
+
+  <!-- SUCCESS -->
+  <div class="alert alert-success">
+    Your order has been placed successfully.
+  </div>
+
+  <!-- COD MESSAGE -->
+  <div *ngIf="selectedPayment === 'cod'" class="alert alert-info">
+    You will pay when the item is delivered to you.
+  </div>
+
+  <!-- TRANSFER -->
+  <div *ngIf="selectedPayment === 'transfer'">
+
+    <div class="alert alert-warning">
+      Pay <strong>50% (₦{{ totalAmount * 0.5 | number:'1.0-0' }})</strong> now
+    </div>
+
+    <p><strong>Bank:</strong> Fidelity Bank</p>
+    <p><strong>Account Name:</strong> Astonic Technical Tools</p>
+    <p><strong>Account Number:</strong> 5600969769</p>
+
+    <p style="color:red;">
+      Use <strong>{{ orderId }}</strong> as reference
+    </p>
+
+    <button class="primary-btn"
+            (click)="confirmPayment()">
+      I HAVE MADE PAYMENT
+    </button>
+
+  </div>
+
+</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>

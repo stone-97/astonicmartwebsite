@@ -1,0 +1,61 @@
+.marketplace-header{
+    border-radius:12px;
+    background:#f8f9fa;
+}
+
+.single-product{
+    border-radius:10px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.single-product:hover{
+    transform:translateY(-6px);
+    box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+.product-img{
+    height:220px;
+    object-fit:cover;
+    width:100%;
+}
+
+.product-title{
+    font-size:18px;
+    font-weight:600;
+}
+
+.product-price{
+    font-size:16px;
+    color:#28a745;
+    margin-bottom:15px;
+}
+
+.view-btn{
+    width:100%;
+}
+
+.pagination-controls{
+    padding:40px 0;
+}
+
+.pagination-controls button{
+    min-width:140px;
+}
+
+
+/* Marketplace page improvements */
+.marketplace-header {
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f8f9fa, #fff);
+    border: 1px solid #ececec;
+}
+
+.filter-scroll {
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.product-list-wrapper {
+    margin-top: -10px;
+}

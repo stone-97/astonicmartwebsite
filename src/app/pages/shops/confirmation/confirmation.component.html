@@ -1,0 +1,92 @@
+<div class="container confirmation-wrapper py-5">
+
+  <div *ngIf="order; else noOrder">
+
+    <!-- SUCCESS HEADER -->
+    <div class="text-center mb-5">
+      <div class="success-icon">✔</div>
+      <h2 class="mt-3">Order Confirmed</h2>
+      <p class="text-muted">Thank you for your purchase</p>
+    </div>
+
+    <!-- ORDER SUMMARY -->
+    <div class="card shadow-sm mb-4 p-4">
+      <div class="row">
+        <div class="col-md-4">
+          <p class="label">Order ID</p>
+          <h6>{{ order.orderId }}</h6>
+        </div>
+        <div class="col-md-4">
+          <p class="label">Payment</p>
+          <h6>{{ order.paymentMethod }}</h6>
+        </div>
+        <div class="col-md-4">
+          <p class="label">Total</p>
+          <h5 class="text-success">₦{{ order.total }}</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- CUSTOMER -->
+    <div class="card shadow-sm mb-4 p-4">
+      <h5 class="mb-3">Customer Details</h5>
+      <p class="mb-1">
+        <strong>{{ order.customer.firstName }} {{ order.customer.lastName }}</strong>
+      </p>
+      <p class="mb-1">{{ order.customer.phone }}</p>
+      <p class="mb-1">{{ order.customer.email }}</p>
+      <p class="mb-0">
+        {{ order.customer.address }}, {{ order.customer.city }}
+      </p>
+    </div>
+
+    <!-- ITEMS -->
+    <div class="card shadow-sm p-4">
+      <h5 class="mb-4">Ordered Items</h5>
+
+      <div *ngFor="let item of order.items" class="item-row">
+
+        <!-- ✅ IMAGE FIXED HERE -->
+        <img 
+          [src]="fixImage(item.pImage || item.image)"
+          (error)="item.image='assets/img/placeholder.jpg'"
+          alt="{{ item.name }}"
+          class="product-img"
+        />
+
+        <!-- DETAILS -->
+        <div class="flex-grow-1">
+          <h6 class="mb-1">{{ item.name }}</h6>
+          <small class="text-muted">Qty: {{ item.quantity }}</small>
+        </div>
+
+        <!-- PRICE -->
+        <div class="text-end">
+          <strong>₦{{ item.price }}</strong>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ACTION -->
+    <div class="text-center mt-5">
+      <a routerLink="/shopcategories" class="btn btn-dark px-4">
+        Continue Shopping
+      </a>
+    </div>
+
+  </div>
+
+  <!-- NO ORDER -->
+  <ng-template #noOrder>
+    <div class="text-center py-5">
+      <h3>No order found ❌</h3>
+      <p>You came here directly or no order was saved.</p>
+
+      <a routerLink="/shopcategories" class="btn btn-primary mt-3">
+        Go Shopping
+      </a>
+    </div>
+  </ng-template>
+
+</div>

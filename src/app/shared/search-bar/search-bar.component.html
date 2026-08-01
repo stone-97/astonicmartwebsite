@@ -1,0 +1,44 @@
+<div class="search-container">
+  <div class="input-group">
+ <input 
+  type="text" 
+  class="form-control" 
+  placeholder="Search products..." 
+  [(ngModel)]="query"
+  (input)="onInputChange()"
+  (keyup.enter)="onSearch()"
+  (focus)="onInputChange()"
+  (blur)="onBlur()">
+    
+    <button class="btn btn-primary" (click)="onSearch()" type="button">
+      <i class="lnr lnr-magnifier"></i>
+    </button>
+  </div>
+
+  <!-- Suggestions Dropdown -->
+  <div *ngIf="showSuggestions" class="suggestions-dropdown">
+    <div *ngFor="let product of suggestions" 
+         class="suggestion-item"
+         (click)="selectSuggestion(product)">
+      
+      <img [src]="getImageUrl(product.images)" 
+           [alt]="product.name"
+           class="suggestion-img">
+
+      <div class="suggestion-info">
+        <h6 class="suggestion-name">{{ product.name }}</h6>
+        <p class="suggestion-meta">{{ product.category }} • {{ product.brand }}</p>
+        <p class="suggestion-price">₦{{ product.price | number }}</p>
+      </div>
+    </div>
+
+    <!-- See All Results -->
+    <div class="see-all" *ngIf="suggestions.length > 0 && query" (click)="onSearch()">
+      See all results for "{{ query }}"
+    </div>
+
+    <div *ngIf="suggestions.length === 0" class="no-results">
+      No products found
+    </div>
+  </div>
+</div>

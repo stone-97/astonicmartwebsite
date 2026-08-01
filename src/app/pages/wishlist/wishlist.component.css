@@ -1,0 +1,19 @@
+.card {
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card-img-top {
+    background: #fff;
+}
+
+.btn {
+    border-radius: 6px;
+}
+
+h2 {
+    font-weight: 700;
+}

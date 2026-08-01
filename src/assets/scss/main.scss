@@ -1,0 +1,30 @@
+
+// including variables and mixins
+@import "theme/variables";
+@import "theme/mixins";
+@import "theme/predefine";
+@import "theme/reset";
+
+
+// Custom Scss 
+@import "theme/elements";
+@import "theme/header";
+@import "theme/banner";
+@import "theme/home";
+@import "theme/common";
+@import "theme/product";
+@import "theme/blog";
+@import "theme/contact";
+@import "theme/footer";
+
+
+
+.partner-logo {
+  height: 80px !important;
+  transition: all 0.4s ease !important;
+}
+
+.partner-logo:hover {
+  transform: scale(1.2) translateY(-8px) !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2) !important;
+}

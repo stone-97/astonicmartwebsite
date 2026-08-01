@@ -1,0 +1,88 @@
+<!-- Banner -->
+<section class="banner-area organic-breadcrumb">
+  <div class="container">
+    <h2 class="text-center">Shopping Cart</h2>
+  </div>
+</section>
+
+<!-- CART AREA -->
+<section class="cart_area">
+  <div class="container">
+
+    <!-- EMPTY CART -->
+    <div *ngIf="cartItems.length === 0" class="text-center py-5">
+      <h4>Your cart is empty 🛒</h4>
+      <a routerLink="/shop" class="primary-btn mt-3">Go Shopping</a>
+    </div>
+
+    <!-- CART ITEMS -->
+    <div *ngIf="cartItems.length > 0">
+
+      <table class="table table-bordered text-center">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr *ngFor="let item of cartItems">
+
+            <!-- IMAGE -->
+            <td>
+              <img 
+                [src]="item.image || item.images?.[0] || 'assets/img/product/placeholder.png'"
+                width="70"
+              >
+            </td>
+
+            <!-- NAME -->
+            <td>{{ item.name }}</td>
+
+            <!-- PRICE -->
+            <td>₦{{ item.price }}</td>
+
+            <!-- QTY -->
+            <td>
+              <button (click)="decreaseQty(item)">-</button>
+              {{ item.quantity }}
+              <button (click)="increaseQty(item)">+</button>
+            </td>
+
+            <!-- TOTAL -->
+            <td>₦{{ item.price * item.quantity }}</td>
+
+            <!-- REMOVE -->
+            <td>
+              <button (click)="removeItem(item)">❌</button>
+            </td>
+
+          </tr>
+
+        </tbody>
+      </table>
+
+      <!-- TOTAL -->
+      <div class="text-end mt-4">
+        <h4>Subtotal: ₦{{ getTotal() }}</h4>
+        <h3>Total: ₦{{ getTotal()}}</h3>
+
+        <a routerLink="/productcheckout" class="primary-btn mt-3">
+          Proceed to Checkout
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<div class="alert alert-info">
+  Buying in bulk? <a routerLink="/bulkorders">Request a discount quote</a>
+</div>

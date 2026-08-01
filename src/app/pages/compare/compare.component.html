@@ -1,0 +1,318 @@
+<div class="container py-5">
+
+ <div class="text-center mb-5">
+
+    <h2 class="fw-bold">
+        Compare Products
+    </h2>
+
+    <p class="text-muted">
+        Compare specifications, prices and features before purchasing.
+    </p>
+
+</div>
+
+    <div *ngIf="compareItems.length === 0" class="text-center py-5">
+
+        <h4>No products selected</h4>
+
+        <p class="text-muted">
+            Add products from the shop to compare them.
+        </p>
+
+    </div>
+
+    <div class="card shadow-sm border-0" *ngIf="compareItems.length">
+  <div class="card-body p-0">
+
+    <div class="table-responsive">
+
+      <table class="table compare-table mb-0 align-middle">
+
+            <!-- Product Header -->
+
+            <tr>
+
+                <th style="width:220px">
+                    Feature
+                </th>
+
+                <th
+                    *ngFor="let item of compareItems"
+                    class="text-center">
+
+                    <img
+                        [src]="item.images[0]"
+                        class="img-fluid mb-3"
+                        style="height:180px;object-fit:contain">
+
+                    <h5>{{item.name}}</h5>
+
+                    <h4 class="text-primary">
+
+                        ₦{{item.price | number}}
+
+                    </h4>
+
+                    <button
+                        class="btn btn-danger btn-sm me-2"
+                        (click)="remove(item.id)">
+
+                        Remove
+
+                    </button>
+
+                    <a
+                        [routerLink]="['/product', item.id]"
+                        class="btn btn-outline-primary btn-sm">
+
+                        View
+
+                    </a>
+
+                </th>
+
+            </tr>
+
+            <!-- Brand -->
+
+            <tr>
+
+                <th>Brand</th>
+
+                <td *ngFor="let item of compareItems">
+
+                    {{item.brand || '-'}}
+
+                </td>
+
+            </tr>
+
+            <tr *ngIf="hasField('group')">
+    <th>Group</th>
+
+    <td *ngFor="let item of compareItems">
+        {{ item.group || '-' }}
+    </td>
+</tr>
+
+<tr *ngIf="hasField('accessories')">
+    <th>Accessories</th>
+
+    <td *ngFor="let item of compareItems">
+        {{ item.accessories || '-' }}
+    </td>
+</tr>
+
+
+
+      <!-- Model -->
+
+            <tr>
+
+                <th>Model</th>
+
+                <td *ngFor="let item of compareItems">
+
+                    {{item.model || '-' }}
+
+                </td>
+
+            </tr>
+
+            <!-- Category -->
+
+            <tr>
+
+                <th>Category</th>
+
+                <td *ngFor="let item of compareItems">
+
+                    {{item.category}}
+
+                </td>
+
+            </tr>
+
+            <tr *ngIf="hasField('childCategory')">
+
+    <th>Child Category</th>
+
+    <td *ngFor="let item of compareItems">
+
+        {{ item.childCategory || '-' }}
+
+    </td>
+
+</tr>
+
+
+<tr *ngIf="hasField('parentCategory')">
+
+    <th>Parent Category</th>
+
+    <td *ngFor="let item of compareItems">
+
+        {{ item.parentCategory || '-' }}
+
+    </td>
+
+</tr>
+
+            <!-- Stock -->
+
+            <tr>
+
+                <th>Availability</th>
+
+                <td *ngFor="let item of compareItems">
+
+                    <span
+                        class="badge"
+                        [class.bg-success]="item.inStock"
+                        [class.bg-danger]="!item.inStock">
+
+                        {{item.inStock ? 'In Stock' : 'Out of Stock'}}
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <!-- Capacity -->
+
+            <tr *ngIf="hasField('capacity')">
+
+                <th>Capacity</th>
+
+                <td *ngFor="let item of compareItems">
+
+                    {{item.capacity || '-'}}
+
+                </td>
+
+            </tr>
+
+            <!-- Power -->
+
+            <tr *ngIf="hasField('power')">
+
+                <th>Power</th>
+
+                <td *ngFor="let item of compareItems">
+
+                    {{item.power || '-'}}
+
+                </td>
+
+            </tr>
+
+            <!-- Pressure -->
+
+            <tr *ngIf="hasField('pressure')">
+
+                <th>Pressure</th>
+
+                <td *ngFor="let item of compareItems">
+
+                    {{item.pressure || '-'}}
+
+                </td>
+
+            </tr>
+
+            <!-- Flow Rate -->
+
+            <tr *ngIf="hasField('flowRate')">
+
+                <th>Flow Rate</th>
+
+                <td *ngFor="let item of compareItems">
+
+                    {{item.flowRate || '-'}}
+
+                </td>
+
+            </tr>
+
+            <!-- Inlet -->
+
+            <tr *ngIf="hasField('inlet')">
+
+                <th>Inlet</th>
+
+                <td *ngFor="let item of compareItems">
+
+                    {{item.inlet || '-'}}
+
+                </td>
+
+            </tr>
+
+            <!-- Description -->
+
+            
+
+            <tr>
+    <th>Specification</th>
+
+    <td *ngFor="let item of compareItems">
+        {{ item.specification || '-' }}
+    </td>
+</tr>
+
+<tr>
+    <th>Features</th>
+
+    <td *ngFor="let item of compareItems">
+        {{ item.features || '-' }}
+    </td>
+</tr>
+      
+
+            <tr>
+
+    <th>Description</th>
+
+    <td *ngFor="let item of compareItems">
+        {{ item.description | slice:0:200 }}...
+    </td>
+
+</tr>
+
+<!-- Action Row -->
+<tr>
+
+    <th>Action</th>
+
+    <td *ngFor="let item of compareItems">
+
+        <a
+            [routerLink]="['/product', item.id]"
+            class="btn btn-primary btn-sm me-2">
+
+            View Product
+
+        </a>
+
+        <button
+            class="btn btn-warning btn-sm"
+            (click)="addToCart(item)">
+
+            Add to Cart
+
+        </button>
+
+    </td>
+
+</tr>
+
+</table>
+    </div>
+
+</div>
+
+</div>   
+
+</div>  

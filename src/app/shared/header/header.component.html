@@ -1,0 +1,2689 @@
+<!-- Top Bar – Taller, Centered Search, Orange Cube Button, Welcome & Currency -->
+<div class="top-bar py-3" style="background-color: #f8f9fa; border-bottom: 2px solid #ffba00">
+  <div class="container-fluid px-4">
+    <div class="row align-items-center g-3 position-relative">
+      <!-- Left: Welcome + Currency/Language Selector -->
+      <div class="col-auto">
+        <div class="d-flex align-items-center gap-5 flex-wrap">
+          <!-- Welcome Message -->
+          <span class="fw-medium fs-5 welcome-message" style="color: #000000; white-space: nowrap">
+            Welcome to Astonic Mart
+          </span>
+
+       
+          <!-- Currency Selector -->
+<div class="dropdown position-relative">
+  <button
+    class="btn btn-sm d-flex align-items-center gap-2 text-dark border-0 bg-transparent"
+    type="button"
+    (click)="currencyOpen = !currencyOpen"
+  >
+    <img
+      src="https://flagcdn.com/w20/ng.png"
+      width="20"
+      class="rounded"
+    />
+    NGN • EN
+    <i class="bi bi-chevron-down small"></i>
+  </button>
+
+  <ul
+    class="dropdown-menu shadow-sm border-0 mt-2"
+    [style.display]="currencyOpen ? 'block' : 'none'"
+    style="position: absolute;"
+  >
+    <li>
+      <a class="dropdown-item" href="#">
+        <img src="https://flagcdn.com/w20/ng.png" width="20" class="me-2" />
+        NGN - Nigerian Naira
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item" href="#">
+        <img src="https://flagcdn.com/w20/us.png" width="20" class="me-2" />
+        USD - US Dollar
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item" href="#">
+        <img src="https://flagcdn.com/w20/eu.png" width="20" class="me-2" />
+        EUR - Euro
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item" href="#">
+        <img src="https://flagcdn.com/w20/gb.png" width="20" class="me-2" />
+        GBP - British Pound
+      </a>
+    </li>
+  </ul>
+</div>
+        </div>
+      </div>
+
+      <div class="col">
+
+        <app-search-bar></app-search-bar>
+        
+      </div>
+
+      <!-- Right: Icons / Links -->
+      <div class="col-auto text-end">
+        <ul class="list-inline mb-0 d-flex align-items-center gap-4">
+ <li class="list-inline-item position-relative">
+  <div class="dropdown position-relative">
+    
+    <a
+      href="javascript:void(0)"
+      class="text-dark text-decoration-none d-flex align-items-center gap-2 fs-6"
+      (click)="accountOpen = !accountOpen"
+    >
+      <i class="bi bi-person-circle fs-4"></i>
+      Account
+      <i class="bi bi-chevron-down small"></i>
+    </a>
+
+    <ul
+      class="dropdown-menu dropdown-menu-end shadow border-0 mt-2"
+      [style.display]="accountOpen ? 'block' : 'none'"
+      style="position: absolute;"
+    >
+      <li>
+        <a class="dropdown-item" routerLink="/login">
+          <i class="bi bi-box-arrow-in-right me-2"></i>
+          Login
+        </a>
+      </li>
+
+      <li>
+        <a class="dropdown-item" routerLink="/register">
+          <i class="bi bi-person-plus me-2"></i>
+          Register
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</li>
+          
+         <li class="list-inline-item position-relative">
+  <a
+    routerLink="/shoppingcart"
+    class="text-dark text-decoration-none d-flex align-items-center gap-2 fs-6 position-relative"
+  >
+    <i class="bi bi-cart fs-4"></i>
+    Cart
+
+    <span
+      class="position-absolute top-0 start-100 badge rounded-pill bg-danger small px-2 py-0"
+      style="
+        transform: translate(50%, -50%);
+        font-size: 0.65rem;
+        min-width: 18px;
+        height: 18px;
+        line-height: 18px;
+      "
+    >
+      3
+    </span>
+  </a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TOP BAR END -->
+
+<!-- NAV BAR START -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid px-4">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" routerLink="/">
+      <img src="../../../../assets/img/logos/astonic_mart_logo-removebg-preview (1).png" alt="Astonic Logo" height="90" />
+    </a>
+    <!-- Desktop Shop by Category Mega Menu -->
+    <ul class="navbar-nav d-none d-lg-flex ms-4">
+      <li class="nav-item dropdown mega-parent">
+        <a class="nav-link dropdown-toggle d-flex align-items-center text-white fw-medium fs-5" href="#"
+          id="shopMegaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-list shop-icon me-2 fs-4"></i> Shop by Category
+        </a>
+
+        <!-- Mega Menu Dropdown -->
+        <div class="dropdown-menu mega-dropdown shadow-xl border-0 mt-2 p-0 overflow-hidden"
+          aria-labelledby="shopMegaDropdown" style="
+            width: 92vw;
+            max-width: 1400px;
+            left: 50% !important;
+            transform: translateX(-50%);
+            border-radius: 12px;
+          ">
+          <div class="row g-0 bg-white">
+            <!-- Column 1: Safety & PPE + Power tools -->
+            <div class="col-lg-4 p-4 border-end">
+              <h5 class="fw-bold text-uppercase mb-3" style="color: #ffba00; font-size: 1.1rem">
+                Safety & PPE
+              </h5>
+              <ul class="list-unstyled mega-compact-list">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    By Category
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/handgloves">Hand Gloves</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/safetyboots">Safety Boots (Ankle)</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/safetyharnessandlanyards">Safety Harness &
+                        Lanyards</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/fallarrestors">Fall Arrestors</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/safetyeyegoogles">Safety Eye Goggles</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/safetyshoes">Safety Shoes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/flashlights">Flash Lights</a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item py-2 px-3" routerLink="/headlamps">
+                   Head Lamps
+                     </a>
+                      </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/safetyraincoatsandboots">Safety Raincoats &
+                        Boots</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/gasdetectors">Gas Detectors</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/emergencyeyewash">Emergency Eye Wash Station</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/spillkits">Spill Kits</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/firstaids">First Aids</a>
+                    </li>
+                      <li>
+                        <a class="dropdown-item py-2 px-3" routerLink="/tapesandadhesives">
+                            Tapes And Adhesives
+                             </a>
+                             </li>
+
+                          <li>
+                            <a class="dropdown-item py-2 px-3" routerLink="/safetysigns">
+                           Safety Signs
+                          </a>
+                            </li>
+
+                          <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/breathingapparatus">
+                             Breathing Apparatus
+                               </a>
+                               </li>
+
+                             <li>
+                             <a class="dropdown-item py-2 px-3" routerLink="/lockoutstations">
+                               Lockout / Tagout (LOTO)
+                                  </a>
+                                </li>
+
+                    <!-- Clothing -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">Clothing</a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/disposables">Disposables</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/coveralls">Coveralls / Overalls</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/reflectivevests">Reflective Jackets</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/labcoats">Lab Coats</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/firesuits">Fire-Resistant Suits</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/chemicalresistant">Chemical-Resistant Wears</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/coldroomwears">
+                           Cold Room Wears
+                           </a>
+                          </li>
+
+                             <li>
+                            <a class="dropdown-item py-2 px-3" routerLink="/mediajackets">
+                              Media Jackets
+                               </a>
+                                </li>
+
+                                 <li>
+                             <a class="dropdown-item py-2 px-3" routerLink="/weldingprotectionwears">
+                              Welding Protection Wears
+                              </a>
+                              </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/safetyrainwears">Safety Rainwears</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/umbrellas">Umbrellas</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- Security & Surveillance -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">Security &
+                        Surveillance</a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/securitygears">Security Gears</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/stanchions">Stanchions</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/walkietalkies">
+                            Walkie Talkies
+                           </a>
+                            </li>
+
+                             <li>
+                           <a class="dropdown-item py-2 px-3" routerLink="/metaldetectors">
+                             Metal Detectors
+                            </a>
+                           </li>
+
+                             <li>
+                           <a class="dropdown-item py-2 px-3" routerLink="/personalsafety">
+                             Personal Safety
+                              </a>
+                             </li>
+                      </ul>
+                    </li>
+
+                    <!-- Head Protection -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">Head
+                        Protection</a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/safetyhelmets">Safety Helmets</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/bumpcaps">Bump Caps</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/weldinghelmets">Welding Helmets</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/faceshields">Face Shields</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- Eye Protection -->
+<li class="dropdown-submenu">
+  <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+    Eye Protection
+  </a>
+
+  <ul class="dropdown-menu shadow border-0 p-2"
+      style="min-width:240px;border-radius:8px">
+
+    <li>
+      <a class="dropdown-item py-2 px-3" routerLink="/safetygoggles">
+        Safety Goggles
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2 px-3" routerLink="/safetyspectacles">
+        Safety Spectacles
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2 px-3" routerLink="/weldingsafetyglasses">
+        Welding Safety Glasses
+      </a>
+    </li>
+
+  </ul>
+</li>
+
+
+                    <!-- Respiratory & Hearing Protection -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">Respiratory
+                        & Hearing Protection</a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/nosemasks">Nose Masks</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/earplugs">Earplugs</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/earmuffs">Earmuffs</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- Life Saving Equipment -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">Life Saving
+                        Equipment</a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/lifejackets">Life Jackets</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/lifevests">Life Vests</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/lifebuoys">Life Buoys</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- By Brands -->
+                <!-- By Brands -->
+<li class="dropdown-submenu">
+  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+    data-bs-toggle="dropdown">
+    By Brands <span class="number ms-2">(09)</span>
+  </a>
+
+  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+
+    <li>
+      <a class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{ brand: 'Beta', parentCategory: 'safety ppe' }">
+        Beta
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{ brand: 'Dickies', parentCategory: 'safety ppe' }">
+        Dickies
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{ brand: 'Portwest', parentCategory: 'safety ppe' }">
+        Portwest
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{ brand: 'Redwings', parentCategory: 'safety ppe' }">
+        Redwings
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{ brand: 'Safety Jogger', parentCategory: 'safety ppe' }">
+        Safety Jogger
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{ brand: 'Super Steel', parentCategory: 'safety ppe' }">
+        Super Steel
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{ brand: '3M', parentCategory: 'safety ppe' }">
+        3M
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{ brand: 'MSA', parentCategory: 'safety ppe' }">
+        MSA
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{ brand: 'Uvex', parentCategory: 'safety ppe' }">
+        Uvex
+      </a>
+    </li>
+
+  </ul>
+</li>
+              </ul>
+
+              <h5 class="fw-bold text-uppercase mb-3" style="color: #ffba00; font-size: 1.1rem">
+                Power Hand Tools
+              </h5>
+              <ul class="list-unstyled mb-4">
+                <!-- Your full Power Hand Tools content here -->
+                <li class="dropdown-submenu mb-1">
+                  <a class="dropdown-item dropdown-toggle px-3 py-2 rounded" href="#" data-bs-toggle="dropdown">
+                    By Category
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2" href="#" data-bs-toggle="dropdown">Grinders</a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/anglegrinders">Angle Grinders</a>
+                        </li>
+                      
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/benchgrinders">Bench Grinders</a>
+                        </li>
+                               <li>
+                             <a class="dropdown-item py-2" routerLink="/dieandminigrinders">
+                            Die & Mini Grinders
+                              </a>
+                      </li>
+                      </ul>
+                    </li>
+                    <!-- ... rest of your Power Hand Tools submenus (Drills, Saws, Impact Wrenches, etc.) ... -->
+                    <!-- Drills (with subcategories) -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2" href="#" data-bs-toggle="dropdown">
+                        Drills
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/cordeddrills">Corded Drills</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/cordlessdrillsanddrivers">Cordless Drills &
+                            Drivers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/rotaryhammerdrills">Rotary Hammer Drills</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/drillpresses">Drill Presses</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/magneticdrills">Magnetic Drills</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/coredrills">Core Drills</a>
+                        </li>
+
+                        <li>
+                     <a class="dropdown-item py-2" routerLink="/earthaugers">
+                       Earth Augers
+                        </a>
+                       </li>
+                      </ul>
+                    </li>
+
+                    <!-- Saws (with subcategories) -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2" href="#" data-bs-toggle="dropdown">
+                        Saws
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/circularsaws">Circular Saws</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/jigsaws">Jigsaws</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/tablesaws">Table Saws</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/mitresaws">Mitre Saws</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/chainsaws">Chain Saws</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/bandsaws">Band Saws</a>
+                        </li>
+                           <li>
+                             <a class="dropdown-item py-2" routerLink="/reciprocatingsaws">
+                       Reciprocating Saws
+                      </a>
+                          </li>
+
+                         <li>
+                         <a class="dropdown-item py-2" routerLink="/cutoffsaws">
+                          Cut-off Saws
+                             </a>
+                            </li>
+                      </ul>
+                    </li>
+
+                      <!-- Pressure Washers -->
+<li class="dropdown-submenu">
+  <a class="dropdown-item dropdown-toggle py-2" href="#" data-bs-toggle="dropdown">
+    Pressure Washers
+  </a>
+
+  <ul class="dropdown-menu shadow border-0 p-2"
+      style="min-width: 240px; border-radius: 8px">
+
+    <li>
+      <a class="dropdown-item py-2" routerLink="/electricpressurewashers">
+        Electric Pressure Washers
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2" routerLink="/petrolpressurewashers">
+        Petrol Pressure Washers
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2" routerLink="/industrialpressurewashers">
+        Industrial Pressure Washers
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2" routerLink="/cordlesspressurewashers">
+        Cordless Pressure Washers
+      </a>
+    </li>
+
+    <li>
+      <a class="dropdown-item py-2" routerLink="/pressurewashersaccessories">
+        Pressure Washer Accessories
+      </a>
+    </li>
+
+  </ul>
+</li>
+
+                    <!-- Impact wrenches -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2" href="#" data-bs-toggle="dropdown">
+                        Impact Wrenches
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/cordlessimpactwrenches">Cordless Impact
+                            Wrenches</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/electricimpactwrenches">Electric Impact
+                            Wrenches</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/pneumatic">Pneumatic Impact Wrenches</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- jack hammers -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2" href="#" data-bs-toggle="dropdown">
+                        Jack Hammers
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/demolitionbreakers">DemolitionBreakers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/jackhammers/pneumatic">Pneumatic Jack Hammers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/gasolinejackhammers">Gasoline Jack Hammers</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- blowers -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2" href="#" data-bs-toggle="dropdown">
+                        Blowers
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/cordlessblowers">Cordless Blowers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/electricblowers">Electric Blowers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2" routerLink="/gasolineblowers">Gasoline Blowers</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- Your original items (kept intact) -->
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/sanders">Sanders</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/impactwrenches">Impact Wrenches</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/heatguns">Heat Guns</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/cuttingmachines">Cutting Machines</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/mixers">Mixers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/polishers">Polishers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/sprayguns">Spray Guns</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/bagclosermachines">Bag Closer Machines</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/nailers">Nailers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/trimmers">Guns & Trimmers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/impulsesealers">Impulse Sealers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/planers">Planers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/pprmachines">PPR Machines</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/routers">Routers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/edgebanders">Edge Banding Machines</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/shoppress">Shop Press</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/wallchasers">Wall Chasers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/greaseguns">Grease Guns</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2" routerLink="/combokits">Combo Kits</a>
+                    </li>
+
+                    <li>
+  <a class="dropdown-item py-2" routerLink="/powercrimpingtools">
+    Power Crimping Tools
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2" routerLink="/vibrators">
+    Vibrators
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2" routerLink="/electricpipebenders">
+    Electric Pipe Benders
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2" routerLink="/airlesssprayers">
+    Airless Sprayers
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2" routerLink="/electricalcablecutters">
+    Electrical Cable Cutters
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2" routerLink="/electricalcablepullers">
+    Electrical Cable Pullers
+  </a>
+</li>
+                  </ul>
+                </li>
+                <!-- By Brand -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle px-3 py-2 rounded" href="#" data-bs-toggle="dropdown">
+                    By Brand
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                     <li>
+      <a
+        class="dropdown-item py-2"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Ingco',
+          parentCategory: 'power-tools'
+        }">
+        Ingco
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Maxmech',
+          parentCategory: 'power-tools'
+        }">
+        Maxmech
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Total',
+          parentCategory: 'power-tools'
+        }">
+        Total
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Makita',
+          parentCategory: 'power-tools'
+        }">
+        Makita
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Bosch',
+          parentCategory: 'power-tools'
+        }">
+        Bosch
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Dewalt',
+          parentCategory: 'power-tools'
+        }">
+        Dewalt
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Stanley',
+          parentCategory: 'power-tools'
+        }">
+        Stanley
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Edon',
+          parentCategory: 'power-tools'
+        }">
+        Edon
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Powerflex',
+          parentCategory: 'power-tools'
+        }">
+        Powerflex
+      </a>
+    </li>
+                  </ul>
+                </li>
+              </ul>
+
+
+              <!-- marine and offshore -->
+<h5 class="fw-bold text-uppercase mb-3 mt-4"
+    style="color:#ffba00;font-size:1.1rem;">
+  Marine & Offshore
+</h5>
+
+<ul class="list-unstyled mega-compact-list">
+
+  <li>
+    <a class="dropdown-item py-2 px-3" routerLink="/dredgepipefloaters">
+      Dredge Pipe Floaters
+    </a>
+  </li>
+
+  <li>
+    <a class="dropdown-item py-2 px-3" routerLink="/lifejackets">
+      Life Jackets
+    </a>
+  </li>
+
+  <li>
+    <a class="dropdown-item py-2 px-3" routerLink="/lifevests">
+      Life Vests
+    </a>
+  </li>
+
+  <li>
+    <a class="dropdown-item py-2 px-3" routerLink="/lifebuoys">
+      Life Buoys
+    </a>
+  </li>
+
+  <li>
+    <a class="dropdown-item py-2 px-3" routerLink="/marinesafetyequipment">
+      Marine Safety Equipment
+    </a>
+  </li>
+
+</ul>
+
+              <!-- Measuring & Testing -->
+              <h5 class="fw-bold text-uppercase mb-3 mt-4" style="color: #ffba00; font-size: 1.1rem">
+                Measuring & Testing
+              </h5>
+              <ul class="list-unstyled mega-compact-list">
+                <!-- Fuel Testing & Measuring – nested submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Fuel Testing & Measuring <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                  
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/hydromters">Hydrometers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/flowmeters">Flow Meters <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/fueltestingkits">Fuel Testing Kits</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/thermometers">Thermometers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/measuringcans">Measuring Cans</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/testingpaste">Testing Paste</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/measuringcylinders">Measuring Cylinders</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/lpgcountingmeters">LPG Counting Meters</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- General Measuring Instruments – nested submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    General Measuring Instruments
+                    <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/generalmeters">General Meters</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/generaltesters">General Testers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/multimeters">Multimeters</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/clampmeters">Digital Clamp Meters</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/batterytesters">Battery Testers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/measuringtapes">Measuring Tapes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/laserdistancemeters">Laser Distance Meters</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/dialindicators">Dial Indicators</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/generalguages">General Guages</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/measuringwheels">Measuring Wheels</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/gpstrackers">GPS Trackers</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/infraredthermometers">Infrared Thermometers</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/scannersanddetectors">Scanners And Detectors</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/thicknessgauges">Thickness Gauges</a>
+                    </li>
+
+                     <li>
+                      <a class="dropdown-item py-2 px-3" href="/gasdetectors">Gas Detectors</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/digitalmultimeters">Digital Multimeters</a>
+                    </li>
+
+                       <li>
+                      <a class="dropdown-item py-2 px-3" href="/dialboregauges">Dial Bore Gauges</a>
+                    </li>
+
+                       <li>
+                      <a class="dropdown-item py-2 px-3" href="/gasanalyzers">Gas Analyzers</a>
+                    </li>
+
+                       <li>
+                      <a class="dropdown-item py-2 px-3" href="/dippingtape">Dipping Tape</a>
+                    </li>
+
+                    <!-- Calipers -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        Calipers <span class="number ms-2"></span>
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/digitalcalipers">Digital Calipers <span
+                              class="number ms-2"></span></a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/verniercalipers">Vernier Calipers (Analogue)
+                            <span class="number ms-2"></span></a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- Micrometers -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        Micrometers <span class="number ms-2"></span>
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/analoguemicromters">Micrometers (Analogue)</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/digitalmicrometers">Micrometers (Digital)</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- Water & Laboratory Testers -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        Water & Lab Testers <span class="number ms-2"></span>
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/watertesters">Water Testers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/alcoholtesters">Alcohol Testers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/phmeters">pH Meters</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/concrtemeters">Concrete Testers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/testingbuckets">Testing Buckets</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/moisturetesters">Moisture Testers</a>
+                        </li>
+
+                         <li>
+                          <a class="dropdown-item py-2 px-3" href="/moistureanalyzers">Moisture Analyzers</a>
+                        </li>
+
+                         <li>
+                          <a class="dropdown-item py-2 px-3" href="/centrifuges">Centrifuges</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Leveling Tools -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Leveling Tools <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/spiritlevels">Spirit Levels</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/dumpinglevels">Dumping Levels (Auto Levels)</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/surveytripods">Survey Poles And Tripods</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/laserlevels">Laser Levels</a>
+                    </li>
+
+                     <li>
+                      <a class="dropdown-item py-2 px-3" href="/laserdistancemeters">Laser Distance Meters</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item py-2 px-3" href="/surveyinstruments">Survey Instruments</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Measuring Scales -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Measuring Scales <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <!-- Analogue Scales -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        Analogue Scales
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/springbalances">Spring Balances</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/beambalances">Beam Balances</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/mechanicalplatformscales">Mechanical Platform
+                            Scales</a>
+                        </li>
+
+                         <li>
+                          <a class="dropdown-item py-2 px-3" href="/analoguekitchenscales">Analogue Kitchen Scales
+                            Scales</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- Digital Scales -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        Digital Scales
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/platformscales">Platform Scales</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/cranes">Crane Scales</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/hangingscales">Hanging Scales</a>
+                        </li>
+          
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/analyticalbalances">Analytical & Lab Balances</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/bathroomscales">Bathroom Scales</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/kitchenscales">Kitchen Scales</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/pocketscales">Pocket Scales</a>
+                        </li>
+            
+                        <li>
+                          <a class="dropdown-item py-2 px-3" href="/pricingscales">Pricing Scales</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- Scale Accessories -->
+<li>
+  <a class="dropdown-item py-2 px-3" href="/scaleaccessories">
+    Scale Accessories
+  </a>
+</li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- adhesives -->
+              <h5 class="fw-bold text-uppercase mb-3 mt-4" style="color: #ffba00; font-size: 1.1rem">
+                Sealant & Adhesive
+              </h5>
+              <ul class="list-unstyled mega-compact-list">
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/siliconesealants">Silicone Sealants
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="pufoamsealants">PU (Polyurethane) Sealants</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/epoxyadhesives">Epoxy Adhesives</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/constructiondhesives">Construction Adhesives
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/glues">
+                    Glues</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/gums">
+                    Gums</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/waterproofsealants">Waterproof Sealants</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/caulkingfoamguns">
+                  Caulking & PU Foam Guns</a>
+                </li>
+            
+              </ul>
+            </div>
+
+            <!-- Column 2: Workshop, Hand Tools,-->
+            <div class="col-lg-4 p-4 border-end">
+              <!-- Workshop & Garage -->
+
+              <h5 class="fw-bold text-uppercase mb-3 mt-4" style="color: #ffba00; font-size: 1.1rem">
+                Workshop & Garage
+              </h5>
+
+              <ul class="list-unstyled mega-compact-list">
+                <!-- Direct / flat items -->
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/toolscabinets">Tool Cabinets</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/workbenches">Work Benches</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/aircompressors">Air Compressors</a>
+                </li>
+
+                <li>
+  <a class="dropdown-item py-1" routerLink="/autoaircompressors">Auto Air Compressors</a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/aircompressoraccessories">Air Compressor Accessories</a>
+</li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/powerextensionandreels">Power Extension & Reels</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/toolsets">Tool Sets</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/carcreepers">Car Creepers</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/greasebuckets">Grease Buckets</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/testingbuckets">Testing Buckets</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/rotarypumps">Rotary Hand Pumps</a>
+                </li>
+
+                <li>
+  <a class="dropdown-item py-1" routerLink="/hydraulicshoppress">Hydraulic Shop Press</a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/pressurekits">Pressure Kits</a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/enginesandmotors">Engines & Motors</a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/wheelchokes">Wheel Chocks</a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/oilextractorsanddrainers">Oil Extractors & Drainers</a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/hydraulicpumps">Hydraulic Pump</a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/generalautomotivetools">General Automotive Tools</a>
+</li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/palletetrucks">Pallet Trucks</a>
+                </li>
+
+                <!-- Lifting & Handling Equipment (nested submenu) -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Lifting & Handling Equipment
+                    <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/jackandlifts">Jacks & Lifts</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/chainblocksandhoists">Chain Blocks & Hoists</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/drumhandlingequipments">Drum Handling
+                        Equipment</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/enginecranes">Engine Cranes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/liftingbelts">Lifting Belts</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/palletetrucks">Pallet Trucks</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/palletestackers">Pallet Stackers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/trolleys">Trolleys</a>
+                    </li>
+
+                    <li>
+                    <a class="dropdown-item py-2 px-3" routerLink="/verticalclamps">Vertical Clamps</a>
+                   </li>
+                  </ul>
+                </li>
+
+                <!-- Wheel Service Equipment (nested submenu) -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Wheel Service Equipment <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/wheelbalancers">Wheel Balancers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/wheelalignmentguages">Wheel Alignment Gauges</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/wheelchocks">Wheel Chocks</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/wheellocks">Wheel Locks</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/tirechangers">Tire Changers</a>
+                    </li>
+
+                    <li>
+  <a class="dropdown-item py-2 px-3" routerLink="/generalautomotivetools">
+    General Automotive Tools & Equipment
+  </a>
+</li>
+                  </ul>
+                </li>
+
+                <!-- Ladders (nested submenu) -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Ladders <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/stepladders">Step Ladders <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/extensionladders">Extension Ladders <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/foldingladders">Folding Ladders <span
+                          class="number ms-2"></span></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <!-- Electrical Equipment -->
+              <h5 class="fw-bold text-uppercase mb-3 mt-4" style="color: #ffba00; font-size: 1.1rem">
+                Electrical Equipment
+              </h5>
+
+              <ul class="list-unstyled mega-compact-list">
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/batteries">Batteries</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/bagclosermachines">Bag Closer Machines</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/autoaircompressors">Auto Air Compressors</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/cablewireandboosters">Cable Wires & Cable Boosters</a>
+                </li>
+                <li>
+  <a class="dropdown-item py-1" routerLink="/jumperstarters">
+    Jumper Starters
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/solderingequipment">
+    Soldering Equipment
+  </a>
+</li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/plasmacutters">Plasma Cutters</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/aircompressors">Air Compressors</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/batterytesters">Battery Testers</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/batterychargers">Battery Chargers</a>
+                </li>
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Generators
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/dieselgenerators">Diesel Generators <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/petrolgenerators">Petrol Generators <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/invertergenerators">Inverter Generators <span
+                          class="number ms-2"></span></a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Welding Machines <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/tigweldingmachines">TIG Welding Machines</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/mmaweldingmachines">MMA Welding Machines</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/migweldingmachines">MIG Welding Machines</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/arcweldingmachines">Arc Welding Machines</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/weldingaccessories">Welding Accessories</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <!-- Hand Tools & Accessories -->
+              <h5 class="fw-bold text-uppercase mb-3" style="color: #ffba00; font-size: 1.1rem">
+                Hand Tools & Accessories
+              </h5>
+              <ul class="list-unstyled mega-compact-list">
+                <!-- By Category – main nested submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    By Category <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/spannersandwrenches">Spanners & Wrenches</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/hammersandmallets">Hammers & Mallets</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/screwdrivers">Screwdrivers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/pliersandcutters">Pliers & Cutters</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/socketsandracthets">Sockets & Ratchets</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/measuringtapes">Measuring Tapes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/utilityknivesandblades">Utility Knives &
+                        Blades</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/chiselsandpunches">Chisels & Punches</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/toolbags">Tool Bags</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/toolboxes">Tool Boxes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/handriveters">Hand Riveters</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/crimpingtools">Crimping Tools</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/tilescutters">Tiles Cutters</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/drivers">Drivers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/flaringtools">Flaring Tools</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/bearingpullers">Bearing Pullers</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/toolssets">Tool Sets</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/handsaws">Hand Saws</a>
+                    </li>
+
+                     <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/holesaws">Hole Saws</a>
+                    </li>
+                      
+                       <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/puttyknife">Putty Knives/Scrappers</a>
+                          
+                        </li>
+
+                        <li>
+  <a class="dropdown-item py-2 px-3" routerLink="/stapleguns">
+    Staple Guns
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/tapanddie">
+    Tap And Die
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/handgreaseguns">
+    Hand Grease Guns
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/airnailguns">
+    Air Nail Guns
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/manualsprayguns">
+    Manual Spray Guns
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/doorhardware">
+    Door Hardware
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/suctioncups">
+    Suction Cups
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/pipethreaders">
+    Pipe Threaders
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/cablepullersandfishtapes">
+    Cable Pullers & Fish Tapes
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/pipecutters">
+    Pipe Cutters
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/cablecutters">
+    Cable Cutters
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/pipebenders">
+    Pipe Benders
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/torquewrenches">
+    Torque Wrenches
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/plasteringtools">
+    Plastering Tools
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/handgearwinches">
+    Hand Gear Winches
+  </a>
+</li>
+
+                    <!-- Hand Tool Accessories – second level submenu -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        Hand Tool Accessories
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/drillbits">Drill Bits</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/sawblades">Saw Blades</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/sandingpads">Sanding Pads</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/polishingpadsandbuffers">Polishing Pads &
+                            Buffers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/cuttingandgrindingdiscs">Cutting & Grinding Disc</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/allenkeys">Allen Keys</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/screwdriverbits">Screwdriver Bits</a>
+                        </li>
+
+                        <li>
+  <a class="dropdown-item py-2 px-3" routerLink="/grindingstonesandwheels">
+    Grinding Stones And Wheels
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/corecuttersandbits">
+    Core Cutters And Bits
+  </a>
+</li>
+
+        <li>
+          <a class="dropdown-item py-2 px-3" routerLink="/routerbits">
+          Router Bits
+           </a>
+             </li>
+
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- By Brands – separate submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    By Brands <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                      <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Stanley',
+          parentCategory: 'hand tools'
+        }">
+        Stanley
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Bosch',
+          parentCategory: 'hand tools'
+        }">
+        Bosch
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Makita',
+          parentCategory: 'hand tools'
+        }">
+        Makita
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Ingco',
+          parentCategory: 'hand tools'
+        }">
+        Ingco
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Total',
+          parentCategory: 'hand tools'
+        }">
+        Total
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Maxmech',
+          parentCategory: 'hand tools'
+        }">
+        Maxmech
+      </a>
+    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Column 3: Construction, Pumping, -->
+            <div class="col-lg-4 p-4">
+              <!-- Your full Construction, Pumping,  -->
+              <!-- Construction Equipment -->
+              <h5 class="fw-bold text-uppercase mb-3 mt-4" style="color: #ffba00; font-size: 1.1rem">
+                Construction Equipment
+              </h5>
+
+              <ul class="list-unstyled mega-compact-list">
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/concretemixers">Concrete Mixers</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/jumpingrammers">Jumping Rammers</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/wheelbarrows">Wheelbarrows</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/platecompactors">Plate Compactors</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/concretevibrators">Concrete Vibrators</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/powertrowels">Power Trowels</a>
+                </li>
+
+                 <li>
+                  <a class="dropdown-item py-1" routerLink="/testingequipment">Testing Equipment</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/constructionsafetygear">Construction Safety Gears</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/fallarresters">Fall Arrestors</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/ropes">Ropes</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/pokerhoses">Poker Hoses</a>
+                </li>
+                
+                 <li>
+  <a class="dropdown-item py-1" routerLink="/rebarmachines">
+    All Rebar Machines
+  </a>
+</li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/drumtrucks">Drum Trucks</a>
+                </li>
+
+                <li>
+  <a class="dropdown-item py-1" routerLink="/concretepumps">
+    Concrete Pumps
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/drumrollercompactors">
+    Drum Roller Compactors
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/roadmarkingmachines">
+    Road Marking Machines
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/concretescreeders">
+    Concrete Screeders
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/generalconcreteequipment">
+    General Concrete Equipment
+  </a>
+</li>
+              </ul>
+
+              <!-- Pumping Machines -->
+              <h5 class="fw-bold text-uppercase mb-3 mt-4" style="color: #ffba00; font-size: 1.1rem">
+                Pumping Machines
+              </h5>
+
+              <ul class="list-unstyled mega-compact-list">
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/waterpumps">Water Pumps</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/submersiblepumps">Submersible Pumps</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/fueltransferpumps">Fuel Transfer Pumps</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/rotarypumps">Hand Rotary Pumps</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/pressurepumps">Pressure Pumps</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/vacuumpumps">Vacuum Pumps</a>
+                </li>
+              </ul>
+
+              <!-- Lubricants, Chemicals & Protective Sprayers -->
+<h5 class="fw-bold text-uppercase mb-3 mt-4"
+    style="color: #ffba00; font-size: 1.1rem">
+  Lubricants & Chemicals
+</h5>
+
+<ul class="list-unstyled mega-compact-list">
+  <li>
+    <a class="dropdown-item py-1"
+       routerLink="/chemicalapplicationsandsprayers">
+      Chemical Applications & Sprayers
+    </a>
+  </li>
+
+  <li>
+    <a class="dropdown-item py-1"
+       routerLink="/lubricants">
+      Lubricants
+    </a>
+  </li>
+
+  <li>
+    <a class="dropdown-item py-1"
+       routerLink="/spraypaints">
+      Spray Paints
+    </a>
+  </li>
+</ul> 
+            </div>
+
+            <!-- column 4: cleaning & garden + farm -->
+            <div class="col-lg-4 p-4 border-end">
+              <!-- Cleaning & Garden Supplies -->
+              <h5 class="fw-bold text-uppercase mb-3 mt-4" style="color: #ffba00; font-size: 1.1rem">
+                Cleaning & Garden Supplies
+              </h5>
+
+              <ul class="list-unstyled mega-compact-list">
+                <!-- Flat / direct items -->
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/cleaningaccessories">Cleaning Accessories</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/scrubbersandsweepers">Scrubbers and Sweepers</a>
+                </li>
+
+                <li>
+  <a class="dropdown-item py-1" routerLink="/gardensprinklers">
+    Garden Sprinklers
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/knapsacksprayers">
+    Knapsack Sprayers
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-1" routerLink="/steamecleanermachines">
+    Steam Cleaner Machines
+  </a>
+</li>
+
+                <!-- Pressure Washers -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Pressure Washers
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <!-- By Category -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        By Category
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/electricpressurewashers">Electric Pressure
+                            Washers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/petrolpressurewashers">Petrol Pressure
+                            Washers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/industrialpressurewashers">Industrial Pressure
+                            Washers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/cordlesspressurewashers">Cordless Pressure
+                            Washers</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- By Brands -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        By Brands
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+  <a
+    class="dropdown-item py-2 px-3"
+    [routerLink]="['/pagination']"
+    [queryParams]="{
+      brand: 'Ingco',
+      parentCategory: 'pressure washers'
+    }">
+    Ingco
+  </a>
+</li>
+  <li>
+  <a
+    class="dropdown-item py-2 px-3"
+    [routerLink]="['/pagination']"
+    [queryParams]="{
+      brand: 'Bosch',
+      parentCategory: 'pressure washers'
+    }">
+   Bosch
+  </a>
+</li>
+                        <li>
+                           <a
+    class="dropdown-item py-2 px-3"
+    [routerLink]="['/pagination']"
+    [queryParams]="{
+      brand: 'Maxmech',
+      parentCategory: 'pressure washers'
+    }">
+   Maxmech
+  </a>
+                        </li>
+                        <li>
+                           <a
+    class="dropdown-item py-2 px-3"
+    [routerLink]="['/pagination']"
+    [queryParams]="{
+      brand: 'Karcher',
+      parentCategory: 'pressure washers'
+    }">
+  Karcher
+  </a>
+                        </li>
+
+                        <li>
+ <a
+    class="dropdown-item py-2 px-3"
+    [routerLink]="['/pagination']"
+    [queryParams]="{
+      brand: 'Total',
+      parentCategory: 'pressure washers'
+    }">
+  Total
+  </a>
+</li>
+                      </ul>
+                    </li>
+
+                    <!-- Accessories -->
+                    <li>
+                      <a class="dropdown-item py-2 px-3"routerLink="/pressurewashersaccessories">Accessories</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Blowers -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Blowers
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <!-- By Category -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        By Category
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/cordlessblowers">Cordless Blowers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/electricblowers">Electric Blowers</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/gasolineblowers">Gasoline Blowers</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- By Brands -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        By Brands
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a
+    class="dropdown-item py-2 px-3"
+    [routerLink]="['/pagination']"
+    [queryParams]="{
+      brand: 'Ingco',
+      parentCategory: 'blowers'
+    }">
+Ingco
+  </a>
+                        </li>
+                        <li>
+  <a
+    class="dropdown-item py-2 px-3"
+    [routerLink]="['/pagination']"
+    [queryParams]="{
+      brand: 'Total',
+      parentCategory: 'blowers'
+    }">
+    Total
+  </a>
+</li>
+
+<li>
+  <a
+    class="dropdown-item py-2 px-3"
+    [routerLink]="['/pagination']"
+    [queryParams]="{
+      brand: 'Bosch',
+      parentCategory: 'blowers'
+    }">
+    Bosch
+  </a>
+</li>
+
+<li>
+  <a
+    class="dropdown-item py-2 px-3"
+    [routerLink]="['/pagination']"
+    [queryParams]="{
+      brand: 'Maxmech',
+      parentCategory: 'blowers'
+    }">
+    Maxmech
+  </a>
+</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Hose -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Hose
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/waterandpumphose">Water And Pump Hose</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/hydraulichose">Hydraulic Hose</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/hosereels">Hose Reels</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/hoseaccessories">Hose Accessories</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Vacuum Cleaners -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Vacuum Cleaners
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <!-- By Category -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        By Category
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/cyclonevacuumcleaners">Cyclone Vacuum
+                            Cleaners</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/wetanddryvacuumcleaners">Wet & Dry Vacuum
+                            Cleaners</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/industrialvacuumcleaners">Industrial Vacuum Cleaners</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- By Brands -->
+                   <!-- By Brands -->
+<li class="dropdown-submenu">
+  <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+    By Brands
+  </a>
+
+  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Ingco',
+          parentCategory: 'vacuum cleaners'
+        }">
+        Ingco
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Total',
+          parentCategory: 'vacuum cleaners'
+        }">
+        Total
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Bosch',
+          parentCategory: 'vacuum cleaners'
+        }">
+        Bosch
+      </a>
+    </li>
+
+  </ul>
+</li>
+                  </ul>
+                </li>
+
+                <!-- Lawn Mowers -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Lawn Mowers
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <!-- By Category -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        By Category
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/handpushlawnmowers">Hand Push Lawn Mowers</a>
+                        </li>
+                        <li>
+  <a class="dropdown-item py-2 px-3"
+     routerLink="/gasolinelawnmowers">
+    Gasoline Lawn Mowers
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3"
+     routerLink="/electricandcordlesslawnmowers">
+    Electric & Cordless Lawn Mowers
+  </a>
+</li>
+                      </ul>
+                    </li>
+
+                    <!-- By Brands -->
+                  <!-- By Brands -->
+<li class="dropdown-submenu">
+  <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+    By Brands
+  </a>
+
+  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Ingco',
+          parentCategory: 'lawn mowers'
+        }">
+        Ingco
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Total',
+          parentCategory: 'lawn mowers'
+        }">
+        Total
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Prince Garden',
+          parentCategory: 'lawn mowers'
+        }">
+        Prince Garden
+      </a>
+    </li>
+
+  </ul>
+</li>
+                  </ul>
+                </li>
+
+                <!-- Brush Cutters -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Brush Cutters
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <!-- By Category -->
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+                        By Category
+                      </a>
+                      <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/gasolinebrushcutters">Gasoline Brush
+                            Cutters</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item py-2 px-3" routerLink="/cordlessbrushcutters">Cordless Brush
+                            Cutters</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- By Brands -->
+                   <!-- By Brands -->
+<li class="dropdown-submenu">
+  <a class="dropdown-item dropdown-toggle py-2 px-3" href="#" data-bs-toggle="dropdown">
+    By Brands
+  </a>
+
+  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 240px; border-radius: 8px">
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Ingco',
+          parentCategory: 'brush cutters'
+        }">
+        Ingco
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Total',
+          parentCategory: 'brush cutters'
+        }">
+        Total
+      </a>
+    </li>
+
+    <li>
+      <a
+        class="dropdown-item py-2 px-3"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Maxmech',
+          parentCategory: 'brush cutters'
+        }">
+        Maxmech
+      </a>
+    </li>
+
+  </ul>
+</li>
+
+                    <!-- Accessories -->
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/brushcutteraccessories">Accessories</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <!-- Farm Equipments -->
+              <h5 class="fw-bold text-uppercase mb-3 mt-4" style="color: #ffba00; font-size: 1.1rem">
+                Farm Equipments
+              </h5>
+
+              <ul class="list-unstyled mega-compact-list">
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/farmmachines">Farm Machines</a>
+                </li>
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/farmtools">Farm Tools</a>
+                </li>
+
+                 <li>
+                  <a class="dropdown-item py-1" routerLink="/knapsacksprayers">Knapsack Sprayers</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item py-1" routerLink="/agrochemicals">Agro Chemicals</a>
+                </li>
+
+                <!-- If you add more subcategories later, you can nest them like this example: -->
+                <!--
+  <li class="dropdown-submenu">
+    <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#" data-bs-toggle="dropdown">
+      Farm Machines
+    </a>
+    <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px;">
+      <li><a class="dropdown-item py-2 px-3" routerLink="/tractors">Tractors</a></li>
+      <li><a class="dropdown-item py-2 px-3" routerLink="/harvesters">Harvesters</a></li>
+      <li><a class="dropdown-item py-2 px-3" routerLink="/irrigation-systems">Irrigation Systems</a></li>
+    </ul>
+  </li>
+  -->
+              </ul>
+
+              <!-- Safety & Traffic -->
+              <h5 class="fw-bold text-uppercase mb-3 mt-4" style="color: #ffba00; font-size: 1.1rem">
+                Safety & Traffic
+              </h5>
+
+              <ul class="list-unstyled mega-compact-list">
+                <!-- Traffic Safety – nested submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Traffic Safety <span class="number ms-2"></span>
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/trafficcones">Traffic Cones <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/roadbarriers">Road Barriers <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/warningsigns">Warning Signs <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/speedbumps">Speed Bumps <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/reflectors">Reflectors <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/safetyvests">Safety Vests <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/cautiontapes">Caution Tapes <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/wheelchokes">Wheel Chokes <span
+                          class="number ms-2"></span></a>
+                    </li>
+
+                    <li>
+  <a class="dropdown-item py-2 px-3" routerLink="/cableramps">
+    Cable Ramps
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/trafficcontrolsystems">
+    Traffic Control Systems
+  </a>
+</li>
+
+<li>
+  <a class="dropdown-item py-2 px-3" routerLink="/trafficandsolarlights">
+    Traffic & Solar Lights
+  </a>
+</li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/convexmirrors">Convex Mirrors <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/inspectionmirrors">Inspection Mirrors <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/metaldetectors">Metal Detectors <span
+                          class="number ms-2"></span></a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Fire Safety – nested submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle py-1 px-3 rounded fw-medium" href="#"
+                    data-bs-toggle="dropdown">
+                    Fire Safety
+                  </a>
+                  <ul class="dropdown-menu shadow border-0 p-2" style="min-width: 260px; border-radius: 8px">
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/fireextinguishers">Fire Extinguishers <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/fireblankets">Fire Blankets <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/smokeandfirealarms">Smoke & Fire Alarms <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/firehose">Fire Hose <span
+                          class="number ms-2"></span></a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item py-2 px-3" routerLink="/firehosecabinet">Fire Hose Cabinet <span
+                          class="number ms-2"></span></a>
+                    </li>
+
+                    <li>
+  <a class="dropdown-item py-2 px-3" routerLink="/emergencyalertsystems">
+    Emergency Fire Systems
+  </a>
+</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <!-- Mobile Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Right-side links -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" routerLink="/">Home</a></li>
+
+        <li class="nav-item dropdown no-mega">
+          <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown">
+            Shop
+          </a>
+
+          <ul class="dropdown-menu simple-menu align-right">
+            <li>
+              <a class="dropdown-item" routerLink="/shopcategories">Shop Category</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="/productcheckout">Product Checkout</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="/shoppingcart">Shopping Cart</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="/confirmation">Confirmation</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/blog">Blog</a>
+        </li>
+
+        <li class="nav-item dropdown no-mega">
+          <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown">
+            Pages
+          </a>
+
+          <ul class="dropdown-menu simple-menu">
+            <li><a class="dropdown-item" routerLink="/whishlist">Whishlist</a></li>
+            <li>
+              <a class="dropdown-item" routerLink="/compare">Compare</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="/deliverypolicy">Delivery Policy</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="/warrantyandreturns">Warranty & Returns</a>
+            </li>
+          </ul>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" routerLink="/get-a-quote">Get A Qoute</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" routerLink="/bulkorders">Bulk Orders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/aboutus">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- NAV BAR END -->

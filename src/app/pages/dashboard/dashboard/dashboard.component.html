@@ -1,0 +1,63 @@
+<!-- Dashboard Header -->
+
+<div class="container py-4">
+
+  <div class="text-center mb-4">
+    <h2 class="fw-bold text-primary">Contact Messages</h2>
+    <p class="text-muted">Messages received from users</p>
+  </div>
+
+  <!-- Empty State -->
+
+  <div *ngIf="messages.length === 0" class="alert alert-info text-center">
+    No messages yet.
+  </div>
+
+  <!-- Messages Grid -->
+
+  <div class="row g-4">
+
+```
+<div class="col-md-6 col-lg-4" *ngFor="let msg of messages">
+
+  <div class="card message-card h-100 shadow-sm border-0">
+
+    <!-- Card Body -->
+    <div class="card-body">
+
+      <!-- Avatar + Name -->
+      <div class="d-flex align-items-center mb-3">
+
+        <div class="avatar me-3">
+          {{ msg.name?.charAt(0) | uppercase }}
+        </div>
+
+        <div>
+          <h5 class="mb-0 fw-semibold">{{ msg.name }}</h5>
+          <small class="text-muted">{{ msg.email }}</small>
+        </div>
+
+      </div>
+
+
+      <!-- Subject -->
+      <p class="mb-2">
+        <span class="label">Subject:</span>
+        {{ msg.subject }}
+      </p>
+
+      <!-- Message -->
+      <p class="message-text">
+        {{ msg.message }}
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+```
+
+  </div>
+
+</div>

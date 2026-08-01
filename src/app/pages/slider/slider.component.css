@@ -1,0 +1,20 @@
+#myCarousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+/* Let the carousel height be defined by the natural image height */
+#myCarousel .carousel-item {
+  height: auto;
+}
+
+#myCarousel .slider-img {
+  width: 100%;        /* fill entire width */
+  height: auto;       /* adjust height naturally */
+  object-fit: contain; 
+  display: block;
+}
+
+
