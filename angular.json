@@ -42,6 +42,7 @@
           "configurations": {
             "production": {
               "server": "src/main.server.ts",
+              "sourceMap": false,
               "prerender": true,
               "ssr": {
                 "entry": "server.ts"
