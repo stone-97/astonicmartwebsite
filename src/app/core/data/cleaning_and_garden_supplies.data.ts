@@ -71,7 +71,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
 
         videos: [
 
-            'assets/img/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD.mp4'
+            'assets/video/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD.mp4'
         ],
 
         inStock: true,
