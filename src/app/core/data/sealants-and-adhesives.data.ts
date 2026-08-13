@@ -14,8 +14,8 @@ export const SEALANTS_AND_ADHESIVES_PRODUCTS: Product[] = [
         price: 9000,
 
         images: [
-            'assets/img/silicone and adhesives/abro 2000 silicone sealant.webp',
-            // 'assets/img/pumping machines/electric fuel desiel transfer oil pump.webp2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329124/Astonic-Mart/Products/silicone%20and%20adhesives/abro_2000_silicone_sealant.webp',
+            // 'https://res.cloudinary.com/taus5tit/image/upload/v1786311378/Astonic-Mart/Products/pumping%20machines/electric_fuel_desiel_transfer_oil_pump.webp2.webp'
         ],
 
         inStock: true,
@@ -58,11 +58,11 @@ export const SEALANTS_AND_ADHESIVES_PRODUCTS: Product[] = [
         price: 13500,
 
         images: [
-            'assets/img/silicone and adhesives/Soudal pu foam sealant.jpg',
-            'assets/img/silicone and adhesives/Soudal pu foam sealant-2.jpg',
-            'assets/img/silicone and adhesives/Soudal pu foam sealant-3.jpg',
-            'assets/img/silicone and adhesives/Soudal pu foam sealant-4.jpg',
-            'assets/img/silicone and adhesives/Soudal pu foam sealant-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329230/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_pu_foam_sealant.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329230/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_pu_foam_sealant-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329231/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_pu_foam_sealant-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329231/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_pu_foam_sealant-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329232/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_pu_foam_sealant-5.jpg'
         ],
 
         inStock: true,
@@ -118,7 +118,7 @@ export const SEALANTS_AND_ADHESIVES_PRODUCTS: Product[] = [
         price: 7500,
 
         images: [
-            'assets/img/silicone and adhesives/araldite epoxy adhesive.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329130/Astonic-Mart/Products/silicone%20and%20adhesives/araldite_epoxy_adhesive.webp'
         ],
 
         inStock: true,
@@ -164,7 +164,7 @@ export const SEALANTS_AND_ADHESIVES_PRODUCTS: Product[] = [
         price: 18000,
 
         images: [
-            'assets/img/silicone and adhesives/soudal wood glue.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329236/Astonic-Mart/Products/silicone%20and%20adhesives/soudal_wood_glue.webp'
         ],
 
         inStock: true,
@@ -209,7 +209,7 @@ export const SEALANTS_AND_ADHESIVES_PRODUCTS: Product[] = [
         price: 15000,
 
         images: [
-            'assets/img/silicone and adhesives/loctite 406 glue.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329163/Astonic-Mart/Products/silicone%20and%20adhesives/loctite_406_glue.webp'
         ],
 
         inStock: true,
@@ -253,10 +253,10 @@ export const SEALANTS_AND_ADHESIVES_PRODUCTS: Product[] = [
         price: 20000,
 
         images: [
-            'assets/img/silicone and adhesives/abro 99 contact adhesives.jpg',
-            'assets/img/silicone and adhesives/abro-contact-adhesive-2.jpg',
-            'assets/img/silicone and adhesives/abro-contact-adhesive-3.jpg',
-            'assets/img/silicone and adhesives/abro-contact-adhesive.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329123/Astonic-Mart/Products/silicone%20and%20adhesives/abro_99_contact_adhesives.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329126/Astonic-Mart/Products/silicone%20and%20adhesives/abro-contact-adhesive-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329131/Astonic-Mart/Products/silicone%20and%20adhesives/abro-contact-adhesive-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329126/Astonic-Mart/Products/silicone%20and%20adhesives/abro-contact-adhesive.jpg'
         ],
 
         inStock: true,
@@ -304,14 +304,14 @@ export const SEALANTS_AND_ADHESIVES_PRODUCTS: Product[] = [
         price: 9000,
 
         images: [
-            'assets/img/silicone and adhesives/waterproof leak filler 450ml black.jpg',
-            'assets/img/silicone and adhesives/waterproof leak filler 450ml black-3.jpg',
-            'assets/img/silicone and adhesives/waterproof leak filler 450ml black-4.jpg',
-            'assets/img/silicone and adhesives/waterproof leak filler 450ml black-5.jpg',
-            'assets/img/silicone and adhesives/waterproof leak filler 450ml black-6.jpg',
-            'assets/img/silicone and adhesives/waterproof leak filler 450ml black-7.jpg',
-            'assets/img/silicone and adhesives/waterproof leak filler 450ml black-8.jpg',
-            'assets/img/silicone and adhesives/waterproof leak filler 450ml black-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329257/Astonic-Mart/Products/silicone%20and%20adhesives/waterproof_leak_filler_450ml_black.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329261/Astonic-Mart/Products/silicone%20and%20adhesives/waterproof_leak_filler_450ml_black-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329261/Astonic-Mart/Products/silicone%20and%20adhesives/waterproof_leak_filler_450ml_black-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329261/Astonic-Mart/Products/silicone%20and%20adhesives/waterproof_leak_filler_450ml_black-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329261/Astonic-Mart/Products/silicone%20and%20adhesives/waterproof_leak_filler_450ml_black-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329261/Astonic-Mart/Products/silicone%20and%20adhesives/waterproof_leak_filler_450ml_black-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329266/Astonic-Mart/Products/silicone%20and%20adhesives/waterproof_leak_filler_450ml_black-8.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329258/Astonic-Mart/Products/silicone%20and%20adhesives/waterproof_leak_filler_450ml_black-2.jpg'
         ],
 
         inStock: true,
@@ -359,7 +359,7 @@ export const SEALANTS_AND_ADHESIVES_PRODUCTS: Product[] = [
         price: 8500,
 
         images: [
-            'assets/img/silicone and adhesives/ecomax waterproof leak filler.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329136/Astonic-Mart/Products/silicone%20and%20adhesives/ecomax_waterproof_leak_filler.jpg'
         ],
 
         inStock: true,
@@ -423,11 +423,11 @@ export const SEALANTS_AND_ADHESIVES_PRODUCTS: Product[] = [
         price: 85000,
 
         images: [
-            'assets/img/tapes and adhesives/2 inch by 55m duct tape.jpg',
-            'assets/img/tapes and adhesives/2 inch by 55m duct tape.jpg-2.jpg',
-            'assets/img/tapes and adhesives/2 inch by 55m duct tape.jpg-3.jpg',
-            'assets/img/tapes and adhesives/2 inch by 55m duct tape.jpg-4.jpg',
-            'assets/img/tapes and adhesives/2 inch by 55m duct tape.jpg-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_55m_duct_tape.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_55m_duct_tape.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_55m_duct_tape.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_55m_duct_tape.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_55m_duct_tape.jpg-5.jpg'
         ],
 
         inStock: true,
@@ -471,10 +471,10 @@ Heavy-duty multipurpose performance`
         price: 5500,
 
         images: [
-            'assets/img/tapes and adhesives/2 inch flash band.jpg-2.jpg',
-            'assets/img/tapes and adhesives/2 inch flash band.jpg',
-            'assets/img/tapes and adhesives/2 inch flash band.jpg-3.jpg',
-            'assets/img/tapes and adhesives/2 inch flash band.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329485/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_flash_band.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329485/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_flash_band.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329485/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_flash_band.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329485/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_flash_band.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -519,10 +519,10 @@ Long-lasting performance`
         price: 7500,
 
         images: [
-            'assets/img/tapes and adhesives/3 inch flash band.png-4.jpg',
-            'assets/img/tapes and adhesives/3 inch flash band.png',
-            'assets/img/tapes and adhesives/3 inch flash band.png-2.jpg',
-            'assets/img/tapes and adhesives/3 inch flash band.png-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329509/Astonic-Mart/Products/tapes%20and%20adhesives/3_inch_flash_band.png-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329509/Astonic-Mart/Products/tapes%20and%20adhesives/3_inch_flash_band.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329509/Astonic-Mart/Products/tapes%20and%20adhesives/3_inch_flash_band.png-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329509/Astonic-Mart/Products/tapes%20and%20adhesives/3_inch_flash_band.png-3.jpg',
 
         ],
 
@@ -568,9 +568,9 @@ Ideal for roofing and maintenance repairs`
         price: 9500,
 
         images: [
-            'assets/img/tapes and adhesives/4 inch flash band.jpg',
-            'assets/img/tapes and adhesives/4 inch flash band.jpg-2.jpg',
-            'src/assets/img/tapes and adhesives/4 inch flash band.jpg-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329523/Astonic-Mart/Products/tapes%20and%20adhesives/4_inch_flash_band.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329516/Astonic-Mart/Products/tapes%20and%20adhesives/4_inch_flash_band.jpg-2.jpg',
+            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786329523/Astonic-Mart/Products/tapes%20and%20adhesives/4_inch_flash_band.jpg-3.jpg'
         ],
 
         inStock: true,
@@ -615,8 +615,8 @@ Ideal for roofing and waterproofing projects`
         price: 8500,
 
         images: [
-            'assets/img/silicone and adhesives/soulj plus sealants-2.png',
-            'assets/img/silicone and adhesives/soulj plus sealants.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329254/Astonic-Mart/Products/silicone%20and%20adhesives/soulj_plus_sealants-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329250/Astonic-Mart/Products/silicone%20and%20adhesives/soulj_plus_sealants.png'
         ],
 
         inStock: true,
@@ -667,8 +667,8 @@ The easy-to-apply formula ensures smooth application and reliable bonding perfor
         price: 7500,
 
         images: [
-            'assets/img/silicone and adhesives/cubana construction adhesive.jpeg',
-            'assets/img/silicone and adhesives/cubana construction adhesive-2.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329130/Astonic-Mart/Products/silicone%20and%20adhesives/cubana_construction_adhesive.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329130/Astonic-Mart/Products/silicone%20and%20adhesives/cubana_construction_adhesive-2.jpg'
         ],
 
         inStock: true,
@@ -718,10 +718,10 @@ Its easy-to-apply formula ensures reliable bonding while reducing the need for m
         price: 13500,
 
         images: [
-            'assets/img/silicone and adhesives/asmaco pu foam sealant.jpg',
-            'assets/img/silicone and adhesives/Soudal pu foam sealant-3.jpg',
-            'assets/img/silicone and adhesives/Soudal pu foam sealant-4.jpg',
-            'assets/img/silicone and adhesives/Soudal pu foam sealant-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329130/Astonic-Mart/Products/silicone%20and%20adhesives/asmaco_pu_foam_sealant.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329231/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_pu_foam_sealant-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329231/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_pu_foam_sealant-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329232/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_pu_foam_sealant-5.jpg'
         ],
 
         inStock: true,
@@ -768,9 +768,9 @@ Its easy-to-apply formula ensures reliable bonding while reducing the need for m
 
 
         images: [
-            'assets/img/silicone and adhesives/MAGPOW 303 Contact Adhesive-2.jpg',
-            'assets/img/silicone and adhesives/MAGPOW 303 Contact Adhesive-3.avif',
-            'assets/img/silicone and adhesives/MAGPOW 303 Contact Adhesive.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329163/Astonic-Mart/Products/silicone%20and%20adhesives/MAGPOW_303_Contact_Adhesive-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329166/Astonic-Mart/Products/silicone%20and%20adhesives/MAGPOW_303_Contact_Adhesive-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329163/Astonic-Mart/Products/silicone%20and%20adhesives/MAGPOW_303_Contact_Adhesive.jpg'
         ],
 
         inStock: false,
@@ -822,8 +822,8 @@ Its easy-to-apply formula ensures reliable bonding while reducing the need for m
 
 
         images: [
-            'assets/img/silicone and adhesives/soudal wood glue.webp',
-            'assets/img/silicone and adhesives/soudal silicone sealant.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329236/Astonic-Mart/Products/silicone%20and%20adhesives/soudal_wood_glue.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329234/Astonic-Mart/Products/silicone%20and%20adhesives/soudal_silicone_sealant.png'
         ],
 
         inStock: true,
@@ -884,8 +884,8 @@ Soudal Sausage Silicone Sealant is a professional-grade one-component sealant su
 
 
         images: [
-            'assets/img/silicone and adhesives/ronchang silicone sealant.png',
-            'assets/img/silicone and adhesives/ronchang silicone sealant.png-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329200/Astonic-Mart/Products/silicone%20and%20adhesives/ronchang_silicone_sealant.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329184/Astonic-Mart/Products/silicone%20and%20adhesives/ronchang_silicone_sealant.png-2.png'
         ],
 
         inStock: true,
@@ -944,12 +944,12 @@ Soudal Sausage Silicone Sealant is a professional-grade one-component sealant su
 
 
         images: [
-            'assets/img/silicone and adhesives/fischer FIS V Plus 360 S.jpg',
-            'assets/img/silicone and adhesives/fischer FIS V Plus 360 S-2.webp',
-            'assets/img/silicone and adhesives/fischer FIS V Plus 360 S-3.webp',
-            'assets/img/silicone and adhesives/fischer FIS V Plus 360 S-4.webp',
-            'assets/img/silicone and adhesives/fischer FIS V Plus 360 S-5.webp',
-            'assets/img/silicone and adhesives/fischer FIS V Plus 360 S-6.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329155/Astonic-Mart/Products/silicone%20and%20adhesives/fischer_FIS_V_Plus_360_S.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329156/Astonic-Mart/Products/silicone%20and%20adhesives/fischer_FIS_V_Plus_360_S-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329156/Astonic-Mart/Products/silicone%20and%20adhesives/fischer_FIS_V_Plus_360_S-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329156/Astonic-Mart/Products/silicone%20and%20adhesives/fischer_FIS_V_Plus_360_S-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329157/Astonic-Mart/Products/silicone%20and%20adhesives/fischer_FIS_V_Plus_360_S-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329160/Astonic-Mart/Products/silicone%20and%20adhesives/fischer_FIS_V_Plus_360_S-6.webp'
         ],
 
         inStock: true,
@@ -1004,9 +1004,9 @@ Soudal Sausage Silicone Sealant is a professional-grade one-component sealant su
         price: 10500,
 
         images: [
-            'assets/img/silicone and adhesives/Soudal Silirub AC+ Sanitary Sealant.jpg',
-            'assets/img/silicone and adhesives/Soudal Silirub AC+ Sanitary Sealant-2.jpg',
-            'assets/img/silicone and adhesives/Soudal Silirub AC+ Sanitary Sealant-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429756/Astonic-Mart/Products/remaining-local-images/g917rcyavv2rziavx1ob.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429757/Astonic-Mart/Products/remaining-local-images/cpj62pdvykzeemuwkqzt.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429758/Astonic-Mart/Products/remaining-local-images/umqmyv0o54hw9cpc9qfj.jpg'
         ],
 
         inStock: true,
@@ -1058,13 +1058,13 @@ Soudal Sausage Silicone Sealant is a professional-grade one-component sealant su
         price: 9500,
 
         images: [
-            'assets/img/caulking foam guns/caulking guns.jpg',
-            'assets/img/caulking foam guns/caulking guns-2.jpg',
-            'assets/img/caulking foam guns/caulking guns-3.jpg',
-            'assets/img/caulking foam guns/caulking guns-4.jpg',
-            'assets/img/caulking foam guns/caulking guns-5.jpg',
-            'assets/img/caulking foam guns/caulking guns-6.jpg',
-            'assets/img/caulking foam guns/caulking guns-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304652/Astonic-Mart/Products/caulking%20foam%20guns/caulking_guns.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304653/Astonic-Mart/Products/caulking%20foam%20guns/caulking_guns-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304654/Astonic-Mart/Products/caulking%20foam%20guns/caulking_guns-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304656/Astonic-Mart/Products/caulking%20foam%20guns/caulking_guns-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304657/Astonic-Mart/Products/caulking%20foam%20guns/caulking_guns-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304658/Astonic-Mart/Products/caulking%20foam%20guns/caulking_guns-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304659/Astonic-Mart/Products/caulking%20foam%20guns/caulking_guns-7.jpg'
         ],
 
         inStock: true,
@@ -1126,12 +1126,12 @@ User Guide
         price: 18000,
 
         images: [
-            'assets/img/caulking foam guns/Pu Expanding Foam Gun,.jpg',
-            'assets/img/caulking foam guns/caulking guns-2.jpg',
-            'assets/img/caulking foam guns/Pu Expanding Foam Gun-3.jpg',
-            'assets/img/caulking foam guns/Pu Expanding Foam Gun-4.jpg',
-            'assets/img/caulking foam guns/Pu Expanding Foam Gun-5.jpg',
-            'assets/img/caulking foam guns/Pu Expanding Foam Gun-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304660/Astonic-Mart/Products/caulking%20foam%20guns/Pu_Expanding_Foam_Gun%2C.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304653/Astonic-Mart/Products/caulking%20foam%20guns/caulking_guns-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304661/Astonic-Mart/Products/caulking%20foam%20guns/Pu_Expanding_Foam_Gun-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304661/Astonic-Mart/Products/caulking%20foam%20guns/Pu_Expanding_Foam_Gun-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304662/Astonic-Mart/Products/caulking%20foam%20guns/Pu_Expanding_Foam_Gun-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304663/Astonic-Mart/Products/caulking%20foam%20guns/Pu_Expanding_Foam_Gun-6.jpg'
         ],
 
         inStock: true,
@@ -1193,7 +1193,7 @@ User Guide
         price: 8500,
 
         images: [
-            'assets/img/guns and trimmers/Professional Silicone Sealant Gun 400ml.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307540/Astonic-Mart/Products/guns%20and%20trimmers/Professional_Silicone_Sealant_Gun_400ml.jpg',
 
         ],
 
@@ -1235,8 +1235,8 @@ User Guide
         price: 10000,
 
         images: [
-            'assets/img/caulking foam guns/TOTAL CAULKING GUN 9inch THT21809.jpg',
-            'assets/img/caulking foam guns/TOTAL CAULKING GUN 9inch THT21809.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304667/Astonic-Mart/Products/caulking%20foam%20guns/TOTAL_CAULKING_GUN_9inch_THT21809.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304667/Astonic-Mart/Products/caulking%20foam%20guns/TOTAL_CAULKING_GUN_9inch_THT21809.jpg',
 
         ],
 
@@ -1301,10 +1301,9 @@ Product Label
         price: 18500,
 
         images: [
-            'assets/img/caulking foam guns/Silicone Gun 9 inch for 300 ml.jpg',
-            'assets/img/caulking foam guns/Silicone Gun 9 inch for 300 ml-3.jpg',
-            'assets/img/caulking foam guns/Silicone Gun 9 inch for 300 ml-2.jpg',
-            'assets/img/caulking-guns/300ml-sausage-gun-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304664/Astonic-Mart/Products/caulking%20foam%20guns/Silicone_Gun_9_inch_for_300_ml.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304666/Astonic-Mart/Products/caulking%20foam%20guns/Silicone_Gun_9_inch_for_300_ml-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304665/Astonic-Mart/Products/caulking%20foam%20guns/Silicone_Gun_9_inch_for_300_ml-2.jpg',
         ],
 
         inStock: true,
@@ -1367,9 +1366,9 @@ User Guide
         discountPrice: 58000,
 
         images: [
-            'assets/img/silicone and adhesives/fischer FIS V Plus 390 S-1.jpg',
-            'assets/img/silicone and adhesives/fischer FIS V Plus 390 S-2.webp',
-            'assets/img/silicone and adhesives/fischer FIS V Plus 390 S-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329160/Astonic-Mart/Products/silicone%20and%20adhesives/fischer_FIS_V_Plus_390_S-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329159/Astonic-Mart/Products/silicone%20and%20adhesives/fischer_FIS_V_Plus_390_S-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329161/Astonic-Mart/Products/silicone%20and%20adhesives/fischer_FIS_V_Plus_390_S-3.webp'
         ],
 
         model: 'FIS EM Plus 390 S',
@@ -1428,11 +1427,11 @@ User Guide
 
 
         images: [
-            'assets/img/silicone and adhesives/Soudal Mitre Kit 50g + 200ml.jpg',
-            'assets/img/silicone and adhesives/Soudal Mitre Kit 50g + 200ml-2.jpg',
-            'assets/img/silicone and adhesives/Soudal Mitre Kit 50g + 200ml-3.jpg',
-            'assets/img/silicone and adhesives/Soudal Mitre Kit 50g + 200ml-4.webp',
-            'assets/img/silicone and adhesives/Soudal Mitre Kit 50g + 200ml-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429759/Astonic-Mart/Products/remaining-local-images/hlw3oryvym6ckiuxskdc.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429761/Astonic-Mart/Products/remaining-local-images/nhplmlwczsb4uyz83qny.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429763/Astonic-Mart/Products/remaining-local-images/nxfzewkkbuuqarw6ivjh.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429765/Astonic-Mart/Products/remaining-local-images/x4r5shucuo5l3rdsmrji.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429767/Astonic-Mart/Products/remaining-local-images/wptfme0pqmtf6jox7hwv.jpg'
         ],
 
         model: 'Mitre Kit 2C',
@@ -1500,9 +1499,9 @@ User Guide
         price: 18250,
 
         images: [
-            'assets/img/silicone and adhesives/Soudal Mitre Kit 100g + 400ml-1.jpeg',
-            'assets/img/silicone and adhesives/Soudal Mitre Kit 100g + 400ml.webp',
-            'assets/img/silicone and adhesives/Soudal Mitre Kit 100g + 400ml-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429768/Astonic-Mart/Products/remaining-local-images/farslkqzrfsga2jruelq.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429769/Astonic-Mart/Products/remaining-local-images/slutitqpp8mu0ayqt5vi.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429771/Astonic-Mart/Products/remaining-local-images/kc342lk6njyvobygbvso.webp'
         ],
 
         model: 'Mitre Kit',
@@ -1556,11 +1555,11 @@ User Guide
         price: 8500,
 
         images: [
-            'assets/img/silicone and adhesives/pidilite m seal regular epoxy compound.webp',
-            'assets/img/silicone and adhesives/pidilite m seal regular epoxy compound-2.jpeg',
-            'assets/img/silicone and adhesives/pidilite m seal regular epoxy compound-3.jpg',
-            'assets/img/silicone and adhesives/pidilite m seal regular epoxy compound-4.jpg',
-            'assets/img/silicone and adhesives/pidilite m seal regular epoxy compound-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329166/Astonic-Mart/Products/silicone%20and%20adhesives/pidilite_m_seal_regular_epoxy_compound.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329166/Astonic-Mart/Products/silicone%20and%20adhesives/pidilite_m_seal_regular_epoxy_compound-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329166/Astonic-Mart/Products/silicone%20and%20adhesives/pidilite_m_seal_regular_epoxy_compound-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329167/Astonic-Mart/Products/silicone%20and%20adhesives/pidilite_m_seal_regular_epoxy_compound-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329181/Astonic-Mart/Products/silicone%20and%20adhesives/pidilite_m_seal_regular_epoxy_compound-5.jpg'
         ],
 
         model: 'M-Seal Regular',
@@ -1629,9 +1628,9 @@ User Guide
 
 
         images: [
-            'assets/img/silicone and adhesives/TCM PU9688 Glazing Sealant.jpg',
-            'assets/img/silicone and adhesives/TCM PU9688 Glazing Sealant-2.jpg',
-            'assets/img/silicone and adhesives/TCM PU9688 Glazing Sealant-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329256/Astonic-Mart/Products/silicone%20and%20adhesives/TCM_PU9688_Glazing_Sealant.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329256/Astonic-Mart/Products/silicone%20and%20adhesives/TCM_PU9688_Glazing_Sealant-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329257/Astonic-Mart/Products/silicone%20and%20adhesives/TCM_PU9688_Glazing_Sealant-3.jpg'
         ],
 
         model: 'PU 988',
@@ -1695,13 +1694,13 @@ User Guide
 
 
         images: [
-            'assets/img/tapes and adhesives/Bostik Flashband Tape 10m x 3.jpg',
-            'assets/img/tapes and adhesives/Bostik Flashband Tape 10m x 3-2.jpg',
-            'assets/img/tapes and adhesives/Bostik Flashband Tape 10m x 3-3.jpg',
-            'assets/img/tapes and adhesives/Bostik Flashband Tape 10m x 3-4.jpg',
-            'assets/img/tapes and adhesives/Bostik Flashband Tape 10m x 3-5.jpg',
-            'assets/img/tapes and adhesives/Bostik Flashband Tape 10m x 3-6.jpg',
-            'assets/img/tapes and adhesives/Bostik Flashband Tape 10m x 3-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329539/Astonic-Mart/Products/tapes%20and%20adhesives/Bostik_Flashband_Tape_10m_x_3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329539/Astonic-Mart/Products/tapes%20and%20adhesives/Bostik_Flashband_Tape_10m_x_3-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329538/Astonic-Mart/Products/tapes%20and%20adhesives/Bostik_Flashband_Tape_10m_x_3-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329540/Astonic-Mart/Products/tapes%20and%20adhesives/Bostik_Flashband_Tape_10m_x_3-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329541/Astonic-Mart/Products/tapes%20and%20adhesives/Bostik_Flashband_Tape_10m_x_3-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329545/Astonic-Mart/Products/tapes%20and%20adhesives/Bostik_Flashband_Tape_10m_x_3-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329545/Astonic-Mart/Products/tapes%20and%20adhesives/Bostik_Flashband_Tape_10m_x_3-7.jpg'
         ],
 
         inStock: true,
@@ -1753,9 +1752,9 @@ User Guide
         inStock: true,
 
         images: [
-            'assets/img/silicone and adhesives/general purpose pu foam.jpg',
-            'assets/img/silicone and adhesives/general purpose pu foam-2.jpg',
-            'assets/img/silicone and adhesives/general purpose pu foam-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329158/Astonic-Mart/Products/silicone%20and%20adhesives/general_purpose_pu_foam.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329163/Astonic-Mart/Products/silicone%20and%20adhesives/general_purpose_pu_foam-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329163/Astonic-Mart/Products/silicone%20and%20adhesives/general_purpose_pu_foam-3.jpg'
         ],
 
         description: `
@@ -1804,7 +1803,7 @@ User Guide
         inStock: true,
 
         images: [
-            'assets/img/silicone and adhesives/sea unik pu foam.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329201/Astonic-Mart/Products/silicone%20and%20adhesives/sea_unik_pu_foam.jpg'
         ],
 
         description: `
@@ -1855,8 +1854,8 @@ User Guide
         price: 9500,
 
         images: [
-            'assets/img/silicone and adhesives/SKY-7000 Silicone one Weatherproof Adhesive.jpg',
-            'assets/img/silicone and adhesives/SKY-7000 Silicone one Weatherproof Adhesive.jp-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329201/Astonic-Mart/Products/silicone%20and%20adhesives/SKY-7000_Silicone_one_Weatherproof_Adhesive.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329201/Astonic-Mart/Products/silicone%20and%20adhesives/SKY-7000_Silicone_one_Weatherproof_Adhesive.jp-2.jpg'
         ],
 
         inStock: true,
@@ -1920,7 +1919,7 @@ Accessories Included:
         price: 10500,
 
         images: [
-            'assets/img/silicone and adhesives/SKY-9000 Silicone one Weatherproof Adhesive.jp-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329208/Astonic-Mart/Products/silicone%20and%20adhesives/SKY-9000_Silicone_one_Weatherproof_Adhesive.jp-2.png'
         ],
 
         inStock: true,
@@ -1982,8 +1981,8 @@ Accessories Included:
 
 
         images: [
-            "assets/img/silicone and adhesives/Rongtai RT-308 Silicon Rubber Sealant 300ML.jpg",
-            "assets/img/silicone and adhesives/Rongtai RT-308 Silicon Rubber Sealant 300ML-2.png",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786329171/Astonic-Mart/Products/silicone%20and%20adhesives/Rongtai_RT-308_Silicon_Rubber_Sealant_300ML.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786329200/Astonic-Mart/Products/silicone%20and%20adhesives/Rongtai_RT-308_Silicon_Rubber_Sealant_300ML-2.png",
 
         ],
 
@@ -2069,12 +2068,11 @@ Accessories Included:
         price: 35000,
 
         images: [
-            'assets/img/silicone and adhesives/Soudal Fire Rated Expanding Foam-1.jpg',
-            'assets/img/silicone and adhesives/Soudal Fire Rated Expanding Foam-2.jpg',
-            'assets/img/silicone and adhesives/Soudal Fire Rated Expanding Foam.jpg',
-            'assets/img/silicone and adhesives/Soudal Fire Rated Expanding Foam-3.jpg',
-            'assets/img/silicone and adhesives/Soudal Fire Rated Expanding Foam-4.jpg',
-            'assets/img/silicone and adhesives/Soudal Fire Rated Expanding Foam-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329224/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_Fire_Rated_Expanding_Foam-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329201/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_Fire_Rated_Expanding_Foam.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329224/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_Fire_Rated_Expanding_Foam-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329224/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_Fire_Rated_Expanding_Foam-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329224/Astonic-Mart/Products/silicone%20and%20adhesives/Soudal_Fire_Rated_Expanding_Foam-5.jpg'
         ],
 
 
@@ -2145,7 +2143,7 @@ User Instructions
         price: 40000,
 
         images: [
-            'assets/img/silicone and adhesives/Fevicol 1K PUR Adhesive 1kg - 6 Pieces.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329151/Astonic-Mart/Products/silicone%20and%20adhesives/Fevicol_1K_PUR_Adhesive_1kg_-_6_Pieces.png'
         ],
 
         description: 'The Fevicol 1K PUR Adhesive is a premium single-component moisture-curing polyurethane adhesive designed for industrial bonding applications. It provides exceptional bonding strength, high water resistance, superior heat resistance and excellent durability for wood, metal, laminates, plastics and construction materials. This package contains six 1kg cartridges suitable for professional woodworking, furniture production, doors, windows and panel fabrication.',
@@ -2217,9 +2215,9 @@ Accessories:
         price: 29000,
 
         images: [
-            'assets/img/silicone and adhesives/Fevicol 1K PUR Adhesive 1kg-1.jpg',
-            'assets/img/silicone and adhesives/Fevicol 1K PUR Adhesive 1kg-2.jpg',
-            'assets/img/silicone and adhesives/Fevicol 1K PUR Adhesive 1kg.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329136/Astonic-Mart/Products/silicone%20and%20adhesives/Fevicol_1K_PUR_Adhesive_1kg-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329136/Astonic-Mart/Products/silicone%20and%20adhesives/Fevicol_1K_PUR_Adhesive_1kg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329136/Astonic-Mart/Products/silicone%20and%20adhesives/Fevicol_1K_PUR_Adhesive_1kg.webp'
         ],
 
         description: 'Fevicol 1K PUR Adhesive is a premium moisture-curing polyurethane adhesive formulated for high-strength industrial bonding applications. It offers excellent adhesion, superior water resistance, heat resistance and long-lasting performance on wood, laminates, metals and composite materials.',
@@ -2286,10 +2284,10 @@ Application Nozzle
         showSimilar: true,
 
         images: [
-            'assets/img/silicone and adhesives/ABRO Leakage Repair Waterproof Tape-1.jpg',
-            'assets/img/silicone and adhesives/ABRO Leakage Repair Waterproof Tape-2.jpg',
-            'assets/img/silicone and adhesives/ABRO Leakage Repair Waterproof Tape-3.jpg',
-            'assets/img/silicone and adhesives/ABRO Leakage Repair Waterproof Tape-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329124/Astonic-Mart/Products/silicone%20and%20adhesives/ABRO_Leakage_Repair_Waterproof_Tape-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329126/Astonic-Mart/Products/silicone%20and%20adhesives/ABRO_Leakage_Repair_Waterproof_Tape-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329126/Astonic-Mart/Products/silicone%20and%20adhesives/ABRO_Leakage_Repair_Waterproof_Tape-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329126/Astonic-Mart/Products/silicone%20and%20adhesives/ABRO_Leakage_Repair_Waterproof_Tape-4.jpg'
         ],
 
         inStock: true,
@@ -2328,3 +2326,4 @@ Suitable for both indoor and outdoor applications
 
 
 ]
+

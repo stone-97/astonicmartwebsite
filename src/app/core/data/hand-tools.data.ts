@@ -16,10 +16,8 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 55000, // adjust based on your market price
 
      images: [
-       'assets/img/spanners and wrenches/Ingco Combination spanner set 12pc 6-32mm HKSPA1143.jpg',
-       'assets/img/tools/ingco-spanner-set-2.jpg',
-       'assets/img/tools/ingco-spanner-set-3.jpg'
-     ],
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430724/Astonic-Mart/Products/final-local-images/Covenant_3_4_inches_Torque_Wrench_100_500Nm_fuplzg.png'
+        ],
 
      inStock: true,
      jumiaLink: '',
@@ -64,7 +62,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 65000, // adjust based on your market price
 
      images: [
-       'assets/img/spanners and wrenches/half Inch Drive Tools Socket Wrench Set - 24 Pcs.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329327/Astonic-Mart/Products/spanners%20and%20wrenches/half_Inch_Drive_Tools_Socket_Wrench_Set_-_24_Pcs.jpg',
      
      ],
 
@@ -111,9 +109,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 8000, // adjust based on your market price
 
      images: [
-       'assets/img/hammers and mallets/ingco-claw-hammer-Hammer (HCH80808).jpg',
-       'assets/img/tools/ingco-hammer-2.jpg',
-       'assets/img/tools/ingco-hammer-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786307567/Astonic-Mart/Products/hammers%20and%20mallets/ingco-claw-hammer-Hammer_HCH80808.jpg',
      ],
 
      inStock: true,
@@ -157,8 +153,8 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 14000, // adjust based on your market price
 
      images: [
-      'assets/img/screw drivers/Ingco 6 pcs Screwdriver set - (HKSDO628).jpg2.jpg',
-       'assets/img/screw drivers/Ingco 6 pcs Screwdriver set - (HKSDO628).jpg',
+      'https://res.cloudinary.com/taus5tit/image/upload/v1786329018/Astonic-Mart/Products/screw%20drivers/Ingco_6_pcs_Screwdriver_set_-_HKSDO628.jpg2.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329018/Astonic-Mart/Products/screw%20drivers/Ingco_6_pcs_Screwdriver_set_-_HKSDO628.jpg',
   
      ],
 
@@ -203,9 +199,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 9000, // adjust based on your market price
 
      images: [
-       'assets/img/pliers and cutter/Combination Pliers INGCO HCP28208.jpg',
-       'assets/img/tools/ingco-pliers-2.jpg',
-       'assets/img/tools/ingco-pliers-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309834/Astonic-Mart/Products/pliers%20and%20cutter/Combination_Pliers_INGCO_HCP28208.jpg',
      ],
 
      inStock: true,
@@ -249,9 +243,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 95000, // adjust based on your market price
 
      images: [
-       'assets/img/pliers and cutter/Bolt Cutter 48 inches Ingco HBC0848.jpg',
-       'assets/img/tools/ingco-bolt-cutter-48-2.jpg',
-       'assets/img/tools/ingco-bolt-cutter-48-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309833/Astonic-Mart/Products/pliers%20and%20cutter/Bolt_Cutter_48_inches_Ingco_HBC0848.jpg',
      ],
 
      inStock: true,
@@ -296,9 +288,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 9500, // adjust based on your market price
 
      images: [
-       'assets/img/spanners and wrenches/Ingco Industrial Pipe Wrench 8 inch (200mm).jpeg',
-       'assets/img/tools/ingco-pipe-wrench-8-2.jpg',
-       'assets/img/tools/ingco-pipe-wrench-8-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329330/Astonic-Mart/Products/spanners%20and%20wrenches/Ingco_Industrial_Pipe_Wrench_8_inch_200mm.jpg',
      ],
 
      inStock: true,
@@ -345,8 +335,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 8500, // adjust based on your market price (prices vary widely by region, often equivalent to $4ΓÇô15 USD)
 
      images: [
-       'assets/img/sockets and ratchets/Total Ratchet Wrench  1 by 4 inch.webp',
-       'assets/img/tools/total-ratchet-1-4-tht106146-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329286/Astonic-Mart/Products/sockets%20and%20ratchets/Total_Ratchet_Wrench_1_by_4_inch.webp',
      ],
 
      inStock: true,
@@ -395,9 +384,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 9675, // adjust based on your market price (commonly around Γéª9,000 - Γéª15,000 in Nigeria)
 
      images: [
-       'assets/img/drivers/Ingco 6 pcs Screwdriver set - (HKSDO628).jpg',
-       'assets/img/tools/ingco-screwdriver-set-hksd0628-2.jpg',
-       'assets/img/tools/ingco-screwdriver-set-hksd0628-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786306349/Astonic-Mart/Products/drivers/Ingco_6_pcs_Screwdriver_set_-_HKSDO628.jpg',
      ],
 
      inStock: true,
@@ -447,9 +434,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 18500, // adjust based on your market price (commonly Γéª15,000 - Γéª25,000 in Nigeria for similar 8-piece long sets)
 
      images: [
-       'assets/img/drivers/8PCS-Magnetic-Nut-Driver.jpg',
-       'assets/img/tools/magnetic-nut-driver-set-6-inch-2.jpg',
-       'assets/img/tools/magnetic-nut-driver-set-6-inch-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786306348/Astonic-Mart/Products/drivers/8PCS-Magnetic-Nut-Driver.jpg',
      ],
 
      inStock: true,
@@ -496,9 +481,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 65000, // adjust based on your market price (commonly Γéª55,000 - Γéª120,000 in Nigeria depending on brand and dies included)
 
      images: [
-       'assets/img/crimping tools/4-120mm Hydraulic Cable Lug Crimping Tools.webp',
-       'assets/img/tools/hydraulic-crimper-4-120mm-2.jpg',
-       'assets/img/tools/hydraulic-crimper-4-120mm-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786305643/Astonic-Mart/Products/crimping%20tools/4-120mm_Hydraulic_Cable_Lug_Crimping_Tools.webp',
      ],
 
      inStock: true,
@@ -546,10 +529,10 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 18500, // adjust based on your market price (commonly Γéª7,500 - Γéª12,000 in Nigeria)
 
      images: [
-       'assets/img/chisels and punches/4PCS Wood Chisel - INGCO HKTWC0401.webp',
-       'assets/img/chisels and punches/4PCS Wood Chisel - INGCO HKTWC0401-2.jpeg',
-       'assets/img/chisels and punches/4PCS Wood Chisel - INGCO HKTWC0401-4.webp',
-       'assets/img/chisels and punches/4PCS Wood Chisel - INGCO HKTWC0401.webp'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786304779/Astonic-Mart/Products/chisels%20and%20punches/4PCS_Wood_Chisel_-_INGCO_HKTWC0401.webp',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786304781/Astonic-Mart/Products/chisels%20and%20punches/4PCS_Wood_Chisel_-_INGCO_HKTWC0401-2.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786304788/Astonic-Mart/Products/chisels%20and%20punches/4PCS_Wood_Chisel_-_INGCO_HKTWC0401-4.webp',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786304779/Astonic-Mart/Products/chisels%20and%20punches/4PCS_Wood_Chisel_-_INGCO_HKTWC0401.webp'
      ],
 
      inStock: true,
@@ -595,7 +578,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 14500, // adjust based on your market price (commonly Γéª12,000 - Γéª18,000 in Nigeria)
 
      images: [
-       'assets/img/allen keys and hand riveters/bosc-allen-keys-9pcs.webp',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786304023/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/bosc-allen-keys-9pcs.webp',
    
      ],
 
@@ -641,9 +624,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 14000, // adjust based on your market price
 
      images: [
-       '/assets/img/allen keys and hand riveters/ingco Hand Riveter 10.5 Inch HRS108 ING-HT.webp2.webp',
-       'assets/img/tools/ingco-riveter-2.jpg',
-       'assets/img/tools/ingco-riveter-3.jpg'
+       '/https://res.cloudinary.com/taus5tit/image/upload/v1786304024/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/ingco_Hand_Riveter_10.5_Inch_HRS108_ING-HT.webp2.webp',
      ],
 
      inStock: true,
@@ -688,9 +669,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 6500, // adjust based on your market price (commonly Γéª4,200 - Γéª8,000 in Nigeria)
 
      images: [
-       'assets/img/putty, utility knives and blades/INGCO_utility_knife_HUK615.jpg',
-       'assets/img/tools/ingco-utility-knife-huk615-2.jpg',
-       'assets/img/tools/ingco-utility-knife-huk615-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786311388/Astonic-Mart/Products/putty%2C%20utility%20knives%20and%20blades/INGCO_utility_knife_HUK615.jpg',
      ],
 
      inStock: true,
@@ -739,9 +718,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 12500, // adjust based on your market price (commonly Γéª10,000 - Γéª18,000 in Nigeria for similar 3-piece sets)
 
      images: [
-       'assets/img/putty, utility knives and blades/Putty Knife Scraper 2 and 3 inch.jpg',
-       'assets/img/tools/putty-knife-set-2-3-5-inch-2.jpg',
-       'assets/img/tools/putty-knife-set-2-3-5-inch-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786311389/Astonic-Mart/Products/putty%2C%20utility%20knives%20and%20blades/Putty_Knife_Scraper_2_and_3_inch.jpg',
      ],
 
      inStock: true,
@@ -788,8 +765,8 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 8500, // adjust based on your market price (commonly Γéª6,000 - Γéª12,000 in Nigeria)
 
      images: [
-       'assets/img/drill bits and screws/5 PieceFlat-Wood-Bit-Set.jpg',
-       'assets/img/drill bits and screws/5_Piece_Flat_Wood_Bit_Set_2__13832-2.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786306040/Astonic-Mart/Products/drill%20bits%20and%20screws/5_PieceFlat-Wood-Bit-Set.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786306041/Astonic-Mart/Products/drill%20bits%20and%20screws/5_Piece_Flat_Wood_Bit_Set_2__13832-2.jpg',
        
      ],
 
@@ -834,9 +811,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 12500, // adjust based on your market price (commonly Γéª9,000 - Γéª15,000 in Nigeria)
 
      images: [
-       'assets/img/hammers and mallets/Total Rubber Hammer Mallet 16oz - THT761616.avif',
-       'assets/img/tools/total-rubber-hammer-tht761616-2.jpg',
-       'assets/img/tools/total-rubber-hammer-tht761616-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786307572/Astonic-Mart/Products/hammers%20and%20mallets/Total_Rubber_Hammer_Mallet_16oz_-_THT761616.avif',
      ],
 
      inStock: true,
@@ -884,9 +859,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 4500, // adjust based on your market price (commonly Γéª3,500 - Γéª6,000 in Nigeria for single piece)
 
      images: [
-       'assets/img/drill bits and screws/Bosch-CYL-3-Concrete-drill-bit-8 x 80 x 120 mm.jpg',
-       'assets/img/tools/bosch-cyl-3-8x80x120-2.jpg',
-       'assets/img/tools/bosch-cyl-3-8x80x120-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786306051/Astonic-Mart/Products/drill%20bits%20and%20screws/Bosch-CYL-3-Concrete-drill-bit-8_x_80_x_120_mm.jpg',
      ],
 
      inStock: true,
@@ -935,9 +908,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 18500, // adjust based on your market price (commonly Γéª12,000 - Γéª25,000 in Nigeria for 31-piece kits)
 
      images: [
-       'assets/img/sand papers and disc/Buffing Polishing Pads - 3 Inch 31 Pieces.jpg',
-       'assets/img/tools/3-inch-31pcs-polishing-pad-kit-2.jpg',
-       'assets/img/tools/3-inch-31pcs-polishing-pad-kit-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786328935/Astonic-Mart/Products/sand%20papers%20and%20disc/Buffing_Polishing_Pads_-_3_Inch_31_Pieces.jpg',
      ],
 
      inStock: true,
@@ -985,9 +956,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 18500, // adjust based on your market price (commonly Γéª15,000 - Γéª28,000 in Nigeria)
 
      images: [
-       'assets/img/tools box and bags/Stanley 16 Inch Tools Box-2.webp',
-       'assets/img/tools/stanley-16-inch-toolbox-2.jpg',
-       'assets/img/tools/stanley-16-inch-toolbox-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329778/Astonic-Mart/Products/tools%20box%20and%20bags/Stanley_16_Inch_Tools_Box-2.webp',
      ],
 
      inStock: true,
@@ -1036,9 +1005,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 24500, // adjust based on your market price (commonly Γéª18,000 - Γéª32,000 in Nigeria)
 
      images: [
-       'assets/img/tools box and bags/ingco-tool-bag-backpack-industrial-8kg.webp',
-       'assets/img/tools/ingco-tool-backpack-hbp01028-2.jpg',
-       'assets/img/tools/ingco-tool-backpack-hbp01028-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329775/Astonic-Mart/Products/tools%20box%20and%20bags/ingco-tool-bag-backpack-industrial-8kg.webp',
      ],
 
      inStock: true,
@@ -1085,9 +1052,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 85000, // adjust based on your market price (commonly Γéª65,000 - Γéª110,000 in Nigeria for 1200mm models)
 
      images: [
-       'assets/img/tiles cutters/total tile cutter 120mm THT571201.jpg',
-       'assets/img/tools/total-tile-cutter-tht571201-2.jpg',
-       'assets/img/tools/total-tile-cutter-tht571201-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329625/Astonic-Mart/Products/tiles%20cutters/total_tile_cutter_120mm_THT571201.jpg',
      ],
 
      inStock: true,
@@ -1138,9 +1103,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 250000, // adjust based on your market price (commonly Γéª45,000 - Γéª85,000 in Nigeria)
 
      images: [
-       'assets/img/bearing pullers/VEVOR Bearing Puller Kit 14-Piece, 5 Ton.jpg',
-       'assets/img/tools/vevor-14pcs-bearing-puller-kit-5ton-2.jpg',
-       'assets/img/tools/vevor-14pcs-bearing-puller-kit-5ton-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786304254/Astonic-Mart/Products/bearing%20pullers/VEVOR_Bearing_Puller_Kit_14-Piece%2C_5_Ton.jpg',
      ],
 
      inStock: true,
@@ -1199,9 +1162,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 18500, // adjust based on your market price (commonly Γéª12,000 - Γéª28,000 in Nigeria depending on tooth count)
 
      images: [
-       'assets/img/saw blades/bosch-circular-saw-blade-0-inch.webp',
-       'assets/img/tools/bosch-10-inch-circular-saw-blade-2.jpg',
-       'assets/img/tools/bosch-10-inch-circular-saw-blade-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786328963/Astonic-Mart/Products/saw%20blades/bosch-circular-saw-blade-0-inch.webp',
      ],
 
      inStock: true,
@@ -1253,9 +1214,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 12500, // adjust based on your market price (commonly Γéª8,000 - Γéª18,000 in Nigeria)
 
      images: [
-       'assets/img/hand saws/INGCO Hand Saw 22 inch 550mm (HHAS08550).jpg',
-       'assets/img/tools/ingco-hand-saw-hhas08550-2.jpg',
-       'assets/img/tools/ingco-hand-saw-hhas08550-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786307696/Astonic-Mart/Products/hand%20saws/INGCO_Hand_Saw_22_inch_550mm_HHAS08550.webp',
      ],
 
      inStock: true,
@@ -1305,9 +1264,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 55000, // adjust based on your market price (commonly Γéª35,000 - Γéª80,000 in Nigeria depending on quality and brand)
 
      images: [
-       'assets/img/flaringtools and saws/hvac flaring tool kit.jpg',
-       'assets/img/tools/hvac-flaring-swaging-kit-with-cutter-2.jpg',
-       'assets/img/tools/hvac-flaring-swaging-kit-with-cutter-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786306597/Astonic-Mart/Products/flaringtools%20and%20saws/hvac_flaring_tool_kit.jpg',
      ],
 
      inStock: true,
@@ -1359,10 +1316,9 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 12500, // adjust based on your market price (commonly Γéª8,000 - Γéª18,000 in Nigeria)
 
      images: [
-       'assets/img/cutting and grinding disc/Ingco 30-Piece Cutting & Grinding Disc Set ΓÇô MCD076302.webp',
-       'assets/img/tools/ingco-mcd07630-30pcs-disc-set-2.jpg',
-       'assets/img/tools/ingco-mcd07630-30pcs-disc-set-3.jpg'
-     ],
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429585/Astonic-Mart/Products/remaining-local-images/kcurx9zks4nj3vnii07v.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429586/Astonic-Mart/Products/remaining-local-images/nepjkqhazbwa1tnugw4q.webp'
+        ],
 
      inStock: true,
      jumiaLink: '',
@@ -1413,10 +1369,8 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 18500, // adjust based on your market price (commonly Γéª12,000 - Γéª25,000 in Nigeria)
 
      images: [
-       'assets/img/driil bits and screws/dewalt-32-piece-screwdriver-bit-set-dt7969m-1-800x800.jpeg',
-       'assets/img/tools/dewalt-dt7969-32pcs-bit-set-2.jpg',
-       'assets/img/tools/dewalt-dt7969-32pcs-bit-set-3.jpg'
-     ],
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429587/Astonic-Mart/Products/remaining-local-images/yaoq1ce5yzhkcwfhmeji.jpg'
+        ],
 
      inStock: true,
      jumiaLink: '',
@@ -1469,9 +1423,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 5000,
 
      images: [
-       'assets/img/sand papers and disc/982-ROUND SANDING PAPER 225 mm 100 GRIT.jpg',
-       'assets/img/tools/round sanding paper 225mm 100 grit 2.jpg',
-       'assets/img/tools/round sanding paper 225mm 100 grit 3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786328935/Astonic-Mart/Products/sand%20papers%20and%20disc/982-ROUND_SANDING_PAPER_225_mm_100_GRIT.jpg',
      ],
 
      inStock: true,
@@ -1512,8 +1464,8 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   
 
   images: [
-    'assets/img/chalk line reels/ingco chalk line reels HCLR0130.webp-2.jpeg',
-    'assets/img/chalk line reels/ingco chalk line reels HCLR0130.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304759/Astonic-Mart/Products/chalk%20line%20reels/ingco_chalk_line_reels_HCLR0130.webp-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304758/Astonic-Mart/Products/chalk%20line%20reels/ingco_chalk_line_reels_HCLR0130.webp'
   ],
 
   videos: [
@@ -1588,10 +1540,10 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      discountPrice: 48000,
 
      images: [
-       'assets/img/tools sets/froid 45 degree flaring and swaging tool kit.avif',
-       'assets/img/tools sets/froid 45 degree flaring and swaging tool kit.avif-2.jpeg',
-       'assets/img/tools sets/froid 45 degree flaring and swaging tool kit.avif-3.jpeg',
-       'assets/img/tools sets/froid 45 degree flaring and swaging tool kit.avif-4.jpeg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/froid_45_degree_flaring_and_swaging_tool_kit.avif',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/froid_45_degree_flaring_and_swaging_tool_kit.avif-2.jpeg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/froid_45_degree_flaring_and_swaging_tool_kit.avif-3.jpeg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/froid_45_degree_flaring_and_swaging_tool_kit.avif-4.jpeg'
      ],
 
      videos: [
@@ -1672,10 +1624,10 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      price: 17500,
 
      images: [
-       'assets/img/nailers and staplers/ingco 3 in 1 staple gun.png',
-       'assets/img/nailers and staplers/ingco 3 in 1 staple gun.png-4.webp',
-       'sassets/img/nailers and staplers/ingco 3 in 1 staple gun-2.png',
-       'assets/img/nailers and staplers/ingco 3 in 1 staple gun.png-3.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309268/Astonic-Mart/Products/nailers%20and%20staplers/ingco_3_in_1_staple_gun.png',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309268/Astonic-Mart/Products/nailers%20and%20staplers/ingco_3_in_1_staple_gun.png-4.webp',
+       'shttps://res.cloudinary.com/taus5tit/image/upload/v1786309272/Astonic-Mart/Products/nailers%20and%20staplers/ingco_3_in_1_staple_gun-2.png',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309269/Astonic-Mart/Products/nailers%20and%20staplers/ingco_3_in_1_staple_gun.png-3.jpg'
      ],
 
      inStock: true,
@@ -1719,10 +1671,10 @@ Ideal for professional and DIY applications`,
     
      price: 17500,
      images: [
-       'assets/img/nailers and staplers/INGCO 2-IN-1 STAPLE GUN - HSG1406.jpeg',
-       'assets/img/nailers and staplers/INGCO 2-IN-1 STAPLE GUN - HSG1406.jpeg-2.webp',
-       'assets/img/nailers and staplers/INGCO 2-IN-1 STAPLE GUN - HSG1406.jpeg-3.webp',
-       ' assets/img/nailers and staplers/INGCO 2-IN-1 STAPLE GUN - HSG1406.jpeg-4.webp'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309259/Astonic-Mart/Products/nailers%20and%20staplers/INGCO_2-IN-1_STAPLE_GUN_-_HSG1406.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309259/Astonic-Mart/Products/nailers%20and%20staplers/INGCO_2-IN-1_STAPLE_GUN_-_HSG1406.jpg-2.webp',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309259/Astonic-Mart/Products/nailers%20and%20staplers/INGCO_2-IN-1_STAPLE_GUN_-_HSG1406.jpg-3.webp',
+       ' https://res.cloudinary.com/taus5tit/image/upload/v1786309259/Astonic-Mart/Products/nailers%20and%20staplers/INGCO_2-IN-1_STAPLE_GUN_-_HSG1406.jpg-4.webp'
      ],
 
      inStock: true,
@@ -1768,9 +1720,9 @@ Ideal for professional and DIY applications`,
      price: 17500,
 
      images: [
-       'assets/img/nailers and staplers/total 3 in 1 staple gun.webp-3.jpg',
-       'assets/img/nailers and staplers/total 3 in 1 staple gun.webp-2.jpeg',
-       'assets/img/nailers and staplers/total 3 in 1 staple gun.webp'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309385/Astonic-Mart/Products/nailers%20and%20staplers/total_3_in_1_staple_gun.webp-3.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309385/Astonic-Mart/Products/nailers%20and%20staplers/total_3_in_1_staple_gun.webp-2.jpeg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309385/Astonic-Mart/Products/nailers%20and%20staplers/total_3_in_1_staple_gun.webp'
      ],
 
      inStock: true,
@@ -1815,9 +1767,9 @@ Ideal for professional and DIY applications`,
   price: 13500,
 
   images: [
-    'assets/img/nailers and staplers/TOTAL 2 In 1 Staple Gun (THT31143).jpg-3.jpg',
-    'assets/img/nailers and staplers/TOTAL 2 In 1 Staple Gun (THT31143).jpg-2.jpg',
-    'assets/img/nailers and staplers/TOTAL 2 In 1 Staple Gun (THT31143).jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309380/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_2_In_1_Staple_Gun_THT31143.jpg-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309366/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_2_In_1_Staple_Gun_THT31143.jpg-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309366/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_2_In_1_Staple_Gun_THT31143.jpg'
   ],
 
   inStock: true,
@@ -1863,10 +1815,10 @@ brand: 'generic',
   price: 150000,
 
   images: [
-    'assets/img/allen keys and hand riveters/PT5000 Pneumatic Rivet Gun Gun (3-5 mm)-2.jpg',
-    'assets/img/allen keys and hand riveters/PT5000 Pneumatic Rivet Gun Gun (3-5 mm).jpg',
-    'assets/img/allen keys and hand riveters/PT5000 Pneumatic Rivet Gun Gun (3-5 mm)-3.jpg',
-    'assets/img/allen keys and hand riveters/PT5000 Pneumatic Rivet Gun Gun (3-5 mm)-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304027/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/PT5000_Pneumatic_Rivet_Gun_Gun_3-5_mm-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304025/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/PT5000_Pneumatic_Rivet_Gun_Gun_3-5_mm.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304028/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/PT5000_Pneumatic_Rivet_Gun_Gun_3-5_mm-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304029/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/PT5000_Pneumatic_Rivet_Gun_Gun_3-5_mm-4.jpg'
   ],
 
   inStock: true,
@@ -1916,10 +1868,10 @@ Ideal for fabrication and automotive applications`,
      price: 70000,
 
      images: [
-       'assets/img/tap and die/tap and die set 40 pcs.webp',
-       'assets/img/tap and die/tap and die set 40 pcs.webp-2.jpg',
-       'assets/img/tap and die/tap and die set 40 pcs.webp-3.jpg',
-       'assets/img/tap and die/tap and die set 40 pcs.webp-4.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329462/Astonic-Mart/Products/tap%20and%20die/tap_and_die_set_40_pcs.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329462/Astonic-Mart/Products/tap%20and%20die/tap_and_die_set_40_pcs.jpg-2.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329462/Astonic-Mart/Products/tap%20and%20die/tap_and_die_set_40_pcs.jpg-3.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329462/Astonic-Mart/Products/tap%20and%20die/tap_and_die_set_40_pcs.jpg-4.jpg'
      ],
 
      inStock: true,
@@ -1971,10 +1923,10 @@ Ideal for mechanics, technicians, and fabricators`,
   price: 140000,
 
   images: [
-    'assets/img/tap and die/tap and die set 45.jpeg',
-    'assets/img/tap and die/tap and die set 45.jpeg-2.jpg',
-    'assets/img/tap and die/tap and die set 45.jpeg-3.jpg',
-    'assets/img/tap and die/tap and die set 45.jpeg-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329466/Astonic-Mart/Products/tap%20and%20die/tap_and_die_set_45.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329466/Astonic-Mart/Products/tap%20and%20die/tap_and_die_set_45.webp-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329466/Astonic-Mart/Products/tap%20and%20die/tap_and_die_set_45.webp-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329466/Astonic-Mart/Products/tap%20and%20die/tap_and_die_set_45.jpeg-4.jpg'
   ],
 
   inStock: true,
@@ -2026,11 +1978,11 @@ Ideal for mechanics, technicians, and fabricators`,
   price: 25000,
 
   images: [
-    'assets/img/pliers and cutter/4pieces pliers set.jpeg-2.jpg',
-    'assets/img/pliers and cutter/4pieces pliers set.jpeg',
-    'assets/img/pliers and cutter/4pieces pliers set.jpeg-3.jpg',
-    'assets/img/pliers and cutter/4pieces pliers set.jpeg-5.jpg',
-    'assets/img/pliers and cutter/4pieces pliers set.jpeg-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309824/Astonic-Mart/Products/pliers%20and%20cutter/4pieces_pliers_set.jpg-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309824/Astonic-Mart/Products/pliers%20and%20cutter/4pieces_pliers_set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309824/Astonic-Mart/Products/pliers%20and%20cutter/4pieces_pliers_set.jpg-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309824/Astonic-Mart/Products/pliers%20and%20cutter/4pieces_pliers_set.jpg-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309824/Astonic-Mart/Products/pliers%20and%20cutter/4pieces_pliers_set.jpg-4.jpg'
   ],
 
   inStock: true,
@@ -2080,10 +2032,10 @@ Ideal for electricians and maintenance professionals`,
      price: 45000,
 
      images: [
-       'assets/img/pliers and cutter/INGCO 12Pcs Insulated Screwdriver Set HKISD1201.jpg',
-       'assets/img/pliers and cutter/INGCO 12Pcs Insulated Screwdriver Set HKISD1201.jpg-2.jpg',
-       'assets/img/pliers and cutter/INGCO 12Pcs Insulated Screwdriver Set HKISD1201.jpg-3.jpg',
-       'assets/img/pliers and cutter/INGCO 12Pcs Insulated Screwdriver Set HKISD1201.jpg-4.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309836/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_12Pcs_Insulated_Screwdriver_Set_HKISD1201.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309836/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_12Pcs_Insulated_Screwdriver_Set_HKISD1201.jpg-2.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309836/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_12Pcs_Insulated_Screwdriver_Set_HKISD1201.jpg-3.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309836/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_12Pcs_Insulated_Screwdriver_Set_HKISD1201.jpg-4.jpg'
      ],
 
      inStock: true,
@@ -2138,11 +2090,11 @@ Ideal for professional electrical work`,
   price: 18000,
 
   images: [
-    'assets/img/pliers and cutter/INGCO 6 Pcs Insulated Screwdriver Set (HKISD0608).png',
-    'assets/img/pliers and cutter/INGCO 6 Pcs Insulated Screwdriver Set (HKISD0608)-5.jpg',
-    'assets/img/pliers and cutter/INGCO 6 Pcs Insulated Screwdriver Set (HKISD0608)-3.jpg',
-    'assets/img/pliers and cutter/INGCO 6 Pcs Insulated Screwdriver Set (HKISD0608)-2.jpg',
-    'assets/img/pliers and cutter/INGCO 6 Pcs Insulated Screwdriver Set (HKISD0608)-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309841/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_6_Pcs_Insulated_Screwdriver_Set_HKISD0608.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309849/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_6_Pcs_Insulated_Screwdriver_Set_HKISD0608-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309845/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_6_Pcs_Insulated_Screwdriver_Set_HKISD0608-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309844/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_6_Pcs_Insulated_Screwdriver_Set_HKISD0608-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309847/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_6_Pcs_Insulated_Screwdriver_Set_HKISD0608-4.jpg'
   ],
 
   inStock: true,
@@ -2195,11 +2147,11 @@ Ideal for electricians and maintenance professionals`,
   price: 58000,
 
   images: [
-    'assets/img/sockets and ratchets/46 pcs socket wrench.webp',
-    'assets/img/sockets and ratchets/46 pcs socket wrench.webp-2.jpg',
-    'assets/img/sockets and ratchets/46 pcs socket wrench.webp-3.jpg',
-    'assets/img/sockets and ratchets/46 pcs socket wrench.webp-4.jpg',
-    'assets/img/sockets and ratchets/46 pcs socket wrench.webp-5.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329281/Astonic-Mart/Products/sockets%20and%20ratchets/46_pcs_socket_wrench.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329281/Astonic-Mart/Products/sockets%20and%20ratchets/46_pcs_socket_wrench.webp-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329281/Astonic-Mart/Products/sockets%20and%20ratchets/46_pcs_socket_wrench.webp-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329281/Astonic-Mart/Products/sockets%20and%20ratchets/46_pcs_socket_wrench.webp-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329281/Astonic-Mart/Products/sockets%20and%20ratchets/46_pcs_socket_wrench.webp-5.webp'
   ],
 
   inStock: true,
@@ -2246,7 +2198,7 @@ Packed in a durable blow-molded storage case, the set keeps all components organ
      price: 22000,
 
      images: [
-       'assets/img/grease guns/pressol grease guns.jpg2.jpeg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786307375/Astonic-Mart/Products/grease%20guns/pressol_grease_guns.jpg2.jpg'
      ],
 
      description: `The Pressol Grease Gun is a high-quality manual lubrication tool designed for applying grease to mechanical components such as bearings, joints, and moving machine parts. Manufactured with durable materials, it delivers reliable performance for automotive servicing, industrial maintenance, agricultural machinery, and construction equipment. The grease gun works by pumping lubricating grease through a nozzle directly into grease fittings, ensuring proper lubrication and reducing wear on critical machine components. Its ergonomic lever handle provides strong pressure for efficient grease delivery while maintaining comfortable operation. Pressol grease guns are widely used in workshops, garages, and maintenance operations due to their durability, precise grease flow, and long service life.
@@ -2289,10 +2241,10 @@ Items Included in the Package:
      price: 25000,
 
      images: [
-      'assets/img/grease guns/ingco greas gun 400cc-4.jpeg',
-       'assets/img/grease guns/ingco greas gun 400cc.webp',
-       'assets/img/grease guns/ingco greas gun 400cc.webp2.webp',
-       'assets/img/grease guns/ingco greas gun 400cc-3.webp'
+      'https://res.cloudinary.com/taus5tit/image/upload/v1786307374/Astonic-Mart/Products/grease%20guns/ingco_greas_gun_400cc-4.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786307369/Astonic-Mart/Products/grease%20guns/ingco_greas_gun_400cc.webp',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786307369/Astonic-Mart/Products/grease%20guns/ingco_greas_gun_400cc.webp2.webp',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786307372/Astonic-Mart/Products/grease%20guns/ingco_greas_gun_400cc-3.webp'
      ],
 
      description: `The Ingco Grease Gun GRG015001 is a heavy-duty manual lubrication tool designed for applying grease to mechanical components such as bearings, joints, and moving machine parts. Built with a durable 1.2mm steel tube and aluminum-cast head, it delivers strong pressure and reliable performance for automotive servicing, industrial maintenance, agricultural machinery, and construction equipment. The grease gun supports both 14oz grease cartridges and 400cc bulk filling, giving users flexibility depending on the lubrication method. Its ergonomic lever design allows smooth and controlled grease delivery, while the high-pressure pumping mechanism ensures grease reaches tight lubrication points efficiently. This tool is widely used in workshops, garages, and maintenance operations to reduce friction, prevent wear, and extend machine life.
@@ -2338,9 +2290,9 @@ Items Included in the Package:
      price: 18000,
 
      images: [
-       'assets/img/grease guns/Total Grease Gun- THT111051-2.jpg',
-       'assets/img/grease guns/Total Grease Gun- THT111051-3.jpg',
-       'assets/img/grease guns/Total Grease Gun- THT111051.jpeg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786307376/Astonic-Mart/Products/grease%20guns/Total_Grease_Gun-_THT111051-2.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786307378/Astonic-Mart/Products/grease%20guns/Total_Grease_Gun-_THT111051-3.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786307375/Astonic-Mart/Products/grease%20guns/Total_Grease_Gun-_THT111051.jpg'
      ],
 
      inStock: true,
@@ -2388,10 +2340,10 @@ Items Included in the Package:
   price: 42000,
 
   images: [
-    'assets/img/allen keys and hand riveters/TOTAL HAND RIVETER 815mm (THT32321).jpg',
-    'assets/img/allen keys and hand riveters/TOTAL HAND RIVETER 815mm (THT32321).jpg-2.webp',
-    'assets/img/allen keys and hand riveters/TOTAL HAND RIVETER 815mm (THT32321).jpg-3.jpg',
-    'assets/img/allen keys and hand riveters/TOTAL HAND RIVETER 815mm (THT32321).jpg-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304040/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/TOTAL_HAND_RIVETER_815mm_THT32321.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304040/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/TOTAL_HAND_RIVETER_815mm_THT32321.jpg-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304040/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/TOTAL_HAND_RIVETER_815mm_THT32321.jpg-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304040/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/TOTAL_HAND_RIVETER_815mm_THT32321.jpg-4.jpg'
   ],
 
   inStock: true,
@@ -2437,10 +2389,10 @@ Items Included in the Package:
   price: 19000,
 
   images: [
-    'assets/img/allen keys and hand riveters/total hand riveter 10.5 inch.jpeg',
-    'assets/img/allen keys and hand riveters/total hand riveter 10.5 inch.jpeg-4.png',
-    'assets/img/allen keys and hand riveters/total hand riveter 10.5 inch-2.jpeg',
-    'assets/img/allen keys and hand riveters/total hand riveter 10.5 inch.jpeg-3.jpeg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304035/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/total_hand_riveter_10.5_inch.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304035/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/total_hand_riveter_10.5_inch.jpg-4.png',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304038/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/total_hand_riveter_10.5_inch-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304035/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/total_hand_riveter_10.5_inch.jpg-3.jpeg'
   ],
 
   inStock: true,
@@ -2487,10 +2439,10 @@ Items Included in the Package:
   discountPrice: 89000,
 
   images: [
-    'assets/img/crimping tools/TOTAL HYDRAULIC CRIMPING TOOL (THCT070).jpg',
-    'assets/img/crimping tools/TOTAL HYDRAULIC CRIMPING TOOL (THCT070)-4.jpeg',
-    'assets/img/crimping tools/TOTAL HYDRAULIC CRIMPING TOOL (THCT070)-3.webp',
-    'assets/img/crimping tools/TOTAL HYDRAULIC CRIMPING TOOL (THCT070)-2.jpeg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305676/Astonic-Mart/Products/crimping%20tools/TOTAL_HYDRAULIC_CRIMPING_TOOL_THCT070.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305680/Astonic-Mart/Products/crimping%20tools/TOTAL_HYDRAULIC_CRIMPING_TOOL_THCT070-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305678/Astonic-Mart/Products/crimping%20tools/TOTAL_HYDRAULIC_CRIMPING_TOOL_THCT070-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305677/Astonic-Mart/Products/crimping%20tools/TOTAL_HYDRAULIC_CRIMPING_TOOL_THCT070-2.jpg'
   ],
 
   inStock: true,
@@ -2548,7 +2500,7 @@ Supplied with multiple interchangeable crimping dies, the THCT070 supports a wid
   model: 'AN F-30E',
   price: 48000,
   images: [
-    'assets/img/nailers and staplers/maxmech AN F-30E-30mm.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309351/Astonic-Mart/Products/nailers%20and%20staplers/maxmech_AN_F-30E-30mm.jpg'
   ],
   inStock: true,
   jumiaLink: '',
@@ -2607,7 +2559,7 @@ Maxmech AN F-30E Air Nailer is a pneumatic brad nailer designed for woodworking,
   price: 65000,
 
   images: [
-    'assets/img/nailers and staplers/maxmech AN T-50E-50mm.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309355/Astonic-Mart/Products/nailers%20and%20staplers/maxmech_AN_T-50E-50mm.jpg'
   ],
   inStock: true,
   jumiaLink: '',
@@ -2665,7 +2617,7 @@ Maxmech AN T-50E Air Stapler is a pneumatic fastening tool designed for upholste
   price: 790000,
 
   images: [
-    'assets/img/nailers and staplers/maxmech AN ST-64E-64mm.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309353/Astonic-Mart/Products/nailers%20and%20staplers/maxmech_AN_ST-64E-64mm.jpg'
   ],
   inStock: true,
   jumiaLink: '',
@@ -2724,7 +2676,7 @@ Maxmech AN ST-64E Pneumatic Concrete Nailer is a heavy-duty air-powered fastenin
   price: 42000,
   
   images: [
-    'assets/img/nailers and staplers/maxmech AN C-1013J.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309350/Astonic-Mart/Products/nailers%20and%20staplers/maxmech_AN_C-1013J.jpg'
   ],
   inStock: true,
   jumiaLink: '',
@@ -2784,13 +2736,13 @@ Maxmech AN C-1013J Air Stapler is a lightweight pneumatic stapling tool designed
   price: 70000,
 
   images: [
-    'assets/img/nailers and staplers/ingco air nailer ACN50401-2.jpg',
-    'assets/img/nailers and staplers/ingco air nailer ACN50401.jpg',
-    'assets/img/nailers and staplers/ingco air nailer ACN50401-3.jpg',
-    'assets/img/nailers and staplers/ingco air nailer ACN50401-4.jpg',
-    'assets/img/nailers and staplers/ingco air nailer ACN50401-5.jpeg',
-     'assets/img/nailers and staplers/ingco air nailer ACN50401-6.jpg',
-    'assets/img/nailers and staplers/ingco air nailer ACN50401-7.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309281/Astonic-Mart/Products/nailers%20and%20staplers/ingco_air_nailer_ACN50401-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309273/Astonic-Mart/Products/nailers%20and%20staplers/ingco_air_nailer_ACN50401.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309289/Astonic-Mart/Products/nailers%20and%20staplers/ingco_air_nailer_ACN50401-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309296/Astonic-Mart/Products/nailers%20and%20staplers/ingco_air_nailer_ACN50401-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309303/Astonic-Mart/Products/nailers%20and%20staplers/ingco_air_nailer_ACN50401-5.jpg',
+     'https://res.cloudinary.com/taus5tit/image/upload/v1786309306/Astonic-Mart/Products/nailers%20and%20staplers/ingco_air_nailer_ACN50401-6.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309308/Astonic-Mart/Products/nailers%20and%20staplers/ingco_air_nailer_ACN50401-7.jpg',
    
   ],
   inStock: true,
@@ -2852,10 +2804,10 @@ Accessories Included:
      price: 15000,
 
      images: [
-       'assets/img/spray guns/king spaky spray gun.jpg-3.webp',
-       'assets/img/spray guns/king spaky spray gun.jpg',
-       'assets/img/spray guns/king spaky spray gun.jpg-2.webp',
-       'assets/img/spray guns/king spaky spray gun.jpg-3.webp'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329374/Astonic-Mart/Products/spray%20guns/king_spaky_spray_gun.jpg-3.webp',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329374/Astonic-Mart/Products/spray%20guns/king_spaky_spray_gun.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329374/Astonic-Mart/Products/spray%20guns/king_spaky_spray_gun.jpg-2.webp',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329374/Astonic-Mart/Products/spray%20guns/king_spaky_spray_gun.jpg-3.webp'
      ],
 
      inStock: true,
@@ -2908,12 +2860,12 @@ Suitable for primers, base coats, clear coats and other coating materials, the S
   price: 35000,
 
   images: [
-    'assets/img/spray guns/ingco spray gun-400cc.jpg',
-    'assets/img/spray guns/ingco spray gun-400cc.-2.webp',
-    'assets/img/spray guns/ingco spray gun-400cc-3.jpg',
-    'assets/img/spray guns/ingco spray gun-400cc-4.jpg',
-    'assets/img/spray guns/ingco spray gun-400cc-5.jpg',
-    'assets/img/spray guns/ingco spray gun-400cc-6.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329368/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-400cc.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329362/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-400cc.-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329370/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-400cc-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329370/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-400cc-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329370/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-400cc-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329371/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-400cc-6.jpg'
   ],
 
   inStock: true,
@@ -2975,13 +2927,13 @@ Suitable for primers, base coats, clear coats and other coating materials, the S
   price: 45000,
 
   images: [
-    'assets/img/spray guns/ingco spray gun-1000c.jpg',
-    'assets/img/spray guns/ingco spray gun-1000c-2.jpg',
-    'assets/img/spray guns/ingco spray gun-1000c-3.jpg',
-    'assets/img/spray guns/ingco spray gun-1000c-3.jpg',
-    'assets/img/spray guns/ingco spray gun-1000c-5.jpg',
-    'assets/img/spray guns/ingco spray gun-1000c-6.jpg',
-    'assets/img/spray guns/ingco spray gun-1000c-7.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329355/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-1000c.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329358/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-1000c-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329352/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-1000c-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329352/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-1000c-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329361/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-1000c-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329367/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-1000c-6.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329366/Astonic-Mart/Products/spray%20guns/ingco_spray_gun-1000c-7.jpg'
   ],
 
   inStock: true,
@@ -3042,10 +2994,10 @@ Suitable for primers, base coats, clear coats and other coating materials, the S
   discountPrice: 59000,
 
   images: [
-    'assets/img/spray guns/TOTAL TAT83301 3-in-1nail gun.jpg',
-    'assets/img/spray guns/TOTAL TAT83301 3-in-1nail gun-2.jpg',
-    'assets/img/spray guns/TOTAL TAT83301 3-in-1nail gun-3.jpg',
-    'assets/img/spray guns/TOTAL TAT83301 3-in-1nail gun-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329381/Astonic-Mart/Products/spray%20guns/TOTAL_TAT83301_3-in-1nail_gun.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329381/Astonic-Mart/Products/spray%20guns/TOTAL_TAT83301_3-in-1nail_gun-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329381/Astonic-Mart/Products/spray%20guns/TOTAL_TAT83301_3-in-1nail_gun-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329384/Astonic-Mart/Products/spray%20guns/TOTAL_TAT83301_3-in-1nail_gun-4.jpg'
   ],
 
   inStock: true,
@@ -3096,10 +3048,10 @@ Suitable for primers, base coats, clear coats and other coating materials, the S
   discountPrice: 62000,
 
   images: [
-    'assets/img/spray guns/total 2in1 air spray gunTAT81501.jpg',
-    'assets/img/spray guns/total 2in1 air spray gunTAT81501.jpg-2.jpeg',
-    'assets/img/spray guns/total 2in1 air spray gunTAT81501.jpg-3.webp',
-    'assets/img/spray guns/total 2in1 air spray gunTAT81501.jpg-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329374/Astonic-Mart/Products/spray%20guns/total_2in1_air_spray_gunTAT81501.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329374/Astonic-Mart/Products/spray%20guns/total_2in1_air_spray_gunTAT81501.jpg-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329374/Astonic-Mart/Products/spray%20guns/total_2in1_air_spray_gunTAT81501.jpg-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329374/Astonic-Mart/Products/spray%20guns/total_2in1_air_spray_gunTAT81501.jpg-4.jpg'
   ],
 
   inStock: true,
@@ -3164,12 +3116,12 @@ Suitable for primers, base coats, clear coats and other coating materials, the S
  
 
   images: [
-    'assets/img/screw drivers/8pcs screw driver set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329014/Astonic-Mart/Products/screw%20drivers/8pcs_screw_driver_set.jpg',
     'assets/sEdimg/screw drivers/8pcs screw driver set.jpg-2.jpg',
-    'assets/img/screw drivers/8pcs screw driver set.jpg-3.jpg',
-    'assets/img/screw drivers/8pcs screw driver set.jpg-4.jpg',
-    'assets/img/screw drivers/8pcs screw driver set.jpg-5.jpg',
-    'assets/img/screw drivers/8pcs screw driver set.jpg-6.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329014/Astonic-Mart/Products/screw%20drivers/8pcs_screw_driver_set.jpg-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329014/Astonic-Mart/Products/screw%20drivers/8pcs_screw_driver_set.jpg-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329014/Astonic-Mart/Products/screw%20drivers/8pcs_screw_driver_set.jpg-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329014/Astonic-Mart/Products/screw%20drivers/8pcs_screw_driver_set.jpg-6.jpg'
   ],
 
   inStock: true,
@@ -3225,10 +3177,10 @@ Suitable for primers, base coats, clear coats and other coating materials, the S
      brand: 'INGCO',
      price: 35000,
      images: [
-       'assets/img/pliers and cutter/INGCO Foldable Multi-Function Tool - HFMFT0115.jpg',
-       'assets/img/pliers and cutter/INGCO Foldable Multi-Function Tool - HFMFT0115-2.jpg',
-       'assets/img/pliers and cutter/INGCO Foldable Multi-Function Tool - HFMFT0115-3.jpg',
-       'assets/img/pliers and cutter/INGCO Foldable Multi-Function Tool - HFMFT0115-4.jpg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309850/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Foldable_Multi-Function_Tool_-_HFMFT0115.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309852/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Foldable_Multi-Function_Tool_-_HFMFT0115-2.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309853/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Foldable_Multi-Function_Tool_-_HFMFT0115-3.jpg',
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786309854/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Foldable_Multi-Function_Tool_-_HFMFT0115-4.jpg'
      ],
 
      inStock: true,
@@ -3285,10 +3237,10 @@ Ideal for workshops, field work, camping, and emergency repairs
 
   images: [
   
-    'assets/img/nailers and staplers/TOTAL Air Concrete Nailer (TAT8641).jpg',
-    'assets/img/nailers and staplers/TOTAL Air Concrete Nailer (TAT8641)-2.jpg',
-    'assets/img/nailers and staplers/TOTAL Air Concrete Nailer (TAT8641)-3.jpeg',
-    'assets/img/nailers and staplers/TOTAL Air Concrete Nailer (TAT8641)-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309403/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Air_Concrete_Nailer_TAT8641.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309404/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Air_Concrete_Nailer_TAT8641-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309405/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Air_Concrete_Nailer_TAT8641-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309406/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Air_Concrete_Nailer_TAT8641-4.jpg'
     
   ],
 
@@ -3345,10 +3297,10 @@ Ideal for workshops, field work, camping, and emergency repairs
 
 
   images: [
-    'assets/img/sand papers and disc/Plastic Sanding Disc Pad 125mm.webp',
-    'assets/img/sand papers and disc/Plastic Sanding Disc Pad 125mm-2.webp',
-    'assets/img/sand papers and disc/Plastic Sanding Disc Pad 125mm-3.jpg',
-    'assets/img/sand papers and disc/Plastic Sanding Disc Pad 125mm-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328938/Astonic-Mart/Products/sand%20papers%20and%20disc/Plastic_Sanding_Disc_Pad_125mm.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328938/Astonic-Mart/Products/sand%20papers%20and%20disc/Plastic_Sanding_Disc_Pad_125mm-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328938/Astonic-Mart/Products/sand%20papers%20and%20disc/Plastic_Sanding_Disc_Pad_125mm-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328938/Astonic-Mart/Products/sand%20papers%20and%20disc/Plastic_Sanding_Disc_Pad_125mm-4.webp'
   ],
 
   inStock: true,
@@ -3395,10 +3347,10 @@ Ideal for workshops, field work, camping, and emergency repairs
   price: 23000,
 
   images: [
-    'assets/img/spanners and wrenches/TOTAL Combination spanner set THT102286-1.jpg',
-    'assets/img/spanners and wrenches/TOTAL Combination spanner set THT102286-2.jpg',
-    'assets/img/spanners and wrenches/TOTAL Combination spanner set THT102286-3.jpg',
-    'assets/img/spanners and wrenches/TOTAL Combination spanner set THT102286.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329330/Astonic-Mart/Products/spanners%20and%20wrenches/TOTAL_Combination_spanner_set_THT102286-1.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329330/Astonic-Mart/Products/spanners%20and%20wrenches/TOTAL_Combination_spanner_set_THT102286-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329330/Astonic-Mart/Products/spanners%20and%20wrenches/TOTAL_Combination_spanner_set_THT102286-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329330/Astonic-Mart/Products/spanners%20and%20wrenches/TOTAL_Combination_spanner_set_THT102286.jpg'
   ],
 
   inStock: true,
@@ -3462,10 +3414,10 @@ Long service life under demanding conditions
   price: 29000,
 
   images: [
-    'assets/img/spanners and wrenches/TOTAL PIPE WRENCH 24 inch (THT171246).jpg',
-    'assets/img/spanners and wrenches/TOTAL PIPE WRENCH 24 inch (THT171246)-4.jpeg',
-    'assets/img/spanners and wrenches/TOTAL PIPE WRENCH 24 inch (THT171246)-3.webp',
-    'assets/img/spanners and wrenches/TOTAL PIPE WRENCH 24 inch (THT171246)-2.png'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329339/Astonic-Mart/Products/spanners%20and%20wrenches/TOTAL_PIPE_WRENCH_24_inch_THT171246.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329336/Astonic-Mart/Products/spanners%20and%20wrenches/TOTAL_PIPE_WRENCH_24_inch_THT171246-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329335/Astonic-Mart/Products/spanners%20and%20wrenches/TOTAL_PIPE_WRENCH_24_inch_THT171246-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329335/Astonic-Mart/Products/spanners%20and%20wrenches/TOTAL_PIPE_WRENCH_24_inch_THT171246-2.png'
   ],
 
   inStock: true,
@@ -3522,12 +3474,12 @@ Reliable for workshop and industrial use
   price: 180000,
 
   images: [
-    'assets/img/sockets and ratchets/121 pcs socket set.webp',
-    'assets/img/sockets and ratchets/121 pcs socket set-2.webp',
-    'assets/img/sockets and ratchets/121 pcs socket set-3.webp',
-    'assets/img/sockets and ratchets/121 pcs socket set-4.webp',
-    'assets/img/sockets and ratchets/121 pcs socket set-5.webp',
-    'assets/img/sockets and ratchets/121 pcs socket set-6.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329268/Astonic-Mart/Products/sockets%20and%20ratchets/121_pcs_socket_set.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329268/Astonic-Mart/Products/sockets%20and%20ratchets/121_pcs_socket_set-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329273/Astonic-Mart/Products/sockets%20and%20ratchets/121_pcs_socket_set-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329266/Astonic-Mart/Products/sockets%20and%20ratchets/121_pcs_socket_set-4.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329275/Astonic-Mart/Products/sockets%20and%20ratchets/121_pcs_socket_set-5.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329276/Astonic-Mart/Products/sockets%20and%20ratchets/121_pcs_socket_set-6.webp'
   ],
 
   inStock: true,
@@ -3609,11 +3561,11 @@ Blow-Molded Carrying Case
   price: 4500,
 
   images: [
-    'assets/img/nailers and staplers/Brad-Nail-Air-1.png',
-    'assets/img/nailers and staplers/Brad-Nail-Air.webp-2.webp',
-    'assets/img/nailers and staplers/Brad-Nail-Air.webp-3.webp',
-    'assets/img/nailers and staplers/Brad-Nail-Air.webp',
-    'assets/img/nailers and staplers/Brad-Nail-Air-5.png'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309239/Astonic-Mart/Products/nailers%20and%20staplers/Brad-Nail-Air-1.png',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309208/Astonic-Mart/Products/nailers%20and%20staplers/Brad-Nail-Air.webp-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309208/Astonic-Mart/Products/nailers%20and%20staplers/Brad-Nail-Air.webp-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309208/Astonic-Mart/Products/nailers%20and%20staplers/Brad-Nail-Air.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309257/Astonic-Mart/Products/nailers%20and%20staplers/Brad-Nail-Air-5.png'
   ],
 
   variations: [
@@ -3691,7 +3643,7 @@ Protective Storage Box
   discountPrice: 700,
 
   images: [
-    'assets/img/cutting and grinding disc/bosch diamond cutting disc 4.5 inch.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305691/Astonic-Mart/Products/cutting%20and%20grinding%20disc/bosch_diamond_cutting_disc_4.5_inch.webp'
   ],
 
   inStock: true,
@@ -3746,7 +3698,7 @@ Safe and reliable operation
   discountPrice: 16500,
 
   images: [
-    'assets/img/cutting and grinding disc/BOSCH 230MM cutting disc.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305682/Astonic-Mart/Products/cutting%20and%20grinding%20disc/BOSCH_230MM_cutting_disc.jpg'
   ],
 
   inStock: true,
@@ -3800,8 +3752,8 @@ Compatible with most 230mm angle grinders
   discountPrice: 4000,
 
   images: [
-    'assets/img/drill bits and screws/10 Pcs HSS Drill Bit Set 5.0mm.webp',
-    'assets/img/drill bits and screws/10 Pcs HSS Drill Bit Set 5.0mm-2.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306038/Astonic-Mart/Products/drill%20bits%20and%20screws/10_Pcs_HSS_Drill_Bit_Set_5.0mm.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306039/Astonic-Mart/Products/drill%20bits%20and%20screws/10_Pcs_HSS_Drill_Bit_Set_5.0mm-2.jpg'
   ],
 
   inStock: true,
@@ -3854,14 +3806,14 @@ Supplied in a storage case
   discountPrice: 29000,
 
   images: [
-    'assets/img/pliers and cutter/INGCO Multi Tool 12-in-1 Stainless Steel Hammer-1.jpg',
-    'assets/img/pliers and cutter/INGCO Multi Tool 12-in-1 Stainless Steel Hammer-2.jpg',
-    'assets/img/pliers and cutter/INGCO Multi Tool 12-in-1 Stainless Steel Hammer-3.jpg',
-    'assets/img/pliers and cutter/INGCO Multi Tool 12-in-1 Stainless Steel Hammer-4.jpg',
-    'assets/img/pliers and cutter/INGCO Multi Tool 12-in-1 Stainless Steel Hammer-5.jpg',
-    'assets/img/pliers and cutter/INGCO Multi Tool 12-in-1 Stainless Steel Hammer-6.jpg',
-    'assets/img/pliers and cutter/INGCO Multi Tool 12-in-1 Stainless Steel Hammer-7.jpg',
-    'assets/img/pliers and cutter/INGCO Multi Tool 12-in-1 Stainless Steel Hammer.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309858/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Multi_Tool_12-in-1_Stainless_Steel_Hammer-1.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309859/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Multi_Tool_12-in-1_Stainless_Steel_Hammer-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309861/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Multi_Tool_12-in-1_Stainless_Steel_Hammer-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309863/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Multi_Tool_12-in-1_Stainless_Steel_Hammer-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309865/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Multi_Tool_12-in-1_Stainless_Steel_Hammer-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309866/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Multi_Tool_12-in-1_Stainless_Steel_Hammer-6.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309872/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Multi_Tool_12-in-1_Stainless_Steel_Hammer-7.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309855/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Multi_Tool_12-in-1_Stainless_Steel_Hammer.jpg'
 
   ],
 
@@ -3926,7 +3878,7 @@ Versatile everyday utility tool
   discountPrice: 9000,
 
   images: [
-    'assets/img/grinding stones/grinding stone 150 x 25 x 10mm.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307532/Astonic-Mart/Products/grinding%20stones/grinding_stone_150_x_25_x_10mm.jpg'
   ],
 
   inStock: true,
@@ -3982,9 +3934,9 @@ Professional-grade quality
 
 
   images: [
-    'assets/img/grinding stones/ingco 5pcs grinding stone.webp',
-    'assets/img/grinding stones/ingco 5pcs grinding stone-2.jpeg',
-    'assets/img/grinding stones/ingco 5pcs grinding stone-3.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307532/Astonic-Mart/Products/grinding%20stones/ingco_5pcs_grinding_stone.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307533/Astonic-Mart/Products/grinding%20stones/ingco_5pcs_grinding_stone-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307534/Astonic-Mart/Products/grinding%20stones/ingco_5pcs_grinding_stone-3.jpg'
   ],
 
   inStock: true,
@@ -4048,9 +4000,9 @@ Long service life
 
 
   images: [
-    'assets/img/grinding stones/Carborundum Grinding Wheel Black.jpg',
-    'assets/img/grinding stones/Carborundum Grinding Wheel Black-2.jpg',
-    'assets/img/grinding stones/Carborundum Grinding Wheel Black-3.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307529/Astonic-Mart/Products/grinding%20stones/Carborundum_Grinding_Wheel_Black.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307530/Astonic-Mart/Products/grinding%20stones/Carborundum_Grinding_Wheel_Black-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307531/Astonic-Mart/Products/grinding%20stones/Carborundum_Grinding_Wheel_Black-3.jpg'
   ],
 
   inStock: true,
@@ -4102,10 +4054,10 @@ Ideal for workshop and fabrication applications
   price: 1920,
 
   images: [
-    'assets/img/screw drivers/INGCO HSDT1408 Test Pencil.jpeg',
-    'assets/img/screw drivers/INGCO HSDT1408 Test Pencil-2.jpg',
-    'assets/img/screw drivers/INGCO HSDT1408 Test Pencil-3.jpg',
-    'assets/img/screw drivers/INGCO HSDT1408 Test Pencil-4.jpeg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329022/Astonic-Mart/Products/screw%20drivers/INGCO_HSDT1408_Test_Pencil.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329022/Astonic-Mart/Products/screw%20drivers/INGCO_HSDT1408_Test_Pencil-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329027/Astonic-Mart/Products/screw%20drivers/INGCO_HSDT1408_Test_Pencil-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329027/Astonic-Mart/Products/screw%20drivers/INGCO_HSDT1408_Test_Pencil-4.jpg'
   ],
 
   model: 'HSDT1408',
@@ -4157,11 +4109,11 @@ Ideal for workshop and fabrication applications
 
 
   images: [
-    'assets/img/screw drivers/INGCO HSDT1909 Digital Test Pencil.jpg',
-    'assets/img/screw drivers/INGCO HSDT1909 Digital Test Pencil-2.jpg',
-    'assets/img/screw drivers/INGCO HSDT1909 Digital Test Pencil-3.jpg',
-    'assets/img/screw drivers/INGCO HSDT1909 Digital Test Pencil-4.jpg',
-    'assets/img/screw drivers/INGCO HSDT1909 Digital Test Pencil-5.jpeg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329027/Astonic-Mart/Products/screw%20drivers/INGCO_HSDT1909_Digital_Test_Pencil.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329027/Astonic-Mart/Products/screw%20drivers/INGCO_HSDT1909_Digital_Test_Pencil-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329027/Astonic-Mart/Products/screw%20drivers/INGCO_HSDT1909_Digital_Test_Pencil-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329030/Astonic-Mart/Products/screw%20drivers/INGCO_HSDT1909_Digital_Test_Pencil-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329030/Astonic-Mart/Products/screw%20drivers/INGCO_HSDT1909_Digital_Test_Pencil-5.jpg'
   ],
 
   model: 'HSDT1909',
@@ -4216,11 +4168,11 @@ Ideal for workshop and fabrication applications
   discountPrice: 680000,
 
   images: [
-    'assets/img/tools box and bags/7 drawer empty tool box.jpg',
-    'assets/img/tools box and bags/7 drawer empty tool box-2.avif',
-    'assets/img/tools box and bags/7 drawer empty tool box-3.jpg',
-    'assets/img/tools box and bags/7 drawer empty tool box-4.jpg',
-    'assets/img/tools box and bags/7 drawer empty tool box-5.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329725/Astonic-Mart/Products/tools%20box%20and%20bags/7_drawer_empty_tool_box.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329769/Astonic-Mart/Products/tools%20box%20and%20bags/7_drawer_empty_tool_box-2.avif',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329771/Astonic-Mart/Products/tools%20box%20and%20bags/7_drawer_empty_tool_box-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329775/Astonic-Mart/Products/tools%20box%20and%20bags/7_drawer_empty_tool_box-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329774/Astonic-Mart/Products/tools%20box%20and%20bags/7_drawer_empty_tool_box-5.jpg'
   ],
 
   model: '7 Drawer Tool Cabinet',
@@ -4281,9 +4233,9 @@ Ideal for workshop and fabrication applications
  
 
   images: [
-    'assets/img/tools box and bags/15inch plalstic empty tool box.avif',
-    'assets/img/tools box and bags/15inch plalstic empty tool box-2.jpg',
-    'assets/img/tools box and bags/15inch plalstic empty tool box-3.png'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329720/Astonic-Mart/Products/tools%20box%20and%20bags/15inch_plalstic_empty_tool_box.avif',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329725/Astonic-Mart/Products/tools%20box%20and%20bags/15inch_plalstic_empty_tool_box-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329768/Astonic-Mart/Products/tools%20box%20and%20bags/15inch_plalstic_empty_tool_box-3.png'
   ],
 
   inStock: true,
@@ -4323,9 +4275,9 @@ Ideal for workshop and fabrication applications
   discountPrice: 16500,
 
   images: [
-    'assets/img/tools box and bags/15inch plalstic empty tool box.avif',
-    'assets/img/tools box and bags/15inch plalstic empty tool box-2.jpg',
-    'assets/img/tools box and bags/15inch plalstic empty tool box-3.png'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329720/Astonic-Mart/Products/tools%20box%20and%20bags/15inch_plalstic_empty_tool_box.avif',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329725/Astonic-Mart/Products/tools%20box%20and%20bags/15inch_plalstic_empty_tool_box-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329768/Astonic-Mart/Products/tools%20box%20and%20bags/15inch_plalstic_empty_tool_box-3.png'
   ],
 
   inStock: true,
@@ -4368,10 +4320,10 @@ Ideal for workshop and fabrication applications
 
 
   images: [
-    'assets/img/allen keys and hand riveters/TOTAL THT106291 Allen Key Set 9PCS.jpg',
-    'assets/img/allen keys and hand riveters/TOTAL THT106291 Allen Key Set 9PCS-2.webp',
-    'assets/img/allen keys and hand riveters/TOTAL THT106291 Allen Key Set 9PCS-3.webp',
-    'assets/img/allen keys and hand riveters/TOTAL THT106291 Allen Key Set 9PCS-4.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304043/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/TOTAL_THT106291_Allen_Key_Set_9PCS.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304044/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/TOTAL_THT106291_Allen_Key_Set_9PCS-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304045/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/TOTAL_THT106291_Allen_Key_Set_9PCS-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304046/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/TOTAL_THT106291_Allen_Key_Set_9PCS-4.webp'
   ],
 
   model: 'THT106291',
@@ -4431,7 +4383,7 @@ Ideal for workshop and fabrication applications
 
 
   images: [
-    'assets/img/allen keys and hand riveters/raider tox keys 9pcs.png'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304034/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/raider_tox_keys_9pcs.png'
   ],
 
   model: 'RDTK-H409',
@@ -4490,12 +4442,12 @@ Ideal for workshop and fabrication applications
   discountPrice: 17000,
 
   images: [
-    'assets/img/screw drivers/Ingco 6PCS Insulated Screwdriver Set.webp',
-    'assets/img/screw drivers/Ingco 6PCS Insulated Screwdriver Set.webp',
-    'assets/img/screw drivers/Ingco 6PCS Insulated Screwdriver Set-3.webp',
-    'assets/img/screw drivers/Ingco 6PCS Insulated Screwdriver Set-4.webp',
-    'assets/img/screw drivers/Ingco 6PCS Insulated Screwdriver Set-5.webp',
-    'assets/img/screw drivers/Ingco 6PCS Insulated Screwdriver Set-6.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329019/Astonic-Mart/Products/screw%20drivers/Ingco_6PCS_Insulated_Screwdriver_Set.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329019/Astonic-Mart/Products/screw%20drivers/Ingco_6PCS_Insulated_Screwdriver_Set.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329018/Astonic-Mart/Products/screw%20drivers/Ingco_6PCS_Insulated_Screwdriver_Set-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329023/Astonic-Mart/Products/screw%20drivers/Ingco_6PCS_Insulated_Screwdriver_Set-4.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329022/Astonic-Mart/Products/screw%20drivers/Ingco_6PCS_Insulated_Screwdriver_Set-5.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329025/Astonic-Mart/Products/screw%20drivers/Ingco_6PCS_Insulated_Screwdriver_Set-6.webp'
   ],
 
   inStock: true,
@@ -4553,9 +4505,9 @@ Ideal for workshop and fabrication applications
   discountPrice: 27000,
 
   images: [
-    'assets/img/pliers and cutter/TOTAL 3PCS PLIERS SET (THT2K0301).jpg',
-    'assets/img/pliers and cutter/TOTAL 3PCS PLIERS SET (THT2K0301)-3.jpg',
-    'assets/img/pliers and cutter/TOTAL 3PCS PLIERS SET (THT2K0301)-3.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309886/Astonic-Mart/Products/pliers%20and%20cutter/TOTAL_3PCS_PLIERS_SET_THT2K0301.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309887/Astonic-Mart/Products/pliers%20and%20cutter/TOTAL_3PCS_PLIERS_SET_THT2K0301-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309887/Astonic-Mart/Products/pliers%20and%20cutter/TOTAL_3PCS_PLIERS_SET_THT2K0301-3.jpg'
   ],
 
   inStock: true,
@@ -4607,8 +4559,8 @@ Ideal for workshop and fabrication applications
   price: 19700,
 
   images: [
-    'assets/img/hole saws/11 pcs hole saw.jpg',
-    'assets/img/hole saws/11 pcs hole saw-2.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307788/Astonic-Mart/Products/hole%20saws/11_pcs_hole_saw.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307790/Astonic-Mart/Products/hole%20saws/11_pcs_hole_saw-2.jpg'
   ],
 
   inStock: true,
@@ -4664,9 +4616,9 @@ Ideal for workshop and fabrication applications
   price: 19500,
 
   images: [
-    'assets/img/chisels and punches/INGCO 3pcs Wood Chisel Set-1.jpg',
-    'assets/img/chisels and punches/INGCO 3pcs Wood Chisel Set-2.jpg',
-    'assets/img/chisels and punches/INGCO 3pcs Wood Chisel Set-3.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304802/Astonic-Mart/Products/chisels%20and%20punches/INGCO_3pcs_Wood_Chisel_Set-1.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304804/Astonic-Mart/Products/chisels%20and%20punches/INGCO_3pcs_Wood_Chisel_Set-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304808/Astonic-Mart/Products/chisels%20and%20punches/INGCO_3pcs_Wood_Chisel_Set-3.jpg'
   ],
 
   inStock: true,
@@ -4717,8 +4669,8 @@ Ideal for workshop and fabrication applications
   price: 18500,
 
   images: [
-    'assets/img/chisels and punches/TOTALl 3pcs Wood Chisel Total.jpg',
-    'assets/img/chisels and punches/TOTALl 3pcs Wood Chisel Total-2.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304810/Astonic-Mart/Products/chisels%20and%20punches/TOTALl_3pcs_Wood_Chisel_Total.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304812/Astonic-Mart/Products/chisels%20and%20punches/TOTALl_3pcs_Wood_Chisel_Total-2.webp'
   ],
 
   inStock: true,
@@ -4768,9 +4720,9 @@ Ideal for workshop and fabrication applications
   price: 9500,
 
   images: [
-    'assets/img/chisels and punches/ingco 19mm flat chisel hwc0819.jpg',
-    'assets/img/chisels and punches/ingco 19mm flat chisel hwc0819-2.jpeg',
-    'assets/img/chisels and punches/ingco 19mm flat chisel hwc0819-3.avif'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304794/Astonic-Mart/Products/chisels%20and%20punches/ingco_19mm_flat_chisel_hwc0819.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304797/Astonic-Mart/Products/chisels%20and%20punches/ingco_19mm_flat_chisel_hwc0819-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304800/Astonic-Mart/Products/chisels%20and%20punches/ingco_19mm_flat_chisel_hwc0819-3.avif'
   ],
 
   inStock: true,
@@ -4817,10 +4769,10 @@ Ideal for workshop and fabrication applications
   inStock: true,
 
   images: [
-    'assets/img/hammers and mallets/total 1kg hammer.webp',
-    'assets/img/hammers and mallets/total 2kg hammer.webp',
-    'assets/img/hammers and mallets/total 4kg hammer.webp',
-    'assets/img/hammers and mallets/total 5kg hammer.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307568/Astonic-Mart/Products/hammers%20and%20mallets/total_1kg_hammer.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307569/Astonic-Mart/Products/hammers%20and%20mallets/total_2kg_hammer.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307570/Astonic-Mart/Products/hammers%20and%20mallets/total_4kg_hammer.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307571/Astonic-Mart/Products/hammers%20and%20mallets/total_5kg_hammer.jpg'
   ],
 
   variations: [
@@ -4904,11 +4856,11 @@ Accessories Included:
   inStock: true,
 
   images: [
-    'assets/img/hammers and mallets/ingco 1kg stone hammer.jpg',
-    'assets/img/hammers and mallets/ingco 1.5kg stone hammer.jpg',
-    'assets/img/hammers and mallets/ingco 2kg stone hammer.jpg',
-    'assets/img/hammers and mallets/ingco 4kg stone hammer.jpg',
-    'assets/img/hammers and mallets/ingco 5kg stone hammer.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307563/Astonic-Mart/Products/hammers%20and%20mallets/ingco_1kg_stone_hammer.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307562/Astonic-Mart/Products/hammers%20and%20mallets/ingco_1.5kg_stone_hammer.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307564/Astonic-Mart/Products/hammers%20and%20mallets/ingco_2kg_stone_hammer.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307564/Astonic-Mart/Products/hammers%20and%20mallets/ingco_4kg_stone_hammer.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307566/Astonic-Mart/Products/hammers%20and%20mallets/ingco_5kg_stone_hammer.jpg'
   ],
 
   variations: [
@@ -4994,8 +4946,8 @@ Accessories Included:
   inStock: true,
 
   images: [
-    'assets/img/router and core drill bits/INGCO 24PCS Router Bit Set 8mm.webp',
-    'assets/img/router and core drill bits/INGCO 24PCS Router Bit Set 8mm-2.png'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328566/Astonic-Mart/Products/router%20and%20core%20drill%20bits/INGCO_24PCS_Router_Bit_Set_8mm.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328585/Astonic-Mart/Products/router%20and%20core%20drill%20bits/INGCO_24PCS_Router_Bit_Set_8mm-2.png'
   ],
 
    description: `The INGCO AKRT24081 24PCS Router Bit Set is a professional woodworking cutter set designed for routing, trimming, chamfering, grooving, profiling and decorative edge forming. The bits feature carbide cutting edges and are supplied in a durable aluminum storage case for easy organization and transport.`,
@@ -5069,7 +5021,7 @@ Accessories Included:
   inStock: true,
 
   images: [
-    'assets/img/router and core drill bits/150mm Diamond Core Drill Bit.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328565/Astonic-Mart/Products/router%20and%20core%20drill%20bits/150mm_Diamond_Core_Drill_Bit.webp'
   ],
 
   description: `The 150mm Diamond Core Drill Bit is designed for drilling large-diameter holes in reinforced concrete, concrete blocks, masonry, bricks, and stone. It features high-quality diamond segments that provide fast cutting speed, durability, and efficient debris removal.`,
@@ -5119,12 +5071,12 @@ Accessories Included:
   price: 120000,
 
   images: [
-    'assets/img/spanners and wrenches/23pcs Oil Filter Wrench Set.jpg',
-    'assets/img/spanners and wrenches/23pcs Oil Filter Wrench Set-2.jpg',
-    'assets/img/spanners and wrenches/23pcs Oil Filter Wrench Set-3.jpg',
-    'assets/img/spanners and wrenches/23pcs Oil Filter Wrench Set-4.jpg',
-    'assets/img/spanners and wrenches/23pcs Oil Filter Wrench Set-5.jpg',
-    'assets/img/spanners and wrenches/23pcs Oil Filter Wrench Set-6.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329303/Astonic-Mart/Products/spanners%20and%20wrenches/23pcs_Oil_Filter_Wrench_Set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329303/Astonic-Mart/Products/spanners%20and%20wrenches/23pcs_Oil_Filter_Wrench_Set-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329306/Astonic-Mart/Products/spanners%20and%20wrenches/23pcs_Oil_Filter_Wrench_Set-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329306/Astonic-Mart/Products/spanners%20and%20wrenches/23pcs_Oil_Filter_Wrench_Set-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329306/Astonic-Mart/Products/spanners%20and%20wrenches/23pcs_Oil_Filter_Wrench_Set-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329306/Astonic-Mart/Products/spanners%20and%20wrenches/23pcs_Oil_Filter_Wrench_Set-6.jpg'
   ],
 
   inStock: true,
@@ -5174,15 +5126,15 @@ Accessories Included:
   price: 135000,
 
   images: [
-    'assets/img/door hardwares/Adjustable Door Lock Mortising Jig Kit.webp',
-    'assets/img/door hardwares/Adjustable Door Lock Mortising Jig Kit.jpg',
-    'assets/img/door hardwares/Adjustable Door Lock Mortising Jig Kit-2.jpg',
-    'assets/img/door hardwares/Adjustable Door Lock Mortising Jig Kit-3.jpg',
-    'assets/img/door hardwares/Adjustable Door Lock Mortising Jig Kit-4.jpg',
-    'assets/img/door hardwares/Adjustable Door Lock Mortising Jig Kit-5.jpg',
-    'assets/img/door hardwares/Adjustable Door Lock Mortising Jig Kit-6.jpg',
-    'assets/img/door hardwares/Adjustable Door Lock Mortising Jig Kit-7.jpg',
-    'assets/img/door hardwares/Adjustable Door Lock Mortising Jig Kit-8.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786323717/Astonic-Mart/Products/door%20hardwares/Adjustable_Door_Lock_Mortising_Jig_Kit.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786323705/Astonic-Mart/Products/door%20hardwares/Adjustable_Door_Lock_Mortising_Jig_Kit.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306026/Astonic-Mart/Products/door%20hardwares/Adjustable_Door_Lock_Mortising_Jig_Kit-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306027/Astonic-Mart/Products/door%20hardwares/Adjustable_Door_Lock_Mortising_Jig_Kit-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306029/Astonic-Mart/Products/door%20hardwares/Adjustable_Door_Lock_Mortising_Jig_Kit-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306030/Astonic-Mart/Products/door%20hardwares/Adjustable_Door_Lock_Mortising_Jig_Kit-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306031/Astonic-Mart/Products/door%20hardwares/Adjustable_Door_Lock_Mortising_Jig_Kit-6.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306032/Astonic-Mart/Products/door%20hardwares/Adjustable_Door_Lock_Mortising_Jig_Kit-7.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306034/Astonic-Mart/Products/door%20hardwares/Adjustable_Door_Lock_Mortising_Jig_Kit-8.jpg'
   ],
 
   inStock: true,
@@ -5235,9 +5187,9 @@ Accessories Included:
   price: 145000,
 
   images: [
-    'assets/img/door hardwares/Panic Exit Bar Door Exit Device.jpg',
-    'assets/img/door hardwares/Panic Exit Bar Door Exit Device-2.webp',
-    'assets/img/door hardwares/Panic Exit Bar Door Exit Device-3.jpeg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306035/Astonic-Mart/Products/door%20hardwares/Panic_Exit_Bar_Door_Exit_Device.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306036/Astonic-Mart/Products/door%20hardwares/Panic_Exit_Bar_Door_Exit_Device-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306037/Astonic-Mart/Products/door%20hardwares/Panic_Exit_Bar_Door_Exit_Device-3.jpg'
   ],
 
   inStock: true,
@@ -5291,12 +5243,12 @@ Accessories Included:
   price: 7500,
 
   images: [
-    'assets/img/saw blades/INGCO-SB185 saw blades 185mm.jpg',
-    'assets/img/saw blades/INGCO-SB185 saw blades 185mm-2.jpg',
-    'assets/img/saw blades/INGCO-SB185 saw blades 230mm-2.jpg',
-    'assets/img/saw blades/INGCO-SB185 saw blades 254mm-2.jpg',
-    'assets/img/saw blades/INGCO-SB185 saw blades 305mm-2.jpg',
-    'assets/img/saw blades/INGCO-SB185 saw blades 235mm.jpeg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328966/Astonic-Mart/Products/saw%20blades/INGCO-SB185_saw_blades_185mm.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328966/Astonic-Mart/Products/saw%20blades/INGCO-SB185_saw_blades_185mm-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328966/Astonic-Mart/Products/saw%20blades/INGCO-SB185_saw_blades_230mm-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328969/Astonic-Mart/Products/saw%20blades/INGCO-SB185_saw_blades_254mm-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328969/Astonic-Mart/Products/saw%20blades/INGCO-SB185_saw_blades_305mm-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328966/Astonic-Mart/Products/saw%20blades/INGCO-SB185_saw_blades_235mm.jpg'
   ],
 
 
@@ -5403,7 +5355,7 @@ Accessories Included:
      price: 29000,
 
      images: [
-       'assets/img/tap and die/HSS Hand Tap Set 3pcs 3 by 4 inch.jpeg'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786329462/Astonic-Mart/Products/tap%20and%20die/HSS_Hand_Tap_Set_3pcs_3_by_4_inch.jpg'
      ],
 
      inStock: true,
@@ -5460,13 +5412,13 @@ Accessories Included:
   price: 99000,
 
   images: [
-    'assets/img/tap and die/131PCS Thread Repair Kit Set.png',
-    'assets/img/tap and die/131PCS Thread Repair Kit Set-2.jpg',
-    'assets/img/tap and die/131PCS Thread Repair Kit Set-3.jpg',
-    'assets/img/tap and die/131PCS Thread Repair Kit Set-4.jpg',
-    'assets/img/tap and die/131PCS Thread Repair Kit Set-5.jpg',
-    'assets/img/tap and die/131PCS Thread Repair Kit Set-6.jpg',
-    'assets/img/tap and die/131PCS Thread Repair Kit Set-7.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329451/Astonic-Mart/Products/tap%20and%20die/131PCS_Thread_Repair_Kit_Set.png',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329433/Astonic-Mart/Products/tap%20and%20die/131PCS_Thread_Repair_Kit_Set-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329452/Astonic-Mart/Products/tap%20and%20die/131PCS_Thread_Repair_Kit_Set-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329456/Astonic-Mart/Products/tap%20and%20die/131PCS_Thread_Repair_Kit_Set-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329455/Astonic-Mart/Products/tap%20and%20die/131PCS_Thread_Repair_Kit_Set-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329459/Astonic-Mart/Products/tap%20and%20die/131PCS_Thread_Repair_Kit_Set-6.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329459/Astonic-Mart/Products/tap%20and%20die/131PCS_Thread_Repair_Kit_Set-7.jpg'
   ],
 
   inStock: true,
@@ -5536,8 +5488,8 @@ Accessories Included:
 
   images: [
     'ssets/img/tiles cutters/legendstone 600mm tile cutter-1.png',
-    'assets/img/tiles cutters/legendstone 600mm tile cutter-2.png',
-    'assets/img/tiles cutters/legendstone 600mm tile cutter.png'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329647/Astonic-Mart/Products/tiles%20cutters/legendstone_600mm_tile_cutter-2.png',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329641/Astonic-Mart/Products/tiles%20cutters/legendstone_600mm_tile_cutter.png'
   ],
 
   inStock: true,
@@ -5601,11 +5553,11 @@ Accessories Included:
   price: 12000,
 
   images: [
-    'assets/img/router and core drill bits/Heavy Duty 13mm Drill Chuck.jpg',
-    'assets/img/router and core drill bits/Heavy Duty 13mm Drill Chuck-2.jpg',
-    'assets/img/router and core drill bits/Heavy Duty 13mm Drill Chuck-3.jpg',
-    'assets/img/router and core drill bits/Heavy Duty 13mm Drill Chuck-4.jpg',
-    'assets/img/router and core drill bits/Heavy Duty 13mm Drill Chuck-5.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328565/Astonic-Mart/Products/router%20and%20core%20drill%20bits/Heavy_Duty_13mm_Drill_Chuck.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328565/Astonic-Mart/Products/router%20and%20core%20drill%20bits/Heavy_Duty_13mm_Drill_Chuck-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328566/Astonic-Mart/Products/router%20and%20core%20drill%20bits/Heavy_Duty_13mm_Drill_Chuck-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328566/Astonic-Mart/Products/router%20and%20core%20drill%20bits/Heavy_Duty_13mm_Drill_Chuck-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328566/Astonic-Mart/Products/router%20and%20core%20drill%20bits/Heavy_Duty_13mm_Drill_Chuck-5.jpg'
   ],
 
   inStock: true,
@@ -5658,14 +5610,14 @@ Accessories Included:
   price: 13000,
 
   images: [
-    'assets/img/router and core drill bits/MT2 to JT3 Drill Chuck Arbor.jpg',
-    'assets/img/router and core drill bits/MT2 to JT3 Drill Chuck Arbor-2.jpg',
-    'assets/img/router and core drill bits/MT2 to JT3 Drill Chuck Arbor-3.jpg',
-    'assets/img/router and core drill bits/MT2 to JT3 Drill Chuck Arbor-4.jpg',
-    'assets/img/router and core drill bits/MT2 to JT3 Drill Chuck Arbor-5.jpg',
-    'assets/img/router and core drill bits/MT2 to JT3 Drill Chuck Arbor-6.jpg',
-    'assets/img/router and core drill bits/MT2 to JT3 Drill Chuck Arbor-7.jpg',
-    'assets/img/router and core drill bits/MT2 to JT3 Drill Chuck Arbor-8.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328586/Astonic-Mart/Products/router%20and%20core%20drill%20bits/MT2_to_JT3_Drill_Chuck_Arbor.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328588/Astonic-Mart/Products/router%20and%20core%20drill%20bits/MT2_to_JT3_Drill_Chuck_Arbor-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328587/Astonic-Mart/Products/router%20and%20core%20drill%20bits/MT2_to_JT3_Drill_Chuck_Arbor-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328587/Astonic-Mart/Products/router%20and%20core%20drill%20bits/MT2_to_JT3_Drill_Chuck_Arbor-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328587/Astonic-Mart/Products/router%20and%20core%20drill%20bits/MT2_to_JT3_Drill_Chuck_Arbor-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328590/Astonic-Mart/Products/router%20and%20core%20drill%20bits/MT2_to_JT3_Drill_Chuck_Arbor-6.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328590/Astonic-Mart/Products/router%20and%20core%20drill%20bits/MT2_to_JT3_Drill_Chuck_Arbor-7.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328590/Astonic-Mart/Products/router%20and%20core%20drill%20bits/MT2_to_JT3_Drill_Chuck_Arbor-8.jpg'
   ],
 
   inStock: true,
@@ -5719,8 +5671,8 @@ Accessories Included:
   inStock: true,
 
   images: [
-    'assets/img/tools box and bags/5 step drawer tool box.png',
-    'assets/img/tools box and bags/5 step drawer tool box-2.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329750/Astonic-Mart/Products/tools%20box%20and%20bags/5_step_drawer_tool_box.png',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329733/Astonic-Mart/Products/tools%20box%20and%20bags/5_step_drawer_tool_box-2.webp'
   ],
 
   description: 'Professional 5-drawer heavy-duty steel tool chest designed for organized storage of hand tools, accessories, and workshop equipment. Features a spacious top compartment, lockable drawers, anti-slip liners, and a durable powder-coated finish suitable for garages, workshops, and industrial maintenance environments.',
@@ -5771,11 +5723,11 @@ Accessories Included:
 
 
   images: [
-    'assets/img/suction cups/Triple Suction Cup Lifter with Aluminum Handle.jpg',
-    'assets/img/suction cups/Triple Suction Cup Lifter with Aluminum Handle-2.jpg',
-    'assets/img/suction cups/Triple Suction Cup Lifter with Aluminum Handle-3.jpg',
-    'assets/img/suction cups/Triple Suction Cup Lifter with Aluminum Handle-4.jpg',
-    'assets/img/suction cups/Triple Suction Cup Lifter with Aluminum Handle-5.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329392/Astonic-Mart/Products/suction%20cups/Triple_Suction_Cup_Lifter_with_Aluminum_Handle.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329392/Astonic-Mart/Products/suction%20cups/Triple_Suction_Cup_Lifter_with_Aluminum_Handle-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329392/Astonic-Mart/Products/suction%20cups/Triple_Suction_Cup_Lifter_with_Aluminum_Handle-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329398/Astonic-Mart/Products/suction%20cups/Triple_Suction_Cup_Lifter_with_Aluminum_Handle-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329398/Astonic-Mart/Products/suction%20cups/Triple_Suction_Cup_Lifter_with_Aluminum_Handle-5.jpg'
   ],
 
   description: 'The Triple Suction Cup Lifter is a professional lifting and handling tool designed for safely moving glass panels, ceramic tiles, marble slabs, granite, sheet metal, and other smooth non-porous surfaces. Featuring three high-strength suction cups and a durable aluminum handle, it provides a secure grip and improved lifting capacity for construction and installation work.',
@@ -5826,12 +5778,12 @@ User Manual
 
 
   images: [
-    "assets/img/drill bits and screws/Auger Drill Bit for Wood (230mm  350mm, 6ΓÇô25mm).jpg",
-    "assets/img/drill bits and screws/Auger Drill Bit for Wood (230mm  350mm, 6ΓÇô25mm)-2.jpg",
-    "assets/img/drill bits and screws/Auger Drill Bit for Wood (230mm  350mm, 6ΓÇô25mm)-3.jpg",
-    'assets/img/drill bits and screws/Auger Drill Bit for Wood (230mm  350mm, 6ΓÇô25mm)-4.jpg',
-    'assets/img/drill bits and screws/Auger Drill Bit for Wood (230mm  350mm, 6ΓÇô25mm)-5.jpg'
-  ],
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429588/Astonic-Mart/Products/remaining-local-images/jeyfnw5dmdbuuqqvfphq.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429589/Astonic-Mart/Products/remaining-local-images/owgwgxk7ew4wsnlgdko6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429590/Astonic-Mart/Products/remaining-local-images/vgqtvrtwofjpta2yhv9k.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429591/Astonic-Mart/Products/remaining-local-images/nupzozgnttcmodkhlbkp.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429592/Astonic-Mart/Products/remaining-local-images/jk9pxhkged9nsizaypub.jpg'
+        ],
 
   description: `
 The Auger Drill Bit for Wood is a heavy-duty woodworking drill bit designed for drilling deep, clean, and accurate holes in softwood, hardwood, plywood, timber, and other wooden materials. Featuring a self-feeding screw tip and precision-cut spiral flutes, it removes wood chips efficiently while providing smooth and fast drilling performance. Suitable for professional carpenters, woodworkers, furniture makers, and DIY enthusiasts.
@@ -5963,12 +5915,12 @@ Accessories Included:
   price: 55000,
 
   images: [
-    "assets/img/nailers and staplers/Manual Concrete Nail Gun Wall Fastening Tool Kit.jpg",
-    "assets/img/nailers and staplers/Manual Concrete Nail Gun Wall Fastening Tool Kit -2.jpg",
-    "assets/img/nailers and staplers/Manual Concrete Nail Gun Wall Fastening Tool Kit-3.jpg",
-    'assets/img/nailers and staplers/Manual Concrete Nail Gun Wall Fastening Tool Kit-4.jpg',
-    'assets/img/nailers and staplers/Manual Concrete Nail Gun Wall Fastening Tool Kit-5.jpg',
-    'assets/img/nailers and staplers/Manual Concrete Nail Gun Wall Fastening Tool Kit-6.jpg'
+    "https://res.cloudinary.com/taus5tit/image/upload/v1786309336/Astonic-Mart/Products/nailers%20and%20staplers/Manual_Concrete_Nail_Gun_Wall_Fastening_Tool_Kit.jpg",
+    "https://res.cloudinary.com/taus5tit/image/upload/v1786309333/Astonic-Mart/Products/nailers%20and%20staplers/Manual_Concrete_Nail_Gun_Wall_Fastening_Tool_Kit_-2.jpg",
+    "https://res.cloudinary.com/taus5tit/image/upload/v1786309338/Astonic-Mart/Products/nailers%20and%20staplers/Manual_Concrete_Nail_Gun_Wall_Fastening_Tool_Kit-3.jpg",
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309340/Astonic-Mart/Products/nailers%20and%20staplers/Manual_Concrete_Nail_Gun_Wall_Fastening_Tool_Kit-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309341/Astonic-Mart/Products/nailers%20and%20staplers/Manual_Concrete_Nail_Gun_Wall_Fastening_Tool_Kit-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309345/Astonic-Mart/Products/nailers%20and%20staplers/Manual_Concrete_Nail_Gun_Wall_Fastening_Tool_Kit-6.jpg'
   ],
 
   description: `The Manual Concrete Nail Gun Wall Fastening Tool Kit is designed for fast and efficient installation of nails into concrete walls, brick walls, steel structures, and masonry surfaces. It provides a convenient fastening solution for electrical, plumbing, HVAC, ceiling, and construction applications. The kit includes assorted fastening pins and accessories packed in a durable carrying case.`,
@@ -6014,11 +5966,11 @@ Accessories Included:
   price: 650000,
 
   images: [
-    "assets/img/cable pullers/Fiberglass Fish Tape Cable Puller Duct Rodder - 6mm.jpg",
-    "assets/img/cable pullers/Fiberglass Fish Tape Cable Puller Duct Rodder - 6mm-2.webp",
-    ' assets/img/cable pullers/Fiberglass Fish Tape Cable Puller Duct Rodder - 6mm-3.webp',
-    'assets/img/cable pullers/Fiberglass Fish Tape Cable Puller Duct Rodder - 6mm-4.webp',
-    'assets/img/cable pullers/Fiberglass Fish Tape Cable Puller Duct Rodder - 6mm-5.webp'
+    "https://res.cloudinary.com/taus5tit/image/upload/v1786304569/Astonic-Mart/Products/cable%20pullers/Fiberglass_Fish_Tape_Cable_Puller_Duct_Rodder_-_6mm.jpg",
+    "https://res.cloudinary.com/taus5tit/image/upload/v1786304570/Astonic-Mart/Products/cable%20pullers/Fiberglass_Fish_Tape_Cable_Puller_Duct_Rodder_-_6mm-2.webp",
+    ' https://res.cloudinary.com/taus5tit/image/upload/v1786304571/Astonic-Mart/Products/cable%20pullers/Fiberglass_Fish_Tape_Cable_Puller_Duct_Rodder_-_6mm-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304572/Astonic-Mart/Products/cable%20pullers/Fiberglass_Fish_Tape_Cable_Puller_Duct_Rodder_-_6mm-4.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304574/Astonic-Mart/Products/cable%20pullers/Fiberglass_Fish_Tape_Cable_Puller_Duct_Rodder_-_6mm-5.webp'
   ],
 
   variations: [
@@ -6090,10 +6042,10 @@ Accessories Included:
   price: 4500,
 
   images: [
-    "assets/img/putty, utility knives and blades/Heavy-Duty Retractable Utility Knife.jpeg",
-    "assets/img/putty, utility knives and blades/Heavy-Duty Retractable Utility Knife-2.jpeg",
-    "assets/img/putty, utility knives and blades/Heavy-Duty Retractable Utility Knife-3.jpeg",
-    'assets/img/putty, utility knives and blades/Heavy-Duty Retractable Utility Knife-4.jpeg'
+    "https://res.cloudinary.com/taus5tit/image/upload/v1786311385/Astonic-Mart/Products/putty%2C%20utility%20knives%20and%20blades/Heavy-Duty_Retractable_Utility_Knife.jpg",
+    "https://res.cloudinary.com/taus5tit/image/upload/v1786311386/Astonic-Mart/Products/putty%2C%20utility%20knives%20and%20blades/Heavy-Duty_Retractable_Utility_Knife-2.jpg",
+    "https://res.cloudinary.com/taus5tit/image/upload/v1786311386/Astonic-Mart/Products/putty%2C%20utility%20knives%20and%20blades/Heavy-Duty_Retractable_Utility_Knife-3.jpg",
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786311387/Astonic-Mart/Products/putty%2C%20utility%20knives%20and%20blades/Heavy-Duty_Retractable_Utility_Knife-4.jpg'
   ],
 
   description: `The Heavy-Duty Retractable Utility Knife is a professional cutting tool designed for precision, durability, and safety. It features a retractable replaceable blade with a secure locking mechanism for controlled cutting. Ideal for construction, packaging, flooring, electrical work, and general maintenance, it delivers reliable performance in both industrial and DIY applications.`,
@@ -6141,8 +6093,8 @@ Accessories Included:
   price: 10000,
 
   images: [
-    'assets/img/putty, utility knives and blades/TOCDQ Putty Knife.jpg'
-  ],
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429612/Astonic-Mart/Products/remaining-local-images/jzy6fv5czxfzqsy235o5.png'
+        ],
 
   inStock: true,
   jumiaLink: '',
@@ -6205,14 +6157,14 @@ Accessories Included:
   discountPrice: 87000,
 
   images: [
-    'assets/img/spanners and wrenches/31PCS Oil Filter Wrench Socket Set.jpg',
-    'assets/img/spanners and wrenches/31PCS Oil Filter Wrench Socket Set-2.jpg',
-    'assets/img/spanners and wrenches/31PCS Oil Filter Wrench Socket Set-3.jpg',
-    'assets/img/spanners and wrenches/31PCS Oil Filter Wrench Socket Set-4.jpg',
-    'assets/img/spanners and wrenches/31PCS Oil Filter Wrench Socket Set-5.jpg',
-    'assets/img/spanners and wrenches/31PCS Oil Filter Wrench Socket Set-6.jpg',
-    'assets/img/spanners and wrenches/31PCS Oil Filter Wrench Socket Set-7.jpg',
-    'assets/img/spanners and wrenches/31PCS Oil Filter Wrench Socket Set-8.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329309/Astonic-Mart/Products/spanners%20and%20wrenches/31PCS_Oil_Filter_Wrench_Socket_Set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329313/Astonic-Mart/Products/spanners%20and%20wrenches/31PCS_Oil_Filter_Wrench_Socket_Set-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329315/Astonic-Mart/Products/spanners%20and%20wrenches/31PCS_Oil_Filter_Wrench_Socket_Set-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329313/Astonic-Mart/Products/spanners%20and%20wrenches/31PCS_Oil_Filter_Wrench_Socket_Set-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329313/Astonic-Mart/Products/spanners%20and%20wrenches/31PCS_Oil_Filter_Wrench_Socket_Set-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329313/Astonic-Mart/Products/spanners%20and%20wrenches/31PCS_Oil_Filter_Wrench_Socket_Set-6.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329320/Astonic-Mart/Products/spanners%20and%20wrenches/31PCS_Oil_Filter_Wrench_Socket_Set-7.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329321/Astonic-Mart/Products/spanners%20and%20wrenches/31PCS_Oil_Filter_Wrench_Socket_Set-8.jpg'
   ],
 
   description: 'The 31PCS Oil Filter Wrench Socket Set is a professional automotive service kit designed for quick and efficient removal and installation of oil filter caps. It includes a wide range of cup-style sockets compatible with many passenger vehicles, SUVs, vans, and light trucks, making it an essential tool for workshops and service centers.',
@@ -6262,15 +6214,15 @@ features: `
   price: 95000,
 
   images: [
-    'assets/img/pipe threading kit/Manual Ratcheting Pipe Threader Kit - 1 and half.jpg',
-    'assets/img/pipe threading kit/Manual Ratcheting Pipe Threader Kit - 1 and half-2.jpg',
-    'assets/img/pipe threading kit/Manual Ratcheting Pipe Threader Kit - 1 and half-3.jpg',
-    'assets/img/pipe threading kit/Manual Ratcheting Pipe Threader Kit - 1 and half-4.jpg',
-    'assets/img/pipe threading kit/Manual Ratcheting Pipe Threader Kit - 1 and half-5.jpg',
-    'assets/img/pipe threading kit/Manual Ratcheting Pipe Threader Kit - 1 and half-6.jpg',
-    'assets/img/pipe threading kit/Manual Ratcheting Pipe Threader Kit - 1 and half-7.jpg',
-    'assets/img/pipe threading kit/Manual Ratcheting Pipe Threader Kit - 1 and half-8.jpg',
-    'assets/img/pipe threading kit/Manual Ratcheting Pipe Threader Kit - 1 and half-9.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309639/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratcheting_Pipe_Threader_Kit_-_1_and_half.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309641/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratcheting_Pipe_Threader_Kit_-_1_and_half-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309644/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratcheting_Pipe_Threader_Kit_-_1_and_half-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309647/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratcheting_Pipe_Threader_Kit_-_1_and_half-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309650/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratcheting_Pipe_Threader_Kit_-_1_and_half-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309655/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratcheting_Pipe_Threader_Kit_-_1_and_half-6.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309659/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratcheting_Pipe_Threader_Kit_-_1_and_half-7.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309663/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratcheting_Pipe_Threader_Kit_-_1_and_half-8.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309668/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratcheting_Pipe_Threader_Kit_-_1_and_half-9.jpg'
   ],
 
 
@@ -6347,12 +6299,12 @@ Instruction Manual
   price: 188000,
 
   images: [
-    'assets/img/pipe threading kit/Manual Ratchet Pipe Threading Set - 2 and half to 2inch.jpg',
-    'assets/img/pipe threading kit/Manual Ratchet Pipe Threading Set - 2 and half to 2inch-2.jpg',
-    'assets/img/pipe threading kit/Manual Ratchet Pipe Threading Set - 2 and half to 2inch-3.jpg',
-    'assets/img/pipe threading kit/Manual Ratchet Pipe Threading Set - 2 and half to 2inch-4.jpg',
-    'assets/img/pipe threading kit/Manual Ratchet Pipe Threading Set - 2 and half to 2inch-5.jpg',
-    'assets/img/pipe threading kit/Manual Ratchet Pipe Threading Set - 2 and half to 2inch-6.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309632/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratchet_Pipe_Threading_Set_-_2_and_half_to_2inch.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309633/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratchet_Pipe_Threading_Set_-_2_and_half_to_2inch-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309634/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratchet_Pipe_Threading_Set_-_2_and_half_to_2inch-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309635/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratchet_Pipe_Threading_Set_-_2_and_half_to_2inch-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309636/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratchet_Pipe_Threading_Set_-_2_and_half_to_2inch-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309638/Astonic-Mart/Products/pipe%20threading%20kit/Manual_Ratchet_Pipe_Threading_Set_-_2_and_half_to_2inch-6.jpg'
   ],
 
   description: 'The Manual Ratchet Pipe Threading Set is a professional plumbing tool kit designed for cutting precise external threads on steel, galvanized, iron and metal pipes. The set includes a heavy-duty ratchet handle and multiple interchangeable die heads for creating BSPT or NPT threads in various pipe sizes. It is ideal for plumbing installations, maintenance work and industrial pipe fabrication.',
@@ -6436,13 +6388,12 @@ User Manual
   price: 160000,
 
   images: [
-    'assets/img/flaringtools and saws/ecentric flaring tools.jpg',
-    'assets/img/refrigeration-tools/Eccentric Flaring Tool Kit-2.jpg',
-    'assets/img/flaringtools and saws/ecentric flaring tools-4.jpg',
-    'assets/img/flaringtools and saws/ecentric flaring tools-3.jpg',
-    'assets/img/flaringtools and saws/ecentric flaring tools-5.jpg',
-    'assets/img/flaringtools and saws/ecentric flaring tools-6.jpg',
-    'assets/img/flaringtools and saws/ecentric flaring tools-7.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306589/Astonic-Mart/Products/flaringtools%20and%20saws/ecentric_flaring_tools.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306591/Astonic-Mart/Products/flaringtools%20and%20saws/ecentric_flaring_tools-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306590/Astonic-Mart/Products/flaringtools%20and%20saws/ecentric_flaring_tools-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306592/Astonic-Mart/Products/flaringtools%20and%20saws/ecentric_flaring_tools-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306594/Astonic-Mart/Products/flaringtools%20and%20saws/ecentric_flaring_tools-6.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306595/Astonic-Mart/Products/flaringtools%20and%20saws/ecentric_flaring_tools-7.jpg'
   ],
 
   description: 'The Eccentric Flaring Tool Kit is a professional-grade refrigeration and air conditioning service tool designed for producing smooth, precise and leak-free 45┬░ flares on copper tubing. Its eccentric cone mechanism ensures uniform flare formation with minimal effort, making it ideal for HVAC installation, maintenance and repair work.',
@@ -6515,10 +6466,10 @@ User Manual
   price: 7000,
 
   images: [
-    'assets/img/hammers and mallets/Boosman Club Hammer.png',
-    'assets/img/hammers and mallets/Boosman Club Hammer-2.jpg',
-    'assets/img/hammers and mallets/Boosman Club Hammer-3.jpg',
-    'assets/img/hammers and mallets/Boosman Club Hammer-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307558/Astonic-Mart/Products/hammers%20and%20mallets/Boosman_Club_Hammer.png',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307559/Astonic-Mart/Products/hammers%20and%20mallets/Boosman_Club_Hammer-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307560/Astonic-Mart/Products/hammers%20and%20mallets/Boosman_Club_Hammer-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786307561/Astonic-Mart/Products/hammers%20and%20mallets/Boosman_Club_Hammer-4.jpg'
   ],
 
   variations: [
@@ -6585,14 +6536,14 @@ Accessories Included:
   discountPrice: 250000,
 
   images: [
-    'assets/img/bearing pullers/12PCS Bearing Separator and Puller Set.webp',
-    'assets/img/bearing pullers/12PCS Bearing Separator and Puller Set-2.webp',
-    'assets/img/bearing pullers/12PCS Bearing Separator and Puller Set-3.webp',
-    'assets/img/bearing pullers/12PCS Bearing Separator and Puller Set-4.webp',
-    'assets/img/bearing pullers/12PCS Bearing Separator and Puller Set-5.webp',
-    'assets/img/bearing pullers/12PCS Bearing Separator and Puller Set-6.webp',
-    'assets/img/bearing pullers/12PCS Bearing Separator and Puller Set-7.webp',
-    'assets/img/bearing pullers/12PCS Bearing Separator and Puller Set-8.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304219/Astonic-Mart/Products/bearing%20pullers/12PCS_Bearing_Separator_and_Puller_Set.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304220/Astonic-Mart/Products/bearing%20pullers/12PCS_Bearing_Separator_and_Puller_Set-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304221/Astonic-Mart/Products/bearing%20pullers/12PCS_Bearing_Separator_and_Puller_Set-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304222/Astonic-Mart/Products/bearing%20pullers/12PCS_Bearing_Separator_and_Puller_Set-4.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304223/Astonic-Mart/Products/bearing%20pullers/12PCS_Bearing_Separator_and_Puller_Set-5.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304224/Astonic-Mart/Products/bearing%20pullers/12PCS_Bearing_Separator_and_Puller_Set-6.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304225/Astonic-Mart/Products/bearing%20pullers/12PCS_Bearing_Separator_and_Puller_Set-7.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304226/Astonic-Mart/Products/bearing%20pullers/12PCS_Bearing_Separator_and_Puller_Set-8.webp'
   ],
 
   inStock: true,
@@ -6647,11 +6598,11 @@ Accessories Included:
 
 
   images: [
-    'assets/img/air guns/Air Blow Gun-1.jpg',
-    'assets/img/air guns/Air Blow Gun-2.jpg',
-    'assets/img/air guns/Air Blow Gun-3.jpg',
-    'assets/img/air guns/Air Blow Gun-4.jpg',
-    'assets/img/air guns/Air Blow Gun.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786303952/Astonic-Mart/Products/air%20guns/Air_Blow_Gun-1.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786303953/Astonic-Mart/Products/air%20guns/Air_Blow_Gun-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786303954/Astonic-Mart/Products/air%20guns/Air_Blow_Gun-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786303955/Astonic-Mart/Products/air%20guns/Air_Blow_Gun-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786303951/Astonic-Mart/Products/air%20guns/Air_Blow_Gun.jpg'
   ],
 
   inStock: true,
@@ -6703,11 +6654,11 @@ Accessories Included:
 
 
   images: [
-    'assets/img/air guns/INGCO Air Blow Gun ABG031-3-3.jpg',
-    'assets/img/air guns/INGCO Air Blow Gun ABG031-3-1.jpeg',
-    'assets/img/air guns/INGCO Air Blow Gun ABG031-3-2.jpg',
-    'assets/img/air guns/INGCO Air Blow Gun ABG031-3-4.jpg',
-    'assets/img/air guns/INGCO Air Blow Gun ABG031-3-5.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786303960/Astonic-Mart/Products/air%20guns/INGCO_Air_Blow_Gun_ABG031-3-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786303956/Astonic-Mart/Products/air%20guns/INGCO_Air_Blow_Gun_ABG031-3-1.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786303957/Astonic-Mart/Products/air%20guns/INGCO_Air_Blow_Gun_ABG031-3-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786303961/Astonic-Mart/Products/air%20guns/INGCO_Air_Blow_Gun_ABG031-3-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786303962/Astonic-Mart/Products/air%20guns/INGCO_Air_Blow_Gun_ABG031-3-5.jpg'
   ],
 
   inStock: true,
@@ -6758,12 +6709,12 @@ Accessories Included:
 
 
   images: [
-    'assets/img/spray guns/Airless Paint Spray Gun 250 Bar 25MPa.jpg',
-    'assets/img/spray guns/Airless Paint Spray Gun 250 Bar 25MPa-2.jpg',
-    'assets/img/spray guns/Airless Paint Spray Gun 250 Bar 25MPa-3.jpg',
-    'assets/img/spray guns/Airless Paint Spray Gun 250 Bar 25MPa-4.jpg',
-    'assets/img/spray guns/Airless Paint Spray Gun 250 Bar 25MPa-5.jpg',
-    'assets/img/spray guns/Airless Paint Spray Gun 250 Bar 25MPa-6.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329341/Astonic-Mart/Products/spray%20guns/Airless_Paint_Spray_Gun_250_Bar_25MPa.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329341/Astonic-Mart/Products/spray%20guns/Airless_Paint_Spray_Gun_250_Bar_25MPa-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329341/Astonic-Mart/Products/spray%20guns/Airless_Paint_Spray_Gun_250_Bar_25MPa-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329342/Astonic-Mart/Products/spray%20guns/Airless_Paint_Spray_Gun_250_Bar_25MPa-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329342/Astonic-Mart/Products/spray%20guns/Airless_Paint_Spray_Gun_250_Bar_25MPa-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329345/Astonic-Mart/Products/spray%20guns/Airless_Paint_Spray_Gun_250_Bar_25MPa-6.jpg'
   ],
 
   inStock: true,
@@ -6811,12 +6762,12 @@ Accessories Included:
   
 
   images: [
-    'assets/img/pipe threading kit/Heavy Duty Pipe Cutter 4ΓÇô55mm.webp',
-    'assets/img/pipe threading kit/Heavy Duty Pipe Cutter 4ΓÇô55mm-2.webp',
-    'assets/img/pipe threading kit/Heavy Duty Pipe Cutter 4ΓÇô55mm-3.webp',
-    'assets/img/pipe threading kit/Heavy Duty Pipe Cutter 4ΓÇô55mm-4.webp',
-    'assets/img/pipe threading kit/Heavy Duty Pipe Cutter 4ΓÇô55mm-5.webp'
-  ],
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429614/Astonic-Mart/Products/remaining-local-images/sq02qfc1qeoo6sr0uwn4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429615/Astonic-Mart/Products/remaining-local-images/sli4nuzlcpoauidevrmo.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429616/Astonic-Mart/Products/remaining-local-images/byn6tahmcjpulmg5donu.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429617/Astonic-Mart/Products/remaining-local-images/luhit73gtzpdmrvo3h9g.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429618/Astonic-Mart/Products/remaining-local-images/qconidzmdyojrglvdavp.webp'
+        ],
 
   inStock: true,
 
@@ -6865,10 +6816,10 @@ Accessories Included:
   price: 50000,
 
   images: [
-    'assets/img/spanners and wrenches/14pcs combination spanner set.jpg',
-    'assets/img/spanners and wrenches/14pcs combination spanner set-2.jpg',
-    'assets/img/spanners and wrenches/14pcs combination spanner set-3.jpeg',
-    'assets/img/spanners and wrenches/14pcs combination spanner set-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329297/Astonic-Mart/Products/spanners%20and%20wrenches/14pcs_combination_spanner_set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329297/Astonic-Mart/Products/spanners%20and%20wrenches/14pcs_combination_spanner_set-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329303/Astonic-Mart/Products/spanners%20and%20wrenches/14pcs_combination_spanner_set-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329303/Astonic-Mart/Products/spanners%20and%20wrenches/14pcs_combination_spanner_set-4.jpg'
   ],
 
   inStock: true,
@@ -6932,9 +6883,8 @@ Accessories Included:
   price: 73000,
 
   images: [
-    'assets/img/spanners and wrenches/23 Pcs Combination Wrench Set (6ΓÇô23mm).avif',
-    
-  ],
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429619/Astonic-Mart/Products/remaining-local-images/xw5y61yv86c71h6nla1s.avif'
+        ],
 
   inStock: true,
 
@@ -7002,10 +6952,10 @@ Accessories Included:
   price: 57000,
 
   images: [
-    'assets/img/sockets and ratchets/40 Pcs Socket Set.jpg',
-    'assets/img/sockets and ratchets/40 Pcs Socket Set-2.webp',
-    'assets/img/sockets and ratchets/40 Pcs Socket Set-3.webp',
-    'assets/img/sockets and ratchets/40 Pcs Socket Set-4.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329275/Astonic-Mart/Products/sockets%20and%20ratchets/40_Pcs_Socket_Set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329277/Astonic-Mart/Products/sockets%20and%20ratchets/40_Pcs_Socket_Set-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329277/Astonic-Mart/Products/sockets%20and%20ratchets/40_Pcs_Socket_Set-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329282/Astonic-Mart/Products/sockets%20and%20ratchets/40_Pcs_Socket_Set-4.webp'
   ],
 
   inStock: true,
@@ -7063,11 +7013,11 @@ Accessories Included:
   price: 55000,
 
   images: [
-    'assets/img/spanners and wrenches/7 Pcs Ratcheting Combination Wrench Set.jpg',
-    'assets/img/spanners and wrenches/7 Pcs Ratcheting Combination Wrench Set-2.jpg',
-    'assets/img/spanners and wrenches/7 Pcs Ratcheting Combination Wrench Set-3.jpg',
-    'assets/img/spanners and wrenches/7 Pcs Ratcheting Combination Wrench Set-4.jpg',
-    'assets/img/spanners and wrenches/7 Pcs Ratcheting Combination Wrench Set-5.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329324/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Ratcheting_Combination_Wrench_Set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329324/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Ratcheting_Combination_Wrench_Set-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329327/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Ratcheting_Combination_Wrench_Set-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329327/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Ratcheting_Combination_Wrench_Set-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329327/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Ratcheting_Combination_Wrench_Set-5.jpg'
   ],
 
   inStock: true,
@@ -7126,12 +7076,12 @@ Accessories Included:
   price: 60000,
 
   images: [
-    'assets/img/spanners and wrenches/7 Pcs Flexible Head Ratcheting Wrench Set.jpg',
-    'assets/img/spanners and wrenches/7 Pcs Flexible Head Ratcheting Wrench Set-2.jpg',
-    'assets/img/spanners and wrenches/7 Pcs Flexible Head Ratcheting Wrench Set-3.jpg',
-    'assets/img/spanners and wrenches/7 Pcs Flexible Head Ratcheting Wrench Set-4.jpg',
-    'assets/img/spanners and wrenches/7 Pcs Flexible Head Ratcheting Wrench Set-5.jpg',
-    'assets/img/spanners and wrenches/7 Pcs Flexible Head Ratcheting Wrench Set-6.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329317/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Flexible_Head_Ratcheting_Wrench_Set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329317/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Flexible_Head_Ratcheting_Wrench_Set-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329317/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Flexible_Head_Ratcheting_Wrench_Set-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329324/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Flexible_Head_Ratcheting_Wrench_Set-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329324/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Flexible_Head_Ratcheting_Wrench_Set-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329324/Astonic-Mart/Products/spanners%20and%20wrenches/7_Pcs_Flexible_Head_Ratcheting_Wrench_Set-6.jpg'
   ],
 
   inStock: true,
@@ -7194,10 +7144,10 @@ Accessories Included:
   discountPrice: 10500,
 
    images: [
-    'assets/img/cutting and grinding disc/bosch diamond cutting disc 115mm.jpg',
-    'assets/img/cutting and grinding disc/bosch diamond cutting disc 115mm-2.jpg',
-    'assets/img/cutting and grinding disc/bosch diamond cutting disc 115mm-3.jpg',
-    'assets/img/cutting and grinding disc/bosch diamond cutting disc 115mm-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305684/Astonic-Mart/Products/cutting%20and%20grinding%20disc/bosch_diamond_cutting_disc_115mm.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305686/Astonic-Mart/Products/cutting%20and%20grinding%20disc/bosch_diamond_cutting_disc_115mm-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305689/Astonic-Mart/Products/cutting%20and%20grinding%20disc/bosch_diamond_cutting_disc_115mm-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305690/Astonic-Mart/Products/cutting%20and%20grinding%20disc/bosch_diamond_cutting_disc_115mm-4.jpg'
   ],
 
   inStock: true,
@@ -7248,9 +7198,9 @@ Accessories Included:
   
 
   images: [
-    'assets/img/saw blades/Bosch Eco for Wood Circular Saw Blade 235mm.jpg',
-    'assets/img/saw blades/Bosch Eco for Wood Circular Saw Blade 235mm-3.webp',
-    'assets/img/saw blades/Bosch Eco for Wood Circular Saw Blade 235mm-3.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328963/Astonic-Mart/Products/saw%20blades/Bosch_Eco_for_Wood_Circular_Saw_Blade_235mm.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328963/Astonic-Mart/Products/saw%20blades/Bosch_Eco_for_Wood_Circular_Saw_Blade_235mm-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328963/Astonic-Mart/Products/saw%20blades/Bosch_Eco_for_Wood_Circular_Saw_Blade_235mm-3.webp'
   ],
 
   inStock: true,
@@ -7303,10 +7253,10 @@ Accessories Included:
   price: 4000,
 
   images: [
-    'assets/img/drill bits and screws/Bosch PRO Metal HSS-G Drill Bit Set (10 Pcs)-1.jpg',
-    'assets/img/drill bits and screws/Bosch PRO Metal HSS-G Drill Bit Set (5 Pcs)-2.jpeg',
-    'assets/img/drill bits and screws/Bosch PRO Metal HSS-G Drill Bit Set (5 Pcs)-3.png',
-    'assets/img/drill bits and screws/Bosch PRO Metal HSS-G Drill Bit Set (5 Pcs).jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306043/Astonic-Mart/Products/drill%20bits%20and%20screws/Bosch_PRO_Metal_HSS-G_Drill_Bit_Set_10_Pcs-1.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306046/Astonic-Mart/Products/drill%20bits%20and%20screws/Bosch_PRO_Metal_HSS-G_Drill_Bit_Set_5_Pcs-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306048/Astonic-Mart/Products/drill%20bits%20and%20screws/Bosch_PRO_Metal_HSS-G_Drill_Bit_Set_5_Pcs-3.png',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306045/Astonic-Mart/Products/drill%20bits%20and%20screws/Bosch_PRO_Metal_HSS-G_Drill_Bit_Set_5_Pcs.jpg'
   ],
 
   variations: [
@@ -7365,9 +7315,9 @@ Accessories Included:
   price: 12500,
 
   images: [
-    'assets/img/drill bits and screws/Bosch PRO Metal HSS-G Drill Bit Set (5 Pcs).jpg',
-     'assets/img/drill bits and screws/Bosch PRO Metal HSS-G Drill Bit Set (5 Pcs)-2.jpeg',
-     'assets/img/drill bits and screws/Bosch PRO Metal HSS-G Drill Bit Set (5 Pcs)-3.png'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306045/Astonic-Mart/Products/drill%20bits%20and%20screws/Bosch_PRO_Metal_HSS-G_Drill_Bit_Set_5_Pcs.jpg',
+     'https://res.cloudinary.com/taus5tit/image/upload/v1786306046/Astonic-Mart/Products/drill%20bits%20and%20screws/Bosch_PRO_Metal_HSS-G_Drill_Bit_Set_5_Pcs-2.jpg',
+     'https://res.cloudinary.com/taus5tit/image/upload/v1786306048/Astonic-Mart/Products/drill%20bits%20and%20screws/Bosch_PRO_Metal_HSS-G_Drill_Bit_Set_5_Pcs-3.png'
   ],
 
   variations: [
@@ -7462,11 +7412,11 @@ Accessories Included:
   discountPrice: 350000,
 
   images: [
-    'assets/img/flaringtools and saws/Manual Pipe Expander Tool Kit.png',
-    'assets/img/flaringtools and saws/Manual Pipe Expander Tool Kit-2.jpg',
-    'assets/img/flaringtools and saws/Manual Pipe Expander Tool Kit-3.jpg',
-    'assets/img/flaringtools and saws/Manual Pipe Expander Tool Kit-4.jpg',
-    'sassets/img/flaringtools and saws/Manual Pipe Expander Tool Kit-5.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306603/Astonic-Mart/Products/flaringtools%20and%20saws/Manual_Pipe_Expander_Tool_Kit.png',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306605/Astonic-Mart/Products/flaringtools%20and%20saws/Manual_Pipe_Expander_Tool_Kit-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306614/Astonic-Mart/Products/flaringtools%20and%20saws/Manual_Pipe_Expander_Tool_Kit-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786306616/Astonic-Mart/Products/flaringtools%20and%20saws/Manual_Pipe_Expander_Tool_Kit-4.jpg',
+    'shttps://res.cloudinary.com/taus5tit/image/upload/v1786306618/Astonic-Mart/Products/flaringtools%20and%20saws/Manual_Pipe_Expander_Tool_Kit-5.jpg'
   ],
 
   inStock: true,
@@ -7519,10 +7469,10 @@ Accessories Included:
   discountPrice: 420000,
 
   images: [
-    'assets/img/bearing pullers/Mechanical Gear Puller Bearing Separator Kit 10 Ton.webp',
-    'assets/img/bearing pullers/Mechanical Gear Puller Bearing Separator Kit 10 Ton-2.webp',
-    'assets/img/bearing pullers/Mechanical Gear Puller Bearing Separator Kit 10 Ton-3.webp',
-    'assets/img/bearing pullers/Mechanical Gear Puller Bearing Separator Kit 10 Ton-4.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304249/Astonic-Mart/Products/bearing%20pullers/Mechanical_Gear_Puller_Bearing_Separator_Kit_10_Ton.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304251/Astonic-Mart/Products/bearing%20pullers/Mechanical_Gear_Puller_Bearing_Separator_Kit_10_Ton-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304252/Astonic-Mart/Products/bearing%20pullers/Mechanical_Gear_Puller_Bearing_Separator_Kit_10_Ton-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304253/Astonic-Mart/Products/bearing%20pullers/Mechanical_Gear_Puller_Bearing_Separator_Kit_10_Ton-4.webp'
   ],
 
   inStock: true,
@@ -7579,11 +7529,10 @@ Accessories Included:
   price: 250000,
 
   images: [
-    'assets/img/bearing pullers/10 Ton Hydraulic Bearing Separator Puller Kit-1.jpg',
-    'assets/img/bearing-pullers/10 Ton Hydraulic Bearing Separator Puller Kit-2.webp',
-    'assets/img/bearing pullers/10 Ton Hydraulic Bearing Separator Puller Kit-3.jpg',
-    'assets/img/bearing pullers/10 Ton Hydraulic Bearing Separator Puller Kit-4.jpg',
-    'assets/img/bearing pullers/10 Ton Hydraulic Bearing Separator Puller Kit-5.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304215/Astonic-Mart/Products/bearing%20pullers/10_Ton_Hydraulic_Bearing_Separator_Puller_Kit-1.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304216/Astonic-Mart/Products/bearing%20pullers/10_Ton_Hydraulic_Bearing_Separator_Puller_Kit-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304217/Astonic-Mart/Products/bearing%20pullers/10_Ton_Hydraulic_Bearing_Separator_Puller_Kit-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304218/Astonic-Mart/Products/bearing%20pullers/10_Ton_Hydraulic_Bearing_Separator_Puller_Kit-5.jpg'
   ],
 
   inStock: true,
@@ -7638,10 +7587,10 @@ Accessories Included:
   discountPrice: 350000,
 
   images: [
-    'assets/img/crimping tools/HHY-60B Hydraulic Crimping Tool Kit.png',
-    'assets/img/crimping tools/HHY-60B Hydraulic Crimping Tool Kit-2.jpg',
-    'assets/img/crimping tools/HHY-60B Hydraulic Crimping Tool Kit-2.jpg',
-    'assets/img/crimping tools/HHY-60B Hydraulic Crimping Tool Kit-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305650/Astonic-Mart/Products/crimping%20tools/HHY-60B_Hydraulic_Crimping_Tool_Kit.png',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305653/Astonic-Mart/Products/crimping%20tools/HHY-60B_Hydraulic_Crimping_Tool_Kit-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305653/Astonic-Mart/Products/crimping%20tools/HHY-60B_Hydraulic_Crimping_Tool_Kit-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305655/Astonic-Mart/Products/crimping%20tools/HHY-60B_Hydraulic_Crimping_Tool_Kit-4.jpg'
   ],
 
   inStock: true,
@@ -7702,10 +7651,10 @@ Accessories Included:
  
 
   images: [
-    'assets/img/crimping tools/Manual Steel Strapping Tensioner and Sealer Tool Set.jpeg',
-    'assets/img/crimping tools/Manual Steel Strapping Tensioner and Sealer Tool Set-2.jpg',
-    'assets/img/crimping tools/Manual Steel Strapping Tensioner and Sealer Tool Set-3.jpeg',
-    'assets/img/crimping tools/Manual Steel Strapping Tensioner and Sealer Tool Set-4.jpeg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305666/Astonic-Mart/Products/crimping%20tools/Manual_Steel_Strapping_Tensioner_and_Sealer_Tool_Set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305669/Astonic-Mart/Products/crimping%20tools/Manual_Steel_Strapping_Tensioner_and_Sealer_Tool_Set-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305671/Astonic-Mart/Products/crimping%20tools/Manual_Steel_Strapping_Tensioner_and_Sealer_Tool_Set-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305673/Astonic-Mart/Products/crimping%20tools/Manual_Steel_Strapping_Tensioner_and_Sealer_Tool_Set-4.jpg'
   ],
 
   inStock: true,
@@ -7756,9 +7705,9 @@ Accessories Included:
  
 
   images: [
-    'assets/img/cable pullers/Cable Puller Fish Tape 50m.webp',
-    'assets/img/cable pullers/Cable Puller Fish Tape 50m-2.webp',
-    'assets/img/cable pullers/Cable Puller Fish Tape 50m.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304567/Astonic-Mart/Products/cable%20pullers/Cable_Puller_Fish_Tape_50m.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304568/Astonic-Mart/Products/cable%20pullers/Cable_Puller_Fish_Tape_50m-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304567/Astonic-Mart/Products/cable%20pullers/Cable_Puller_Fish_Tape_50m.webp'
   ],
 
   inStock: true,
@@ -7816,11 +7765,11 @@ Accessories Included:
 
 
   images: [
-    'assets/img/bearing pullers/12PCS Blind Hole Collet Bearing Puller Set.jpg',
-    'assets/img/bearing pullers/12PCS Blind Hole Collet Bearing Puller Set-2.jpg',
-    'assets/img/bearing pullers/12PCS Blind Hole Collet Bearing Puller Set-3.jpg',
-    'assets/img/bearing pullers/12PCS Blind Hole Collet Bearing Puller Set-4.jpg',
-    'assets/img/bearing pullers/12PCS Blind Hole Collet Bearing Puller Set-5.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304227/Astonic-Mart/Products/bearing%20pullers/12PCS_Blind_Hole_Collet_Bearing_Puller_Set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304228/Astonic-Mart/Products/bearing%20pullers/12PCS_Blind_Hole_Collet_Bearing_Puller_Set-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304229/Astonic-Mart/Products/bearing%20pullers/12PCS_Blind_Hole_Collet_Bearing_Puller_Set-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304231/Astonic-Mart/Products/bearing%20pullers/12PCS_Blind_Hole_Collet_Bearing_Puller_Set-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304232/Astonic-Mart/Products/bearing%20pullers/12PCS_Blind_Hole_Collet_Bearing_Puller_Set-5.jpg'
   ],
 
   inStock: true,
@@ -7876,12 +7825,12 @@ Accessories Included:
   discountPrice: 350000,
 
   images: [
-    'assets/img/bearing pullers/12PCS Inner Bearing Puller Set.webp',
-    'assets/img/bearing pullers/12PCS Inner Bearing Puller Set-2.webp',
-    'assets/img/bearing pullers/12PCS Inner Bearing Puller Set-3.webp',
-    'assets/img/bearing pullers/12PCS Inner Bearing Puller Set-4.webp',
-    'assets/img/bearing pullers/12PCS Inner Bearing Puller Set-5.webp',
-    'assets/img/bearing pullers/12PCS Inner Bearing Puller Set-6.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304233/Astonic-Mart/Products/bearing%20pullers/12PCS_Inner_Bearing_Puller_Set.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304234/Astonic-Mart/Products/bearing%20pullers/12PCS_Inner_Bearing_Puller_Set-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304235/Astonic-Mart/Products/bearing%20pullers/12PCS_Inner_Bearing_Puller_Set-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304236/Astonic-Mart/Products/bearing%20pullers/12PCS_Inner_Bearing_Puller_Set-4.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304239/Astonic-Mart/Products/bearing%20pullers/12PCS_Inner_Bearing_Puller_Set-5.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304240/Astonic-Mart/Products/bearing%20pullers/12PCS_Inner_Bearing_Puller_Set-6.webp'
   ],
 
   inStock: true,
@@ -7936,11 +7885,11 @@ Accessories Included:
   discountPrice: 120000,
 
   images: [
-    'assets/img/cable cutters/Ratchet Cable Cutter XLJ-500.jpg',
-    'assets/img/cable cutters/Ratchet Cable Cutter XLJ-500-1.jpg',
-    'assets/img/cable cutters/Ratchet Cable Cutter XLJ-500-2.jpg',
-    'assets/img/cable cutters/Ratchet Cable Cutter XLJ-500-3.jpg',
-    'assets/img/cable cutters/Ratchet Cable Cutter XLJ-500-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304554/Astonic-Mart/Products/cable%20cutters/Ratchet_Cable_Cutter_XLJ-500.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304558/Astonic-Mart/Products/cable%20cutters/Ratchet_Cable_Cutter_XLJ-500-1.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304559/Astonic-Mart/Products/cable%20cutters/Ratchet_Cable_Cutter_XLJ-500-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304560/Astonic-Mart/Products/cable%20cutters/Ratchet_Cable_Cutter_XLJ-500-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304562/Astonic-Mart/Products/cable%20cutters/Ratchet_Cable_Cutter_XLJ-500-4.jpg'
   ],
 
   inStock: true,
@@ -7992,7 +7941,7 @@ Accessories Included:
   discountPrice: 300000,
 
   images: [
-    'assets/img/pipe benders/4 Inch Hydraulic Pipe Bender.jpeg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309611/Astonic-Mart/Products/pipe%20benders/4_Inch_Hydraulic_Pipe_Bender.jpg',
    
   ],
 
@@ -8046,7 +7995,7 @@ Accessories Included:
 {
   id: 16138,
 
-  name: 'Covenant 3/4" Torque Wrench 100ΓÇô500Nm',
+  name: 'Covenant 3/4" Torque Wrench 100–500Nm',
   category: 'torque-wrenches',
   group: 'Hand Tools',
   brand: 'Covenant',
@@ -8056,13 +8005,13 @@ Accessories Included:
 
 
   images: [
-    'assets/img/torque wrenches/Covenant 3 4 inches Torque Wrench 100ΓÇô500Nm.png',
+    'assets/img/torque wrenches/Covenant 3 4 inches Torque Wrench 100–500Nm.png',
    
   ],
 
   inStock: true,
 
-  description: 'The Covenant 3/4-inch Drive Torque Wrench is a professional heavy-duty hand tool designed for accurate torque application in automotive, industrial and mechanical maintenance operations. Featuring a torque range of 100ΓÇô500Nm, this click-type torque wrench ensures precise fastening, helping to prevent over-tightening and component damage. Ideal for trucks, heavy equipment, construction machinery and industrial servicing.',
+  description: 'The Covenant 3/4-inch Drive Torque Wrench is a professional heavy-duty hand tool designed for accurate torque application in automotive, industrial and mechanical maintenance operations. Featuring a torque range of 100–500Nm, this click-type torque wrench ensures precise fastening, helping to prevent over-tightening and component damage. Ideal for trucks, heavy equipment, construction machinery and industrial servicing.',
 
   specification: `
   - Product Name: Torque Wrench
@@ -8070,7 +8019,7 @@ Accessories Included:
   - Model: TC-193-10
   - Type: Click Torque Wrench
   - Drive Size: 3/4"
-  - Torque Range: 100ΓÇô500Nm
+  - Torque Range: 100–500Nm
   - Unit of Measurement: Newton Meter (Nm)
   - Accuracy: ┬▒4%
   - Material: Chrome Vanadium Steel
@@ -8111,12 +8060,12 @@ Accessories Included:
   model: 'CT-999F',
 showSimilar: true,
   images: [
-    'assets/img/pipe benders/CT-999F Ratcheting Tube Bender Kit.webp',
-    'assets/img/pipe benders/CT-999F Ratcheting Tube Bender Kit-1.webp',
-    'assets/img/pipe benders/CT-999F Ratcheting Tube Bender Kit-2.webp',
-    'assets/img/pipe benders/CT-999F Ratcheting Tube Bender Kit-3.webp',
-    'assets/img/pipe benders/CT-999F Ratcheting Tube Bender Kit-4.webp',
-    'assets/img/pipe benders/CT-999F Ratcheting Tube Bender Kit-5.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309614/Astonic-Mart/Products/pipe%20benders/CT-999F_Ratcheting_Tube_Bender_Kit.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309615/Astonic-Mart/Products/pipe%20benders/CT-999F_Ratcheting_Tube_Bender_Kit-1.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309616/Astonic-Mart/Products/pipe%20benders/CT-999F_Ratcheting_Tube_Bender_Kit-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309619/Astonic-Mart/Products/pipe%20benders/CT-999F_Ratcheting_Tube_Bender_Kit-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309620/Astonic-Mart/Products/pipe%20benders/CT-999F_Ratcheting_Tube_Bender_Kit-4.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309622/Astonic-Mart/Products/pipe%20benders/CT-999F_Ratcheting_Tube_Bender_Kit-5.webp'
   ],
 
   inStock: true,
@@ -8179,10 +8128,10 @@ Portable storage case for easy transportation
   price: 35000,
 showSimilar: true,
   images: [
-    'assets/img/screw drivers/10 Pieces Insulated VDE Screwdriver Set with Carry Case.jpg',
-    'assets/img/screw drivers/10 Pieces Insulated VDE Screwdriver Set with Carry Case-2.jpg',
-    'assets/img/screw drivers/10 Pieces Insulated VDE Screwdriver Set with Carry Case-3.jpg',
-    'assets/img/screw drivers/10 Pieces Insulated VDE Screwdriver Set with Carry Case-4.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329011/Astonic-Mart/Products/screw%20drivers/10_Pieces_Insulated_VDE_Screwdriver_Set_with_Carry_Case.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329011/Astonic-Mart/Products/screw%20drivers/10_Pieces_Insulated_VDE_Screwdriver_Set_with_Carry_Case-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329012/Astonic-Mart/Products/screw%20drivers/10_Pieces_Insulated_VDE_Screwdriver_Set_with_Carry_Case-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786329014/Astonic-Mart/Products/screw%20drivers/10_Pieces_Insulated_VDE_Screwdriver_Set_with_Carry_Case-4.jpg'
   ],
 
   inStock: true,
@@ -8237,7 +8186,7 @@ Designed for electrical maintenance and repair, the set includes a variety of sl
      price: 2600,
      showSimilar: true,
      images: [
-       'assets/img/cutting and grinding disc/Bosch PRO Stainless Steel Cutting Disc 100 x 1.0 x 16mm.webp'
+       'https://res.cloudinary.com/taus5tit/image/upload/v1786305692/Astonic-Mart/Products/cutting%20and%20grinding%20disc/Bosch_PRO_Stainless_Steel_Cutting_Disc_100_x_1.0_x_16mm.webp'
      ],
      inStock: true,
      jumiaLink: '',
@@ -8285,7 +8234,7 @@ category: 'cutting-and-grinding-discs',
   showSimilar: true,
   price: 2500,
   images: [
-    'assets/img/cutting and grinding disc/Bosch Standard for Metal Cutting Disc 100 x 3.0 x 16mm.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305694/Astonic-Mart/Products/cutting%20and%20grinding%20disc/Bosch_Standard_for_Metal_Cutting_Disc_100_x_3.0_x_16mm.jpg'
   ],
   inStock: true,
   jumiaLink: '',
@@ -8331,12 +8280,12 @@ category: 'cutting-and-grinding-discs',
   model: 'HWSP15608',
   showSimilar: true,
   images: [
-    'assets/img/pliers and cutter/INGCO Wire Stripper and Cutter HWSP15608-1.jpeg',
-    'assets/img/pliers and cutter/INGCO Wire Stripper and Cutter HWSP15608-2.jpg',
-    'assets/img/pliers and cutter/INGCO Wire Stripper and Cutter HWSP15608-3.jpg',
-    'assets/img/pliers and cutter/INGCO Wire Stripper and Cutter HWSP15608-4.jpg',
-    'assets/img/pliers and cutter/INGCO Wire Stripper and Cutter HWSP15608-5.jpg',
-    'assets/img/pliers and cutter/INGCO Wire Stripper and Cutter HWSP15608.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309876/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Wire_Stripper_and_Cutter_HWSP15608-1.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309877/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Wire_Stripper_and_Cutter_HWSP15608-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309878/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Wire_Stripper_and_Cutter_HWSP15608-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309881/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Wire_Stripper_and_Cutter_HWSP15608-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309883/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Wire_Stripper_and_Cutter_HWSP15608-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309874/Astonic-Mart/Products/pliers%20and%20cutter/INGCO_Wire_Stripper_and_Cutter_HWSP15608.jpg'
   ],
   inStock: true,
   jumiaLink: '',
@@ -8381,12 +8330,12 @@ category: 'cutting-and-grinding-discs',
   price: 23000,
 showSimilar: true,
   images: [
-    'assets/img/crimping tools/HSC8-6-4A Crimp Tool.webp',
-    'assets/img/crimping tools/HSC8-6-4A Crimp Tool-2.webp',
-    'assets/img/crimping tools/HSC8-6-4A Crimp Tool-3.webp',
-    'assets/img/crimping tools/HSC8-6-4A Crimp Tool-4.webp',
-    'assets/img/crimping tools/HSC8-6-4A Crimp Tool-5.webp',
-    'assets/img/crimping tools/HSC8-6-4A Crimp Tool-5.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305656/Astonic-Mart/Products/crimping%20tools/HSC8-6-4A_Crimp_Tool.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305659/Astonic-Mart/Products/crimping%20tools/HSC8-6-4A_Crimp_Tool-2.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305662/Astonic-Mart/Products/crimping%20tools/HSC8-6-4A_Crimp_Tool-3.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305664/Astonic-Mart/Products/crimping%20tools/HSC8-6-4A_Crimp_Tool-4.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305665/Astonic-Mart/Products/crimping%20tools/HSC8-6-4A_Crimp_Tool-5.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786305665/Astonic-Mart/Products/crimping%20tools/HSC8-6-4A_Crimp_Tool-5.webp'
   ],
 
   inStock: true,
@@ -8429,11 +8378,11 @@ showSimilar: true,
   price: 55000,
 showSimilar: true,
   images: [
-    'assets/img/cable cutters/Heavy Duty Ratchet Cable Cutter.jpg',
-    'assets/img/cable cutters/Heavy Duty Ratchet Cable Cutter-2.jpg',
-    'assets/img/cable cutters/Heavy Duty Ratchet Cable Cutter-3.jpg',
-    'assets/img/cable cutters/Heavy Duty Ratchet Cable Cutter-4.jpg',
-    'assets/img/cable cutters/Heavy Duty Ratchet Cable Cutter-5.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304546/Astonic-Mart/Products/cable%20cutters/Heavy_Duty_Ratchet_Cable_Cutter.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304547/Astonic-Mart/Products/cable%20cutters/Heavy_Duty_Ratchet_Cable_Cutter-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304549/Astonic-Mart/Products/cable%20cutters/Heavy_Duty_Ratchet_Cable_Cutter-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304550/Astonic-Mart/Products/cable%20cutters/Heavy_Duty_Ratchet_Cable_Cutter-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304551/Astonic-Mart/Products/cable%20cutters/Heavy_Duty_Ratchet_Cable_Cutter-5.jpg'
   ],
 
   inStock: true,
@@ -8473,12 +8422,12 @@ showSimilar: true,
   discountPrice: 185500,
 showSimilar: true,
   images: [
-    'assets/img/bearing pullers/21PCS Bearing Puller Set.jpg',
-    'assets/img/bearing pullers/21PCS Bearing Puller Set-2.jpg',
-    'assets/img/bearing pullers/21PCS Bearing Puller Set-3.jpg',
-    'assets/img/bearing pullers/21PCS Bearing Puller Set-4.jpg',
-    'assets/img/bearing pullers/21PCS Bearing Puller Set-5.jpg',
-    'assets/img/bearing pullers/21PCS Bearing Puller Set-6.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304241/Astonic-Mart/Products/bearing%20pullers/21PCS_Bearing_Puller_Set.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304243/Astonic-Mart/Products/bearing%20pullers/21PCS_Bearing_Puller_Set-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304244/Astonic-Mart/Products/bearing%20pullers/21PCS_Bearing_Puller_Set-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304245/Astonic-Mart/Products/bearing%20pullers/21PCS_Bearing_Puller_Set-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304247/Astonic-Mart/Products/bearing%20pullers/21PCS_Bearing_Puller_Set-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304247/Astonic-Mart/Products/bearing%20pullers/21PCS_Bearing_Puller_Set-6.jpg'
   ],
 
   videos: [],
@@ -8531,9 +8480,9 @@ showSimilar: true,
 
 
   images: [
-    'assets/img/saw blades/INGCO Sabre Saw Blade - SSB922EF-1.jpeg',
-     'assets/img/saw blades/INGCO Sabre Saw Blade - SSB922EF-2.jpg',
-     'assets/img/saw blades/INGCO Sabre Saw Blade - SSB922EF.webp'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786328962/Astonic-Mart/Products/saw%20blades/INGCO_Sabre_Saw_Blade_-_SSB922EF-1.jpg',
+     'https://res.cloudinary.com/taus5tit/image/upload/v1786328966/Astonic-Mart/Products/saw%20blades/INGCO_Sabre_Saw_Blade_-_SSB922EF-2.jpg',
+     'https://res.cloudinary.com/taus5tit/image/upload/v1786328962/Astonic-Mart/Products/saw%20blades/INGCO_Sabre_Saw_Blade_-_SSB922EF.webp'
   ],
 
   description:
@@ -8582,10 +8531,10 @@ showSimilar: true,
 
 
   images: [
-    'assets/img/plastering tools/Flicker Manual Drain Cleaning Machine.jpg',
-    'assets/img/plastering tools/Flicker Manual Drain Cleaning Machine-2.jpg',
-    'assets/img/plastering tools/Flicker Manual Drain Cleaning Machine-3.jpg',
-    'assets/img/plastering tools/Flicker Manual Drain Cleaning Machine-4.png'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309771/Astonic-Mart/Products/plastering%20tools/Flicker_Manual_Drain_Cleaning_Machine.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309772/Astonic-Mart/Products/plastering%20tools/Flicker_Manual_Drain_Cleaning_Machine-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309773/Astonic-Mart/Products/plastering%20tools/Flicker_Manual_Drain_Cleaning_Machine-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309800/Astonic-Mart/Products/plastering%20tools/Flicker_Manual_Drain_Cleaning_Machine-4.png'
   ],
 
   description:
@@ -8631,11 +8580,11 @@ showSimilar: true,
 
 
   images: [
-    'assets/img/plastering tools/STAREX ST108720 Plaster Tyrolean Machine-1.jpeg',
-    'assets/img/plastering tools/STAREX ST108720 Plaster Tyrolean Machine-2.jpg',
-    'assets/img/plastering tools/STAREX ST108720 Plaster Tyrolean Machine-3.jpg',
-    'assets/img/plastering tools/STAREX ST108720 Plaster Tyrolean Machine-4.jpg',
-    'assets/img/plastering tools/STAREX ST108720 Plaster Tyrolean Machine.jpeg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309802/Astonic-Mart/Products/plastering%20tools/STAREX_ST108720_Plaster_Tyrolean_Machine-1.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309806/Astonic-Mart/Products/plastering%20tools/STAREX_ST108720_Plaster_Tyrolean_Machine-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309810/Astonic-Mart/Products/plastering%20tools/STAREX_ST108720_Plaster_Tyrolean_Machine-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309811/Astonic-Mart/Products/plastering%20tools/STAREX_ST108720_Plaster_Tyrolean_Machine-4.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786309801/Astonic-Mart/Products/plastering%20tools/STAREX_ST108720_Plaster_Tyrolean_Machine.jpg'
   ],
 
   model: 'ST108720',
@@ -8685,8 +8634,13 @@ showSimilar: true,
   showSimilar: true,
 
   images: [
-    'assets/img/handtools/stanley-stht69646-8-medium-duty-riveter.webp'
-  ],
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429620/Astonic-Mart/Products/remaining-local-images/in3lxtqiim1glhp1pxzu.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429622/Astonic-Mart/Products/remaining-local-images/rrznc0guprvlrvzibfw9.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429622/Astonic-Mart/Products/remaining-local-images/jjwakuezirg8aqrjypxp.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429624/Astonic-Mart/Products/remaining-local-images/fkr4vatu0ane86ujpysd.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429626/Astonic-Mart/Products/remaining-local-images/vkdhnao39p0ht0wy9uo0.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429627/Astonic-Mart/Products/remaining-local-images/wdbn6twhglvvjaofjqxg.jpg'
+        ],
 
   inStock: true,
 
@@ -8740,8 +8694,8 @@ User Manual
     showSimilar: true,
 
     images: [
-      'assets/img/gear winch src/assets/img/gear winch/Manual Hand Winch 1000kg (1 Ton).png'
-    ],
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429643/Astonic-Mart/Products/remaining-local-images/tygajjcncgjzo4elej5o.png'
+        ],
 
     inStock: true,
 
@@ -8790,13 +8744,13 @@ Ideal for trailers, boats, warehouses, workshops and construction sites
     showSimilar: true,
 
     images: [
-      'assets/img/pliers and cutter/16 Inches Heavy Duty Snap-Ring Pliers set.jpg',
-      'assets/img/pliers and cutter/16 Inches Heavy Duty Snap-Ring Pliers set-2.jpg',
-      'assets/img/pliers and cutter/16 Inches Heavy Duty Snap-Ring Pliers set-3.jpg',
-      'assets/img/pliers and cutter/16 Inches Heavy Duty Snap-Ring Pliers set-4.jpg',
-      'assets/img/pliers and cutter/16 Inches Heavy Duty Snap-Ring Pliers set-5.jpg',
-      'assets/img/pliers and cutter/16 Inches Heavy Duty Snap-Ring Pliers set-6.jpg',
-      'assets/img/pliers and cutter/16 Inches Heavy Duty Snap-Ring Pliers set-7.jpg'
+      'https://res.cloudinary.com/taus5tit/image/upload/v1786309813/Astonic-Mart/Products/pliers%20and%20cutter/16_Inches_Heavy_Duty_Snap-Ring_Pliers_set.jpg',
+      'https://res.cloudinary.com/taus5tit/image/upload/v1786309814/Astonic-Mart/Products/pliers%20and%20cutter/16_Inches_Heavy_Duty_Snap-Ring_Pliers_set-2.jpg',
+      'https://res.cloudinary.com/taus5tit/image/upload/v1786309815/Astonic-Mart/Products/pliers%20and%20cutter/16_Inches_Heavy_Duty_Snap-Ring_Pliers_set-3.jpg',
+      'https://res.cloudinary.com/taus5tit/image/upload/v1786309816/Astonic-Mart/Products/pliers%20and%20cutter/16_Inches_Heavy_Duty_Snap-Ring_Pliers_set-4.jpg',
+      'https://res.cloudinary.com/taus5tit/image/upload/v1786309818/Astonic-Mart/Products/pliers%20and%20cutter/16_Inches_Heavy_Duty_Snap-Ring_Pliers_set-5.jpg',
+      'https://res.cloudinary.com/taus5tit/image/upload/v1786309821/Astonic-Mart/Products/pliers%20and%20cutter/16_Inches_Heavy_Duty_Snap-Ring_Pliers_set-6.jpg',
+      'https://res.cloudinary.com/taus5tit/image/upload/v1786309823/Astonic-Mart/Products/pliers%20and%20cutter/16_Inches_Heavy_Duty_Snap-Ring_Pliers_set-7.jpg'
     ],
 
     inStock: true,
@@ -8852,11 +8806,11 @@ Designed for professional workshop and industrial use
   price: 4000000,
   showSimilar: true,
   images: [
-    'assets/img/cable cutters/CPC-95 Hydraulic Cable Cutter 1000mm.jpg',
-    'assets/img/cable cutters/CPC-95 Hydraulic Cable Cutter 1000mm-2.jpg',
-    'assets/img/cable cutters/CPC-95 Hydraulic Cable Cutter 1000mm-3.jpg',
-    'assets/img/cable cutters/CPC-95 Hydraulic Cable Cutter 1000mm-5.jpg',
-    'assets/img/cable cutters/CPC-95 Hydraulic Cable Cutter 1000mm-6.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304531/Astonic-Mart/Products/cable%20cutters/CPC-95_Hydraulic_Cable_Cutter_1000mm.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304532/Astonic-Mart/Products/cable%20cutters/CPC-95_Hydraulic_Cable_Cutter_1000mm-2.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304533/Astonic-Mart/Products/cable%20cutters/CPC-95_Hydraulic_Cable_Cutter_1000mm-3.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304535/Astonic-Mart/Products/cable%20cutters/CPC-95_Hydraulic_Cable_Cutter_1000mm-5.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786304537/Astonic-Mart/Products/cable%20cutters/CPC-95_Hydraulic_Cable_Cutter_1000mm-6.jpg'
   ],
   inStock: true,
 

@@ -47,3 +47,13 @@ Thumbs.db
 .firebase/
 firebase-debug.log
 deploy.log
+
+
+backend/.env
+# Astonic Mart migration backups
+/backend/backups/
+/backup-before-cloudinary/
+/backup-before-missing-image-cleanup/
+/src/app/core/data-backup-before-video-cloudinary/
+/.vscode_backup/
+/src/app/core/data/*.backup.ts

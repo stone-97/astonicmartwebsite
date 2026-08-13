@@ -14,9 +14,7 @@ export const FARM_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 450000,
 
         images: [
-            'assets/img/farm equipment/TOTAL GASOLINE TILLER 196cc (TGC5001).jpg',
-            'assets/img/tools/total gasoline tiller tgc5001 2.jpg',
-            'assets/img/tools/total gasoline tiller tgc5001 3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306524/Astonic-Mart/Products/farm%20equipment/TOTAL_GASOLINE_TILLER_196cc_TGC5001.jpg',
         ],
 
         inStock: true,
@@ -56,9 +54,7 @@ export const FARM_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 18000,
 
         images: [
-            'assets/img/farm equipment/Steel Garden Spade Shovel With Handle.avif',
-            'assets/img/tools/garden spade shovel 2.jpg',
-            'assets/img/tools/garden spade shovel 3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306516/Astonic-Mart/Products/farm%20equipment/Steel_Garden_Spade_Shovel_With_Handle.avif',
         ],
 
         inStock: true,
@@ -101,12 +97,12 @@ export const FARM_EQUIPMENTS_PRODUCTS: Product[] = [
         power: '2-Stroke Petrol Engine',
 
         images: [
-            'assets/img/farm equipment/knapsack sprayers 24l.webp',
-            'assets/img/farm equipment/knapsack sprayers 24l-3.webp',
-            'assets/img/farm equipment/knapsack sprayers 24l-4.webp',
-            'assets/img/farm equipment/knapsack sprayers 24l-5.webp',
-            'assets/img/farm equipment/knapsack sprayers 24l-6.webp',
-            'assets/img/farm equipment/knapsack sprayers 24l-7.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306502/Astonic-Mart/Products/farm%20equipment/knapsack_sprayers_24l.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306503/Astonic-Mart/Products/farm%20equipment/knapsack_sprayers_24l-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306505/Astonic-Mart/Products/farm%20equipment/knapsack_sprayers_24l-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306506/Astonic-Mart/Products/farm%20equipment/knapsack_sprayers_24l-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306508/Astonic-Mart/Products/farm%20equipment/knapsack_sprayers_24l-6.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306509/Astonic-Mart/Products/farm%20equipment/knapsack_sprayers_24l-7.webp'
         ],
 
         inStock: true,
@@ -161,8 +157,8 @@ Its ergonomic backpack design provides comfort during prolonged use, while the d
 
 
         images: [
-            'assets/img/farm equipment/force up chemicals.jpg',
-            'assets/img/farm equipment/force up chemicals.jpg-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306493/Astonic-Mart/Products/farm%20equipment/force_up_chemicals.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306493/Astonic-Mart/Products/farm%20equipment/force_up_chemicals.jpg-2.jpg'
         ],
 
         inStock: true,
@@ -213,9 +209,9 @@ Force-Up Glyphosate Herbicide provides fast and effective weed control while hel
         price: 33000,
 
         images: [
-            'assets/img/farm equipment/manual knapsack sprayer.jpg',
-            'assets/img/farm equipment/manual knapsack sprayer-2.jpg',
-            'assets/img/farm equipment/manual knapsack sprayer-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306513/Astonic-Mart/Products/farm%20equipment/manual_knapsack_sprayer.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306514/Astonic-Mart/Products/farm%20equipment/manual_knapsack_sprayer-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306515/Astonic-Mart/Products/farm%20equipment/manual_knapsack_sprayer-3.jpg'
         ],
 
         inStock: true,
@@ -269,7 +265,7 @@ The sprayer features a durable chemical-resistant tank, adjustable spray lance, 
         discountPrice: 280000,
 
         images: [
-            'assets/img/farm equipment/comfort garden knapsack sprayer.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306491/Astonic-Mart/Products/farm%20equipment/comfort_garden_knapsack_sprayer.png'
         ],
 
         inStock: true,
@@ -338,7 +334,7 @@ Powered by a fuel-efficient 4-stroke engine, the sprayer delivers high spraying 
         discountPrice: 250000,
 
         images: [
-            'assets/img/farm equipment/apero knapsack sprayer.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306483/Astonic-Mart/Products/farm%20equipment/apero_knapsack_sprayer.png'
         ],
 
         inStock: true,
@@ -403,9 +399,9 @@ Powered by a compact 2-stroke gasoline engine, the sprayer provides strong spray
         price: 55000,
 
         images: [
-            'assets/img/farm equipment/tiller head-1.jpeg',
-            'assets/img/farm equipment/tiller head-2.jpeg',
-            'assets/img/farm equipment/tiller head.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306520/Astonic-Mart/Products/farm%20equipment/tiller_head-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306521/Astonic-Mart/Products/farm%20equipment/tiller_head-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306518/Astonic-Mart/Products/farm%20equipment/tiller_head.jpg'
         ],
 
         inStock: true,
@@ -444,9 +440,9 @@ Long service life
         price: 55000,
 
         images: [
-            'assets/img/farm equipment/weeder  head.jpg',
-            'assets/img/farm equipment/weeder  head-2.jpg',
-            'assets/img/farm equipment/weeder  head-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306526/Astonic-Mart/Products/farm%20equipment/weeder_head.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306527/Astonic-Mart/Products/farm%20equipment/weeder_head-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306528/Astonic-Mart/Products/farm%20equipment/weeder_head-3.jpg'
         ],
 
         inStock: true,
@@ -484,8 +480,8 @@ Professional agricultural accessory
         discountPrice: 78000,
 
         images: [
-            'assets/img/farm equipment/Manual Double Seed Planter.webp',
-            'assets/img/farm equipment/Manual Double Seed Planter-2.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306510/Astonic-Mart/Products/farm%20equipment/Manual_Double_Seed_Planter.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306511/Astonic-Mart/Products/farm%20equipment/Manual_Double_Seed_Planter-2.jpg'
         ],
 
         inStock: true,
@@ -550,10 +546,10 @@ Professional agricultural accessory
 
         images: [
 
-            'assets/img/farm equipment/INGCO Cordless Backpack Sprayer 16L (CSPLI20162).jpg',
-            'assets/img/farm equipment/INGCO Cordless Backpack Sprayer 16L (CSPLI20162)-2.jpeg',
-            'assets/img/farm equipment/INGCO Cordless Backpack Sprayer 16L (CSPLI20162)-4.jpeg',
-            'assets/img/farm equipment/INGCO Cordless Backpack Sprayer 16L (CSPLI20162)-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306496/Astonic-Mart/Products/farm%20equipment/INGCO_Cordless_Backpack_Sprayer_16L_CSPLI20162.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306497/Astonic-Mart/Products/farm%20equipment/INGCO_Cordless_Backpack_Sprayer_16L_CSPLI20162-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306500/Astonic-Mart/Products/farm%20equipment/INGCO_Cordless_Backpack_Sprayer_16L_CSPLI20162-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306499/Astonic-Mart/Products/farm%20equipment/INGCO_Cordless_Backpack_Sprayer_16L_CSPLI20162-3.jpg'
         ],
 
         description: 'The INGCO CSPLI20162 Cordless Backpack Sprayer is a professional 16L battery-powered sprayer designed for gardening, agriculture, landscaping, pest control, and outdoor maintenance. Powered by the INGCO P20S 20V battery platform, it delivers consistent spraying performance with dual-speed control, making it ideal for fertilizers, herbicides, pesticides, and disinfectants.',
@@ -612,8 +608,8 @@ User Manual
         power: '20V',
 
         images: [
-            'assets/img/farm equipment/TOTAL Cordless Backpack Sprayer 20V (TSPLI2016).jpeg',
-            'assets/img/farm equipment/TOTAL Cordless Backpack Sprayer 20V (TSPLI2016)-2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306522/Astonic-Mart/Products/farm%20equipment/TOTAL_Cordless_Backpack_Sprayer_20V_TSPLI2016.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306523/Astonic-Mart/Products/farm%20equipment/TOTAL_Cordless_Backpack_Sprayer_20V_TSPLI2016-2.webp'
         ],
 
         description: 'The TOTAL TSPLI2016 Cordless Backpack Sprayer is a 16L battery-powered sprayer designed for agriculture, gardening, landscaping, pest control, and general outdoor spraying applications. Featuring two-speed control, 5 Bar working pressure, and a stainless steel spray lance, it provides efficient and consistent spraying performance while eliminating manual pumping.',
@@ -675,9 +671,9 @@ Battery and Charger Sold Separately
         price: 25000,
 
         images: [
-            "assets/img/farm equipment/4-Tine Heavy Duty Garden Digging Fork.png",
-            "assets/img/farm equipment/4-Tine Heavy Duty Garden Digging Fork-2.jpeg",
-            'assets/img/farm equipment/4-Tine Heavy Duty Garden Digging Fork-3.jpeg'
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786306471/Astonic-Mart/Products/farm%20equipment/4-Tine_Heavy_Duty_Garden_Digging_Fork.png",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786306472/Astonic-Mart/Products/farm%20equipment/4-Tine_Heavy_Duty_Garden_Digging_Fork-2.jpg",
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306474/Astonic-Mart/Products/farm%20equipment/4-Tine_Heavy_Duty_Garden_Digging_Fork-3.jpg'
         ],
 
         description: `The 4-Tine Heavy Duty Garden Digging Fork is designed for digging, turning, loosening, and aerating soil with minimal effort. Constructed from high-strength forged steel with a durable handle, it is ideal for gardening, landscaping, farming, and agricultural applications. The sharp tines easily penetrate compacted soil while providing excellent leverage for lifting compost, mulch, manure, and garden waste.`,

@@ -17,7 +17,7 @@ export const FIRE_AND_TRAFFIC_SAFETY_PRODUCTS: Product[] = [
         price: 12000,
         showSimilar: true,
         images: [
-            'assets/img/fireblanketsandextinguishers/1.2m X 1.8m (4ft X 6ft) Fire Blanket.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306564/Astonic-Mart/Products/fireblanketsandextinguishers/1.2m_X_1.8m_4ft_X_6ft_Fire_Blanket.jpg'
         ],
 
         inStock: true,
@@ -61,7 +61,7 @@ export const FIRE_AND_TRAFFIC_SAFETY_PRODUCTS: Product[] = [
         price: 25000,
 
         images: [
-            'assets/img/fireblanketsandextinguishers/AFO Automatic Fire Ball Extinguisher2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306567/Astonic-Mart/Products/fireblanketsandextinguishers/AFO_Automatic_Fire_Ball_Extinguisher2.jpg'
         ],
 
         inStock: true,
@@ -111,7 +111,7 @@ Overall, the AFO Automatic Fire Ball Extinguisher is a reliable, easy-to-use and
         price: 8500,
 
         images: [
-            'assets/img/fireblanketsandextinguishers/smoke alarms.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306586/Astonic-Mart/Products/fireblanketsandextinguishers/smoke_alarms.webp'
         ],
 
         inStock: true,
@@ -160,7 +160,7 @@ This fire alarm is an essential part of any fire safety system, providing peace 
         price: 95000,
 
         images: [
-            'assets/img/fireblanketsandextinguishers/firehosereelcabinet.webp4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306578/Astonic-Mart/Products/fireblanketsandextinguishers/firehosereelcabinet.webp4.webp'
         ],
 
         inStock: true,
@@ -208,7 +208,7 @@ The fire hose reel cabinet is designed to accommodate standard hose reels, valve
         price: 120000,
 
         images: [
-            'assets/img/fireblanketsandextinguishers/firehosereelcabinet.webp5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306579/Astonic-Mart/Products/fireblanketsandextinguishers/firehosereelcabinet.webp5.webp'
         ],
 
         inStock: true,
@@ -259,7 +259,7 @@ Constructed from high-quality materials, the fire hose reel is durable, corrosio
         price: 18000,
 
         images: [
-            'assets/img/traffic safety/100cm traffic cones with base.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329953/Astonic-Mart/Products/traffic%20safety/100cm_traffic_cones_with_base.jpg'
         ],
 
         inStock: true,
@@ -308,11 +308,11 @@ With its bright color and optional reflective bands, the safety cone ensures max
         price: 27000,
 
         images: [
-            'assets/img/traffic safety/wet floor caution sign.webp',
-            'assets/img/safety signs/caution wet floor sign-2.jpg',
-            'assets/img/safety signs/caution wet floor sign-3.jpg',
-            'assets/img/safety signs/caution wet floor sign-4.jpg',
-            'assets/img/safety signs/caution wet floor sign.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330049/Astonic-Mart/Products/traffic%20safety/wet_floor_caution_sign.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328721/Astonic-Mart/Products/safety%20signs/caution_wet_floor_sign-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328727/Astonic-Mart/Products/safety%20signs/caution_wet_floor_sign-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328727/Astonic-Mart/Products/safety%20signs/caution_wet_floor_sign-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328721/Astonic-Mart/Products/safety%20signs/caution_wet_floor_sign.png'
         ],
 
         inStock: true,
@@ -360,7 +360,7 @@ The foldable A-frame design allows for easy storage and portability, making it c
         price: 9000,
 
         images: [
-            'assets/img/traffic safety/yellow and black caution tape.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330045/Astonic-Mart/Products/traffic%20safety/yellow_and_black_caution_tape.webp'
         ],
 
         inStock: true,
@@ -408,10 +408,10 @@ With a long length of 500 meters, this caution tape provides extended coverage, 
         price: 85000,
 
         images: [
-            'assets/img/traffic safety/pvc expandable barrier.jpg',
-            'assets/img/barriers/pvc expndable barrier-3.jpg',
-            'assets/img/barriers/pvc expndable barrier.jpg',
-            'assets/img/barriers/pvc expndable barrier-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330013/Astonic-Mart/Products/traffic%20safety/pvc_expandable_barrier.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304167/Astonic-Mart/Products/barriers/pvc_expndable_barrier-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304164/Astonic-Mart/Products/barriers/pvc_expndable_barrier.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304165/Astonic-Mart/Products/barriers/pvc_expndable_barrier-2.jpg'
         ],
 
         inStock: true,
@@ -461,10 +461,10 @@ Equipped with smooth-rolling wheels, this mobile barricade is easy to transport 
         discountPrice: 135000,
 
         images: [
-            'assets/img/traffic safety/convex mirrors-100cm.jpg',
-            'assets/img/traffic safety/convex mirrors-100cm.jpg2.jpg',
-            'assets/img/traffic safety/convex mirrors-100cm.jpg-3.jpg',
-            'assets/img/traffic safety/convex mirrors-100cm.jpg-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329984/Astonic-Mart/Products/traffic%20safety/convex_mirrors-100cm.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329984/Astonic-Mart/Products/traffic%20safety/convex_mirrors-100cm.jpg2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329984/Astonic-Mart/Products/traffic%20safety/convex_mirrors-100cm.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329984/Astonic-Mart/Products/traffic%20safety/convex_mirrors-100cm.jpg-2.jpg'
         ],
 
         inStock: true,
@@ -513,7 +513,7 @@ This safety mirror is an essential tool for enhancing visibility, improving traf
         price: 12000,
 
         images: [
-            'assets/img/traffic safety/lemon reflective stripes.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330003/Astonic-Mart/Products/traffic%20safety/lemon_reflective_stripes.webp'
         ],
 
         inStock: true,
@@ -561,10 +561,10 @@ Made from durable, weather-resistant material, the reflective tape is designed f
         price: 48000,
 
         images: [
-            'assets/img/traffic safety/speed bump-50m.webp',
-            'assets/img/traffic safety/speed bump-50m-2.webp',
-            'assets/img/traffic safety/speed bump-50m-3.jpeg',
-            'assets/img/traffic safety/speed bump-50m-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330027/Astonic-Mart/Products/traffic%20safety/speed_bump-50m.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330028/Astonic-Mart/Products/traffic%20safety/speed_bump-50m-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330027/Astonic-Mart/Products/traffic%20safety/speed_bump-50m-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330035/Astonic-Mart/Products/traffic%20safety/speed_bump-50m-4.jpg'
         ],
 
         inStock: true,
@@ -613,9 +613,9 @@ This speed bump is an effective and reliable solution for enforcing speed limits
         price: 49000,
 
         images: [
-            'assets/img/traffic safety/heavy duty wheel chokes.webp5.webp',
-            'assets/img/traffic safety/heavy duty wheel chokes.webp4.webp',
-            'assets/img/traffic safety/heavy duty wheel chokes.webp5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329996/Astonic-Mart/Products/traffic%20safety/heavy_duty_wheel_chokes.webp5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329996/Astonic-Mart/Products/traffic%20safety/heavy_duty_wheel_chokes.webp4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329996/Astonic-Mart/Products/traffic%20safety/heavy_duty_wheel_chokes.webp5.webp'
         ],
 
         inStock: true,
@@ -663,7 +663,7 @@ The chocks feature a compact and portable design, making them easy to carry, pos
         price: 45000,
 
         images: [
-            'assets/img/traffic safety/metal dectectors-garret.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330005/Astonic-Mart/Products/traffic%20safety/metal_dectectors-garret.jpg'
         ],
 
         inStock: true,
@@ -713,7 +713,7 @@ This handheld metal detector is an essential tool for modern security operations
         price: 65000,
 
         images: [
-            'assets/img/traffic safety/inspection mirror-30cm.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330000/Astonic-Mart/Products/traffic%20safety/inspection_mirror-30cm.jpg'
         ],
 
         inStock: true,
@@ -766,9 +766,7 @@ This undercarriage inspection mirror is an essential tool for improving security
         price: 4500,
 
         images: [
-            'assets/img/reflective jackets/REFLECTIVE SAFETY VEST FN 500.jpg',
-            'assets/img/safety wear/reflective vest fn 500 2.jpg',
-            'assets/img/safety wear/reflective vest fn 500 3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311503/Astonic-Mart/Products/reflective%20jackets/REFLECTIVE_SAFETY_VEST_FN_500.jpg',
         ],
 
         inStock: true,
@@ -808,13 +806,12 @@ This undercarriage inspection mirror is an essential tool for improving security
         price: 64000,
 
         images: [
-            'assets/img/traffic safety/2 channel cable ramp-2.webp',
-            'assets/img/road-safety/2-channel-cable-ramp-2.jpg',
-            'assets/img/traffic safety/2 channel cable ramp.avif',
-            'assets/img/traffic safety/2 channel cable ramp-3.jpg',
-            'assets/img/traffic safety/2 channel cable ramp-4.jpg',
-            'assets/img/traffic safety/2 channel cable ramp-5.jpg',
-            'assets/img/traffic safety/2 channel cable ramp-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329956/Astonic-Mart/Products/traffic%20safety/2_channel_cable_ramp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329958/Astonic-Mart/Products/traffic%20safety/2_channel_cable_ramp.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329956/Astonic-Mart/Products/traffic%20safety/2_channel_cable_ramp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329956/Astonic-Mart/Products/traffic%20safety/2_channel_cable_ramp-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329956/Astonic-Mart/Products/traffic%20safety/2_channel_cable_ramp-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329962/Astonic-Mart/Products/traffic%20safety/2_channel_cable_ramp-6.jpg'
         ],
 
         inStock: true,
@@ -863,8 +860,7 @@ This undercarriage inspection mirror is an essential tool for improving security
         price: 28000,
 
         images: [
-            'assets/img/traffic safety/stop  and go traffic paddle.jpeg',
-            'assets/img/road-safety/stop-go-traffic-paddle-sign-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330035/Astonic-Mart/Products/traffic%20safety/stop_and_go_traffic_paddle.jpg',
         ],
 
         inStock: true,
@@ -914,10 +910,10 @@ This undercarriage inspection mirror is an essential tool for improving security
         discountPrice: 280000,
 
         images: [
-            'assets/img/emergency equipment/LK-120 Emergency Fire Alarm Siren-2.jpg',
-            'assets/img/emergency equipment/LK-120 Emergency Fire Alarm Siren-3.jpg',
-            'assets/img/emergency equipment/LK-120 Emergency Fire Alarm Siren-4.avif',
-            'assets/img/emergency equipment/LK-120 Emergency Fire Alarm Siren.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306414/Astonic-Mart/Products/emergency%20equipment/LK-120_Emergency_Fire_Alarm_Siren-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306415/Astonic-Mart/Products/emergency%20equipment/LK-120_Emergency_Fire_Alarm_Siren-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306415/Astonic-Mart/Products/emergency%20equipment/LK-120_Emergency_Fire_Alarm_Siren-4.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306412/Astonic-Mart/Products/emergency%20equipment/LK-120_Emergency_Fire_Alarm_Siren.jpg'
         ],
 
         videos: [
@@ -980,10 +976,10 @@ This undercarriage inspection mirror is an essential tool for improving security
         discountPrice: 120000,
 
         images: [
-            'assets/img/traffic safety/convex mirrors-80cm.jpeg',
-            'assets/img/traffic safety/convex mirrors-80cm.jpeg-2.webp',
-            'assets/img/traffic safety/convex mirrors-80cm.jpeg-3.jpg',
-            'assets/img/traffic safety/convex mirrors-80cm.jpeg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329989/Astonic-Mart/Products/traffic%20safety/convex_mirrors-80cm.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329989/Astonic-Mart/Products/traffic%20safety/convex_mirrors-80cm.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329989/Astonic-Mart/Products/traffic%20safety/convex_mirrors-80cm.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329989/Astonic-Mart/Products/traffic%20safety/convex_mirrors-80cm.jpg-4.jpg'
         ],
 
         videos: [
@@ -1059,9 +1055,9 @@ This undercarriage inspection mirror is an essential tool for improving security
         discountPrice: 82000,
 
         images: [
-            'assets/img/traffic safety/convex mirrors-60cm.jpg',
-            'assets/img/traffic safety/convex mirrors-60cm.jpg-2.jpeg',
-            'assets/img/traffic safety/convex mirrors-60cm.jpg-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329989/Astonic-Mart/Products/traffic%20safety/convex_mirrors-60cm.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329989/Astonic-Mart/Products/traffic%20safety/convex_mirrors-60cm.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329989/Astonic-Mart/Products/traffic%20safety/convex_mirrors-60cm.jpg-3.webp'
         ],
 
         videos: [
@@ -1133,12 +1129,12 @@ This undercarriage inspection mirror is an essential tool for improving security
         price: 185000,
 
         images: [
-            'assets/img/barriers/metal expandable barricade.webp',
-            'assets/img/barriers/metal expandable barricade-2.webp',
-            'assets/img/barriers/metal expandable barricade-3.webp',
-            'assets/img/barriers/metal expandable barricade-4.webp',
-            'assets/img/barriers/metal expandable barricade-5.webp',
-            'assets/img/barriers/metal expandable barricade-6.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304142/Astonic-Mart/Products/barriers/metal_expandable_barricade.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304144/Astonic-Mart/Products/barriers/metal_expandable_barricade-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304146/Astonic-Mart/Products/barriers/metal_expandable_barricade-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304147/Astonic-Mart/Products/barriers/metal_expandable_barricade-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304148/Astonic-Mart/Products/barriers/metal_expandable_barricade-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304152/Astonic-Mart/Products/barriers/metal_expandable_barricade-6.webp'
         ],
 
         inStock: true,
@@ -1189,12 +1185,12 @@ The expandable design allows flexible coverage depending on site requirements, w
 
 
         images: [
-            'assets/img/traffic safety/solar cat eye.webp',
-            'assets/img/traffic safety/solar cat eye.webp-2.jpeg',
-            'assets/img/traffic safety/solar cat eye.webp-3.avif',
-            'assets/img/traffic safety/solar cat eye.webp-4.avif',
-            'assets/img/traffic safety/solar cat eye.webp-5.webp',
-            'assets/img/traffic safety/solar cat eye.webp-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330016/Astonic-Mart/Products/traffic%20safety/solar_cat_eye.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330016/Astonic-Mart/Products/traffic%20safety/solar_cat_eye.webp-2.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330016/Astonic-Mart/Products/traffic%20safety/solar_cat_eye.webp-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330016/Astonic-Mart/Products/traffic%20safety/solar_cat_eye.webp-4.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330016/Astonic-Mart/Products/traffic%20safety/solar_cat_eye.webp-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330016/Astonic-Mart/Products/traffic%20safety/solar_cat_eye.webp-5.webp'
         ],
 
         inStock: true,
@@ -1250,13 +1246,13 @@ Manufactured from high-strength aluminum alloy and impact-resistant materials, t
 
 
         images: [
-            'assets/img/traffic safety/solar traffic light for cone.webp',
-            'assets/img/traffic safety/solar traffic light for cone-2.webp',
-            'assets/img/traffic safety/solar traffic light for cone-3.jpg',
-            'assets/img/traffic safety/solar traffic light for cone-4.jpg',
-            'assets/img/traffic safety/solar traffic light for cone-5.jpg',
-            'assets/img/traffic safety/solar traffic light for cone-6.jpg',
-            'assets/img/traffic safety/solar traffic light for cone-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330019/Astonic-Mart/Products/traffic%20safety/solar_traffic_light_for_cone.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330023/Astonic-Mart/Products/traffic%20safety/solar_traffic_light_for_cone-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330022/Astonic-Mart/Products/traffic%20safety/solar_traffic_light_for_cone-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330022/Astonic-Mart/Products/traffic%20safety/solar_traffic_light_for_cone-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330022/Astonic-Mart/Products/traffic%20safety/solar_traffic_light_for_cone-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330022/Astonic-Mart/Products/traffic%20safety/solar_traffic_light_for_cone-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330025/Astonic-Mart/Products/traffic%20safety/solar_traffic_light_for_cone-7.jpg'
         ],
 
         inStock: true,
@@ -1312,13 +1308,13 @@ Its durable weather-resistant construction makes it suitable for highways, road 
 
 
         images: [
-            'assets/img/barriers/net barrier.jpg',
-            'assets/img/barriers/net barrier-2.jpg',
-            'assets/img/barriers/net barrier-3.jpg',
-            'assets/img/barriers/net barrier-4.jpg',
-            'assets/img/barriers/net barrier-5.jpg',
-            'assets/img/barriers/net barrier-6.jpg',
-            'assets/img/barriers/net barrier-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304153/Astonic-Mart/Products/barriers/net_barrier.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304155/Astonic-Mart/Products/barriers/net_barrier-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304157/Astonic-Mart/Products/barriers/net_barrier-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304158/Astonic-Mart/Products/barriers/net_barrier-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304159/Astonic-Mart/Products/barriers/net_barrier-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304161/Astonic-Mart/Products/barriers/net_barrier-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304162/Astonic-Mart/Products/barriers/net_barrier-7.jpg'
         ],
 
         inStock: true,
@@ -1381,13 +1377,13 @@ The lightweight and flexible design allows for quick installation on posts, pole
 
 
         images: [
-            'assets/img/traffic safety/caution-danger-barricade-tape-500x500.webp',
-            'assets/img/traffic safety/caution-danger-barricade-tape-500x500.webp-2.jpg',
-            'assets/img/traffic safety/caution-danger-barricade-tape-500x500.webp-3.jpg',
-            'assets/img/traffic safety/caution-danger-barricade-tape-500x500.webp-4.jpg',
-            'assets/img/traffic safety/caution-danger-barricade-tape-500x500.webp-5.jpg',
-            'assets/img/traffic safety/caution-danger-barricade-tape-500x500.webp-6.jpg',
-            'assets/img/traffic safety/caution-danger-barricade-tape-500x500.webp-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329976/Astonic-Mart/Products/traffic%20safety/caution-danger-barricade-tape-500x500.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329976/Astonic-Mart/Products/traffic%20safety/caution-danger-barricade-tape-500x500.webp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329976/Astonic-Mart/Products/traffic%20safety/caution-danger-barricade-tape-500x500.webp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329976/Astonic-Mart/Products/traffic%20safety/caution-danger-barricade-tape-500x500.webp-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329976/Astonic-Mart/Products/traffic%20safety/caution-danger-barricade-tape-500x500.webp-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329976/Astonic-Mart/Products/traffic%20safety/caution-danger-barricade-tape-500x500.webp-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329976/Astonic-Mart/Products/traffic%20safety/caution-danger-barricade-tape-500x500.webp-7.jpg'
         ],
 
         inStock: true,
@@ -1442,12 +1438,12 @@ The lightweight and flexible design allows for quick installation on posts, pole
 
 
         images: [
-            'assets/img/safety signs/cone caution sign.jpg',
-            'assets/img/safety signs/cone caution sign-3.avif',
-            'assets/img/safety signs/cone caution sign-2.jpg',
-            'assets/img/safety signs/cone caution sign-4.jpg',
-            'assets/img/safety signs/cone caution sign-5.jpg',
-            'assets/img/safety signs/cone caution sign-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328735/Astonic-Mart/Products/safety%20signs/cone_caution_sign.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328735/Astonic-Mart/Products/safety%20signs/cone_caution_sign-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328736/Astonic-Mart/Products/safety%20signs/cone_caution_sign-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328737/Astonic-Mart/Products/safety%20signs/cone_caution_sign-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328736/Astonic-Mart/Products/safety%20signs/cone_caution_sign-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328742/Astonic-Mart/Products/safety%20signs/cone_caution_sign-6.jpg'
         ],
 
         inStock: true,
@@ -1499,10 +1495,10 @@ The lightweight and flexible design allows for quick installation on posts, pole
         price: 10000,
 
         images: [
-            'assets/img/safety signs/men at work caution sign-4.webp',
-            'assets/img/safety signs/men at work caution sign-3.jpg',
-            'assets/img/safety signs/men at work caution sign.jpeg',
-            'assets/img/safety signs/men at work caution sign-2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328753/Astonic-Mart/Products/safety%20signs/men_at_work_caution_sign-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328753/Astonic-Mart/Products/safety%20signs/men_at_work_caution_sign-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328750/Astonic-Mart/Products/safety%20signs/men_at_work_caution_sign.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328750/Astonic-Mart/Products/safety%20signs/men_at_work_caution_sign-2.webp'
         ],
 
         inStock: true,
@@ -1553,10 +1549,10 @@ The lightweight and flexible design allows for quick installation on posts, pole
         brand: 'Generic',
 
         images: [
-            'assets/img/safety signs/working in prog caution sign.jpg',
-            'assets/img/safety signs/working in prog caution sign-2.jpg',
-            'assets/img/safety signs/working in prog caution sign-3.jpg',
-            'assets/img/safety signs/working in prog caution sign-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328753/Astonic-Mart/Products/safety%20signs/working_in_prog_caution_sign.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328753/Astonic-Mart/Products/safety%20signs/working_in_prog_caution_sign-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328753/Astonic-Mart/Products/safety%20signs/working_in_prog_caution_sign-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328755/Astonic-Mart/Products/safety%20signs/working_in_prog_caution_sign-4.jpg'
         ],
 
         inStock: true,
@@ -1608,9 +1604,9 @@ The lightweight and flexible design allows for quick installation on posts, pole
         price: 12000,
 
         images: [
-            'assets/img/safety signs/clean in prog.jpg-2.png',
-            'assets/img/safety signs/clean in prog.jpg-3.jpg',
-            'assets/img/safety signs/clean in prog.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328732/Astonic-Mart/Products/safety%20signs/clean_in_prog.jpg-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328732/Astonic-Mart/Products/safety%20signs/clean_in_prog.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328732/Astonic-Mart/Products/safety%20signs/clean_in_prog.jpg'
         ],
 
         inStock: true,
@@ -1664,10 +1660,10 @@ The lightweight and flexible design allows for quick installation on posts, pole
 
 
         images: [
-            'assets/img/safety signs/electrical warning signs.jpg',
-            'assets/img/safety signs/electrical warning signs.jpg-2.jpg',
-            'assets/img/safety signs/electrical warning signs.jpg-3.jpg',
-            'assets/img/safety signs/electrical warning signs.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328747/Astonic-Mart/Products/safety%20signs/electrical_warning_signs.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328747/Astonic-Mart/Products/safety%20signs/electrical_warning_signs.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328747/Astonic-Mart/Products/safety%20signs/electrical_warning_signs.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328747/Astonic-Mart/Products/safety%20signs/electrical_warning_signs.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -1719,10 +1715,10 @@ The lightweight and flexible design allows for quick installation on posts, pole
 
 
         images: [
-            'assets/img/safety signs/fire hazard warning sign.jpg',
-            'assets/img/safety signs/fire hazard warning sign.jpg-2.webp',
-            'assets/img/safety signs/fire hazard warning sign.jpg-3.avif',
-            'assets/img/safety signs/fire hazard warning sign.jpg-4.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328747/Astonic-Mart/Products/safety%20signs/fire_hazard_warning_sign.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328747/Astonic-Mart/Products/safety%20signs/fire_hazard_warning_sign.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328747/Astonic-Mart/Products/safety%20signs/fire_hazard_warning_sign.jpg-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328747/Astonic-Mart/Products/safety%20signs/fire_hazard_warning_sign.jpg-4.jpeg'
         ],
 
         inStock: true,
@@ -1774,10 +1770,10 @@ The lightweight and flexible design allows for quick installation on posts, pole
 
 
         images: [
-            'assets/img/safety signs/do not enter and restricted area.jpg-1.jpg',
-            'assets/img/safety signs/do not enter and restricted area.jpg',
-            'assets/img/safety signs/do not enter and restricted area.jpg-2.png',
-            'assets/img/safety signs/do not enter and restricted area.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328741/Astonic-Mart/Products/safety%20signs/do_not_enter_and_restricted_area.jpg-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328741/Astonic-Mart/Products/safety%20signs/do_not_enter_and_restricted_area.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328741/Astonic-Mart/Products/safety%20signs/do_not_enter_and_restricted_area.jpg-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328741/Astonic-Mart/Products/safety%20signs/do_not_enter_and_restricted_area.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -1821,10 +1817,10 @@ The lightweight and flexible design allows for quick installation on posts, pole
         discountPrice: 25000,
 
         images: [
-            'assets/img/traffic safety/handheld led stop and go traffic light.avif',
-            'assets/img/traffic safety/handheld led stop and go traffic light-4.jpg',
-            'assets/img/traffic safety/handheld led stop and go traffic light-3.avif',
-            'assets/img/traffic safety/handheld led stop and go traffic light-2.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329994/Astonic-Mart/Products/traffic%20safety/handheld_led_stop_and_go_traffic_light.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329998/Astonic-Mart/Products/traffic%20safety/handheld_led_stop_and_go_traffic_light-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329993/Astonic-Mart/Products/traffic%20safety/handheld_led_stop_and_go_traffic_light-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329993/Astonic-Mart/Products/traffic%20safety/handheld_led_stop_and_go_traffic_light-2.jpg'
         ],
 
         inStock: true,
@@ -1877,10 +1873,10 @@ The lightweight and flexible design allows for quick installation on posts, pole
         price: 10500,
 
         images: [
-            'assets/img/traffic safety/70cm safety cone.jpg',
-            'assets/img/traffic safety/70cm safety cone-2.webp',
-            'assets/img/traffic safety/70cm safety cone-3.jpeg',
-            'assets/img/traffic safety/70cm safety cone-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329972/Astonic-Mart/Products/traffic%20safety/70cm_safety_cone.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329972/Astonic-Mart/Products/traffic%20safety/70cm_safety_cone-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329974/Astonic-Mart/Products/traffic%20safety/70cm_safety_cone-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329974/Astonic-Mart/Products/traffic%20safety/70cm_safety_cone-4.webp'
         ],
 
         inStock: true,
@@ -1929,10 +1925,10 @@ Suitable for indoor and outdoor use
         price: 7500,
 
         images: [
-            'assets/img/traffic safety/45cm safety cone.jpg',
-            'assets/img/traffic safety/45cm safety cone-2.jpeg',
-            'assets/img/traffic safety/45cm safety cone-3.webp',
-            'assets/img/traffic safety/45cm safety cone-4.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329968/Astonic-Mart/Products/traffic%20safety/45cm_safety_cone.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329968/Astonic-Mart/Products/traffic%20safety/45cm_safety_cone-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329968/Astonic-Mart/Products/traffic%20safety/45cm_safety_cone-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329968/Astonic-Mart/Products/traffic%20safety/45cm_safety_cone-4.avif'
         ],
 
         inStock: true,
@@ -1982,10 +1978,10 @@ Suitable for indoor and outdoor applications
         price: 24500,
 
         images: [
-            'assets/img/traffic safety/100cm traffic cones-2.webp',
-            'assets/img/traffic safety/100cm traffic cones.webp',
-            'assets/img/traffic safety/100cm traffic cones-2.webp',
-            'assets/img/traffic safety/100cm safety cone-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329954/Astonic-Mart/Products/traffic%20safety/100cm_traffic_cones-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329954/Astonic-Mart/Products/traffic%20safety/100cm_traffic_cones.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329954/Astonic-Mart/Products/traffic%20safety/100cm_traffic_cones-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329953/Astonic-Mart/Products/traffic%20safety/100cm_safety_cone-3.jpg'
         ],
 
         inStock: true,
@@ -2035,9 +2031,9 @@ Suitable for professional traffic control applications
         price: 27000,
 
         images: [
-            'assets/img/traffic safety/traffic delineator pole.jpg',
-            'assets/img/traffic safety/traffic delineator pole-2.jpeg',
-            'assets/img/traffic safety/traffic delineator pole-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330035/Astonic-Mart/Products/traffic%20safety/traffic_delineator_pole.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330035/Astonic-Mart/Products/traffic%20safety/traffic_delineator_pole-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330035/Astonic-Mart/Products/traffic%20safety/traffic_delineator_pole-3.jpg'
         ],
 
         inStock: true,
@@ -2087,9 +2083,9 @@ Suitable for professional traffic management applications
         price: 20500,
 
         images: [
-            'assets/img/traffic safety/speed bump cap-70mm.jpg',
-            'assets/img/traffic safety/speed bump cap-70mm-2.png',
-            'assets/img/traffic safety/speed bump cap-70mm-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330025/Astonic-Mart/Products/traffic%20safety/speed_bump_cap-70mm.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330031/Astonic-Mart/Products/traffic%20safety/speed_bump_cap-70mm-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330027/Astonic-Mart/Products/traffic%20safety/speed_bump_cap-70mm-3.jpg'
         ],
 
         inStock: true,
@@ -2138,9 +2134,9 @@ Ideal for commercial and industrial environments
         price: 17500,
 
         images: [
-            'assets/img/traffic safety/speed bump cap-50mm.jpeg',
-            'assets/img/traffic safety/speed bump cap-50mm-2.jpeg',
-            'assets/img/traffic safety/speed bump cap-50mm-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330025/Astonic-Mart/Products/traffic%20safety/speed_bump_cap-50mm.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330025/Astonic-Mart/Products/traffic%20safety/speed_bump_cap-50mm-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330025/Astonic-Mart/Products/traffic%20safety/speed_bump_cap-50mm-3.jpg'
         ],
 
         inStock: true,
@@ -2189,9 +2185,9 @@ Professional finishing solution for traffic calming systems
         price: 55000,
 
         images: [
-            'assets/img/traffic safety/70mm speed bump.webp',
-            'assets/img/traffic safety/70mm speed bump.webp-2.jpeg',
-            'assets/img/traffic safety/70mm speed bump.webp-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329974/Astonic-Mart/Products/traffic%20safety/70mm_speed_bump.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329974/Astonic-Mart/Products/traffic%20safety/70mm_speed_bump.webp-2.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329974/Astonic-Mart/Products/traffic%20safety/70mm_speed_bump.webp-3.jpg'
         ],
 
         inStock: true,
@@ -2241,9 +2237,9 @@ Long service life with minimal maintenance
         price: 63250,
 
         images: [
-            'assets/img/traffic safety/50mm speed bump with end cap.jpeg',
-            'assets/img/traffic safety/50mm speed bump with end cap-2.jpeg',
-            'assets/img/traffic safety/50mm speed bump with end cap-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329972/Astonic-Mart/Products/traffic%20safety/50mm_speed_bump_with_end_cap.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329972/Astonic-Mart/Products/traffic%20safety/50mm_speed_bump_with_end_cap-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329972/Astonic-Mart/Products/traffic%20safety/50mm_speed_bump_with_end_cap-3.webp'
         ],
 
         inStock: true,
@@ -2296,10 +2292,10 @@ Long service life with minimal maintenance
         inStock: true,
 
         images: [
-            'assets/img/traffic safety/Portable Folding Aircraft Wheel Chock.webp',
-            'assets/img/traffic safety/Portable Folding Aircraft Wheel Chock-2.webp',
-            'assets/img/traffic safety/Portable Folding Aircraft Wheel Chock-3.webp',
-            'assets/img/traffic safety/Portable Folding Aircraft Wheel Chock-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330013/Astonic-Mart/Products/traffic%20safety/Portable_Folding_Aircraft_Wheel_Chock.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330013/Astonic-Mart/Products/traffic%20safety/Portable_Folding_Aircraft_Wheel_Chock-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330013/Astonic-Mart/Products/traffic%20safety/Portable_Folding_Aircraft_Wheel_Chock-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330013/Astonic-Mart/Products/traffic%20safety/Portable_Folding_Aircraft_Wheel_Chock-4.webp'
         ],
 
         description: 'Portable folding aircraft wheel chock designed to prevent unintended movement of parked aircraft during maintenance, loading, unloading, and ground operations. The foldable design allows easy transportation and storage.',
@@ -2346,11 +2342,11 @@ Reflective Safety Strip
         inStock: true,
 
         images: [
-            'assets/img/traffic safety/plastic wheel choke.jpeg',
-            'assets/img/traffic safety/plastic wheel choke-2.jpg',
-            'assets/img/traffic safety/plastic wheel choke-3.jpg',
-            'assets/img/traffic safety/plastic wheel choke-4.jpg',
-            'assets/img/traffic safety/plastic wheel choke-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330011/Astonic-Mart/Products/traffic%20safety/plastic_wheel_choke.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330009/Astonic-Mart/Products/traffic%20safety/plastic_wheel_choke-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330009/Astonic-Mart/Products/traffic%20safety/plastic_wheel_choke-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330009/Astonic-Mart/Products/traffic%20safety/plastic_wheel_choke-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330009/Astonic-Mart/Products/traffic%20safety/plastic_wheel_choke-5.jpg'
         ],
 
         description: 'Heavy-duty plastic wheel chock designed to prevent unintended vehicle movement during parking, loading, maintenance, and transportation operations. Manufactured from durable high-strength plastic for excellent resistance to weather, oil, and chemicals.',
@@ -2403,17 +2399,17 @@ High-Visibility Safety Finish
 
 
         images: [
-            'assets/img/traffic safety/3 channels cable ramps.webp',
-            'assets/img/traffic safety/3 channels cable ramps-2.jpg',
-            'assets/img/traffic safety/3 channels cable ramps-4.jpg',
-            'assets/img/traffic safety/3 channels cable ramps-5.jpg',
-            'assets/img/traffic safety/3 channels cable ramps-2.jpg',
-            'assets/img/traffic safety/3 channels cable ramps-3.jpg',
-            'assets/img/traffic safety/3 channels cable ramps-6.jpg',
-            'assets/img/traffic safety/3 channels cable ramps-7.jpg',
-            'assets/img/traffic safety/3 channels cable ramps-8.jpg',
-            'assets/img/traffic safety/3 channels cable ramps-9.jpg',
-            'assets/img/traffic safety/3 channels cable ramps-10.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329961/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329963/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329966/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329965/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329963/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329961/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329965/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329965/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329965/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps-8.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329969/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps-9.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329962/Astonic-Mart/Products/traffic%20safety/3_channels_cable_ramps-10.jpg'
         ],
 
         description: 'The 3 Channel Cable Ramp Protector is designed to protect electrical cables, hoses, wires, and pipes from damage caused by pedestrian and vehicle traffic. Constructed from heavy-duty rubber with a high-visibility yellow lid, it is ideal for construction sites, warehouses, factories, events, parking areas, and industrial facilities.',
@@ -2474,12 +2470,12 @@ Anti-Slip Surface
 
 
         images: [
-            "assets/img/traffic safety/Heavy-Duty Rubber Corner Guard.webp",
-            "assets/img/traffic safety/Heavy-Duty Rubber Corner Guard-2.jpeg",
-            "assets/img/traffic safety/Heavy-Duty Rubber Corner Guard-3.jpg",
-            "assets/img/traffic safety/Heavy-Duty Rubber Corner Guard-4.jpg",
-            "assets/img/traffic safety/Heavy-Duty Rubber Corner Guard-5.jpg",
-            "assets/img/traffic safety/Heavy-Duty Rubber Corner Guard-6.jpg"
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786329996/Astonic-Mart/Products/traffic%20safety/Heavy-Duty_Rubber_Corner_Guard.webp",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786329996/Astonic-Mart/Products/traffic%20safety/Heavy-Duty_Rubber_Corner_Guard-2.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786330000/Astonic-Mart/Products/traffic%20safety/Heavy-Duty_Rubber_Corner_Guard-3.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786330001/Astonic-Mart/Products/traffic%20safety/Heavy-Duty_Rubber_Corner_Guard-4.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786330000/Astonic-Mart/Products/traffic%20safety/Heavy-Duty_Rubber_Corner_Guard-5.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786330000/Astonic-Mart/Products/traffic%20safety/Heavy-Duty_Rubber_Corner_Guard-6.jpg"
         ],
         description: `
 The Heavy-Duty Rubber Corner Guard is designed to protect building corners, columns, walls, and vehicles from impact damage in parking garages, warehouses, factories, loading bays, and commercial facilities. Manufactured from high-density industrial rubber with bright yellow reflective panels, it absorbs impacts while improving visibility in low-light conditions.
@@ -2542,14 +2538,14 @@ Accessories Included:
         price: 580000, // Add your selling price
 
         images: [
-            "assets/img/traffic safety/MD3010II High Sensitivity Underground Metal Detector.jpg",
-            "assets/img/traffic safety/MD3010II High Sensitivity Underground Metal Detector-2.jpg",
-            'assets/img/traffic safety/MD3010II High Sensitivity Underground Metal Detector-3.jpg',
-            'assets/img/traffic safety/MD3010II High Sensitivity Underground Metal Detector-4.jpg',
-            'assets/img/traffic safety/MD3010II High Sensitivity Underground Metal Detector-5.jpg',
-            'assets/img/traffic safety/MD3010II High Sensitivity Underground Metal Detector-6.jpg',
-            'assets/img/traffic safety/MD3010II High Sensitivity Underground Metal Detector-7.jpg',
-            'assets/img/traffic safety/MD3010II High Sensitivity Underground Metal Detector-8.jpg'
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786330002/Astonic-Mart/Products/traffic%20safety/MD3010II_High_Sensitivity_Underground_Metal_Detector.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786330002/Astonic-Mart/Products/traffic%20safety/MD3010II_High_Sensitivity_Underground_Metal_Detector-2.jpg",
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330002/Astonic-Mart/Products/traffic%20safety/MD3010II_High_Sensitivity_Underground_Metal_Detector-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330002/Astonic-Mart/Products/traffic%20safety/MD3010II_High_Sensitivity_Underground_Metal_Detector-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330005/Astonic-Mart/Products/traffic%20safety/MD3010II_High_Sensitivity_Underground_Metal_Detector-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330005/Astonic-Mart/Products/traffic%20safety/MD3010II_High_Sensitivity_Underground_Metal_Detector-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330005/Astonic-Mart/Products/traffic%20safety/MD3010II_High_Sensitivity_Underground_Metal_Detector-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330005/Astonic-Mart/Products/traffic%20safety/MD3010II_High_Sensitivity_Underground_Metal_Detector-8.jpg'
         ],
 
         description: `The MD3010II High Sensitivity Underground Metal Detector is a lightweight and easy-to-use detector designed to locate buried metallic objects. It features adjustable sensitivity, audio and visual target indication, and an ergonomic design for comfortable operation. Suitable for general-purpose metal detection, educational activities, and professional inspection applications.`,
@@ -2600,10 +2596,10 @@ Accessories Included:
         price: 230000,
 
         images: [
-            "assets/img/emergency equipment/Portable Hand Crank Emergency Siren with Tripod Stand-4.jpeg",
-            "assets/img/emergency equipment/Portable Hand Crank Emergency Siren with Tripod Stand-2.jpg",
-            'assets/img/emergency equipment/Portable Hand Crank Emergency Siren with Tripod Stand-3.jpg',
-            'assets/img/emergency equipment/Portable Hand Crank Emergency Siren with Tripod Stand-5.jpg'
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786306419/Astonic-Mart/Products/emergency%20equipment/Portable_Hand_Crank_Emergency_Siren_with_Tripod_Stand-4.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786306417/Astonic-Mart/Products/emergency%20equipment/Portable_Hand_Crank_Emergency_Siren_with_Tripod_Stand-2.jpg",
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306418/Astonic-Mart/Products/emergency%20equipment/Portable_Hand_Crank_Emergency_Siren_with_Tripod_Stand-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306420/Astonic-Mart/Products/emergency%20equipment/Portable_Hand_Crank_Emergency_Siren_with_Tripod_Stand-5.jpg'
         ],
 
         description: `The Portable Hand Crank Emergency Siren is a high-audibility warning device designed for emergency alerts, evacuation procedures, disaster response, security operations, and industrial safety applications. The siren generates a powerful alarm sound through manual operation and is mounted on a sturdy tripod stand for stable deployment in both indoor and outdoor environments.`,
@@ -2649,11 +2645,11 @@ Accessories Included:
         price: 7500,
 
         images: [
-            "assets/img/traffic safety/100cm traffic cones-2.webp",
-            'assets/img/traffic safety/blue color safety cone-2.jpg',
-            'assets/img/traffic safety/blue color safety cone-1.jpg',
-            'assets/img/traffic safety/blue color safety cone-3.jpg',
-            'assets/img/traffic safety/blue color safety cone-4.jpg'
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786329954/Astonic-Mart/Products/traffic%20safety/100cm_traffic_cones-2.webp",
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329976/Astonic-Mart/Products/traffic%20safety/blue_color_safety_cone-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329978/Astonic-Mart/Products/traffic%20safety/blue_color_safety_cone-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329976/Astonic-Mart/Products/traffic%20safety/blue_color_safety_cone-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329976/Astonic-Mart/Products/traffic%20safety/blue_color_safety_cone-4.jpg'
         ],
 
         description: `The Blue Safety Cone with Reflective Collar is a durable traffic safety device designed to improve visibility and guide pedestrians or vehicles in restricted and hazardous areas. Manufactured from premium flexible PVC, it features high-intensity reflective collars for maximum visibility during both daytime and nighttime operations. Ideal for traffic management, construction sites, parking areas, warehouses, factories, airports, schools, and event venues.`,
@@ -2725,10 +2721,10 @@ Accessories Included:
 
 
         images: [
-            "assets/img/traffic safety/yellow color safety cone.webp",
-            'assets/img/traffic safety/yellow color safety cone-2.jpeg',
-            'assets/img/traffic safety/yellow color safety cone-3.png',
-            'assets/img/traffic safety/yellow color safety cone-4.png'
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786330044/Astonic-Mart/Products/traffic%20safety/yellow_color_safety_cone.webp",
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330044/Astonic-Mart/Products/traffic%20safety/yellow_color_safety_cone-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330047/Astonic-Mart/Products/traffic%20safety/yellow_color_safety_cone-3.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330052/Astonic-Mart/Products/traffic%20safety/yellow_color_safety_cone-4.png'
         ],
 
         description: `The Yellow Safety Cone with Reflective Collar is a high-visibility traffic safety device designed to warn motorists, pedestrians, and workers of temporary hazards, restricted areas, and work zones. Constructed from premium flexible PVC, it features a durable square base and high-intensity reflective collars for excellent visibility during both daytime and nighttime operations. Ideal for roads, construction sites, warehouses, factories, schools, airports, parking lots, and event management.`,
@@ -2801,7 +2797,7 @@ Accessories Included:
 
 
         images: [
-            'assets/img/fireblanketsandextinguishers/25kg DCP Fire Extinguisher-1.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306565/Astonic-Mart/Products/fireblanketsandextinguishers/25kg_DCP_Fire_Extinguisher-1.webp',
 
         ],
 
@@ -2851,11 +2847,11 @@ Accessories Included:
 
 
         images: [
-            'assets/img/fireblanketsandextinguishers/Fire Stop Aerosol Fire Extinguisher Spray.webp',
-            'assets/img/fireblanketsandextinguishers/Fire Stop Aerosol Fire Extinguisher Spray-2.jpeg',
-            'assets/img/fireblanketsandextinguishers/Fire Stop Aerosol Fire Extinguisher Spray-3.jpeg',
-            'assets/img/fireblanketsandextinguishers/Fire Stop Aerosol Fire Extinguisher Spray-4.webp',
-            'assets/img/fireblanketsandextinguishers/Fire Stop Aerosol Fire Extinguisher Spray-5.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306569/Astonic-Mart/Products/fireblanketsandextinguishers/Fire_Stop_Aerosol_Fire_Extinguisher_Spray.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306570/Astonic-Mart/Products/fireblanketsandextinguishers/Fire_Stop_Aerosol_Fire_Extinguisher_Spray-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306573/Astonic-Mart/Products/fireblanketsandextinguishers/Fire_Stop_Aerosol_Fire_Extinguisher_Spray-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306574/Astonic-Mart/Products/fireblanketsandextinguishers/Fire_Stop_Aerosol_Fire_Extinguisher_Spray-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306576/Astonic-Mart/Products/fireblanketsandextinguishers/Fire_Stop_Aerosol_Fire_Extinguisher_Spray-5.jpg'
         ],
 
         inStock: true,
@@ -2911,7 +2907,7 @@ Accessories Included:
         model: '6L Wet Chemical',
 
         images: [
-            'assets/img/fireblanketsandextinguishers/FlameSense 6L Wet Chemical Fire Extinguisher.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306585/Astonic-Mart/Products/fireblanketsandextinguishers/FlameSense_6L_Wet_Chemical_Fire_Extinguisher.png',
 
         ],
 
@@ -2971,8 +2967,8 @@ Manufactured to meet international fire safety standards
         model: '2×1.5mm² Fire Alarm Cable',
 
         images: [
-            'assets/img/fireblanketsandextinguishers/CHLORIDE UK Fire Alarm Cable 2 × 1.5mm² (100m).png',
-            'assets/img/fireblanketsandextinguishers/CHLORIDE UK Fire Alarm Cable 2 × 1.5mm² (100m).webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331780/Astonic-Mart/Products/fireblanketsandextinguishers/CHLORIDE_UK_Fire_Alarm_Cable_2_1_5mm_100m.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331758/Astonic-Mart/Products/fireblanketsandextinguishers/CHLORIDE_UK_Fire_Alarm_Cable_2_1_5mm_100m.webp',
 
         ],
 
@@ -3025,8 +3021,8 @@ Designed for professional electrical and fire safety installations
         model: 'LGV-SQ',
 
         images: [
-            'assets/img/fireblanketsandextinguishers/vision UK 2 Core 2.5mm² Fire Alarm Cable (100m).png',
-            'assets/img/fireblanketsandextinguishers/CHLORIDE UK 2 Core 2.5mm² Fire Alarm Cable (100m).jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331802/Astonic-Mart/Products/fireblanketsandextinguishers/vision_UK_2_Core_2_5mm_Fire_Alarm_Cable_100m.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331804/Astonic-Mart/Products/fireblanketsandextinguishers/CHLORIDE_UK_2_Core_2_5mm_Fire_Alarm_Cable_100m.jpg'
 
         ],
 
@@ -3084,10 +3080,10 @@ CE and RoHS compliant for quality and environmental standards
         price: 19000,
 
         images: [
-            'assets/img/traffic safety/Signal Baton.jpg',
-            'assets/img/traffic safety/Signal Baton-2.png',
-            'assets/img/traffic safety/Signal Baton-3.jpeg',
-            'assets/img/traffic safety/Signal Baton-4.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330016/Astonic-Mart/Products/traffic%20safety/Signal_Baton.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330016/Astonic-Mart/Products/traffic%20safety/Signal_Baton-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330016/Astonic-Mart/Products/traffic%20safety/Signal_Baton-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330016/Astonic-Mart/Products/traffic%20safety/Signal_Baton-4.jpg'
         ],
 
         inStock: true,

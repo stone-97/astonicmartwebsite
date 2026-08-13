@@ -6,6 +6,7 @@ import { CartService } from '../../../core/services/cart.service';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { CloudinaryService } from '../../../cloudinary.service';
 @Component({
   selector: 'app-productdetails',
   templateUrl: './productdetails.component.html',
@@ -52,7 +53,8 @@ export class ProductdetailsComponent implements OnInit {
     private searchService: SearchService,
     private cartService: CartService,
     private router: Router,
-    private sanitizer: DomSanitizer
+    private sanitizer: DomSanitizer,
+    public cloudinaryService: CloudinaryService
   ) { }
 
   ngOnInit(): void {
