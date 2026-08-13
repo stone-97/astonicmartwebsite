@@ -16,7 +16,7 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
     
     
       images: [
-        'assets/img/lubricants and sprayers/sea unik paint remover.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308877/Astonic-Mart/Products/lubricants%20and%20sprayers/sea_unik_paint_remover.jpg',
       ],
     
       videos: [
@@ -88,8 +88,8 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
          
     
          images: [
-           'assets/img/lubricants and sprayers/abro paint remover.jpeg',
-           'assets/img/lubricants and sprayers/abro paint remover.jpeg-2.jpeg'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308856/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_paint_remover.jpg',
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308856/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_paint_remover.jpg-2.jpeg'
          ],
     
          videos: [
@@ -161,9 +161,9 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
       discountPrice: 13000,
     
       images: [
-        'assets/img/lubricants and sprayers/souldal silicone spray.jpg-3.webp',
-        'assets/img/lubricants and sprayers/souldal silicone spray.jpg',
-        'assets/img/lubricants and sprayers/souldal silicone spray.jpg-2.webp'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308881/Astonic-Mart/Products/lubricants%20and%20sprayers/souldal_silicone_spray.jpg-3.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308881/Astonic-Mart/Products/lubricants%20and%20sprayers/souldal_silicone_spray.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308881/Astonic-Mart/Products/lubricants%20and%20sprayers/souldal_silicone_spray.jpg-2.webp'
       ],
     
       videos: [
@@ -238,9 +238,9 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
          discountPrice: 13500,
     
          images: [
-           'assets/img/lubricants and sprayers/souldal muliti spray-5.jpg',
-           'assets/img/lubricants and sprayers/souldal muliti spray.jpeg',
-           'assets/img/lubricants and sprayers/souldal muliti spray-4.jpg'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308880/Astonic-Mart/Products/lubricants%20and%20sprayers/souldal_muliti_spray-5.jpg',
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308878/Astonic-Mart/Products/lubricants%20and%20sprayers/souldal_muliti_spray.jpg',
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308879/Astonic-Mart/Products/lubricants%20and%20sprayers/souldal_muliti_spray-4.jpg'
          ],
     
          videos: [
@@ -312,10 +312,10 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
       price: 10000,
     
       images: [
-        'assets/img/lubricants and sprayers/aerosol chrome plate silver spray paint.jpg',
-        'assets/img/lubricants and sprayers/aerosol chrome plate silver spray paint-2.jpg',
-        'assets/img/lubricants and sprayers/aerosol chrome plate silver spray paint.jpg',
-        'assets/img/lubricants and sprayers/aerosol chrome plate silver spray paint-3.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308865/Astonic-Mart/Products/lubricants%20and%20sprayers/aerosol_chrome_plate_silver_spray_paint.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308866/Astonic-Mart/Products/lubricants%20and%20sprayers/aerosol_chrome_plate_silver_spray_paint-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308865/Astonic-Mart/Products/lubricants%20and%20sprayers/aerosol_chrome_plate_silver_spray_paint.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308867/Astonic-Mart/Products/lubricants%20and%20sprayers/aerosol_chrome_plate_silver_spray_paint-3.jpg',
         
       ],
     
@@ -365,9 +365,9 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
       price: 11500,
     
       images: [
-        'assets/img/lubricants and sprayers/abro silver chrome spray paint.webp-2.jpg',
-        'assets/img/lubricants and sprayers/abro silver chrome spray paint.webp',
-        'assets/img/lubricants and sprayers/abro silver chrome spray paint.webp-3.webp'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308859/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_silver_chrome_spray_paint.webp-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308858/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_silver_chrome_spray_paint.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308858/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_silver_chrome_spray_paint.webp-3.webp'
       ],
     
       inStock: true,
@@ -418,10 +418,10 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
          price: 10000,
     
          images: [
-           'assets/img/lubricants and sprayers/abro gold spray paint.jpg',
-           'assets/img/lubricants and sprayers/abro gold spray paint.jpg-2.webp',
-           'assets/img/lubricants and sprayers/abro gold spray paint.jpg-3.webp',
-           'assets/img/lubricants and sprayers/abro gold spray paint.jpg-4.jpg'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308849/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_gold_spray_paint.jpg',
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308852/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_gold_spray_paint.jpg-2.webp',
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308853/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_gold_spray_paint.jpg-3.webp',
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308849/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_gold_spray_paint.jpg-4.jpg'
          ],
     
          inStock: true,
@@ -473,9 +473,9 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
          price: 8500,
     
          images: [
-           'assets/img/lubricants and sprayers/abro white spray paint.jpg',
-        'assets/img/lubricants and sprayers/abro white spray paint.jpg-2.jpg',
-        'assets/img/lubricants and sprayers/abro white spray paint.jpg-3.webp'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308862/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_white_spray_paint.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308862/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_white_spray_paint.jpg-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308864/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_white_spray_paint.jpg-3.webp'
     
          ],
     
@@ -527,8 +527,8 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
          price: 6500,
     
          images: [
-           'assets/img/lubricants and sprayers/abro contact cleaner.jpg',
-           'assets/img/lubricants and sprayers/abro contact cleaner-2.jpeg',
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308837/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_contact_cleaner.jpg',
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308838/Astonic-Mart/Products/lubricants%20and%20sprayers/abro_contact_cleaner-2.jpg',
          
          ],
     
@@ -590,10 +590,7 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
       price: 16000,
     
       images: [
-        'assets/img/lubricants and sprayers/2Pcs Crc Co Contact Cleaner-312g.jpg',
-        'assets/img/contact-cleaners/crc-contact-cleaner-2.webp',
-        'assets/img/contact-cleaners/crc-contact-cleaner-3.webp',
-        'assets/img/contact-cleaners/crc-contact-cleaner-4.webp'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308830/Astonic-Mart/Products/lubricants%20and%20sprayers/2Pcs_Crc_Co_Contact_Cleaner-312g.jpg',
       ],
     
       inStock: true,
@@ -656,10 +653,7 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
          price: 65000,
     
          images: [
-           'assets/img/lubricants and sprayers/2Pcs Crc Co Contact Cleaner-312g.jpg',
-           'assets/img/contact-cleaners/crc-contact-cleaner-2.webp',
-           'assets/img/contact-cleaners/crc-contact-cleaner-3.webp',
-           'assets/img/contact-cleaners/crc-contact-cleaner-4.webp'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786308830/Astonic-Mart/Products/lubricants%20and%20sprayers/2Pcs_Crc_Co_Contact_Cleaner-312g.jpg',
          ],
     
          inStock: true,
@@ -718,8 +712,8 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
       price: 35000,
     
       images: [
-        'assets/img/lubricants and sprayers/11 Nitrocellulose Thinner.jpeg',
-        'assets/img/lubricants and sprayers/11 Nitrocellulose Thinner-2.jpeg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308828/Astonic-Mart/Products/lubricants%20and%20sprayers/11_Nitrocellulose_Thinner.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308829/Astonic-Mart/Products/lubricants%20and%20sprayers/11_Nitrocellulose_Thinner-2.jpg'
       ],
     
       model: '11 NC Thinner',
@@ -776,11 +770,11 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
     
     
       images: [
-        'assets/img/lubricants and sprayers/MATI Multi-Purpose Kitchen Foam Cleaner.jpg',
-        'assets/img/lubricants and sprayers/MATI Multi-Purpose Kitchen Foam Cleaner-2.jpg',
-        'assets/img/lubricants and sprayers/MATI Multi-Purpose Kitchen Foam Cleaner-3.jpg',
-        'assets/img/lubricants and sprayers/MATI Multi-Purpose Kitchen Foam Cleaner-3.jpg',
-        'assets/img/lubricants and sprayers/MATI Multi-Purpose Kitchen Foam Cleaner-5.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308873/Astonic-Mart/Products/lubricants%20and%20sprayers/MATI_Multi-Purpose_Kitchen_Foam_Cleaner.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308874/Astonic-Mart/Products/lubricants%20and%20sprayers/MATI_Multi-Purpose_Kitchen_Foam_Cleaner-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308875/Astonic-Mart/Products/lubricants%20and%20sprayers/MATI_Multi-Purpose_Kitchen_Foam_Cleaner-3.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308875/Astonic-Mart/Products/lubricants%20and%20sprayers/MATI_Multi-Purpose_Kitchen_Foam_Cleaner-3.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308876/Astonic-Mart/Products/lubricants%20and%20sprayers/MATI_Multi-Purpose_Kitchen_Foam_Cleaner-5.jpg'
       ],
     
       inStock: true,
@@ -846,10 +840,10 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
       price: 9800,
     
       images: [
-        'assets/img/lubricants and sprayers/Asmaco Anti Rust  Penetration Oil RS20 - 480ml.webp',
-        'assets/img/lubricants and sprayers/Asmaco Anti Rust  Penetration Oil RS20 - 480ml-2.webp',
-        'assets/img/lubricants and sprayers/Asmaco Anti Rust  Penetration Oil RS20 - 480ml-3.jpg',
-        'assets/img/lubricants and sprayers/Asmaco Anti Rust  Penetration Oil RS20 - 480ml-4.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308868/Astonic-Mart/Products/lubricants%20and%20sprayers/Asmaco_Anti_Rust_Penetration_Oil_RS20_-_480ml.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308869/Astonic-Mart/Products/lubricants%20and%20sprayers/Asmaco_Anti_Rust_Penetration_Oil_RS20_-_480ml-2.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308870/Astonic-Mart/Products/lubricants%20and%20sprayers/Asmaco_Anti_Rust_Penetration_Oil_RS20_-_480ml-3.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308871/Astonic-Mart/Products/lubricants%20and%20sprayers/Asmaco_Anti_Rust_Penetration_Oil_RS20_-_480ml-4.jpg'
       ],
     
     
@@ -926,11 +920,11 @@ export const LUBRICANTS_APPLICATION_PRODUCTS: Product[] = [
       price: 10000,
     
       images: [
-        'assets/img/lubricants and sprayers/ABRO AB-80 Multi-Use Spray - 400ml.jpg',
-        'assets/img/lubricants and sprayers/ABRO AB-80 Multi-Use Spray - 400ml-2.jpg',
-        'assets/img/lubricants and sprayers/ABRO AB-80 Multi-Use Spray - 400ml-3.jpg',
-        'assets/img/lubricants and sprayers/ABRO AB-80 Multi-Use Spray - 400ml-4.jpg',
-        'assets/img/lubricants and sprayers/ABRO AB-80 Multi-Use Spray - 400ml-5.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308831/Astonic-Mart/Products/lubricants%20and%20sprayers/ABRO_AB-80_Multi-Use_Spray_-_400ml.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308832/Astonic-Mart/Products/lubricants%20and%20sprayers/ABRO_AB-80_Multi-Use_Spray_-_400ml-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308834/Astonic-Mart/Products/lubricants%20and%20sprayers/ABRO_AB-80_Multi-Use_Spray_-_400ml-3.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308835/Astonic-Mart/Products/lubricants%20and%20sprayers/ABRO_AB-80_Multi-Use_Spray_-_400ml-4.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786308836/Astonic-Mart/Products/lubricants%20and%20sprayers/ABRO_AB-80_Multi-Use_Spray_-_400ml-5.jpg'
       ],
     
     

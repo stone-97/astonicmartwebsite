@@ -17,13 +17,12 @@ export const ELECTRICAL_EQUIPMENTS_PRODUCTS: Product[] = [
 
 
         images: [
-            'assets/img/battery and battery chargers/Ingco  Battery - 4ah - 20v.webp',
-            'assets/img/battery and battery chargers/Ingco  Battery - 4ah - 20v.webp-4.jpg',
-            'assets/img/battery and battery chargers/Ingco  Battery - 4ah - 20v.webp-5.jpg',
-            'assets/img/battery and battery chargers/Ingco  Battery - 4ah - 20v.webp2.jpeg',
-            'assets/img/battery and battery chargers/Ingco  Battery - 4ah - 20v.webp3.webp'
-
-        ],
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786430154/Astonic-Mart/Products/battery%20and%20battery%20chargers/INGCO_ING-CD2201_Industrial_Battery_Charger-1.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786430155/Astonic-Mart/Products/battery%20and%20battery%20chargers/INGCO_ING-CD2201_Industrial_Battery_Charger-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786430156/Astonic-Mart/Products/battery%20and%20battery%20chargers/INGCO_ING-CD2201_Industrial_Battery_Charger-3.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786430159/Astonic-Mart/Products/battery%20and%20battery%20chargers/INGCO_ING-CD2201_Industrial_Battery_Charger-4.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786430161/Astonic-Mart/Products/battery%20and%20battery%20chargers/INGCO_ING-CD2201_Industrial_Battery_Charger-5.webp'
+    ],
 
         inStock: true,
         jumiaLink: '',
@@ -73,9 +72,7 @@ An LED battery level indicator allows users to easily monitor remaining power, i
 
 
         images: [
-            'assets/img/battery and battery chargers/maxmech cd 650-battery tester.jpg',
-            'assets/img/chargers/maxmech-bc650-2.jpg',
-            'assets/img/chargers/maxmech-bc650-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304206/Astonic-Mart/Products/battery%20and%20battery%20chargers/maxmech_cd_650-battery_tester.jpg',
         ],
 
         inStock: true,
@@ -132,9 +129,9 @@ This charger is reliable, efficient, and essential for automotive and industrial
         inStock: true,
 
         images: [
-            'assets/img/welding machines/Powerflex Welder MMA 300ES Welding Machine-1.png',
-            'assets/img/welding machines/Powerflex Welder MMA 300ES Welding Machine-3.png',
-            'assets/img/welding machines/Powerflex Welder MMA 300ES Welding Machine-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330714/Astonic-Mart/Products/welding%20machines/Powerflex_Welder_MMA_300ES_Welding_Machine-1.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330749/Astonic-Mart/Products/welding%20machines/Powerflex_Welder_MMA_300ES_Welding_Machine-3.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330760/Astonic-Mart/Products/welding%20machines/Powerflex_Welder_MMA_300ES_Welding_Machine-2.png'
         ],
 
         description: `The Powerflex MMA 300ES Waterproof Welding Machine is a compact inverter welding machine designed for professional and industrial welding applications. It features advanced IGBT inverter technology, stable arc performance, energy efficiency, and a durable waterproof construction suitable for demanding work environments.`,
@@ -191,9 +188,7 @@ Accessories Included:
         price: 450000,
 
         images: [
-            'assets/img/air compressors/maxmech air compressor-80l.jpg',
-            'assets/img/aircompressors/maxmech-80l-2.jpg',
-            'assets/img/aircompressors/maxmech-80l-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274241/Astonic-Mart/Products/air%20compressors/maxmech_air_compressor-80l.jpg',
         ],
 
         inStock: true,
@@ -244,9 +239,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         price: 95000,
 
         images: [
-            'assets/img/air compressors/Ingco auto compressor-120psi.jpg',
-            'assets/img/aircompressors/ingco-aac2508-2.jpg',
-            'assets/img/aircompressors/ingco-aac2508-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274137/Astonic-Mart/Products/air%20compressors/Ingco_auto_compressor-120psi.jpg',
         ],
 
         inStock: true,
@@ -288,17 +281,16 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         group: 'Electrical Equipments',
         brand: 'TOTAL',
         model: 'TTAC1406',
-
         price: 80000,
         discountPrice: 75000,
 
         images: [
-            'assets/img/air compressors/TOTAL AUTO AIR COMPRESSOR 12V (TTAC1406).jpg',
-            'assets/img/air compressors/TOTAL AUTO AIR COMPRESSOR 12V (TTAC1406)-2.jpeg',
-            'assets/img/air compressors/TOTAL AUTO AIR COMPRESSOR 12V (TTAC1406)-3.webp',
-            'assets/img/air compressors/TOTAL AUTO AIR COMPRESSOR 12V (TTAC1406)-4.webp',
-            'assets/img/air compressors/TOTAL AUTO AIR COMPRESSOR 12V (TTAC1406)-5.webp',
-            'assets/img/air compressors/TOTAL AUTO AIR COMPRESSOR 12V (TTAC1406)-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274258/Astonic-Mart/Products/air%20compressors/TOTAL_AUTO_AIR_COMPRESSOR_12V_TTAC1406.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274243/Astonic-Mart/Products/air%20compressors/TOTAL_AUTO_AIR_COMPRESSOR_12V_TTAC1406_-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274248/Astonic-Mart/Products/air%20compressors/TOTAL_AUTO_AIR_COMPRESSOR_12V_TTAC1406_-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274250/Astonic-Mart/Products/air%20compressors/TOTAL_AUTO_AIR_COMPRESSOR_12V_TTAC1406_-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274253/Astonic-Mart/Products/air%20compressors/TOTAL_AUTO_AIR_COMPRESSOR_12V_TTAC1406_-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274255/Astonic-Mart/Products/air%20compressors/TOTAL_AUTO_AIR_COMPRESSOR_12V_TTAC1406_-7.jpg'
         ],
 
         inStock: true,
@@ -361,9 +353,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         ],
 
         images: [
-            'assets/img/cablewires/ingco booster cable HBTCP2001.jpg3.jpg',
-            'assets/img/automotive/hbtcp2001-2.jpg',
-            'assets/img/automotive/hbtcp2001-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304580/Astonic-Mart/Products/cablewires/ingco_booster_cable_HBTCP2001.jpg3.jpg',
         ],
 
         inStock: true,
@@ -406,9 +396,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         price: 650000,
 
         images: [
-            'assets/img/welding machines/maxmech cut 100 plasma cutter.jpg',
-            'assets/img/welding/maxmech-cut100-2.jpg',
-            'assets/img/welding/maxmech-cut100-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330627/Astonic-Mart/Products/welding%20machines/maxmech_cut_100_plasma_cutter.jpg',
         ],
 
         inStock: true,
@@ -456,9 +444,9 @@ This air compressor is a reliable and essential machine for mechanics, technicia
 
 
         images: [
-            'assets/img/generators/MAXMECH_7.5KVA_Welding_Generator_WG350.jpg',
-            'assets/img/generators/MAXMECH_7.5KVA_Welding_Generator_WG350-3.png',
-            'assets/img/generators/MAXMECH_7.5KVA_Welding_Generator_WG350-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307228/Astonic-Mart/Products/generators/MAXMECH_7.5KVA_Welding_Generator_WG350.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307261/Astonic-Mart/Products/generators/MAXMECH_7.5KVA_Welding_Generator_WG350-3.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307250/Astonic-Mart/Products/generators/MAXMECH_7.5KVA_Welding_Generator_WG350-2.png'
         ],
 
         inStock: true,
@@ -507,9 +495,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
 
 
         images: [
-            'assets/img/generators/TOTAL Silent diesel generator 8.000W (TP280001).jpg',
-            'assets/img/generators/total-tp280001-2.jpg',
-            'assets/img/generators/total-tp280001-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307337/Astonic-Mart/Products/generators/TOTAL_Silent_diesel_generator_8.000W_TP280001.jpg',
         ],
 
         inStock: true,
@@ -567,9 +553,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         ],
 
         images: [
-            'assets/img/generators/TOTAL INVERTER GASOLINE GENERATOR 2.200W (TP530001.jpg',
-            'assets/img/generators/total-tp530001-2.jpg',
-            'assets/img/generators/total-tp530001-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307330/Astonic-Mart/Products/generators/TOTAL_INVERTER_GASOLINE_GENERATOR_2.200W_TP530001.jpg',
         ],
 
         inStock: true,
@@ -621,9 +605,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
 
 
         images: [
-            'assets/img/welding machines/maxmech tigmma 250.jpg',
-            'assets/img/welding/maxmech-tigmma250-2.jpg',
-            'assets/img/welding/maxmech-tigmma250-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330653/Astonic-Mart/Products/welding%20machines/maxmech_tigmma_250.jpg',
         ],
 
         inStock: true,
@@ -672,9 +654,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
 
 
         images: [
-            'assets/img/welding machines/maxmech MMA-500T.jpg',
-            'assets/img/welding/maxmech-mma500t-2.jpg',
-            'assets/img/welding/maxmech-mma500t-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330648/Astonic-Mart/Products/welding%20machines/maxmech_MMA-500T.jpg',
         ],
 
         inStock: true,
@@ -720,9 +700,8 @@ This air compressor is a reliable and essential machine for mechanics, technicia
 
 
         images: [
-            'assets/img/welding machines/maxmech migmma-250.jpg',
-            'assets/img/welding machines/maxmech migmma-250.jpg-2.webp',
-            'assets/img/welding/maxmech-migmma250-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330633/Astonic-Mart/Products/welding%20machines/maxmech_migmma-250.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330633/Astonic-Mart/Products/welding%20machines/maxmech_migmma-250.jpg-2.webp',
         ],
 
         inStock: true,
@@ -769,9 +748,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         price: 300000,
 
         images: [
-            'assets/img/welding machines/arc welding 500.png',
-            'assets/img/welding/maxmech-arc500-2.jpg',
-            'assets/img/welding/maxmech-arc500-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330506/Astonic-Mart/Products/welding%20machines/arc_welding_500.png',
         ],
 
         inStock: true,
@@ -817,7 +794,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         price: 30100,
 
         images: [
-            'assets/img/welding accessories/gloor torch welding torch.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330385/Astonic-Mart/Products/welding%20accessories/gloor_torch_welding_torch.jpg',
         ],
 
         inStock: true,
@@ -868,9 +845,9 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         discountPrice: 28000,
 
         images: [
-            'assets/img/battery and battery chargers/TOTAL 2.0Ah Lithium-Ion Battery Pack (TFBLI20011).jpg',
-            'assets/img/battery and battery chargers/TOTAL 2.0Ah Lithium-Ion Battery Pack (TFBLI20011).jpg-3.webp',
-            'assets/img/battery and battery chargers/TOTAL 2.0Ah Lithium-Ion Battery Pack (TFBLI20011)-2.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304206/Astonic-Mart/Products/battery%20and%20battery%20chargers/TOTAL_2.0Ah_Lithium-Ion_Battery_Pack_TFBLI20011.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304207/Astonic-Mart/Products/battery%20and%20battery%20chargers/TOTAL_2.0Ah_Lithium-Ion_Battery_Pack_TFBLI20011.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304208/Astonic-Mart/Products/battery%20and%20battery%20chargers/TOTAL_2.0Ah_Lithium-Ion_Battery_Pack_TFBLI20011-2.jpg'
         ],
 
         videos: [
@@ -947,11 +924,11 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         discountPrice: 155000,
 
         images: [
-            'assets/img/welding machines/edon tb 400 inverter welding machine.jpg-2.avif',
-            'assets/img/welding machines/edon tb 400 inverter welding machine.jpg-3.jpg',
-            'assets/img/welding machines/edon tb 400 inverter welding machine.jpg',
-            'assets/img/welding machines/edon tb 400 inverter welding machine.jpg-4.jpeg',
-            'assets/img/welding machines/edon tb 400 inverter welding machine.jpg-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330607/Astonic-Mart/Products/welding%20machines/edon_tb_400_inverter_welding_machine.jpg-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330608/Astonic-Mart/Products/welding%20machines/edon_tb_400_inverter_welding_machine.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330608/Astonic-Mart/Products/welding%20machines/edon_tb_400_inverter_welding_machine.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330608/Astonic-Mart/Products/welding%20machines/edon_tb_400_inverter_welding_machine.jpg-4.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330608/Astonic-Mart/Products/welding%20machines/edon_tb_400_inverter_welding_machine.jpg-5.jpg'
         ],
 
         videos: [
@@ -1032,9 +1009,9 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         discountPrice: 155000,
 
         images: [
-            'assets/img/welding machines/edon arc 500s welding machine.jpg',
-            'assets/img/welding machines/edon arc 500s welding machine-3.jpeg',
-            'assets/img/welding machines/edon arc 500s welding machine-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330508/Astonic-Mart/Products/welding%20machines/edon_arc_500s_welding_machine.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330507/Astonic-Mart/Products/welding%20machines/edon_arc_500s_welding_machine-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330509/Astonic-Mart/Products/welding%20machines/edon_arc_500s_welding_machine-2.jpg'
         ],
 
         videos: [
@@ -1116,7 +1093,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         discountPrice: 365000,
 
         images: [
-            'assets/img/welding machines/edon mma 400s weld machine.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330544/Astonic-Mart/Products/welding%20machines/edon_mma_400s_weld_machine.jpg',
         ],
 
         videos: [
@@ -1199,8 +1176,8 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         discountPrice: 670000,
 
         images: [
-            'assets/img/welding machines/edon cut 60 plasma cutter.jpg',
-            'assets/img/welding machines/edon cut 60 plasma cutter.jpg-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330537/Astonic-Mart/Products/welding%20machines/edon_cut_60_plasma_cutter.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330534/Astonic-Mart/Products/welding%20machines/edon_cut_60_plasma_cutter.jpg-2.avif',
 
         ],
 
@@ -1284,9 +1261,9 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         discountPrice: 720000,
 
         images: [
-            'assets/img/welding machines/edon cut 100 plasma cutter.jpg-3.png',
-            'assets/img/welding machines/edon cut 100 plasma cutter.jpg-2.avif',
-            'assets/img/welding machines/edon cut 100 plasma cutter.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330523/Astonic-Mart/Products/welding%20machines/edon_cut_100_plasma_cutter.jpg-3.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330523/Astonic-Mart/Products/welding%20machines/edon_cut_100_plasma_cutter.jpg-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330523/Astonic-Mart/Products/welding%20machines/edon_cut_100_plasma_cutter.jpg'
         ],
 
         videos: [
@@ -1369,8 +1346,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         discountPrice: 1200000,
 
         images: [
-            'assets/img/welding machines/edon cut 120 plasma cutter.jpeg-2.webp',
-            'assets/img/edon-cut100-plasma-cutter/edon-cut100.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330523/Astonic-Mart/Products/welding%20machines/edon_cut_120_plasma_cutter.jpeg-2.webp',
         ],
 
         videos: [
@@ -1453,10 +1429,10 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         discountPrice: 87000,
 
         images: [
-            'assets/img/welding accessories/Saffire-Nm250-Cutting-Torch.jpg',
-            'assets/img/welding accessories/Saffire-Nm250-Cutting-Torch-2.jpg',
-            'assets/img/welding accessories/Saffire-Nm250-Cutting-Torch-3.avif',
-            'assets/img/welding accessories/Saffire-Nm250-Cutting-Torch-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330487/Astonic-Mart/Products/welding%20accessories/Saffire-Nm250-Cutting-Torch.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330474/Astonic-Mart/Products/welding%20accessories/Saffire-Nm250-Cutting-Torch-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330491/Astonic-Mart/Products/welding%20accessories/Saffire-Nm250-Cutting-Torch-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330491/Astonic-Mart/Products/welding%20accessories/Saffire-Nm250-Cutting-Torch-4.jpg'
 
         ],
 
@@ -1531,9 +1507,9 @@ This air compressor is a reliable and essential machine for mechanics, technicia
             { size: '3.2KW', price: 450000, inStock: true }
         ],
         images: [
-            'assets/img/generators/Ingco 3.2 kW Inverter Gasoline Generator – GEIF40001.webp',
-            'assets/img/generators/Ingco 3.2 kW Inverter Gasoline Generator – GEIF40001-2.webp',
-            'assets/img/generators/Ingco 3.2 kW Inverter Gasoline Generator – GEIF40001.webp-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331627/Astonic-Mart/Products/generators/Ingco_3.2_kW_Inverter_Gasoline_Generator_%E2%80%93_GEIF40001.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331627/Astonic-Mart/Products/generators/Ingco_3.2_kW_Inverter_Gasoline_Generator_%E2%80%93_GEIF40001-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331627/Astonic-Mart/Products/generators/Ingco_3.2_kW_Inverter_Gasoline_Generator_%E2%80%93_GEIF40001.webp-3.jpeg'
         ],
 
         inStock: true,
@@ -1593,10 +1569,10 @@ Ideal for home, workshop, and outdoor applications`,
         price: 650000,
 
         images: [
-            'assets/img/welding machines/edon super arc 5000 weld machine.jpg-4.png',
-            'assets/img/welding machines/edon super arc 5000 weld machine.jpg-3.png',
-            'assets/img/welding machines/edon super arc 5000 weld machine.jpg-2.png',
-            'assets/img/welding machines/edon super arc 5000 weld machine.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330551/Astonic-Mart/Products/welding%20machines/edon_super_arc_5000_weld_machine.jpg-4.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330551/Astonic-Mart/Products/welding%20machines/edon_super_arc_5000_weld_machine.jpg-3.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330551/Astonic-Mart/Products/welding%20machines/edon_super_arc_5000_weld_machine.jpg-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330551/Astonic-Mart/Products/welding%20machines/edon_super_arc_5000_weld_machine.jpg'
         ],
 
         inStock: true,
@@ -1651,10 +1627,10 @@ Ideal for fabrication, construction, and maintenance work`,
         price: 560000,
 
         images: [
-            'assets/img/welding machines/edon super arc 4000 welding machine.png',
-            'assets/img/welding machines/edon super arc 4000 welding machine-2.png',
-            'assets/img/welding machines/edon super arc 4000 welding machine.png-3.jpg',
-            'assets/img/welding machines/edon super arc 4000 welding machine.png-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330547/Astonic-Mart/Products/welding%20machines/edon_super_arc_4000_welding_machine.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330577/Astonic-Mart/Products/welding%20machines/edon_super_arc_4000_welding_machine-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330547/Astonic-Mart/Products/welding%20machines/edon_super_arc_4000_welding_machine.png-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330547/Astonic-Mart/Products/welding%20machines/edon_super_arc_4000_welding_machine.png-4.jpg'
         ],
 
         inStock: true,
@@ -1707,9 +1683,8 @@ Suitable for fabrication and structural welding`,
         price: 170000,
 
         images: [
-            'assets/img/welding machines/Maxmech MIG 200 Welding Machine.jpg',
-            'assets/img/welding machines/Maxmech MIG 200 Welding Machine-2.jpg',
-            'assets/img/welding machines/Maxmech MIG 200 Welding Machine-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330629/Astonic-Mart/Products/welding%20machines/Maxmech_MIG_200_Welding_Machine.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330629/Astonic-Mart/Products/welding%20machines/Maxmech_MIG_200_Welding_Machine-2.jpg',
         ],
 
         inStock: true,
@@ -1764,10 +1739,10 @@ Suitable for workshop and industrial applications`
 
         ],
         images: [
-            'assets/img/welding accessories/mig welding wire 1.2mm.jpg',
-            'assets/img/welding accessories/mig welding wire 1.2mm.jpg-2.jpeg',
-            'assets/img/welding accessories/mig welding wire 1.2mm.jpg-3.webp',
-            'assets/img/welding accessories/mig welding wire 1.2mm.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330456/Astonic-Mart/Products/welding%20accessories/mig_welding_wire_1.2mm.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330456/Astonic-Mart/Products/welding%20accessories/mig_welding_wire_1.2mm.jpg-2.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330456/Astonic-Mart/Products/welding%20accessories/mig_welding_wire_1.2mm.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330456/Astonic-Mart/Products/welding%20accessories/mig_welding_wire_1.2mm.jpg-4.jpg'
         ],
 
         videos: [],
@@ -1839,11 +1814,11 @@ Accessories
         discountPrice: 85000,
 
         images: [
-            'assets/img/air compressors/ingco auto air comp AAC1408.webp',
-            'assets/img/air compressors/ingco auto air comp AAC1408.webp-2.png',
-            'assets/img/air compressors/ingco auto air comp AAC1408-3.webp',
-            'assets/img/air compressors/ingco auto air comp AAC1408.webp-4.jpg',
-            'assets/img/air compressors/ingco auto air comp AAC1408.webp-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274120/Astonic-Mart/Products/air%20compressors/ingco_auto_air_comp_AAC1408.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274132/Astonic-Mart/Products/air%20compressors/ingco_auto_air_comp_AAC1408.webp-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274117/Astonic-Mart/Products/air%20compressors/ingco_auto_air_comp_AAC1408-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274134/Astonic-Mart/Products/air%20compressors/ingco_auto_air_comp_AAC1408.webp-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274135/Astonic-Mart/Products/air%20compressors/ingco_auto_air_comp_AAC1408.webp-5.webp'
 
         ],
 
@@ -1921,10 +1896,10 @@ Accessories
         discountPrice: 165000,
 
         images: [
-            'assets/img/generators/TOTAL GASOLINE GENERATOR 800W (TP18001).jpg',
-            'assets/img/generators/TOTAL GASOLINE GENERATOR 800W (TP18001)-4.jpg',
-            'assets/img/generators/TOTAL GASOLINE GENERATOR 800W (TP18001)-3.jpg',
-            'assets/img/generators/TOTAL GASOLINE GENERATOR 800W (TP18001)-2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307316/Astonic-Mart/Products/generators/TOTAL_GASOLINE_GENERATOR_800W_TP18001.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307321/Astonic-Mart/Products/generators/TOTAL_GASOLINE_GENERATOR_800W_TP18001-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307320/Astonic-Mart/Products/generators/TOTAL_GASOLINE_GENERATOR_800W_TP18001-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307317/Astonic-Mart/Products/generators/TOTAL_GASOLINE_GENERATOR_800W_TP18001-2.webp'
         ],
 
         videos: [
@@ -2008,11 +1983,11 @@ Accessories
         discountPrice: 370000,
 
         images: [
-            'assets/img/generators/ingco GE30005 - Gasoline generator.jpg',
-            'assets/img/generators/ingco GE30005 - Gasoline generator-2.jpg',
-            'assets/img/generators/ingco GE30005 - Gasoline generator-5.jpg',
-            'assets/img/generators/ingco GE30005 - Gasoline generator-4.jpg',
-            'assets/img/generators/ingco GE30005 - Gasoline generator-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307190/Astonic-Mart/Products/generators/ingco_GE30005_-_Gasoline_generator.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307194/Astonic-Mart/Products/generators/ingco_GE30005_-_Gasoline_generator-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307197/Astonic-Mart/Products/generators/ingco_GE30005_-_Gasoline_generator-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307196/Astonic-Mart/Products/generators/ingco_GE30005_-_Gasoline_generator-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307195/Astonic-Mart/Products/generators/ingco_GE30005_-_Gasoline_generator-3.jpg',
         ],
 
         videos: [
@@ -2096,11 +2071,11 @@ Accessories
         discountPrice: 1500000,
 
         images: [
-            'assets/img/generators/TOTAL SILENT DIESEL GENERATOR 5.000W (TP250003).jpg',
-            'assets/img/generators/TOTAL SILENT DIESEL GENERATOR 5.000W (TP250003).jpg-2.webp',
-            'assets/img/generators/TOTAL SILENT DIESEL GENERATOR 5.000W (TP250003).jpg-3.webp',
-            'assets/img/generators/TOTAL SILENT DIESEL GENERATOR 5.000W (TP250003).jpg-4.webp',
-            'assets/img/generators/TOTAL SILENT DIESEL GENERATOR 5.000W (TP250003).jpg-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307331/Astonic-Mart/Products/generators/TOTAL_SILENT_DIESEL_GENERATOR_5.000W_TP250003.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307331/Astonic-Mart/Products/generators/TOTAL_SILENT_DIESEL_GENERATOR_5.000W_TP250003.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307331/Astonic-Mart/Products/generators/TOTAL_SILENT_DIESEL_GENERATOR_5.000W_TP250003.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307331/Astonic-Mart/Products/generators/TOTAL_SILENT_DIESEL_GENERATOR_5.000W_TP250003.jpg-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307331/Astonic-Mart/Products/generators/TOTAL_SILENT_DIESEL_GENERATOR_5.000W_TP250003.jpg-5.webp'
         ],
 
         videos: [],
@@ -2190,11 +2165,11 @@ Accessories
         discountPrice: 380000,
 
         images: [
-            'assets/img/generators/INGCO Gasoline Generator 3.5kW-5.jpg',
-            'assets/img/generators/INGCO Gasoline Generator 3.5kW-3.jpg',
-            'assets/img/generators/INGCO Gasoline Generator 3.5kW-4.webp',
-            'assets/img/generators/INGCO Gasoline Generator 3.5kW-2.jpg',
-            'assets/img/generators/INGCO Gasoline Generator 3.5kW.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307189/Astonic-Mart/Products/generators/INGCO_Gasoline_Generator_3.5kW-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307187/Astonic-Mart/Products/generators/INGCO_Gasoline_Generator_3.5kW-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307188/Astonic-Mart/Products/generators/INGCO_Gasoline_Generator_3.5kW-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307186/Astonic-Mart/Products/generators/INGCO_Gasoline_Generator_3.5kW-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307185/Astonic-Mart/Products/generators/INGCO_Gasoline_Generator_3.5kW.webp'
         ],
 
         videos: [
@@ -2278,10 +2253,10 @@ Accessories
         discountPrice: 370000,
 
         images: [
-            'assets/img/generators/TOTAL Gasoline Generator 3000W manual.jpg',
-            'assets/img/generators/TOTAL Gasoline Generator 3000W manual.jpg-2.jpeg',
-            'assets/img/generators/TOTAL Gasoline Generator 3000W manual.jpg-3.jpg',
-            'assets/img/generators/TOTAL Gasoline Generator 3000W manual.jpg-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307287/Astonic-Mart/Products/generators/TOTAL_Gasoline_Generator_3000W_manual.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307288/Astonic-Mart/Products/generators/TOTAL_Gasoline_Generator_3000W_manual.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307290/Astonic-Mart/Products/generators/TOTAL_Gasoline_Generator_3000W_manual.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307291/Astonic-Mart/Products/generators/TOTAL_Gasoline_Generator_3000W_manual.jpg-4.webp'
         ],
 
         videos: [
@@ -2365,13 +2340,13 @@ Accessories
         discountPrice: 450000,
 
         images: [
-            'assets/img/generators/TOTAL 3500W manual start gen.jpg',
-            'assets/img/generators/TOTAL 3500W manual start gen.jpg-2.jpg',
-            'assets/img/generators/TOTAL 3500W manual start gen.jpg-3.jpg',
-            'assets/img/generators/TOTAL 3500W manual start gen.jpg-4.jpg',
-            'assets/img/generators/TOTAL 3500W manual start gen.jpg-5.jpg',
-            'assets/img/generators/TOTAL 3500W manual start gen.jpg-6.jpg',
-            'assets/img/generators/TOTAL 3500W manual start gen.jpg-7.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307263/Astonic-Mart/Products/generators/TOTAL_3500W_manual_start_gen.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307263/Astonic-Mart/Products/generators/TOTAL_3500W_manual_start_gen.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307263/Astonic-Mart/Products/generators/TOTAL_3500W_manual_start_gen.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307263/Astonic-Mart/Products/generators/TOTAL_3500W_manual_start_gen.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307263/Astonic-Mart/Products/generators/TOTAL_3500W_manual_start_gen.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307263/Astonic-Mart/Products/generators/TOTAL_3500W_manual_start_gen.jpg-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307263/Astonic-Mart/Products/generators/TOTAL_3500W_manual_start_gen.jpg-7.webp'
         ],
 
         videos: [],
@@ -2456,10 +2431,10 @@ Accessories
         discountPrice: 480000,
 
         images: [
-            'assets/img/generators/TOTAL Generator 3500W Electric Start.jpg',
-            'assets/img/generators/TOTAL Generator 3500W Electric Start-2.jpeg',
-            'assets/img/generators/TOTAL Generator 3500W Electric Start.jpg-3.webp',
-            'assets/img/generators/TOTAL Generator 3500W Electric Start.jpg-4.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307322/Astonic-Mart/Products/generators/TOTAL_Generator_3500W_Electric_Start.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307329/Astonic-Mart/Products/generators/TOTAL_Generator_3500W_Electric_Start-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307322/Astonic-Mart/Products/generators/TOTAL_Generator_3500W_Electric_Start.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307322/Astonic-Mart/Products/generators/TOTAL_Generator_3500W_Electric_Start.jpg-4.jpeg'
         ],
 
         videos: [],
@@ -2540,8 +2515,8 @@ Accessories
         price: 570000,
 
         images: [
-            'assets/img/welding machines/maxmech cut 60 plasma cutter.jpg',
-            'assets/img/welding machines/maxmech cut 60 plasma cutter.jpg-2.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330629/Astonic-Mart/Products/welding%20machines/maxmech_cut_60_plasma_cutter.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330629/Astonic-Mart/Products/welding%20machines/maxmech_cut_60_plasma_cutter.jpg-2.jpg'
         ],
 
         inStock: true,
@@ -2597,7 +2572,7 @@ Designed for demanding cutting tasks, the CUT-60 provides smooth cuts with minim
         price: 280000,
 
         images: [
-            'assets/img/welding machines/maxmech cut 40 plasma cutter.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330626/Astonic-Mart/Products/welding%20machines/maxmech_cut_40_plasma_cutter.jpg'
         ],
 
         inStock: true,
@@ -2658,9 +2633,9 @@ The machine is lightweight and portable, making it suitable for fabrication shop
         power: '130A',
 
         images: [
-            'assets/img/welding machines/total welding mahine -130a-tw21302-2.webp',
-            'assets/img/welding machines/total welding mahine -130a-tw21302-3.jpeg',
-            'assets/img/welding machines/total welding mahine -130a-tw21302-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330762/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-130a-tw21302-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330770/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-130a-tw21302-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330770/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-130a-tw21302-3.jpg'
 
         ],
 
@@ -2718,9 +2693,9 @@ The TOTAL TW21302 supports MMA (Manual Metal Arc) welding and is compatible with
         power: '160A',
 
         images: [
-            'assets/img/welding machines/total welding mahine -160a-tw21605.jpg',
-            'assets/img/welding machines/total welding mahine -160a-tw21605-3.jpg',
-            'assets/img/welding machines/total welding mahine -160a-tw21605-2.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330766/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-160a-tw21605.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330766/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-160a-tw21605-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330764/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-160a-tw21605-2.avif'
         ],
 
         inStock: true,
@@ -2775,10 +2750,10 @@ The TOTAL TW21605 supports MMA (Manual Metal Arc) welding and is compatible with
         power: '200A',
 
         images: [
-            'assets/img/welding machines/total welding mahine -200a-tw22005.jpg',
-            'assets/img/welding machines/total welding mahine -200a-tw22005-4.jpg',
-            'assets/img/welding machines/total welding mahine -200a-tw22005-3.jpg',
-            'assets/img/welding machines/total welding mahine -200a-tw22005-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330772/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-200a-tw22005.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330775/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-200a-tw22005-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330772/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-200a-tw22005-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330772/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-200a-tw22005-2.jpg'
         ],
 
         inStock: true,
@@ -2835,7 +2810,7 @@ The TOTAL TW22005 supports MMA (Manual Metal Arc) welding and is compatible with
         power: '250A',
 
         images: [
-            'assets/img/welding machines/total welding mahine -250a-tw22505.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330774/Astonic-Mart/Products/welding%20machines/total_welding_mahine_-250a-tw22505.jpg'
         ],
 
         inStock: true,
@@ -2891,11 +2866,11 @@ The TOTAL TW22505 supports MMA (Manual Metal Arc) welding and is compatible with
         power: '400A',
 
         images: [
-            'assets/img/welding machines/maxmech MMA-400T.jpg-2.jpg',
-            'assets/img/welding machines/maxmech MMA-400T.jpg',
-            'assets/img/welding machines/maxmech MMA-400T.jpg-3.webp',
-            'assets/img/welding machines/maxmech MMA-400T.jpg-4.jpg',
-            'assets/img/welding machines/maxmech MMA-400T.jpg-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330632/Astonic-Mart/Products/welding%20machines/maxmech_MMA-400T.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330634/Astonic-Mart/Products/welding%20machines/maxmech_MMA-400T.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330632/Astonic-Mart/Products/welding%20machines/maxmech_MMA-400T.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330634/Astonic-Mart/Products/welding%20machines/maxmech_MMA-400T.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330634/Astonic-Mart/Products/welding%20machines/maxmech_MMA-400T.jpg-5.jpg'
         ],
 
         inStock: true,
@@ -2952,9 +2927,9 @@ The MAXMECH MMA-400T features durable industrial construction with an efficient 
         power: '12V/24V',
 
         images: [
-            'assets/img/battery and battery chargers/maxmech bc-50 battery charger.jpg',
-            'assets/img/battery and battery chargers/maxmech bc-50 battery charger.jpg-2.jpg',
-            'assets/img/battery and battery chargers/maxmech bc-50 battery charger.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304203/Astonic-Mart/Products/battery%20and%20battery%20chargers/maxmech_bc-50_battery_charger.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304203/Astonic-Mart/Products/battery%20and%20battery%20chargers/maxmech_bc-50_battery_charger.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304203/Astonic-Mart/Products/battery%20and%20battery%20chargers/maxmech_bc-50_battery_charger.jpg-3.jpg',
         ],
 
         inStock: true,
@@ -3009,10 +2984,10 @@ Its portable steel body construction with carrying handle makes it convenient fo
         power: '380A',
 
         images: [
-            'assets/img/welding machines/maxmech TIG MMA-400.jpg',
-            'assets/img/welding machines/maxmech TIG MMA-400.jpg-2.jpg',
-            'assets/img/welding machines/maxmech TIG MMA-400.jpg-4.png',
-            'assets/img/welding machines/maxmech TIG MMA-400.jpg-3.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330648/Astonic-Mart/Products/welding%20machines/maxmech_TIG_MMA-400.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330648/Astonic-Mart/Products/welding%20machines/maxmech_TIG_MMA-400.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330648/Astonic-Mart/Products/welding%20machines/maxmech_TIG_MMA-400.jpg-4.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330648/Astonic-Mart/Products/welding%20machines/maxmech_TIG_MMA-400.jpg-3.png'
         ],
 
         inStock: true,
@@ -3070,13 +3045,13 @@ The MAXMECH TIG/MMA-400 features digital preset functions, arc force compensatio
         price: 400000,
         discountPrice: 350000,
         images: [
-            'assets/img/welding accessories/oxygen and acetylene gas cutting kit.webp',
-            'assets/img/welding accessories/oxygen and acetylene gas cutting kit-2.webp',
-            'assets/img/welding accessories/oxygen and acetylene gas cutting kit-3.webp',
-            'assets/img/welding accessories/oxygen and acetylene gas cutting kit-4.webp',
-            'assets/img/welding accessories/oxygen and acetylene gas cutting kit-5.webp',
-            'assets/img/welding accessories/oxygen and acetylene gas cutting kit-6.webp',
-            'assets/img/welding accessories/oxygen and acetylene gas cutting kit-7.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330467/Astonic-Mart/Products/welding%20accessories/oxygen_and_acetylene_gas_cutting_kit.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330467/Astonic-Mart/Products/welding%20accessories/oxygen_and_acetylene_gas_cutting_kit-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330468/Astonic-Mart/Products/welding%20accessories/oxygen_and_acetylene_gas_cutting_kit-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330467/Astonic-Mart/Products/welding%20accessories/oxygen_and_acetylene_gas_cutting_kit-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330470/Astonic-Mart/Products/welding%20accessories/oxygen_and_acetylene_gas_cutting_kit-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330476/Astonic-Mart/Products/welding%20accessories/oxygen_and_acetylene_gas_cutting_kit-6.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330474/Astonic-Mart/Products/welding%20accessories/oxygen_and_acetylene_gas_cutting_kit-7.webp'
         ],
         inStock: true,
         jumiaLink: '',
@@ -3141,7 +3116,7 @@ Portable Oxygen Acetylene Welding and Cutting Kit is a complete gas welding, bra
         discountPrice: 0,
 
         images: [
-            'assets/img/welding machines/duba giant welding machine.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330507/Astonic-Mart/Products/welding%20machines/duba_giant_welding_machine.avif'
         ],
 
         inStock: false,
@@ -3218,9 +3193,9 @@ Portable Oxygen Acetylene Welding and Cutting Kit is a complete gas welding, bra
         discountPrice: 290000,
 
         images: [
-            'assets/img/welding machines/workflex welding machines-mma320-3.png',
-            'assets/img/welding machines/workflex welding machines-mma320.png',
-            'assets/img/welding machines/workflex welding machines-mma320-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330957/Astonic-Mart/Products/welding%20machines/workflex_welding_machines-mma320-3.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330930/Astonic-Mart/Products/welding%20machines/workflex_welding_machines-mma320.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330944/Astonic-Mart/Products/welding%20machines/workflex_welding_machines-mma320-2.png'
         ],
 
         inStock: true,
@@ -3285,8 +3260,8 @@ Portable Oxygen Acetylene Welding and Cutting Kit is a complete gas welding, bra
         discountPrice: 85000,
 
         images: [
-            'assets/img/welding machines/workflex welding machines-mini200.png',
-            'assets/img/welding machines/workflex welding machines-mini200-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330902/Astonic-Mart/Products/welding%20machines/workflex_welding_machines-mini200.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330941/Astonic-Mart/Products/welding%20machines/workflex_welding_machines-mini200-2.png'
         ],
 
         inStock: true,
@@ -3348,15 +3323,15 @@ Portable Oxygen Acetylene Welding and Cutting Kit is a complete gas welding, bra
         discountPrice: 800000,
 
         images: [
-            'assets/img/generators/total gasoline generator 6.5kva TP165006-2.jpg',
-            'assets/img/generators/total gasoline generator 6.5kva TP165006-3.jpg',
-            'assets/img/generators/total gasoline generator 6.5kva TP165006-4.jpg',
-            'assets/img/generators/total gasoline generator 6.5kva TP165006-5.jpg',
-            'assets/img/generators/total gasoline generator 6.5kva TP165006-6.jpg',
-            'assets/img/generators/total gasoline generator 6.5kva TP165006-7.jpg',
-            'assets/img/generators/total gasoline generator 6.5kva TP165006-10.jpg',
-            'assets/img/generators/total gasoline generator 6.5kva TP165006-9.jpg',
-            'assets/img/generators/total gasoline generator 6.5kva TP165006-8.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307295/Astonic-Mart/Products/generators/total_gasoline_generator_6.5kva_TP165006-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307297/Astonic-Mart/Products/generators/total_gasoline_generator_6.5kva_TP165006-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307299/Astonic-Mart/Products/generators/total_gasoline_generator_6.5kva_TP165006-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307300/Astonic-Mart/Products/generators/total_gasoline_generator_6.5kva_TP165006-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307302/Astonic-Mart/Products/generators/total_gasoline_generator_6.5kva_TP165006-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307304/Astonic-Mart/Products/generators/total_gasoline_generator_6.5kva_TP165006-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307292/Astonic-Mart/Products/generators/total_gasoline_generator_6.5kva_TP165006-10.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307312/Astonic-Mart/Products/generators/total_gasoline_generator_6.5kva_TP165006-9.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307310/Astonic-Mart/Products/generators/total_gasoline_generator_6.5kva_TP165006-8.jpg'
         ],
 
         inStock: true,
@@ -3422,12 +3397,12 @@ Portable Oxygen Acetylene Welding and Cutting Kit is a complete gas welding, bra
         discountPrice: 980000,
 
         images: [
-            'assets/img/generators/TOTAL Diesel Generator (TP450001).jpg',
-            'assets/img/generators/TOTAL Diesel Generator (TP450001)-5.jpg',
-            'assets/img/generators/TOTAL Diesel Generator (TP450001)-4.jpg',
-            'assets/img/generators/TOTAL Diesel Generator (TP450001)-3.jpg',
-            'assets/img/generators/TOTAL Diesel Generator (TP450001)-2.jpg',
-            'assets/img/generators/TOTAL Diesel Generator (TP450001)-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307273/Astonic-Mart/Products/generators/TOTAL_Diesel_Generator_TP450001.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307279/Astonic-Mart/Products/generators/TOTAL_Diesel_Generator_TP450001-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307277/Astonic-Mart/Products/generators/TOTAL_Diesel_Generator_TP450001-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307276/Astonic-Mart/Products/generators/TOTAL_Diesel_Generator_TP450001-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307275/Astonic-Mart/Products/generators/TOTAL_Diesel_Generator_TP450001-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307280/Astonic-Mart/Products/generators/TOTAL_Diesel_Generator_TP450001-6.jpg'
         ],
 
         inStock: false,
@@ -3491,11 +3466,11 @@ Portable Oxygen Acetylene Welding and Cutting Kit is a complete gas welding, bra
         price: 63250,
 
         images: [
-            'assets/img/air compressors/double cylinder auto air compressor.jpg',
-            'assets/img/air compressors/double cylinder auto air compressor-2.jpg',
-            'assets/img/air compressors/double cylinder auto air compressor-3.jpg',
-            'assets/img/air compressors/double cylinder auto air compressor-4.jpg',
-            'assets/img/air compressors/double cylinder auto air compressor-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274050/Astonic-Mart/Products/air%20compressors/double_cylinder_auto_air_compressor.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274039/Astonic-Mart/Products/air%20compressors/double_cylinder_auto_air_compressor-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274041/Astonic-Mart/Products/air%20compressors/double_cylinder_auto_air_compressor-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274044/Astonic-Mart/Products/air%20compressors/double_cylinder_auto_air_compressor-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274047/Astonic-Mart/Products/air%20compressors/double_cylinder_auto_air_compressor-5.jpg'
         ],
 
         inStock: true,
@@ -3571,10 +3546,10 @@ User Manual
         price: 6500,
 
         images: [
-            'assets/img/welding accessories/TOTAL ELECTRODE HOLDER 300A.jpg',
-            'assets/img/welding accessories/TOTAL ELECTRODE HOLDER 500A.jpg',
-            'assets/img/welding accessories/TOTAL ELECTRODE HOLDER 800A.jpg',
-            'assets/img/welding accessories/TOTAL ELECTRODE HOLDER 1.000A.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330495/Astonic-Mart/Products/welding%20accessories/TOTAL_ELECTRODE_HOLDER_300A.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330494/Astonic-Mart/Products/welding%20accessories/TOTAL_ELECTRODE_HOLDER_500A.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330497/Astonic-Mart/Products/welding%20accessories/TOTAL_ELECTRODE_HOLDER_800A.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330494/Astonic-Mart/Products/welding%20accessories/TOTAL_ELECTRODE_HOLDER_1.000A.jpg'
         ],
 
         variations: [
@@ -3653,7 +3628,7 @@ Product Label
         price: 380000,
 
         images: [
-            'assets/img/welding machines/workflex arc weld bx1-315.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330870/Astonic-Mart/Products/welding%20machines/workflex_arc_weld_bx1-315.png'
         ],
 
         inStock: true,
@@ -3707,7 +3682,7 @@ Suitable for fabrication and construction work
         price: 420000,
 
         images: [
-            'assets/img/welding machines/workflex arc weld bx1-400.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330867/Astonic-Mart/Products/welding%20machines/workflex_arc_weld_bx1-400.png'
         ],
 
         inStock: true,
@@ -3762,7 +3737,7 @@ Suitable for workshop and site operations
         price: 580000,
 
         images: [
-            'assets/img/welding machines/workflex arc weld bx1-630.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330819/Astonic-Mart/Products/welding%20machines/workflex_arc_weld_bx1-630.png'
         ],
 
         inStock: true,
@@ -3818,7 +3793,7 @@ Long service life and reliable operation
         price: 135000,
 
         images: [
-            'assets/img/welding machines/workflex arc weld bx6-250a.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330853/Astonic-Mart/Products/welding%20machines/workflex_arc_weld_bx6-250a.png'
         ],
 
         inStock: true,
@@ -3872,8 +3847,8 @@ Low maintenance operation
         price: 155000,
 
         images: [
-            'assets/img/welding machines/workflex arc weld bx6-300.png',
-            'assets/img/welding machines/workflex arc weld bx6-300-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330832/Astonic-Mart/Products/welding%20machines/workflex_arc_weld_bx6-300.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330904/Astonic-Mart/Products/welding%20machines/workflex_arc_weld_bx6-300-2.png'
         ],
 
         inStock: true,
@@ -3934,10 +3909,10 @@ Durable steel housing
         capacity: '300A Welding Output',
 
         images: [
-            'assets/img/generators/Maxmech wg-380ei welding generator-1.png',
-            'assets/img/generators/Maxmech wg-380ei welding generator-2.jpg',
-            'assets/img/generators/Maxmech wg-380ei welding generator-3.jpg',
-            'assets/img/generators/Maxmech wg-380ei welding generator.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307210/Astonic-Mart/Products/generators/Maxmech_wg-380ei_welding_generator-1.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307212/Astonic-Mart/Products/generators/Maxmech_wg-380ei_welding_generator-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307214/Astonic-Mart/Products/generators/Maxmech_wg-380ei_welding_generator-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307199/Astonic-Mart/Products/generators/Maxmech_wg-380ei_welding_generator.jpg'
         ],
 
         inStock: true,
@@ -3999,11 +3974,11 @@ Ideal for workshop and field applications
         price: 9500,
 
         images: [
-            'assets/img/welding accessories/10 by 25 male & female cable connector.jpg',
-            'assets/img/welding accessories/10 by 25 male & female cable connector-2.jpg',
-            'assets/img/welding accessories/10 by 25 male & female cable connector-3.jpg',
-            'assets/img/welding accessories/10 by 25 male & female cable connector-4.jpg',
-            'assets/img/welding accessories/10 by 25 male & female cable connector-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331748/Astonic-Mart/Products/welding%20accessories/10_by_25_male_and_female_cable_connector.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331748/Astonic-Mart/Products/welding%20accessories/10_by_25_male_and_female_cable_connector-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331748/Astonic-Mart/Products/welding%20accessories/10_by_25_male_and_female_cable_connector-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331753/Astonic-Mart/Products/welding%20accessories/10_by_25_male_and_female_cable_connector-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331754/Astonic-Mart/Products/welding%20accessories/10_by_25_male_and_female_cable_connector-5.jpg'
 
         ],
 
@@ -4060,9 +4035,9 @@ Long service life
         discountPrice: 64000,
 
         images: [
-            'assets/img/welding accessories/EL-SECN  MIG MAG Welding Wire.png',
-            'assets/img/welding accessories/EL-SECN  MIG MAG Welding Wire-2.png',
-            'assets/img/welding accessories/EL-SECN  MIG MAG Welding Wire-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330421/Astonic-Mart/Products/welding%20accessories/EL-SECN_MIG_MAG_Welding_Wire.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330411/Astonic-Mart/Products/welding%20accessories/EL-SECN_MIG_MAG_Welding_Wire-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330385/Astonic-Mart/Products/welding%20accessories/EL-SECN_MIG_MAG_Welding_Wire-3.webp'
         ],
 
         variations: [
@@ -4138,8 +4113,8 @@ Reliable welding performance
         discountPrice: 15000,
 
         images: [
-            'assets/img/welding accessories/MAXMECH Flux Cored Welding Wire 1.0mm 1kg.png',
-            'assets/img/welding accessories/MAXMECH Flux Cored Welding Wire 1.0mm 1kg-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330455/Astonic-Mart/Products/welding%20accessories/MAXMECH_Flux_Cored_Welding_Wire_1.0mm_1kg.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330454/Astonic-Mart/Products/welding%20accessories/MAXMECH_Flux_Cored_Welding_Wire_1.0mm_1kg-2.png'
         ],
 
         model: 'E71T-GS',
@@ -4194,8 +4169,8 @@ Reliable welding performance
         discountPrice: 55000,
 
         images: [
-            'assets/img/battery and battery chargers/maxmech bc-370 battery charger..jpg',
-            'assets/img/battery and battery chargers/maxmech bc-370 battery charger-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304199/Astonic-Mart/Products/battery%20and%20battery%20chargers/maxmech_bc-370_battery_charger..jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304202/Astonic-Mart/Products/battery%20and%20battery%20chargers/maxmech_bc-370_battery_charger-2.png'
         ],
 
         model: 'BC370-18I',
@@ -4274,10 +4249,10 @@ Reliable welding performance
         ],
 
         images: [
-            'assets/img/welding accessories/welding cable-2.jpg',
-            'assets/img/welding accessories/welding cable.jpg',
-            'assets/img/welding accessories/welding cable-3.jpg',
-            'assets/img/welding accessories/welding cable-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330497/Astonic-Mart/Products/welding%20accessories/welding_cable-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330497/Astonic-Mart/Products/welding%20accessories/welding_cable.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330499/Astonic-Mart/Products/welding%20accessories/welding_cable-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330499/Astonic-Mart/Products/welding%20accessories/welding_cable-4.webp'
         ],
 
         inStock: true,
@@ -4335,13 +4310,14 @@ Reliable welding performance
         discountPrice: 80000,
 
         images: [
-            'assets/img/air compressors/total auto air compressor 12v 120 psi ttac2506-2.jpg',
-            'assets/img/air compressors/total auto air compressor 12v 120 psi ttac2506.jpeg',
-            'assets/img/air compressors/total auto air compressor 12v 120 psi ttac2506-3.jpg',
-            'assets/img/air compressors/total auto air compressor 12v 120 psi ttac2506-4.jpg',
-            'assets/img/air compressors/total auto air compressor 12v 120 psi ttac2506-5.jpg',
-            'assets/img/air compressors/total auto air compressor 12v 120 psi ttac2506-6.jpg',
-            'assets/img/air compressors/total auto air compressor 12v 120 psi ttac2506-7.jpg'
+        
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786058767/total_auto_air_compressor_12v_120_psi_ttac2506-4_gn6vly.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274273/Astonic-Mart/Products/air%20compressors/total_auto_air_compressor_12v_120_psi_ttac2506.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274265/Astonic-Mart/Products/air%20compressors/total_auto_air_compressor_12v_120_psi_ttac2506-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274266/Astonic-Mart/Products/air%20compressors/total_auto_air_compressor_12v_120_psi_ttac2506-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274267/Astonic-Mart/Products/air%20compressors/total_auto_air_compressor_12v_120_psi_ttac2506-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274269/Astonic-Mart/Products/air%20compressors/total_auto_air_compressor_12v_120_psi_ttac2506-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274270/Astonic-Mart/Products/air%20compressors/total_auto_air_compressor_12v_120_psi_ttac2506-7.jpg'
         ],
 
         inStock: true,
@@ -4404,11 +4380,11 @@ Reliable welding performance
         inStock: true,
 
         images: [
-            'assets/img/air compressors/INGCO AAC1601 Auto Air Compressor-2.jpg',
-            'assets/img/air compressors/INGCO AAC1601 Auto Air Compressor.jpg',
-            'assets/img/air compressors/INGCO AAC1601 Auto Air Compressor-3.jpg',
-            'assets/img/air compressors/INGCO AAC1601 Auto Air Compressor-4.jpeg',
-            'assets/img/air compressors/INGCO AAC1601 Auto Air Compressor-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274104/Astonic-Mart/Products/air%20compressors/INGCO_AAC1601_Auto_Air_Compressor-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274115/Astonic-Mart/Products/air%20compressors/INGCO_AAC1601_Auto_Air_Compressor.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274108/Astonic-Mart/Products/air%20compressors/INGCO_AAC1601_Auto_Air_Compressor-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274109/Astonic-Mart/Products/air%20compressors/INGCO_AAC1601_Auto_Air_Compressor-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274113/Astonic-Mart/Products/air%20compressors/INGCO_AAC1601_Auto_Air_Compressor-5.jpg'
         ],
 
         description: `The INGCO AAC1601 Auto Air Compressor is a portable 12V tire inflator designed for cars, motorcycles, bicycles, sports balls, and inflatable equipment. It features a digital pressure display, automatic shut-off, and a compact design that makes it ideal for emergency roadside use and routine tire maintenance.`,
@@ -4464,7 +4440,7 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'assets/img/welding machines/Powerflex Welder MMA 250ES Welding Machine.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330701/Astonic-Mart/Products/welding%20machines/Powerflex_Welder_MMA_250ES_Welding_Machine.jpg'
         ],
 
         description: `The Powerflex MMA 250ES Waterproof Welding Machine is a compact inverter arc welder designed for fabrication, maintenance, construction, and workshop applications. Built with advanced inverter technology, it delivers stable arc performance, energy efficiency, and reliable welding results while maintaining a lightweight and portable design.`,
@@ -4524,7 +4500,7 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'assets/img/battery and battery chargers/total 2pcs 4a.h battery.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304209/Astonic-Mart/Products/battery%20and%20battery%20chargers/total_2pcs_4a.h_battery.webp'
         ],
 
         description: `
@@ -4575,9 +4551,9 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'assets/img/welding machines/NBC-500 Industrial CO₂ MIG Welding Machine With Wire Feeder.png-1.jpg',
-            'assets/img/welding machines/NBC-500 Industrial CO₂ MIG Welding Machine With Wire Feeder-3.jpg',
-            'assets/img/welding machines/NBC-500 Industrial CO₂ MIG Welding Machine With Wire Feeder.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331630/Astonic-Mart/Products/welding%20machines/NBC-500_Industrial_CO%E2%82%82_MIG_Welding_Machine_With_Wire_Feeder.png-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331630/Astonic-Mart/Products/welding%20machines/NBC-500_Industrial_CO%E2%82%82_MIG_Welding_Machine_With_Wire_Feeder-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331648/Astonic-Mart/Products/welding%20machines/NBC-500_Industrial_CO%E2%82%82_MIG_Welding_Machine_With_Wire_Feeder.png'
         ],
 
         description: 'The NBC-500 Industrial CO₂/MIG Welding Machine is a heavy-duty inverter welding system designed for continuous industrial welding operations. Equipped with a separate wire feeder, it delivers stable arc performance, high deposition rates, deep penetration, and excellent welding quality for fabrication, construction, shipbuilding, and steel structure applications.',
@@ -4636,7 +4612,7 @@ Reliable Three-Phase Operation
         discountPrice: 220000,
 
         images: [
-            'assets/img/battery and battery chargers/delflex plus battery charger cd630.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304176/Astonic-Mart/Products/battery%20and%20battery%20chargers/delflex_plus_battery_charger_cd630.png',
 
         ],
 
@@ -4702,7 +4678,7 @@ Accessories Included:
         discountPrice: 280000,
 
         images: [
-            'assets/img/battery and battery chargers/delflex plus battery charger cd700.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304181/Astonic-Mart/Products/battery%20and%20battery%20chargers/delflex_plus_battery_charger_cd700.png',
 
         ],
 
@@ -4778,9 +4754,9 @@ Accessories Included:
         discountPrice: 40000,
 
         images: [
-            'assets/img/welding accessories/Nakata Oxygen Regulator.png',
-            'assets/img/welding accessories/Nakata Oxygen Regulator-2.jpg',
-            'assets/img/welding accessories/Nakata Oxygen Regulator-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330463/Astonic-Mart/Products/welding%20accessories/Nakata_Oxygen_Regulator.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330460/Astonic-Mart/Products/welding%20accessories/Nakata_Oxygen_Regulator-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330462/Astonic-Mart/Products/welding%20accessories/Nakata_Oxygen_Regulator-3.webp'
         ],
 
         description: 'The Nakata Oxygen Regulator is a heavy-duty gas control device designed for precise regulation of oxygen flow and pressure in welding, cutting and industrial gas applications. It features a durable brass body, dual pressure gauges and a reliable adjustment system for safe and accurate gas delivery.',
@@ -4838,9 +4814,9 @@ User Manual
         discountPrice: 40000,
 
         images: [
-            'assets/img/welding accessories/Nakata Acetylene Regulator-1.jpg',
-            'assets/img/welding accessories/Nakata Acetylene Regulator-2.webp',
-            'assets/img/welding accessories/Nakata Acetylene Regulator-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330457/Astonic-Mart/Products/welding%20accessories/Nakata_Acetylene_Regulator-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330462/Astonic-Mart/Products/welding%20accessories/Nakata_Acetylene_Regulator-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330460/Astonic-Mart/Products/welding%20accessories/Nakata_Acetylene_Regulator-3.jpg'
         ],
 
         description: 'The Nakata Acetylene Regulator is a heavy-duty gas pressure regulator designed for safe and precise control of acetylene gas during welding, brazing, heating and cutting operations. It features a rugged brass construction, dual pressure gauges and an easy-adjust control handle for reliable performance in industrial and workshop environments.',
@@ -4901,13 +4877,13 @@ User Manual
 
 
         images: [
-            'assets/img/soldering tools/INGCO SI00108 Electric Soldering Iron.jpeg',
-            'assets/img/soldering tools/INGCO SI00108 Electric Soldering Iron-2.webp',
-            'assets/img/soldering tools/INGCO SI00108 Electric Soldering Iron-4.webp',
-            'assets/img/soldering tools/INGCO SI00108 Electric Soldering Iron-3.webp',
-            'assets/img/soldering tools/INGCO SI00108 Electric Soldering Iron-5.jpg',
-            'assets/img/soldering tools/INGCO SI00108 Electric Soldering Iron-6.jpg',
-            'assets/img/soldering tools/INGCO SI0268 Electric Soldering Iron-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329289/Astonic-Mart/Products/soldering%20tools/INGCO_SI00108_Electric_Soldering_Iron.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329292/Astonic-Mart/Products/soldering%20tools/INGCO_SI00108_Electric_Soldering_Iron-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329289/Astonic-Mart/Products/soldering%20tools/INGCO_SI00108_Electric_Soldering_Iron-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329289/Astonic-Mart/Products/soldering%20tools/INGCO_SI00108_Electric_Soldering_Iron-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329289/Astonic-Mart/Products/soldering%20tools/INGCO_SI00108_Electric_Soldering_Iron-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329294/Astonic-Mart/Products/soldering%20tools/INGCO_SI00108_Electric_Soldering_Iron-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329299/Astonic-Mart/Products/soldering%20tools/INGCO_SI0268_Electric_Soldering_Iron-7.jpg'
         ],
 
         description: 'The INGCO SI00108 Electric Soldering Iron is a professional-grade soldering tool designed for electrical maintenance, electronic assembly, PCB repairs, cable connections and general workshop applications. It features a fast-heating element, durable replaceable tip and ergonomic insulated handle for safe and efficient operation.',
@@ -4964,13 +4940,13 @@ User Manual
 
 
         images: [
-            'assets/img/soldering tools/INGCO SI0268 Electric Soldering Iron.jpeg',
-            'assets/img/soldering tools/INGCO SI0268 Electric Soldering Iron-2.jpg',
-            'assets/img/soldering tools/INGCO SI0268 Electric Soldering Iron-3.jpg',
-            'assets/img/soldering tools/INGCO SI0268 Electric Soldering Iron-4.jpg',
-            'assets/img/soldering tools/INGCO SI0268 Electric Soldering Iron-5.jpg',
-            'assets/img/soldering tools/INGCO SI0268 Electric Soldering Iron-6.jpg',
-            'assets/img/soldering tools/INGCO SI0268 Electric Soldering Iron-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329294/Astonic-Mart/Products/soldering%20tools/INGCO_SI0268_Electric_Soldering_Iron.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329294/Astonic-Mart/Products/soldering%20tools/INGCO_SI0268_Electric_Soldering_Iron-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329294/Astonic-Mart/Products/soldering%20tools/INGCO_SI0268_Electric_Soldering_Iron-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329294/Astonic-Mart/Products/soldering%20tools/INGCO_SI0268_Electric_Soldering_Iron-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329297/Astonic-Mart/Products/soldering%20tools/INGCO_SI0268_Electric_Soldering_Iron-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329297/Astonic-Mart/Products/soldering%20tools/INGCO_SI0268_Electric_Soldering_Iron-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329299/Astonic-Mart/Products/soldering%20tools/INGCO_SI0268_Electric_Soldering_Iron-7.jpg'
         ],
 
         description: 'The INGCO SI0268 Electric Soldering Iron is a compact and reliable soldering tool designed for electronic repairs, electrical maintenance, PCB assembly, cable soldering and DIY applications. It features a durable heating element, fast heat-up performance and a long-life replaceable tip for continuous operation.',
@@ -5027,10 +5003,10 @@ User Manual
         price: 88000,
 
         images: [
-            'assets/img/battery and battery chargers/TOTAL Battery Charger 12 24V (TBC1601).jpg',
-            'assets/img/battery and battery chargers/TOTAL Battery Charger 12 24V (TBC1601)-2.jpeg',
-            'assets/img/battery and battery chargers/TOTAL Battery Charger 12 24V (TBC1601)-3.jpeg',
-            'assets/img/battery and battery chargers/TOTAL Battery Charger 12 24V (TBC1601)-4.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304211/Astonic-Mart/Products/battery%20and%20battery%20chargers/TOTAL_Battery_Charger_12_24V_TBC1601.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304212/Astonic-Mart/Products/battery%20and%20battery%20chargers/TOTAL_Battery_Charger_12_24V_TBC1601-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304213/Astonic-Mart/Products/battery%20and%20battery%20chargers/TOTAL_Battery_Charger_12_24V_TBC1601-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304214/Astonic-Mart/Products/battery%20and%20battery%20chargers/TOTAL_Battery_Charger_12_24V_TBC1601-4.jpg'
         ],
 
         description: 'The TOTAL TBC1601 Battery Charger is a professional 12V/24V automotive battery charger designed for charging lead-acid batteries used in cars, trucks, motorcycles, generators and other vehicles. It features overload protection, durable metal housing and efficient charging performance for workshops, garages and industrial applications.',
@@ -5101,10 +5077,10 @@ User Manual
         price: 90000,
 
         images: [
-            'assets/img/battery and battery chargers/Bosch GBA 18V Battery-1.jpg',
-            'assets/img/battery and battery chargers/Bosch GBA 18V Battery-2.jpg',
-            'assets/img/battery and battery chargers/Bosch GBA 18V Battery-3.jpg',
-            'assets/img/battery and battery chargers/Bosch GBA 18V Battery-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304167/Astonic-Mart/Products/battery%20and%20battery%20chargers/Bosch_GBA_18V_Battery-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304168/Astonic-Mart/Products/battery%20and%20battery%20chargers/Bosch_GBA_18V_Battery-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304170/Astonic-Mart/Products/battery%20and%20battery%20chargers/Bosch_GBA_18V_Battery-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304171/Astonic-Mart/Products/battery%20and%20battery%20chargers/Bosch_GBA_18V_Battery-4.jpg'
         ],
 
         inStock: true,
@@ -5154,11 +5130,11 @@ User Manual
         discountPrice: 395000,
 
         images: [
-            'assets/img/battery and battery chargers/INGCO ING-CB70035 Industrial Battery Charger-1.webp',
-            'assets/img/battery and battery chargers/INGCO ING-CB70035 Industrial Battery Charger-2.jpg',
-            'assets/img/battery and battery chargers/INGCO ING-CB70035 Industrial Battery Charger-3.jpg',
-            'assets/img/battery and battery chargers/INGCO ING-CB70035 Industrial Battery Charger-4.webp',
-            'assets/img/battery and battery chargers/INGCO ING-CB70035 Industrial Battery Charger-5.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304187/Astonic-Mart/Products/battery%20and%20battery%20chargers/INGCO_ING-CB70035_Industrial_Battery_Charger-1.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304190/Astonic-Mart/Products/battery%20and%20battery%20chargers/INGCO_ING-CB70035_Industrial_Battery_Charger-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304191/Astonic-Mart/Products/battery%20and%20battery%20chargers/INGCO_ING-CB70035_Industrial_Battery_Charger-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304192/Astonic-Mart/Products/battery%20and%20battery%20chargers/INGCO_ING-CB70035_Industrial_Battery_Charger-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304193/Astonic-Mart/Products/battery%20and%20battery%20chargers/INGCO_ING-CB70035_Industrial_Battery_Charger-5.jpg',
         ],
 
         description:
@@ -5213,9 +5189,11 @@ User Manual
         discountPrice: 265000,
 
         images: [
-            'assets/img/powertools/ingco-ingcd2201-1.webp',
-            'assets/img/powertools/ingco-ingcd2201-2.webp',
-            'assets/img/powertools/ingco-ingcd2201-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429565/Astonic-Mart/Products/remaining-local-images/f5tcswp0qhdv4lod5nnn.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429566/Astonic-Mart/Products/remaining-local-images/uynflcbmaigcb0o6tezt.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429567/Astonic-Mart/Products/remaining-local-images/f9dmnko7gvygt3beqd8x.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429568/Astonic-Mart/Products/remaining-local-images/qqguulphdyurvhmimqys.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429569/Astonic-Mart/Products/remaining-local-images/mvfogqhzs8qhq2nhhgxr.webp'
         ],
 
         description:
@@ -5271,8 +5249,8 @@ User Manual
         discountPrice: 430000,
 
         images: [
-            'assets/img/welding machines/EDON BX1-400-1 AC Arc Welding Machine.png',
-            'assets/img/welding machines/EDON BX1-400-1 AC Arc Welding Machine-2.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330520/Astonic-Mart/Products/welding%20machines/EDON_BX1-400-1_AC_Arc_Welding_Machine.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330521/Astonic-Mart/Products/welding%20machines/EDON_BX1-400-1_AC_Arc_Welding_Machine-2.jpg'
         ],
 
         inStock: true,
@@ -5330,10 +5308,10 @@ User Manual
 
 
         images: [
-            'assets/img/welding accessories/ingco WAH3008 electrode holder-300a.jpeg',
-            'assets/img/welding accessories/ingco WAH5008 electrode holder-500a.jpeg',
-            'assets/img/welding accessories/ingco WAH5008 electrode holder-1000a.jpeg',
-            'assets/img/welding accessories/Ingco Electrode Holder - WAH8008.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330422/Astonic-Mart/Products/welding%20accessories/ingco_WAH3008_electrode_holder-300a.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330423/Astonic-Mart/Products/welding%20accessories/ingco_WAH5008_electrode_holder-500a.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330423/Astonic-Mart/Products/welding%20accessories/ingco_WAH5008_electrode_holder-1000a.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330385/Astonic-Mart/Products/welding%20accessories/Ingco_Electrode_Holder_-_WAH8008.jpg'
         ],
 
 
@@ -5393,7 +5371,7 @@ User Manual
         discountPrice: 370000,
 
         images: [
-            'assets/img/welding machines/EDON DC Inverter TIG MMA Inverter Welding Machine TIG-200.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330536/Astonic-Mart/Products/welding%20machines/EDON_DC_Inverter_TIG_MMA_Inverter_Welding_Machine_TIG-200.jpg',
 
         ],
 
@@ -5464,8 +5442,8 @@ User Manual
         discountPrice: 450000,
 
         images: [
-            'assets/img/welding machines/edon tig 250 welding machine.jpeg',
-            'assets/img/welding machines/edon tig 250 welding machine-2.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330622/Astonic-Mart/Products/welding%20machines/edon_tig_250_welding_machine.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330622/Astonic-Mart/Products/welding%20machines/edon_tig_250_welding_machine-2.jpg'
         ],
 
         inStock: true,
@@ -5535,7 +5513,7 @@ User Manual
         discountPrice: 380000,
 
         images: [
-            'assets/img/welding accessories/Portable Oxy-Acetylene Gas Welding and Cutting Kit.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330490/Astonic-Mart/Products/welding%20accessories/Portable_Oxy-Acetylene_Gas_Welding_and_Cutting_Kit.png',
 
         ],
 
@@ -5593,7 +5571,7 @@ User Manual
         price: 19000,
 
         images: [
-            'assets/img/battery and battery chargers/maxmech batteries.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304198/Astonic-Mart/Products/battery%20and%20battery%20chargers/maxmech_batteries.png'
         ],
 
         inStock: true,
@@ -5647,7 +5625,7 @@ Ideal for professionals, technicians, workshop users, and DIY enthusiasts, this 
         brand: 'Dahua',
         price: 4500,
         images: [
-            'assets/img/welding accessories/800A Earth Clamp for Welding Machine.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330380/Astonic-Mart/Products/welding%20accessories/800A_Earth_Clamp_for_Welding_Machine.jpg'
         ],
         variations: [
             { size: '300A', price: 4500, inStock: true },
@@ -5699,10 +5677,10 @@ Ideal for professionals, technicians, workshop users, and DIY enthusiasts, this 
         price: 900000,
         showSimilar: true,
         images: [
-            'assets/img/welding machines/EDON TIG-400 IGBT Inverter Welding Machine-1.avif',
-            'assets/img/welding machines/EDON TIG-400 IGBT Inverter Welding Machine-2.jpeg',
-            'assets/img/welding machines/EDON TIG-400 IGBT Inverter Welding Machine-3.jpeg',
-            'assets/img/welding machines/EDON TIG-400 IGBT Inverter Welding Machine.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330625/Astonic-Mart/Products/welding%20machines/EDON_TIG-400_IGBT_Inverter_Welding_Machine-1.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330627/Astonic-Mart/Products/welding%20machines/EDON_TIG-400_IGBT_Inverter_Welding_Machine-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330626/Astonic-Mart/Products/welding%20machines/EDON_TIG-400_IGBT_Inverter_Welding_Machine-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330622/Astonic-Mart/Products/welding%20machines/EDON_TIG-400_IGBT_Inverter_Welding_Machine.jpg'
         ],
 
         inStock: true,
@@ -5769,7 +5747,16 @@ Ideal for professionals, technicians, workshop users, and DIY enthusiasts, this 
 
 
         images: [
-            'assets/img/power tools/Digital Inverter ARC Welding Machine 200A.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429570/Astonic-Mart/Products/remaining-local-images/h7u4ipq1dp9rkysfd3x8.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429572/Astonic-Mart/Products/remaining-local-images/wjqldrjrc9m5n2cb0ajl.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429573/Astonic-Mart/Products/remaining-local-images/xkfktcc9dojb4gndlvbx.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429574/Astonic-Mart/Products/remaining-local-images/cu5ekjahbyokfpgim8mz.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429577/Astonic-Mart/Products/remaining-local-images/wpyi3cpeaq2ngsaop9ya.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429578/Astonic-Mart/Products/remaining-local-images/uaz1h45eazoo27cgmeki.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429579/Astonic-Mart/Products/remaining-local-images/rdiecwjmgfszhin9vbuo.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429580/Astonic-Mart/Products/remaining-local-images/sxczjrl3fkffjylrppou.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429581/Astonic-Mart/Products/remaining-local-images/oucvarlmrkz5rn7shxmb.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429582/Astonic-Mart/Products/remaining-local-images/kxyxr3pz5n7rdc6estot.jpg'
         ],
 
         videos: [],
@@ -5825,12 +5812,12 @@ Ideal for professionals, technicians, workshop users, and DIY enthusiasts, this 
         showSimilar: true,
 
         images: [
-            'assets/img/jumper starters/Portable Car Jump Starter & Air Compressor - Yellow - 4 In 1 - 12v.jpg',
-            'assets/img/jumper starters/Portable Car Jump Starter & Air Compressor - Yellow - 4 In 1 - 12v-2.jpg',
-            'assets/img/jumper starters/Portable Car Jump Starter & Air Compressor - Yellow - 4 In 1 - 12v-3.jpg',
-            'assets/img/jumper starters/Portable Car Jump Starter & Air Compressor - Yellow - 4 In 1 - 12v-4.jpg',
-            'assets/img/jumper starters/Portable Car Jump Starter & Air Compressor - Yellow - 4 In 1 - 12v-5.jpg',
-            'assets/img/jumper starters/Portable Car Jump Starter & Air Compressor - Yellow - 4 In 1 - 12v-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331754/Astonic-Mart/Products/jumper%20starters/Portable_Car_Jump_Starter_and_Air_Compressor_-_Yellow_-_4_In_1_-_12v.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331754/Astonic-Mart/Products/jumper%20starters/Portable_Car_Jump_Starter_and_Air_Compressor_-_Yellow_-_4_In_1_-_12v-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331754/Astonic-Mart/Products/jumper%20starters/Portable_Car_Jump_Starter_and_Air_Compressor_-_Yellow_-_4_In_1_-_12v-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331756/Astonic-Mart/Products/jumper%20starters/Portable_Car_Jump_Starter_and_Air_Compressor_-_Yellow_-_4_In_1_-_12v-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331757/Astonic-Mart/Products/jumper%20starters/Portable_Car_Jump_Starter_and_Air_Compressor_-_Yellow_-_4_In_1_-_12v-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331761/Astonic-Mart/Products/jumper%20starters/Portable_Car_Jump_Starter_and_Air_Compressor_-_Yellow_-_4_In_1_-_12v-6.jpg'
         ],
 
         inStock: true,
@@ -5890,7 +5877,7 @@ Easy-to-carry housing with ergonomic handle
   showSimilar: true,
 
   images: [
-    'assets/img/jumper starters/jumper starter with power bank.jpg'
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786308540/Astonic-Mart/Products/jumper%20starters/jumper_starter_with_power_bank.jpg'
   ],
 
   inStock: true,
@@ -5954,9 +5941,9 @@ Ideal for roadside emergencies, travel, workshops, and everyday vehicle use
         showSimilar: true,
 
         images: [
-            'assets/img/soldering tools/INGCO CSILI2001 Cordless Soldering Iron-1.webp',
-            'assets/img/soldering tools/INGCO CSILI2001 Cordless Soldering Iron-2.jpg',
-            'assets/img/soldering tools/INGCO CSILI2001 Cordless Soldering Iron.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329285/Astonic-Mart/Products/soldering%20tools/INGCO_CSILI2001_Cordless_Soldering_Iron-1.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329285/Astonic-Mart/Products/soldering%20tools/INGCO_CSILI2001_Cordless_Soldering_Iron-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329285/Astonic-Mart/Products/soldering%20tools/INGCO_CSILI2001_Cordless_Soldering_Iron.jpg'
         ],
 
         inStock: true,
@@ -6014,9 +6001,9 @@ Easy tip replacement and maintenance
         showSimilar: true,
 
         images: [
-            'assets/img/generators/EDON PROMAX EPM-AXQ-160A Gasoline Welding Generator.png',
-            'assets/img/generators/EDON PROMAX EPM-AXQ-160A Gasoline Welding Generator-2.png',
-            'assets/img/generators/EDON PROMAX EPM-AXQ-160A Gasoline Welding Generator-3.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307173/Astonic-Mart/Products/generators/EDON_PROMAX_EPM-AXQ-160A_Gasoline_Welding_Generator.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307176/Astonic-Mart/Products/generators/EDON_PROMAX_EPM-AXQ-160A_Gasoline_Welding_Generator-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307183/Astonic-Mart/Products/generators/EDON_PROMAX_EPM-AXQ-160A_Gasoline_Welding_Generator-3.png'
         ],
 
         inStock: true,
@@ -6084,10 +6071,10 @@ Low maintenance and fuel-efficient operation
         showSimilar: true,
 
         images: [
-            'assets/img/generators/TOTAL DIESEL GENERATOR AND WELDER 4600W (TP446001).jpg',
-            'assets/img/generators/TOTAL DIESEL GENERATOR AND WELDER 4600W (TP446001)-2.jpeg',
-            'assets/img/generators/TOTAL DIESEL GENERATOR AND WELDER 4600W (TP446001)-3.jpeg',
-            'assets/img/generators/TOTAL DIESEL GENERATOR AND WELDER 4600W (TP446001)-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307281/Astonic-Mart/Products/generators/TOTAL_DIESEL_GENERATOR_AND_WELDER_4600W_TP446001.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307282/Astonic-Mart/Products/generators/TOTAL_DIESEL_GENERATOR_AND_WELDER_4600W_TP446001-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307283/Astonic-Mart/Products/generators/TOTAL_DIESEL_GENERATOR_AND_WELDER_4600W_TP446001-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307285/Astonic-Mart/Products/generators/TOTAL_DIESEL_GENERATOR_AND_WELDER_4600W_TP446001-4.jpg'
         ],
 
         inStock: true,

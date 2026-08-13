@@ -13,9 +13,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 400000, // adjust based on your market price (commonly Γéª220,000 - Γéª380,000 in Nigeria with 6m hose)
 
         images: [
-            'assets/img/poker vibrator and plate compactor/Poker Vibrator Machine Robin Engine Gasoline.webp',
-            'assets/img/tools/robin-5hp-poker-vibrator-2.jpg',
-            'assets/img/tools/robin-5hp-poker-vibrator-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310116/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Poker_Vibrator_Machine_Robin_Engine_Gasoline.webp',
         ],
 
         inStock: true,
@@ -67,9 +65,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 1850000, // adjust based on your market price (commonly Γéª1,200,000 - Γéª2,500,000 in Nigeria for 500L 4-wheel diesel models)
 
         images: [
-            'assets/img/concrete mixers and rammers/concrete-mixers-500l.webp',
-            'assets/img/tools/500l-4-wheel-concrete-mixer-2.jpg',
-            'assets/img/tools/500l-4-wheel-concrete-mixer-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305599/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/concrete-mixers-500l.webp',
         ],
 
         inStock: true,
@@ -120,9 +116,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 320000, // adjust based on your market price (commonly Γéª250,000 - Γéª420,000 in Nigeria for 90kg model)
 
         images: [
-            'assets/img/poker vibrator and plate compactor/Robin Engine Ey15 Ey20 Excavator Viber Plate Compactor.webp',
-            'assets/img/tools/robin-ey20-c90-plate-compactor-2.jpg',
-            'assets/img/tools/robin-ey20-c90-plate-compactor-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310118/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Robin_Engine_Ey15_Ey20_Excavator_Viber_Plate_Compactor.webp',
         ],
 
         inStock: true,
@@ -174,7 +168,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 285000, // adjust based on your market price (commonly Γéª220,000 - Γéª380,000 in Nigeria)
 
         images: [
-            'assets/img/concrete mixers and rammers/TOTAL GASOLINE TAMPING RAMMER 196cc  6.5HP TP880-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305607/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/TOTAL_GASOLINE_TAMPING_RAMMER_196cc_6.5HP_TP880-2.jpg',
 
         ],
 
@@ -226,10 +220,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         brand: 'INGCO',
         price: 45000, // adjust based on your market price (commonly Γéª35,000 - Γéª65,000 in Nigeria)
 
-        images: [
-            'assets/img/wheel barrows and marine ropes/INGCO Industrial Soft Grip Handle Wheelbarrow 90kg.webp',
-       
-        ],
+        images: [],
 
         inStock: true,
         jumiaLink: '',
@@ -278,8 +269,8 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 140000, // adjust based on your market price (commonly Γéª75,000 - Γéª120,000 in Nigeria)
 
         images: [
-            'assets/img/poker vibrator and plate compactor/total vibrator poker 45mm by 6m.jpg',
-            'assets/img/poker vibrator and plate compactor/total vibrator poker 45mm by 6m2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310130/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/total_vibrator_poker_45mm_by_6m.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310132/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/total_vibrator_poker_45mm_by_6m2.jpg',
 
         ],
 
@@ -328,7 +319,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 450000, // adjust based on your market price (commonly Γéª130,000 - Γéª220,000 in Nigeria)
 
         images: [
-            'assets/img/rebar machines/Steel-Rod-Cutting-Machine-40mm.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311458/Astonic-Mart/Products/rebar%20machines/Steel-Rod-Cutting-Machine-40mm.webp',
 
         ],
 
@@ -374,9 +365,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 4020000, // adjust based on your market price (commonly Γéª150,000 - Γéª250,000 in Nigeria)
 
         images: [
-            'src/assets/img/rebar machines/rod benders 50mm.webp',
-            'assets/img/tools/rod-bender-50mm-2.jpg',
-            'assets/img/tools/rod-bender-50mm-3.jpg'
+            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786311457/Astonic-Mart/Products/rebar%20machines/rod_benders_50mm.webp',
         ],
 
         inStock: true,
@@ -424,11 +413,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         brand: 'SGT KNOTS',
         price: 28000, // adjust based on your market (commonly Γéª25,000 - Γéª45,000 in Nigeria depending on import cost)
 
-        images: [
-            'assets/img/wheel barrows and marine ropes/marine manila ropes.jpg',
-            'assets/img/ropes/sgt-knots-promanila-rope-2.jpg',
-            'assets/img/ropes/sgt-knots-promanila-rope-3.jpg'
-        ],
+        images: [],
 
         inStock: true,
         jumiaLink: '',
@@ -474,9 +459,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 950000, // adjust based on your market (commonly Γéª850,000 - Γéª1,200,000 in Nigeria)
 
         images: [
-            'assets/img/power trowel/total power trowels 6,5hp.jpeg',
-            'assets/img/tools/power-trowel-6-5hp-2.jpg',
-            'assets/img/tools/power-trowel-6-5hp-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310509/Astonic-Mart/Products/power%20trowel/total_power_trowels_6%2C5hp.jpg',
         ],
 
         inStock: true,
@@ -523,9 +506,9 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         group: 'construction equipments',
         brand: 'Generic',
         price: 140000,
-        images: ['assets/img/fall arresters/15m-Safety-Rope-Fall-Protection-Equipment-150kg-Capacity-Arrester.webp',
-            'assets/img/fall arresters/15m fall arrester.png',
-            'assets/img/fall arresters/15m fall arrester-2.png'
+        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786306459/Astonic-Mart/Products/fall%20arresters/15m-Safety-Rope-Fall-Protection-Equipment-150kg-Capacity-Arrester.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306452/Astonic-Mart/Products/fall%20arresters/15m_fall_arrester.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306458/Astonic-Mart/Products/fall%20arresters/15m_fall_arrester-2.png'
 
         ],
 
@@ -560,10 +543,8 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         brand: 'Toyo',
         price: 139000, // Current price range on Jumia Nigeria (around Γéª144,000 - Γéª150,000)
         images: [
-            'assets/img/fall arresters/Toyo-6m-retractable-fall-arrestor.jpg',
-            'assets/img/fall arresters/Toyo-3m-retractable-all-arrestor.jpg',
-            'assets/img/tools/toyo-fall-arrestor-6m-2.jpg',
-            'assets/img/tools/toyo-fall-arrestor-6m-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306462/Astonic-Mart/Products/fall%20arresters/Toyo-6m-retractable-fall-arrestor.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306461/Astonic-Mart/Products/fall%20arresters/Toyo-3m-retractable-all-arrestor.jpg',
         ],
         inStock: true,
         jumiaLink: 'https://www.jumia.com.ng/toyo-6m-retractable-fall-arrestor',
@@ -608,7 +589,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         price: 850000,
 
         images: [
-            'assets/img/poker vibrator and plate compactor/desiel plate compactor-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309907/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/desiel_plate_compactor-2.jpg',
 
         ],
 
@@ -659,8 +640,8 @@ Ideal for construction and roadwork applications`
         price: 1200000,
 
         images: [
-            'assets/img/poker vibrator and plate compactor/desiel plate compactor-3.jpg',
-            'assets/img/poker vibrator and plate compactor/desiel plate compactor.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309909/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/desiel_plate_compactor-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309905/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/desiel_plate_compactor.jpg',
 
         ],
 
@@ -713,12 +694,12 @@ Ideal for construction and road maintenance projects`
 
 
         images: [
-            'assets/img/poker vibrator and plate compactor/38mm concrete vibrator hose with dynapac.webp',
-            'assets/img/poker vibrator and plate compactor/38mm concrete vibrator hose with dynapac-8.webp',
-            'assets/img/poker vibrator and plate compactor/38mm concrete vibrator hose with dynapac-5.webp',
-            'assets/img/poker vibrator and plate compactor/38mm concrete vibrator hose with dynapac-2.webp',
-            'assets/img/poker vibrator and plate compactor/38mm concrete vibrator hose with dynapac-3.webp',
-            'assets/img/poker vibrator and plate compactor/38mm concrete vibrator hose with dynapac-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309889/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/38mm_concrete_vibrator_hose_with_dynapac.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309900/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/38mm_concrete_vibrator_hose_with_dynapac-8.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309897/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/38mm_concrete_vibrator_hose_with_dynapac-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309891/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/38mm_concrete_vibrator_hose_with_dynapac-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309894/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/38mm_concrete_vibrator_hose_with_dynapac-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309896/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/38mm_concrete_vibrator_hose_with_dynapac-4.webp',
 
         ],
 
@@ -775,9 +756,9 @@ Ideal for construction and road maintenance projects`
 
 
         images: [
-            'assets/img/poker vibrator and plate compactor/38mm concrete vibrator hose with pin.avif',
-            'assets/img/poker vibrator and plate compactor/38mm concrete vibrator hose with pin-3.jpg',
-            'assets/img/poker vibrator and plate compactor/38mm concrete vibrator hose with pin-2.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309900/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/38mm_concrete_vibrator_hose_with_pin.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309903/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/38mm_concrete_vibrator_hose_with_pin-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309901/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/38mm_concrete_vibrator_hose_with_pin-2.avif'
         ],
 
         inStock: true,
@@ -833,9 +814,9 @@ Ideal for construction and road maintenance projects`
 
 
         images: [
-            'assets/img/poker vibrator and plate compactor/dynapac poker head.avif',
-            'assets/img/poker vibrator and plate compactor/dynapac poker head-2.jpg',
-            'assets/img/poker vibrator and plate compactor/dynapac poker head-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309954/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/dynapac_poker_head.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309957/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/dynapac_poker_head-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309958/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/dynapac_poker_head-3.jpg'
         ],
 
         inStock: true,
@@ -890,11 +871,11 @@ Ideal for construction and road maintenance projects`
         price: 185000,
 
         images: [
-            'assets/img/poker vibrator and plate compactor/KROST PRO  (Cordless Vibrator).jpg',
-            'assets/img/poker vibrator and plate compactor/KROST PRO  (Cordless Vibrator).jpg-3.jpg',
-            'assets/img/poker vibrator and plate compactor/KROST PRO  (Cordless Vibrator).jpg-4.jpg',
-            'assets/img/poker vibrator and plate compactor/KROST PRO  (Cordless Vibrator).jpg-5.jpg',
-            'assets/img/poker vibrator and plate compactor/KROST PRO  (Cordless Vibrator).jpg-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309986/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/KROST_PRO_Cordless_Vibrator.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309986/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/KROST_PRO_Cordless_Vibrator.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309986/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/KROST_PRO_Cordless_Vibrator.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309986/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/KROST_PRO_Cordless_Vibrator.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309986/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/KROST_PRO_Cordless_Vibrator.jpg-2.jpg'
 
         ],
 
@@ -958,7 +939,7 @@ Ideal for construction and road maintenance projects`
         discountPrice: 350000,
 
         images: [
-            'assets/img/poker vibrator and plate compactor/electric poker machine.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309959/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/electric_poker_machine.webp'
         ],
 
         inStock: true,
@@ -1019,11 +1000,11 @@ Ideal for construction and road maintenance projects`
         discountPrice: 170000,
 
         images: [
-            'assets/img/poker vibrator and plate compactor/Total TCVLI2023011 20V Cordless Concrete Vibrator Poker.webp-2.webp',
-            'assets/img/poker vibrator and plate compactor/Total TCVLI2023011 20V Cordless Concrete Vibrator Poker.webp',
-            'assets/img/poker vibrator and plate compactor/Total TCVLI2023011 20V Cordless Concrete Vibrator Poker.webp-3.webp',
-            'assets/img/poker vibrator and plate compactor/Total TCVLI2023011 20V Cordless Concrete Vibrator Poker.webp-4.webp',
-            'assets/img/poker vibrator and plate compactor/Total TCVLI2023011 20V Cordless Concrete Vibrator Poker.webp-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310121/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Total_TCVLI2023011_20V_Cordless_Concrete_Vibrator_Poker.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310121/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Total_TCVLI2023011_20V_Cordless_Concrete_Vibrator_Poker.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310123/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Total_TCVLI2023011_20V_Cordless_Concrete_Vibrator_Poker.webp-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310121/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Total_TCVLI2023011_20V_Cordless_Concrete_Vibrator_Poker.webp-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310121/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Total_TCVLI2023011_20V_Cordless_Concrete_Vibrator_Poker.webp-5.webp'
         ],
 
         inStock: true,
@@ -1084,13 +1065,13 @@ Ideal for construction and road maintenance projects`
         discountPrice: 175000,
 
         images: [
-            'assets/img/poker vibrator and plate compactor/ingco CCVLI202301 - Cordless concrete vibrator.jpg',
-            'assets/img/poker vibrator and plate compactor/ingco CCVLI202301 - Cordless concrete vibrator.jpg-2.webp',
-            'assets/img/poker vibrator and plate compactor/ingco CCVLI202301 - Cordless concrete vibrator.jpg-3.jpg',
-            'assets/img/poker vibrator and plate compactor/ingco CCVLI202301 - Cordless concrete vibrator.jpg-4.jpg',
-            'assets/img/poker vibrator and plate compactor/ingco CCVLI202301 - Cordless concrete vibrator.jpg-5.jpg',
-            'assets/img/poker vibrator and plate compactor/ingco CCVLI202301 - Cordless concrete vibrator.jpg-6.jpg',
-            'assets/img/poker vibrator and plate compactor/ingco CCVLI202301 - Cordless concrete vibrator.jpg-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309973/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ingco_CCVLI202301_-_Cordless_concrete_vibrator.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309974/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ingco_CCVLI202301_-_Cordless_concrete_vibrator.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309976/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ingco_CCVLI202301_-_Cordless_concrete_vibrator.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309977/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ingco_CCVLI202301_-_Cordless_concrete_vibrator.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309973/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ingco_CCVLI202301_-_Cordless_concrete_vibrator.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309973/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ingco_CCVLI202301_-_Cordless_concrete_vibrator.jpg-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309973/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ingco_CCVLI202301_-_Cordless_concrete_vibrator.jpg-7.jpg'
         ],
 
         inStock: true,
@@ -1151,11 +1132,11 @@ Ideal for construction and road maintenance projects`
         power: '5.5HP',
 
         images: [
-            'assets/img/poker vibrator and plate compactor/Honda Concrete Vibrator With Hose.webp',
-            'assets/img/poker vibrator and plate compactor/Honda Concrete Vibrator With Hose-2.webp',
-            'assets/img/poker vibrator and plate compactor/Honda Concrete Vibrator With Hose-3.webp',
-            'assets/img/poker vibrator and plate compactor/Honda Concrete Vibrator With Hose-4.webp',
-            'assets/img/poker vibrator and plate compactor/Honda Concrete Vibrator With Hose-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309962/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Honda_Concrete_Vibrator_With_Hose.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309964/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Honda_Concrete_Vibrator_With_Hose-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309966/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Honda_Concrete_Vibrator_With_Hose-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309970/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Honda_Concrete_Vibrator_With_Hose-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309972/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Honda_Concrete_Vibrator_With_Hose-5.webp'
         ],
 
         inStock: true,
@@ -1215,8 +1196,8 @@ Ideal for professional construction projects
         capacity: '38mm Vibrator Head',
 
         images: [
-            'assets/img/poker vibrator and plate compactor/desiel poker vibrator.png',
-            'assets/img/poker vibrator and plate compactor/desiel poker vibrator-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309928/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/desiel_poker_vibrator.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309951/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/desiel_poker_vibrator-2.png'
         ],
 
         inStock: true,
@@ -1275,8 +1256,7 @@ Ideal for construction and civil engineering projects
         power: '5.0HP',
 
         images: [
-            'assets/img/concrete mixers and rammers/robin engine jumping rammer-2.png',
-            'assets/img/concrete mixers and drum trucks/robin engine jumping rammer.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305606/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/robin_engine_jumping_rammer-2.jpg',
         ],
 
         inStock: true,
@@ -1338,7 +1318,7 @@ Professional-grade performance
         inStock: true,
 
         images: [
-            'assets/img/poker vibrator and plate compactor/total Gasoline reversible plate compactor tp7160-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310120/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/total_Gasoline_reversible_plate_compactor_tp7160-2.jpg'
         ],
 
         description: 'The TOTAL TP7160-2 Gasoline Reversible Plate Compactor is a heavy-duty compaction machine designed for professional construction, roadwork, paving, landscaping, and trench applications. Equipped with a powerful 9HP gasoline engine and a reversible travel system, it provides excellent compaction performance for soil, gravel, sand, crushed stone, and paving blocks. Its forward and reverse operation improves maneuverability and productivity in confined work areas.',
@@ -1432,10 +1412,10 @@ Ideal for professional contractors and road works
         discountPrice: 170000,
 
         images: [
-            'assets/img/poker vibrator and plate compactor/ZW 3HP Concrete Vibrator Motor - Single Phase - Copper Coil.webp',
-            'assets/img/poker vibrator and plate compactor/ZW 3HP Concrete Vibrator Motor - Single Phase - Copper Coil-2.avif',
-            'assets/img/poker vibrator and plate compactor/ZW 3HP Concrete Vibrator Motor - Single Phase -Copper Coil-3.jpg',
-            'assets/img/poker vibrator and plate compactor/ZW 3HP Concrete Vibrator Motor - Single Phase - Copper Coil-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310133/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ZW_3HP_Concrete_Vibrator_Motor_-_Single_Phase_-_Copper_Coil.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310135/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ZW_3HP_Concrete_Vibrator_Motor_-_Single_Phase_-_Copper_Coil-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310138/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ZW_3HP_Concrete_Vibrator_Motor_-_Single_Phase_-Copper_Coil-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310136/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/ZW_3HP_Concrete_Vibrator_Motor_-_Single_Phase_-_Copper_Coil-4.jpg'
         ],
 
         inStock: true,
@@ -1493,8 +1473,8 @@ Ideal for professional contractors and road works
 
         images: [
 
-            'assets/img/concrete mixers and rammers/Total TPS890 3.2kW 4.0HP Gasoline Tamping Rammer-1.jpg',
-            'assets/img/concrete mixers and rammers/Total TPS890 3.2kW 4.0HP Gasoline Tamping Rammer.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305610/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/Total_TPS890_3.2kW_4.0HP_Gasoline_Tamping_Rammer-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305608/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/Total_TPS890_3.2kW_4.0HP_Gasoline_Tamping_Rammer.webp'
         ],
 
         description:
@@ -1559,9 +1539,9 @@ User Manual
         discountPrice: 30000,
 
         images: [
-            'assets/img/testing equipment/150mm Concrete Plastic Cube Mould.avif',
-            'assets/img/testing equipment/150mm Concrete Plastic Cube Mould-2.avif',
-            'assets/img/testing equipment/150mm Concrete Plastic Cube Mould-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329595/Astonic-Mart/Products/testing%20equipment/150mm_Concrete_Plastic_Cube_Mould.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329595/Astonic-Mart/Products/testing%20equipment/150mm_Concrete_Plastic_Cube_Mould-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329595/Astonic-Mart/Products/testing%20equipment/150mm_Concrete_Plastic_Cube_Mould-4.webp'
         ],
 
         description: 'The 150mm Concrete Plastic Cube Mould is a durable testing mould used for preparing concrete specimens for compressive strength testing. Manufactured from high-quality engineering plastic, it provides accurate dimensions, easy demoulding and excellent resistance to corrosion, making it suitable for laboratories, construction sites and quality control applications.',
@@ -1623,11 +1603,11 @@ User Guide
         discountPrice: 59000,
 
         images: [
-            'assets/img/testing equipment/150mm Cast Iron Concrete Cube Mould-1.jpeg',
-            'assets/img/testing equipment/150mm Cast Iron Concrete Cube Mould-2.jpeg',
-            'assets/img/testing equipment/150mm Cast Iron Concrete Cube Mould-3.jpeg',
-            'assets/img/testing equipment/150mm Cast Iron Concrete Cube Mould.jpeg',
-            'assets/img/testing equipment/150mm Cast Iron Concrete Cube Mould-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329593/Astonic-Mart/Products/testing%20equipment/150mm_Cast_Iron_Concrete_Cube_Mould-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329593/Astonic-Mart/Products/testing%20equipment/150mm_Cast_Iron_Concrete_Cube_Mould-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329593/Astonic-Mart/Products/testing%20equipment/150mm_Cast_Iron_Concrete_Cube_Mould-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329593/Astonic-Mart/Products/testing%20equipment/150mm_Cast_Iron_Concrete_Cube_Mould.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329595/Astonic-Mart/Products/testing%20equipment/150mm_Cast_Iron_Concrete_Cube_Mould-4.jpg'
         ],
 
         description: 'The 150mm Cast Iron Concrete Cube Mould is a heavy-duty testing mould designed for preparing concrete specimens for compressive strength testing. Manufactured from high-quality cast iron, it provides exceptional durability, dimensional stability and resistance to deformation, making it ideal for laboratories, construction sites and quality control applications.',
@@ -1689,10 +1669,10 @@ User Guide
         price: 9500000,
 
         images: [
-            'assets/img/rebar machines/GT6-14 Scrap Steel Bar Straightening Machine.webp',
-            'assets/img/rebar machines/GT6-14 Scrap Steel Bar Straightening Machine-2.webp',
-            'assets/img/rebar machines/GT6-14 Scrap Steel Bar Straightening Machine-3.webp',
-            'assets/img/rebar machines/GT6-14 Scrap Steel Bar Straightening Machine-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311450/Astonic-Mart/Products/rebar%20machines/GT6-14_Scrap_Steel_Bar_Straightening_Machine.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311452/Astonic-Mart/Products/rebar%20machines/GT6-14_Scrap_Steel_Bar_Straightening_Machine-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311455/Astonic-Mart/Products/rebar%20machines/GT6-14_Scrap_Steel_Bar_Straightening_Machine-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311456/Astonic-Mart/Products/rebar%20machines/GT6-14_Scrap_Steel_Bar_Straightening_Machine-4.webp'
         ],
 
         description: 'The GT6-14 Scrap Steel Bar Straightening Machine is a heavy-duty construction machine designed for straightening bent, scrap and recycled reinforcing steel bars. It is suitable for processing used rebars, waste steel bars and coiled steel materials for reuse in construction, fabrication and steel processing industries. The machine offers high efficiency, excellent straightening performance and durable operation for continuous industrial applications.',
@@ -1770,11 +1750,11 @@ User Manual
         discountPrice: 320500,
 
         images: [
-            'assets/img/power trowel/Electric Concrete Cement Mortar Trowel Wall Plaster Polishing Machine.webp',
-            'assets/img/power trowel/Electric Concrete Cement Mortar Trowel Wall Plaster Polishing Machine-2.webp',
-            'assets/img/power trowel/Electric Concrete Cement Mortar Trowel Wall Plaster Polishing Machine-3.webp',
-            'assets/img/power trowel/Electric Concrete Cement Mortar Trowel Wall Plaster Polishing Machine-4.webp',
-            'assets/img/power trowel/Electric Concrete Cement Mortar Trowel Wall Plaster Polishing Machine-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310492/Astonic-Mart/Products/power%20trowel/Electric_Concrete_Cement_Mortar_Trowel_Wall_Plaster_Polishing_Machine.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310496/Astonic-Mart/Products/power%20trowel/Electric_Concrete_Cement_Mortar_Trowel_Wall_Plaster_Polishing_Machine-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310500/Astonic-Mart/Products/power%20trowel/Electric_Concrete_Cement_Mortar_Trowel_Wall_Plaster_Polishing_Machine-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310503/Astonic-Mart/Products/power%20trowel/Electric_Concrete_Cement_Mortar_Trowel_Wall_Plaster_Polishing_Machine-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310507/Astonic-Mart/Products/power%20trowel/Electric_Concrete_Cement_Mortar_Trowel_Wall_Plaster_Polishing_Machine-5.webp'
         ],
 
         videos: [],
@@ -1831,7 +1811,7 @@ User Manual
         discountPrice: 8000000,
 
         images: [
-            'assets/img/concrete pumps/HBTS80-13-132R Diesel Concrete Pump.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305612/Astonic-Mart/Products/concrete%20pumps/HBTS80-13-132R_Diesel_Concrete_Pump.png'
         ],
 
         videos: [],
@@ -1894,8 +1874,8 @@ User Manual
         discountPrice: 2100000,
 
         images: [
-            'assets/img/drum rollers/VR880 2 Ton Ride-On Double Drum Road Roller.png',
-            'assets/img/drum rollers/VR880 2 Ton Ride-On Double Drum Road Roller-2.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306392/Astonic-Mart/Products/drum%20rollers/VR880_2_Ton_Ride-On_Double_Drum_Road_Roller.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306393/Astonic-Mart/Products/drum%20rollers/VR880_2_Ton_Ride-On_Double_Drum_Road_Roller-2.jpg'
         ],
 
         videos: [],
@@ -1952,7 +1932,7 @@ User Manual
         discountPrice: 4300000,
         showSimilar: true,
         images: [
-            'assets/img/road marker/Walk-Behind Thermoplastic Road Marking Machine.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311610/Astonic-Mart/Products/road%20marker/Walk-Behind_Thermoplastic_Road_Marking_Machine.png'
         ],
 
         videos: [],
@@ -2006,7 +1986,7 @@ User Manual
         discountPrice: 8495000,
 
         images: [
-            'assets/img/road marker/20L Thermoplastic Road Marking Machine.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311570/Astonic-Mart/Products/road%20marker/20L_Thermoplastic_Road_Marking_Machine.png'
         ],
 
         videos: [],
@@ -2067,11 +2047,11 @@ User Manual
 
 
         images: [
-            'assets/img/concrete screeders/Gasoline Powered Concrete Screed (4-Stroke)-1.webp',
-            'assets/img/concrete screeders/Gasoline Powered Concrete Screed (4-Stroke)-2.webp',
-            'assets/img/concrete screeders/Gasoline Powered Concrete Screed (4-Stroke).webp',
-            'assets/img/concrete screeders/Gasoline Powered Concrete Screed (4-Stroke)-3.jpg',
-            'assets/img/concrete screeders/Gasoline Powered Concrete Screed (4-Stroke)-4.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305614/Astonic-Mart/Products/concrete%20screeders/Gasoline_Powered_Concrete_Screed_4-Stroke-1.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305615/Astonic-Mart/Products/concrete%20screeders/Gasoline_Powered_Concrete_Screed_4-Stroke-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305613/Astonic-Mart/Products/concrete%20screeders/Gasoline_Powered_Concrete_Screed_4-Stroke.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305616/Astonic-Mart/Products/concrete%20screeders/Gasoline_Powered_Concrete_Screed_4-Stroke-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305617/Astonic-Mart/Products/concrete%20screeders/Gasoline_Powered_Concrete_Screed_4-Stroke-4.avif'
         ],
 
         description:
@@ -2128,7 +2108,7 @@ User Manual
         showSimilar: true,
 
         images: [
-            'assets/img/poker vibrator and plate compactor/INGCO GCP100-2 Gasoline Plate Compactor.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309984/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/INGCO_GCP100-2_Gasoline_Plate_Compactor.jpg'
         ],
 
         inStock: true,
@@ -2194,9 +2174,9 @@ Protective Frame
         showSimilar: true,
 
         images: [
-            'assets/img/concrete mixers and rammers/Oceanic VT-4000 Self-Loading Concrete Mixer (4 Cubic)-1.webp',
-            'assets/img/concrete mixers and rammers/Oceanic VT-4000 Self-Loading Concrete Mixer (4 Cubic)-2.avif',
-            'assets/img/concrete mixers and rammers/Oceanic VT-4000 Self-Loading Concrete Mixer (4 Cubic).jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305604/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/Oceanic_VT-4000_Self-Loading_Concrete_Mixer_4_Cubic-1.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305605/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/Oceanic_VT-4000_Self-Loading_Concrete_Mixer_4_Cubic-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305603/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/Oceanic_VT-4000_Self-Loading_Concrete_Mixer_4_Cubic.jpg'
         ],
 
         inStock: true,
@@ -2258,9 +2238,9 @@ Operator's Manual
         showSimilar: true,
 
         images: [
-            'assets/img/concrete mixers and rammers/Oceanic VT-3500 Self-Loading Concrete Mixer (3.5 Cubic)-1.avif',
-            'assets/img/concrete mixers and rammers/Oceanic VT-3500 Self-Loading Concrete Mixer (3.5 Cubic)-3.avif',
-            'assets/img/concrete mixers and rammers/Oceanic VT-3500 Self-Loading Concrete Mixer (3.5 Cubic).jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305601/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/Oceanic_VT-3500_Self-Loading_Concrete_Mixer_3.5_Cubic-1.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305602/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/Oceanic_VT-3500_Self-Loading_Concrete_Mixer_3.5_Cubic-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305600/Astonic-Mart/Products/concrete%20mixers%20and%20rammers/Oceanic_VT-3500_Self-Loading_Concrete_Mixer_3.5_Cubic.jpg'
         ],
 
         inStock: true,
@@ -2327,11 +2307,11 @@ Operator's Manual
         showSimilar: true,
 
         images: [
-            'assets/img/poker vibrator and plate compactor/Makita Cordless Concrete Vibrator 18V-4.jpg',
-            'assets/img/poker vibrator and plate compactor/Makita Cordless Concrete Vibrator 18V.png',
-            'assets/img/poker vibrator and plate compactor/Makita Cordless Concrete Vibrator 18V-2.png',
-            'assets/img/poker vibrator and plate compactor/Makita Cordless Concrete Vibrator 18V-3.png',
-            'assets/img/poker vibrator and plate compactor/Makita Cordless Concrete Vibrator 18V-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310113/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Makita_Cordless_Concrete_Vibrator_18V-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310020/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Makita_Cordless_Concrete_Vibrator_18V.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310051/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Makita_Cordless_Concrete_Vibrator_18V-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310111/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Makita_Cordless_Concrete_Vibrator_18V-3.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310114/Astonic-Mart/Products/poker%20vibrator%20and%20plate%20compactor/Makita_Cordless_Concrete_Vibrator_18V-5.jpg'
         ],
 
         inStock: true,
@@ -2390,7 +2370,7 @@ Ideal for construction and civil engineering projects
         showSimilar: true,
 
         images: [
-            'assets/img/general concrete equipment/Electric Concrete Floor Grinder.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306791/Astonic-Mart/Products/general%20concrete%20equipment/Electric_Concrete_Floor_Grinder.png'
         ],
 
         inStock: true,

@@ -12,7 +12,7 @@ export const MARINE_OFFSHORE_PRODUCTS: Product[] = [
         price: 22000,
 
         images: [
-            'assets/img/life saving eq/life buoy 2.5kg.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308792/Astonic-Mart/Products/life%20saving%20eq/life_buoy_2.5kg.jpg'
         ],
 
         inStock: true,
@@ -51,7 +51,7 @@ export const MARINE_OFFSHORE_PRODUCTS: Product[] = [
         price: 65000,
 
         images: [
-            'assets/img/life saving eq/automatic life jacket.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308791/Astonic-Mart/Products/life%20saving%20eq/automatic_life_jacket.avif',
         ],
 
         inStock: true,
@@ -89,9 +89,9 @@ export const MARINE_OFFSHORE_PRODUCTS: Product[] = [
         price: 450000,
 
         images: [
-            'assets/img/marine offshore/pipe floater.webp',
-            'assets/img/marine offshore/pipe floater-2.webp',
-            'assets/img/marine offshore/pipe floater-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308884/Astonic-Mart/Products/marine%20offshore/pipe_floater.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308886/Astonic-Mart/Products/marine%20offshore/pipe_floater-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308887/Astonic-Mart/Products/marine%20offshore/pipe_floater-3.jpg'
         ],
 
         inStock: true,
@@ -139,8 +139,8 @@ export const MARINE_OFFSHORE_PRODUCTS: Product[] = [
         price: 35000,
 
         images: [
-            'assets/img/life saving eq/Yamaha-Life-Jacket-1.jpg',
-            'assets/img/life saving eq/Yamaha-Life-Jacket.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308810/Astonic-Mart/Products/life%20saving%20eq/Yamaha-Life-Jacket-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308803/Astonic-Mart/Products/life%20saving%20eq/Yamaha-Life-Jacket.jpg'
         ],
 
         inStock: true,
@@ -190,7 +190,8 @@ Reliable flotation performance
         price: 28000,
 
         images: [
-            'assets/img/marine/yamaha-life-jacket-150n.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429648/Astonic-Mart/Products/remaining-local-images/mxwzfzma9tpr7hj7sroj.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429658/Astonic-Mart/Products/remaining-local-images/e2dbn93d1cik0nce5agj.jpg'
         ],
 
         inStock: true,

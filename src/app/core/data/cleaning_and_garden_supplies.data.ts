@@ -16,9 +16,9 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 160000,
 
         images: [
-            'assets/img/brushcutters/Maxmech GASOLINE BRUSH CUTTER bc430.jpg',
-            'assets/img/brushcutters/Maxmech GASOLINE BRUSH CUTTER bc430-6.jpg',
-            'assets/img/brushcutters/Maxmech GASOLINE BRUSH CUTTER bc430-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304478/Astonic-Mart/Products/brushcutters/Maxmech_GASOLINE_BRUSH_CUTTER_bc430.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304480/Astonic-Mart/Products/brushcutters/Maxmech_GASOLINE_BRUSH_CUTTER_bc430-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304480/Astonic-Mart/Products/brushcutters/Maxmech_GASOLINE_BRUSH_CUTTER_bc430-6.jpg'
         ],
 
         inStock: true,
@@ -60,9 +60,9 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 130000,
 
         images: [
-            'assets/img/brushcutters/TOTAL 20V Cordless Grass Trimmer (TGTLI20301)-3.jpg',
-            'assets/img/brushcutters/TOTAL 20V Cordless Grass Trimmer (TGTLI20301)-2.jpeg',
-            'assets/img/brushcutters/TOTAL 20V Cordless Grass Trimmer (TGTLI20301).webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304497/Astonic-Mart/Products/brushcutters/TOTAL_20V_Cordless_Grass_Trimmer_TGTLI20301-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304496/Astonic-Mart/Products/brushcutters/TOTAL_20V_Cordless_Grass_Trimmer_TGTLI20301-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304495/Astonic-Mart/Products/brushcutters/TOTAL_20V_Cordless_Grass_Trimmer_TGTLI20301.webp',
 
 
         ],
@@ -71,7 +71,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
 
         videos: [
 
-            'assets/video/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD.mp4'
+            'https://res.cloudinary.com/taus5tit/video/upload/v1786511687/Astonic-Mart/Videos/TOTALLithium-IongrassTrimmerTGTLI20301SD.mp4'
         ],
 
         inStock: true,
@@ -114,8 +114,8 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 25000,
 
         images: [
-            'assets/img/brushcutters/brusch cutter blade-40T.webp',
-            'assets/img/brushcutters/brusch cutter blade-40T.webp2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304460/Astonic-Mart/Products/brushcutters/brusch_cutter_blade-40T.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304460/Astonic-Mart/Products/brushcutters/brusch_cutter_blade-40T.webp2.webp'
         ],
 
         inStock: true,
@@ -156,7 +156,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 26000,
 
         images: [
-            'assets/img/brushcutters/Hot-selling car cleaning kit 20-piece set, detail brush, interior car wash cleaning brush.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304467/Astonic-Mart/Products/brushcutters/Hot-selling_car_cleaning_kit_20-piece_set%2C_detail_brush%2C_interior_car_wash_cleaning_brush.jpg'
         ],
 
         inStock: true,
@@ -197,7 +197,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 18000,
 
         images: [
-            'assets/img/hose/High-Pressure-Hose-Pipe-5m-Total-Pressure-Washer-Hose-Pipe.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307799/Astonic-Mart/Products/hose/High-Pressure-Hose-Pipe-5m-Total-Pressure-Washer-Hose-Pipe.jpg'
         ],
 
         inStock: true,
@@ -239,7 +239,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 765000,
 
         images: [
-            'assets/img/scrubbersandlawnmowers/scrubbers.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329030/Astonic-Mart/Products/scrubbersandlawnmowers/scrubbers.webp'
         ],
 
         inStock: true,
@@ -277,7 +277,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 680000,
 
         images: [
-            'assets/img/pressure and water pumps/Karcher K5 High Pressure Washer.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310685/Astonic-Mart/Products/pressure%20and%20water%20pumps/Karcher_K5_High_Pressure_Washer.jpg'
         ],
 
         inStock: true,
@@ -320,7 +320,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 185000,
 
         images: [
-            'assets/img/pressure and water pumps/total cordless pw TPWLI20084.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310733/Astonic-Mart/Products/pressure%20and%20water%20pumps/total_cordless_pw_TPWLI20084.jpg'
         ],
 
         inStock: true,
@@ -366,7 +366,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 1250000,
 
         images: [
-            'assets/img/pressure and water pumps/ingco-gasoline-industrial-pressure-washer-hpwr30008.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310677/Astonic-Mart/Products/pressure%20and%20water%20pumps/ingco-gasoline-industrial-pressure-washer-hpwr30008.jpg'
         ],
 
         inStock: true,
@@ -412,8 +412,8 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 700000,
 
         images: [
-            'assets/img/pressure washers/ingco gasolin pw 7hp GHPW2003.jpg',
-            'assets/img/pressure and water pumps/Ingco Industrial Gasoline High Pressure Washer 7HP GHPW2103-1.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310967/Astonic-Mart/Products/pressure%20washers/ingco_gasolin_pw_7hp_GHPW2003.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310673/Astonic-Mart/Products/pressure%20and%20water%20pumps/Ingco_Industrial_Gasoline_High_Pressure_Washer_7HP_GHPW2103-1.jpg'
         ],
 
         inStock: true,
@@ -459,11 +459,11 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 85000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/TOTAL 40084 TVLI2006-20V Battery Cyclone Vacuum Cleaner.webp',
-            'assets/img/vacuum cleaners and hoses/TOTAL 40084 TVLI2006-20V Battery Cyclone Vacuum Cleaner-2.webp',
-            'assets/img/vacuum cleaners and hoses/TOTAL 40084 TVLI2006-20V Battery Cyclone Vacuum Cleaner-3.webp',
-            'assets/img/vacuum cleaners and hoses/TOTAL 40084 TVLI2006-20V Battery Cyclone Vacuum Cleaner-4.webp',
-            'assets/img/vacuum cleaners and hoses/TOTAL 40084 TVLI2006-20V Battery Cyclone Vacuum Cleaner-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330259/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_40084_TVLI2006-20V_Battery_Cyclone_Vacuum_Cleaner.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330262/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_40084_TVLI2006-20V_Battery_Cyclone_Vacuum_Cleaner-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330263/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_40084_TVLI2006-20V_Battery_Cyclone_Vacuum_Cleaner-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330266/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_40084_TVLI2006-20V_Battery_Cyclone_Vacuum_Cleaner-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330262/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_40084_TVLI2006-20V_Battery_Cyclone_Vacuum_Cleaner-5.webp'
         ],
 
         inStock: true,
@@ -509,7 +509,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 240000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/Karcher - WD 5 Wet & Dry Vacuum 1100W 240V.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331737/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/Karcher_-_WD_5_Wet_and_Dry_Vacuum_1100W_240V.webp'
         ],
 
         inStock: true,
@@ -556,7 +556,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 285000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/total-industrial-vacuume-cleaners-TVC24751.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330288/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/total-industrial-vacuume-cleaners-TVC24751.jpg'
         ],
 
         inStock: true,
@@ -603,7 +603,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 185000,
 
         images: [
-            'assets/img/lawn mowers/total-1600w-electric-lawn-mower-TGT616152.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308790/Astonic-Mart/Products/lawn%20mowers/total-1600w-electric-lawn-mower-TGT616152.jpg'
         ],
 
         inStock: true,
@@ -646,7 +646,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 145000,
 
         images: [
-            'assets/img/hose/Water Discharge Hose - 100M X 2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307811/Astonic-Mart/Products/hose/Water_Discharge_Hose_-_100M_X_2.jpg',
         ],
 
         inStock: true,
@@ -688,7 +688,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 85000,
 
         images: [
-            'assets/img/hose/TOTAL HIGH PRESSURE HOSE FOR HIGH PRESSURE WASHERS (TGTHPH526).webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307810/Astonic-Mart/Products/hose/TOTAL_HIGH_PRESSURE_HOSE_FOR_HIGH_PRESSURE_WASHERS_TGTHPH526.webp',
         ],
 
         inStock: true,
@@ -734,7 +734,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 2500,
 
         images: [
-            'assets/img/hose/hose-connector.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307805/Astonic-Mart/Products/hose/hose-connector.jpg',
         ],
 
         inStock: true,
@@ -777,7 +777,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 25000,
 
         images: [
-            'assets/img/hose/18pcs Line Hose Connector Assembly Set Pneumatic Iron Parts for Hoses.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307791/Astonic-Mart/Products/hose/18pcs_Line_Hose_Connector_Assembly_Set_Pneumatic_Iron_Parts_for_Hoses.webp',
         ],
 
         inStock: true,
@@ -821,10 +821,10 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 650000,
 
         images: [
-            'assets/img/lawn mowers/TOTAL TGT196201 Gasoline Lawn Mower 3.5KW (4.8HP).jpg',
-            'assets/img/lawn mowers/TOTAL TGT196201 Gasoline Lawn Mower 3.5KW (4.8HP)-2.jpg',
-            'assets/img/lawn mowers/TOTAL TGT196201 Gasoline Lawn Mower 3.5KW (4.8HP)-3.jpg',
-            'assets/img/lawn mowers/TOTAL TGT196201 Gasoline Lawn Mower 3.5KW (4.8HP)-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308786/Astonic-Mart/Products/lawn%20mowers/TOTAL_TGT196201_Gasoline_Lawn_Mower_3.5KW_4.8HP.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308787/Astonic-Mart/Products/lawn%20mowers/TOTAL_TGT196201_Gasoline_Lawn_Mower_3.5KW_4.8HP-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308788/Astonic-Mart/Products/lawn%20mowers/TOTAL_TGT196201_Gasoline_Lawn_Mower_3.5KW_4.8HP-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308788/Astonic-Mart/Products/lawn%20mowers/TOTAL_TGT196201_Gasoline_Lawn_Mower_3.5KW_4.8HP-3.jpg'
         ],
 
         inStock: true,
@@ -872,7 +872,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 480000,
 
         images: [
-            'assets/img/lawn mowers/ingco cordless lawnmower - Lmli20182.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308756/Astonic-Mart/Products/lawn%20mowers/ingco_cordless_lawnmower_-_Lmli20182.webp',
         ],
 
         inStock: true,
@@ -923,17 +923,17 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 385000,
 
         images: [
-            'assets/img/brushcutters/TOTAL TSTLI200285 Lithium String Trimmer & Brush Cutter 40V  4Ah.jpg',
-            'assets/img/brushcutters/TOTAL TSTLI200285 Lithium String Trimmer & Brush Cutter 40V  4Ah.jpg-2.jpg',
-            'assets/img/brushcutters/TOTAL TSTLI200285 Lithium String Trimmer & Brush Cutter 40V  4Ah.jpg-3.webp',
-            'assets/img/brushcutters/TOTAL TSTLI200285 Lithium String Trimmer & Brush Cutter 40V  4Ah.jpg-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331740/Astonic-Mart/Products/brushcutters/TOTAL_TSTLI200285_Lithium_String_Trimmer_and_Brush_Cutter_40V_4Ah.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331738/Astonic-Mart/Products/brushcutters/TOTAL_TSTLI200285_Lithium_String_Trimmer_and_Brush_Cutter_40V_4Ah_jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331737/Astonic-Mart/Products/brushcutters/TOTAL_TSTLI200285_Lithium_String_Trimmer_and_Brush_Cutter_40V_4Ah_jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331740/Astonic-Mart/Products/brushcutters/TOTAL_TSTLI200285_Lithium_String_Trimmer_and_Brush_Cutter_40V_4Ah.jpg-4.webp'
 
         ],
 
 
         // videos:[
 
-        //   'assets/img/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD.mp4'
+        //   'https://res.cloudinary.com/taus5tit/video/upload/v1786511687/Astonic-Mart/Videos/TOTALLithium-IongrassTrimmerTGTLI20301SD.mp4'
         //    ],
 
         jumiaLink: '',
@@ -1013,17 +1013,17 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 425000,
 
         images: [
-            'assets/img/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD-2.jpg-1.webp',
-            'assets/img/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD-2.jpg',
-            'assets/img/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD-3.webp',
-            'assets/img/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304510/Astonic-Mart/Products/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD-2.jpg-1.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304510/Astonic-Mart/Products/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304512/Astonic-Mart/Products/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304513/Astonic-Mart/Products/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD-4.jpg'
 
         ],
 
 
         videos: [
 
-            'assets/img/brushcutters/TOTALLithium-IongrassTrimmerTGTLI20301SD.mp4'
+            'https://res.cloudinary.com/taus5tit/video/upload/v1786511687/Astonic-Mart/Videos/TOTALLithium-IongrassTrimmerTGTLI20301SD.mp4'
         ],
 
 
@@ -1109,8 +1109,8 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 68000,
 
         images: [
-            'assets/img/pressure washers/maxmech pressure washers PW 1100-5.jpg',
-            'assets/img/pressure washers/maxmech pressure washers PW 1100-5-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311163/Astonic-Mart/Products/pressure%20washers/maxmech_pressure_washers_PW_1100-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311164/Astonic-Mart/Products/pressure%20washers/maxmech_pressure_washers_PW_1100-5-2.jpg'
         ],
 
         videos: [
@@ -1190,11 +1190,11 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 450000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/pneumatic vacuum cleaner 20l-model v-500.avif',
-            'assets/img/vacuum cleaners and hoses/pneumatic vacuum cleaner 20l-model v-500-5.webp',
-            'assets/img/vacuum cleaners and hoses/pneumatic vacuum cleaner 20l-model v-500-4.webp',
-            'assets/img/vacuum cleaners and hoses/pneumatic vacuum cleaner 20l-model v-500-3.avif',
-            'assets/img/vacuum cleaners and hoses/pneumatic vacuum cleaner 20l-model v-500-2.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330228/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/pneumatic_vacuum_cleaner_20l-model_v-500.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330231/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/pneumatic_vacuum_cleaner_20l-model_v-500-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330231/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/pneumatic_vacuum_cleaner_20l-model_v-500-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330231/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/pneumatic_vacuum_cleaner_20l-model_v-500-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330231/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/pneumatic_vacuum_cleaner_20l-model_v-500-2.avif'
         ],
 
         videos: [
@@ -1276,10 +1276,10 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 170000,
 
         images: [
-            'assets/img/pressure washers/TOTAL Cordless pressure washer TPWLI2036-2.jpg',
-            'assets/img/pressure washers/TOTAL Cordless pressure washer TPWLI2036-3.webp',
-            'assets/img/pressure washers/TOTAL Cordless pressure washer TPWLI2036-4.webp',
-            'assets/img/pressure washers/TOTAL Cordless pressure washer TPWLI2036.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311202/Astonic-Mart/Products/pressure%20washers/TOTAL_Cordless_pressure_washer_TPWLI2036-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311204/Astonic-Mart/Products/pressure%20washers/TOTAL_Cordless_pressure_washer_TPWLI2036-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311204/Astonic-Mart/Products/pressure%20washers/TOTAL_Cordless_pressure_washer_TPWLI2036-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311201/Astonic-Mart/Products/pressure%20washers/TOTAL_Cordless_pressure_washer_TPWLI2036.jpg'
         ],
 
         videos: [
@@ -1362,8 +1362,8 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 168000,
 
         images: [
-            'assets/img/brushcutters/Maxmech GASOLINE BRUSH CUTTER bc520.jpg',
-            'assets/img/brushcutters/Maxmech GASOLINE BRUSH CUTTER bc430.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304487/Astonic-Mart/Products/brushcutters/Maxmech_GASOLINE_BRUSH_CUTTER_bc520.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304478/Astonic-Mart/Products/brushcutters/Maxmech_GASOLINE_BRUSH_CUTTER_bc430.jpg'
         ],
 
         videos: [
@@ -1445,8 +1445,8 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 215000,
 
         images: [
-            'assets/img/brushcutters/Maxmech GASOLINE BRUSH CUTTER bc435.webp',
-            'assets/img/brushcutters/Maxmech GASOLINE BRUSH CUTTER bc430.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304485/Astonic-Mart/Products/brushcutters/Maxmech_GASOLINE_BRUSH_CUTTER_bc435.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304478/Astonic-Mart/Products/brushcutters/Maxmech_GASOLINE_BRUSH_CUTTER_bc430.jpg'
         ],
 
         videos: [
@@ -1525,10 +1525,10 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 98000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 12l-VC14122.jpeg-2.jpg',
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 12l-VC14122.jpeg-3.jpg',
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 12l-VC14122.jpeg',
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 12l-VC14122-4.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330204/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_12l-VC14122.jpeg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330204/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_12l-VC14122.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330204/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_12l-VC14122.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330205/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_12l-VC14122-4.jpg'
         ],
 
         videos: [
@@ -1610,10 +1610,10 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 95000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 12l-1000w.jpg-3.webp',
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 12l-1000w.jpg-4.webp',
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 12l-1000w.jpg-2.webp',
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 12l-1000w.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330201/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_12l-1000w.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330201/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_12l-1000w.jpg-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330201/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_12l-1000w.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330201/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_12l-1000w.jpg'
         ],
 
         videos: [
@@ -1695,10 +1695,10 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 100000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/total-vacuum-cleaner-1000w.jpg',
-            'assets/img/vacuum cleaners and hoses/total-vacuum-cleaner-1000w.jpg-2.jpg',
-            'assets/img/vacuum cleaners and hoses/total-vacuum-cleaner-1000w.jpg-3.jpg',
-            'assets/img/vacuum cleaners and hoses/total-vacuum-cleaner-1000w.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330288/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/total-vacuum-cleaner-1000w.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330288/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/total-vacuum-cleaner-1000w.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330288/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/total-vacuum-cleaner-1000w.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330288/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/total-vacuum-cleaner-1000w.jpg-4.jpg'
         ],
 
         videos: [
@@ -1778,11 +1778,11 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 98000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/total vacuume cleaner-12l-800w.jpeg',
-            'assets/img/vacuum cleaners and hoses/total vacuume cleaner-12l-800w.jpeg-2.jpg',
-            'assets/img/vacuum cleaners and hoses/total vacuume cleaner-12l-800w.jpeg-3.jpg',
-            'assets/img/vacuum cleaners and hoses/total vacuume cleaner-12l-800w.jpeg-4.jpg',
-            'assets/img/vacuum cleaners and hoses/total vacuume cleaner-12l-800w.jpeg-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330279/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/total_vacuume_cleaner-12l-800w.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330279/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/total_vacuume_cleaner-12l-800w.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330279/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/total_vacuume_cleaner-12l-800w.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330279/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/total_vacuume_cleaner-12l-800w.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330279/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/total_vacuume_cleaner-12l-800w.jpg-3.jpg'
         ],
 
         videos: [
@@ -1863,11 +1863,11 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 180000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/TOTAL VACUUM CLEANER WET DRY 1400W (TVC14301).jpg',
-            'assets/img/vacuum cleaners and hoses/TOTAL VACUUM CLEANER WET DRY 1400W (TVC14301).jpg-2.jpg',
-            'assets/img/vacuum cleaners and hoses/TOTAL VACUUM CLEANER WET DRY 1400W (TVC14301).jpg-3.jpg',
-            'assets/img/vacuum cleaners and hoses/TOTAL VACUUM CLEANER WET DRY 1400W (TVC14301).jpg-4.webp',
-            'assets/img/vacuum cleaners and hoses/TOTAL VACUUM CLEANER WET DRY 1400W (TVC14301).jpg-5.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330275/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_VACUUM_CLEANER_WET_DRY_1400W_TVC14301.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330275/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_VACUUM_CLEANER_WET_DRY_1400W_TVC14301.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330275/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_VACUUM_CLEANER_WET_DRY_1400W_TVC14301.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330275/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_VACUUM_CLEANER_WET_DRY_1400W_TVC14301.jpg-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330275/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_VACUUM_CLEANER_WET_DRY_1400W_TVC14301.jpg-5.jpeg'
         ],
 
         videos: [
@@ -1949,10 +1949,10 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 185000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 30l 1400w.jpeg-2.webp',
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 30l 1400w.jpeg-3.webp',
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 30l 1400w.jpeg-4.webp',
-            'assets/img/vacuum cleaners and hoses/ingco vacuum cleaner 30l 1400w.jpeg-2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330204/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_30l_1400w.jpeg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330208/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_30l_1400w.jpeg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330208/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_30l_1400w.jpeg-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330204/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vacuum_cleaner_30l_1400w.jpeg-2.webp'
         ],
 
         videos: [
@@ -2034,9 +2034,9 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 152000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/Total Vacuum Cleaner 30 Liters 1300W - TVC13301.webp',
-            'assets/img/vacuum cleaners and hoses/Total Vacuum Cleaner 30 Liters 1300W - TVC13301.webp-2.webp',
-            'assets/img/vacuum cleaners and hoses/Total Vacuum Cleaner 30 Liters 1300W - TVC13301.webp-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330262/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/Total_Vacuum_Cleaner_30_Liters_1300W_-_TVC13301.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330262/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/Total_Vacuum_Cleaner_30_Liters_1300W_-_TVC13301.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330262/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/Total_Vacuum_Cleaner_30_Liters_1300W_-_TVC13301.webp-3.webp'
         ],
 
         videos: [
@@ -2118,9 +2118,9 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 470000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/ingco 75l vc.webp',
-            'assets/img/vacuum cleaners and hoses/ingco 75l vc.webp-2.webp',
-            'assets/img/vacuum cleaners and hoses/ingco 75l vc.webp-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330197/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_75l_vc.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330197/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_75l_vc.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330197/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_75l_vc.webp-3.webp'
         ],
 
         videos: [
@@ -2206,10 +2206,10 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 180000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/TOTAL VC 2.000W (TVC20258).jpg',
-            'assets/img/vacuum cleaners and hoses/TOTAL VC 2.000W (TVC20258).jpg-2.jpeg',
-            'assets/img/vacuum cleaners and hoses/TOTAL VC 2.000W (TVC20258).jpg-3.jpg',
-            'assets/img/vacuum cleaners and hoses/TOTAL VC 2.000W (TVC20258).jpg-4.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330284/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_VC_2.000W_TVC20258.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330283/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_VC_2.000W_TVC20258.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330284/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_VC_2.000W_TVC20258.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330283/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_VC_2.000W_TVC20258.jpg-4.jpg'
         ],
 
         videos: [
@@ -2295,11 +2295,11 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 175000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/ingco vc-2000w.jpg',
-            'assets/img/vacuum cleaners and hoses/ingco vc-2000w.jpg-2.jpg',
-            'assets/img/vacuum cleaners and hoses/ingco vc-2000w.jpg-3.jpg',
-            'assets/img/vacuum cleaners and hoses/ingco vc-2000w.jpg-4.webp',
-            'assets/img/vacuum cleaners and hoses/ingco vc-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330208/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vc-2000w.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330208/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vc-2000w.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330208/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vc-2000w.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330208/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vc-2000w.jpg-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330212/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/ingco_vc-5.jpg'
         ],
 
         videos: [
@@ -2386,9 +2386,9 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 135000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/samstorm vc-20.webp',
-            'assets/img/vacuum cleaners and hoses/samstorm vc-20.webp-2.webp',
-            'assets/img/vacuum cleaners and hoses/samstorm vc-20.webp-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330258/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/samstorm_vc-20.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330258/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/samstorm_vc-20.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330258/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/samstorm_vc-20.webp-3.webp'
         ],
 
         videos: [
@@ -2467,8 +2467,8 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 550000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/samstorm vc-100l-2.png',
-            'assets/img/vacuum cleaners and hoses/samstorm vc-100l.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330257/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/samstorm_vc-100l-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330244/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/samstorm_vc-100l.png',
         ],
 
         videos: [
@@ -2552,10 +2552,10 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         discountPrice: 240000,
         showSimilar: true,
         images: [
-            'assets/img/pressure washers/total pw-2000w-150bar-TGT11226.jpg-2.jpg',
-            'assets/img/pressure washers/total pw-2000w-150bar-TGT11226.jpg',
-            "assets/img/total pws/total pw-2000w-150bar-TGT11226.jpg",
-            'assets/img/pressure washers/total pw-2000w-150bar-TGT11226.jpg-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311252/Astonic-Mart/Products/pressure%20washers/total_pw-2000w-150bar-TGT11226.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311252/Astonic-Mart/Products/pressure%20washers/total_pw-2000w-150bar-TGT11226.jpg',
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786329953/Astonic-Mart/Products/total%20pws/total_pw-2000w-150bar-TGT11226.jpg",
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311252/Astonic-Mart/Products/pressure%20washers/total_pw-2000w-150bar-TGT11226.jpg-3.webp'
         ],
 
 
@@ -2603,13 +2603,13 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         inStock: true,
 
         images: [
-            'assets/img/pressure washers/total-pw-2000w-160bar-TGT11376.jpg-2.jpg',
-            'assets/img/pressure washers/total-pw-2000w-160bar-TGT11376.jpg-3.avif',
-            'assets/img/pressure washers/total-pw-2000w-160bar-TGT11376.jpg',
-            'assets/img/pressure washers/total-pw-2000w-160bar-TGT11376.jpg-4.avif',
-            'assets/img/pressure washers/total-pw-2000w-160bar-TGT11376.jpg-5.avif',
-            'assets/img/pressure washers/total-pw-2000w-160bar-TGT11376.jpg-6.avif',
-            'assets/img/pressure washers/total-pw-2000w-160bar-TGT11376.jpg-7.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311263/Astonic-Mart/Products/pressure%20washers/total-pw-2000w-160bar-TGT11376.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311263/Astonic-Mart/Products/pressure%20washers/total-pw-2000w-160bar-TGT11376.jpg-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311260/Astonic-Mart/Products/pressure%20washers/total-pw-2000w-160bar-TGT11376.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311260/Astonic-Mart/Products/pressure%20washers/total-pw-2000w-160bar-TGT11376.jpg-4.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311260/Astonic-Mart/Products/pressure%20washers/total-pw-2000w-160bar-TGT11376.jpg-5.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311260/Astonic-Mart/Products/pressure%20washers/total-pw-2000w-160bar-TGT11376.jpg-6.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311260/Astonic-Mart/Products/pressure%20washers/total-pw-2000w-160bar-TGT11376.jpg-7.avif'
         ],
 
         description:
@@ -2657,10 +2657,10 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         price: 185000,
 
         images: [
-            'assets/img/pressure and water pumps/High-pressure-washer-HPWR15028.jpg',
-            'assets/img/pressure washers/INGCO High Pressure Washer 1500W - HPWR15028-2.jpg',
-            'assets/img/pressure washers/INGCO High Pressure Washer 1500W - HPWR15028.jpg-3.webp',
-            'assets/img/pressure washers/INGCO High Pressure Washer 1500W - HPWR15028.jpg-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310667/Astonic-Mart/Products/pressure%20and%20water%20pumps/High-pressure-washer-HPWR15028.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310972/Astonic-Mart/Products/pressure%20washers/INGCO_High_Pressure_Washer_1500W_-_HPWR15028-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310968/Astonic-Mart/Products/pressure%20washers/INGCO_High_Pressure_Washer_1500W_-_HPWR15028.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310970/Astonic-Mart/Products/pressure%20washers/INGCO_High_Pressure_Washer_1500W_-_HPWR15028.jpg-4.webp'
         ],
 
         inStock: true,
@@ -2724,10 +2724,10 @@ Items Included in the Package:
         inStock: true,
         images: [
 
-            'assets/img/pressure washers/ingco 1600w pw carbon brush.jpg',
-            'assets/img/pressure washers/ingco 1600w pw carbon brush.jpg-2.jpeg',
-            'assets/img/pressure washers/ingco 1600w pw carbon brush.jpg-3.jpeg',
-            'assets/img/pressure washers/ingco 1600w pw carbon brush.jpg-4.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310908/Astonic-Mart/Products/pressure%20washers/ingco_1600w_pw_carbon_brush.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310909/Astonic-Mart/Products/pressure%20washers/ingco_1600w_pw_carbon_brush.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310908/Astonic-Mart/Products/pressure%20washers/ingco_1600w_pw_carbon_brush.jpg-3.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310912/Astonic-Mart/Products/pressure%20washers/ingco_1600w_pw_carbon_brush.jpg-4.jpg'
 
         ],
         description: `The INGCO High Pressure Washer HPWR16008 is a powerful and efficient cleaning machine designed for removing stubborn dirt, grease, mud, and grime from various surfaces. Equipped with a high-performance 1600W motor, this pressure washer delivers strong water pressure of up to 140 bar, making it ideal for cleaning cars, driveways, patios, machinery, and outdoor surfaces.
@@ -2785,10 +2785,10 @@ Items Included in the Package:
         price: 145000,
 
         images: [
-            'assets/img/pressure washers/TOTAL HIGH PRESSURE WASHER 1400W (TGT11316).jpg',
-            'assets/img/pressure washers/TOTAL HIGH PRESSURE WASHER 1400W (TGT11316).jpg-2.webp',
-            'assets/img/pressure washers/TOTAL HIGH PRESSURE WASHER 1400W (TGT11316).jpg-3.jpg',
-            'assets/img/pressure washers/TOTAL HIGH PRESSURE WASHER 1400W (TGT11316).jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311212/Astonic-Mart/Products/pressure%20washers/TOTAL_HIGH_PRESSURE_WASHER_1400W_TGT11316.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311213/Astonic-Mart/Products/pressure%20washers/TOTAL_HIGH_PRESSURE_WASHER_1400W_TGT11316.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311214/Astonic-Mart/Products/pressure%20washers/TOTAL_HIGH_PRESSURE_WASHER_1400W_TGT11316.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311212/Astonic-Mart/Products/pressure%20washers/TOTAL_HIGH_PRESSURE_WASHER_1400W_TGT11316.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -2853,10 +2853,10 @@ Items Included in the Package:
         price: 155000,
 
         images: [
-            'assets/img/pressure washers/TOTAL High pressure washer 1.600W (TGT11336).jpg',
-            'assets/img/pressure washers/TOTAL High pressure washer 1.600W (TGT11336).jpg-2.webp',
-            'assets/img/pressure washers/TOTAL High pressure washer 1.600W (TGT11336).jpg-3.jpeg',
-            'assets/img/pressure washers/TOTAL High pressure washer 1.600W (TGT11336).jpg-4.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311205/Astonic-Mart/Products/pressure%20washers/TOTAL_High_pressure_washer_1.600W_TGT11336.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311205/Astonic-Mart/Products/pressure%20washers/TOTAL_High_pressure_washer_1.600W_TGT11336.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311205/Astonic-Mart/Products/pressure%20washers/TOTAL_High_pressure_washer_1.600W_TGT11336.jpg-3.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311205/Astonic-Mart/Products/pressure%20washers/TOTAL_High_pressure_washer_1.600W_TGT11336.jpg-4.jpeg'
         ],
 
         inStock: true,
@@ -2912,13 +2912,12 @@ Items Included in the Package:
         price: 600000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/karcher se 400 plus vc.jpg-3.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher se 400 plus vc.jpg-2.webp',
-            'assets/img/vacuum cleaners and hoses/karcher se 400 plus vc.jpg',
-            'assets/img/vacuum cleaners/Karcher SE 4001 Plus Wet and Dry Vacuum Cleaner-3.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher se 400 plus vc.jpg-4.jpeg',
-            'assets/img/vacuum cleaners and hoses/karcher se 400 plus vc.jpg-5.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher se 400 plus vc.jpg-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330214/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_se_400_plus_vc.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330212/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_se_400_plus_vc.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330214/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_se_400_plus_vc.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330214/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_se_400_plus_vc.jpg-4.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330214/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_se_400_plus_vc.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330214/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_se_400_plus_vc.jpg-6.jpg'
         ],
 
         inStock: true,
@@ -2973,10 +2972,10 @@ Ideal for home, office and automotive detailing`
         price: 99000,
 
         images: [
-            'assets/img/pressure washers/dewalt cordless pressure washer.webp-5.webp',
-            'assets/img/pressure washers/dewalt cordless pressure washer.webp-3.jpg',
-            'assets/img/pressure washers/dewalt cordless pressure washer.webp-2.jpg',
-            'assets/img/pressure washers/dewalt cordless pressure washer.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310835/Astonic-Mart/Products/pressure%20washers/dewalt_cordless_pressure_washer.webp-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310835/Astonic-Mart/Products/pressure%20washers/dewalt_cordless_pressure_washer.webp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310835/Astonic-Mart/Products/pressure%20washers/dewalt_cordless_pressure_washer.webp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310835/Astonic-Mart/Products/pressure%20washers/dewalt_cordless_pressure_washer.webp'
         ],
 
         inStock: true,
@@ -3019,10 +3018,10 @@ Easy setup and operation`
         price: 8500,
 
         images: [
-            'assets/img/cleaning accessories/multi-purpose foam cleaner.webp',
-            'assets/img/cleaning accessories/multi-purpose foam cleaner.webp-2.jpg',
-            'assets/img/cleaning accessories/multi-purpose foam cleaner.webp-3.jpg',
-            'assets/img/cleaning accessories/multi-purpose foam cleaner.webp-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305325/Astonic-Mart/Products/cleaning%20accessories/multi-purpose_foam_cleaner.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305325/Astonic-Mart/Products/cleaning%20accessories/multi-purpose_foam_cleaner.webp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305325/Astonic-Mart/Products/cleaning%20accessories/multi-purpose_foam_cleaner.webp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305325/Astonic-Mart/Products/cleaning%20accessories/multi-purpose_foam_cleaner.webp-3.jpg'
         ],
 
         inStock: true,
@@ -3066,11 +3065,11 @@ Ideal for home, office and travel use`
         price: 18000,
 
         images: [
-            'assets/img/brushcutters/brusch cutter gear head.jpg-2_.avif',
-            'assets/img/brushcutters/brusch cutter gear head.jpg-3.avif',
-            'assets/img/brushcutters/brusch cutter gear head.jpg',
-            'assets/img/brushcutters/brusch cutter gear head.jpg-4.jpg',
-            'assets/img/brushcutters/brusch cutter gear head.jpg-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304462/Astonic-Mart/Products/brushcutters/brusch_cutter_gear_head.jpg-2_.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304462/Astonic-Mart/Products/brushcutters/brusch_cutter_gear_head.jpg-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304462/Astonic-Mart/Products/brushcutters/brusch_cutter_gear_head.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304462/Astonic-Mart/Products/brushcutters/brusch_cutter_gear_head.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304462/Astonic-Mart/Products/brushcutters/brusch_cutter_gear_head.jpg-5.jpg'
         ],
 
         inStock: true,
@@ -3115,10 +3114,10 @@ Suitable for professional and domestic use`
         price: 65000,
 
         images: [
-            'assets/img/pressure washers/hitachi cordeless pw.jpg',
-            'assets/img/pressure washers/hitachi cordeless pw.jpg-2.webp',
-            'assets/img/pressure washers/hitachi cordeless pw.jpg-3.jpg',
-            'assets/img/pressure washers/hitachi cordeless pw.jpg-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310867/Astonic-Mart/Products/pressure%20washers/hitachi_cordeless_pw.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310868/Astonic-Mart/Products/pressure%20washers/hitachi_cordeless_pw.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310870/Astonic-Mart/Products/pressure%20washers/hitachi_cordeless_pw.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310871/Astonic-Mart/Products/pressure%20washers/hitachi_cordeless_pw.jpg-4.webp'
         ],
 
         inStock: true,
@@ -3168,9 +3167,9 @@ Ideal for home and outdoor cleaning applications`
         discountPrice: 440000,
 
         images: [
-            'assets/img/lawn mowers/TOTAL  lawn mower self - propelled  (TGT141182)-1.jpg',
-            'assets/img/lawn mowers/TOTAL  lawn mower self - propelled  (TGT141182)-2.jpg',
-            'assets/img/lawn mowers/TOTAL lawn mower self - propelled (TGT141182).jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308768/Astonic-Mart/Products/lawn%20mowers/TOTAL_lawn_mower_self_-_propelled_TGT141182-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308771/Astonic-Mart/Products/lawn%20mowers/TOTAL_lawn_mower_self_-_propelled_TGT141182-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308785/Astonic-Mart/Products/lawn%20mowers/TOTAL_lawn_mower_self_-_propelled_TGT141182.jpg'
         ],
 
         videos: [],
@@ -3252,11 +3251,11 @@ Accessories
         discountPrice: 135000,
 
         images: [
-            'assets/img/pressure washers/ingco 1400w pw carbon brush HPWR14008.jpg',
-            'assets/img/pressure washers/ingco 1400w pw carbon brush HPWR14008.jpg-5.jpg',
-            'assets/img/pressure washers/ingco 1400w pw carbon brush HPWR14008.jpg-4.webp',
-            'assets/img/pressure washers/ingco 1400w pw carbon brush HPWR14008.jpg-3.jpg',
-            'assets/img/pressure washers/ingco 1400w pw carbon brush HPWR14008.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310880/Astonic-Mart/Products/pressure%20washers/ingco_1400w_pw_carbon_brush_HPWR14008.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310880/Astonic-Mart/Products/pressure%20washers/ingco_1400w_pw_carbon_brush_HPWR14008.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310880/Astonic-Mart/Products/pressure%20washers/ingco_1400w_pw_carbon_brush_HPWR14008.jpg-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310880/Astonic-Mart/Products/pressure%20washers/ingco_1400w_pw_carbon_brush_HPWR14008.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310880/Astonic-Mart/Products/pressure%20washers/ingco_1400w_pw_carbon_brush_HPWR14008.jpg-2.webp',
         ],
 
         videos: [
@@ -3338,10 +3337,10 @@ Accessories
         discountPrice: 500000,
 
         images: [
-            'assets/img/pressure washers/ingco gasolin pw 6hp GHPW2003.jpg-3.jpg',
-            'assets/img/pressure washers/ingco gasolin pw 6hp GHPW2003.jpg-2.jpg',
-            'assets/img/pressure washers/ingco gasolin pw 6hp GHPW2003.jpg',
-            'assets/img/pressure washers/ingco gasolin pw 6hp GHPW2003.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310963/Astonic-Mart/Products/pressure%20washers/ingco_gasolin_pw_6hp_GHPW2003.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310964/Astonic-Mart/Products/pressure%20washers/ingco_gasolin_pw_6hp_GHPW2003.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310963/Astonic-Mart/Products/pressure%20washers/ingco_gasolin_pw_6hp_GHPW2003.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310963/Astonic-Mart/Products/pressure%20washers/ingco_gasolin_pw_6hp_GHPW2003.jpg-4.jpg'
 
         ],
 
@@ -3427,12 +3426,12 @@ Accessories
         discountPrice: 170000,
 
         images: [
-            'assets/img/pressure washers/ingco 1800w high pressure washer.jpg',
-            'assets/img/pressure washers/ingco 1800w high pressure washer.jpg-2.webp',
-            'assets/img/pressure washers/ingco 1800w high pressure washer.jpg-3.jpg',
-            'assets/img/pressure washers/ingco 1800w high pressure washer.jpg-4.jpeg',
-            'assets/img/pressure washers/ingco 1800w high pressure washer.jpg-5.webp',
-            'assets/img/pressure washers/ingco 1800w high pressure washer.jpg-6.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310914/Astonic-Mart/Products/pressure%20washers/ingco_1800w_high_pressure_washer.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310914/Astonic-Mart/Products/pressure%20washers/ingco_1800w_high_pressure_washer.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310914/Astonic-Mart/Products/pressure%20washers/ingco_1800w_high_pressure_washer.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310914/Astonic-Mart/Products/pressure%20washers/ingco_1800w_high_pressure_washer.jpg-4.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310914/Astonic-Mart/Products/pressure%20washers/ingco_1800w_high_pressure_washer.jpg-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310914/Astonic-Mart/Products/pressure%20washers/ingco_1800w_high_pressure_washer.jpg-6.jpeg'
         ],
 
         videos: [],
@@ -3514,12 +3513,12 @@ Accessories
         discountPrice: 170000,
 
         images: [
-            'assets/img/pressure washers/total high pw tgt11356 carbon brush 1800w.jpg',
-            'assets/img/pressure washers/total high pw tgt11356 carbon brush 1800w.jpg-2.jpg',
-            'assets/img/pressure washers/total high pw tgt11356 carbon brush 1800w.jpg-3.webp',
-            'assets/img/pressure washers/total high pw tgt11356 carbon brush 1800w.jpg-4.jpg',
-            'assets/img/pressure washers/total high pw tgt11356 carbon brush 1800w.jpg-5.jpg',
-            'assets/img/pressure washers/total high pw tgt11356 carbon brush 1800w.jpg-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311219/Astonic-Mart/Products/pressure%20washers/total_high_pw_tgt11356_carbon_brush_1800w.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311220/Astonic-Mart/Products/pressure%20washers/total_high_pw_tgt11356_carbon_brush_1800w.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311222/Astonic-Mart/Products/pressure%20washers/total_high_pw_tgt11356_carbon_brush_1800w.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311225/Astonic-Mart/Products/pressure%20washers/total_high_pw_tgt11356_carbon_brush_1800w.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311219/Astonic-Mart/Products/pressure%20washers/total_high_pw_tgt11356_carbon_brush_1800w.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311219/Astonic-Mart/Products/pressure%20washers/total_high_pw_tgt11356_carbon_brush_1800w.jpg-6.jpg'
         ],
 
         videos: [],
@@ -3595,11 +3594,11 @@ Accessories
 
 
         images: [
-            'assets/img/brushcutters/3t brusch cutter blade.jpg-5.webp',
-            'assets/img/brushcutters/3t brusch cutter blade.jpg-2.jpg',
-            'assets/img/brushcutters/3t brusch cutter blade.jpg',
-            'assets/img/brushcutters/3t brusch cutter blade-3.jpg',
-            'assets/img/brushcutters/3t brusch cutter blade.jpg-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304452/Astonic-Mart/Products/brushcutters/3t_brusch_cutter_blade.jpg-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304448/Astonic-Mart/Products/brushcutters/3t_brusch_cutter_blade.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304448/Astonic-Mart/Products/brushcutters/3t_brusch_cutter_blade.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304453/Astonic-Mart/Products/brushcutters/3t_brusch_cutter_blade-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304448/Astonic-Mart/Products/brushcutters/3t_brusch_cutter_blade.jpg-4.webp'
         ],
 
         videos: [],
@@ -3666,10 +3665,10 @@ Accessories
         price: 530000,
 
         images: [
-            'assets/img/lawn mowers/Briggs & Stratton LAWN MOWER 5HP-4.jpg',
-            'assets/img/lawn mowers/Briggs & Stratton LAWN MOWER 5HP-3.jpeg',
-            'assets/img/lawn mowers/Briggs & Stratton LAWN MOWER 5HP-2.jpg',
-            'assets/img/lawn mowers/Briggs & Stratton LAWN MOWER 5HP.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331742/Astonic-Mart/Products/lawn%20mowers/Briggs_and_Stratton_LAWN_MOWER_5HP-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331742/Astonic-Mart/Products/lawn%20mowers/Briggs_and_Stratton_LAWN_MOWER_5HP-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331742/Astonic-Mart/Products/lawn%20mowers/Briggs_and_Stratton_LAWN_MOWER_5HP-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331742/Astonic-Mart/Products/lawn%20mowers/Briggs_and_Stratton_LAWN_MOWER_5HP.jpg',
         ],
 
         inStock: true,
@@ -3721,9 +3720,9 @@ Designed for ease of operation, the mower incorporates an ergonomic handle, adju
         price: 165000,
 
         images: [
-            'assets/img/brushcutters/Worxflex WFBC430 Brush Cutter.jpg',
-            'assets/img/brushcutters/Worxflex WFBC430 Brush Cutter-2.jpg',
-            'assets/img/brushcutters/Worxflex WFBC430 Brush Cutter.jpg-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304526/Astonic-Mart/Products/brushcutters/Worxflex_WFBC430_Brush_Cutter.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304529/Astonic-Mart/Products/brushcutters/Worxflex_WFBC430_Brush_Cutter-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304526/Astonic-Mart/Products/brushcutters/Worxflex_WFBC430_Brush_Cutter.jpg-3.jpg'
         ],
 
         inStock: true,
@@ -3778,13 +3777,13 @@ Suitable for farms, estates, gardens, road maintenance and commercial landscapin
         price: 185000,
 
         images: [
-            'assets/img/pressure washers/INGCO Cordless Pw (CPWLI20082).jpg',
-            'assets/img/pressure washers/INGCO Cordless Pw (CPWLI20082).jpg-2.jpg',
-            'assets/img/pressure washers/INGCO Cordless Pw (CPWLI20082).jpg-3.jpg',
-            'assets/img/pressure washers/INGCO Cordless Pw (CPWLI20082).jpg-4.jpg',
-            'assets/img/pressure washers/INGCO Cordless Pw (CPWLI20082).jpg-5.jpg',
-            'assets/img/pressure washers/INGCO Cordless Pw (CPWLI20082).jpg-6.jpg',
-            'assets/img/pressure washers/INGCO Cordless Pw (CPWLI20082).jpg-7.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310950/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20082.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310951/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20082.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310952/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20082.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310950/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20082.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310950/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20082.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310950/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20082.jpg-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310950/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20082.jpg-7.jpeg'
 
         ],
 
@@ -3836,12 +3835,12 @@ Suitable for farms, estates, gardens, road maintenance and commercial landscapin
         price: 145000,
 
         images: [
-            'assets/img/pressure washers/INGCO  Cordless Pw CPWLI20362.png',
-            'assets/img/pressure washers/INGCO  Cordless Pw CPWLI20362.png-2.jpg',
-            'assets/img/pressure washers/INGCO  Cordless Pw CPWLI20362.png-3.jpg',
-            'assets/img/pressure washers/INGCO  Cordless Pw CPWLI20362.png-4.jpg',
-            'assets/img/pressure washers/INGCO  Cordless Pw CPWLI20362.png-5.jpg',
-            'assets/img/pressure washers/INGCO  Cordless Pw CPWLI20362.png-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310872/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20362.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310873/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20362.png-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310872/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20362.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310875/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20362.png-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310877/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20362.png-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310872/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20362.jpg-6.jpg'
         ],
 
         inStock: true,
@@ -3895,7 +3894,7 @@ Suitable for farms, estates, gardens, road maintenance and commercial landscapin
         power: '6.5HP',
 
         images: [
-            'assets/img/pressure washers/maxmech pressure washers PW200.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311165/Astonic-Mart/Products/pressure%20washers/maxmech_pressure_washers_PW200.jpg'
         ],
 
         inStock: false,
@@ -3954,9 +3953,9 @@ The MAXMECH PW200 is equipped with a durable axial pump system, high-pressure ho
         power: '7HP',
 
         images: [
-            'assets/img/pressure washers/maxmech pressure washers PW210-2.png',
-            'assets/img/pressure washers/maxmech pressure washers PW210.jpg',
-            'assets/img/pressure washers/maxmech pressure washers PW210.jpg-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311188/Astonic-Mart/Products/pressure%20washers/maxmech_pressure_washers_PW210-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311167/Astonic-Mart/Products/pressure%20washers/maxmech_pressure_washers_PW210.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311167/Astonic-Mart/Products/pressure%20washers/maxmech_pressure_washers_PW210.jpg-3.jpg'
         ],
 
         inStock: true,
@@ -4017,11 +4016,11 @@ The MAXMECH PW210 is equipped with a durable high-pressure pump system, reinforc
         discountPrice: 185000,
 
         images: [
-            'assets/img/pressure washers/Total High-Pressure Washer 1500W- TGT11236-6.jpg',
-            'assets/img/pressure washers/Total High-Pressure Washer 1500W- TGT11236-5.jpg',
-            'assets/img/pressure washers/Total High-Pressure Washer 1500W- TGT11236-3.jpeg',
-            'assets/img/pressure washers/Total High-Pressure Washer 1500W- TGT11236-4.jpg',
-            'assets/img/pressure washers/Total High-Pressure Washer 1500W- TGT11236-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311235/Astonic-Mart/Products/pressure%20washers/Total_High-Pressure_Washer_1500W-_TGT11236-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311232/Astonic-Mart/Products/pressure%20washers/Total_High-Pressure_Washer_1500W-_TGT11236-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311229/Astonic-Mart/Products/pressure%20washers/Total_High-Pressure_Washer_1500W-_TGT11236-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311231/Astonic-Mart/Products/pressure%20washers/Total_High-Pressure_Washer_1500W-_TGT11236-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311228/Astonic-Mart/Products/pressure%20washers/Total_High-Pressure_Washer_1500W-_TGT11236-2.jpg'
         ],
 
         inStock: true,
@@ -4077,10 +4076,10 @@ The TOTAL TGT11236 features a durable pump system, ergonomic spray gun, pressure
         power: '1.25kW',
 
         images: [
-            'assets/img/brushcutters/ingco brush cutter 42.7cc GBC5434421.jpg-2.jpg',
-            'assets/img/brushcutters/ingco brush cutter 42.7cc GBC5434421.jpg',
-            'assets/img/brushcutters/ingco brush cutter 42.7cc GBC5434421-4.jpg',
-            'assets/img/brushcutters/ingco brush cutter 42.7cc GBC5434421-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304469/Astonic-Mart/Products/brushcutters/ingco_brush_cutter_42.7cc_GBC5434421.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304468/Astonic-Mart/Products/brushcutters/ingco_brush_cutter_42.7cc_GBC5434421.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304471/Astonic-Mart/Products/brushcutters/ingco_brush_cutter_42.7cc_GBC5434421-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304470/Astonic-Mart/Products/brushcutters/ingco_brush_cutter_42.7cc_GBC5434421-3.jpg'
         ],
 
         inStock: false,
@@ -4139,12 +4138,12 @@ The ergonomic handle design, shoulder harness, and easy-start system provide com
         power: '20V',
 
         images: [
-            'assets/img/brushcutters/ingco cordless brusch cutter CGTLI20301.jpg',
-            'assets/img/brushcutters/ingco cordless brusch cutter CGTLI20301-2.jpg',
-            'assets/img/brushcutters/ingco cordless brusch cutter CGTLI20301-3.jpg',
-            'assets/img/brushcutters/ingco cordless brusch cutter CGTLI20301-4.jpg',
-            'assets/img/brushcutters/ingco cordless brusch cutter CGTLI20301-5.jpg',
-            'assets/img/brushcutters/ingco cordless brusch cutter CGTLI20301-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304472/Astonic-Mart/Products/brushcutters/ingco_cordless_brusch_cutter_CGTLI20301.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304472/Astonic-Mart/Products/brushcutters/ingco_cordless_brusch_cutter_CGTLI20301-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304474/Astonic-Mart/Products/brushcutters/ingco_cordless_brusch_cutter_CGTLI20301-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304475/Astonic-Mart/Products/brushcutters/ingco_cordless_brusch_cutter_CGTLI20301-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304476/Astonic-Mart/Products/brushcutters/ingco_cordless_brusch_cutter_CGTLI20301-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304477/Astonic-Mart/Products/brushcutters/ingco_cordless_brusch_cutter_CGTLI20301-6.jpg'
         ],
 
         inStock: false,
@@ -4202,10 +4201,10 @@ The adjustable shaft and cutting head help users reach difficult areas around fe
         power: '1.4kW',
 
         images: [
-            'assets/img/brushcutters/TOTALbush cutter 52cc (TP5524421).jpg',
-            'assets/img/brushcutters/TOTALbush cutter 52cc (TP5524421)-2.jpg',
-            'assets/img/brushcutters/TOTALbush cutter 52cc (TP5524421)-3.jpg',
-            'assets/img/brushcutters/TOTALbush cutter 52cc (TP5524421)-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304505/Astonic-Mart/Products/brushcutters/TOTALbush_cutter_52cc_TP5524421.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304506/Astonic-Mart/Products/brushcutters/TOTALbush_cutter_52cc_TP5524421-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304509/Astonic-Mart/Products/brushcutters/TOTALbush_cutter_52cc_TP5524421-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304509/Astonic-Mart/Products/brushcutters/TOTALbush_cutter_52cc_TP5524421-4.jpg'
         ],
 
         inStock: true,
@@ -4266,10 +4265,10 @@ The ergonomic handle design, easy-start system, and shoulder strap help improve 
         power: '1.25kW',
 
         images: [
-            'assets/img/brushcutters/TOTAL Gasolibe brushcutter 42.7cc- TP5434411.jpg',
-            'assets/img/brushcutters/TOTAL Gasolibe brushcutter 42.7cc- TP5434411.jpg-2.jpg',
-            'assets/img/brushcutters/TOTAL Gasolibe brushcutter 42.7cc- TP5434411.jpg-3.jpg',
-            'assets/img/brushcutters/TOTAL Gasolibe brushcutter 42.7cc- TP5434411.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304498/Astonic-Mart/Products/brushcutters/TOTAL_Gasolibe_brushcutter_42.7cc-_TP5434411.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304499/Astonic-Mart/Products/brushcutters/TOTAL_Gasolibe_brushcutter_42.7cc-_TP5434411.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304498/Astonic-Mart/Products/brushcutters/TOTAL_Gasolibe_brushcutter_42.7cc-_TP5434411.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304498/Astonic-Mart/Products/brushcutters/TOTAL_Gasolibe_brushcutter_42.7cc-_TP5434411.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -4327,10 +4326,10 @@ The ergonomic bicycle handle design, shoulder harness, and easy-start recoil sys
         power: '3.5kW',
 
         images: [
-            'assets/img/lawn mowers/ingco lawn mower-4.8hp.jpg',
-            'assets/img/lawn mowers/ingco lawn mower-4.8hp.jpg-2.jpg',
-            'assets/img/lawn mowers/ingco lawn mower-4.8hp.jpg-3.webp',
-            'assets/img/lawn mowers/ingco lawn mower-4.8hp.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308758/Astonic-Mart/Products/lawn%20mowers/ingco_lawn_mower-4.8hp.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308759/Astonic-Mart/Products/lawn%20mowers/ingco_lawn_mower-4.8hp.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308758/Astonic-Mart/Products/lawn%20mowers/ingco_lawn_mower-4.8hp.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308758/Astonic-Mart/Products/lawn%20mowers/ingco_lawn_mower-4.8hp.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -4385,7 +4384,7 @@ The mower features a wide cutting deck, adjustable cutting height settings, and 
         power: '3.5kW',
 
         images: [
-            'assets/img/lawn mowers/ingco lawn mower-4.8hp.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308758/Astonic-Mart/Products/lawn%20mowers/ingco_lawn_mower-4.8hp.jpg'
         ],
 
         inStock: false,
@@ -4441,11 +4440,11 @@ Powered by a 196cc 4-stroke gasoline engine, the mower delivers strong cutting p
         flowRate: '8.0 L/min',
 
         images: [
-            'assets/img/pressure washers/ingco 2800w pw HPWR28008.jpg',
-            'assets/img/pressure washers/ingco 2800w pw HPWR28008.jpg-2.jpg',
-            'assets/img/pressure washers/ingco 2800w pw HPWR28008.jpg-5.jpg',
-            'assets/img/pressure washers/ingco 2800w pw HPWR28008.jpg-3.jpeg',
-            'assets/img/pressure washers/ingco 2800w pw HPWR28008.jpg-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310944/Astonic-Mart/Products/pressure%20washers/ingco_2800w_pw_HPWR28008.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310944/Astonic-Mart/Products/pressure%20washers/ingco_2800w_pw_HPWR28008.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310944/Astonic-Mart/Products/pressure%20washers/ingco_2800w_pw_HPWR28008.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310944/Astonic-Mart/Products/pressure%20washers/ingco_2800w_pw_HPWR28008.jpg-3.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310944/Astonic-Mart/Products/pressure%20washers/ingco_2800w_pw_HPWR28008.jpg-4.webp'
         ],
 
         inStock: true,
@@ -4513,12 +4512,12 @@ Suitable for professional cleaning services, industrial facilities, automotive w
         flowRate: '7.3 L/min',
 
         images: [
-            'assets/img/pressure washers/total 2800w pw.jpeg',
-            'assets/img/pressure washers/total 2800w pw.jpeg-2.avif',
-            'assets/img/pressure washers/total 2800w pw.jpeg-3.jpeg',
-            'assets/img/pressure washers/total 2800w pw.jpeg-4.webp',
-            'asassets/img/pressure washers/total 2800w pw.jpeg-5.jpeg',
-            'assets/img/pressure washers/total 2800w pw.jpeg-6.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311196/Astonic-Mart/Products/pressure%20washers/total_2800w_pw.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311196/Astonic-Mart/Products/pressure%20washers/total_2800w_pw.jpg-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311196/Astonic-Mart/Products/pressure%20washers/total_2800w_pw.jpg-3.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311196/Astonic-Mart/Products/pressure%20washers/total_2800w_pw.jpg-4.webp',
+            'ashttps://res.cloudinary.com/taus5tit/image/upload/v1786311196/Astonic-Mart/Products/pressure%20washers/total_2800w_pw.jpg-5.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311196/Astonic-Mart/Products/pressure%20washers/total_2800w_pw.jpg-6.jpeg'
         ],
 
         inStock: true,
@@ -4584,11 +4583,11 @@ The washer features a durable copper pump system, high-pressure steel-wired hose
         flowRate: '6.7 L/min',
 
         images: [
-            'assets/img/pressure washers/ingco pw 2500w HPWR25008.jpg',
-            'assets/img/pressure washers/ingco pw 2500w HPWR25008.jpg-2.webp',
-            'assets/img/pressure washers/ingco pw 2500w HPWR25008.jpg-3.jpeg',
-            'assets/img/pressure washers/ingco pw 2500w HPWR25008.jpg-4.jpg',
-            'assets/img/pressure washers/ingco pw 2500w HPWR25008.jpg-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310986/Astonic-Mart/Products/pressure%20washers/ingco_pw_2500w_HPWR25008.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310986/Astonic-Mart/Products/pressure%20washers/ingco_pw_2500w_HPWR25008.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310986/Astonic-Mart/Products/pressure%20washers/ingco_pw_2500w_HPWR25008.jpg-3.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310991/Astonic-Mart/Products/pressure%20washers/ingco_pw_2500w_HPWR25008.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310986/Astonic-Mart/Products/pressure%20washers/ingco_pw_2500w_HPWR25008.jpg-5.jpg'
         ],
 
         inStock: true,
@@ -4649,13 +4648,13 @@ The washer features a durable copper pump system, steel-wired high-pressure hose
         flowRate: '6.5-6.7 L/min',
 
         images: [
-            'assets/img/pressure washers/total pw 2500w TGT11246.jpg',
-            'assets/img/pressure washers/total pw 2500w TGT11246.jpg-2.jpg',
-            'assets/img/pressure washers/total pw 2500w TGT11246.jpg-3.jpg',
-            'assets/img/pressure washers/total pw 2500w TGT11246.jpg-4.jpg',
-            'assets/img/pressure washers/total pw 2500w TGT11246.jpg-5.jpg',
-            'assets/img/pressure washers/total pw 2500w TGT11246.jpg-6.jpg',
-            'assets/img/pressure washers/total pw 2500w TGT11246.jpg-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311237/Astonic-Mart/Products/pressure%20washers/total_pw_2500w_TGT11246.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311237/Astonic-Mart/Products/pressure%20washers/total_pw_2500w_TGT11246.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311240/Astonic-Mart/Products/pressure%20washers/total_pw_2500w_TGT11246.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311237/Astonic-Mart/Products/pressure%20washers/total_pw_2500w_TGT11246.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311237/Astonic-Mart/Products/pressure%20washers/total_pw_2500w_TGT11246.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311237/Astonic-Mart/Products/pressure%20washers/total_pw_2500w_TGT11246.jpg-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311237/Astonic-Mart/Products/pressure%20washers/total_pw_2500w_TGT11246.jpg-7.jpg'
         ],
 
         inStock: false,
@@ -4712,11 +4711,11 @@ Its copper pump system and steel-wired hose ensure durability and reliable perfo
         discountPrice: 375000,
 
         images: [
-            'assets/img/pressure washers/Lingben pw.webp-2.png',
-            'assets/img/pressure washers/Lingben pw.webp-3.jpg',
-            'assets/img/pressure washers/Lingben pw.webp-4.jpg',
-            'assets/img/pressure washers/Lingben pw.webp-5.jpg',
-            'assets/img/pressure washers/Lingben pw.webp-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311019/Astonic-Mart/Products/pressure%20washers/Lingben_pw.webp-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311021/Astonic-Mart/Products/pressure%20washers/Lingben_pw.webp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311023/Astonic-Mart/Products/pressure%20washers/Lingben_pw.webp-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311024/Astonic-Mart/Products/pressure%20washers/Lingben_pw.webp-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311026/Astonic-Mart/Products/pressure%20washers/Lingben_pw.webp-6.jpg'
         ],
 
         inStock: true,
@@ -4799,12 +4798,12 @@ Powered by a reliable 7HP 4-stroke gasoline engine, the machine delivers strong 
         discountPrice: 0,
 
         images: [
-            'assets/img/brushcutters/aluminium brush cutter head.webp',
-            'assets/img/brushcutters/aluminium brush cutter head.webp-2.webp',
-            'assets/img/brushcutters/aluminium brush cutter head.webp-3.jpg',
-            'assets/img/brushcutters/aluminium brush cutter head.webp-4.jpg',
-            'assets/img/brushcutters/aluminium brush cutter head.webp-6.jpg',
-            'assets/img/brushcutters/aluminium brush cutter head.webp-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304454/Astonic-Mart/Products/brushcutters/aluminium_brush_cutter_head.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304454/Astonic-Mart/Products/brushcutters/aluminium_brush_cutter_head.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304454/Astonic-Mart/Products/brushcutters/aluminium_brush_cutter_head.webp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304454/Astonic-Mart/Products/brushcutters/aluminium_brush_cutter_head.webp-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304454/Astonic-Mart/Products/brushcutters/aluminium_brush_cutter_head.webp-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304454/Astonic-Mart/Products/brushcutters/aluminium_brush_cutter_head.webp-5.jpg'
         ],
 
         inStock: true,
@@ -4853,12 +4852,12 @@ Powered by a reliable 7HP 4-stroke gasoline engine, the machine delivers strong 
 
 
         images: [
-            'assets/img/brushcutters/plastic brush cutter head-2.jpg',
-            'assets/img/brushcutters/plastic brush cutter head.jpg',
-            'assets/img/brushcutters/plastic brush cutter head-3.jpg',
-            'assets/img/brushcutters/plastic brush cutter head-4.jpg',
-            'assets/img/brushcutters/plastic brush cutter head-5.jpg',
-            'assets/img/brushcutters/plastic brush cutter head-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304489/Astonic-Mart/Products/brushcutters/plastic_brush_cutter_head-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304488/Astonic-Mart/Products/brushcutters/plastic_brush_cutter_head.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304490/Astonic-Mart/Products/brushcutters/plastic_brush_cutter_head-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304492/Astonic-Mart/Products/brushcutters/plastic_brush_cutter_head-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304493/Astonic-Mart/Products/brushcutters/plastic_brush_cutter_head-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304494/Astonic-Mart/Products/brushcutters/plastic_brush_cutter_head-6.jpg'
         ],
 
         inStock: true,
@@ -4907,9 +4906,9 @@ Powered by a reliable 7HP 4-stroke gasoline engine, the machine delivers strong 
 
         images: [
 
-            'assets/img/pressure washers/workflex gasoline PW 8hp-2.jpg',
-            'assets/img/pressure washers/workflex gasoline PW 8hp-3.jpg',
-            'assets/img/pressure washers/workflex gasoline PW 8hp.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311276/Astonic-Mart/Products/pressure%20washers/workflex_gasoline_PW_8hp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311281/Astonic-Mart/Products/pressure%20washers/workflex_gasoline_PW_8hp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311272/Astonic-Mart/Products/pressure%20washers/workflex_gasoline_PW_8hp.jpg'
         ],
 
         inStock: true,
@@ -4962,11 +4961,11 @@ Powered by a reliable 7HP 4-stroke gasoline engine, the machine delivers strong 
         discountPrice: 99000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/TVLI2001 Li-ion Vacuum Cleaner-2.jpeg',
-            'assets/img/vacuum cleaners and hoses/TVLI2001 Li-ion Vacuum Cleaner.jpg',
-            'assets/img/vacuum cleaners and hoses/TVLI2001 Li-ion Vacuum Cleaner-3.jpg',
-            'assets/img/vacuum cleaners and hoses/TVLI2001 Li-ion Vacuum Cleaner-4.jpg',
-            'assets/img/vacuum cleaners and hoses/TVLI2001 Li-ion Vacuum Cleaner.jpg-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330292/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TVLI2001_Li-ion_Vacuum_Cleaner-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330298/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TVLI2001_Li-ion_Vacuum_Cleaner.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330292/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TVLI2001_Li-ion_Vacuum_Cleaner-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330292/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TVLI2001_Li-ion_Vacuum_Cleaner-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330298/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TVLI2001_Li-ion_Vacuum_Cleaner.jpg-5.webp'
         ],
 
         inStock: true,
@@ -5031,14 +5030,14 @@ Powered by a reliable 7HP 4-stroke gasoline engine, the machine delivers strong 
         ],
 
         images: [
-            'assets/img/brushcutters/trimmer lines.jpg',
-            'assets/img/brushcutters/trimmer lines.jpg-2.jpg',
-            'assets/img/brushcutters/trimmer lines.jpg-3.jpg',
-            'assets/img/brushcutters/trimmer lines.jpg-4.jpg',
-            'assets/img/brushcutters/trimmer lines.jpg-5.jpg',
-            'assets/img/brushcutters/trimmer lines.jpg-6.jpg',
-            'assets/img/brushcutters/trimmer lines.jpg-7.jpg',
-            'assets/img/brushcutters/trimmer lines.jpg-8.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304515/Astonic-Mart/Products/brushcutters/trimmer_lines.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304515/Astonic-Mart/Products/brushcutters/trimmer_lines.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304516/Astonic-Mart/Products/brushcutters/trimmer_lines.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304515/Astonic-Mart/Products/brushcutters/trimmer_lines.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304515/Astonic-Mart/Products/brushcutters/trimmer_lines.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304515/Astonic-Mart/Products/brushcutters/trimmer_lines.jpg-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304515/Astonic-Mart/Products/brushcutters/trimmer_lines.jpg-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304515/Astonic-Mart/Products/brushcutters/trimmer_lines.jpg-8.jpg'
         ],
 
 
@@ -5096,9 +5095,9 @@ Reliable cutting performance in demanding conditions
         price: 200000,
 
         images: [
-            'assets/img/farm equipment/4 Stroke Backpack brush cutter.avif',
-            'assets/img/farm equipment/4 Stroke Backpack brush cutter-2.avif',
-            'assets/img/farm equipment/4 Stroke Backpack Weeder and Tiller Brush Cutter-2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306463/Astonic-Mart/Products/farm%20equipment/4_Stroke_Backpack_brush_cutter.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306464/Astonic-Mart/Products/farm%20equipment/4_Stroke_Backpack_brush_cutter-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306467/Astonic-Mart/Products/farm%20equipment/4_Stroke_Backpack_Weeder_and_Tiller_Brush_Cutter-2.webp'
 
         ],
 
@@ -5179,10 +5178,10 @@ User Manual
         price: 225000,
 
         images: [
-            'assets/img/farm equipment/4 Stroke Backpack Weeder and Tiller Brush Cutter.webp',
-            'assets/img/farm equipment/4 Stroke Backpack Weeder and Tiller Brush Cutter-2.webp',
-            'assets/img/farm equipment/4 Stroke Backpack Weeder and Tiller Brush Cutter3.webp',
-            'assets/img/farm equipment/4 Stroke Backpack Weeder and Tiller Brush Cutter-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306466/Astonic-Mart/Products/farm%20equipment/4_Stroke_Backpack_Weeder_and_Tiller_Brush_Cutter.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306467/Astonic-Mart/Products/farm%20equipment/4_Stroke_Backpack_Weeder_and_Tiller_Brush_Cutter-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306469/Astonic-Mart/Products/farm%20equipment/4_Stroke_Backpack_Weeder_and_Tiller_Brush_Cutter3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306470/Astonic-Mart/Products/farm%20equipment/4_Stroke_Backpack_Weeder_and_Tiller_Brush_Cutter-4.webp'
         ],
 
         inStock: true,
@@ -5264,9 +5263,9 @@ User Manual
         price: 55000,
 
         images: [
-            'assets/img/farm equipment/tiller head-1.jpeg',
-            'assets/img/farm equipment/tiller head-2.jpeg',
-            'assets/img/farm equipment/tiller head.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306520/Astonic-Mart/Products/farm%20equipment/tiller_head-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306521/Astonic-Mart/Products/farm%20equipment/tiller_head-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306518/Astonic-Mart/Products/farm%20equipment/tiller_head.jpg'
         ],
 
         inStock: true,
@@ -5306,9 +5305,9 @@ Long service life
         price: 55000,
 
         images: [
-            'assets/img/farm equipment/weeder  head.jpg',
-            'assets/img/farm equipment/weeder  head-2.jpg',
-            'assets/img/farm equipment/weeder  head-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306526/Astonic-Mart/Products/farm%20equipment/weeder_head.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306527/Astonic-Mart/Products/farm%20equipment/weeder_head-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306528/Astonic-Mart/Products/farm%20equipment/weeder_head-3.jpg'
         ],
 
         inStock: true,
@@ -5348,12 +5347,12 @@ Professional agricultural accessory
         price: 2300000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD3.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD3-2.jpeg',
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD3-3.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD3-4.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD3-5.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher se 400 plus vc.jpg-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330226/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330228/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD3-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330228/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD3-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330228/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD3-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330228/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD3-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330214/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_se_400_plus_vc.jpg-6.jpg'
         ],
 
         inStock: true,
@@ -5432,12 +5431,12 @@ User Manual
         price: 185000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD2-1.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD2-2.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD2-3.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD2-4.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD3-5.jpg',
-            'assets/img/vacuum cleaners and hoses/karcher vacuum cleaner WD2-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330220/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD2-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330224/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD2-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330224/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD2-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330224/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD2-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330228/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD3-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330225/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/karcher_vacuum_cleaner_WD2-6.jpg'
         ],
 
         inStock: true,
@@ -5518,9 +5517,9 @@ User Manual
         discountPrice: 60000,
 
         images: [
-            'assets/img/vacuum cleaners and hoses/Ingco CVLI2026  vacuum cleaner 11.1v.webp',
-            'assets/img/vacuum cleaners and hoses/Ingco CVLI2026  vacuum cleaner 11.1v-2.webp',
-            'assets/img/vacuum cleaners and hoses/Ingco CVLI2026  vacuum cleaner 11.1v-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330197/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/Ingco_CVLI2026_vacuum_cleaner_11.1v.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330197/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/Ingco_CVLI2026_vacuum_cleaner_11.1v-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330201/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/Ingco_CVLI2026_vacuum_cleaner_11.1v-3.webp',
         ],
 
         model: 'CVLI2026',
@@ -5591,9 +5590,9 @@ User Manual
         inStock: true,
 
         images: [
-            'assets/img/garden sprinklers/Whirling Impact Rotating Sprinkler With Connector.webp',
-            'assets/img/garden sprinklers/Whirling Impact Rotating Sprinkler With Connector-2.webp',
-            'assets/img/garden sprinklers/Whirling Impact Rotating Sprinkler With Connector-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306729/Astonic-Mart/Products/garden%20sprinklers/Whirling_Impact_Rotating_Sprinkler_With_Connector.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306730/Astonic-Mart/Products/garden%20sprinklers/Whirling_Impact_Rotating_Sprinkler_With_Connector-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306731/Astonic-Mart/Products/garden%20sprinklers/Whirling_Impact_Rotating_Sprinkler_With_Connector-3.webp'
         ],
 
         description: `The Unic Whirling Impact Rotating Sprinkler is designed for efficient lawn, garden, and agricultural irrigation. Its impact-driven rotating mechanism provides uniform water distribution over a wide area, while the included hose connector ensures quick and easy installation.`,
@@ -5643,13 +5642,13 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'assets/img/garden sprinklers/Garden Automatic sprinkler 360.jpg',
-            'assets/img/garden sprinklers/Garden Automatic sprinkler 360-2.jpg',
-            'assets/img/garden sprinklers/Garden Automatic sprinkler 360-3.jpg',
-            'assets/img/garden sprinklers/Garden Automatic sprinkler 360-4.jpg',
-            'assets/img/garden sprinklers/Garden Automatic sprinkler 360-5.jpg',
-            'assets/img/garden sprinklers/Garden Automatic sprinkler 360-6.jpg',
-            'assets/img/garden sprinklers/Garden Automatic sprinkler 360-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306719/Astonic-Mart/Products/garden%20sprinklers/Garden_Automatic_sprinkler_360.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306721/Astonic-Mart/Products/garden%20sprinklers/Garden_Automatic_sprinkler_360-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306722/Astonic-Mart/Products/garden%20sprinklers/Garden_Automatic_sprinkler_360-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306723/Astonic-Mart/Products/garden%20sprinklers/Garden_Automatic_sprinkler_360-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306725/Astonic-Mart/Products/garden%20sprinklers/Garden_Automatic_sprinkler_360-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306726/Astonic-Mart/Products/garden%20sprinklers/Garden_Automatic_sprinkler_360-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306728/Astonic-Mart/Products/garden%20sprinklers/Garden_Automatic_sprinkler_360-7.jpg'
         ],
 
         description: `The Garden Automatic Rotating Nozzle 360 Degree Rotary Sprinkler is an efficient irrigation tool designed for watering lawns, gardens, flower beds, vegetable farms, and landscaped areas. It delivers uniform water distribution through a rotating spray mechanism, helping to save water while ensuring complete coverage.`,
@@ -5700,14 +5699,14 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'assets/img/cleaning accessories/caution wet floor industrial mop bucket.jpg',
-            'assets/img/cleaning accessories/caution wet floor industrial mop bucket-2.jpg',
-            'assets/img/cleaning accessories/caution wet floor industrial mop bucket-3.jpg',
-            'assets/img/cleaning accessories/caution wet floor industrial mop bucket-4.jpg',
-            'assets/img/cleaning accessories/caution wet floor industrial mop bucket-5.jpg',
-            'assets/img/cleaning accessories/caution wet floor industrial mop bucket-6.jpg',
-            'assets/img/cleaning accessories/caution wet floor industrial mop bucket-7.jpg',
-            'assets/img/cleaning accessories/caution wet floor industrial mop bucket-8.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305266/Astonic-Mart/Products/cleaning%20accessories/caution_wet_floor_industrial_mop_bucket.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305267/Astonic-Mart/Products/cleaning%20accessories/caution_wet_floor_industrial_mop_bucket-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305268/Astonic-Mart/Products/cleaning%20accessories/caution_wet_floor_industrial_mop_bucket-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305311/Astonic-Mart/Products/cleaning%20accessories/caution_wet_floor_industrial_mop_bucket-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305313/Astonic-Mart/Products/cleaning%20accessories/caution_wet_floor_industrial_mop_bucket-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305315/Astonic-Mart/Products/cleaning%20accessories/caution_wet_floor_industrial_mop_bucket-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305317/Astonic-Mart/Products/cleaning%20accessories/caution_wet_floor_industrial_mop_bucket-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305318/Astonic-Mart/Products/cleaning%20accessories/caution_wet_floor_industrial_mop_bucket-8.jpg'
         ],
 
         description: `
@@ -5762,11 +5761,11 @@ Accessories Included:
         power: '2000W',
 
         images: [
-            'assets/img/pressure washers/INGCO High PW 2000W (HPWR20018) carbon brush.jpg',
-            'assets/img/pressure washers/INGCO High PW 2000W (HPWR20018) carbon brush-2.jpg',
-            'assets/img/pressure washers/INGCO High PW 2000W (HPWR20018) carbon brush-3.jpg',
-            'assets/img/pressure washers/INGCO High Pw 2000W (HPWR20008) induction motor-5.jpg',
-            'assets/img/pressure washers/INGCO High PW 2000W (HPWR20018) carbon brush-4.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310981/Astonic-Mart/Products/pressure%20washers/INGCO_High_PW_2000W_HPWR20018_carbon_brush.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310983/Astonic-Mart/Products/pressure%20washers/INGCO_High_PW_2000W_HPWR20018_carbon_brush-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310984/Astonic-Mart/Products/pressure%20washers/INGCO_High_PW_2000W_HPWR20018_carbon_brush-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310977/Astonic-Mart/Products/pressure%20washers/INGCO_High_Pw_2000W_HPWR20008_induction_motor-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310985/Astonic-Mart/Products/pressure%20washers/INGCO_High_PW_2000W_HPWR20018_carbon_brush-4.jpg'
         ],
 
         description: 'The INGCO HPWR20018 High Pressure Washer is a powerful cleaning machine equipped with a 2000W carbon brush motor. It delivers up to 160 Bar pressure, making it suitable for vehicle washing, workshop cleaning, building maintenance, outdoor surfaces, and general industrial cleaning applications.',
@@ -5824,12 +5823,12 @@ User Manual
         power: '2000W',
 
         images: [
-            'assets/img/pressure washers/INGCO High Pw 2000W (HPWR20008) induction motor-1.webp',
-            'assets/img/pressure washers/INGCO High Pw 2000W (HPWR20008) induction motor-3.jpg',
-            'assets/img/pressure washers/INGCO High Pw 2000W (HPWR20008) induction motor-4.jpg',
-            'assets/img/pressure washers/INGCO High Pw 2000W (HPWR20008) induction motor-5.jpg',
-            'assets/img/pressure washers/INGCO High Pw 2000W (HPWR20008) induction motor-6.jpg',
-            'assets/img/pressure washers/INGCO High Pw 2000W (HPWR20008) induction motor-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310974/Astonic-Mart/Products/pressure%20washers/INGCO_High_Pw_2000W_HPWR20008_induction_motor-1.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310975/Astonic-Mart/Products/pressure%20washers/INGCO_High_Pw_2000W_HPWR20008_induction_motor-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310976/Astonic-Mart/Products/pressure%20washers/INGCO_High_Pw_2000W_HPWR20008_induction_motor-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310977/Astonic-Mart/Products/pressure%20washers/INGCO_High_Pw_2000W_HPWR20008_induction_motor-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310979/Astonic-Mart/Products/pressure%20washers/INGCO_High_Pw_2000W_HPWR20008_induction_motor-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310980/Astonic-Mart/Products/pressure%20washers/INGCO_High_Pw_2000W_HPWR20008_induction_motor-7.jpg'
         ],
 
         description: 'The INGCO HPWR20008 High Pressure Washer is a professional cleaning machine powered by a 2000W copper wire induction motor. It delivers up to 150 Bar pressure, making it suitable for vehicle washing, workshop cleaning, construction equipment maintenance, driveways, and industrial cleaning applications.',
@@ -5885,14 +5884,14 @@ User Manual
         discountPrice: 670000,
 
         images: [
-            'assets/img/lawn mowers/total cordless lawn mower tlmli20186-1.jpg',
-            'assets/img/lawn mowers/total cordless lawn mower tlmli20186.jpg',
-            'assets/img/lawn mowers/total cordless lawn mower tlmli20186-2.jpg',
-            'assets/img/lawn mowers/total cordless lawn mower tlmli20186-3.jpg',
-            'assets/img/lawn mowers/total cordless lawn mower tlmli20186-4.webp',
-            'assets/img/lawn mowers/total cordless lawn mower tlmli20186-5.jpeg',
-            'assets/img/lawn mowers/total cordless lawn mower tlmli20186-6.jpg',
-            'assets/img/lawn mowers/total cordless lawn mower tlmli20186-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308774/Astonic-Mart/Products/lawn%20mowers/total_cordless_lawn_mower_tlmli20186-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308772/Astonic-Mart/Products/lawn%20mowers/total_cordless_lawn_mower_tlmli20186.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308775/Astonic-Mart/Products/lawn%20mowers/total_cordless_lawn_mower_tlmli20186-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308776/Astonic-Mart/Products/lawn%20mowers/total_cordless_lawn_mower_tlmli20186-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308779/Astonic-Mart/Products/lawn%20mowers/total_cordless_lawn_mower_tlmli20186-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308780/Astonic-Mart/Products/lawn%20mowers/total_cordless_lawn_mower_tlmli20186-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308781/Astonic-Mart/Products/lawn%20mowers/total_cordless_lawn_mower_tlmli20186-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308782/Astonic-Mart/Products/lawn%20mowers/total_cordless_lawn_mower_tlmli20186-7.jpg'
         ],
 
         description:
@@ -5964,9 +5963,9 @@ User Manual
         discountPrice: 480000,
 
         images: [
-            'assets/img/pressure washers/Makalita MT-2800 High Pressure Washer.png',
-            'assets/img/pressure washers/Makalita MT-2800 High Pressure Washer-2.png',
-            'assets/img/pressure washers/Makalita MT-2800 High Pressure Washer-3.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311099/Astonic-Mart/Products/pressure%20washers/Makalita_MT-2800_High_Pressure_Washer.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311121/Astonic-Mart/Products/pressure%20washers/Makalita_MT-2800_High_Pressure_Washer-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311162/Astonic-Mart/Products/pressure%20washers/Makalita_MT-2800_High_Pressure_Washer-3.png'
         ],
 
         description: 'The Makalita MT-2800 High Pressure Washer is a portable wheeled cleaning machine designed for vehicle washing, workshop cleaning, driveway maintenance, agricultural applications and industrial cleaning tasks. It features a heavy-duty pump system, long hose assembly and multiple accessories for efficient cleaning.',
@@ -6026,13 +6025,13 @@ User Manual
         price: 93600,
 
         images: [
-            'assets/img/pressure and water pumps/pressure washer pumps.webp',
-            'assets/img/pressure and water pumps/pressure washer pumps-2.jpg',
-            'assets/img/pressure and water pumps/pressure washer pumps-3.jpg',
-            'assets/img/pressure and water pumps/pressure washer pumps-4.jpg',
-            'assets/img/pressure and water pumps/pressure washer pumps-5.jpg',
-            'assets/img/pressure and water pumps/pressure washer pumps-6.jpg',
-            'assets/img/pressure and water pumps/pressure washer pumps-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310698/Astonic-Mart/Products/pressure%20and%20water%20pumps/pressure_washer_pumps.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310701/Astonic-Mart/Products/pressure%20and%20water%20pumps/pressure_washer_pumps-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310705/Astonic-Mart/Products/pressure%20and%20water%20pumps/pressure_washer_pumps-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310709/Astonic-Mart/Products/pressure%20and%20water%20pumps/pressure_washer_pumps-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310712/Astonic-Mart/Products/pressure%20and%20water%20pumps/pressure_washer_pumps-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310715/Astonic-Mart/Products/pressure%20and%20water%20pumps/pressure_washer_pumps-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310718/Astonic-Mart/Products/pressure%20and%20water%20pumps/pressure_washer_pumps-7.jpg'
 
 
         ],
@@ -6103,10 +6102,10 @@ User Manual
         price: 6500,
 
         images: [
-            'assets/img/pressure washers/Garden Hose Quick Connector Set (3PCS)-1.png',
-            'assets/img/pressure washers/Garden Hose Quick Connector Set (3PCS).jpg',
-            'assets/img/pressure washers/Garden Hose Quick Connector Set (3PCS)-2.jpg',
-            'assets/img/pressure washers/Garden Hose Quick Connector Set (3PCS)-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310864/Astonic-Mart/Products/pressure%20washers/Garden_Hose_Quick_Connector_Set_3PCS-1.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310848/Astonic-Mart/Products/pressure%20washers/Garden_Hose_Quick_Connector_Set_3PCS.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310865/Astonic-Mart/Products/pressure%20washers/Garden_Hose_Quick_Connector_Set_3PCS-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310866/Astonic-Mart/Products/pressure%20washers/Garden_Hose_Quick_Connector_Set_3PCS-3.jpg'
         ],
 
         description:
@@ -6157,12 +6156,12 @@ Accessories Included:
         price: 19500,
 
         images: [
-            'assets/img/pressure washers/PW Garden Hose Spray Nozzle Set with Quick Connectors (C).jpg',
-            'assets/img/pressure washers/PW Garden Hose Spray Nozzle Set with Quick Connectors (C)-2.jpg',
-            'assets/img/pressure washers/PW Garden Hose Spray Nozzle Set with Quick Connectors (C)-3.jpg',
-            'assets/img/pressure washers/PW Garden Hose Spray Nozzle Set with Quick Connectors (C)-4.jpg',
-            'assets/img/pressure washers/PW Garden Hose Spray Nozzle Set with Quick Connectors (C)-5.webp',
-            'assets/img/pressure washers/PW Garden Hose Spray Nozzle Set with Quick Connectors (C)-6.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311189/Astonic-Mart/Products/pressure%20washers/PW_Garden_Hose_Spray_Nozzle_Set_with_Quick_Connectors_C.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311190/Astonic-Mart/Products/pressure%20washers/PW_Garden_Hose_Spray_Nozzle_Set_with_Quick_Connectors_C-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311192/Astonic-Mart/Products/pressure%20washers/PW_Garden_Hose_Spray_Nozzle_Set_with_Quick_Connectors_C-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311193/Astonic-Mart/Products/pressure%20washers/PW_Garden_Hose_Spray_Nozzle_Set_with_Quick_Connectors_C-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311194/Astonic-Mart/Products/pressure%20washers/PW_Garden_Hose_Spray_Nozzle_Set_with_Quick_Connectors_C-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311195/Astonic-Mart/Products/pressure%20washers/PW_Garden_Hose_Spray_Nozzle_Set_with_Quick_Connectors_C-6.webp'
         ],
 
         inStock: true,
@@ -6214,12 +6213,12 @@ Accessories Included:
         discountPrice: 18500,
 
         images: [
-            'assets/img/hose/High Pressure Garden Hose Spray Gun Set-4pcs-2.jpg',
-            'assets/img/hose/High-Pressure-Hose-Pipe-5m-Total-Pressure-Washer-Hose-Pipe-2.jpg',
-            'assets/img/hose/High-Pressure-Hose-Pipe-5m-Total-Pressure-Washer-Hose-Pipe-4.jpg',
-            'assets/img/hose/High-Pressure-Hose-Pipe-5m-Total-Pressure-Washer-Hose-Pipe-5.jpg',
-            'assets/img/hose/High-Pressure-Hose-Pipe-5m-Total-Pressure-Washer-Hose-Pipe-6.jpg',
-            'assets/img/hose/High Pressure Garden Hose Spray Gun Set-4pcs.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307799/Astonic-Mart/Products/hose/High_Pressure_Garden_Hose_Spray_Gun_Set-4pcs-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307800/Astonic-Mart/Products/hose/High-Pressure-Hose-Pipe-5m-Total-Pressure-Washer-Hose-Pipe-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307802/Astonic-Mart/Products/hose/High-Pressure-Hose-Pipe-5m-Total-Pressure-Washer-Hose-Pipe-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307803/Astonic-Mart/Products/hose/High-Pressure-Hose-Pipe-5m-Total-Pressure-Washer-Hose-Pipe-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307804/Astonic-Mart/Products/hose/High-Pressure-Hose-Pipe-5m-Total-Pressure-Washer-Hose-Pipe-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307798/Astonic-Mart/Products/hose/High_Pressure_Garden_Hose_Spray_Gun_Set-4pcs.webp',
 
         ],
 
@@ -6274,10 +6273,10 @@ Accessories Included:
 
 
         images: [
-            'assets/img/hose/adjustable lever spray gun.webp',
-            'assets/img/hose/adjustable lever spray gun-3.jpg',
-            'assets/img/hose/adjustable lever spray gun-4.jpg',
-            'assets/img/hose/adjustable lever spray gun-2.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307793/Astonic-Mart/Products/hose/adjustable_lever_spray_gun.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307795/Astonic-Mart/Products/hose/adjustable_lever_spray_gun-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307797/Astonic-Mart/Products/hose/adjustable_lever_spray_gun-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307794/Astonic-Mart/Products/hose/adjustable_lever_spray_gun-2.jpg'
         ],
 
         inStock: true,
@@ -6324,14 +6323,14 @@ Accessories Included:
         price: 15500,
 
         images: [
-            'assets/img/pressure washers/Engine Cleaning Spray Gun with 40cm Nozzle & 1.2m Siphon Hose.jpg',
-            'assets/img/pressure washers/Engine Cleaning Spray Gun with 40cm Nozzle & 1.2m Siphon Hose-2.jpg',
-            'assets/img/pressure washers/Engine Cleaning Spray Gun with 40cm Nozzle & 1.2m Siphon Hose-3.jpg',
-            'assets/img/pressure washers/Engine Cleaning Spray Gun with 40cm Nozzle & 1.2m Siphon Hose-4.jpg',
-            'assets/img/pressure washers/Engine Cleaning Spray Gun with 40cm Nozzle & 1.2m Siphon Hose-5.jpg',
-            'assets/img/pressure washers/Engine Cleaning Spray Gun with 40cm Nozzle & 1.2m Siphon Hose-6.jpg',
-            'assets/img/pressure washers/Engine Cleaning Spray Gun with 40cm Nozzle & 1.2m Siphon Hose-7.jpg',
-            'assets/img/pressure washers/Engine Cleaning Spray Gun with 40cm Nozzle & 1.2m Siphon Hose-8.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331742/Astonic-Mart/Products/pressure%20washers/Engine_Cleaning_Spray_Gun_with_40cm_Nozzle_and_1_2m_Siphon_Hose.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331745/Astonic-Mart/Products/pressure%20washers/Engine_Cleaning_Spray_Gun_with_40cm_Nozzle_and_1_2m_Siphon_Hose-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331745/Astonic-Mart/Products/pressure%20washers/Engine_Cleaning_Spray_Gun_with_40cm_Nozzle_and_1_2m_Siphon_Hose-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331745/Astonic-Mart/Products/pressure%20washers/Engine_Cleaning_Spray_Gun_with_40cm_Nozzle_and_1_2m_Siphon_Hose-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331745/Astonic-Mart/Products/pressure%20washers/Engine_Cleaning_Spray_Gun_with_40cm_Nozzle_and_1_2m_Siphon_Hose-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331745/Astonic-Mart/Products/pressure%20washers/Engine_Cleaning_Spray_Gun_with_40cm_Nozzle_and_1_2m_Siphon_Hose-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331748/Astonic-Mart/Products/pressure%20washers/Engine_Cleaning_Spray_Gun_with_40cm_Nozzle_and_1_2m_Siphon_Hose-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331748/Astonic-Mart/Products/pressure%20washers/Engine_Cleaning_Spray_Gun_with_40cm_Nozzle_and_1_2m_Siphon_Hose-8.jpg'
         ],
 
         inStock: true,
@@ -6388,14 +6387,14 @@ Accessories Included:
         discountPrice: 27000,
 
         images: [
-            'assets/img/hose/PVC Reinforced Water Hose – 50 Yards.jpeg',
-            'assets/img/hose/PVC Reinforced Water Hose – 50 Yards-2.avif',
-            'assets/img/hose/PVC Reinforced Water Hose – 50 Yards-3.webp',
-            'assets/img/hose/PVC Reinforced Water Hose – 50 Yards-4.webp',
-            'assets/img/hose/PVC Reinforced Water Hose – 50 Yards-5.webp',
-            'assets/img/hose/PVC Reinforced Water Hose – 50 Yards-6.webp',
-            'assets/img/hose/PVC Reinforced Water Hose – 50 Yards-7.jpg',
-            'assets/img/hose/PVC Reinforced Water Hose – 50 Yards.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331614/Astonic-Mart/Products/hose/PVC_Reinforced_Water_Hose_%E2%80%93_50_Yards.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331614/Astonic-Mart/Products/hose/PVC_Reinforced_Water_Hose_%E2%80%93_50_Yards-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331615/Astonic-Mart/Products/hose/PVC_Reinforced_Water_Hose_%E2%80%93_50_Yards-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331623/Astonic-Mart/Products/hose/PVC_Reinforced_Water_Hose_%E2%80%93_50_Yards-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331623/Astonic-Mart/Products/hose/PVC_Reinforced_Water_Hose_%E2%80%93_50_Yards-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331623/Astonic-Mart/Products/hose/PVC_Reinforced_Water_Hose_%E2%80%93_50_Yards-6.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331621/Astonic-Mart/Products/hose/PVC_Reinforced_Water_Hose_%E2%80%93_50_Yards-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331614/Astonic-Mart/Products/hose/PVC_Reinforced_Water_Hose_%E2%80%93_50_Yards.jpg'
         ],
 
         inStock: true,
@@ -6482,9 +6481,9 @@ Accessories Included:
         discountPrice: 150000,
 
         images: [
-            'assets/img/pressure washers/Lutian LT211G-1600 Electric High Pressure Washer.jpeg',
-            'assets/img/pressure washers/Lutian LT211G-1600 Electric High Pressure Washer-2.avif',
-            'assets/img/pressure washers/Lutian LT211G-1600 Electric High Pressure Washer-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311026/Astonic-Mart/Products/pressure%20washers/Lutian_LT211G-1600_Electric_High_Pressure_Washer.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311028/Astonic-Mart/Products/pressure%20washers/Lutian_LT211G-1600_Electric_High_Pressure_Washer-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311029/Astonic-Mart/Products/pressure%20washers/Lutian_LT211G-1600_Electric_High_Pressure_Washer-3.avif',
 
         ],
 
@@ -6538,11 +6537,11 @@ Accessories Included:
         model: 'HLT76033',
 
         images: [
-            'assets/img/garden tools/INGCO 3PCS Garden Shears Set (HLT76033).jpeg',
-            'assets/img/garden tools/INGCO 3PCS Garden Shears Set (HLT76033)-2.jpg',
-            'assets/img/garden tools/INGCO 3PCS Garden Shears Set (HLT76033)-3.jpg',
-            'assets/img/garden tools/INGCO 3PCS Garden Shears Set (HLT76033)-4.jpg',
-            'assets/img/garden tools/INGCO 3PCS Garden Shears Set (HLT76033)-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306733/Astonic-Mart/Products/garden%20tools/INGCO_3PCS_Garden_Shears_Set_HLT76033.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306735/Astonic-Mart/Products/garden%20tools/INGCO_3PCS_Garden_Shears_Set_HLT76033-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306738/Astonic-Mart/Products/garden%20tools/INGCO_3PCS_Garden_Shears_Set_HLT76033-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306740/Astonic-Mart/Products/garden%20tools/INGCO_3PCS_Garden_Shears_Set_HLT76033-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306742/Astonic-Mart/Products/garden%20tools/INGCO_3PCS_Garden_Shears_Set_HLT76033-5.jpg'
         ],
 
         inStock: true,
@@ -6607,10 +6606,10 @@ Portable and easy to store
 
         images: [
 
-            'assets/img/pressure washers/Lutian LT-718 Professional High Pressure Washer-2.webp',
-            'assets/img/pressure washers/Lutian LT-718 Professional High Pressure Washer-1.webp',
-            'assets/img/pressure washers/Lutian LT-718 Professional High Pressure Washer-4.png',
-            'assets/img/pressure washers/Lutian LT-718 Professional High Pressure Washer.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311033/Astonic-Mart/Products/pressure%20washers/Lutian_LT-718_Professional_High_Pressure_Washer-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311032/Astonic-Mart/Products/pressure%20washers/Lutian_LT-718_Professional_High_Pressure_Washer-1.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311070/Astonic-Mart/Products/pressure%20washers/Lutian_LT-718_Professional_High_Pressure_Washer-4.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311031/Astonic-Mart/Products/pressure%20washers/Lutian_LT-718_Professional_High_Pressure_Washer.jpg'
 
         ],
 
@@ -6672,11 +6671,11 @@ Accessories:
         price: 320000,
 
         images: [
-            'assets/img/hose/Retractable Oil Hose Reel- R2 1 4 inches.jpg',
-            'assets/img/hose/Retractable Oil Hose Reel- R2 1 4 inches.jpg-2.jpg',
-            'assets/img/hose/Retractable Oil Hose Reel- R2 1 4 inches.jpg-3.jpg',
-            'assets/img/hose/Retractable Oil Hose Reel- R2 1 4 inches.jpg-4.jpg',
-            'assets/img/hose/Retractable Oil Hose Reel- R2 1 4 inches.jpg-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307806/Astonic-Mart/Products/hose/Retractable_Oil_Hose_Reel-_R2_1_4_inches.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307807/Astonic-Mart/Products/hose/Retractable_Oil_Hose_Reel-_R2_1_4_inches.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307808/Astonic-Mart/Products/hose/Retractable_Oil_Hose_Reel-_R2_1_4_inches.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307809/Astonic-Mart/Products/hose/Retractable_Oil_Hose_Reel-_R2_1_4_inches.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307806/Astonic-Mart/Products/hose/Retractable_Oil_Hose_Reel-_R2_1_4_inches.jpg-5.jpg'
         ],
 
         inStock: true,
@@ -6731,7 +6730,7 @@ Package Includes:
         price: 25000,
 
         images: [
-            'assets/img/hose/2 inhes R1 Hydraulic Hose.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307792/Astonic-Mart/Products/hose/2_inhes_R1_Hydraulic_Hose.jpg'
         ],
 
         inStock: true,
@@ -6778,13 +6777,13 @@ Package Includes:
 
 
         images: [
-            'assets/img/steamer cleaners/KARCHER Steam Cleaner SC 2 EasyFix-1.jpg',
-            'assets/img/steamer cleaners/KARCHER Steam Cleaner SC 2 EasyFix-2.jpg',
-            'assets/img/steamer cleaners/KARCHER Steam Cleaner SC 2 EasyFix-3.jpg',
-            'assets/img/steamer cleaners/KARCHER Steam Cleaner SC 2 EasyFix-4.jpg',
-            'assets/img/steamer cleaners/KARCHER Steam Cleaner SC 2 EasyFix-5.jpg',
-            'assets/img/steamer cleaners/KARCHER Steam Cleaner SC 2 EasyFix-6.jpeg',
-            'assets/img/steamer cleaners/KARCHER Steam Cleaner SC 2 EasyFix.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329390/Astonic-Mart/Products/steamer%20cleaners/KARCHER_Steam_Cleaner_SC_2_EasyFix-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329390/Astonic-Mart/Products/steamer%20cleaners/KARCHER_Steam_Cleaner_SC_2_EasyFix-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329390/Astonic-Mart/Products/steamer%20cleaners/KARCHER_Steam_Cleaner_SC_2_EasyFix-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329390/Astonic-Mart/Products/steamer%20cleaners/KARCHER_Steam_Cleaner_SC_2_EasyFix-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329394/Astonic-Mart/Products/steamer%20cleaners/KARCHER_Steam_Cleaner_SC_2_EasyFix-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329392/Astonic-Mart/Products/steamer%20cleaners/KARCHER_Steam_Cleaner_SC_2_EasyFix-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329390/Astonic-Mart/Products/steamer%20cleaners/KARCHER_Steam_Cleaner_SC_2_EasyFix.jpg'
         ],
 
         description:
@@ -6837,7 +6836,7 @@ Package Includes:
         showSimilar: true,
 
         images: [
-            'assets/img/brushcutters/V-FORCE Brush Cutter Trimmer Line 2.4mm × 261m.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331621/Astonic-Mart/Products/brushcutters/V-FORCE_Brush_Cutter_Trimmer_Line_2.4mm_%C3%97_261m.jpg'
         ],
 
         inStock: true,

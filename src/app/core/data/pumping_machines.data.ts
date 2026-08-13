@@ -12,9 +12,7 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
          price: 95000, // adjust based on your market (commonly ₦80,000 - ₦120,000 in Nigeria)
     
          images: [
-           'assets/img/pressure and water pumps/Centrifugal Water Pump 0.75HP INGCO CPM5508.jpg',
-           'assets/img/tools/ingco-cpm5508-2.jpg',
-           'assets/img/tools/ingco-cpm5508-3.jpg'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786310655/Astonic-Mart/Products/pressure%20and%20water%20pumps/Centrifugal_Water_Pump_0.75HP_INGCO_CPM5508.jpg',
          ],
     
          inStock: true,
@@ -67,9 +65,7 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
          price: 70000, // adjust based on your market (commonly ₦60,000 - ₦95,000 in Nigeria)
     
          images: [
-           'assets/img/pressure and water pumps/ingco Submersible_Clean_Water_Pump_0.5HP 2.jpg',
-           'assets/img/tools/ingco-spc3702-2.jpg',
-           'assets/img/tools/ingco-spc3702-3.jpg'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786310674/Astonic-Mart/Products/pressure%20and%20water%20pumps/ingco_Submersible_Clean_Water_Pump_0.5HP_2.jpg',
          ],
     
          inStock: true,
@@ -162,13 +158,13 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
     ],
     
       images: [
-        'assets/img/vacuum pump/Stage 1 Value Vacuum Pump VE115N.jpg',
-        'assets/img/vacuum pump/Stage 1 Value Vacuum Pump VE115N-2.jpg',
-        'assets/img/vacuum pump/Stage 1 Value Vacuum Pump VE135 1by3hp.jpg',
-        'assets/img/vacuum pump/Stage 1 Value Vacuum Pump VE160 1by2hp.jpg',
-        'assets/img/vacuum pump/Stage 1 Value Vacuum Pump VE180N-3by4-2.jpeg',
-        'assets/img/vacuum pump/Stage 1 Value Vacuum Pump VE180N-3by4-3.webp',
-        'assets/img/vacuum pump/Stage 1 Value Vacuum Pump VE180N-3by4.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330308/Astonic-Mart/Products/vacuum%20pump/Stage_1_Value_Vacuum_Pump_VE115N.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330310/Astonic-Mart/Products/vacuum%20pump/Stage_1_Value_Vacuum_Pump_VE115N-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330315/Astonic-Mart/Products/vacuum%20pump/Stage_1_Value_Vacuum_Pump_VE135_1by3hp.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330313/Astonic-Mart/Products/vacuum%20pump/Stage_1_Value_Vacuum_Pump_VE160_1by2hp.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330313/Astonic-Mart/Products/vacuum%20pump/Stage_1_Value_Vacuum_Pump_VE180N-3by4-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330313/Astonic-Mart/Products/vacuum%20pump/Stage_1_Value_Vacuum_Pump_VE180N-3by4-3.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330315/Astonic-Mart/Products/vacuum%20pump/Stage_1_Value_Vacuum_Pump_VE180N-3by4.jpg'
       ],
     
       inStock: true,
@@ -234,9 +230,7 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       price: 185000, // adjust based on your market (commonly ₦160,000 - ₦250,000 in Nigeria)
     
       images: [
-        'assets/img/pressure and water pumps/INGCO Gasoline Water Pump 2inch GWP202.jpg',
-        'assets/img/tools/ingco-gwp202-2.jpg',
-        'assets/img/tools/ingco-gwp202-3.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310670/Astonic-Mart/Products/pressure%20and%20water%20pumps/INGCO_Gasoline_Water_Pump_2inch_GWP202.jpg',
       ],
     
       inStock: true,
@@ -301,7 +295,7 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
          price: 320000,
     
          images: [
-           'assets/img/pumping machines/electric fuel desiel transfer oil pump.webp'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786311378/Astonic-Mart/Products/pumping%20machines/electric_fuel_desiel_transfer_oil_pump.webp'
          ],
          inStock: true,
     
@@ -346,7 +340,7 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
          price: 320000,
     
          images: [
-           'assets/img/pumping machines/Quantitative 12 v dc 220v diesel transfer fuel pump.jpg'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786311384/Astonic-Mart/Products/pumping%20machines/Quantitative_12_v_dc_220v_diesel_transfer_fuel_pump.jpg'
          ],
     
          inStock: true,
@@ -394,7 +388,7 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
          price: 1500000,
     
          images: [
-           'assets/img/pumping machines/2 inches liquid control flow meter.jpg'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786311330/Astonic-Mart/Products/pumping%20machines/2_inches_liquid_control_flow_meter.jpg'
          ],
     
          inStock: true,
@@ -445,8 +439,8 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       discountPrice: 193000,
     
       images: [
-        'assets/img/pressure and water pumps/sumec water pump 3 inch.webp',
-        'assets/img/pressure and water pumps/sumec water pump 3 inch.webp-2.webp'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310722/Astonic-Mart/Products/pressure%20and%20water%20pumps/sumec_water_pump_3_inch.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310722/Astonic-Mart/Products/pressure%20and%20water%20pumps/sumec_water_pump_3_inch.webp-2.webp'
       ],
     
       videos: [
@@ -524,8 +518,8 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
          discountPrice: 148000,
     
          images: [
-           'assets/img/pressure and water pumps/sumec water pump 2 inch.webp',
-           'assets/img/pressure and water pumps/sumec water pump 2 inch.webp-2.webp'
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786310719/Astonic-Mart/Products/pressure%20and%20water%20pumps/sumec_water_pump_2_inch.webp',
+           'https://res.cloudinary.com/taus5tit/image/upload/v1786310721/Astonic-Mart/Products/pressure%20and%20water%20pumps/sumec_water_pump_2_inch.webp-2.webp'
          ],
     
          videos: [
@@ -601,8 +595,8 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       price: 80000,
          showSimilar: true,
       images: [
-        'assets/img/pressure and water pumps/total Water pump-twp13706-2.jpg',
-        'assets/img/pressure and water pumps/total Water pump-twp13706.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310759/Astonic-Mart/Products/pressure%20and%20water%20pumps/total_Water_pump-twp13706-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310750/Astonic-Mart/Products/pressure%20and%20water%20pumps/total_Water_pump-twp13706.jpg'
       ],
     
       inStock: true,
@@ -659,9 +653,9 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       inlet: '1 Inch',
       images: [
         
-        'assets/img/pressure and water pumps/TOTAL TWP53701 4inch Deep Well Sub Pump-2.webp',
-        'assets/img/pressure and water pumps/TOTAL TWP53701 4inch Deep Well Sub Pump.jpeg',
-        'assets/img/pressure and water pumps/TOTAL TWP53701 4inch Deep Well Sub Pump-3.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310740/Astonic-Mart/Products/pressure%20and%20water%20pumps/TOTAL_TWP53701_4inch_Deep_Well_Sub_Pump-2.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310739/Astonic-Mart/Products/pressure%20and%20water%20pumps/TOTAL_TWP53701_4inch_Deep_Well_Sub_Pump.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310742/Astonic-Mart/Products/pressure%20and%20water%20pumps/TOTAL_TWP53701_4inch_Deep_Well_Sub_Pump-3.jpg'
       ],
     
       inStock: true,
@@ -728,8 +722,8 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
     
     
       images: [
-        'assets/img/pressure and water pumps/TOTAL TWP55501 4inch Deep Well Sub Pump.jpeg',
-        'assets/img/pressure and water pumps/TOTAL TWP53701 4inch Deep Well Sub Pump-3.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310743/Astonic-Mart/Products/pressure%20and%20water%20pumps/TOTAL_TWP55501_4inch_Deep_Well_Sub_Pump.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310742/Astonic-Mart/Products/pressure%20and%20water%20pumps/TOTAL_TWP53701_4inch_Deep_Well_Sub_Pump-3.jpg'
       ],
     
       inStock: true,
@@ -798,8 +792,8 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       capacity: 'Deep Well Water Pump',
     
       images: [
-        'assets/img/pressure and water pumps/TOTAL TWP57501-1hp Well Sub Pump.webp',
-        'assets/img/pressure and water pumps/TOTAL TWP57501-1hp Well Sub Pump-2.png'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310744/Astonic-Mart/Products/pressure%20and%20water%20pumps/TOTAL_TWP57501-1hp_Well_Sub_Pump.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310749/Astonic-Mart/Products/pressure%20and%20water%20pumps/TOTAL_TWP57501-1hp_Well_Sub_Pump-2.png'
       ],
     
       inStock: true,
@@ -868,8 +862,8 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
     
     
       images: [
-        'assets/img/pressure and water pumps/TOTAL TWP511001 Deep Well Pump 1.5hp.webp',
-        'assets/img/pressure and water pumps/TOTAL TWP53701 4inch Deep Well Sub Pump-3.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310735/Astonic-Mart/Products/pressure%20and%20water%20pumps/TOTAL_TWP511001_Deep_Well_Pump_1.5hp.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310742/Astonic-Mart/Products/pressure%20and%20water%20pumps/TOTAL_TWP53701_4inch_Deep_Well_Sub_Pump-3.jpg'
       ],
     
       inStock: true,
@@ -941,8 +935,8 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       capacity: 'Deep Well Water Pump',
     
       images: [
-        'assets/img/pressure and water pumps/total twp515001 deep well sub pump-2hp.webp',
-        'assets/img/pressure and water pumps/total twp515001 deep well sub pump-2hp-2.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310736/Astonic-Mart/Products/pressure%20and%20water%20pumps/total_twp515001_deep_well_sub_pump-2hp.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786310737/Astonic-Mart/Products/pressure%20and%20water%20pumps/total_twp515001_deep_well_sub_pump-2hp-2.jpg'
          
       ],
     
@@ -1047,11 +1041,11 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       ],
     
       images: [
-        'assets/img/vacuum pump/stage 2 value vacuum pump VE235 1by2hp.jpg',
-        'assets/img/vacuum pump/stage 2 value vacuum pump VE215N 1by4.jpeg',
-        'assets/img/vacuum pump/stage 2 value vacuum pump VE260 1hp-2.jpg',
-        'assets/img/vacuum pump/stage 2 value vacuum pump VE260 1hp-2.jpg',
-        'assets/img/vacuum pump/stage 2 value vacuum pump VE225N 1by3.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330319/Astonic-Mart/Products/vacuum%20pump/stage_2_value_vacuum_pump_VE235_1by2hp.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330319/Astonic-Mart/Products/vacuum%20pump/stage_2_value_vacuum_pump_VE215N_1by4.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330319/Astonic-Mart/Products/vacuum%20pump/stage_2_value_vacuum_pump_VE260_1hp-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330319/Astonic-Mart/Products/vacuum%20pump/stage_2_value_vacuum_pump_VE260_1hp-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330321/Astonic-Mart/Products/vacuum%20pump/stage_2_value_vacuum_pump_VE225N_1by3.jpg'
       ],
     
       inStock: true,
@@ -1116,13 +1110,13 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       power: '0.15kW',
     
       images: [
-        'assets/img/vacuum pump/Electric Pressure Test Pump Testing Pump DSY-25 220V.webp',
-        'assets/img/vacuum pump/Electric Pressure Test Pump Testing Pump DSY-25 220V-2.webp',
-        'assets/img/vacuum pump/Electric Pressure Test Pump Testing Pump DSY-25 220V-3.webp',
-        'assets/img/vacuum pump/Electric Pressure Test Pump Testing Pump DSY-25 220V-4.webp',
-         'assets/img/vacuum pump/Electric Pressure Test Pump Testing Pump DSY-25 220V-5.webp',
-         'assets/img/vacuum pump/Electric Pressure Test Pump Testing Pump DSY-25 220V-6.webp',
-         'assets/img/vacuum pump/Electric Pressure Test Pump Testing Pump DSY-25 220V-7.webp'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330303/Astonic-Mart/Products/vacuum%20pump/Electric_Pressure_Test_Pump_Testing_Pump_DSY-25_220V.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330303/Astonic-Mart/Products/vacuum%20pump/Electric_Pressure_Test_Pump_Testing_Pump_DSY-25_220V-2.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330305/Astonic-Mart/Products/vacuum%20pump/Electric_Pressure_Test_Pump_Testing_Pump_DSY-25_220V-3.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786330306/Astonic-Mart/Products/vacuum%20pump/Electric_Pressure_Test_Pump_Testing_Pump_DSY-25_220V-4.webp',
+         'https://res.cloudinary.com/taus5tit/image/upload/v1786330308/Astonic-Mart/Products/vacuum%20pump/Electric_Pressure_Test_Pump_Testing_Pump_DSY-25_220V-5.webp',
+         'https://res.cloudinary.com/taus5tit/image/upload/v1786330308/Astonic-Mart/Products/vacuum%20pump/Electric_Pressure_Test_Pump_Testing_Pump_DSY-25_220V-6.webp',
+         'https://res.cloudinary.com/taus5tit/image/upload/v1786330308/Astonic-Mart/Products/vacuum%20pump/Electric_Pressure_Test_Pump_Testing_Pump_DSY-25_220V-7.webp'
       ],
     
       description: 'The DSY-25 Electric Hydraulic Pressure Test Pump is designed for pressure testing pipelines, boilers, pressure vessels, water supply systems, and industrial equipment. Powered by a 0.15kW electric motor, it provides stable hydraulic pressure for leak detection and system integrity testing.',
@@ -1179,10 +1173,10 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       discountPrice: 657000,
     
       images: [
-        'assets/img/products/bolton-water-pump-10hp-1.jpg',
-        'assets/img/products/bolton-water-pump-10hp-2.jpg',
-        'assets/img/products/bolton-water-pump-10hp-3.jpg'
-      ],
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429730/Astonic-Mart/Products/remaining-local-images/wjvy9kjbuksmjaukcnxv.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429745/Astonic-Mart/Products/remaining-local-images/pivh5ebdoegmsumd7hzh.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429755/Astonic-Mart/Products/remaining-local-images/ctmgomyf5rnps3tbew5r.png'
+        ],
     
       description: `
     The Bolton 10HP Diesel Water Pump is a heavy-duty, fuel-efficient water transfer pump designed for agricultural irrigation, construction sites, mining operations, flood control, fish ponds, and industrial water transfer. Built with a powerful diesel engine, it delivers reliable performance even in demanding environments.
@@ -1255,11 +1249,11 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       discountPrice: 770000,
     
       images: [
-        'assets/img/testing buckets/DC-60A Electric Pressure Test Pump.webp',
-        'assets/img/testing buckets/DC-60A Electric Pressure Testing Pump-2.jpeg',
-        'assets/img/testing buckets/DC-60A Electric Pressure Testing Pump-3.jpg',
-        'assets/img/testing buckets/DC-60A Electric Pressure Testing Pump-4.webp',
-        'assets/img/testing buckets/DC-60A Electric Pressure Testing Pump-5.webp'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786329590/Astonic-Mart/Products/testing%20buckets/DC-60A_Electric_Pressure_Test_Pump.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786329590/Astonic-Mart/Products/testing%20buckets/DC-60A_Electric_Pressure_Testing_Pump-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786329591/Astonic-Mart/Products/testing%20buckets/DC-60A_Electric_Pressure_Testing_Pump-3.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786329591/Astonic-Mart/Products/testing%20buckets/DC-60A_Electric_Pressure_Testing_Pump-4.webp',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786329592/Astonic-Mart/Products/testing%20buckets/DC-60A_Electric_Pressure_Testing_Pump-5.webp'
       ],
     
       inStock: true,
@@ -1315,12 +1309,12 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       price: 200000,
       showSimilar: true,
       images: [
-        'assets/img/pumping machines/12V 24V DC Electric Diesel Fuel Transfer Pump.jpg',
-        'assets/img/pumping machines/12V 24V DC Electric Diesel Fuel Transfer Pump-2.jpg',
-        'assets/img/pumping machines/12V 24V DC Electric Diesel Fuel Transfer Pump-3.jpg',
-        'assets/img/pumping machines/12V 24V DC Electric Diesel Fuel Transfer Pump-4.jpg',
-        'assets/img/pumping machines/12V 24V DC Electric Diesel Fuel Transfer Pump-5.jpg',
-        'assets/img/pumping machines/12V 24V DC Electric Diesel Fuel Transfer Pump-6.jpg'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786311283/Astonic-Mart/Products/pumping%20machines/12V_24V_DC_Electric_Diesel_Fuel_Transfer_Pump.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786311284/Astonic-Mart/Products/pumping%20machines/12V_24V_DC_Electric_Diesel_Fuel_Transfer_Pump-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786311286/Astonic-Mart/Products/pumping%20machines/12V_24V_DC_Electric_Diesel_Fuel_Transfer_Pump-3.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786311287/Astonic-Mart/Products/pumping%20machines/12V_24V_DC_Electric_Diesel_Fuel_Transfer_Pump-4.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786311288/Astonic-Mart/Products/pumping%20machines/12V_24V_DC_Electric_Diesel_Fuel_Transfer_Pump-5.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786311291/Astonic-Mart/Products/pumping%20machines/12V_24V_DC_Electric_Diesel_Fuel_Transfer_Pump-6.jpg'
       ],
     
       videos: [],
@@ -1374,8 +1368,8 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       discountPrice: 4800000,
     
       images: [
-        'assets/img/pumping machines/3 Inch Electric Moto Fuel Transfer Pump with Mechanical Flow Meter.png',
-        'assets/img/pumping machines/3 Inch Electric Moto Fuel Transfer Pump with Mechanical Flow Meter.png'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786311373/Astonic-Mart/Products/pumping%20machines/3_Inch_Electric_Moto_Fuel_Transfer_Pump_with_Mechanical_Flow_Meter.png',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786311373/Astonic-Mart/Products/pumping%20machines/3_Inch_Electric_Moto_Fuel_Transfer_Pump_with_Mechanical_Flow_Meter.png'
       ],
     
       videos: [],
@@ -1470,7 +1464,7 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       discountPrice: 3800000,
     
       images: [
-        'assets/img/pumping machines/2 Inch Electric Motor Driven Fuel Transfer Pump with Mechanical Flow Meter.png'
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786311326/Astonic-Mart/Products/pumping%20machines/2_Inch_Electric_Motor_Driven_Fuel_Transfer_Pump_with_Mechanical_Flow_Meter.png'
       ],
     
       description: `

@@ -13,10 +13,11 @@ export const WORKSHOP_AND_GARAGE_PRODUCTS: Product[] = [
         price: 1500000,
 
         images: [
-            'assets/img/tools sets/ingco tools set-328.jpg',
-            'assets/img/tools sets/ingco tools set-328-2.jpeg',
-            'assets/img/tools sets/ingco tools set-328-3.jpeg',
-            'assets/img/tools sets/ingco tools set-328-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430725/Astonic-Mart/Products/final-local-images/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03_tvsdnr.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430728/Astonic-Mart/Products/final-local-images/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-2_fre8em.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430731/Astonic-Mart/Products/final-local-images/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-3_jp1mpz.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430734/Astonic-Mart/Products/final-local-images/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-4_xu5s81.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430735/Astonic-Mart/Products/final-local-images/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-5_qb9tuz.avif'
         ],
 
         inStock: true,
@@ -65,9 +66,9 @@ Whether for workshop use, automotive repairs, industrial applications, or househ
         price: 190000,
 
         images: [
-            'assets/img/benchvice/8 inch bench vice.png',
-            'assets/img/benchvice/bench vice 8 inch.jpg',
-            'assets/img/benchvice/8 inch bench vice-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304340/Astonic-Mart/Products/benchvice/8_inch_bench_vice.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304345/Astonic-Mart/Products/benchvice/bench_vice_8_inch.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304344/Astonic-Mart/Products/benchvice/8_inch_bench_vice-2.png'
         ],
 
         inStock: true,
@@ -117,7 +118,7 @@ This Record bench vice is ideal for professionals, technicians, and DIY users wh
         price: 165000,
 
         images: [
-            'assets/img/air compressors/TOTAL TC202416 Air Compressor-24L-1.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274282/Astonic-Mart/Products/air%20compressors/TOTAL_TC202416_Air_Compressor-24L-1.jpg'
         ],
 
         inStock: true,
@@ -170,7 +171,7 @@ Built with durable materials and safety features such as pressure control and th
         price: 78000,
 
         images: [
-            'assets/img/cablewires/extension cable wire-2.5mm by 50m.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304579/Astonic-Mart/Products/cablewires/extension_cable_wire-2.5mm_by_50m.webp'
         ],
 
         inStock: true,
@@ -220,12 +221,12 @@ This cable is an essential solution for electricians, technicians, and DIY users
         price: 155000,
 
         images: [
-            'assets/img/tools sets/499pcs tools set.jpg',
-            'assets/img/tools sets/499pcs tools set.jpg2.jpg',
-            'assets/img/tools sets/499pcs tools set.jpg3.jpg',
-            'assets/img/tools sets/499pcs tools set.jpg5.jpg',
-            'assets/img/tools sets/499pcs tools set.jpg4.jpg',
-            'assets/img/tools sets/499pcs tools set.jpg6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329824/Astonic-Mart/Products/tools%20sets/499pcs_tools_set.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329824/Astonic-Mart/Products/tools%20sets/499pcs_tools_set.jpg2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329824/Astonic-Mart/Products/tools%20sets/499pcs_tools_set.jpg3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329824/Astonic-Mart/Products/tools%20sets/499pcs_tools_set.jpg5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329824/Astonic-Mart/Products/tools%20sets/499pcs_tools_set.jpg4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329824/Astonic-Mart/Products/tools%20sets/499pcs_tools_set.jpg6.jpg'
 
         ],
 
@@ -279,14 +280,14 @@ Whether for workshop use, garage repairs, industrial work, or home improvement, 
 
         images: [
 
-            'assets/img/car creepers/Plastic car creeper-40inch.jpg',
-            'assets/img/car creepers/car creeper-40inch-2.avif',
-            'assets/img/car creepers/car creeper-40inch-3.jpeg',
-            'assets/img/car creepers/car creeper-40inch-4.jpeg',
-            'assets/img/car creepers/car creeper-40inch-4.webp',
-            'assets/img/car creepers/Plastic car creeper-40inch.jpg',
-            'assets/img/car creepers/car creeper-40inch-5.jpg',
-            'assets/img/car creepers/car creeper-40inch-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304651/Astonic-Mart/Products/car%20creepers/Plastic_car_creeper-40inch.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304642/Astonic-Mart/Products/car%20creepers/car_creeper-40inch-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304644/Astonic-Mart/Products/car%20creepers/car_creeper-40inch-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786313524/Astonic-Mart/Products/car%20creepers/car_creeper-40inch-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786313525/Astonic-Mart/Products/car%20creepers/car_creeper-40inch-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304651/Astonic-Mart/Products/car%20creepers/Plastic_car_creeper-40inch.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304648/Astonic-Mart/Products/car%20creepers/car_creeper-40inch-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304650/Astonic-Mart/Products/car%20creepers/car_creeper-40inch-6.jpg'
         ],
 
         inStock: true,
@@ -336,11 +337,11 @@ This 40-inch car creeper is an essential addition to any workshop or garage, imp
 
         images: [
 
-            'assets/img/grease buckets/ingco grease buckets.webp5.webp',
-            'assets/img/grease buckets/ingco grease buckets.webp3.webp',
-            'assets/img/grease buckets/ingco grease buckets.webp2.webp',
-            'assets/img/grease buckets/ingco grease buckets.webp',
-            'assets/img/grease buckets/ingco grease buckets.webp4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307359/Astonic-Mart/Products/grease%20buckets/ingco_grease_buckets.webp5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307359/Astonic-Mart/Products/grease%20buckets/ingco_grease_buckets.webp3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307360/Astonic-Mart/Products/grease%20buckets/ingco_grease_buckets.webp2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307359/Astonic-Mart/Products/grease%20buckets/ingco_grease_buckets.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307359/Astonic-Mart/Products/grease%20buckets/ingco_grease_buckets.webp4.webp',
 
         ],
 
@@ -395,7 +396,7 @@ This grease lubricator improves efficiency, reduces manual effort, and ensures p
         price: 145000,
 
         images: [
-            'assets/img/testing buckets/manual hand testing buckets.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329593/Astonic-Mart/Products/testing%20buckets/manual_hand_testing_buckets.jpg'
         ],
 
         inStock: true,
@@ -445,7 +446,7 @@ This hydraulic testing pump is essential for engineers, plumbers, and technician
         price: 35000,
 
         images: [
-            'assets/img/rotary hand pump/Hand-Rotary-Oil-Pump.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328565/Astonic-Mart/Products/rotary%20hand%20pump/Hand-Rotary-Oil-Pump.webp'
         ],
 
         inStock: true,
@@ -494,8 +495,8 @@ This hand rotary pump is a reliable and cost-effective solution for safe and con
         price: 650000,
 
         images: [
-            'assets/img/pallete trucks and stackers/pallete truck-5t.jpg',
-            'sassets/img/pallete trucks and stackers/pallete truck-5t.jpg-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309589/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallete_truck-5t.jpg',
+            'shttps://res.cloudinary.com/taus5tit/image/upload/v1786309589/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallete_truck-5t.jpg-2.jpg'
         ],
 
         inStock: true,
@@ -545,9 +546,9 @@ Equipped with strong wheels for smooth movement, this pallet truck enhances prod
         price: 190000,
 
         images: [
-            'assets/img/jack  and lifts/hydraulic floor jack 3T.jpg',
-            'assets/img/jack  and lifts/hydraulic floor jack 3T.jpg2.jpg',
-            'assets/img/jack  and lifts/hydraulic floor jack 3T.jpg3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308274/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_3T.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308275/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_3T.jpg2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308276/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_3T.jpg3.jpg'
         ],
 
         inStock: true,
@@ -597,7 +598,7 @@ This 3-ton floor jack is an essential tool for safe and efficient vehicle liftin
         price: 180000,
 
         images: [
-            'assets/img/chainhoist/vital chain  hoist-3T.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304757/Astonic-Mart/Products/chainhoist/vital_chain_hoist-3T.avif'
         ],
 
         inStock: true,
@@ -647,7 +648,7 @@ This 3-ton Vital chain hoist is an essential lifting tool for professionals hand
         price: 550000,
 
         images: [
-            'assets/img/drum grab/forklift drum grabber.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306350/Astonic-Mart/Products/drum%20grab/forklift_drum_grabber.jpg'
         ],
 
         inStock: true,
@@ -698,12 +699,12 @@ This forklift drum grab is an essential tool for improving workplace safety, pro
 
         images: [
 
-            'assets/img/engine crane/engine crane-2T.webp2.jpg',
-            'assets/img/engine crane/engine crane-2T.webp',
-            'assets/img/engine crane/3t engine crane-2.webp',
-            'assets/img/engine crane/3t engine crane-3.webp',
-            'assets/img/engine crane/3t engine crane-4.webp',
-            'assets/img/engine crane/3t engine crane.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306427/Astonic-Mart/Products/engine%20crane/engine_crane-2T.webp2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306427/Astonic-Mart/Products/engine%20crane/engine_crane-2T.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306422/Astonic-Mart/Products/engine%20crane/3t_engine_crane-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306424/Astonic-Mart/Products/engine%20crane/3t_engine_crane-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306425/Astonic-Mart/Products/engine%20crane/3t_engine_crane-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306421/Astonic-Mart/Products/engine%20crane/3t_engine_crane.webp'
         ],
 
 
@@ -762,7 +763,7 @@ Equipped with swivel caster wheels, the crane provides excellent mobility, enabl
         price: 750000,
 
         images: [
-            'assets/img/pallete trucks and stackers/pallete stackers-12T.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309584/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallete_stackers-12T.webp'
         ],
 
         inStock: true,
@@ -812,7 +813,7 @@ Equipped with durable wheels for smooth movement, this manual stacker is perfect
         price: 25000,
 
         images: [
-            'assets/img/lifting belts/Lifting Sling-3ton X 6meters.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308816/Astonic-Mart/Products/lifting%20belts/Lifting_Sling-3ton_X_6meters.webp'
         ],
 
         inStock: true,
@@ -863,7 +864,7 @@ This lifting sling is an essential accessory for safe and efficient load handlin
         price: 1850000,
 
         images: [
-            'assets/img/tire changers and aligments/Tire-Changer-Wheel-Changers-Machine.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329704/Astonic-Mart/Products/tire%20changers%20and%20aligments/Tire-Changer-Wheel-Changers-Machine.avif'
         ],
 
         inStock: true,
@@ -914,8 +915,8 @@ Designed for professional use, this machine improves speed, accuracy, and safety
         price: 75000,
 
         images: [
-            'assets/img/trolleys/platform trolley-300kg.webp',
-            'assets/img/trolleys/platform trolley-300kg-2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330128/Astonic-Mart/Products/trolleys/platform_trolley-300kg.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330128/Astonic-Mart/Products/trolleys/platform_trolley-300kg-2.webp'
         ],
 
         inStock: true,
@@ -964,7 +965,7 @@ Equipped with smooth-rolling wheels, this platform trolley provides excellent mo
         price: 95000,
 
         images: [
-            'assets/img/tire changers and aligments/wheel balancers-manual.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329720/Astonic-Mart/Products/tire%20changers%20and%20aligments/wheel_balancers-manual.webp'
         ],
 
         inStock: true,
@@ -1013,7 +1014,7 @@ The manual wheel balancer is an essential tool for improving vehicle performance
         price: 2100000,
 
         images: [
-            'assets/img/tire changers and aligments/Tire-Combo-Tyre-Balancer-Tyre-Changer-and-Wheel-Balancing-Machines.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329719/Astonic-Mart/Products/tire%20changers%20and%20aligments/Tire-Combo-Tyre-Balancer-Tyre-Changer-and-Wheel-Balancing-Machines.avif'
         ],
 
         inStock: true,
@@ -1065,7 +1066,7 @@ This bundle offers excellent value, helping users save costs compared to purchas
         price: 35000,
 
         images: [
-            'assets/img/tire changers and aligments/wheel lockers-anti theft.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329721/Astonic-Mart/Products/tire%20changers%20and%20aligments/wheel_lockers-anti_theft.jpg'
         ],
 
         inStock: true,
@@ -1120,10 +1121,7 @@ Easy to install and remove, this wheel lock clamp provides an effective and conv
         ],
 
         images: [
-            'assets/img/ladders/fibre ladder-4by4.webp',
-            'assets/img/ladders/fibreglass-4x5.jpg',
-            'assets/img/ladders/fibreglass-4x6.jpg',
-            'assets/img/ladders/fibreglass-4x7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308565/Astonic-Mart/Products/ladders/fibre_ladder-4by4.webp',
         ],
 
         inStock: true,
@@ -1183,11 +1181,11 @@ These fibreglass multipurpose ladders are reliable, durable, and essential tools
         ],
 
         images: [
-            'assets/img/ladders/4x4 ΓÇô 4x7 Multipurpose-Aluminium-Ladder.avif-5.webp',
-            'assets/img/ladders/4x4 ΓÇô 4x7 Multipurpose-Aluminium-Ladder.avif',
-            'assets/img/ladders/4x4 ΓÇô 4x7 Multipurpose-Aluminium-Ladder-4.avif',
-            'assets/img/ladders/4x4 ΓÇô 4x7 Multipurpose-Aluminium-Ladder.avif-2.jpg',
-            'assets/img/ladders/4x4 ΓÇô 4x7 Multipurpose-Aluminium-Ladder.avif-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429776/Astonic-Mart/Products/remaining-local-images/glfzbpa5mqrpqneb3wnx.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429777/Astonic-Mart/Products/remaining-local-images/w7umjppjlqcr3rwtk2ue.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429778/Astonic-Mart/Products/remaining-local-images/nyawszt6vk4nf1uftcdk.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429780/Astonic-Mart/Products/remaining-local-images/e4btlvnogvcqopwbqlbi.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429780/Astonic-Mart/Products/remaining-local-images/ey9gwnicr2qbmp5ybohs.webp'
         ],
 
         inStock: true,
@@ -1247,11 +1245,8 @@ The foldable design allows for easy storage and transport, making it convenient 
         ],
 
         images: [
-            'assets/img/ladders/24ft-extension-Ladder.webp',
-            'assets/img/ladders/40 Feet Extension Ladder - 20 By 2.jpg',
-            'assets/img/ladders/extension-16ft.jpg',
-            'assets/img/ladders/extension-20ft.jpg',
-            'assets/img/ladders/extension-24ft.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308556/Astonic-Mart/Products/ladders/24ft-extension-Ladder.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308557/Astonic-Mart/Products/ladders/40_Feet_Extension_Ladder_-_20_By_2.jpg',
         ],
 
         inStock: true,
@@ -1312,12 +1307,8 @@ These extension ladders are essential tools for professionals and homeowners who
         ],
 
         images: [
-            '/assets/img/ladders/aluminium-step-ladders-1.jpg',
-            'assets/img/ladders/aluminium step ladders-1.jpg2.jp',
-            'assets/img/ladders/aluminium-step-ladders-1.jpg3.jpg',
-            'assets/img/ladders/step-6.jpg',
-            'assets/img/ladders/step-7.jpg',
-            'assets/img/ladders/step-8.jpg'
+            '/https://res.cloudinary.com/taus5tit/image/upload/v1786308562/Astonic-Mart/Products/ladders/aluminium-step-ladders-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308564/Astonic-Mart/Products/ladders/aluminium-step-ladders-1.jpg3.jpg',
         ],
 
         inStock: true,
@@ -1377,11 +1368,7 @@ The foldable design allows for easy storage in tight spaces, making it a conveni
         ],
 
         images: [
-            'assets/img/ladders/8-Steps-fiberglass-Double-A-Ladder.jpeg',
-            'assets/img/ladders/fibreglass-step-5.jpg',
-            'assets/img/ladders/fibreglass-step-6.jpg',
-            'assets/img/ladders/fibreglass-step-7.jpg',
-            'assets/img/ladders/fibreglass-step-8.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308561/Astonic-Mart/Products/ladders/8-Steps-fiberglass-Double-A-Ladder.jpg',
         ],
 
         inStock: true,
@@ -1432,9 +1419,7 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         brand: 'Generic',
         price: 450000, // Current market price in Nigeria (around Γéª400,000 - Γéª550,000 depending on manual or pneumatic model and seller)
         images: [
-            'assets/img/shop press/Hydraulic-Workshop-press-30ton.webp',
-            'assets/img/tools/hydraulic-press-20ton-2.jpg',
-            'assets/img/tools/hydraulic-press-20ton-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329122/Astonic-Mart/Products/shop%20press/Hydraulic-Workshop-press-30ton.jpg',
         ],
         inStock: true,
         jumiaLink: '',
@@ -1478,7 +1463,7 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         price: 3850000,
 
         images: [
-            'assets/img/tire changers and aligments/Computerised 8 Cameras CCD Wheel Alignment Machine.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329620/Astonic-Mart/Products/tire%20changers%20and%20aligments/Computerised_8_Cameras_CCD_Wheel_Alignment_Machine.webp',
         ],
 
         inStock: true,
@@ -1527,10 +1512,10 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 170000,
 
         images: [
-            'assets/img/tools sets/TOTAL THKTHP11652 165 Pcs Tool Set with 20V Cordless Impact Drill.webp',
-            'assets/img/tools sets/TOTAL THKTHP11652 165 Pcs Tool Set with 20V Cordless Impact Drill-2.jpeg',
-            'assets/img/tools sets/TOTAL THKTHP11652 165 Pcs Tool Set with 20V Cordless Impact Drill-3.jpeg',
-            'assets/img/tools sets/TOTAL THKTHP11652 165 Pcs Tool Set with 20V Cordless Impact Drill-2.jpeg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329944/Astonic-Mart/Products/tools%20sets/TOTAL_THKTHP11652_165_Pcs_Tool_Set_with_20V_Cordless_Impact_Drill.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329944/Astonic-Mart/Products/tools%20sets/TOTAL_THKTHP11652_165_Pcs_Tool_Set_with_20V_Cordless_Impact_Drill-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329944/Astonic-Mart/Products/tools%20sets/TOTAL_THKTHP11652_165_Pcs_Tool_Set_with_20V_Cordless_Impact_Drill-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329944/Astonic-Mart/Products/tools%20sets/TOTAL_THKTHP11652_165_Pcs_Tool_Set_with_20V_Cordless_Impact_Drill-2.jpg-4.jpg',
         ],
 
         videos: [
@@ -1628,9 +1613,9 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         ],
 
         images: [
-            'assets/img/ladders/8-ft-fiberglass-step-ladder-3.jpg',
-            'assets/img/ladders/8-ft-fiberglass-step-ladder.jpg',
-            'assets/img/ladders/8-ft-fiberglass-step-ladder-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308560/Astonic-Mart/Products/ladders/8-ft-fiberglass-step-ladder-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308559/Astonic-Mart/Products/ladders/8-ft-fiberglass-step-ladder.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308560/Astonic-Mart/Products/ladders/8-ft-fiberglass-step-ladder-3.webp',
 
 
         ],
@@ -1693,12 +1678,12 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 145000,
 
         images: [
-            '/assets/img/pressure kits/radiator tester kits.webp',
-            '/assets/img/pressure kits/radiator tester kits.webp-2.webp',
-            '/assets/img/pressure kits/radiator tester kits.webp-3.webp',
-            '/assets/img/pressure kits/radiator tester kits.webp-4.webp',
-            '/assets/img/pressure kits/radiator tester kits.webp-5.webp',
-            '/assets/img/pressure kits/radiator tester kits.webp-6.webp'
+            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp',
+            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-2.webp',
+            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-3.webp',
+            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-4.webp',
+            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-5.webp',
+            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-6.webp'
 
 
         ],
@@ -1772,9 +1757,9 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 85000,
 
         images: [
-            'assets/img/drills/Dewalt Tools Box With 36V Drill Machine.jpg',
-            'assets/img/drills/Dewalt Tools Box With 36V Drill Machine-3.webp',
-            'assets/img/drills/Dewalt Tools Box With 36V Drill Machine-2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306103/Astonic-Mart/Products/drills/Dewalt_Tools_Box_With_36V_Drill_Machine.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306105/Astonic-Mart/Products/drills/Dewalt_Tools_Box_With_36V_Drill_Machine-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306104/Astonic-Mart/Products/drills/Dewalt_Tools_Box_With_36V_Drill_Machine-2.webp'
         ],
 
         jumiaLink: 'https://www.jumia.com.ng/mlp-dewalt-tool-box/',
@@ -1858,11 +1843,12 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 250000,
 
         images: [
-            'assets/img/jack  and lifts/3 TON HYDRAULIC FLOOR JACK + 3T JACK STAND SET.jpg',
-            'assets/img/jack  and lifts/3 TON HYDRAULIC FLOOR JACK + 3T JACK STAND SET-5.jpg',
-            'assets/img/jack  and lifts/3 TON HYDRAULIC FLOOR JACK + 3T JACK STAND SET-4.jpg',
-            'assets/img/jack  and lifts/3 TON HYDRAULIC FLOOR JACK + 3T JACK STAND SET-3.jpg',
-            'assets/img/jack  and lifts/3 TON HYDRAULIC FLOOR JACK + 3T JACK STAND SET-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429782/Astonic-Mart/Products/remaining-local-images/c7n5uqa4qkezu31rfrqy.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429783/Astonic-Mart/Products/remaining-local-images/e4ljdxiaaaiq8zisqg0i.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429784/Astonic-Mart/Products/remaining-local-images/uscsvslyjzu81etvqcrs.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429785/Astonic-Mart/Products/remaining-local-images/zksi48ets5tv8nrtu2eq.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429786/Astonic-Mart/Products/remaining-local-images/ciqmefmwg9fkf8lclvkb.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429787/Astonic-Mart/Products/remaining-local-images/vepnhe5b0zqqbuiqwq20.jpg'
         ],
 
         videos: [
@@ -1938,9 +1924,9 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 75000,
 
         images: [
-            'assets/img/drills/tools box kit set with electric drill 13mm machine.jpg-3.jpeg',
-            'assets/img/drills/tools box kit set with electric drill 13mm machine.jpg-2.jpg',
-            'assets/img/drills/tools box kit set with electric drill 13mm machine.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324208/Astonic-Mart/Products/drills/tools_box_kit_set_with_electric_drill_13mm_machine.jpg-3.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324208/Astonic-Mart/Products/drills/tools_box_kit_set_with_electric_drill_13mm_machine.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324208/Astonic-Mart/Products/drills/tools_box_kit_set_with_electric_drill_13mm_machine.jpg'
         ],
 
         videos: [
@@ -2025,9 +2011,9 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 25000,
 
         images: [
-            'assets/img/jack  and lifts/5T Bottle Jack.jpg',
-            'assets/img/jack  and lifts/5T Bottle Jack.jpg-2.webp',
-            'assets/img/jack  and lifts/5T Bottle Jack.jpg-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308200/Astonic-Mart/Products/jack%20%20and%20lifts/5T_Bottle_Jack.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308200/Astonic-Mart/Products/jack%20%20and%20lifts/5T_Bottle_Jack.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308202/Astonic-Mart/Products/jack%20%20and%20lifts/5T_Bottle_Jack.jpg-3.jpg'
         ],
 
         videos: [
@@ -2103,10 +2089,10 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 36000,
 
         images: [
-            'assets/img/jack  and lifts/10T Bottle Jack.jpg-2.jpg',
-            'assets/img/jack  and lifts/10T Bottle Jack.jpg-3.jpg',
-            'assets/img/jack  and lifts/10T Bottle Jack.jpg-4.jpg',
-            'assets/img/jack  and lifts/10T Bottle Jack.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308090/Astonic-Mart/Products/jack%20%20and%20lifts/10T_Bottle_Jack.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308091/Astonic-Mart/Products/jack%20%20and%20lifts/10T_Bottle_Jack.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308089/Astonic-Mart/Products/jack%20%20and%20lifts/10T_Bottle_Jack.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308089/Astonic-Mart/Products/jack%20%20and%20lifts/10T_Bottle_Jack.jpg'
         ],
 
         videos: [
@@ -2183,9 +2169,9 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 380000,
 
         images: [
-            'assets/img/drum handling equipments/2 Drum Spill Containment Pallet-2.webp',
-            'assets/img/drum handling equipments/2 Drum Spill Containment Pallet-3.jpg',
-            'assets/img/drum handling equipments/2 Drum Spill Containment Pallet.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306356/Astonic-Mart/Products/drum%20handling%20equipments/2_Drum_Spill_Containment_Pallet-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306357/Astonic-Mart/Products/drum%20handling%20equipments/2_Drum_Spill_Containment_Pallet-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306355/Astonic-Mart/Products/drum%20handling%20equipments/2_Drum_Spill_Containment_Pallet.jpg'
         ],
 
         videos: [
@@ -2261,10 +2247,10 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 580000,
 
         images: [
-            'assets/img/drum handling equipments/4 Drum Spill Containment Pallet-2.webp',
-            'assets/img/drum handling equipments/4 Drum Spill Containment Pallet-2.webp-2.jpg',
-            'assets/img/drum handling equipments/4 Drum Spill Containment Pallet-2.webp-4.jpg',
-            'assets/img/drum handling equipments/4 Drum Spill Containment Pallet-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324337/Astonic-Mart/Products/drum%20handling%20equipments/4_Drum_Spill_Containment_Pallet-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324334/Astonic-Mart/Products/drum%20handling%20equipments/4_Drum_Spill_Containment_Pallet-2.webp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324337/Astonic-Mart/Products/drum%20handling%20equipments/4_Drum_Spill_Containment_Pallet-2.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324376/Astonic-Mart/Products/drum%20handling%20equipments/4_Drum_Spill_Containment_Pallet-3.webp'
         ],
 
         videos: [
@@ -2339,10 +2325,10 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 165000,
 
         images: [
-            'assets/img/pressure and water pumps/Electric Drum Barrel Oil Pump.jpg',
-            'assets/img/pressure and water pumps/Electric Drum Barrel Oil Pump-2.jpg',
-            'assets/img/pressure and water pumps/Electric Drum Barrel Oil Pump-3.jpg',
-            'assets/img/pressure and water pumps/Electric Drum Barrel Oil Pump-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310656/Astonic-Mart/Products/pressure%20and%20water%20pumps/Electric_Drum_Barrel_Oil_Pump.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310659/Astonic-Mart/Products/pressure%20and%20water%20pumps/Electric_Drum_Barrel_Oil_Pump-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310660/Astonic-Mart/Products/pressure%20and%20water%20pumps/Electric_Drum_Barrel_Oil_Pump-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310661/Astonic-Mart/Products/pressure%20and%20water%20pumps/Electric_Drum_Barrel_Oil_Pump-4.jpg'
         ],
 
         videos: [
@@ -2423,9 +2409,9 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 128000,
 
         images: [
-            'assets/img/pressure and water pumps/pneumatic Barrel Oil Pump.jpg',
-            'assets/img/pressure and water pumps/pneumatic Barrel Oil Pump.jpg-2.png',
-            'assets/img/pressure and water pumps/pneumatic Barrel Oil Pump.jpg-3.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310688/Astonic-Mart/Products/pressure%20and%20water%20pumps/pneumatic_Barrel_Oil_Pump.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310690/Astonic-Mart/Products/pressure%20and%20water%20pumps/pneumatic_Barrel_Oil_Pump.jpg-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310688/Astonic-Mart/Products/pressure%20and%20water%20pumps/pneumatic_Barrel_Oil_Pump.jpg-3.png'
         ],
 
         videos: [
@@ -2503,10 +2489,10 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 189000,
 
         images: [
-            'assets/img/cablewires/smj heavy duty cable reel 4mm by 50m with 4 sockets.jpg',
-            'assets/img/cablewires/smj heavy duty cable reel 4mm by 50m with 4 sockets-2.jpg',
-            'assets/img/cablewires/smj heavy duty cable reel 4mm by 50m with 4 sockets-4.webp',
-            'assets/img/cablewires/smj heavy duty cable reel 4mm by 50m with 4 sockets-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304590/Astonic-Mart/Products/cablewires/smj_heavy_duty_cable_reel_4mm_by_50m_with_4_sockets.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304593/Astonic-Mart/Products/cablewires/smj_heavy_duty_cable_reel_4mm_by_50m_with_4_sockets-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304595/Astonic-Mart/Products/cablewires/smj_heavy_duty_cable_reel_4mm_by_50m_with_4_sockets-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304594/Astonic-Mart/Products/cablewires/smj_heavy_duty_cable_reel_4mm_by_50m_with_4_sockets-3.jpg'
         ],
 
         videos: [
@@ -2585,9 +2571,9 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 4000000,
 
         images: [
-            'assets/img/jack  and lifts/2 post workshop lift-2.jpg',
-            'assets/img/jack  and lifts/2 post workshop lift.jpg',
-            'assets/img/jack  and lifts/2 post workshop lift-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308095/Astonic-Mart/Products/jack%20%20and%20lifts/2_post_workshop_lift-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308094/Astonic-Mart/Products/jack%20%20and%20lifts/2_post_workshop_lift.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308096/Astonic-Mart/Products/jack%20%20and%20lifts/2_post_workshop_lift-3.jpg'
         ],
 
         videos: [
@@ -2668,9 +2654,9 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 79000000,
 
         images: [
-            'assets/img/jack  and lifts/4 post workshop car lift-2.jpeg',
-            'assets/img/jack  and lifts/4 post workshop car lift.jpeg',
-            'assets/img/jack  and lifts/4 post workshop car lift-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308136/Astonic-Mart/Products/jack%20%20and%20lifts/4_post_workshop_car_lift-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308135/Astonic-Mart/Products/jack%20%20and%20lifts/4_post_workshop_car_lift.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308136/Astonic-Mart/Products/jack%20%20and%20lifts/4_post_workshop_car_lift-3.jpg'
         ],
 
         videos: [
@@ -2750,10 +2736,10 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 270000,
 
         images: [
-            'assets/img/tools sets/TOTAL 147pcs HANDTOOLS SET (THKTHP21476).jpg-3.jpg',
-            'assets/img/tools sets/TOTAL 147pcs HANDTOOLS SET (THKTHP21476).jpg',
-            'assets/img/tools sets/TOTAL 147pcs HANDTOOLS SET (THKTHP21476).jpg-4.jpg',
-            'assets/img/tools sets/TOTAL 147pcs HANDTOOLS SET (THKTHP21476).jpg-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329927/Astonic-Mart/Products/tools%20sets/TOTAL_147pcs_HANDTOOLS_SET_THKTHP21476.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329929/Astonic-Mart/Products/tools%20sets/TOTAL_147pcs_HANDTOOLS_SET_THKTHP21476.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329929/Astonic-Mart/Products/tools%20sets/TOTAL_147pcs_HANDTOOLS_SET_THKTHP21476.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329927/Astonic-Mart/Products/tools%20sets/TOTAL_147pcs_HANDTOOLS_SET_THKTHP21476.jpg-2.jpg'
         ],
 
         videos: [
@@ -2854,10 +2840,10 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 275000,
 
         images: [
-            'assets/img/tools sets/ingco 147pcs HANDTOOLS SET (THKTHP21476)-2.jpg',
-            'assets/img/tools sets/ingco 147pcs HANDTOOLS SET (THKTHP21476)-3.jpg',
-            'assets/img/tools sets/ingco 147pcs HANDTOOLS SET (THKTHP21476)-4.jpg',
-            'assets/img/tools sets/ingco 147pcs HANDTOOLS SET (THKTHP21476).jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329849/Astonic-Mart/Products/tools%20sets/ingco_147pcs_HANDTOOLS_SET_THKTHP21476-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329852/Astonic-Mart/Products/tools%20sets/ingco_147pcs_HANDTOOLS_SET_THKTHP21476-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329852/Astonic-Mart/Products/tools%20sets/ingco_147pcs_HANDTOOLS_SET_THKTHP21476-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329849/Astonic-Mart/Products/tools%20sets/ingco_147pcs_HANDTOOLS_SET_THKTHP21476.jpg'
         ],
 
         videos: [
@@ -2944,9 +2930,9 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 8300000,
 
         images: [
-            'assets/img/jack  and lifts/lifting table-500kg.jpg',
-            'assets/img/jack  and lifts/lifting table-500kg.jpg-2.jpeg',
-            'assets/img/jack  and lifts/lifting table-500kg.jpg-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308392/Astonic-Mart/Products/jack%20%20and%20lifts/lifting_table-500kg.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308393/Astonic-Mart/Products/jack%20%20and%20lifts/lifting_table-500kg.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308394/Astonic-Mart/Products/jack%20%20and%20lifts/lifting_table-500kg.jpg-3.webp'
         ],
 
         videos: [
@@ -3025,10 +3011,10 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 1050000,
 
         images: [
-            'assets/img/jack  and lifts/lifting table-1000kg.jpg',
-            'assets/img/jack  and lifts/lifting table-1000kg.jpg-2.jpg',
-            'assets/img/jack  and lifts/lifting table-1000kg.jpg-3.jpg',
-            'assets/img/jack  and lifts/lifting table-1000kg.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308379/Astonic-Mart/Products/jack%20%20and%20lifts/lifting_table-1000kg.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308379/Astonic-Mart/Products/jack%20%20and%20lifts/lifting_table-1000kg.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308379/Astonic-Mart/Products/jack%20%20and%20lifts/lifting_table-1000kg.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308379/Astonic-Mart/Products/jack%20%20and%20lifts/lifting_table-1000kg.jpg-4.jpg'
         ],
 
         videos: [
@@ -3107,8 +3093,8 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 350000,
 
         images: [
-            'assets/img/jack  and lifts/hydraulic transmission jack 0.5.avif',
-            'assets/img/jack  and lifts/hydraulic transmission jack 0.5-2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308309/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_transmission_jack_0.5.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308310/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_transmission_jack_0.5-2.webp'
         ],
 
         videos: [
@@ -3180,12 +3166,12 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         price: 185000,
 
         images: [
-            'assets/img/trolleys/plain trolly manual-3ton.jpg',
-            'assets/img/trolleys/plain trolly manual-3ton-2.jpg',
-            'assets/img/trolleys/plain trolly manual-3ton-3.jpg',
-            'assets/img/trolleys/plain trolly manual-3ton-4.jpg',
-            'assets/img/trolleys/plain trolly manual-3ton-5.jpg',
-            'assets/img/trolleys/plain trolly manual-3ton-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330126/Astonic-Mart/Products/trolleys/plain_trolly_manual-3ton.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330126/Astonic-Mart/Products/trolleys/plain_trolly_manual-3ton-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330126/Astonic-Mart/Products/trolleys/plain_trolly_manual-3ton-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330130/Astonic-Mart/Products/trolleys/plain_trolly_manual-3ton-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330128/Astonic-Mart/Products/trolleys/plain_trolly_manual-3ton-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330128/Astonic-Mart/Products/trolleys/plain_trolly_manual-3ton-6.jpg'
         ],
 
         inStock: true,
@@ -3240,10 +3226,10 @@ Items Included in the Package:
         brand: 'generic',
         price: 25000,
         images: [
-            'assets/img/air-compressor accessories/Tire-Inflator-Deflator-Gun.webp',
-            'assets/img/air-compressor accessories/Tire-Inflator-Deflator-Gun.webp-2.jpg',
-            'assets/img/air-compressor accessories/Tire-Inflator-Deflator-Gun.webp-3.jpg',
-            'assets/img/air-compressor accessories/Tire-Inflator-Deflator-Gun.webp-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303999/Astonic-Mart/Products/air-compressor%20accessories/Tire-Inflator-Deflator-Gun.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303999/Astonic-Mart/Products/air-compressor%20accessories/Tire-Inflator-Deflator-Gun.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303999/Astonic-Mart/Products/air-compressor%20accessories/Tire-Inflator-Deflator-Gun.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303999/Astonic-Mart/Products/air-compressor%20accessories/Tire-Inflator-Deflator-Gun.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -3298,10 +3284,10 @@ Items Included in the Package:
         price: 65000,
 
         images: [
-            'assets/img/trolleys/plain trolly manual-1t.webp',
-            'assets/img/trolleys/plain trolly manual-1t.webp-2.webp',
-            'assets/img/trolleys/plain trolly manual-1t.webp-3.avif',
-            'assets/img/trolleys/plain trolly manual-1t.webp-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330120/Astonic-Mart/Products/trolleys/plain_trolly_manual-1t.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330120/Astonic-Mart/Products/trolleys/plain_trolly_manual-1t.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330120/Astonic-Mart/Products/trolleys/plain_trolly_manual-1t.webp-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330120/Astonic-Mart/Products/trolleys/plain_trolly_manual-1t.webp-4.jpg'
         ],
 
         inStock: true,
@@ -3351,9 +3337,9 @@ Ideal for lifting and material handling applications`,
         price: 140000,
 
         images: [
-            'assets/img/trolleys/plain trolly manual-2t.webp-2.jpg',
-            'assets/img/trolleys/plain trolly manual-2t.webp',
-            'assets/img/trolleys/plain trolly manual-2t.webp-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330120/Astonic-Mart/Products/trolleys/plain_trolly_manual-2t.webp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330120/Astonic-Mart/Products/trolleys/plain_trolly_manual-2t.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330120/Astonic-Mart/Products/trolleys/plain_trolly_manual-2t.webp-3.jpg'
         ],
 
         inStock: true,
@@ -3403,11 +3389,11 @@ Ideal for industrial lifting and material handling`,
         price: 145000,
 
         images: [
-            'assets/img/jack  and lifts/50T bottle jack.jpg-5.jpg',
-            'assets/img/jack  and lifts/50T bottle jack.jpg-6.jpg',
-            'assets/img/jack  and lifts/50T bottle jack.jpg-4.jpg',
-            'assets/img/jack  and lifts/50T bottle jack.jpg-3.jpg',
-            'assets/img/jack  and lifts/50T bottle jack.jpg-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308197/Astonic-Mart/Products/jack%20%20and%20lifts/50T_bottle_jack.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308198/Astonic-Mart/Products/jack%20%20and%20lifts/50T_bottle_jack.jpg-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308195/Astonic-Mart/Products/jack%20%20and%20lifts/50T_bottle_jack.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308193/Astonic-Mart/Products/jack%20%20and%20lifts/50T_bottle_jack.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308191/Astonic-Mart/Products/jack%20%20and%20lifts/50T_bottle_jack.jpg-2.jpg'
         ],
 
         inStock: true,
@@ -3458,10 +3444,10 @@ Ideal for workshops, garages, and industrial applications`,
         price: 365000,
 
         images: [
-            'assets/img/jack  and lifts/Ingco Hydraulic bottle jack 50 Ton HBJ5002.jpeg',
-            'assets/img/jack  and lifts/Ingco Hydraulic bottle jack 50 Ton HBJ5002-4.webp',
-            'assets/img/jack  and lifts/Ingco Hydraulic bottle jack 50 Ton HBJ5002-3.webp',
-            'assets/img/jack  and lifts/Ingco Hydraulic bottle jack 50 Ton HBJ5002-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308343/Astonic-Mart/Products/jack%20%20and%20lifts/Ingco_Hydraulic_bottle_jack_50_Ton_HBJ5002.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308376/Astonic-Mart/Products/jack%20%20and%20lifts/Ingco_Hydraulic_bottle_jack_50_Ton_HBJ5002-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308372/Astonic-Mart/Products/jack%20%20and%20lifts/Ingco_Hydraulic_bottle_jack_50_Ton_HBJ5002-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308369/Astonic-Mart/Products/jack%20%20and%20lifts/Ingco_Hydraulic_bottle_jack_50_Ton_HBJ5002-2.jpg'
         ],
 
         inStock: true,
@@ -3513,11 +3499,11 @@ Ideal for industrial and workshop applications`,
         price: 185000,
 
         images: [
-            'assets/img/air compressors/INGCO Silent Oil-Free Air Compressor 24L (ACS175241).webp',
-            'assets/img/air compressors/INGCO Silent Oil-Free Air Compressor 24L (ACS175241)-3.webp',
-            'assets/img/air compressors/INGCO Silent Oil-Free Air Compressor 24L (ACS175241)-3.webp',
-            'assets/img/air compressors/INGCO Silent Oil-Free Air Compressor 24L (ACS175241)-2.webp',
-            'assets/img/air compressors/INGCO Silent Oil-Free Air Compressor 24L (ACS175241).webp-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274171/Astonic-Mart/Products/air%20compressors/INGCO_Silent_Oil-Free_Air_Compressor_24L_ACS175241.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303903/Astonic-Mart/Products/air%20compressors/INGCO_Silent_Oil-Free_Air_Compressor_24L_ACS175241-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303903/Astonic-Mart/Products/air%20compressors/INGCO_Silent_Oil-Free_Air_Compressor_24L_ACS175241-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303902/Astonic-Mart/Products/air%20compressors/INGCO_Silent_Oil-Free_Air_Compressor_24L_ACS175241-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274171/Astonic-Mart/Products/air%20compressors/INGCO_Silent_Oil-Free_Air_Compressor_24L_ACS175241.webp-5.jpg'
         ],
 
         inStock: true,
@@ -3568,9 +3554,9 @@ Ideal for workshops, garages, and light industrial use`,
         price: 220000,
 
         images: [
-            'assets/img/air compressors/INGCO Oil Lubricated Air Compressor 24L (AC25508).webp-3.webp',
-            'assets/img/air compressors/INGCO Oil Lubricated Air Compressor 24L (AC25508).webp-2.jpg',
-            'assets/img/air compressors/INGCO Oil Lubricated Air Compressor 24L (AC25508).webp-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274152/Astonic-Mart/Products/air%20compressors/INGCO_Oil_Lubricated_Air_Compressor_24L_AC25508.webp-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274150/Astonic-Mart/Products/air%20compressors/INGCO_Oil_Lubricated_Air_Compressor_24L_AC25508.webp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274150/Astonic-Mart/Products/air%20compressors/INGCO_Oil_Lubricated_Air_Compressor_24L_AC25508.webp-2.jpg'
         ],
 
         inStock: true,
@@ -3616,9 +3602,9 @@ Ideal for pneumatic tools and spray painting`
         price: 295000,
 
         images: [
-            'assets/img/air compressors/INGCO Oil Lubricated Air Compressor 50L (AC25508).jpg',
-            'assets/img/air compressors/INGCO Oil Lubricated Air Compressor 50L (AC25508).jpg',
-            'assets/img/air compressors/INGCO Oil Lubricated Air Compressor 50L (AC25508).jpg-1.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274162/Astonic-Mart/Products/air%20compressors/INGCO_Oil_Lubricated_Air_Compressor_50L_AC25508.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274162/Astonic-Mart/Products/air%20compressors/INGCO_Oil_Lubricated_Air_Compressor_50L_AC25508.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274162/Astonic-Mart/Products/air%20compressors/INGCO_Oil_Lubricated_Air_Compressor_50L_AC25508.jpg-1.jpeg'
         ],
 
         inStock: true,
@@ -3665,7 +3651,7 @@ Ideal for pneumatic tools and spray painting`
         price: 485000,
 
         images: [
-            'assets/img/air compressors/TOTAL Oil Lubricated Air Compressor 100L (TC2301006).jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274275/Astonic-Mart/Products/air%20compressors/TOTAL_Oil_Lubricated_Air_Compressor_100L_TC2301006.jpg'
         ],
 
         inStock: true,
@@ -3718,9 +3704,9 @@ Ideal for workshops and industrial applications`,
         price: 230000,
 
         images: [
-            'assets/img/air compressors/TOTAL Oil-Free Air Compressor 24L (TCS1110242).jpg',
-            'assets/img/air compressors/TOTAL Oil-Free Air Compressor 24L (TCS1110242).jpg-2.jpg',
-            'assets/img/air compressors/TOTAL Oil-Free Air Compressor 24L (TCS1110242).jpg-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274277/Astonic-Mart/Products/air%20compressors/TOTAL_Oil-Free_Air_Compressor_24L_TCS1110242.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274277/Astonic-Mart/Products/air%20compressors/TOTAL_Oil-Free_Air_Compressor_24L_TCS1110242.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274277/Astonic-Mart/Products/air%20compressors/TOTAL_Oil-Free_Air_Compressor_24L_TCS1110242.jpg-3.jpg'
         ],
 
         inStock: true,
@@ -3763,11 +3749,11 @@ Ideal for home and workshop use`
         price: 150000,
 
         images: [
-            'assets/img/tools sets/168-Piece-Hardware-Tool-Set.webp',
-            'assets/img/tools sets/168-Piece-Hardware-Tool-Set.webp-2.jpg',
-            'assets/img/tools sets/168-Piece-Hardware-Tool-Set.webp-3.jpg',
-            'assets/img/tools sets/168-Piece-Hardware-Tool-Set.webp-4.avif',
-            'assets/img/tools sets/168-Piece-Hardware-Tool-Set.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329782/Astonic-Mart/Products/tools%20sets/168-Piece-Hardware-Tool-Set.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329782/Astonic-Mart/Products/tools%20sets/168-Piece-Hardware-Tool-Set.webp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329782/Astonic-Mart/Products/tools%20sets/168-Piece-Hardware-Tool-Set.webp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329782/Astonic-Mart/Products/tools%20sets/168-Piece-Hardware-Tool-Set.webp-4.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329782/Astonic-Mart/Products/tools%20sets/168-Piece-Hardware-Tool-Set.webp'
         ],
 
         inStock: true,
@@ -3818,11 +3804,11 @@ Suitable for automotive and workshop applications`
         price: 90000,
 
         images: [
-            'assets/img/tools sets/INGCO 168PCS  Tool Box (HKTHP21681.webp',
-            'assets/img/tools sets/INGCO 168PCS  Tool Box (HKTHP21681.webp-2.webp',
-            'assets/img/tools sets/INGCO 168PCS  Tool Box (HKTHP21681.webp-3.jpg',
-            'assets/img/tools sets/INGCO 168PCS  Tool Box (HKTHP21681.webp-3.jpg',
-            'assets/img/tools sets/INGCO 168PCS  Tool Box (HKTHP21681.webp-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329857/Astonic-Mart/Products/tools%20sets/INGCO_168PCS_Tool_Box_HKTHP21681.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329857/Astonic-Mart/Products/tools%20sets/INGCO_168PCS_Tool_Box_HKTHP21681.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329857/Astonic-Mart/Products/tools%20sets/INGCO_168PCS_Tool_Box_HKTHP21681.webp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329857/Astonic-Mart/Products/tools%20sets/INGCO_168PCS_Tool_Box_HKTHP21681.webp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329857/Astonic-Mart/Products/tools%20sets/INGCO_168PCS_Tool_Box_HKTHP21681.webp-5.jpg'
         ],
 
         inStock: true,
@@ -3874,12 +3860,12 @@ Ideal for professional and DIY applications`
         price: 80000,
 
         images: [
-            'assets/img/water seperators/rih aw4000 04 water separator.jpg',
-            'assets/img/water seperators/rih aw4000 04 water separator-6.jpg',
-            'assets/img/water seperators/rih aw4000 04 water separator-5.jpg',
-            'assets/img/water seperators/rih aw4000 04 water separator-4.jpg',
-            'assets/img/water seperators/rih aw4000 04 water separator-3.jpg',
-            'assets/img/water seperators/rih aw4000 04 water separator-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330370/Astonic-Mart/Products/water%20seperators/rih_aw4000_04_water_separator.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330376/Astonic-Mart/Products/water%20seperators/rih_aw4000_04_water_separator-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330376/Astonic-Mart/Products/water%20seperators/rih_aw4000_04_water_separator-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330377/Astonic-Mart/Products/water%20seperators/rih_aw4000_04_water_separator-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330376/Astonic-Mart/Products/water%20seperators/rih_aw4000_04_water_separator-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330370/Astonic-Mart/Products/water%20seperators/rih_aw4000_04_water_separator-2.jpg'
         ],
 
         inStock: true,
@@ -3928,9 +3914,7 @@ Easy installation and maintenance`
         price: 75000, // adjust based on your market price
 
         images: [
-            'assets/img/fuel testing and measuring/FRC-1 2-MIDI G1 2inch Air Filter Oil Water Separator.jpg',
-            'assets/img/airtools/frc-1-2-midi-2.jpg',
-            'assets/img/airtools/frc-1-2-midi-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306695/Astonic-Mart/Products/fuel%20testing%20and%20measuring/FRC-1_2-MIDI_G1_2inch_Air_Filter_Oil_Water_Separator.jpg',
         ],
 
         inStock: true,
@@ -3980,11 +3964,10 @@ Easy installation and maintenance`
         discountPrice: 850000,
 
         images: [
-            'assets/img/jack  and lifts/100t pneumatic floor jack.avif',
-            'assets/img/jack  and lifts/100t pneumatic floor jack-3.webp',
-            'assets/img/jack  and lifts/100t pneumatic floor jack-4.jpeg',
-            'assets/img/workshop tools/100T Pneumatic Floor Jack-3.jpg',
-            'assets/img/jack  and lifts/100t pneumatic floor jack-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308085/Astonic-Mart/Products/jack%20%20and%20lifts/100t_pneumatic_floor_jack.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308087/Astonic-Mart/Products/jack%20%20and%20lifts/100t_pneumatic_floor_jack-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308088/Astonic-Mart/Products/jack%20%20and%20lifts/100t_pneumatic_floor_jack-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308086/Astonic-Mart/Products/jack%20%20and%20lifts/100t_pneumatic_floor_jack-2.png'
         ],
 
         inStock: true,
@@ -4036,10 +4019,10 @@ Easy and safe operation`
 
 
         images: [
-            'assets/img/pallete trucks and stackers/pallete truck 3ton.jpg-3.jpg',
-            'assets/img/pallete trucks and stackers/pallete truck 3ton.jpg-4.jpg',
-            'assets/img/pallete trucks and stackers/pallete truck 3ton.jpg-2.jpg',
-            'assets/img/pallete trucks and stackers/pallete truck 3ton.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309585/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallete_truck_3ton.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309585/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallete_truck_3ton.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309585/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallete_truck_3ton.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309585/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallete_truck_3ton.jpg'
         ],
 
         videos: [],
@@ -4116,11 +4099,11 @@ Accessories
 
 
         images: [
-            'assets/img/pallete trucks and stackers/pallet truck 2.5t.jpg',
-            'assets/img/pallete trucks and stackers/pallet truck 2.5t.jpg-2.jpg',
-            'assets/img/pallete trucks and stackers/pallet truck 2.5t.jpg-3.jpg',
-            'assets/img/pallete trucks and stackers/pallet truck 2.5t.jpg-4.jpg',
-            'assets/img/pallete trucks and stackers/pallet truck 2.5t.jpg-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309576/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallet_truck_2.5t.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309578/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallet_truck_2.5t.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309580/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallet_truck_2.5t.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309576/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallet_truck_2.5t.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309576/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/pallet_truck_2.5t.jpg-5.jpg'
         ],
 
         videos: [],
@@ -4194,10 +4177,10 @@ Accessories
         price: 2000000,
         discountPrice: 1900000,
         images: [
-            'assets/img/jack  and lifts/hydraulic floor jack 20T.avif',
-            'assets/img/jack  and lifts/hydraulic floor jack 20T-4.webp',
-            'assets/img/jack  and lifts/hydraulic floor jack 20T-3.webp',
-            'assets/img/jack  and lifts/hydraulic floor jack 20T-2.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308270/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_20T.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308273/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_20T-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308272/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_20T-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308271/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_20T-2.avif'
         ],
 
         inStock: true,
@@ -4246,10 +4229,10 @@ Designed for efficiency and safety, the 20-ton hydraulic floor jack offers depen
         price: 100000,
         discountPrice: 900000,
         images: [
-            'assets/img/jack  and lifts/hydraulic floor jack 10.jpg',
-            'assets/img/jack  and lifts/hydraulic floor jack 10.jpg-2.webp',
-            'assets/img/jack  and lifts/hydraulic floor jack 10.jpg-3.webp',
-            'assets/img/jack  and lifts/hydraulic floor jack 10.jpg-4.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308264/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_10.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308266/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_10.jpg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308264/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_10.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308264/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_10.jpg-4.avif'
         ],
 
         inStock: true,
@@ -4300,10 +4283,10 @@ Suitable for professional mechanics and industrial maintenance personnel, the 10
         price: 330000,
 
         images: [
-            'assets/img/jack  and lifts/hydraulic floor jack 5t short-3.webp',
-            'assets/img/jack  and lifts/hydraulic floor jack 5t short-2.avif',
-            'assets/img/jack  and lifts/hydraulic floor jack 5t short.jpg',
-            'assets/img/jack  and lifts/hydraulic floor jack 5t short.jpg-4.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308284/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_5t_short-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308283/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_5t_short-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308281/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_5t_short.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308281/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_5t_short.jpg-4.jpeg'
         ],
 
         inStock: true,
@@ -4352,9 +4335,9 @@ Built from heavy-duty steel and equipped with durable wheels for mobility, the j
         price: 650000,
 
         images: [
-            'assets/img/jack  and lifts/hydraulic floor jack 5t long.webp',
-            'assets/img/jack  and lifts/hydraulic floor jack 5t long.webp-2.jpg',
-            'assets/img/jack  and lifts/hydraulic floor jack 5t long.webp-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308277/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_5t_long.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308277/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_5t_long.webp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308277/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_5t_long.webp-3.webp'
         ],
 
         inStock: true,
@@ -4407,9 +4390,9 @@ Constructed from heavy-duty steel with a reinforced lifting arm, the jack is sui
         discountPrice: 250000,
 
         images: [
-            'assets/img/jack  and lifts/TOTAL HYDRAULIC FLOOR JACK 3T (THT10832).jpg',
-            'assets/img/jack  and lifts/TOTAL HYDRAULIC FLOOR JACK 3T (THT10832-3.webp',
-            'assets/img/jack  and lifts/TOTAL HYDRAULIC FLOOR JACK 3T (THT10832-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308469/Astonic-Mart/Products/jack%20%20and%20lifts/TOTAL_HYDRAULIC_FLOOR_JACK_3T_THT10832.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308471/Astonic-Mart/Products/jack%20%20and%20lifts/TOTAL_HYDRAULIC_FLOOR_JACK_3T_THT10832-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308470/Astonic-Mart/Products/jack%20%20and%20lifts/TOTAL_HYDRAULIC_FLOOR_JACK_3T_THT10832-2.jpg'
         ],
 
         inStock: true,
@@ -4462,13 +4445,13 @@ Designed for professional mechanics and home users alike, the TOTAL THT10832 off
         price: 130000,
 
         images: [
-            'assets/img/trolleys/Hand Push Trolley.jpg-2.jpg',
-            'assets/img/trolleys/Hand Push Trolley.jpg',
-            'assets/img/trolleys/Hand Push Trolley.jpg-3.jpg',
-            'assets/img/trolleys/Hand Push Trolley.jpg-6.jpg',
-            'assets/img/trolleys/Hand Push Trolley.jpg-4.jpg',
-            'assets/img/trolleys/Hand Push Trolley.jpg-5.jpg',
-            'assets/img/trolleys/Hand Push Trolley.jpg-7.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330100/Astonic-Mart/Products/trolleys/Hand_Push_Trolley.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330100/Astonic-Mart/Products/trolleys/Hand_Push_Trolley.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330100/Astonic-Mart/Products/trolleys/Hand_Push_Trolley.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330100/Astonic-Mart/Products/trolleys/Hand_Push_Trolley.jpg-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330100/Astonic-Mart/Products/trolleys/Hand_Push_Trolley.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330100/Astonic-Mart/Products/trolleys/Hand_Push_Trolley.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330100/Astonic-Mart/Products/trolleys/Hand_Push_Trolley.jpg-7.jpeg'
         ],
 
         inStock: true,
@@ -4520,10 +4503,10 @@ Suitable for industrial, commercial and warehouse applications, this hand trolle
         discountPrice: 1300000,
 
         images: [
-            'assets/img/tools sets/total 162 Pcs Tool  Set - THPTCS71621.jpg-3.jpg',
-            'assets/img/tools sets/total 162 Pcs Tool  Set - THPTCS71621.jpg',
-            'assets/img/tools sets/total 162 Pcs Tool  Set - THPTCS71621.jpg-2.jpg',
-            'assets/img/tools sets/total 162 Pcs Tool  Set - THPTCS71621.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329930/Astonic-Mart/Products/tools%20sets/total_162_Pcs_Tool_Set_-_THPTCS71621.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329932/Astonic-Mart/Products/tools%20sets/total_162_Pcs_Tool_Set_-_THPTCS71621.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329931/Astonic-Mart/Products/tools%20sets/total_162_Pcs_Tool_Set_-_THPTCS71621.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329930/Astonic-Mart/Products/tools%20sets/total_162_Pcs_Tool_Set_-_THPTCS71621.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -4568,8 +4551,8 @@ Suitable for industrial, commercial and warehouse applications, this hand trolle
         price: 12000,
 
         images: [
-            'assets/img/benchvice/6 inch bench vice.png',
-            'assets/img/benchvice/6 inch bench vice.png-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304325/Astonic-Mart/Products/benchvice/6_inch_bench_vice.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304325/Astonic-Mart/Products/benchvice/6_inch_bench_vice.png-2.png'
         ],
 
         inStock: true,
@@ -4617,14 +4600,14 @@ Suitable for industrial, commercial and warehouse applications, this hand trolle
         price: 130000,
 
         images: [
-            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-4.webp',
-            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-6.webp',
-            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-5.webp',
-            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-7.webp',
-            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-8.webp',
-            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp',
-            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-2.webp',
-            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-6.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-7.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-8.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-3.webp'
         ],
 
         inStock: true,
@@ -4671,12 +4654,12 @@ Suitable for industrial, commercial and warehouse applications, this hand trolle
         price: 130000,
 
         images: [
-            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit.jpg',
-            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit-2.jpg',
-            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit-3.jpg',
-            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit-4.jpg',
-            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit-5.jpg',
-            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306687/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306689/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306690/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306691/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306692/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306693/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit-6.jpg'
         ],
 
         inStock: true,
@@ -4722,13 +4705,13 @@ Suitable for industrial, commercial and warehouse applications, this hand trolle
         discountPrice: 55000,
 
         images: [
-            'assets/img/pressure kits/2pcs engine compression kit.jpg',
-            'assets/img/pressure kits/2pcs engine compression kit.jpg-2.jpg',
-            'assets/img/pressure kits/2pcs engine compression kit.jpg-3.jpg',
-            'assets/img/pressure kits/2pcs engine compression kit.jpg-4.avif',
-            'assets/img/pressure kits/2pcs engine compression kit.jpg-5.jpg',
-            'assets/img/pressure kits/2pcs engine compression kit.jpg-6.jpeg',
-            'assets/img/pressure kits/2pcs engine compression kit.jpg-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310773/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-4.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-6.jpeg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-7.jpg'
         ],
 
         inStock: true,
@@ -4786,12 +4769,12 @@ Supplied in a durable storage case, the tester is ideal for workshops, garages, 
         price: 170000,
 
         images: [
-            'assets/img/trolleys/platform trolley-500kg-3.jpg',
-            'assets/img/trolleys/platform trolley-500kg-4.jpg',
-            'assets/img/trolleys/platform trolley-500kg-5.jpg',
-            'assets/img/trolleys/platform trolley-500kg.webp',
-            'assets/img/trolleys/platform trolley-500kg.webp-2.webp',
-            'assets/img/trolleys/platform trolley-500kg.webp-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330139/Astonic-Mart/Products/trolleys/platform_trolley-500kg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330136/Astonic-Mart/Products/trolleys/platform_trolley-500kg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330143/Astonic-Mart/Products/trolleys/platform_trolley-500kg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330139/Astonic-Mart/Products/trolleys/platform_trolley-500kg.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330136/Astonic-Mart/Products/trolleys/platform_trolley-500kg.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330136/Astonic-Mart/Products/trolleys/platform_trolley-500kg.webp-3.jpg'
         ],
 
         inStock: true,
@@ -4843,9 +4826,9 @@ Supplied in a durable storage case, the tester is ideal for workshops, garages, 
 
         images: [
 
-            'assets/img/air compressors/MAXMECh  Air Compressor 25L Oil 1800w.jpg',
-            'assets/img/air compressors/MAXMECh  Air Compressor 25L Oil 1800w.jpg',
-            'assets/img/air compressors/MAXMECh  Air Compressor 50l.jpg-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274188/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_25L_Oil_1800w.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274188/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_25L_Oil_1800w.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274200/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_50l.jpg-2.jpg'
         ],
 
         inStock: true,
@@ -4901,9 +4884,9 @@ Built with safety and durability in mind, the MAXMECH DA 1800-25 compressor incl
         power: '1800W',
 
         images: [
-            'assets/img/air compressors/MAXMECh  Air Compressor 50l.jpg-3.jpeg',
-            'assets/img/air compressors/MAXMECh  Air Compressor 25L Oil 1800w-3.jpg',
-            'assets/img/air compressors/MAXMECh  Air Compressor 50l.jpg-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274204/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_50l.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274183/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_25L_Oil_1800w-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274208/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_50l.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -4959,10 +4942,10 @@ Built with safety features such as pressure regulation and thermal overload prot
         power: '600W',
 
         images: [
-            'assets/img/air compressors/MAXMECh  Air Compressor oiless-25l-1.jpg',
-            'assets/img/air compressors/MAXMECh  Air Compressor oiless-25l-2.jpg',
-            'assets/img/air compressors/MAXMECh  Air Compressor oiless-25l.jpg',
-            'assets/img/air compressors/MAXMECh  Air Compressor oiless-25l-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274230/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_oiless-25l-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274233/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_oiless-25l-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274238/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_oiless-25l.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274235/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_oiless-25l-3.jpg'
         ],
 
         inStock: true,
@@ -5017,9 +5000,9 @@ Built for convenience and durability, the MAXMECH OA 600-25 air compressor inclu
         power: '1100W',
 
         images: [
-            'assets/img/air compressors/MAXMECh  Air Compressor oiless-1100w-25l-3.jpeg',
-            'assets/img/air compressors/MAXMECh  Air Compressor oiless-1100w-25l.jpg',
-            'assets/img/air compressors/MAXMECh  Air Compressor oiless-1100w-25l-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274219/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_oiless-1100w-25l-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274223/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_oiless-1100w-25l.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274215/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_oiless-1100w-25l-2.jpg'
         ],
 
         inStock: true,
@@ -5074,7 +5057,7 @@ Built with safety and durability in mind, the MAXMECH OA 1100-25 air compressor 
         power: '2200W',
 
         images: [
-            'assets/img/air compressors/MAXMECh  Air Compressor 100l.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274176/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_100l.jpg'
         ],
 
         inStock: true,
@@ -5130,7 +5113,7 @@ Built with safety and durability features such as pressure regulation and therma
         power: '4000W',
 
         images: [
-            'assets/img/air compressors/MAXMECh  Air Compressor 200l.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274180/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_200l.jpg'
         ],
 
         inStock: true,
@@ -5185,7 +5168,7 @@ Built with advanced safety and protection features such as pressure regulation a
         power: '7500W',
 
         images: [
-            'assets/img/air compressors/MAXMECh  Air Compressor 300l.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786274192/Astonic-Mart/Products/air%20compressors/MAXMECh_Air_Compressor_300l.jpg'
         ],
 
         inStock: true,
@@ -5241,11 +5224,11 @@ The MAXMECH BA 7500-300 air compressor is built with advanced safety systems inc
         power: '680W',
 
         images: [
-            'assets/img/tools sets/total 115pcs tool set.jpg',
-            'assets/img/tools sets/total 115pcs tool set.jpg-2.jpeg',
-            'assets/img/tools sets/total 115pcs tool set.jpg-3.webp',
-            'assets/img/tools sets/total 115pcs tool set.jpg-4.webp',
-            'assets/img/tools sets/total 115pcs tool set.jpg-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329907/Astonic-Mart/Products/tools%20sets/total_115pcs_tool_set.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329906/Astonic-Mart/Products/tools%20sets/total_115pcs_tool_set.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329907/Astonic-Mart/Products/tools%20sets/total_115pcs_tool_set.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329907/Astonic-Mart/Products/tools%20sets/total_115pcs_tool_set.jpg-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329907/Astonic-Mart/Products/tools%20sets/total_115pcs_tool_set.jpg-5.webp'
         ],
 
         inStock: true,
@@ -5299,11 +5282,11 @@ Packed inside a durable carry case, the 115-piece tool set contains essential ha
         discountPrice: 110000,
 
         images: [
-            'assets/img/tools sets/total 130pcs tool set-5.png',
-            'assets/img/tools sets/total 130pcs tool set-4.avif',
-            'assets/img/tools sets/total 130pcs tool set-THKTHP21306.jpg',
-            'assets/img/tools sets/total 130pcs tool set.avif',
-            'assets/img/tools sets/total 130pcs tool set.avif-3.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329925/Astonic-Mart/Products/tools%20sets/total_130pcs_tool_set-5.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329913/Astonic-Mart/Products/tools%20sets/total_130pcs_tool_set-4.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329924/Astonic-Mart/Products/tools%20sets/total_130pcs_tool_set-THKTHP21306.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329911/Astonic-Mart/Products/tools%20sets/total_130pcs_tool_set.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329911/Astonic-Mart/Products/tools%20sets/total_130pcs_tool_set.avif-3.avif'
         ],
 
         inStock: true,
@@ -5354,12 +5337,12 @@ Manufactured with durable materials for reliable everyday use, the TOTAL THKTHP2
 
 
         images: [
-            'assets/img/fuel testing and measuring/petrol compression kit-8pcs.jpg',
-            'assets/img/pressure kits/8pcs engine compression kit.jpg-2.jpg',
-            'assets/img/pressure kits/8pcs engine compression kit.jpg-3.jpg',
-            'assets/img/pressure kits/8pcs engine compression kit.jpg-4.jpg',
-            'assets/img/pressure kits/8pcs engine compression kit.jpg-5.jpg',
-            'assets/img/pressure kits/8pcs engine compression kit.jpg-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306706/Astonic-Mart/Products/fuel%20testing%20and%20measuring/petrol_compression_kit-8pcs.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310781/Astonic-Mart/Products/pressure%20kits/8pcs_engine_compression_kit.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310783/Astonic-Mart/Products/pressure%20kits/8pcs_engine_compression_kit.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310784/Astonic-Mart/Products/pressure%20kits/8pcs_engine_compression_kit.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310785/Astonic-Mart/Products/pressure%20kits/8pcs_engine_compression_kit.jpg-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310786/Astonic-Mart/Products/pressure%20kits/8pcs_engine_compression_kit.jpg-6.jpg'
         ],
 
         inStock: true,
@@ -5402,11 +5385,11 @@ Manufactured with durable materials for reliable everyday use, the TOTAL THKTHP2
         price: 130000,
 
         images: [
-            'assets/img/fuel testing and measuring/12pcs compression kit.jpeg',
-            'assets/img/fuel testing and measuring/12pcs compression kit-2.jpeg',
-            'assets/img/fuel testing and measuring/12pcs compression kit.jpeg-3.webp',
-            'assets/img/fuel testing and measuring/12pcs compression kit.jpeg-4.webp',
-            'assets/img/fuel testing and measuring/12pcs compression kit.jpeg-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306667/Astonic-Mart/Products/fuel%20testing%20and%20measuring/12pcs_compression_kit.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306685/Astonic-Mart/Products/fuel%20testing%20and%20measuring/12pcs_compression_kit-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306667/Astonic-Mart/Products/fuel%20testing%20and%20measuring/12pcs_compression_kit.jpg-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306667/Astonic-Mart/Products/fuel%20testing%20and%20measuring/12pcs_compression_kit.jpg-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306667/Astonic-Mart/Products/fuel%20testing%20and%20measuring/12pcs_compression_kit.jpg-3.webp'
         ],
 
         inStock: true,
@@ -5454,7 +5437,7 @@ Manufactured with durable materials for reliable everyday use, the TOTAL THKTHP2
         power: '5.5HP',
 
         images: [
-            'assets/img/air compressors/25l manual air compressor.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786259943/Astonic-Mart/Products/air%20compressors/25l_manual_air_compressor.png'
         ],
 
         inStock: true,
@@ -5509,11 +5492,11 @@ The compact 25-liter tank provides adequate air storage while maintaining portab
 
 
         images: [
-            'assets/img/lifting belts/12t lifting belt.jpeg',
-            'assets/img/lifting belts/12t lifting belt.jpeg-2.webp',
-            'assets/img/lifting belts/12t lifting belt.jpeg-3.avif',
-            'assets/img/lifting belts/12t lifting belt.jpeg-4.avif',
-            'assets/img/lifting belts/12t lifting belt.jpeg-5.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308811/Astonic-Mart/Products/lifting%20belts/12t_lifting_belt.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308812/Astonic-Mart/Products/lifting%20belts/12t_lifting_belt.jpeg-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308811/Astonic-Mart/Products/lifting%20belts/12t_lifting_belt.jpg-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308811/Astonic-Mart/Products/lifting%20belts/12t_lifting_belt.jpg-4.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308811/Astonic-Mart/Products/lifting%20belts/12t_lifting_belt.jpg-5.avif'
         ],
 
 
@@ -5589,12 +5572,12 @@ Manufactured from high-strength polyester webbing, the sling offers excellent lo
         discountPrice: 85000,
 
         images: [
-            'assets/img/car creepers/car creeper iron.webp',
-            'assets/img/car creepers/car creeper iron-2.webp',
-            'assets/img/car creepers/car creeper iron.webp-3.webp',
-            'assets/img/car creepers/car creeper iron.webp-4.webp',
-            'assets/img/car creepers/car creeper iron.webp-5.webp',
-            'assets/img/car creepers/car creeper iron.webp-6.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304636/Astonic-Mart/Products/car%20creepers/car_creeper_iron.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304641/Astonic-Mart/Products/car%20creepers/car_creeper_iron-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304637/Astonic-Mart/Products/car%20creepers/car_creeper_iron.webp-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304636/Astonic-Mart/Products/car%20creepers/car_creeper_iron.webp-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304636/Astonic-Mart/Products/car%20creepers/car_creeper_iron.webp-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304636/Astonic-Mart/Products/car%20creepers/car_creeper_iron.webp-6.webp'
         ],
 
         inStock: true,
@@ -5649,12 +5632,12 @@ The sturdy steel frame construction offers durability and stability while allowi
         discountPrice: 370000,
 
         images: [
-            'assets/img/engine motors/VEVOR 2.2KW Electric Motor-7.webp',
-            'assets/img/engine motors/VEVOR 2.2KW Electric Motor.webp',
-            'assets/img/engine motors/VEVOR 2.2KW Electric Motor-5.webp',
-            'assets/img/engine motors/VEVOR 2.2KW Electric Motor-4.webp',
-            'assets/img/engine motors/VEVOR 2.2KW Electric Motor-2.webp',
-            'assets/img/engine motors/VEVOR 2.2KW Electric Motor-6.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306443/Astonic-Mart/Products/engine%20motors/VEVOR_2.2KW_Electric_Motor-7.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306434/Astonic-Mart/Products/engine%20motors/VEVOR_2.2KW_Electric_Motor.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306439/Astonic-Mart/Products/engine%20motors/VEVOR_2.2KW_Electric_Motor-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306437/Astonic-Mart/Products/engine%20motors/VEVOR_2.2KW_Electric_Motor-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306436/Astonic-Mart/Products/engine%20motors/VEVOR_2.2KW_Electric_Motor-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306441/Astonic-Mart/Products/engine%20motors/VEVOR_2.2KW_Electric_Motor-6.webp',
 
         ],
 
@@ -5723,14 +5706,14 @@ The motor is suitable for continuous-duty operation and can be used in commercia
         discountPrice: 52000,
 
         images: [
-            'assets/img/tools sets/24pcs tools set.png',
-            'assets/img/tools sets/24pcs tools set-2.webp',
-            'assets/img/tools sets/24pcs tools set-3.webp',
-            'assets/img/tools sets/24pcs tools set-4.webp',
-            'assets/img/tools sets/24pcs tools set-5.webp',
-            'assets/img/tools sets/24pcs tools set-6.webp',
-            'assets/img/tools sets/24pcs tools set-7.webp',
-            'assets/img/tools sets/24pcs tools set-8.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329820/Astonic-Mart/Products/tools%20sets/24pcs_tools_set.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329805/Astonic-Mart/Products/tools%20sets/24pcs_tools_set-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329806/Astonic-Mart/Products/tools%20sets/24pcs_tools_set-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329805/Astonic-Mart/Products/tools%20sets/24pcs_tools_set-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329805/Astonic-Mart/Products/tools%20sets/24pcs_tools_set-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329821/Astonic-Mart/Products/tools%20sets/24pcs_tools_set-6.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329824/Astonic-Mart/Products/tools%20sets/24pcs_tools_set-7.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329824/Astonic-Mart/Products/tools%20sets/24pcs_tools_set-8.webp'
         ],
 
         inStock: true,
@@ -5805,7 +5788,7 @@ This versatile tool kit is suitable for technicians, electricians, homeowners, s
         price: 78000,
         discountPrice: 72000,
         images: [
-            'assets/img/tools sets/35pcs electrical tool set.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329837/Astonic-Mart/Products/tools%20sets/35pcs_electrical_tool_set.png'
         ],
         inStock: true,
         jumiaLink: '',
@@ -5879,14 +5862,14 @@ The Cordless Drill Tool Set is a complete home and workshop repair kit designed 
         price: 170000,
         discountPrice: 145000,
         images: [
-            'assets/img/tools sets/55 pcs mech tools set.jpg',
-            'assets/img/tools sets/55 pcs mech tools set-2.jpg',
-            'assets/img/tools sets/55 pcs mech tools set-3.jpg',
-            'assets/img/tools sets/55 pcs mech tools set-4.jpg',
-            'assets/img/tools sets/55 pcs mech tools set-5.jpg',
-            'assets/img/tools sets/55 pcs mech tools set-6.jpg',
-            'assets/img/tools sets/55 pcs mech tools set-7.jpg',
-            'assets/img/tools sets/55 pcs mech tools set-8.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329842/Astonic-Mart/Products/tools%20sets/55_pcs_mech_tools_set.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329842/Astonic-Mart/Products/tools%20sets/55_pcs_mech_tools_set-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329842/Astonic-Mart/Products/tools%20sets/55_pcs_mech_tools_set-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329842/Astonic-Mart/Products/tools%20sets/55_pcs_mech_tools_set-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329842/Astonic-Mart/Products/tools%20sets/55_pcs_mech_tools_set-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329845/Astonic-Mart/Products/tools%20sets/55_pcs_mech_tools_set-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329846/Astonic-Mart/Products/tools%20sets/55_pcs_mech_tools_set-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329846/Astonic-Mart/Products/tools%20sets/55_pcs_mech_tools_set-8.jpg'
         ],
         inStock: true,
         jumiaLink: '',
@@ -5956,14 +5939,14 @@ The Cordless Drill Tool Set is a complete home and workshop repair kit designed 
         ],
 
         images: [
-            'assets/img/jack  and lifts/3ton jack  stand.webp',
-            'assets/img/jack  and lifts/3ton jack  stand.webp-2.webp',
-            'assets/img/jack  and lifts/3ton jack  stand.webp-3.webp',
-            'assets/img/jack  and lifts/3ton jack  stand.webp-4.webp',
-            'assets/img/jack  and lifts/3ton jack  stand.webp-5.jpg',
-            'assets/img/jack  and lifts/3ton jack  stand.webp-6.jpg',
-            'assets/img/jack  and lifts/3ton jack  stand.webp-7.jpg',
-            'assets/img/jack  and lifts/3ton jack  stand.webp-8.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308122/Astonic-Mart/Products/jack%20%20and%20lifts/3ton_jack_stand.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308122/Astonic-Mart/Products/jack%20%20and%20lifts/3ton_jack_stand.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308122/Astonic-Mart/Products/jack%20%20and%20lifts/3ton_jack_stand.webp-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308122/Astonic-Mart/Products/jack%20%20and%20lifts/3ton_jack_stand.webp-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308122/Astonic-Mart/Products/jack%20%20and%20lifts/3ton_jack_stand.webp-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308122/Astonic-Mart/Products/jack%20%20and%20lifts/3ton_jack_stand.webp-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308122/Astonic-Mart/Products/jack%20%20and%20lifts/3ton_jack_stand.webp-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308122/Astonic-Mart/Products/jack%20%20and%20lifts/3ton_jack_stand.webp-8.jpg'
         ],
 
         inStock: true,
@@ -6017,8 +6000,8 @@ Home Heavy Duty Axle Jack Stand is designed to safely support vehicles during ma
         price: 95000,
 
         images: [
-            'assets/img/grease buckets/eurotek grease bucket.avif',
-            'assets/img/grease buckets/eurotek grease bucket-2.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307356/Astonic-Mart/Products/grease%20buckets/eurotek_grease_bucket.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307358/Astonic-Mart/Products/grease%20buckets/eurotek_grease_bucket-2.avif'
         ],
 
         inStock: true,
@@ -6081,12 +6064,12 @@ Home Heavy Duty Axle Jack Stand is designed to safely support vehicles during ma
         discountPrice: 180000,
 
         images: [
-            'assets/img/tools sets/198pcs tool set.jpg',
-            'assets/img/tools sets/198pcs tool set-2.jpg',
-            'assets/img/tools sets/198pcs tool set-3.jpg',
-            'assets/img/tools sets/198pcs tool set-4.webp',
-            'assets/img/tools sets/198pcs tool set-5.webp',
-            'assets/img/tools sets/198pcs tool set-6.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329786/Astonic-Mart/Products/tools%20sets/198pcs_tool_set.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329787/Astonic-Mart/Products/tools%20sets/198pcs_tool_set-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329787/Astonic-Mart/Products/tools%20sets/198pcs_tool_set-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329794/Astonic-Mart/Products/tools%20sets/198pcs_tool_set-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329792/Astonic-Mart/Products/tools%20sets/198pcs_tool_set-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329792/Astonic-Mart/Products/tools%20sets/198pcs_tool_set-6.jpg'
         ],
 
         inStock: true,
@@ -6147,10 +6130,10 @@ Home Heavy Duty Axle Jack Stand is designed to safely support vehicles during ma
 
 
         images: [
-            'assets/img/air-compressor accessories/TOTAL AIR TIRE INFLATING GUN (TAT11601).jpg',
-            'assets/img/air-compressor accessories/TOTAL AIR TIRE INFLATING GUN (TAT11601)-2.jpg',
-            'assets/img/air-compressor accessories/TOTAL AIR TIRE INFLATING GUN (TAT11601)-3.jpg',
-            'assets/img/air-compressor accessories/TOTAL AIR TIRE INFLATING GUN (TAT11601)-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304003/Astonic-Mart/Products/air-compressor%20accessories/TOTAL_AIR_TIRE_INFLATING_GUN_TAT11601.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304003/Astonic-Mart/Products/air-compressor%20accessories/TOTAL_AIR_TIRE_INFLATING_GUN_TAT11601-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304004/Astonic-Mart/Products/air-compressor%20accessories/TOTAL_AIR_TIRE_INFLATING_GUN_TAT11601-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304005/Astonic-Mart/Products/air-compressor%20accessories/TOTAL_AIR_TIRE_INFLATING_GUN_TAT11601-4.jpg'
 
         ],
 
@@ -6204,11 +6187,11 @@ Home Heavy Duty Axle Jack Stand is designed to safely support vehicles during ma
         price: 35000,
 
         images: [
-            'assets/img/air-compressor accessories/ingco air inflating gun ATG0601-2.jpeg',
-            'assets/img/air-compressor accessories/ingco air inflating gun ATG0601.jpeg',
-            'assets/img/air-compressor accessories/ingco air inflating gun ATG0601-3.jpeg',
-            'assets/img/air-compressor accessories/ingco air inflating gun ATG0601-4.jpeg',
-            'assets/img/air-compressor accessories/ingco air inflating gun ATG0601-5.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303985/Astonic-Mart/Products/air-compressor%20accessories/ingco_air_inflating_gun_ATG0601-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303983/Astonic-Mart/Products/air-compressor%20accessories/ingco_air_inflating_gun_ATG0601.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303986/Astonic-Mart/Products/air-compressor%20accessories/ingco_air_inflating_gun_ATG0601-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303987/Astonic-Mart/Products/air-compressor%20accessories/ingco_air_inflating_gun_ATG0601-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303988/Astonic-Mart/Products/air-compressor%20accessories/ingco_air_inflating_gun_ATG0601-5.jpg'
         ],
 
         inStock: true,
@@ -6259,7 +6242,7 @@ Home Heavy Duty Axle Jack Stand is designed to safely support vehicles during ma
         price: 850000,
 
         images: [
-            'assets/img/shop press/Hydraulic-Workshop-ress-20ton.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329124/Astonic-Mart/Products/shop%20press/Hydraulic-Workshop-ress-20ton.webp'
         ],
 
         inStock: true,
@@ -6302,8 +6285,8 @@ Home Heavy Duty Axle Jack Stand is designed to safely support vehicles during ma
         discountPrice: 5500000,
 
         images: [
-            'assets/img/shop press/100-Ton-Hydraulic-Press.webp',
-            'assets/img/shop press/100-Ton-Hydraulic-Press.webp-3.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329068/Astonic-Mart/Products/shop%20press/100-Ton-Hydraulic-Press.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329068/Astonic-Mart/Products/shop%20press/100-Ton-Hydraulic-Press.webp-3.png'
         ],
 
         inStock: true,
@@ -6359,10 +6342,10 @@ Home Heavy Duty Axle Jack Stand is designed to safely support vehicles during ma
         discountPrice: 90000,
 
         images: [
-            'assets/img/tools sets/total 81 Pcs tools set THKTHP10812.jpg',
-            'assets/img/tools sets/total 81 Pcs tools set THKTHP10812-2.jpg',
-            'assets/img/tools sets/total 81 Pcs tools set THKTHP10812-3.jpg',
-            'assets/img/tools sets/total 81 Pcs tools set THKTHP10812-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329936/Astonic-Mart/Products/tools%20sets/total_81_Pcs_tools_set_THKTHP10812.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329935/Astonic-Mart/Products/tools%20sets/total_81_Pcs_tools_set_THKTHP10812-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329935/Astonic-Mart/Products/tools%20sets/total_81_Pcs_tools_set_THKTHP10812-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329941/Astonic-Mart/Products/tools%20sets/total_81_Pcs_tools_set_THKTHP10812-4.jpg'
         ],
 
         inStock: true,
@@ -6430,9 +6413,9 @@ Home Heavy Duty Axle Jack Stand is designed to safely support vehicles during ma
         discountPrice: 175000,
 
         images: [
-            'assets/img/trolleys/gas trolley 2 cynlinder.avif',
-            'assets/img/trolleys/gas trolley 2 cynlinder-3.jpeg',
-            'assets/img/trolleys/gas trolley 2 cynlinder-2.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330086/Astonic-Mart/Products/trolleys/gas_trolley_2_cynlinder.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330097/Astonic-Mart/Products/trolleys/gas_trolley_2_cynlinder-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330097/Astonic-Mart/Products/trolleys/gas_trolley_2_cynlinder-2.webp'
         ],
 
         inStock: true,
@@ -6482,9 +6465,9 @@ Home Heavy Duty Axle Jack Stand is designed to safely support vehicles during ma
         discountPrice: 115000,
 
         images: [
-            'assets/img/trolleys/gas trolley single cynlinder.webp',
-            'assets/img/trolleys/gas trolley single cynlinder-3.jpg',
-            'assets/img/trolleys/gas trolley single cynlinder-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330097/Astonic-Mart/Products/trolleys/gas_trolley_single_cynlinder.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330098/Astonic-Mart/Products/trolleys/gas_trolley_single_cynlinder-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330097/Astonic-Mart/Products/trolleys/gas_trolley_single_cynlinder-2.jpg'
         ],
 
         inStock: true,
@@ -6531,12 +6514,12 @@ Home Heavy Duty Axle Jack Stand is designed to safely support vehicles during ma
         brand: 'Generic',
         price: 180000,
         images: [
-            'assets/img/trolleys/300kg garden trolley.avif',
-            'assets/img/trolleys/300kg garden trolley-2.jpg',
-            'assets/img/trolleys/300kg garden trolley-3.avif',
-            'assets/img/trolleys/300kg garden trolley-4.jpeg',
-            'assets/img/trolleys/300kg garden trolley-5.jpeg',
-            'sassets/img/trolleys/300kg garden trolley-6.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330071/Astonic-Mart/Products/trolleys/300kg_garden_trolley.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330071/Astonic-Mart/Products/trolleys/300kg_garden_trolley-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330071/Astonic-Mart/Products/trolleys/300kg_garden_trolley-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330076/Astonic-Mart/Products/trolleys/300kg_garden_trolley-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330078/Astonic-Mart/Products/trolleys/300kg_garden_trolley-5.jpg',
+            'shttps://res.cloudinary.com/taus5tit/image/upload/v1786330080/Astonic-Mart/Products/trolleys/300kg_garden_trolley-6.webp'
         ],
 
         inStock: true,
@@ -6596,14 +6579,14 @@ Reliable performance in demanding environments
         price: 150000,
 
         images: [
-            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-5.jpg',
-            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI.jpg',
-            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-2.jpg',
-            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-3.jpg',
-            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-4.jpg',
-            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-5.jpg',
-            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-6.jpg',
-            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310805/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310797/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310799/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310800/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310803/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310805/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310808/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310813/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-7.jpg'
         ],
 
         inStock: true,
@@ -6680,13 +6663,13 @@ User Manual
         price: 65000,
 
         images: [
-            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit.jpg',
-            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-2.jpg',
-            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-3.jpg',
-            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-4.jpg',
-            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-5.jpg',
-            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-6.jpg',
-            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310788/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310790/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310791/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310792/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310793/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310795/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310796/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-7.jpg'
         ],
 
         inStock: true,
@@ -6764,13 +6747,13 @@ Accessories:
         price: 165000,
 
         images: [
-            'assets/img/jack  and lifts/5 Ton Car Jack With Tyre Inflator & Impact Wrench.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With Tyre Inflator & Impact Wrench-2.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With Tyre Inflator & Impact Wrench-3.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With Tyre Inflator & Impact Wrench-4.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With Tyre Inflator & Impact Wrench-5.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With Tyre Inflator & Impact Wrench-6.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With Tyre Inflator & Impact Wrench-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331916/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_Tyre_Inflator_and_Impact_Wrench.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331919/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_Tyre_Inflator_and_Impact_Wrench-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331920/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_Tyre_Inflator_and_Impact_Wrench-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331918/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_Tyre_Inflator_and_Impact_Wrench-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331921/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_Tyre_Inflator_and_Impact_Wrench-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331924/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_Tyre_Inflator_and_Impact_Wrench-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331926/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_Tyre_Inflator_and_Impact_Wrench-7.jpg'
         ],
 
         inStock: true,
@@ -6821,12 +6804,12 @@ Reliable and convenient all-in-one solution
         price: 170000,
 
         images: [
-            'assets/img/jack  and lifts/5 Ton Car Jack With floor jack.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With floor jack-2.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With floor jack-3.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With floor jack-4.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With floor jack-5.jpg',
-            'assets/img/jack  and lifts/5 Ton Car Jack With floor jack-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308137/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_floor_jack.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308139/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_floor_jack-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308140/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_floor_jack-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308142/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_floor_jack-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308143/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_floor_jack-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308145/Astonic-Mart/Products/jack%20%20and%20lifts/5_Ton_Car_Jack_With_floor_jack-6.jpg'
         ],
 
         inStock: true,
@@ -6878,9 +6861,9 @@ Ideal for garages, workshops and personal vehicle maintenance
         price: 400000,
 
         images: [
-            'assets/img/drum handling equipments/350kg drum truck.png',
-            'assets/img/drum handling equipments/350kg drum truck-2.png',
-            'assets/img/drum handling equipments/350kg drum truck-3.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324371/Astonic-Mart/Products/drum%20handling%20equipments/350kg_drum_truck.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324351/Astonic-Mart/Products/drum%20handling%20equipments/350kg_drum_truck-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324367/Astonic-Mart/Products/drum%20handling%20equipments/350kg_drum_truck-3.png'
         ],
 
         inStock: true,
@@ -6928,13 +6911,13 @@ Long service life
         price: 95000,
 
         images: [
-            'assets/img/vertical clamp/2t vertical clamp.jpg',
-            'src/assets/img/vertical clamp/2t vertical clamp-2.jpg',
-            'src/assets/img/vertical clamp/2t vertical clamp-3.jpg',
-            'src/assets/img/vertical clamp/2t vertical clamp-4.jpg',
-            'src/assets/img/vertical clamp/2t vertical clamp-5.jpg',
-            'src/assets/img/vertical clamp/2t vertical clamp-6.jpg',
-            'src/assets/img/vertical clamp/2t vertical clamp-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330319/Astonic-Mart/Products/vertical%20clamp/2t_vertical_clamp.jpg',
+            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786330329/Astonic-Mart/Products/vertical%20clamp/2t_vertical_clamp-2.jpg',
+            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786330327/Astonic-Mart/Products/vertical%20clamp/2t_vertical_clamp-3.jpg',
+            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786330325/Astonic-Mart/Products/vertical%20clamp/2t_vertical_clamp-4.jpg',
+            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786330325/Astonic-Mart/Products/vertical%20clamp/2t_vertical_clamp-5.jpg',
+            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786330330/Astonic-Mart/Products/vertical%20clamp/2t_vertical_clamp-6.jpg',
+            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786330333/Astonic-Mart/Products/vertical%20clamp/2t_vertical_clamp-7.jpg'
         ],
 
         inStock: true,
@@ -6981,13 +6964,13 @@ Low maintenance design
         price: 130000,
 
         images: [
-            'assets/img/vertical clamp/5T verical clamp.jpg',
-            'assets/img/vertical clamp/5T verical clamp-2.jpg',
-            'assets/img/vertical clamp/5T verical clamp-3.jpg',
-            'assets/img/vertical clamp/5T verical clamp-4.jpg',
-            'assets/img/vertical clamp/5T verical clamp-5.jpg',
-            'assets/img/vertical clamp/5T verical clamp-6.jpg',
-            'assets/img/vertical clamp/5T verical clamp-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330337/Astonic-Mart/Products/vertical%20clamp/5T_verical_clamp.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330337/Astonic-Mart/Products/vertical%20clamp/5T_verical_clamp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330337/Astonic-Mart/Products/vertical%20clamp/5T_verical_clamp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330341/Astonic-Mart/Products/vertical%20clamp/5T_verical_clamp-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330341/Astonic-Mart/Products/vertical%20clamp/5T_verical_clamp-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330341/Astonic-Mart/Products/vertical%20clamp/5T_verical_clamp-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330341/Astonic-Mart/Products/vertical%20clamp/5T_verical_clamp-7.jpg'
         ],
 
         inStock: true,
@@ -7035,12 +7018,12 @@ Long service life
         price: 150000,
 
         images: [
-            'assets/img/vertical clamp/3t vertical clamp.jpg',
-            'assets/img/vertical clamp/3t vertical clamp-2.jpg',
-            'assets/img/vertical clamp/3t vertical clamp-3.jpg',
-            'assets/img/vertical clamp/3t vertical clamp-4.jpg',
-            'assets/img/vertical clamp/3t vertical clamp-5.jpg',
-            'assets/img/vertical clamp/3t vertical clamp-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330333/Astonic-Mart/Products/vertical%20clamp/3t_vertical_clamp.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330333/Astonic-Mart/Products/vertical%20clamp/3t_vertical_clamp-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330333/Astonic-Mart/Products/vertical%20clamp/3t_vertical_clamp-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330334/Astonic-Mart/Products/vertical%20clamp/3t_vertical_clamp-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330338/Astonic-Mart/Products/vertical%20clamp/3t_vertical_clamp-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330337/Astonic-Mart/Products/vertical%20clamp/3t_vertical_clamp-6.jpg'
         ],
 
         inStock: true,
@@ -7092,7 +7075,7 @@ Long service life
         capacity: '15 Litres',
 
         images: [
-            'assets/img/grease buckets/dass grease bucket-20kg.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307355/Astonic-Mart/Products/grease%20buckets/dass_grease_bucket-20kg.jpg'
         ],
 
         inStock: true,
@@ -7145,7 +7128,7 @@ Reliable lubrication performance
 
         images: [
 
-            'assets/img/grease buckets/dass grease bucket 15kg.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307354/Astonic-Mart/Products/grease%20buckets/dass_grease_bucket_15kg.jpg'
         ],
 
         inStock: true,
@@ -7201,7 +7184,7 @@ Reliable performance under load
         discountPrice: 79000,
 
         images: [
-            'assets/img/tire changers and aligments/wheel locks.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329720/Astonic-Mart/Products/tire%20changers%20and%20aligments/wheel_locks.webp'
         ],
 
         inStock: true,
@@ -7260,10 +7243,10 @@ Ideal for home and commercial use
         capacity: '30L',
 
         images: [
-            'assets/img/grease buckets/TOTAL THT118302 Grease Bucket.jpg',
-            'assets/img/grease buckets/TOTAL THT118302 Grease Bucket-2.jpg',
-            'assets/img/grease buckets/TOTAL THT118302 Grease Bucket-3.jpg',
-            'assets/img/grease buckets/TOTAL THT118302 Grease Bucket-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307365/Astonic-Mart/Products/grease%20buckets/TOTAL_THT118302_Grease_Bucket.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307366/Astonic-Mart/Products/grease%20buckets/TOTAL_THT118302_Grease_Bucket-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307367/Astonic-Mart/Products/grease%20buckets/TOTAL_THT118302_Grease_Bucket-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307368/Astonic-Mart/Products/grease%20buckets/TOTAL_THT118302_Grease_Bucket-4.jpg'
         ],
 
         inStock: true,
@@ -7326,7 +7309,7 @@ Professional-grade performance
         discountPrice: 42000,
 
         images: [
-            'assets/img/tools sets/TOTAL 24PCS one and half inch SOCKET SET.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329938/Astonic-Mart/Products/tools%20sets/TOTAL_24PCS_one_and_half_inch_SOCKET_SET.jpg'
         ],
 
         inStock: false,
@@ -7399,10 +7382,10 @@ Professional-grade performance
         discountPrice: 145000,
 
         images: [
-            'assets/img/tools sets/TOTAL SET CORDLESS DRILL  128PCS (THKTHP11282).jpg',
-            'assets/img/tools sets/TOTAL SET CORDLESS DRILL  128PCS (THKTHP11282)-2.jpeg',
-            'assets/img/tools sets/TOTAL SET CORDLESS DRILL  128PCS (THKTHP11282)-3.jpg',
-            'assets/img/tools sets/TOTAL SET CORDLESS DRILL  128PCS (THKTHP11282)-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329942/Astonic-Mart/Products/tools%20sets/TOTAL_SET_CORDLESS_DRILL_128PCS_THKTHP11282.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329941/Astonic-Mart/Products/tools%20sets/TOTAL_SET_CORDLESS_DRILL_128PCS_THKTHP11282-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329941/Astonic-Mart/Products/tools%20sets/TOTAL_SET_CORDLESS_DRILL_128PCS_THKTHP11282-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329941/Astonic-Mart/Products/tools%20sets/TOTAL_SET_CORDLESS_DRILL_128PCS_THKTHP11282-4.jpg'
         ],
 
         model: 'THKTHP11282',
@@ -7480,12 +7463,12 @@ Professional-grade performance
         discountPrice: 135000,
 
         images: [
-            'assets/img/tools sets/TOTAL 100 Pcs tools set (THKTHP21006).jpg',
-            'assets/img/tools sets/TOTAL 100 Pcs tools set (THKTHP21006)-3.jpg',
-            'assets/img/tools sets/TOTAL 100 Pcs tools set (THKTHP21006)-5.jpg',
-            'assets/img/tools sets/TOTAL 100 Pcs tools set (THKTHP21006)-6.jpg',
-            'assets/img/tools sets/TOTAL 100 Pcs tools set (THKTHP21006)-4.jpg',
-            'assets/img/tools sets/TOTAL 100 Pcs tools set (THKTHP21006)-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329878/Astonic-Mart/Products/tools%20sets/TOTAL_100_Pcs_tools_set_THKTHP21006.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329877/Astonic-Mart/Products/tools%20sets/TOTAL_100_Pcs_tools_set_THKTHP21006-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329904/Astonic-Mart/Products/tools%20sets/TOTAL_100_Pcs_tools_set_THKTHP21006-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329908/Astonic-Mart/Products/tools%20sets/TOTAL_100_Pcs_tools_set_THKTHP21006-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329877/Astonic-Mart/Products/tools%20sets/TOTAL_100_Pcs_tools_set_THKTHP21006-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329878/Astonic-Mart/Products/tools%20sets/TOTAL_100_Pcs_tools_set_THKTHP21006-2.jpg'
         ],
 
         model: 'THKTHP21006',
@@ -7601,16 +7584,16 @@ Professional-grade performance
         price: 330000,
 
         images: [
-            'assets/img/jack  and lifts/750lbs Engine Stand with 360┬░ Rotating Head.webp',
-            'assets/img/jack  and lifts/750lbs Engine Stand with 360┬░ Rotating Head-2.webp',
-            'assets/img/jack  and lifts/750lbs Engine Stand with 360┬░ Rotating Head-3.webp',
-            'assets/img/jack  and lifts/750lbs Engine Stand with 360┬░ Rotating Head-4.webp',
-            'assets/img/jack  and lifts/750lbs Engine Stand with 360┬░ Rotating Head-5.webp',
-            'assets/img/jack  and lifts/750lbs Engine Stand with 360┬░ Rotating Head-6.webp',
-            'assets/img/jack  and lifts/750lbs Engine Stand with 360┬░ Rotating Head-7.webp',
-            'assets/img/jack  and lifts/750lbs Engine Stand with 360┬░ Rotating Head-8.webp',
-            'assets/img/jack  and lifts/750lbs Engine Stand with 360┬░ Rotating Head-9.webp',
-            'assets/img/jack  and lifts/750lbs Engine Stand with 360┬░ Rotating Head-10.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429789/Astonic-Mart/Products/remaining-local-images/oqju7gtkjildtfnlwmm0.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429791/Astonic-Mart/Products/remaining-local-images/bpj3j5kak6zu7snjtxgl.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429794/Astonic-Mart/Products/remaining-local-images/knzoj6pgpkec7ffzjwi8.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429795/Astonic-Mart/Products/remaining-local-images/fh9xybuseotbby0dane7.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429797/Astonic-Mart/Products/remaining-local-images/tny9flieytdlwlixrwk1.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429799/Astonic-Mart/Products/remaining-local-images/n8iuqoltu4zk8t075wgt.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429801/Astonic-Mart/Products/remaining-local-images/vjdunjltppla2veyktpm.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429803/Astonic-Mart/Products/remaining-local-images/jkdoja4yefuct8u8t7bh.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429805/Astonic-Mart/Products/remaining-local-images/oustps4pkkmq34m8wqkx.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429807/Astonic-Mart/Products/remaining-local-images/wgg9y7e2e9egv5r51vjg.webp'
         ],
 
         inStock: true,
@@ -7667,13 +7650,13 @@ Professional-grade performance
         price: 95000,
 
         images: [
-            'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill.jpg',
-            'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-2.webp',
-            'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-3.jpg',
-            'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-4.jpg',
-            'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-5.jpg',
-            'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-6.jpg',
-            'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329866/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329869/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329867/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329867/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329868/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329874/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329871/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-7.jpg'
         ],
 
         model: 'UHKTHP10811',
@@ -7768,13 +7751,13 @@ Professional-grade performance
         capacity: '10 Ton',
 
         images: [
-            'assets/img/jack  and lifts/10 Ton Hydraulic Body Repair Kit.png',
-            'assets/img/jack  and lifts/10 Ton Hydraulic Body Repair Kit-2.png',
-            'assets/img/jack  and lifts/10 Ton Hydraulic Body Repair Kit-3.jpg',
-            'assets/img/jack  and lifts/10 Ton Hydraulic Body Repair Kit-4.jpg',
-            'assets/img/jack  and lifts/10 Ton Hydraulic Body Repair Kit-5.jpg',
-            'assets/img/jack  and lifts/10 Ton Hydraulic Body Repair Kit-6.jpg',
-            'assets/img/jack  and lifts/10 Ton Hydraulic Body Repair Kit-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308040/Astonic-Mart/Products/jack%20%20and%20lifts/10_Ton_Hydraulic_Body_Repair_Kit.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308077/Astonic-Mart/Products/jack%20%20and%20lifts/10_Ton_Hydraulic_Body_Repair_Kit-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308078/Astonic-Mart/Products/jack%20%20and%20lifts/10_Ton_Hydraulic_Body_Repair_Kit-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308080/Astonic-Mart/Products/jack%20%20and%20lifts/10_Ton_Hydraulic_Body_Repair_Kit-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308081/Astonic-Mart/Products/jack%20%20and%20lifts/10_Ton_Hydraulic_Body_Repair_Kit-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308082/Astonic-Mart/Products/jack%20%20and%20lifts/10_Ton_Hydraulic_Body_Repair_Kit-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308084/Astonic-Mart/Products/jack%20%20and%20lifts/10_Ton_Hydraulic_Body_Repair_Kit-7.jpg'
         ],
 
         inStock: true,
@@ -7843,10 +7826,10 @@ accessories:
         discountPrice: 25000,
 
         images: [
-            'assets/img/air-compressor accessories/digital tire inflator gun.png',
-            'assets/img/air-compressor accessories/digital tire inflator gun-2.jpg',
-            'assets/img/air-compressor accessories/digital tire inflator gun-3.jpg',
-            'assets/img/air-compressor accessories/digital tire inflator gun-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303968/Astonic-Mart/Products/air-compressor%20accessories/digital_tire_inflator_gun.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303969/Astonic-Mart/Products/air-compressor%20accessories/digital_tire_inflator_gun-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303970/Astonic-Mart/Products/air-compressor%20accessories/digital_tire_inflator_gun-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303971/Astonic-Mart/Products/air-compressor%20accessories/digital_tire_inflator_gun-4.jpg'
         ],
 
         inStock: true,
@@ -7894,10 +7877,10 @@ Accessories Included:
 
 
         images: [
-            'assets/img/water seperators/Dahl Baldwin air Filter-200-W30.webp',
-            'assets/img/water seperators/Dahl Baldwin air Filter-200-W30-2.avif',
-            'assets/img/water seperators/Dahl Baldwin air Filter-200-W30-3.jpeg',
-            'assets/img/water seperators/Dahl Baldwin air Filter-200-W30-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330367/Astonic-Mart/Products/water%20seperators/Dahl_Baldwin_air_Filter-200-W30.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330370/Astonic-Mart/Products/water%20seperators/Dahl_Baldwin_air_Filter-200-W30-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330370/Astonic-Mart/Products/water%20seperators/Dahl_Baldwin_air_Filter-200-W30-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330371/Astonic-Mart/Products/water%20seperators/Dahl_Baldwin_air_Filter-200-W30-4.webp'
         ],
 
         inStock: true,
@@ -7954,11 +7937,11 @@ Accessories Included:
         discountPrice: 350000,
 
         images: [
-            'assets/img/tools sets/71 Piece Air Tools Kit.jpg',
-            'assets/img/tools sets/71 Piece Air Tools Kit-2.jpg',
-            'assets/img/tools sets/71 Piece Air Tools Kit-3.jpg',
-            'assets/img/tools sets/71 Piece Air Tools Kit-4.jpg',
-            'assets/img/tools sets/71 Piece Air Tools Kit-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329845/Astonic-Mart/Products/tools%20sets/71_Piece_Air_Tools_Kit.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329846/Astonic-Mart/Products/tools%20sets/71_Piece_Air_Tools_Kit-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/71_Piece_Air_Tools_Kit-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/71_Piece_Air_Tools_Kit-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/71_Piece_Air_Tools_Kit-5.jpg'
         ],
 
         inStock: true,
@@ -8018,11 +8001,11 @@ Accessories Included:
         discountPrice: 350000,
 
         images: [
-            'assets/img/tools sets/71 Piece Air Tools Kit.jpg',
-            'assets/img/tools sets/71 Piece Air Tools Kit-2.jpg',
-            'assets/img/tools sets/71 Piece Air Tools Kit-3.jpg',
-            'assets/img/tools sets/71 Piece Air Tools Kit-4.jpg',
-            'assets/img/tools sets/71 Piece Air Tools Kit-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329845/Astonic-Mart/Products/tools%20sets/71_Piece_Air_Tools_Kit.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329846/Astonic-Mart/Products/tools%20sets/71_Piece_Air_Tools_Kit-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/71_Piece_Air_Tools_Kit-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/71_Piece_Air_Tools_Kit-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/71_Piece_Air_Tools_Kit-5.jpg'
         ],
 
         inStock: true,
@@ -8082,8 +8065,8 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'assets/img/air-compressor accessories/tire pressure guage.jpg',
-            'assets/img/air-compressor accessories/tire pressure guage-2.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303997/Astonic-Mart/Products/air-compressor%20accessories/tire_pressure_guage.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303998/Astonic-Mart/Products/air-compressor%20accessories/tire_pressure_guage-2.jpg'
         ],
 
         description: `The Automotive Tire Pressure Gauge is a portable testing tool designed for accurately checking tire pressure in cars, motorcycles, bicycles, SUVs, and light trucks. It features an easy-to-read analog dial and flexible hose for convenient access to tire valves, helping maintain proper tire pressure for improved safety, fuel efficiency, and tire life.`,
@@ -8134,8 +8117,8 @@ Accessories Included:
         price: 198000,
 
         images: [
-            'assets/img/cablewires/L2H extension cable reels-2.png',
-            'assets/img/cablewires/L2H extension cable reels.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304589/Astonic-Mart/Products/cablewires/L2H_extension_cable_reels-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304584/Astonic-Mart/Products/cablewires/L2H_extension_cable_reels.png'
         ],
 
         inStock: true,
@@ -8193,7 +8176,7 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'assets/img/jack  and lifts/200T Hydraulic Cylinder Jack with Electric Pump (FCY-200150).png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308118/Astonic-Mart/Products/jack%20%20and%20lifts/200T_Hydraulic_Cylinder_Jack_with_Electric_Pump_FCY-200150.png'
         ],
 
         description: 'Heavy-duty 200-ton hydraulic cylinder jack supplied with an electric hydraulic pump for industrial lifting, pressing, alignment, bridge construction, steel fabrication, heavy machinery maintenance, and structural engineering applications. The electric pump provides fast, controlled lifting with minimal manual effort.',
@@ -8253,7 +8236,7 @@ Accessories:
         inStock: true,
 
         images: [
-            'assets/img/jack  and lifts/FCY-20100 Hydraulic Cylinder Jack with Manual Pump.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308261/Astonic-Mart/Products/jack%20%20and%20lifts/FCY-20100_Hydraulic_Cylinder_Jack_with_Manual_Pump.png'
         ],
 
         description: 'Heavy-duty FCY-20100 hydraulic cylinder jack supplied with a manual hydraulic hand pump. Designed for lifting, pressing, straightening, alignment, maintenance work, steel fabrication, construction, and industrial applications requiring controlled hydraulic force.',
@@ -8309,8 +8292,8 @@ Accessories:
         inStock: true,
 
         images: [
-            'assets/img/jack  and lifts/FCY-20100 Hydraulic Cylinder Jack with Manual Pump-2.avif',
-            'assets/img/jack  and lifts/FCY-20100 Hydraulic Cylinder Jack with Manual Pump.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308263/Astonic-Mart/Products/jack%20%20and%20lifts/FCY-20100_Hydraulic_Cylinder_Jack_with_Manual_Pump-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308261/Astonic-Mart/Products/jack%20%20and%20lifts/FCY-20100_Hydraulic_Cylinder_Jack_with_Manual_Pump.png'
         ],
 
         description: 'The HHYG-50D Multi-Stage Hydraulic Cylinder is a compact high-tonnage hydraulic lifting cylinder designed for heavy-duty industrial lifting, leveling, alignment, bridge maintenance, steel fabrication, construction, shipbuilding, and machinery installation. Its low-profile design allows operation in confined spaces while delivering a powerful 50-ton lifting capacity.',
@@ -8360,7 +8343,7 @@ Accessories: Hydraulic Coupler, Dust Cap, User Manual
         inStock: true,
 
         images: [
-            'assets/img/jack  and lifts/FCY-20100 20 Ton Thin Hydraulic Cylinder Jack.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308239/Astonic-Mart/Products/jack%20%20and%20lifts/FCY-20100_20_Ton_Thin_Hydraulic_Cylinder_Jack.png'
         ],
 
         description: 'FCY-20100 low-profile hydraulic cylinder jack designed for heavy-duty lifting and positioning applications where space is limited. Its compact design allows use in confined areas while delivering a powerful 20-ton lifting force when connected to a hydraulic pump.',
@@ -8410,8 +8393,8 @@ Accessories:
         inStock: true,
 
         images: [
-            'assets/img/jack  and lifts/PA1000 Micro Electric Rope Hoist-1.png',
-            'assets/img/jack  and lifts/PA1000 Micro Electric Rope Hoist-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308446/Astonic-Mart/Products/jack%20%20and%20lifts/PA1000_Micro_Electric_Rope_Hoist-1.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308467/Astonic-Mart/Products/jack%20%20and%20lifts/PA1000_Micro_Electric_Rope_Hoist-2.png'
         ],
 
         description: 'The PA1000 Micro Electric Rope Hoist is a compact and powerful electric lifting machine designed for warehouses, workshops, garages, construction sites, and industrial material handling applications. It features a high-performance motor, durable steel wire rope, emergency stop control, and reliable lifting performance.',
@@ -8475,7 +8458,7 @@ Accessories:
 
 
         images: [
-            'assets/img/oil extractors/80l  oil extractors.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309519/Astonic-Mart/Products/oil%20extractors/80l_oil_extractors.png',
 
         ],
 
@@ -8526,8 +8509,8 @@ Wheel Set
         capacity: '90L',
 
         images: [
-            'assets/img/oil extractors/90l oil extractors.png',
-            'assets/img/oil extractors/90l oil extractors-2.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309537/Astonic-Mart/Products/oil%20extractors/90l_oil_extractors.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309560/Astonic-Mart/Products/oil%20extractors/90l_oil_extractors-2.png'
 
         ],
 
@@ -8577,11 +8560,11 @@ Wheel Set
         model: 'THPTCS71621',
 
         images: [
-            'assets/img/tools sets/total 162 Pcs Tool  Set - THPTCS71621.jpg',
-            'assets/img/tools sets/total 162 Pcs Tool  Set - THPTCS71621.jpg-2.jpg',
-            'assets/img/tools sets/total 162 Pcs Tool  Set - THPTCS71621.jpg-4.jpg',
-            'assets/img/tools sets/total 162 Pcs Tool  Set - THPTCS71621.jpg-3.jpg',
-            'assets/img/tools sets/total 162 Pcs Tool  Set - THPTCS71621.jpg-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329932/Astonic-Mart/Products/tools%20sets/total_162_Pcs_Tool_Set_-_THPTCS71621.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329931/Astonic-Mart/Products/tools%20sets/total_162_Pcs_Tool_Set_-_THPTCS71621.jpg-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329930/Astonic-Mart/Products/tools%20sets/total_162_Pcs_Tool_Set_-_THPTCS71621.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329930/Astonic-Mart/Products/tools%20sets/total_162_Pcs_Tool_Set_-_THPTCS71621.jpg-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329932/Astonic-Mart/Products/tools%20sets/total_162_Pcs_Tool_Set_-_THPTCS71621.jpg-5.webp',
 
         ],
 
@@ -8683,13 +8666,13 @@ EVA Foam Tool Organizers
         power: '24V DC',
 
         images: [
-            'assets/img/jack  and lifts/6000lbs 24V DC Power Electric Winch with Wire Rope.webp',
-            'assets/img/jack  and lifts/6000lbs 24V DC Power Electric Winch with Wire Rope-2.webp',
-            'assets/img/jack  and lifts/6000lbs 24V DC Power Electric Winch with Wire Rope-3.jpg',
-            'assets/img/jack  and lifts/6000lbs 24V DC Power Electric Winch with Wire Rope-4.jpg',
-            'assets/img/jack  and lifts/6000lbs 24V DC Power Electric Winch with Wire Rope-5.jpg',
-            'assets/img/jack  and lifts/6000lbs 24V DC Power Electric Winch with Wire Rope-6.jpg',
-            'assets/img/jack  and lifts/6000lbs 24V DC Power Electric Winch with Wire Rope-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308203/Astonic-Mart/Products/jack%20%20and%20lifts/6000lbs_24V_DC_Power_Electric_Winch_with_Wire_Rope.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308207/Astonic-Mart/Products/jack%20%20and%20lifts/6000lbs_24V_DC_Power_Electric_Winch_with_Wire_Rope-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308209/Astonic-Mart/Products/jack%20%20and%20lifts/6000lbs_24V_DC_Power_Electric_Winch_with_Wire_Rope-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308211/Astonic-Mart/Products/jack%20%20and%20lifts/6000lbs_24V_DC_Power_Electric_Winch_with_Wire_Rope-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308212/Astonic-Mart/Products/jack%20%20and%20lifts/6000lbs_24V_DC_Power_Electric_Winch_with_Wire_Rope-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308214/Astonic-Mart/Products/jack%20%20and%20lifts/6000lbs_24V_DC_Power_Electric_Winch_with_Wire_Rope-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308216/Astonic-Mart/Products/jack%20%20and%20lifts/6000lbs_24V_DC_Power_Electric_Winch_with_Wire_Rope-7.jpg'
         ],
 
         description: 'The 6000lbs 24V DC Electric Winch is a heavy-duty pulling and recovery tool designed for vehicles, trailers, off-road applications, industrial lifting, and material handling. Powered by a 24V DC motor, it delivers reliable pulling performance and comes equipped with a high-strength steel wire rope for demanding operations.',
@@ -8756,13 +8739,13 @@ User Manual
         model: '216PCS',
 
         images: [
-            'assets/img/tools sets/216-Piece Socket Se-1.jpg',
-            'assets/img/tools sets/216-Piece Socket Set tool-4.jpg',
-            'assets/img/tools sets/216-Piece Socket Se-2.jpg',
-            'assets/img/tools sets/216-Piece Socket Set tool-1.jpg',
-            'assets/img/tools sets/216-Piece Socket Set tool-3.jpg',
-            'assets/img/tools sets/216-Piece Socket Set tool-5.jpg',
-            'assets/img/tools sets/216-Piece Socket Set tool kit.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329792/Astonic-Mart/Products/tools%20sets/216-Piece_Socket_Se-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329798/Astonic-Mart/Products/tools%20sets/216-Piece_Socket_Set_tool-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329794/Astonic-Mart/Products/tools%20sets/216-Piece_Socket_Se-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329800/Astonic-Mart/Products/tools%20sets/216-Piece_Socket_Set_tool-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329800/Astonic-Mart/Products/tools%20sets/216-Piece_Socket_Set_tool-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329798/Astonic-Mart/Products/tools%20sets/216-Piece_Socket_Set_tool-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329802/Astonic-Mart/Products/tools%20sets/216-Piece_Socket_Set_tool_kit.webp'
         ],
 
         description: 'The 216 Pcs Tool Socket Set Kit is a comprehensive mechanic and maintenance tool set designed for automotive repair, equipment maintenance, workshop operations, and general-purpose mechanical work. The set includes 1/4", 3/8", and 1/2" drive sockets, ratchets, extension bars, bits, spanners, and accessories organized in a durable carrying case.',
@@ -8832,8 +8815,8 @@ Adapters
 
 
         images: [
-            "assets/img/grease buckets/12L Foot Operated Grease Bucket.png",
-            "assets/img/grease buckets/12L Foot Operated Grease Bucket-2.png",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786307348/Astonic-Mart/Products/grease%20buckets/12L_Foot_Operated_Grease_Bucket.png",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786307352/Astonic-Mart/Products/grease%20buckets/12L_Foot_Operated_Grease_Bucket-2.png",
 
         ],
 
@@ -8902,12 +8885,12 @@ Accessories Included:
         discountPrice: 170000,
 
         images: [
-            'assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-1.jpg',
-            'assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-2.jpg',
-            'assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-3.jpg',
-            'assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-4.jpg',
-            'assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-5.jpg',
-            'assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429808/Astonic-Mart/Products/remaining-local-images/p6paxn5slujjiqizpo1f.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429812/Astonic-Mart/Products/remaining-local-images/ohfbfdwdfyrz4dznekda.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429814/Astonic-Mart/Products/remaining-local-images/twytuvowoszhajnx5nuu.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429816/Astonic-Mart/Products/remaining-local-images/pzoajjtgcx4vfneq4d5c.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429818/Astonic-Mart/Products/remaining-local-images/nqq59l371vg2eyngf0zb.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429820/Astonic-Mart/Products/remaining-local-images/lxcnybfcsgwfcwolh0nb.jpg'
         ],
 
         description: `
@@ -8975,9 +8958,9 @@ Accessories Included:
         discountPrice: 1550000,
 
         images: [
-            'assets/img/tire changers and aligments/SAMSTORM Computerized Wheel Balancer.png',
-            'assets/img/tire changers and aligments/SAMSTORM Computerized Wheel Balancer-2.png',
-            'assets/img/tire changers and aligments/SAMSTORM Computerized Wheel Balancer-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329703/Astonic-Mart/Products/tire%20changers%20and%20aligments/SAMSTORM_Computerized_Wheel_Balancer.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329718/Astonic-Mart/Products/tire%20changers%20and%20aligments/SAMSTORM_Computerized_Wheel_Balancer-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329703/Astonic-Mart/Products/tire%20changers%20and%20aligments/SAMSTORM_Computerized_Wheel_Balancer-3.jpg'
         ],
 
         description: `
@@ -9048,11 +9031,11 @@ Accessories Included:
 
 
         images: [
-            'assets/img/jack  and lifts/5 ton screw jack.avif',
-            'assets/img/jack  and lifts/5 ton screw jack-2.png',
-            'assets/img/jack  and lifts/5 ton screw jack-3.webp',
-            'assets/img/jack  and lifts/5 ton screw jack-4.webp',
-            'assets/img/jack  and lifts/5 ton screw jack-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308162/Astonic-Mart/Products/jack%20%20and%20lifts/5_ton_screw_jack.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308183/Astonic-Mart/Products/jack%20%20and%20lifts/5_ton_screw_jack-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308184/Astonic-Mart/Products/jack%20%20and%20lifts/5_ton_screw_jack-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308186/Astonic-Mart/Products/jack%20%20and%20lifts/5_ton_screw_jack-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308189/Astonic-Mart/Products/jack%20%20and%20lifts/5_ton_screw_jack-5.jpg'
         ],
 
         description: `
@@ -9121,12 +9104,12 @@ Accessories Included:
         price: 140000,
 
         images: [
-            "assets/img/trolleys/Foldable Wire Basket Utility Shopping Trolley.webp",
-            "assets/img/trolleys/Foldable Wire Basket Utility Shopping Trolley-2.webp",
-            'assets/img/trolleys/Foldable Wire Basket Utility Shopping Trolley-3.webp',
-            'assets/img/trolleys/Foldable Wire Basket Utility Shopping Trolley-4.webp',
-            'assets/img/trolleys/Foldable Wire Basket Utility Shopping Trolley-5.webp',
-            "assets/img/trolleys/Foldable Wire Basket Utility Shopping Trolley-6.webp"
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786330079/Astonic-Mart/Products/trolleys/Foldable_Wire_Basket_Utility_Shopping_Trolley.webp",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786330077/Astonic-Mart/Products/trolleys/Foldable_Wire_Basket_Utility_Shopping_Trolley-2.webp",
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330095/Astonic-Mart/Products/trolleys/Foldable_Wire_Basket_Utility_Shopping_Trolley-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330089/Astonic-Mart/Products/trolleys/Foldable_Wire_Basket_Utility_Shopping_Trolley-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330096/Astonic-Mart/Products/trolleys/Foldable_Wire_Basket_Utility_Shopping_Trolley-5.webp',
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786330089/Astonic-Mart/Products/trolleys/Foldable_Wire_Basket_Utility_Shopping_Trolley-6.webp"
         ],
 
         description: `The Foldable Wire Basket Utility Trolley is designed for convenient transportation of goods, groceries, laundry, parcels, tools, and warehouse materials. Featuring a durable steel wire basket construction and smooth-rolling wheels, it provides excellent maneuverability while allowing users to easily fold the trolley for storage when not in use.`,
@@ -9173,13 +9156,13 @@ Accessories Included:
         price: 850000,
 
         images: [
-            "assets/img/hydraulic pumps/Pneumatic Hydraulic Foot Pump.jpg",
-            "assets/img/hydraulic pumps/Pneumatic Hydraulic Foot Pump-2.jpg",
-            'assets/img/hydraulic pumps/Pneumatic Hydraulic Foot Pump-3.jpg',
-            'assets/img/hydraulic pumps/Pneumatic Hydraulic Foot Pump-4.jpg',
-            'assets/img/hydraulic pumps/Pneumatic Hydraulic Foot Pump-5.jpg',
-            'assets/img/hydraulic pumps/Pneumatic Hydraulic Foot Pump-6.jpg',
-            'assets/img/hydraulic pumps/Pneumatic Hydraulic Foot Pump-7.jpg'
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786307813/Astonic-Mart/Products/hydraulic%20pumps/Pneumatic_Hydraulic_Foot_Pump.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786307814/Astonic-Mart/Products/hydraulic%20pumps/Pneumatic_Hydraulic_Foot_Pump-2.jpg",
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307815/Astonic-Mart/Products/hydraulic%20pumps/Pneumatic_Hydraulic_Foot_Pump-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307816/Astonic-Mart/Products/hydraulic%20pumps/Pneumatic_Hydraulic_Foot_Pump-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307817/Astonic-Mart/Products/hydraulic%20pumps/Pneumatic_Hydraulic_Foot_Pump-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307818/Astonic-Mart/Products/hydraulic%20pumps/Pneumatic_Hydraulic_Foot_Pump-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786307819/Astonic-Mart/Products/hydraulic%20pumps/Pneumatic_Hydraulic_Foot_Pump-7.jpg'
         ],
 
         description: `The Pneumatic Hydraulic Foot Pump is a high-pressure hydraulic power unit designed for operating single-acting hydraulic cylinders and other hydraulic equipment. It utilizes compressed air and foot pedal operation to generate hydraulic pressure efficiently, making it ideal for industrial maintenance, fabrication workshops, construction sites, and heavy equipment servicing.`,
@@ -9227,14 +9210,14 @@ Accessories Included:
         price: 220000,
 
         images: [
-            "assets/img/pressure kits/28pcs Universal Radiator Pressure.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786310760/Astonic-Mart/Products/pressure%20kits/28pcs_Universal_Radiator_Pressure.jpg",
             "img/products/28pcs-universal-compression-tester-kit-2.jpg",
-            'assets/img/pressure kits/28pcs Universal Radiator Pressure-3.jpg',
-            'assets/img/pressure kits/28pcs Universal Radiator Pressure-4.jpg',
-            'assets/img/pressure kits/28pcs Universal Radiator Pressure-5.jpg',
-            'assets/img/pressure kits/28pcs Universal Radiator Pressure-5.jpg',
-            'assets/img/pressure kits/28pcs Universal Radiator Pressure-7.jpg',
-            'assets/img/pressure kits/28pcs Universal Radiator Pressure-8.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310762/Astonic-Mart/Products/pressure%20kits/28pcs_Universal_Radiator_Pressure-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310764/Astonic-Mart/Products/pressure%20kits/28pcs_Universal_Radiator_Pressure-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310765/Astonic-Mart/Products/pressure%20kits/28pcs_Universal_Radiator_Pressure-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310765/Astonic-Mart/Products/pressure%20kits/28pcs_Universal_Radiator_Pressure-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310769/Astonic-Mart/Products/pressure%20kits/28pcs_Universal_Radiator_Pressure-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310771/Astonic-Mart/Products/pressure%20kits/28pcs_Universal_Radiator_Pressure-8.jpg'
         ],
 
         description: `The 28PCS Universal Compression Tester Kit is a professional engine diagnostic tool designed to measure cylinder compression pressure in both gasoline and diesel engines. It comes with a wide range of adapters, hoses, and fittings, making it suitable for testing cars, motorcycles, trucks, agricultural equipment, and other internal combustion engines. The kit is ideal for automotive workshops, mechanics, and maintenance professionals.`,
@@ -9282,13 +9265,13 @@ Accessories Included:
         price: 350000,
 
         images: [
-            'assets/img/drum handling equipments/drum truck.jpg',
-            "assets/img/drum handling equipments/Steel Manual Drum Lifter - 300kg Capacity.jpg",
-            "assets/img/drum handling equipments/Steel Manual Drum Lifter - 300kg Capacity-2.jpg",
-            'assets/img/drum handling equipments/Steel Manual Drum Lifter - 300kg Capacity-3.jpg',
-            'assets/img/drum handling equipments/Steel Manual Drum Lifter - 300kg Capacity-4.jpg',
-            'assets/img/drum handling equipments/Steel Manual Drum Lifter - 300kg Capacity-5.jpg',
-            'assets/img/drum handling equipments/Steel Manual Drum Lifter - 300kg Capacity-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324381/Astonic-Mart/Products/drum%20handling%20equipments/drum_truck.jpg',
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786324381/Astonic-Mart/Products/drum%20handling%20equipments/Steel_Manual_Drum_Lifter_-_300kg_Capacity.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786324381/Astonic-Mart/Products/drum%20handling%20equipments/Steel_Manual_Drum_Lifter_-_300kg_Capacity-2.jpg",
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324381/Astonic-Mart/Products/drum%20handling%20equipments/Steel_Manual_Drum_Lifter_-_300kg_Capacity-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324382/Astonic-Mart/Products/drum%20handling%20equipments/Steel_Manual_Drum_Lifter_-_300kg_Capacity-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306378/Astonic-Mart/Products/drum%20handling%20equipments/Steel_Manual_Drum_Lifter_-_300kg_Capacity-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306379/Astonic-Mart/Products/drum%20handling%20equipments/Steel_Manual_Drum_Lifter_-_300kg_Capacity-6.jpg'
         ],
 
         description: `The Steel Manual Drum Lifter is a heavy-duty material handling tool designed for lifting, transporting, and positioning steel or plastic drums with ease. Constructed from high-strength steel, it features a secure gripping mechanism and smooth-rolling wheels for safe and efficient drum handling in warehouses, factories, workshops, oil and gas facilities, chemical plants, and industrial environments.`,
@@ -9337,13 +9320,13 @@ Accessories Included:
         price: 1080000,
 
         images: [
-            "assets/img/measuring wheels/Laser Wheel Alignment Gauge.jpg",
-            "assets/img/measuring wheels/Laser Wheel Alignment Gauge-2.jpeg",
-            'assets/img/measuring wheels/Laser Wheel Alignment Gauge-3.webp',
-            'assets/img/measuring wheels/Laser Wheel Alignment Gauge-4.webp',
-            'assets/img/measuring wheels/Laser Wheel Alignment Gauge-5.webp',
-            'assets/img/measuring wheels/Laser Wheel Alignment Gauge-6.webp',
-            'assets/img/measuring wheels/Laser Wheel Alignment Gauge-7.webp'
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786308978/Astonic-Mart/Products/measuring%20wheels/Laser_Wheel_Alignment_Gauge.jpg",
+            "https://res.cloudinary.com/taus5tit/image/upload/v1786308979/Astonic-Mart/Products/measuring%20wheels/Laser_Wheel_Alignment_Gauge-2.jpg",
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308981/Astonic-Mart/Products/measuring%20wheels/Laser_Wheel_Alignment_Gauge-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308983/Astonic-Mart/Products/measuring%20wheels/Laser_Wheel_Alignment_Gauge-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308984/Astonic-Mart/Products/measuring%20wheels/Laser_Wheel_Alignment_Gauge-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308986/Astonic-Mart/Products/measuring%20wheels/Laser_Wheel_Alignment_Gauge-6.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308987/Astonic-Mart/Products/measuring%20wheels/Laser_Wheel_Alignment_Gauge-7.webp'
         ],
 
         description: `The Laser Wheel Alignment Gauge is a professional automotive measuring tool designed to accurately check and adjust wheel alignment angles. It utilizes laser technology to measure toe alignment, helping technicians improve vehicle handling, reduce tire wear, and enhance driving safety. Suitable for passenger cars, SUVs, light trucks, and commercial vehicles, it is widely used in automotive workshops, tire service centers, and vehicle maintenance facilities.`,
@@ -9393,15 +9376,15 @@ Accessories Included:
         price: 800000,
 
         images: [
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-1t.webp',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-1t-2.webp',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-1t-3.webp',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-1t-4.webp',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-1t-5.webp',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-1t-5.webp',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-1t-6.webp',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-7.webp',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-8.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308314/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-1t.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308318/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-1t-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308320/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-1t-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308323/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-1t-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308326/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-1t-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308326/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-1t-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308330/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-1t-6.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308340/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-7.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308342/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-8.webp'
         ],
 
         description:
@@ -9461,11 +9444,11 @@ Accessories: Adjustable Saddle, Safety Chains, Casters, Operating Handle
         discountPrice: 650000,
 
         images: [
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-3t.jpg',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-3t-2.jpg',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-3t-3.jpg',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-3t--4.jpg',
-            'assets/img/jack  and lifts/Hydraulic Transmission Service Jack-3t-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308332/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-3t.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308333/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-3t-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308334/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-3t-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308335/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-3t-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308336/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Transmission_Service_Jack-3t-5.jpg'
         ],
 
         description:
@@ -9530,13 +9513,13 @@ User Manual
         discountPrice: 750000,
 
         images: [
-            'assets/img/automotive tools/1000W Professional Portable Tyre Regroover.jpg',
-            'assets/img/automotive tools/1000W Professional Portable Tyre Regroover-2.jpg',
-            'assets/img/automotive tools/1000W Professional Portable Tyre Regroover-3.jpg',
-            'assets/img/automotive tools/1000W Professional Portable Tyre Regroover-4.jpg',
-            'assets/img/automotive tools/1000W Professional Portable Tyre Regroover-5.jpg',
-            'assets/img/automotive tools/1000W Professional Portable Tyre Regroover-6.jpg',
-            'assets/img/automotive tools/1000W Professional Portable Tyre Regroover-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304049/Astonic-Mart/Products/automotive%20tools/1000W_Professional_Portable_Tyre_Regroover.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304050/Astonic-Mart/Products/automotive%20tools/1000W_Professional_Portable_Tyre_Regroover-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304051/Astonic-Mart/Products/automotive%20tools/1000W_Professional_Portable_Tyre_Regroover-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304052/Astonic-Mart/Products/automotive%20tools/1000W_Professional_Portable_Tyre_Regroover-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304053/Astonic-Mart/Products/automotive%20tools/1000W_Professional_Portable_Tyre_Regroover-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304053/Astonic-Mart/Products/automotive%20tools/1000W_Professional_Portable_Tyre_Regroover-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304054/Astonic-Mart/Products/automotive%20tools/1000W_Professional_Portable_Tyre_Regroover-7.jpg'
         ],
 
         description:
@@ -9610,14 +9593,14 @@ English User Manual
         discountPrice: 70000,
 
         images: [
-            'assets/img/ladders/telescope ladder.jpg',
-            'assets/img/ladders/telescope ladder-2.jpg',
-            'assets/img/ladders/telescope ladder-3.jpg',
-            'assets/img/ladders/telescope ladder-4.jpg',
-            'assets/img/ladders/telescope ladder-5.jpg',
-            'assets/img/ladders/telescope ladder-6.jpg',
-            'assets/img/ladders/telescope ladder-7.jpg',
-            'assets/img/ladders/telescope ladder-.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308567/Astonic-Mart/Products/ladders/telescope_ladder.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308572/Astonic-Mart/Products/ladders/telescope_ladder-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308574/Astonic-Mart/Products/ladders/telescope_ladder-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308575/Astonic-Mart/Products/ladders/telescope_ladder-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308577/Astonic-Mart/Products/ladders/telescope_ladder-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308578/Astonic-Mart/Products/ladders/telescope_ladder-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308585/Astonic-Mart/Products/ladders/telescope_ladder-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308571/Astonic-Mart/Products/ladders/telescope_ladder-.jpg'
         ],
 
         variations: [
@@ -9734,9 +9717,9 @@ User Manual
         discountPrice: 850000,
 
         images: [
-            'assets/img/tire changers and aligments/KJ-598 Heavy Duty Truck Tyre Changer.png',
-            'assets/img/tire changers and aligments/KJ-598 Heavy Duty Truck Tyre Changer-2.avif',
-            'assets/img/tire changers and aligments/KJ-598 Heavy Duty Truck Tyre Changer-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329664/Astonic-Mart/Products/tire%20changers%20and%20aligments/KJ-598_Heavy_Duty_Truck_Tyre_Changer.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329664/Astonic-Mart/Products/tire%20changers%20and%20aligments/KJ-598_Heavy_Duty_Truck_Tyre_Changer-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329660/Astonic-Mart/Products/tire%20changers%20and%20aligments/KJ-598_Heavy_Duty_Truck_Tyre_Changer-3.jpg'
         ],
 
         description:
@@ -9809,9 +9792,9 @@ User Manual
         discountPrice: 1250000,
 
         images: [
-            'assets/img/tire changers and aligments/Portable Electric Tyre Spreader Machine.webp',
-            'assets/img/tire changers and aligments/Portable Electric Tyre Spreader Machine-2.jpeg',
-            'assets/img/tire changers and aligments/Portable Electric Tyre Spreader Machine-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329676/Astonic-Mart/Products/tire%20changers%20and%20aligments/Portable_Electric_Tyre_Spreader_Machine.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331924/Astonic-Mart/Products/tire%20changers%20and%20aligments/Portable_Electric_Tyre_Spreader_Machine-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329686/Astonic-Mart/Products/tire%20changers%20and%20aligments/Portable_Electric_Tyre_Spreader_Machine-3.jpg'
         ],
 
         description:
@@ -9882,10 +9865,10 @@ User Manual
         discountPrice: 85000,
 
         images: [
-            'assets/img/drum handling equipments/1 Ton Chain Drum Lifter.webp',
-            'assets/img/drum handling equipments/1 Ton Chain Drum Lifter-2.jpeg',
-            'assets/img/drum handling equipments/1 Ton Chain Drum Lifter-3.jpeg',
-            'assets/img/drum handling equipments/1 Ton Chain Drum Lifter-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306351/Astonic-Mart/Products/drum%20handling%20equipments/1_Ton_Chain_Drum_Lifter.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306352/Astonic-Mart/Products/drum%20handling%20equipments/1_Ton_Chain_Drum_Lifter-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306353/Astonic-Mart/Products/drum%20handling%20equipments/1_Ton_Chain_Drum_Lifter-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306354/Astonic-Mart/Products/drum%20handling%20equipments/1_Ton_Chain_Drum_Lifter-4.jpg'
         ],
 
         description: 'The 1 Ton Chain Drum Lifter is a heavy-duty lifting attachment designed for safe handling, transportation and positioning of steel drums. It utilizes a robust chain mechanism and automatic gripping action to securely lift drums using cranes, hoists or overhead lifting systems, making it suitable for industrial warehouses, factories and chemical plants.',
@@ -9941,10 +9924,10 @@ User Manual
         price: 190000,
 
         images: [
-            'assets/img/general meters/Dwyer Series 475 Mark III Digital Manometer.avif',
-            'assets/img/general meters/Dwyer Series 475 Mark III Digital Manometer-2.jpeg',
-            'assets/img/general meters/Dwyer Series 475 Mark III Digital Manometer-3.webp',
-            'assets/img/general meters/Dwyer Series 475 Mark III Digital Manometer-4.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306853/Astonic-Mart/Products/general%20meters/Dwyer_Series_475_Mark_III_Digital_Manometer.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306854/Astonic-Mart/Products/general%20meters/Dwyer_Series_475_Mark_III_Digital_Manometer-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306856/Astonic-Mart/Products/general%20meters/Dwyer_Series_475_Mark_III_Digital_Manometer-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306857/Astonic-Mart/Products/general%20meters/Dwyer_Series_475_Mark_III_Digital_Manometer-4.jpg'
         ],
 
         description: 'The Dwyer Series 475 Mark III Digital Manometer is a professional handheld differential pressure meter designed for HVAC balancing, airflow measurement, filter monitoring, cleanroom validation, combustion testing and industrial process applications. It provides highly accurate pressure readings with selectable engineering units, data logging capability and rugged field-ready construction.',
@@ -10049,10 +10032,10 @@ User Manual
         price: 400000,
 
         images: [
-            'assets/img/pallete trucks and stackers/ingco 300kg pallete truck.jpeg',
-            'assets/img/pallete trucks and stackers/ingco 2500kg pallete truck-2.jpeg',
-            'assets/img/pallete trucks and stackers/ingco 2500kg pallete truck-3.jpeg',
-            'assets/img/pallete trucks and stackers/ingco 2500kg pallete truck-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309573/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/ingco_300kg_pallete_truck.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309570/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/ingco_2500kg_pallete_truck-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309571/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/ingco_2500kg_pallete_truck-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309571/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/ingco_2500kg_pallete_truck-3.jpg'
         ],
 
         variations: [
@@ -10153,12 +10136,12 @@ User Manual
         price: 230000,
 
         images: [
-            'assets/img/jack  and lifts/Hydraulic Toe Jack 10T Manual Hydraulic Claw Jack.jpg',
-            'assets/img/jack  and lifts/Hydraulic Toe Jack 10T Manual Hydraulic Claw Jack-2.jpg',
-            'assets/img/jack  and lifts/Hydraulic Toe Jack 10T Manual Hydraulic Claw Jack-3.jpg',
-            'assets/img/jack  and lifts/Hydraulic Toe Jack 10T Manual Hydraulic Claw Jack-4.jpg',
-            'assets/img/jack  and lifts/Hydraulic Toe Jack 10T Manual Hydraulic Claw Jack-5.jpg',
-            'assets/img/jack  and lifts/Hydraulic Toe Jack 10T Manual Hydraulic Claw Jack-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308286/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack_10T_Manual_Hydraulic_Claw_Jack.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308288/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack_10T_Manual_Hydraulic_Claw_Jack-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308289/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack_10T_Manual_Hydraulic_Claw_Jack-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308290/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack_10T_Manual_Hydraulic_Claw_Jack-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308291/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack_10T_Manual_Hydraulic_Claw_Jack-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308293/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack_10T_Manual_Hydraulic_Claw_Jack-6.jpg'
         ],
 
         inStock: true,
@@ -10227,14 +10210,14 @@ User Manual
         price: 235000,
 
         images: [
-            'assets/img/trolleys/Machinery Moving Skates Set (4PCS).webp',
-            'assets/img/trolleys/Machinery Moving Skates Set (4PCS)-2.webp',
-            'assets/img/trolleys/Machinery Moving Skates Set (4PCS)-3.webp',
-            'assets/img/trolleys/Machinery Moving Skates Set (4PCS)-4.webp',
-            'assets/img/trolleys/Machinery Moving Skates Set (4PCS)-5.webp',
-            'assets/img/trolleys/Machinery Moving Skates Set (4PCS)-6.webp',
-            'assets/img/trolleys/Machinery Moving Skates Set (4PCS)-7.webp',
-            'assets/img/trolleys/Machinery Moving Skates Set (4PCS)-8.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330108/Astonic-Mart/Products/trolleys/Machinery_Moving_Skates_Set_4PCS.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330105/Astonic-Mart/Products/trolleys/Machinery_Moving_Skates_Set_4PCS-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330106/Astonic-Mart/Products/trolleys/Machinery_Moving_Skates_Set_4PCS-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330116/Astonic-Mart/Products/trolleys/Machinery_Moving_Skates_Set_4PCS-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330117/Astonic-Mart/Products/trolleys/Machinery_Moving_Skates_Set_4PCS-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330115/Astonic-Mart/Products/trolleys/Machinery_Moving_Skates_Set_4PCS-6.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330116/Astonic-Mart/Products/trolleys/Machinery_Moving_Skates_Set_4PCS-7.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786330116/Astonic-Mart/Products/trolleys/Machinery_Moving_Skates_Set_4PCS-8.webp'
         ],
 
         inStock: true,
@@ -10323,12 +10306,12 @@ User Manual
         price: 255000,
 
         images: [
-            'assets/img/trolleys/VOLTZ 18T 360┬░ Cargo Trolley.jpg',
-            'assets/img/trolleys/VOLTZ 18T 360┬░ Cargo Trolley-2.jpg',
-            'assets/img/trolleys/VOLTZ 18T 360┬░ Cargo Trolley-3.jpg',
-            'assets/img/trolleys/VOLTZ 18T 360┬░ Cargo Trolley-4.jpg',
-            'assets/img/trolleys/VOLTZ 18T 360┬░ Cargo Trolley-5.jpg',
-            'assets/img/trolleys/VOLTZ 18T 360┬░ Cargo Trolley-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429822/Astonic-Mart/Products/remaining-local-images/fmdzojq2qx3gqdpiicqd.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429823/Astonic-Mart/Products/remaining-local-images/n7xfemevvwabg0w43po5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429824/Astonic-Mart/Products/remaining-local-images/nztb6agz68owhwrzabhu.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429826/Astonic-Mart/Products/remaining-local-images/wyrhbbxnipyvdaqceoqx.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429827/Astonic-Mart/Products/remaining-local-images/b14jybrrfzzqjvmijrb2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429828/Astonic-Mart/Products/remaining-local-images/ftuuy2dg8hwvwq1ctwhu.webp'
         ],
 
         inStock: true,
@@ -10393,9 +10376,9 @@ User Manual
         discountPrice: 270000,
 
         images: [
-            'assets/img/drum handling equipments/CC-K30 Vertical Oil Drum Clamp 500kg.jpg',
-            'assets/img/drum handling equipments/CC-K30 Vertical Oil Drum Clamp 500kg-2.avif',
-            'assets/img/drum handling equipments/CC-K30 Vertical Oil Drum Clamp 500kg-3.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324378/Astonic-Mart/Products/drum%20handling%20equipments/CC-K30_Vertical_Oil_Drum_Clamp_500kg.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306370/Astonic-Mart/Products/drum%20handling%20equipments/CC-K30_Vertical_Oil_Drum_Clamp_500kg-2.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786324378/Astonic-Mart/Products/drum%20handling%20equipments/CC-K30_Vertical_Oil_Drum_Clamp_500kg-3.jpg'
         ],
 
         inStock: true,
@@ -10442,14 +10425,14 @@ User Manual
 
 
         images: [
-            'assets/img/air-compressor accessories/maite dg-10 metal air duster gun.jpg',
-            'assets/img/air-compressor accessories/maite dg-10 metal air duster gun-2.jpg',
-            'assets/img/air-compressor accessories/maite dg-10 metal air duster gun-3.jpg',
-            'assets/img/air-compressor accessories/maite dg-10 metal air duster gun-4.jpg',
-            'assets/img/air-compressor accessories/maite dg-10 metal air duster gun-5.jpg',
-            'assets/img/air-compressor accessories/maite dg-10 metal air duster gun-6.jpg',
-            'assets/img/air-compressor accessories/maite dg-10 metal air duster gun-7.jpg',
-            'assets/img/air-compressor accessories/maite dg-10 metal air duster gun-8.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303989/Astonic-Mart/Products/air-compressor%20accessories/maite_dg-10_metal_air_duster_gun.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303990/Astonic-Mart/Products/air-compressor%20accessories/maite_dg-10_metal_air_duster_gun-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303991/Astonic-Mart/Products/air-compressor%20accessories/maite_dg-10_metal_air_duster_gun-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303992/Astonic-Mart/Products/air-compressor%20accessories/maite_dg-10_metal_air_duster_gun-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303993/Astonic-Mart/Products/air-compressor%20accessories/maite_dg-10_metal_air_duster_gun-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303994/Astonic-Mart/Products/air-compressor%20accessories/maite_dg-10_metal_air_duster_gun-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303995/Astonic-Mart/Products/air-compressor%20accessories/maite_dg-10_metal_air_duster_gun-7.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303996/Astonic-Mart/Products/air-compressor%20accessories/maite_dg-10_metal_air_duster_gun-8.jpg'
         ],
 
         inStock: true,
@@ -10500,13 +10483,13 @@ User Manual
         price: 100000,
 
         images: [
-            'assets/img/tools sets/11-Piece Grease Gun Accessory Kit.jpg',
-            'assets/img/tools sets/11-Piece Grease Gun Accessory Kit-2.jpg',
-            'assets/img/tools sets/11-Piece Grease Gun Accessory Kit-3.jpg',
-            'assets/img/tools sets/11-Piece Grease Gun Accessory Kit-4.jpg',
-            'assets/img/tools sets/11-Piece Grease Gun Accessory Kit-5.jpg',
-            'assets/img/tools sets/11-Piece Grease Gun Accessory Kit-6.jpg',
-            'assets/img/tools sets/11-Piece Grease Gun Accessory Kit-7.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329778/Astonic-Mart/Products/tools%20sets/11-Piece_Grease_Gun_Accessory_Kit.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329778/Astonic-Mart/Products/tools%20sets/11-Piece_Grease_Gun_Accessory_Kit-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329778/Astonic-Mart/Products/tools%20sets/11-Piece_Grease_Gun_Accessory_Kit-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329780/Astonic-Mart/Products/tools%20sets/11-Piece_Grease_Gun_Accessory_Kit-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329783/Astonic-Mart/Products/tools%20sets/11-Piece_Grease_Gun_Accessory_Kit-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329782/Astonic-Mart/Products/tools%20sets/11-Piece_Grease_Gun_Accessory_Kit-6.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329782/Astonic-Mart/Products/tools%20sets/11-Piece_Grease_Gun_Accessory_Kit-7.jpg'
         ],
 
         inStock: true,
@@ -10565,11 +10548,11 @@ User Manual
         price: 120000,
 
         images: [
-            'assets/img/automotive tools/22 Pcs Fuel Line Disconnect Tool Set.jpg',
-            'assets/img/automotive tools/22 Pcs Fuel Line Disconnect Tool Set-2.jpg',
-            'assets/img/automotive tools/22 Pcs Fuel Line Disconnect Tool Set-3.jpg',
-            'assets/img/automotive tools/22 Pcs Fuel Line Disconnect Tool Set-4.jpg',
-            'assets/img/automotive tools/22 Pcs Fuel Line Disconnect Tool Set-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304055/Astonic-Mart/Products/automotive%20tools/22_Pcs_Fuel_Line_Disconnect_Tool_Set.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304056/Astonic-Mart/Products/automotive%20tools/22_Pcs_Fuel_Line_Disconnect_Tool_Set-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304058/Astonic-Mart/Products/automotive%20tools/22_Pcs_Fuel_Line_Disconnect_Tool_Set-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304059/Astonic-Mart/Products/automotive%20tools/22_Pcs_Fuel_Line_Disconnect_Tool_Set-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304060/Astonic-Mart/Products/automotive%20tools/22_Pcs_Fuel_Line_Disconnect_Tool_Set-5.jpg'
         ],
 
         inStock: true,
@@ -10622,8 +10605,8 @@ User Manual
         discountPrice: 98350,
 
         images: [
-            'assets/img/air-compressor accessories/EUROTEK Air Filter Regulator-2.png',
-            'assets/img/air-compressor accessories/EUROTEK Air Filter Regulator.png'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303982/Astonic-Mart/Products/air-compressor%20accessories/EUROTEK_Air_Filter_Regulator-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786303976/Astonic-Mart/Products/air-compressor%20accessories/EUROTEK_Air_Filter_Regulator.png'
         ],
 
         inStock: true,
@@ -10679,11 +10662,11 @@ User Manual
         discountPrice: 89000,
 
         images: [
-            'assets/img/air-compressor accessories/RIH 3by8inch Air Filter Regulator Lubricator Combo AW3000-03 + AL3000-03.avif',
-            'assets/img/air-compressor accessories/RIH 3by8inch Air Filter Regulator Lubricator Combo AW3000-03 + AL3000-03-2.jpeg',
-            'assets/img/air-compressor accessories/RIH 3by8inch Air Filter Regulator Lubricator Combo AW3000-03 + AL3000-03-3.jpeg',
-            'assets/img/air-compressor accessories/RIH 3by8inch Air Filter Regulator Lubricator Combo AW3000-03 + AL3000-03-4.jpeg',
-            'assets/img/air-compressor accessories/RIH 3by8inch Air Filter Regulator Lubricator Combo AW3000-03 + AL3000-03-5.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430725/Astonic-Mart/Products/final-local-images/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03_tvsdnr.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430728/Astonic-Mart/Products/final-local-images/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-2_fre8e8.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430731/Astonic-Mart/Products/final-local-images/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-3_jp1mpz.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430734/Astonic-Mart/Products/final-local-images/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-4_xu5s81.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786430735/Astonic-Mart/Products/final-local-images/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-5_qb9tuz.avif'
         ],
 
         inStock: true,
@@ -10743,11 +10726,11 @@ User Manual
         discountPrice: 89000,
 
         images: [
-            'assets/img/automotive tools/Manual Brake Bleeder Vacuum Pump Kit.jpg',
-            'assets/img/automotive tools/Manual Brake Bleeder Vacuum Pump Kit-2.jpg',
-            'assets/img/automotive tools/Manual Brake Bleeder Vacuum Pump Kit-3.jpg',
-            'assets/img/automotive tools/Manual Brake Bleeder Vacuum Pump Kit-4.jpg',
-            'assets/img/automotive tools/Manual Brake Bleeder Vacuum Pump Kit-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304092/Astonic-Mart/Products/automotive%20tools/Manual_Brake_Bleeder_Vacuum_Pump_Kit.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304093/Astonic-Mart/Products/automotive%20tools/Manual_Brake_Bleeder_Vacuum_Pump_Kit-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304095/Astonic-Mart/Products/automotive%20tools/Manual_Brake_Bleeder_Vacuum_Pump_Kit-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304096/Astonic-Mart/Products/automotive%20tools/Manual_Brake_Bleeder_Vacuum_Pump_Kit-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304098/Astonic-Mart/Products/automotive%20tools/Manual_Brake_Bleeder_Vacuum_Pump_Kit-5.jpg'
         ],
 
         inStock: true,
@@ -10806,9 +10789,9 @@ User Manual
 
 
         images: [
-            'assets/img/automotive tools/Engine Camshaft Alignment Timing Locking Tool Kit.webp',
-            'assets/img/automotive tools/Engine Camshaft Alignment Timing Locking Tool Kit-2.webp',
-            'assets/img/automotive tools/Engine Camshaft Alignment Timing Locking Tool Kit-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304086/Astonic-Mart/Products/automotive%20tools/Engine_Camshaft_Alignment_Timing_Locking_Tool_Kit.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304086/Astonic-Mart/Products/automotive%20tools/Engine_Camshaft_Alignment_Timing_Locking_Tool_Kit-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304087/Astonic-Mart/Products/automotive%20tools/Engine_Camshaft_Alignment_Timing_Locking_Tool_Kit-4.webp'
         ],
 
         inStock: true,
@@ -10862,12 +10845,12 @@ User Manual
 
 
         images: [
-            'assets/img/automotive tools/Camshaft Alignment Tool Kit for Land Rover & Jaguar.jpg',
-            'assets/img/automotive tools/Camshaft Alignment Tool Kit for Land Rover & Jaguar-2.jpg',
-            'assets/img/automotive tools/Camshaft Alignment Tool Kit for Land Rover & Jaguar-3.jpg',
-            'assets/img/automotive tools/Camshaft Alignment Tool Kit for Land Rover & Jaguar-4.jpg',
-            'assets/img/automotive tools/Camshaft Alignment Tool Kit for Land Rover & Jaguar-5.jpg',
-            'assets/img/automotive tools/Camshaft Alignment Tool Kit for Land Rover & Jaguar-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331924/Astonic-Mart/Products/automotive%20tools/Camshaft_Alignment_Tool_Kit_for_Land_Rover_and_Jaguar.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331928/Astonic-Mart/Products/automotive%20tools/Camshaft_Alignment_Tool_Kit_for_Land_Rover_and_Jaguar-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331928/Astonic-Mart/Products/automotive%20tools/Camshaft_Alignment_Tool_Kit_for_Land_Rover_and_Jaguar-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331928/Astonic-Mart/Products/automotive%20tools/Camshaft_Alignment_Tool_Kit_for_Land_Rover_and_Jaguar-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331928/Astonic-Mart/Products/automotive%20tools/Camshaft_Alignment_Tool_Kit_for_Land_Rover_and_Jaguar-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331928/Astonic-Mart/Products/automotive%20tools/Camshaft_Alignment_Tool_Kit_for_Land_Rover_and_Jaguar-6.jpg'
         ],
 
         inStock: true,
@@ -10930,11 +10913,11 @@ User Manual
         discountPrice: 1750000,
 
         images: [
-            'assets/img/tire changers and aligments/Portable Air Pneumatic Tire Changer Machine.webp',
-            'assets/img/tire changers and aligments/Portable Air Pneumatic Tire Changer Machine-2.webp',
-            'assets/img/tire changers and aligments/Portable Air Pneumatic Tire Changer Machine-3.webp',
-            'assets/img/tire changers and aligments/Portable Air Pneumatic Tire Changer Machine-4.webp',
-            'assets/img/tire changers and aligments/Portable Air Pneumatic Tire Changer Machine-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329665/Astonic-Mart/Products/tire%20changers%20and%20aligments/Portable_Air_Pneumatic_Tire_Changer_Machine.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329667/Astonic-Mart/Products/tire%20changers%20and%20aligments/Portable_Air_Pneumatic_Tire_Changer_Machine-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329677/Astonic-Mart/Products/tire%20changers%20and%20aligments/Portable_Air_Pneumatic_Tire_Changer_Machine-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329683/Astonic-Mart/Products/tire%20changers%20and%20aligments/Portable_Air_Pneumatic_Tire_Changer_Machine-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329684/Astonic-Mart/Products/tire%20changers%20and%20aligments/Portable_Air_Pneumatic_Tire_Changer_Machine-5.webp'
         ],
 
         inStock: true,
@@ -10994,11 +10977,11 @@ User Manual
         discountPrice: 770000,
 
         images: [
-            'assets/img/testing buckets/DC-60A Electric Pressure Test Pump.webp',
-            'assets/img/testing buckets/DC-60A Electric Pressure Testing Pump-2.jpeg',
-            'assets/img/testing buckets/DC-60A Electric Pressure Testing Pump-3.jpg',
-            'assets/img/testing buckets/DC-60A Electric Pressure Testing Pump-4.webp',
-            'assets/img/testing buckets/DC-60A Electric Pressure Testing Pump-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329590/Astonic-Mart/Products/testing%20buckets/DC-60A_Electric_Pressure_Test_Pump.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329590/Astonic-Mart/Products/testing%20buckets/DC-60A_Electric_Pressure_Testing_Pump-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329591/Astonic-Mart/Products/testing%20buckets/DC-60A_Electric_Pressure_Testing_Pump-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329591/Astonic-Mart/Products/testing%20buckets/DC-60A_Electric_Pressure_Testing_Pump-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329592/Astonic-Mart/Products/testing%20buckets/DC-60A_Electric_Pressure_Testing_Pump-5.webp'
         ],
 
         inStock: true,
@@ -11057,11 +11040,11 @@ User Manual
 
 
         images: [
-            'assets/img/automotive tools/Mechanic Stethoscope.jpg',
-            'assets/img/automotive tools/Mechanic Stethoscope-2.jpg',
-            'assets/img/automotive tools/Mechanic Stethoscope-3.jpg',
-            'assets/img/automotive tools/Mechanic Stethoscope-4.jpg',
-            'assets/img/automotive tools/Mechanic Stethoscope-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304099/Astonic-Mart/Products/automotive%20tools/Mechanic_Stethoscope.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304100/Astonic-Mart/Products/automotive%20tools/Mechanic_Stethoscope-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304101/Astonic-Mart/Products/automotive%20tools/Mechanic_Stethoscope-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304102/Astonic-Mart/Products/automotive%20tools/Mechanic_Stethoscope-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304105/Astonic-Mart/Products/automotive%20tools/Mechanic_Stethoscope-5.webp'
         ],
 
         inStock: true,
@@ -11106,7 +11089,7 @@ User Manual
 
 
         images: [
-            'assets/img/automotive tools/car care kit.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304077/Astonic-Mart/Products/automotive%20tools/car_care_kit.png',
 
         ],
 
@@ -11178,11 +11161,11 @@ Reusable carry bag for convenient storage and transport
         ],
 
         images: [
-            'assets/img/jack  and lifts/Hydraulic Toe Jack, 5 Ton,10 Ton.webp',
-            'assets/img/jack  and lifts/Hydraulic Toe Jack, 5 Ton,10 Ton-2.webp',
-            'assets/img/jack  and lifts/Hydraulic Toe Jack, 5 Ton,10 Ton-3.webp',
-            'assets/img/jack  and lifts/Hydraulic Toe Jack, 5 Ton,10 Ton-4.webp',
-            'assets/img/jack  and lifts/Hydraulic Toe Jack, 5 Ton,10 Ton-5.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308295/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack%2C_5_Ton%2C10_Ton.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308298/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack%2C_5_Ton%2C10_Ton-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308302/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack%2C_5_Ton%2C10_Ton-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308306/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack%2C_5_Ton%2C10_Ton-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308308/Astonic-Mart/Products/jack%20%20and%20lifts/Hydraulic_Toe_Jack%2C_5_Ton%2C10_Ton-5.webp'
         ],
 
         inStock: true,
@@ -11244,7 +11227,7 @@ Accessories:
         brand: 'BOSI',
         price: 120000,
         images: [
-            'assets/img/tools sets/BOSI 8 Pieces Telecommunication Tool Set.avif'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329848/Astonic-Mart/Products/tools%20sets/BOSI_8_Pieces_Telecommunication_Tool_Set.avif'
         ],
         inStock: true,
         jumiaLink: '',
@@ -11292,11 +11275,11 @@ Accessories:
         brand: 'ABRO',
         price: 7000,
         images: [
-            'assets/img/testing paste/ABRO Valve Grinding Paste.jpg',
-            'assets/img/testing paste/ABRO Valve Grinding Paste-2.jpg',
-            'assets/img/testing paste/ABRO Valve Grinding Paste-3.jpg',
-            'assets/img/testing paste/ABRO Valve Grinding Paste-4.jpg',
-            'assets/img/testing paste/ABRO Valve Grinding Paste-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329595/Astonic-Mart/Products/testing%20paste/ABRO_Valve_Grinding_Paste.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329597/Astonic-Mart/Products/testing%20paste/ABRO_Valve_Grinding_Paste-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329597/Astonic-Mart/Products/testing%20paste/ABRO_Valve_Grinding_Paste-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329597/Astonic-Mart/Products/testing%20paste/ABRO_Valve_Grinding_Paste-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786329597/Astonic-Mart/Products/testing%20paste/ABRO_Valve_Grinding_Paste-5.jpg'
         ],
         inStock: true,
         jumiaLink: '',
@@ -11340,9 +11323,9 @@ Accessories:
         price: 270000,
 
         images: [
-            'assets/img/jack  and lifts/Mechanical Monkey Jack.webp',
-            'assets/img/jack  and lifts/Mechanical Monkey Jack-2.jpeg',
-            'assets/img/jack  and lifts/Mechanical Monkey Jack-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308395/Astonic-Mart/Products/jack%20%20and%20lifts/Mechanical_Monkey_Jack.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308396/Astonic-Mart/Products/jack%20%20and%20lifts/Mechanical_Monkey_Jack-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308399/Astonic-Mart/Products/jack%20%20and%20lifts/Mechanical_Monkey_Jack-3.jpg'
         ],
 
         variations: [
@@ -11399,9 +11382,9 @@ Accessories:
         discountPrice: 2250000,
 
         images: [
-            'assets/img/automotive tools/X-431 PROS3S Professional Diagnostic Scanner.png',
-            'assets/img/automotive tools/X-431 PROS3S Professional Diagnostic Scanner-2.jpg',
-            'assets/img/automotive tools/X-431 PROS3S Professional Diagnostic Scanner-3.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304111/Astonic-Mart/Products/automotive%20tools/X-431_PROS3S_Professional_Diagnostic_Scanner.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304114/Astonic-Mart/Products/automotive%20tools/X-431_PROS3S_Professional_Diagnostic_Scanner-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304116/Astonic-Mart/Products/automotive%20tools/X-431_PROS3S_Professional_Diagnostic_Scanner-3.webp'
         ],
 
         videos: [],
@@ -11467,10 +11450,10 @@ Accessories:
         discountPrice: 870000,
 
         images: [
-            'assets/img/pallete trucks and stackers/1.5 Ton Scissor Lift Pallet Truck.webp',
-            'assets/img/pallete trucks and stackers/1.5 Ton Scissor Lift Pallet Truck-2.jpeg',
-            'assets/img/pallete trucks and stackers/1.5 Ton Scissor Lift Pallet Truck-3.avif',
-            'assets/img/pallete trucks and stackers/1.5 Ton Scissor Lift Pallet Truck-4.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309562/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/1.5_Ton_Scissor_Lift_Pallet_Truck.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309563/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/1.5_Ton_Scissor_Lift_Pallet_Truck-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309564/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/1.5_Ton_Scissor_Lift_Pallet_Truck-3.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786309569/Astonic-Mart/Products/pallete%20trucks%20and%20stackers/1.5_Ton_Scissor_Lift_Pallet_Truck-4.webp'
         ],
 
         description: `The 1.5 Ton Scissor Lift Pallet Truck combines the functions of a standard hand pallet truck and a hydraulic lifting table, making it ideal for lifting, transporting, and positioning palletized loads. Designed with a heavy-duty scissor lift mechanism, it allows operators to raise pallets to a comfortable working height for loading, unloading, packing, assembly, and maintenance tasks. Its robust steel construction, ergonomic handle, and durable hydraulic system ensure reliable performance in warehouses, factories, workshops, supermarkets, and logistics centers.`,
@@ -11526,11 +11509,11 @@ Accessories:
         discountPrice: 3200000,
 
         images: [
-            'assets/img/automotive tools/Curtis 1313 Handheld Programmer.jpg',
-            'assets/img/automotive tools/Curtis 1313 Handheld Programmer-2.jpg',
-            'assets/img/automotive tools/Curtis 1313 Handheld Programmer-3.jpg',
-            'assets/img/automotive tools/Curtis 1313 Handheld Programmer-4.jpg',
-            'assets/img/automotive tools/Curtis 1313 Handheld Programmer-5.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304080/Astonic-Mart/Products/automotive%20tools/Curtis_1313_Handheld_Programmer.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304082/Astonic-Mart/Products/automotive%20tools/Curtis_1313_Handheld_Programmer-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304083/Astonic-Mart/Products/automotive%20tools/Curtis_1313_Handheld_Programmer-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304084/Astonic-Mart/Products/automotive%20tools/Curtis_1313_Handheld_Programmer-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304085/Astonic-Mart/Products/automotive%20tools/Curtis_1313_Handheld_Programmer-5.jpg'
         ],
 
         description: `The Curtis 1313 Handheld Programmer is a professional programming and diagnostic tool designed for configuring, monitoring, and troubleshooting Curtis programmable motor controllers used in electric forklifts, golf carts, electric vehicles, aerial work platforms, cleaning equipment, and industrial machinery. Featuring a high-resolution color display, intuitive keypad, and support for both CAN and Serial communication, the programmer allows technicians to modify controller parameters, monitor live system data, diagnose faults, update firmware, and clone controller settings quickly and accurately.`,
@@ -11590,8 +11573,8 @@ Accessories:
         showSimilar: true,
         model: 'CRI200',
         images: [
-            'assets/img/automotive tools/Common Rail Injector Tester.webp',
-            'assets/img/automotive tools/Common Rail Injector Tester-CRI200.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304078/Astonic-Mart/Products/automotive%20tools/Common_Rail_Injector_Tester.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304079/Astonic-Mart/Products/automotive%20tools/Common_Rail_Injector_Tester-CRI200.jpg'
         ],
 
         inStock: true,
@@ -11639,7 +11622,7 @@ User manual
     {
         id: 9190,
         name: 'EDON PROMAX EPM-9550A-R Extension Cable Reel 50M',
-          category: 'power-extension-and-reels',
+        category: 'power-extension-and-reels',
         group: 'Workshop And Garage',
         brand: 'EDON PROMAX',
         model: 'EPM-9550A-R',
@@ -11648,9 +11631,9 @@ User manual
         showSimilar: true,
 
         images: [
-            'assets/img/cablewires/EDON PROMAX EPM-9550A-R Extension Cable Reel 50M.jpg',
-            'assets/img/cablewires/EDON PROMAX EPM-9550A-R Extension Cable Reel 50M-2.webp',
-            'assets/img/cablewires/EDON PROMAX EPM-9550A-R Extension Cable Reel 50M-3.jpeg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304575/Astonic-Mart/Products/cablewires/EDON_PROMAX_EPM-9550A-R_Extension_Cable_Reel_50M.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304576/Astonic-Mart/Products/cablewires/EDON_PROMAX_EPM-9550A-R_Extension_Cable_Reel_50M-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786304578/Astonic-Mart/Products/cablewires/EDON_PROMAX_EPM-9550A-R_Extension_Cable_Reel_50M-3.jpg'
         ],
 
         inStock: true,
@@ -11706,7 +11689,7 @@ Designed for professional, commercial, and industrial use
     {
         id: 9191,
         name: 'K310 OBD2 Car Code Reader & Engine Diagnostic Scanner',
-           category: 'general-automotive-tools',
+        category: 'general-automotive-tools',
         group: 'Workshop And Garage',
         brand: 'Generic',
         price: 75000,
@@ -11714,12 +11697,12 @@ Designed for professional, commercial, and industrial use
         showSimilar: true,
 
         images: [
-            'assets/img/automotive tools/K310 OBD2 Car Code Reader & Engine Diagnostic Scanner.jpg',
-             'assets/img/automotive tools/K310 OBD2 Car Code Reader & Engine Diagnostic Scanner-2.jpg',
-             'assets/img/automotive tools/K310 OBD2 Car Code Reader & Engine Diagnostic Scanner-3.jpg',
-             'assets/img/automotive tools/K310 OBD2 Car Code Reader & Engine Diagnostic Scanner-4.jpg',
-             'assets/img/automotive tools/K310 OBD2 Car Code Reader & Engine Diagnostic Scanner-5.jpg',
-             'assets/img/automotive tools/K310 OBD2 Car Code Reader & Engine Diagnostic Scanner-6.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331931/Astonic-Mart/Products/automotive%20tools/K310_OBD2_Car_Code_Reader_and_Engine_Diagnostic_Scanner.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331931/Astonic-Mart/Products/automotive%20tools/K310_OBD2_Car_Code_Reader_and_Engine_Diagnostic_Scanner-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331931/Astonic-Mart/Products/automotive%20tools/K310_OBD2_Car_Code_Reader_and_Engine_Diagnostic_Scanner-3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331932/Astonic-Mart/Products/automotive%20tools/K310_OBD2_Car_Code_Reader_and_Engine_Diagnostic_Scanner-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331931/Astonic-Mart/Products/automotive%20tools/K310_OBD2_Car_Code_Reader_and_Engine_Diagnostic_Scanner-5.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331937/Astonic-Mart/Products/automotive%20tools/K310_OBD2_Car_Code_Reader_and_Engine_Diagnostic_Scanner-6.jpg'
         ],
 
         inStock: true,
@@ -11765,30 +11748,30 @@ Ideal for workshops, mechanics and DIY vehicle maintenance
     },
 
     {
-    id: 9192,
-    name: 'AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester',
-    category: 'general-automotive-tools',
+        id: 9192,
+        name: 'AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester',
+        category: 'general-automotive-tools',
         group: 'Workshop And Garage',
-    brand: 'AUTOOL',
-    model: 'CT200',
-    price: 950000,
+        brand: 'AUTOOL',
+        model: 'CT200',
+        price: 950000,
 
-    images: [
-        'assets/img/automotive tools/AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester.jpg',
-        'assets/img/automotive tools/AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester-2.webp',
-        'assets/img/automotive tools/AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester-3.webp',
-        'assets/img/automotive tools/AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester-4.webp',
-        'assets/img/automotive tools/AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester-5.webp',
-        'assets/img/automotive tools/AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester-6.webp',
-        'assets/img/automotive tools/AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester-7.webp'
-    ],
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331943/Astonic-Mart/Products/automotive%20tools/AUTOOL_CT200_Ultrasonic_Fuel_Injector_Cleaner_and_Tester.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331937/Astonic-Mart/Products/automotive%20tools/AUTOOL_CT200_Ultrasonic_Fuel_Injector_Cleaner_and_Tester-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331944/Astonic-Mart/Products/automotive%20tools/AUTOOL_CT200_Ultrasonic_Fuel_Injector_Cleaner_and_Tester-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331937/Astonic-Mart/Products/automotive%20tools/AUTOOL_CT200_Ultrasonic_Fuel_Injector_Cleaner_and_Tester-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331947/Astonic-Mart/Products/automotive%20tools/AUTOOL_CT200_Ultrasonic_Fuel_Injector_Cleaner_and_Tester-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331947/Astonic-Mart/Products/automotive%20tools/AUTOOL_CT200_Ultrasonic_Fuel_Injector_Cleaner_and_Tester-6.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786331951/Astonic-Mart/Products/automotive%20tools/AUTOOL_CT200_Ultrasonic_Fuel_Injector_Cleaner_and_Tester-7.webp'
+        ],
 
-    inStock: true,
-    showSimilar: true,
+        inStock: true,
+        showSimilar: true,
 
-    description: 'The AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester is a professional 6-cylinder injector testing and cleaning machine designed for servicing gasoline fuel injectors. It combines powerful ultrasonic cleaning technology with intelligent microcomputer-controlled fuel pressure regulation to accurately simulate various engine operating conditions.\n\nThe CT200 performs injector cleaning, leakage testing, spray pattern analysis, flow rate measurement, and injector performance comparison. It supports simultaneous testing of up to six injectors, making it an ideal solution for automotive workshops, garages, service centers, and professional technicians.\n\nWith its digital control panel, pressure gauge, graduated measuring cylinders, and built-in ultrasonic cleaning tank, the CT200 delivers accurate diagnostics while restoring injector performance by removing carbon deposits, varnish, and other contaminants.',
+        description: 'The AUTOOL CT200 Ultrasonic Fuel Injector Cleaner & Tester is a professional 6-cylinder injector testing and cleaning machine designed for servicing gasoline fuel injectors. It combines powerful ultrasonic cleaning technology with intelligent microcomputer-controlled fuel pressure regulation to accurately simulate various engine operating conditions.\n\nThe CT200 performs injector cleaning, leakage testing, spray pattern analysis, flow rate measurement, and injector performance comparison. It supports simultaneous testing of up to six injectors, making it an ideal solution for automotive workshops, garages, service centers, and professional technicians.\n\nWith its digital control panel, pressure gauge, graduated measuring cylinders, and built-in ultrasonic cleaning tank, the CT200 delivers accurate diagnostics while restoring injector performance by removing carbon deposits, varnish, and other contaminants.',
 
-    specification: `
+        specification: `
 Model: CT200
 Brand: AUTOOL
 Machine Type: Ultrasonic Fuel Injector Cleaner & Tester
@@ -11812,7 +11795,7 @@ Compatible Vehicles: Most EFI Petrol Cars and Motorcycles
 Application: Fuel Injector Cleaning, Testing and Diagnostics
 `,
 
-    features: `
+        features: `
 Supports simultaneous testing of 6 fuel injectors
 Powerful 40 kHz ultrasonic cleaning system
 Built-in 1700 ml ultrasonic cleaning tank
@@ -11829,30 +11812,30 @@ Heavy-duty construction for professional workshop use
 Easy-to-operate control panel
 Improves injector performance and engine efficiency
 `
-},
+    },
 
-{
-    id: 9193,
-    name: 'EDON ED-210 8.0HP Gasoline Engine',
-  category: 'engine-sand-motors',
-     group: 'Workshop And Garage',
-    brand: 'EDON',
-    model: 'ED-210',
-    price: 150000,
+    {
+        id: 9193,
+        name: 'EDON ED-210 8.0HP Gasoline Engine',
+        category: 'engine-sand-motors',
+        group: 'Workshop And Garage',
+        brand: 'EDON',
+        model: 'ED-210',
+        price: 150000,
 
-    images: [
-        'assets/img/engine motors/EDON ED-210 8.0HP Gasoline Engine.jpg',
-        'assets/img/engine motors/EDON ED-210 8.0HP Gasoline Engine-2.jpeg',
-        'assets/img/engine motors/EDON ED-210 8.0HP Gasoline Engine-3.png',
-        'assets/img/engine motors/EDON ED-210 8.0HP Gasoline Engine-4.jpeg'
-    ],
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306429/Astonic-Mart/Products/engine%20motors/EDON_ED-210_8.0HP_Gasoline_Engine.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306430/Astonic-Mart/Products/engine%20motors/EDON_ED-210_8.0HP_Gasoline_Engine-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306432/Astonic-Mart/Products/engine%20motors/EDON_ED-210_8.0HP_Gasoline_Engine-3.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306433/Astonic-Mart/Products/engine%20motors/EDON_ED-210_8.0HP_Gasoline_Engine-4.jpg'
+        ],
 
-    inStock: true,
-    showSimilar: true,
+        inStock: true,
+        showSimilar: true,
 
-    description: 'The EDON ED-210 8.0HP Gasoline Engine is a high-performance 4-stroke, single-cylinder petrol engine designed to deliver reliable power for a wide range of agricultural, industrial, and construction equipment. Its compact design, fuel efficiency, and durable construction make it an excellent replacement engine for water pumps, generators, concrete mixers, plate compactors, cultivators, go-karts, and other belt or shaft-driven machinery.\n\nPowered by a 210cc OHV engine, the ED-210 produces up to 8 horsepower while maintaining smooth operation and low fuel consumption. The engine features a recoil starting system, transistor magneto ignition, forced air cooling, and an oil protection system that automatically shuts down the engine when oil levels become too low, helping to extend engine life.\n\nBuilt with a rugged cast-metal construction and a 19mm keyed output shaft, the EDON ED-210 is suitable for demanding professional and commercial applications.',
+        description: 'The EDON ED-210 8.0HP Gasoline Engine is a high-performance 4-stroke, single-cylinder petrol engine designed to deliver reliable power for a wide range of agricultural, industrial, and construction equipment. Its compact design, fuel efficiency, and durable construction make it an excellent replacement engine for water pumps, generators, concrete mixers, plate compactors, cultivators, go-karts, and other belt or shaft-driven machinery.\n\nPowered by a 210cc OHV engine, the ED-210 produces up to 8 horsepower while maintaining smooth operation and low fuel consumption. The engine features a recoil starting system, transistor magneto ignition, forced air cooling, and an oil protection system that automatically shuts down the engine when oil levels become too low, helping to extend engine life.\n\nBuilt with a rugged cast-metal construction and a 19mm keyed output shaft, the EDON ED-210 is suitable for demanding professional and commercial applications.',
 
-    specification: `
+        specification: `
 Model: ED-210
 Brand: EDON
 Engine Type: Single Cylinder, 4-Stroke OHV Gasoline Engine
@@ -11873,7 +11856,7 @@ Low Oil Shutdown: Yes
 Application: Water Pumps, Generators, Plate Compactors, Concrete Mixers, Tillers, Agricultural and Construction Equipment
 `,
 
-    features: `
+        features: `
 Powerful 8 HP output
 Reliable 210cc 4-stroke OHV engine
 Fuel-efficient gasoline operation
@@ -11887,7 +11870,7 @@ Easy maintenance design
 Suitable for multiple industrial and agricultural machines
 Ideal replacement engine for generators, pumps, compactors, mixers, and cultivators
 `
-},
+    },
     // workshop and garage ends at 11000
 
 

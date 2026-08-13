@@ -84,7 +84,7 @@
 
             <img
               class="img-fluid"
-              [src]="selectedImage || p.images[0]"
+            [src]="cloudinaryService.getImageUrl(selectedImage || p.images[0])"
               alt="product image"
             />
 
@@ -93,7 +93,7 @@
 
           <img
             *ngFor="let img of p.images"
-            [src]="img"
+          [src]="cloudinaryService.getImageUrl(img)"
             class="thumbnail-img"
             (click)="changeImage(img, p.images)"
           />
