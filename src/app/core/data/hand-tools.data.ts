@@ -8005,7 +8005,7 @@ Accessories Included:
 
 
   images: [
-    'assets/img/torque wrenches/Covenant 3 4 inches Torque Wrench 100–500Nm.png',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786548653/Astonic-Mart/Products/torque%20wrenches/Covenant_3_4_inches_Torque_Wrench_100-500nm.png',
    
   ],
 
@@ -8847,3 +8847,5 @@ Application: Electrical, Utility, Industrial & Construction
 },
   
 ];
+
+

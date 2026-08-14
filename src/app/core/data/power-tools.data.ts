@@ -2428,9 +2428,9 @@ Items Included in the Package:
                             price: 285000,
                                 model: 'TMSLI20212',
                                     images: [
-                                        'assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw - 2 x 4Ah Batteries - Charger Total TMSLI20212.jpg',
-                                        'assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw - 2 x 4Ah Batteries - Charger Total TMSLI20212-2.jpg',
-                                        'assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw - 2 x 4Ah Batteries - Charger Total TMSLI20212-3.jpg',
+                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786516020/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_8_inch_20V_Mitre_Saw_-_2_x_4Ah_Batteries_-_Charger_Total_TMSLI20212.jpg',
+                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786516021/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_8_inch_20V_Mitre_Saw_-_2_x_4Ah_Batteries_-_Charger_Total_TMSLI20212-2.jpg',
+                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786516020/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_8_inch_20V_Mitre_Saw_-_2_x_4Ah_Batteries_-_Charger_Total_TMSLI20212-3.jpg',
                                     ],
 
                                         inStock: true,
@@ -19385,3 +19385,4 @@ Ideal for workshops, fabrication shops and construction sites
 },
 
 ];
+
