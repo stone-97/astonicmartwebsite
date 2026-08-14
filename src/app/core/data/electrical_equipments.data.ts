@@ -6131,7 +6131,78 @@ Reliable performance for professional and industrial applications
         jumiaLink: 'https://www.jumia.com.ng/',
         kongaLink: 'https://www.konga.com/'
     },
+
+
+    {
+        id: 11096,
+        name: 'Portable 12V Jump Starter & Tire Inflator - 4 In 1',
+        category: 'jumper-starters',
+        group: 'electrical equipments',
+        brand: 'Generic',
+        price: 150000,
+        showSimilar: true,
+
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786704373/Red_jumper_starter_and_tire_inflator_7_up8uvl.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786693084/Red_jumper_starter_and_tire_inflator_8_md6kl2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786692967/Red_jumper_starter_and_tire_inflator_9_gnabwg.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786693146/Red_jumper_starter_and_tire_inflator_5_rulfxz.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786693157/Red_jumper_starter_and_tire_inflator_6_yozlva.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786693195/Red_jumper_starter_and_tire_inflator_bb5ft1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786693417/Red_jumper_starter_and_tire_inflator_4_cgwfcb.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786693422/Red_jumper_starter_and_tire_inflator_2_qbnu3x.jpg'
+        ],
+
+        inStock: true,
+
+        description: 'The Portable 12V Jump Starter & Tire Inflator is a multifunctional 4-in-1 roadside emergency device designed to jump-start 12V vehicles, inflate tyres, provide portable power, and deliver emergency lighting. Model MC6635 features a powerful 1000A peak current, built-in air compressor with up to 150 PSI maximum pressure, USB power-bank output, and an integrated LED light. Its compact portable design makes it suitable for cars, SUVs, motorcycles, vans, and other 12V vehicles.',
+
+        specification: `
+Product Type: Portable Jump Starter & Tire Inflator
+Model: MC6635
+Vehicle Compatibility: 12V Vehicles
+Battery Voltage: 14.8V
+Peak Current: 1000A
+Air Compressor: Built-in
+Maximum Pressure: 150 PSI
+USB Output: USB-A 5V/2A
+USB-C Input: 5V/2A
+DC Input: 12V
+DC Output: 12V
+LED Light: Built-in
+Power Bank: Yes
+Functions: Jump Starter, Tire Inflator, Power Bank, LED Light
+
+accessories:
+Battery jumper cables
+Air compressor hose
+Inflation accessories/nozzles
+USB charging cable
+Storage/transport case
+User manual
+
+  `,
+
+        features: `
+1000A peak current for emergency vehicle starting
+Suitable for 12V vehicles
+Built-in air compressor with up to 150 PSI pressure
+Digital display for monitoring operation
+USB power-bank function for charging mobile devices
+Built-in LED emergency light
+Compact and portable design
+Multiple safety protection features
+Ideal for roadside emergencies and vehicle maintenance
+Suitable for cars, SUVs, motorcycles, vans, and other 12V vehicles
+Easy to carry and store
+  `,
+
+        jumiaLink: 'https://www.jumia.com.ng/',
+        kongaLink: 'https://www.konga.com/'
+    },
     //  electrical equipments end at 13000
+
+
 
 
 
