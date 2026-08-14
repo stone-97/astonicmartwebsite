@@ -143,12 +143,32 @@
 }
 
 
-/* MOBILE RESPONSIVE */
+/* MOBILE FEATURES */
 @media (max-width: 576px) {
-    .features-area .container {
-        padding-left: 70px !important;
-        padding-right: 70px !important;
-    }
+
+  .features-area .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .features-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .features-inner>div {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .single-features {
+    min-height: 150px;
+    padding: 20px 8px;
+    text-align: center;
+  }
+
 }
 
 
@@ -1466,23 +1486,39 @@ box-shadow:
   font-size: 14px;
 }
 
-
 @media (max-width: 768px) {
+
+  .deal-text {
+    margin-top: 20px;
+  }
+
+  .deal-text h1 {
+    font-size: 36px !important;
+    line-height: 1.1 !important;
+    margin-bottom: 16px;
+  }
+
+  .deal-text p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
 
   .clock-wrap {
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px 12px;
   }
 
   .clockinner {
     min-width: 45%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    text-align: center;
   }
 
-.deal-text h1 {
-  font-size: 42px !important;
-
-  line-height: 1.1 !important;
-}
+  .clockinner h1 {
+    font-size: 38px;
+  }
 
 }
 

@@ -5784,7 +5784,7 @@ Ideal for security operations, patrol duties, event security, industrial facilit
         price: 12000,
 
         images: [
-            'assets/img/earmuffs/beta earmuff.jpg'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786516020/Astonic-Mart/Products/earmuffs/beta_earmuff.jpg'
         ],
 
         inStock: true,
@@ -14370,3 +14370,4 @@ Durable construction for dependable performance
    
 
 ];
+
