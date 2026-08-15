@@ -1,0 +1,55 @@
+REFERENCE: assets/img/wheel barrows and marine ropes/INGCO Industrial Soft Grip Handle Wheelbarrow 90kg.webp
+LOCAL FILE EXISTS: NO
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\wheel barrows and marine ropes\INGCO Industrial Soft Grip Handle Wheelbarrow 90kg.webp
+
+REFERENCE: assets/img/wheel barrows and marine ropes/marine manila ropes.jpg
+LOCAL FILE EXISTS: NO
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\wheel barrows and marine ropes\marine manila ropes.jpg
+
+REFERENCE: assets/img/ropes/sgt-knots-promanila-rope-2.jpg
+LOCAL FILE EXISTS: NO
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\ropes\sgt-knots-promanila-rope-2.jpg
+
+REFERENCE: assets/img/ropes/sgt-knots-promanila-rope-3.jpg
+LOCAL FILE EXISTS: NO
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\ropes\sgt-knots-promanila-rope-3.jpg
+
+REFERENCE: assets/img/torque wrenches/Covenant 3 4 inches Torque Wrench 100–500Nm.png
+LOCAL FILE EXISTS: YES
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\torque wrenches\Covenant 3 4 inches Torque Wrench 100–500Nm.png
+
+REFERENCE: assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw - 2 x 4Ah Batteries - Charger Total TMSLI20212.jpg
+LOCAL FILE EXISTS: YES
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\circular and mitre saws\TOTAL 8 inch 20V Mitre Saw - 2 x 4Ah Batteries - Charger Total TMSLI20212.jpg
+
+REFERENCE: assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw - 2 x 4Ah Batteries - Charger Total TMSLI20212-2.jpg
+LOCAL FILE EXISTS: YES
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\circular and mitre saws\TOTAL 8 inch 20V Mitre Saw - 2 x 4Ah Batteries - Charger Total TMSLI20212-2.jpg
+
+REFERENCE: assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw - 2 x 4Ah Batteries - Charger Total TMSLI20212-3.jpg
+LOCAL FILE EXISTS: YES
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\circular and mitre saws\TOTAL 8 inch 20V Mitre Saw - 2 x 4Ah Batteries - Charger Total TMSLI20212-3.jpg
+
+REFERENCE: assets/img/earmuffs/beta earmuff.jpg
+LOCAL FILE EXISTS: YES
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\earmuffs\beta earmuff.jpg
+
+REFERENCE: assets/img/air-compressor accessories/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03.avif
+LOCAL FILE EXISTS: YES
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\air-compressor accessories\RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03.avif
+
+REFERENCE: assets/img/air-compressor accessories/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-2.jpeg
+LOCAL FILE EXISTS: YES
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\air-compressor accessories\RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-2.jpeg
+
+REFERENCE: assets/img/air-compressor accessories/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-3.jpeg
+LOCAL FILE EXISTS: YES
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\air-compressor accessories\RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-3.jpeg
+
+REFERENCE: assets/img/air-compressor accessories/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-4.jpeg
+LOCAL FILE EXISTS: YES
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\air-compressor accessories\RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-4.jpeg
+
+REFERENCE: assets/img/air-compressor accessories/RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-5.avif
+LOCAL FILE EXISTS: YES
+LOCAL PATH: C:\projects\astonicmarts\src\assets\img\air-compressor accessories\RIH_3by8inch_Air_Filter_Regulator_Lubricator_Combo_AW3000-03_AL3000-03-5.avif
