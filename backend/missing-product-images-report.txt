@@ -1,0 +1,1188 @@
+ASTONIC MART MISSING PRODUCT IMAGE REPORT
+=========================================
+Products affected: 131
+
+========================================
+FILE: construction_equipments.data.ts
+PRODUCT: Poker Vibrator Machine Robin Engine Gasoline 5HP
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/robin-5hp-poker-vibrator-2.jpg
+MISSING: assets/img/tools/robin-5hp-poker-vibrator-3.jpg
+
+========================================
+FILE: construction_equipments.data.ts
+PRODUCT: 4 Wheels 500L Portable Concrete Cement Mixer
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/500l-4-wheel-concrete-mixer-2.jpg
+MISSING: assets/img/tools/500l-4-wheel-concrete-mixer-3.jpg
+
+========================================
+FILE: construction_equipments.data.ts
+PRODUCT: Robin Engine EY20 Vibratory Plate Compactor C90 (90kg)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/robin-ey20-c90-plate-compactor-2.jpg
+MISSING: assets/img/tools/robin-ey20-c90-plate-compactor-3.jpg
+
+========================================
+FILE: construction_equipments.data.ts
+PRODUCT: INGCO Industrial Soft Grip Handle Wheelbarrow 90L (HHWB64018G)
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/wheel barrows and marine ropes/INGCO Industrial Soft Grip Handle Wheelbarrow 90kg.webp
+
+========================================
+FILE: construction_equipments.data.ts
+PRODUCT: Rod Bender - 50mm
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/rod-bender-50mm-2.jpg
+MISSING: assets/img/tools/rod-bender-50mm-3.jpg
+
+========================================
+FILE: construction_equipments.data.ts
+PRODUCT: SGT KNOTS Twisted ProManila Rope ΓÇô 1.25
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/wheel barrows and marine ropes/marine manila ropes.jpg
+MISSING: assets/img/ropes/sgt-knots-promanila-rope-2.jpg
+MISSING: assets/img/ropes/sgt-knots-promanila-rope-3.jpg
+
+========================================
+FILE: construction_equipments.data.ts
+PRODUCT: Total Power Trowel ΓÇô 6.5HP Concrete Finishing Machine
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/power-trowel-6-5hp-2.jpg
+MISSING: assets/img/tools/power-trowel-6-5hp-3.jpg
+
+========================================
+FILE: construction_equipments.data.ts
+PRODUCT: Toyo 6m Retractable Fall Arrestor
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/toyo-fall-arrestor-6m-2.jpg
+MISSING: assets/img/tools/toyo-fall-arrestor-6m-3.jpg
+
+========================================
+FILE: construction_equipments.data.ts
+PRODUCT: Robin Jumping Rammer 5.0HP
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/concrete mixers and drum trucks/robin engine jumping rammer.webp
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Maxmech Battery Charger BC650 – 12V/24V Heavy Duty Booster
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/chargers/maxmech-bc650-2.jpg
+MISSING: assets/img/chargers/maxmech-bc650-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Maxmech Air Compressor BA 1500-80 – 80L 1500W
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/aircompressors/maxmech-80l-2.jpg
+MISSING: assets/img/aircompressors/maxmech-80l-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Ingco Car Air Compressor AAC2508 – 12V Twin Cylinder
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/aircompressors/ingco-aac2508-2.jpg
+MISSING: assets/img/aircompressors/ingco-aac2508-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Ingco Booster Cable HBTCP2001 – Heavy Duty Jump Starter Cable
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/automotive/hbtcp2001-2.jpg
+MISSING: assets/img/automotive/hbtcp2001-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Maxmech Plasma Cutter CUT-100 – 100A Industrial Cutting Machine
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/welding/maxmech-cut100-2.jpg
+MISSING: assets/img/welding/maxmech-cut100-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: TOTAL Silent Diesel Generator 8.0KW TP280001 – 8KVA
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/generators/total-tp280001-2.jpg
+MISSING: assets/img/generators/total-tp280001-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: TOTAL Inverter Generator 2.2KW TP530001 – Portable Silent Petrol
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/generators/total-tp530001-2.jpg
+MISSING: assets/img/generators/total-tp530001-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Maxmech TIG/MMA-250 Welding Machine – 250A Inverter Dual Function
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/welding/maxmech-tigmma250-2.jpg
+MISSING: assets/img/welding/maxmech-tigmma250-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Maxmech MMA-500T Welding Machine – 500A Heavy Duty Inverter
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/welding/maxmech-mma500t-2.jpg
+MISSING: assets/img/welding/maxmech-mma500t-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Maxmech MIG/MMA-250 Welding Machine – 250A Dual Function Inverter
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/welding/maxmech-migmma250-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Maxmech Arc Welding Machine 500A – Heavy Duty MMA Inverter
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/welding/maxmech-arc500-2.jpg
+MISSING: assets/img/welding/maxmech-arc500-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: EDON CUT-120 Plasma Cutter Welding Machine
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/edon-cut100-plasma-cutter/edon-cut100.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Maxmech MIG 200 Welding Machine
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/welding machines/Maxmech MIG 200 Welding Machine-3.jpg
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: INGCO ING-CD2201 Industrial Battery Charger
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/powertools/ingco-ingcd2201-1.webp
+MISSING: assets/img/powertools/ingco-ingcd2201-2.webp
+MISSING: assets/img/powertools/ingco-ingcd2201-3.webp
+
+========================================
+FILE: electrical_equipments.data.ts
+PRODUCT: Digital Inverter ARC Welding Machine 200A
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/power tools/Digital Inverter ARC Welding Machine 200A.jpg
+
+========================================
+FILE: farm_equipments.data.ts
+PRODUCT: TOTAL Gasoline Tiller 196cc (TGC5001)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/total gasoline tiller tgc5001 2.jpg
+MISSING: assets/img/tools/total gasoline tiller tgc5001 3.jpg
+
+========================================
+FILE: farm_equipments.data.ts
+PRODUCT: Carbon Steel Garden Spade Shovel with Handle
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/garden spade shovel 2.jpg
+MISSING: assets/img/tools/garden spade shovel 3.jpg
+
+========================================
+FILE: fire_and_traffic_safety.data.ts
+PRODUCT: Reflective Safety Vest FN 500
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/safety wear/reflective vest fn 500 2.jpg
+MISSING: assets/img/safety wear/reflective vest fn 500 3.jpg
+
+========================================
+FILE: fire_and_traffic_safety.data.ts
+PRODUCT: 2 Channel Cable Ramp Speed Bump Hump Rubber Protective
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/road-safety/2-channel-cable-ramp-2.jpg
+
+========================================
+FILE: fire_and_traffic_safety.data.ts
+PRODUCT: Stop / Go Traffic Paddle Sign
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/road-safety/stop-go-traffic-paddle-sign-2.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO Combination Spanner Set 12pcs 6ΓÇô32mm HKSPA1143
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-spanner-set-2.jpg
+MISSING: assets/img/tools/ingco-spanner-set-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO Claw Hammer 8oz (220g) HCH80808
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-hammer-2.jpg
+MISSING: assets/img/tools/ingco-hammer-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO Combination Pliers 8
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-pliers-2.jpg
+MISSING: assets/img/tools/ingco-pliers-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO Bolt Cutter 48
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-bolt-cutter-48-2.jpg
+MISSING: assets/img/tools/ingco-bolt-cutter-48-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO Industrial Pipe Wrench 8
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-pipe-wrench-8-2.jpg
+MISSING: assets/img/tools/ingco-pipe-wrench-8-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: TOTAL Ratchet Handle 1/4
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/total-ratchet-1-4-tht106146-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO 6 Pcs Screwdriver Set (HKSD0628)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-screwdriver-set-hksd0628-2.jpg
+MISSING: assets/img/tools/ingco-screwdriver-set-hksd0628-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: 8PCS Magnetic Nut Driver Set
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/magnetic-nut-driver-set-6-inch-2.jpg
+MISSING: assets/img/tools/magnetic-nut-driver-set-6-inch-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: 4-120mm Hydraulic Cable Lug Crimping Tool
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/hydraulic-crimper-4-120mm-2.jpg
+MISSING: assets/img/tools/hydraulic-crimper-4-120mm-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO Hand Riveter 10.5
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-riveter-2.jpg
+MISSING: assets/img/tools/ingco-riveter-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO Utility Knife 61x19mm (HUK615)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-utility-knife-huk615-2.jpg
+MISSING: assets/img/tools/ingco-utility-knife-huk615-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: Putty Knife Set 3-sets
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/putty-knife-set-2-3-5-inch-2.jpg
+MISSING: assets/img/tools/putty-knife-set-2-3-5-inch-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: TOTAL Rubber Hammer Mallet 16oz (THT761616)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/total-rubber-hammer-tht761616-2.jpg
+MISSING: assets/img/tools/total-rubber-hammer-tht761616-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: Bosch CYL-3 Concrete Drill Bit 8 x 80 x 120 mm
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/bosch-cyl-3-8x80x120-2.jpg
+MISSING: assets/img/tools/bosch-cyl-3-8x80x120-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: Buffing Polishing Pads - 3 Inch 31 Pieces Premium Material Car Foam Drill Polishing Pad
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/3-inch-31pcs-polishing-pad-kit-2.jpg
+MISSING: assets/img/tools/3-inch-31pcs-polishing-pad-kit-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: Stanley 16 Inch Tool Box
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/stanley-16-inch-toolbox-2.jpg
+MISSING: assets/img/tools/stanley-16-inch-toolbox-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO Tool Bag Backpack Industrial 8kg Load (HBP01028)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-tool-backpack-hbp01028-2.jpg
+MISSING: assets/img/tools/ingco-tool-backpack-hbp01028-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: TOTAL Tile Cutter 1200mm (THT571201)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/total-tile-cutter-tht571201-2.jpg
+MISSING: assets/img/tools/total-tile-cutter-tht571201-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: VEVOR Bearing Puller Kit 14-Piece, 5 Ton
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/vevor-14pcs-bearing-puller-kit-5ton-2.jpg
+MISSING: assets/img/tools/vevor-14pcs-bearing-puller-kit-5ton-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: Bosch 10 Inch Circular Saw Blade (254mm)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/bosch-10-inch-circular-saw-blade-2.jpg
+MISSING: assets/img/tools/bosch-10-inch-circular-saw-blade-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO Hand Saw 22
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-hand-saw-hhas08550-2.jpg
+MISSING: assets/img/tools/ingco-hand-saw-hhas08550-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: HVAC Copper Tube Flaring & Swaging Tool Kit with Pipe Cutter (Professional Refrigeration Tool Set)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/hvac-flaring-swaging-kit-with-cutter-2.jpg
+MISSING: assets/img/tools/hvac-flaring-swaging-kit-with-cutter-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: INGCO 30-Piece Cutting & Grinding Disc Set (MCD07630)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-mcd07630-30pcs-disc-set-2.jpg
+MISSING: assets/img/tools/ingco-mcd07630-30pcs-disc-set-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: Dewalt Screwdriver Bit and Holder Set 32 Piece (DT7969)
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/driil bits and screws/dewalt-32-piece-screwdriver-bit-set-dt7969m-1-800x800.jpeg
+MISSING: assets/img/tools/dewalt-dt7969-32pcs-bit-set-2.jpg
+MISSING: assets/img/tools/dewalt-dt7969-32pcs-bit-set-3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: Round Sanding Paper 225mm 100 Grit
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/round sanding paper 225mm 100 grit 2.jpg
+MISSING: assets/img/tools/round sanding paper 225mm 100 grit 3.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: TOCDO Putty Knife
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/putty, utility knives and blades/TOCDQ Putty Knife.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: Eccentric Flaring Tool Kit
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/refrigeration-tools/Eccentric Flaring Tool Kit-2.jpg
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: 10 Ton Hydraulic Bearing Separator Puller Kit
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/bearing-pullers/10 Ton Hydraulic Bearing Separator Puller Kit-2.webp
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: STANLEY STHT69646-8 Medium-Duty Riveter (3 Nozzles)
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/handtools/stanley-stht69646-8-medium-duty-riveter.webp
+
+========================================
+FILE: hand-tools.data.ts
+PRODUCT: Manual Hand Winch 1000kg (1 Ton)
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/gear winch src/assets/img/gear winch/Manual Hand Winch 1000kg (1 Ton).png
+
+========================================
+FILE: lubricants_applications.data.ts
+PRODUCT: CRC CO Contact Cleaner 312g (2PCS)
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/contact-cleaners/crc-contact-cleaner-2.webp
+MISSING: assets/img/contact-cleaners/crc-contact-cleaner-3.webp
+MISSING: assets/img/contact-cleaners/crc-contact-cleaner-4.webp
+
+========================================
+FILE: lubricants_applications.data.ts
+PRODUCT: CRC CO Contact Cleaner 312g
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/contact-cleaners/crc-contact-cleaner-2.webp
+MISSING: assets/img/contact-cleaners/crc-contact-cleaner-3.webp
+MISSING: assets/img/contact-cleaners/crc-contact-cleaner-4.webp
+
+========================================
+FILE: marine_offshore.data.ts
+PRODUCT: Yamaha Adult XL Marine Life Jacket 150N
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/marine/yamaha-life-jacket-150n.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: AGO Hydrometer with 250ml Cylinder Tube – Battery Acid Tester
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/automotive/hydrometer-2.jpg
+MISSING: assets/img/automotive/hydrometer-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: DUOYI Digital Earth Ground Resistance Tester DY4100 – Soil Resistivity Meter
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/duoyi-dy4100-2.jpg
+MISSING: assets/img/measuring/duoyi-dy4100-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Mastech MS2101 AC/DC Digital Clamp Meter – 4000 Counts
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/mastech-ms2101-2.jpg
+MISSING: assets/img/measuring/mastech-ms2101-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Food Thermometer Probe Digital Cooking Kitchen BBQ
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/thermometers/food-thermometer-2.jpg
+MISSING: assets/img/thermometers/food-thermometer-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Fluke 62 MAX Infrared Thermometer (Non-Contact Temperature Gun)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/thermometers/fluke-62-max-2.jpg
+MISSING: assets/img/thermometers/fluke-62-max-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Glass Petrol/Diesel Thermometer
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/thermometers/glass-petrol-thermometer-2.jpg
+MISSING: assets/img/thermometers/glass-petrol-thermometer-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Ingco 50m Laser Distance Meter
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/ingco-laser-distance-50m-2.jpg
+MISSING: assets/img/measuring/ingco-laser-distance-50m-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Fiberglass Measuring Tape - INGCO HFMT8250
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/ingco-hfmt8250-2.jpg
+MISSING: assets/img/measuring/ingco-hfmt8250-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: INGCO Tape Measure Steel 5Mx19mm-HSMT08519
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/ingco-hsmt08519-1-2.jpg
+MISSING: assets/img/measuring/ingco-hsmt08519-1-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Maxmech Battery Charger BC650 – 12V/24V Heavy Duty Booster
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/chargers/maxmech-bc650-2.jpg
+MISSING: assets/img/chargers/maxmech-bc650-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Digital Outside Micrometer Screw Gauge 0-25mm
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/digital-micrometer-0-25-2.jpg
+MISSING: assets/img/measuring/digital-micrometer-0-25-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Micrometer Screw Gauge 0-25mm Accuracy 0.01mm (Analogue)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/analogue-micrometer-0-25-2.jpg
+MISSING: assets/img/measuring/analogue-micrometer-0-25-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Single Phase Non-Contact AC Voltage Tester Pen AC-8 (12–1000V)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/testers/ac-voltage-tester-pen-2.jpg
+MISSING: assets/img/testers/ac-voltage-tester-pen-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: HVAC Manifold Gauge Set (Refrigeration Pressure Gauge Kit)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/hvac/manifold-gauge-set-2.jpg
+MISSING: assets/img/hvac/manifold-gauge-set-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Water Tester(pH/Salinity/Temperature)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/testers/water-quality-tester-2.jpg
+MISSING: assets/img/testers/water-quality-tester-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Digital Alcohol Breath Tester (Breathalyzer)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/testers/alcohol-tester-2.jpg
+MISSING: assets/img/testers/alcohol-tester-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Digital Grain Moisture Meter
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/testers/grain-moisture-meter-2.jpg
+MISSING: assets/img/testers/grain-moisture-meter-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: INGCO Spirit Level 30cm HSL08030
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/spirit-level-30cm-2.jpg
+MISSING: assets/img/measuring/spirit-level-30cm-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: PRO GOL 32 D Optical Level
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/optical-level-2.jpg
+MISSING: assets/img/measuring/optical-level-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: 50KG Pocket Spring Balance Hook Weighing Scale (Kg & Lbs)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/spring-balance-2.jpg
+MISSING: assets/img/measuring/spring-balance-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Triple Beam Balance Mechanical Weighing Scale
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/triple-beam-balance-2.jpg
+MISSING: assets/img/measuring/triple-beam-balance-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Analog Platform Mechanical Scale – 300kg Capacity
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/platform-scale-300kg-2.jpg
+MISSING: assets/img/measuring/platform-scale-300kg-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Electronic Analytical Laboratory Balance – 220g x 0.0001g (0.1mg)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/analytical-balance-2.jpg
+MISSING: assets/img/measuring/analytical-balance-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: A-12 Digital Platform Scale – 500KG Capacity
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/a12-platform-scale-2.jpg
+MISSING: assets/img/measuring/a12-platform-scale-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: 20KG Mechanical Weighing Scale with Stainless Steel Bowl – Heavy-Duty
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/mechanical-scale-20kg-2.jpg
+MISSING: assets/img/measuring/mechanical-scale-20kg-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: High Precision Electronic Digital Kitchen Scale – 10KG Capacity
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/digital-kitchen-scale-2.jpg
+MISSING: assets/img/measuring/digital-kitchen-scale-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Digital Crane Scale – 1 Ton (1000KG Heavy-Duty)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/crane-scale-1ton-2.jpg
+MISSING: assets/img/measuring/crane-scale-1ton-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: 300KG Digital Hanging Scale (Heavy-Duty Hook Weighing Scale)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/hanging-scale-300kg-2.jpg
+MISSING: assets/img/measuring/hanging-scale-300kg-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Digital Hanging Crane Scale – 200KG (Portable Hook Weighing Scale)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/hanging-scale-200kg-2.jpg
+MISSING: assets/img/measuring/hanging-scale-200kg-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: CAMRY Digital Electronic Pricing Scale – 30KG Capacity
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/camry-pricing-scale-30kg-2.jpg
+MISSING: assets/img/measuring/camry-pricing-scale-30kg-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Glass Digital Bathroom Weighing Scale – 150KG Capacity
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/bathroom-scale-2.jpg
+MISSING: assets/img/measuring/bathroom-scale-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Digital Pocket Scale – 500g x 0.01g High Precision
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring/pocket-scale-500g-2.jpg
+MISSING: assets/img/measuring/pocket-scale-500g-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Lab 1000ml Plastic Measuring Cylinder
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring tools/plastic measuring cylinder 1000ml 2.jpg
+MISSING: assets/img/measuring tools/plastic measuring cylinder 1000ml 3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: RJ11 & RJ45 Network Cable Tester
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/measuring tools/network cable tester rj11 rj45 2.jpg
+MISSING: assets/img/measuring tools/network cable tester rj11 rj45 3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Quality Gas Cylinder Regulator Meter
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/gas regulator meter 2.jpg
+MISSING: assets/img/tools/gas regulator meter 3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: Bosch PRO GRL 300 HV Rotation Laser + BT 160 Tripod
+MISSING IMAGES: 4
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/lasers and measurement tools/Bosch PRO GRL 300 HV +bt160.jpg
+MISSING: assets/img/lasers and measurement tools/Bosch PRO GRL 300 HV +bt160.jpg-2.webp
+MISSING: assets/img/lasers and measurement tools/Bosch PRO GRL 300 HV +bt160.jpg-3.webp
+MISSING: assets/img/lasers and measurement tools/Bosch PRO GRL 300 HV +bt160.jpg-4.webp
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: KW600 Car Battery Tester – 12V 100–2000CCA Diagnostic Tool
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/automotive/kw600-2.jpg
+MISSING: assets/img/automotive/kw600-3.jpg
+
+========================================
+FILE: measuring-tools.data.ts
+PRODUCT: UNI-T UT890D+ Digital Multimeter
+MISSING IMAGES: 5
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/multimeters/UNI-T UT890D+ Digital Multimeter.jpg
+MISSING: assets/img/multimeters/UNI-T UT890D+ Digital Multimeter-3.jpg
+MISSING: assets/img/multimeters/UNI-T UT890D+ Digital Multimeter-4.jpg
+MISSING: assets/img/multimeters/UNI-T UT890D+ Digital Multimeter-5.jpg
+MISSING: assets/img/multimeters/UNI-T UT890D+ Digital Multimeter-6.jpg
+
+========================================
+FILE: power-tools.data.ts
+PRODUCT: TOTAL 8
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw + 2 x 4Ah Batteries + Charger Total TMSLI20212.jpg
+MISSING: assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw + 2 x 4Ah Batteries + Charger Total TMSLI20212-2.jpg
+MISSING: assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw + 2 x 4Ah Batteries + Charger Total TMSLI20212-3.jpg
+
+========================================
+FILE: power-tools.data.ts
+PRODUCT: Smartec ST-1802 Electric Polisher
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/polishers/Smartec ST-1802 Electric Polisher-3.png
+
+========================================
+FILE: power-tools.data.ts
+PRODUCT: TOTAL TOSLI250606 3PCS Tiling Combo Kit + TLLT01152 Tripod
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/lasers and measurement tools/TOTAL TOSLI250606 3PCS Tiling Combo Kit + TLLT01152 Tripod.jpg
+MISSING: assets/img/lasers and measurement tools/TOTAL TOSLI250606 3PCS Tiling Combo Kit + TLLT01152 Tripod-2.jpg
+MISSING: assets/img/lasers and measurement tools/TOTAL TOSLI250606 3PCS Tiling Combo Kit + TLLT01152 Tripod-3.jpg
+
+========================================
+FILE: power-tools.data.ts
+PRODUCT: TOTAL TOSLI250606 3PCS Tiling Combo Kit ΓÇô Tile Vibrator, 5-Line Laser Level & 100m Laser Distance Meter
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/lasers and measurement tools/TOTAL TOSLI250606 3PCS Tiling Combo Kit + TLLT01152 Tripod-3.jpg
+
+========================================
+FILE: ppe.data.ts
+PRODUCT: Rope Type Stanchion Crowd Queue Control Barrier Post - 4 Poles + 2 Ropes
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/stanchions/Rope Type Stanchion Crowd Queue Control Barrier Post - 4 Poles + 2 Ropes.webp
+
+========================================
+FILE: ppe.data.ts
+PRODUCT: Safety Jogger MODULO LE S3S LOW TG Safety Shoe
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/safety joggers/Safety Jogger MODULO LE S3S LOW TG 2.webp
+
+========================================
+FILE: ppe.data.ts
+PRODUCT: Safety Jogger CADOR S1P ESD SRC Safety Shoe
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/safety joggers/cador safety jogger 2.jpg
+
+========================================
+FILE: ppe.data.ts
+PRODUCT: Safety Jogger FREEDOM S1PS LOW Safety Shoe
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/safety joggers/Safety Jogger FREEDOM S1PS LOW 2.webp
+
+========================================
+FILE: ppe.data.ts
+PRODUCT: Safety Jogger MODULO LE S3S MID TG Safety Boot
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/safety joggers/Safety Jogger MODULO LE S3S MID TG 2.webp
+
+========================================
+FILE: ppe.data.ts
+PRODUCT: Safety Jogger DAKAR EW S3 Leather Safety Boot
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/safety joggers/Safety Jogger DAKAR EW S3 Leather 2.webp
+
+========================================
+FILE: ppe.data.ts
+PRODUCT: Safety Jogger JACKMAN S3 Leather Safety Boot
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/safety joggers/Safety Jogger JACKMAN S3 Leather 2.webp
+
+========================================
+FILE: ppe.data.ts
+PRODUCT: Work Racer Cold Room Full Protection Combo Set
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/cold room wear/Work Race Cold Room Full Protection Combo Set-2.jpg
+MISSING: assets/img/cold room wear/Work Race Cold Room Full Protection Combo Set-3.jpg
+
+========================================
+FILE: ppe.data.ts
+PRODUCT: Beta Safety Earmuff
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/ppe/beta-safety-earmuff.jpg
+
+========================================
+FILE: pumping_machines.data.ts
+PRODUCT: INGCO Centrifugal Water Pump 0.75HP (CPM5508)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-cpm5508-2.jpg
+MISSING: assets/img/tools/ingco-cpm5508-3.jpg
+
+========================================
+FILE: pumping_machines.data.ts
+PRODUCT: INGCO Submersible Clean Water Pump 0.5HP (SPC3702)
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-spc3702-2.jpg
+MISSING: assets/img/tools/ingco-spc3702-3.jpg
+
+========================================
+FILE: pumping_machines.data.ts
+PRODUCT: INGCO Gasoline Water Pump 2
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/ingco-gwp202-2.jpg
+MISSING: assets/img/tools/ingco-gwp202-3.jpg
+
+========================================
+FILE: pumping_machines.data.ts
+PRODUCT: Bolton Water Pump Diesel Engine 10HP
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/products/bolton-water-pump-10hp-1.jpg
+MISSING: assets/img/products/bolton-water-pump-10hp-2.jpg
+MISSING: assets/img/products/bolton-water-pump-10hp-3.jpg
+
+========================================
+FILE: sealants-and-adhesives.data.ts
+PRODUCT: Soudal Silirub AC+ Sanitary Sealant
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/silicone and adhesives/Soudal Silirub AC+ Sanitary Sealant.jpg
+MISSING: assets/img/silicone and adhesives/Soudal Silirub AC+ Sanitary Sealant-2.jpg
+MISSING: assets/img/silicone and adhesives/Soudal Silirub AC+ Sanitary Sealant-3.jpg
+
+========================================
+FILE: sealants-and-adhesives.data.ts
+PRODUCT: 9
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/caulking-guns/300ml-sausage-gun-4.webp
+
+========================================
+FILE: sealants-and-adhesives.data.ts
+PRODUCT: Soudal Mitre Kit 50g + 200ml
+MISSING IMAGES: 5
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/silicone and adhesives/Soudal Mitre Kit 50g + 200ml.jpg
+MISSING: assets/img/silicone and adhesives/Soudal Mitre Kit 50g + 200ml-2.jpg
+MISSING: assets/img/silicone and adhesives/Soudal Mitre Kit 50g + 200ml-3.jpg
+MISSING: assets/img/silicone and adhesives/Soudal Mitre Kit 50g + 200ml-4.webp
+MISSING: assets/img/silicone and adhesives/Soudal Mitre Kit 50g + 200ml-5.jpg
+
+========================================
+FILE: sealants-and-adhesives.data.ts
+PRODUCT: Soudal Mitre Kit 100g + 400ml
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/silicone and adhesives/Soudal Mitre Kit 100g + 400ml-1.jpeg
+MISSING: assets/img/silicone and adhesives/Soudal Mitre Kit 100g + 400ml.webp
+MISSING: assets/img/silicone and adhesives/Soudal Mitre Kit 100g + 400ml-3.webp
+
+========================================
+FILE: workshop_and_garage.data.ts
+PRODUCT: 4x4 ΓÇô 4x7 Fibreglass Multipurpose Ladder Non-Conductive
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/ladders/fibreglass-4x5.jpg
+MISSING: assets/img/ladders/fibreglass-4x6.jpg
+MISSING: assets/img/ladders/fibreglass-4x7.jpg
+
+========================================
+FILE: workshop_and_garage.data.ts
+PRODUCT: 12ft ΓÇô 40t Aluminium Extension Ladder
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/ladders/extension-16ft.jpg
+MISSING: assets/img/ladders/extension-20ft.jpg
+MISSING: assets/img/ladders/extension-24ft.jpg
+
+========================================
+FILE: workshop_and_garage.data.ts
+PRODUCT: 3 Step ΓÇô 8 Step Aluminium Step Ladder
+MISSING IMAGES: 3
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/ladders/step-6.jpg
+MISSING: assets/img/ladders/step-7.jpg
+MISSING: assets/img/ladders/step-8.jpg
+
+========================================
+FILE: workshop_and_garage.data.ts
+PRODUCT: 4 Step ΓÇô 8 Step Fibreglass Step Ladder (Non-Conductive)
+MISSING IMAGES: 4
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/ladders/fibreglass-step-5.jpg
+MISSING: assets/img/ladders/fibreglass-step-6.jpg
+MISSING: assets/img/ladders/fibreglass-step-7.jpg
+MISSING: assets/img/ladders/fibreglass-step-8.jpg
+
+========================================
+FILE: workshop_and_garage.data.ts
+PRODUCT: Hydraulic Workshop Press 20ton
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/tools/hydraulic-press-20ton-2.jpg
+MISSING: assets/img/tools/hydraulic-press-20ton-3.jpg
+
+========================================
+FILE: workshop_and_garage.data.ts
+PRODUCT: Generic 3 Ton Hydraulic Floor Jack + 3T Jack Stand Set
+MISSING IMAGES: 5
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/jack  and lifts/3 TON HYDRAULIC FLOOR JACK + 3T JACK STAND SET.jpg
+MISSING: assets/img/jack  and lifts/3 TON HYDRAULIC FLOOR JACK + 3T JACK STAND SET-5.jpg
+MISSING: assets/img/jack  and lifts/3 TON HYDRAULIC FLOOR JACK + 3T JACK STAND SET-4.jpg
+MISSING: assets/img/jack  and lifts/3 TON HYDRAULIC FLOOR JACK + 3T JACK STAND SET-3.jpg
+MISSING: assets/img/jack  and lifts/3 TON HYDRAULIC FLOOR JACK + 3T JACK STAND SET-2.jpg
+
+========================================
+FILE: workshop_and_garage.data.ts
+PRODUCT: FRC-1/2-MIDI G1/2
+MISSING IMAGES: 2
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/airtools/frc-1-2-midi-2.jpg
+MISSING: assets/img/airtools/frc-1-2-midi-3.jpg
+
+========================================
+FILE: workshop_and_garage.data.ts
+PRODUCT: 100T Pneumatic Floor Jack
+MISSING IMAGES: 1
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/workshop tools/100T Pneumatic Floor Jack-3.jpg
+
+========================================
+FILE: workshop_and_garage.data.ts
+PRODUCT: 5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light
+MISSING IMAGES: 6
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-1.jpg
+MISSING: assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-2.jpg
+MISSING: assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-3.jpg
+MISSING: assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-4.jpg
+MISSING: assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-5.jpg
+MISSING: assets/img/jack  and lifts/5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light-6.jpg
+
+========================================
+FILE: workshop_and_garage.data.ts
+PRODUCT: RIH Pneumatics 3/8
+MISSING IMAGES: 5
+VALID CLOUDINARY IMAGES: 0
+----------------------------------------
+MISSING: assets/img/air-compressor accessories/RIH 3by8inch Air Filter Regulator Lubricator Combo AW3000-03 + AL3000-03.avif
+MISSING: assets/img/air-compressor accessories/RIH 3by8inch Air Filter Regulator Lubricator Combo AW3000-03 + AL3000-03-2.jpeg
+MISSING: assets/img/air-compressor accessories/RIH 3by8inch Air Filter Regulator Lubricator Combo AW3000-03 + AL3000-03-3.jpeg
+MISSING: assets/img/air-compressor accessories/RIH 3by8inch Air Filter Regulator Lubricator Combo AW3000-03 + AL3000-03-4.jpeg
+MISSING: assets/img/air-compressor accessories/RIH 3by8inch Air Filter Regulator Lubricator Combo AW3000-03 + AL3000-03-5.avif

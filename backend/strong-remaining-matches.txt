@@ -1,0 +1,98 @@
+PRODUCT: INGCO Industrial Soft Grip Handle Wheelbarrow 90L (HHWB64018G)
+PRODUCT: SGT KNOTS Twisted ProManila Rope ΓÇô 1.25
+PRODUCT: INGCO ING-CD2201 Industrial Battery Charger
+SCORE 5: src\assets\img\battery and battery chargers\INGCO ING-CD2201 Industrial Battery Charger-1.jpg
+SCORE 5: src\assets\img\battery and battery chargers\INGCO ING-CD2201 Industrial Battery Charger-2.jpeg
+SCORE 5: src\assets\img\battery and battery chargers\INGCO ING-CD2201 Industrial Battery Charger-3.jpeg
+SCORE 5: src\assets\img\battery and battery chargers\INGCO ING-CD2201 Industrial Battery Charger-4.png
+SCORE 5: src\assets\img\battery and battery chargers\INGCO ING-CD2201 Industrial Battery Charger-5.webp
+PRODUCT: Digital Inverter ARC Welding Machine 200A
+PRODUCT: INGCO 30-Piece Cutting & Grinding Disc Set (MCD07630)
+SCORE 6: src\assets\img\cutting and grinding disc\Ingco 30-Piece Cutting & Grinding Disc Set – MCD07630.jpeg
+SCORE 6: src\assets\img\cutting and grinding disc\Ingco 30-Piece Cutting & Grinding Disc Set – MCD076302.webp
+PRODUCT: Dewalt Screwdriver Bit and Holder Set 32 Piece (DT7969)
+PRODUCT: Auger Drill Bit for Wood (230mm / 350mm, 6ΓÇô25mm)
+SCORE 6: src\assets\img\drill bits and screws\Auger Drill Bit for Wood (230mm  350mm, 6–25mm)-2.jpg
+SCORE 6: src\assets\img\drill bits and screws\Auger Drill Bit for Wood (230mm  350mm, 6–25mm)-3.jpg
+SCORE 6: src\assets\img\drill bits and screws\Auger Drill Bit for Wood (230mm  350mm, 6–25mm)-4.jpg
+SCORE 6: src\assets\img\drill bits and screws\Auger Drill Bit for Wood (230mm  350mm, 6–25mm)-5.jpg
+SCORE 6: src\assets\img\drill bits and screws\Auger Drill Bit for Wood (230mm  350mm, 6–25mm).jpg
+PRODUCT: TOCDO Putty Knife
+PRODUCT: Heavy Duty Pipe Cutter 4ΓÇô55mm
+SCORE 5: src\assets\img\pipe threading kit\Heavy Duty Pipe Cutter 4–55mm-2.webp
+SCORE 5: src\assets\img\pipe threading kit\Heavy Duty Pipe Cutter 4–55mm-3.webp
+SCORE 5: src\assets\img\pipe threading kit\Heavy Duty Pipe Cutter 4–55mm-4.webp
+SCORE 5: src\assets\img\pipe threading kit\Heavy Duty Pipe Cutter 4–55mm-5.webp
+SCORE 5: src\assets\img\pipe threading kit\Heavy Duty Pipe Cutter 4–55mm.webp
+PRODUCT: 23 Pcs Combination Wrench Set (6ΓÇô23mm)
+PRODUCT: Covenant 3/4
+PRODUCT: STANLEY STHT69646-8 Medium-Duty Riveter (3 Nozzles)
+SCORE 5: src\assets\img\allen keys and hand riveters\STANLEY STHT69646-8 Metal Nozzle Medium-Duty Riveter-2.jpg
+SCORE 5: src\assets\img\allen keys and hand riveters\STANLEY STHT69646-8 Metal Nozzle Medium-Duty Riveter-3.jpg
+SCORE 5: src\assets\img\allen keys and hand riveters\STANLEY STHT69646-8 Metal Nozzle Medium-Duty Riveter-4.jpg
+SCORE 5: src\assets\img\allen keys and hand riveters\STANLEY STHT69646-8 Metal Nozzle Medium-Duty Riveter-5.jpg
+SCORE 5: src\assets\img\allen keys and hand riveters\STANLEY STHT69646-8 Metal Nozzle Medium-Duty Riveter-6.jpg
+SCORE 5: src\assets\img\allen keys and hand riveters\STANLEY STHT69646-8 Metal Nozzle Medium-Duty Riveter.jpg
+PRODUCT: Manual Hand Winch 1000kg (1 Ton)
+PRODUCT: Yamaha Adult XL Marine Life Jacket 150N
+PRODUCT: Bosch PRO GRL 300 HV Rotation Laser + BT 160 Tripod
+PRODUCT: TOTAL 8
+PRODUCT: TOTAL 20V Cordless Blower (TABLI20323) Lithium-Ion Portable Air Blower
+SCORE 7: src\assets\img\blowers\TOTAL 20V Cordless Blower – TABLI20323 Lithium-Ion Portable Air Blower-4.jpeg
+SCORE 7: src\assets\img\blowers\TOTAL 20V Cordless Blower – TABLI20323 Lithium-Ion Portable Air Blower.jpg
+SCORE 7: src\assets\img\blowers\TOTAL 20V Cordless Blower – TABLI20323 Lithium-Ion Portable Air Blower.jpg2.jpg
+SCORE 7: src\assets\img\blowers\TOTAL 20V Cordless Blower – TABLI20323 Lithium-Ion Portable Air Blower.jpg3.jpg
+PRODUCT: INGCO Rotary Hammer 800W SDS-Plus
+PRODUCT: TOTAL TOSLI250606 3PCS Tiling Combo Kit + TLLT01152 Tripod
+SCORE 7: src\assets\img\lasers and measurement tools\TOTAL TOSLI250606 3PCS Tiling Combo Kit - TLLT01152 Tripod-2.jpg
+SCORE 7: src\assets\img\lasers and measurement tools\TOTAL TOSLI250606 3PCS Tiling Combo Kit - TLLT01152 Tripod-3.jpg
+SCORE 7: src\assets\img\lasers and measurement tools\TOTAL TOSLI250606 3PCS Tiling Combo Kit - TLLT01152 Tripod.jpg
+PRODUCT: TOTAL TOSLI250606 3PCS Tiling Combo Kit ΓÇô Tile Vibrator, 5-Line Laser Level & 100m Laser Distance Meter
+SCORE 5: src\assets\img\combo kits\TOTAL Laser Distance Detector Combo Kit (TLDD241201)-1.jpeg
+SCORE 5: src\assets\img\combo kits\TOTAL Laser Distance Detector Combo Kit (TLDD241201)-2.jpeg
+SCORE 5: src\assets\img\combo kits\TOTAL Laser Distance Detector Combo Kit (TLDD241201)-2.webp
+SCORE 5: src\assets\img\lasers and measurement tools\LM-16X 16-Line Laser Level Meter.png
+SCORE 5: src\assets\img\lasers and measurement tools\TOTAL TOSLI250606 3PCS Tiling Combo Kit - TLLT01152 Tripod-2.jpg
+SCORE 5: src\assets\img\lasers and measurement tools\TOTAL TOSLI250606 3PCS Tiling Combo Kit - TLLT01152 Tripod-3.jpg
+SCORE 5: src\assets\img\lasers and measurement tools\TOTAL TOSLI250606 3PCS Tiling Combo Kit - TLLT01152 Tripod.jpg
+PRODUCT: Rope Type Stanchion Crowd Queue Control Barrier Post - 4 Poles + 2 Ropes
+SCORE 10: src\assets\img\stanchions\Rope Type Stanchion Crowd Queue Control Barrier Post - 4 Poles - 2 Ropes.webp
+SCORE 9: src\assets\img\stanchions\Rope Type Stanchion Cr2owd Queue Control Barrier Post - 4 Poles - 2 Ropes.webp
+SCORE 9: src\assets\img\stanchions\Rope Type Stanchion Cr2owd Queue Control Barrier Post - 4 Poles - 2 Ropes.webp3.webp
+SCORE 9: src\assets\img\stanchions\Rope Type Stanchion Cr2owd Queue Control Barrier Post - 4 Poles - 2 Ropes.webp4.webp
+PRODUCT: Beta Safety Earmuff
+PRODUCT: VISION-UK LG-V360L 360┬░ Infrared Motion Sensor
+SCORE 5: src\assets\img\personal safety\VISION-UK LG-V360L 360° Infrared Motion Sensor-2.png
+SCORE 5: src\assets\img\personal safety\VISION-UK LG-V360L 360° Infrared Motion Sensor.jpeg
+PRODUCT: Bolton Water Pump Diesel Engine 10HP
+PRODUCT: Soudal Silirub AC+ Sanitary Sealant
+PRODUCT: Soudal Mitre Kit 50g + 200ml
+PRODUCT: Soudal Mitre Kit 100g + 400ml
+PRODUCT: 4x4 ΓÇô 4x7 Multipurpose Aluminium Ladder
+PRODUCT: Generic 3 Ton Hydraulic Floor Jack + 3T Jack Stand Set
+SCORE 5: src\assets\img\3 ton hydraulic floor jack with 3 ton jack stand.jpg
+SCORE 5: src\assets\img\jack  and lifts\3 TON HYDRAULIC FLOOR JACK - 3T JACK STAND SET-2.jpg
+SCORE 5: src\assets\img\jack  and lifts\3 TON HYDRAULIC FLOOR JACK - 3T JACK STAND SET-3.jpg
+SCORE 5: src\assets\img\jack  and lifts\3 TON HYDRAULIC FLOOR JACK - 3T JACK STAND SET-4.jpg
+SCORE 5: src\assets\img\jack  and lifts\3 TON HYDRAULIC FLOOR JACK - 3T JACK STAND SET-5.jpg
+SCORE 5: src\assets\img\jack  and lifts\3 TON HYDRAULIC FLOOR JACK - 3T JACK STAND SET.jpg
+PRODUCT: 750lbs Engine Stand with 360┬░ Rotating Head
+SCORE 6: src\assets\img\jack  and lifts\750lbs Engine Stand with 360° Rotating Head-10.webp
+SCORE 6: src\assets\img\jack  and lifts\750lbs Engine Stand with 360° Rotating Head-2.webp
+SCORE 6: src\assets\img\jack  and lifts\750lbs Engine Stand with 360° Rotating Head-3.webp
+SCORE 6: src\assets\img\jack  and lifts\750lbs Engine Stand with 360° Rotating Head-4.webp
+SCORE 6: src\assets\img\jack  and lifts\750lbs Engine Stand with 360° Rotating Head-5.webp
+SCORE 6: src\assets\img\jack  and lifts\750lbs Engine Stand with 360° Rotating Head-6.webp
+SCORE 6: src\assets\img\jack  and lifts\750lbs Engine Stand with 360° Rotating Head-7.webp
+SCORE 6: src\assets\img\jack  and lifts\750lbs Engine Stand with 360° Rotating Head-8.webp
+SCORE 6: src\assets\img\jack  and lifts\750lbs Engine Stand with 360° Rotating Head-9.webp
+SCORE 6: src\assets\img\jack  and lifts\750lbs Engine Stand with 360° Rotating Head.webp
+PRODUCT: 5 Ton 12V Electric Car Jack Kit + Impact Wrench with LED Light
+SCORE 6: src\assets\img\jack  and lifts\5 Ton 12V Electric Car Jack Kit - Impact Wrench with LED Light-1.jpg
+SCORE 6: src\assets\img\jack  and lifts\5 Ton 12V Electric Car Jack Kit - Impact Wrench with LED Light-2.jpg
+SCORE 6: src\assets\img\jack  and lifts\5 Ton 12V Electric Car Jack Kit - Impact Wrench with LED Light-3.jpg
+SCORE 6: src\assets\img\jack  and lifts\5 Ton 12V Electric Car Jack Kit - Impact Wrench with LED Light-4.jpg
+SCORE 6: src\assets\img\jack  and lifts\5 Ton 12V Electric Car Jack Kit - Impact Wrench with LED Light-5.jpg
+SCORE 6: src\assets\img\jack  and lifts\5 Ton 12V Electric Car Jack Kit - Impact Wrench with LED Light-6.jpg
+PRODUCT: VOLTZ 18T 360┬░ Cargo Trolley
+PRODUCT: RIH Pneumatics 3/8
