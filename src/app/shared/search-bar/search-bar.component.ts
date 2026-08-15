@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { SearchService } from '../../core/services/search.service';
 import { Product } from '../../core/models/Product';
 
+
 @Component({
   selector: 'app-search-bar',
   templateUrl: './search-bar.component.html',
@@ -16,7 +17,8 @@ export class SearchBarComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private searchService: SearchService
+    private searchService: SearchService,
+
   ) { }
 
   ngOnInit() {
@@ -103,19 +105,35 @@ export class SearchBarComponent implements OnInit {
     setTimeout(() => this.showSuggestions = false, 250);
   }
 
+  
   getImageUrl(images: any): string {
     if (!images) {
       return '/assets/img/placeholder.jpg';
     }
 
+    let imageUrl: string = '';
+
     if (Array.isArray(images)) {
-      const first = images[0];
-      if (first) {
-        return first.startsWith('/') ? first : '/' + first;
-      }
+      imageUrl = images[0] || '';
+    } else {
+      imageUrl = images.toString().trim();
     }
 
-    const imgStr = images.toString().trim();
-    return imgStr.startsWith('/') ? imgStr : '/' + imgStr;
+    if (!imageUrl) {
+      return '/assets/img/placeholder.jpg';
+    }
+
+    // Cloudinary or any complete external URL
+    if (
+      imageUrl.startsWith('http://') ||
+      imageUrl.startsWith('https://')
+    ) {
+      return imageUrl;
+    }
+
+    // Local asset path
+    return imageUrl.startsWith('/')
+      ? imageUrl
+      : '/' + imageUrl;
   }
 }
