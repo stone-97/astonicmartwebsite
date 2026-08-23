@@ -9396,7 +9396,7 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
         model: 'S1 PS',
 
         price: 89000,
-        discountPrice: 980000,
+        discountPrice: 98000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786328694/Astonic-Mart/Products/safety%20joggers/RAPTOR-SJ.webp',

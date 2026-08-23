@@ -333,3 +333,286 @@
   background: #e9ecef;
   color: #0056b3;
 }
+
+
+/* =========================================================
+   MOBILE SEARCH BAR / SUGGESTIONS FIX
+   Desktop remains unchanged
+   ========================================================= */
+
+@media (max-width: 991px) {
+
+  /* Search container */
+  .search-container {
+    position: relative !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  /* Search input + button */
+  .search-container .input-group {
+    width: 100% !important;
+    display: flex !important;
+  }
+
+  .search-container .form-control {
+    min-width: 0 !important;
+    flex: 1 1 auto !important;
+  }
+
+  .search-container .btn {
+    flex: 0 0 auto !important;
+  }
+
+
+  /* =======================================================
+     SUGGESTIONS DROPDOWN
+     ======================================================= */
+
+  .search-container .suggestions-dropdown {
+    position: absolute !important;
+
+    top: calc(100% + 2px) !important;
+    left: 0 !important;
+
+    /* Make the dropdown large enough for product information */
+    width: 320px !important;
+    max-width: calc(100vw - 20px) !important;
+
+    margin: 0 !important;
+
+    background: #fff !important;
+
+    border: 1px solid #ddd !important;
+
+    border-top: 3px solid #ffba00 !important;
+
+    border-radius: 0 0 6px 6px !important;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.15) !important;
+
+    z-index: 99999 !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    max-height: 400px !important;
+  }
+
+
+  /* =======================================================
+     EACH PRODUCT RESULT
+     ======================================================= */
+
+  .search-container .suggestion-item {
+    display: flex !important;
+
+    align-items: flex-start !important;
+
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    padding: 12px !important;
+
+    gap: 10px !important;
+
+    box-sizing: border-box !important;
+
+    cursor: pointer !important;
+
+    border-bottom: 1px solid #eee !important;
+
+    background: #fff !important;
+  }
+
+
+  .search-container .suggestion-item:hover {
+    background: #f8f8f8 !important;
+  }
+
+
+  /* =======================================================
+     PRODUCT IMAGE
+     ======================================================= */
+
+  .search-container .suggestion-img {
+    width: 58px !important;
+
+    height: 58px !important;
+
+    min-width: 58px !important;
+
+    max-width: 58px !important;
+
+    object-fit: contain !important;
+
+    border: 1px solid #eee !important;
+
+    border-radius: 5px !important;
+
+    background: #fff !important;
+
+    flex-shrink: 0 !important;
+  }
+
+
+  /* =======================================================
+     PRODUCT INFORMATION
+     ======================================================= */
+
+  .search-container .suggestion-info {
+    flex: 1 1 auto !important;
+
+    min-width: 0 !important;
+
+    width: auto !important;
+
+    overflow: hidden !important;
+  }
+
+
+  /* Product name */
+  .search-container .suggestion-name {
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 0 0 4px !important;
+
+    font-size: 14px !important;
+
+    line-height: 1.35 !important;
+
+    font-weight: 600 !important;
+
+    color: #333 !important;
+
+    white-space: normal !important;
+
+    word-break: break-word !important;
+
+    overflow-wrap: anywhere !important;
+
+    overflow: hidden !important;
+
+    /* Maximum 2 lines */
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+  }
+
+
+  /* Category + brand */
+  .search-container .suggestion-meta {
+    margin: 0 0 5px !important;
+
+    font-size: 11px !important;
+
+    line-height: 1.35 !important;
+
+    color: #777 !important;
+
+    white-space: normal !important;
+
+    word-break: break-word !important;
+
+    overflow-wrap: anywhere !important;
+  }
+
+
+  /* Price */
+  .search-container .suggestion-price {
+    margin: 0 !important;
+
+    font-size: 14px !important;
+
+    line-height: 1.3 !important;
+
+    font-weight: 700 !important;
+
+    color: #28a745 !important;
+  }
+
+
+  /* =======================================================
+     SEE ALL RESULTS
+     ======================================================= */
+
+  .search-container .see-all {
+    width: 100% !important;
+
+    box-sizing: border-box !important;
+
+    padding: 12px !important;
+
+    font-size: 13px !important;
+
+    line-height: 1.4 !important;
+
+    color: #333 !important;
+
+    background: #fff !important;
+
+    border-top: 1px solid #eee !important;
+
+    white-space: normal !important;
+
+    word-break: break-word !important;
+  }
+
+
+  /* =======================================================
+     NO RESULTS
+     ======================================================= */
+
+  .search-container .no-results {
+    padding: 15px !important;
+
+    text-align: center !important;
+
+    font-size: 13px !important;
+
+    color: #777 !important;
+
+    background: #fff !important;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 400px) {
+
+  .search-container .suggestions-dropdown {
+    width: 300px !important;
+
+    max-width: calc(100vw - 16px) !important;
+  }
+
+  .search-container .suggestion-img {
+    width: 52px !important;
+
+    height: 52px !important;
+
+    min-width: 52px !important;
+
+    max-width: 52px !important;
+  }
+
+  .search-container .suggestion-name {
+    font-size: 13px !important;
+  }
+
+  .search-container .suggestion-meta {
+    font-size: 10px !important;
+  }
+
+  .search-container .suggestion-price {
+    font-size: 13px !important;
+  }
+
+}

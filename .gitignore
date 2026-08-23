@@ -57,3 +57,9 @@ backend/.env
 /src/app/core/data-backup-before-video-cloudinary/
 /.vscode_backup/
 /src/app/core/data/*.backup.ts
+
+# Local backend secrets and backups
+backend/.env
+backend/backup-*/
+backup-before-firebase-cleanup/
+firebase-debug-deploy.txt

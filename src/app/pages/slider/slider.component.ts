@@ -9,7 +9,7 @@ import {
 
 import { isPlatformBrowser } from '@angular/common';
 
-declare var bootstrap: any;
+declare var $: any;
 
 @Component({
   selector: 'app-slider',
@@ -20,8 +20,9 @@ export class SliderComponent implements AfterViewInit {
 
   @ViewChild('myCarousel') myCarousel!: ElementRef;
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) { }
-
+  constructor(
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) { }
 
   ngAfterViewInit(): void {
 
@@ -29,20 +30,24 @@ export class SliderComponent implements AfterViewInit {
       return;
     }
 
-    const element = this.myCarousel.nativeElement;
+    setTimeout(() => {
 
-    const existing = bootstrap.Carousel.getInstance(element);
-    if (existing) {
-      existing.dispose();
-    }
+      if (typeof $ === 'undefined') {
+        console.error('jQuery is not available.');
+        return;
+      }
 
-    const carousel = new bootstrap.Carousel(element, {
-      interval: 2000,
-      ride: 'carousel',
-      pause: 'hover',
-      wrap: true
-    });
+      const element = this.myCarousel.nativeElement;
 
-    carousel.cycle();
+      $(element).carousel({
+        interval: 2000,
+        pause: 'hover',
+        wrap: true
+      });
+
+      $(element).carousel('cycle');
+
+    }, 100);
+
   }
 }

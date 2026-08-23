@@ -137,3 +137,58 @@ a[data-toggle="collapse"]:not(.collapsed)>.lnr-arrow-right {
   text-decoration: line-through;
   font-size: 14px;
 }
+
+/* =========================================================
+   MOBILE PRODUCT GRID
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+  .category-list .row {
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+
+  .category-list .col-6 {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .single-product {
+    width: 100%;
+  }
+
+  .single-product img {
+    height: 160px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .single-product .product-details {
+    padding: 8px 4px;
+    gap: 4px;
+  }
+
+  .single-product .product-details h6 {
+    font-size: 13px;
+    line-height: 1.35;
+  }
+
+  .single-product .price {
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .selling-price {
+    font-size: 14px;
+  }
+
+  .old-price {
+    font-size: 12px;
+  }
+
+  .single-product .prd-bottom {
+    margin-top: 4px;
+  }
+
+}

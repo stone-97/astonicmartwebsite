@@ -802,7 +802,7 @@ const routes: Routes = [
 
   // levelingtools
   { path: "leveltools", component: LeveltoolsComponent },
-  { path: "dumpylevels", component: DumpinglevelsComponent },
+  { path: "dumpinglevels", component: DumpinglevelsComponent },
   { path: "laserlevels", component: LaserlevelsComponent },
   { path: "spiritlevels", component: SpiritlevelsComponent },
   { path: "surveytripods", component: SurveytripodsComponent },

@@ -1,4 +1,4 @@
-
+﻿
 
 /* .slider-img */
 
@@ -78,33 +78,132 @@
     background: rgba(0,0,0,0.3);
 }
 
-/* ===== MOBILE RESPONSIVE ===== */
+/* =========================================================
+   MOBILE HERO BANNERS
+   ========================================================= */
+
 @media (max-width: 991px) {
-    .hero-banner-wrapper {
-        flex-direction: column;   /* Stack video and image vertically */
-        height: auto;             /* Let height adjust automatically */
-        padding: 0 15px;          /* Slight padding on mobile */
-    }
 
-    .hero-col {
-        height: 300px;            /* Adjust height for mobile */
-        margin-bottom: 20px;      /* Space between video and image */
-    }
+  .hero-banner-wrapper {
+    flex-direction: column !important;
+    height: auto !important;
+    width: 100% !important;
 
-    .hero-col:last-child {
-        margin-bottom: 0;
-    }
+    padding: 0 15px !important;
+    margin: 0 auto !important;
 
-    .hero-col video,
-    .hero-col img {
-        height: 100%;             /* Fill the column height */
-    }
+    box-sizing: border-box !important;
+  }
 
-    .banner-overlay {
-        padding: 20px;
-    }
+  /* Each banner */
+  .hero-col {
+    position: relative !important;
+
+    width: 100% !important;
+    height: 300px !important;
+
+    margin: 0 !important;
+  }
+
+  /* Small space between the two banners */
+  .hero-col:first-child {
+    margin-bottom: 10px !important;
+  }
+
+  .hero-col:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  /* Video */
+  .hero-col video {
+    display: block !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    object-fit: cover !important;
+  }
+
+  /* Astonic Mart image */
+  .hero-col img {
+    display: block !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    object-fit: contain !important;
+  }
+
+  /* =====================================================
+     TOP-GRADE TEXT OVERLAY
+     ===================================================== */
+
+  .banner-overlay {
+    position: absolute !important;
+
+    top: 0 !important;
+    left: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    box-sizing: border-box !important;
+
+    padding: 28px 20px 20px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    /*
+     * IMPORTANT:
+     * Do NOT center the content vertically.
+     * This was causing "Top-Grade" to be cut off.
+     */
+    justify-content: flex-start !important;
+
+    align-items: flex-start !important;
+
+    background: rgba(0, 0, 0, 0.30) !important;
+
+    z-index: 2 !important;
+  }
+
+  .banner-overlay h1 {
+    margin: 0 0 12px 0 !important;
+
+    font-size: 30px !important;
+    line-height: 1.15 !important;
+
+    font-weight: 800 !important;
+
+    color: white !important;
+  }
+
+  .banner-overlay p {
+    margin: 0 0 18px 0 !important;
+
+    max-width: 95% !important;
+
+    font-size: 14px !important;
+    line-height: 1.45 !important;
+
+    color: white !important;
+  }
+
+  /* Shop Now */
+  .banner-overlay .add-bag-link {
+    margin-top: 5px !important;
+
+    display: inline-flex !important;
+
+    align-items: center !important;
+
+    position: relative !important;
+
+    z-index: 10 !important;
+  }
+
 }
-
 
 /* banner ends */
 
@@ -185,22 +284,23 @@
 .carousel2-track {
   display: flex;
   gap: 20px;
-  animation: carousel2-scroll var(--speed, 20s) linear infinite;
+
+  width: max-content;
+
+  animation: carousel2-scroll 35s linear infinite;
 }
 
-/* Default speed */
-.carousel2-container {
-  --speed: 70s;
-}
 
-/* ✅ Slow down on hover */
-.carousel2-container:hover {
-  --speed: 100s; /* slower movement instead of instant stop */
-}
+
 
 @keyframes carousel2-scroll {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-5980px);
+  }
 }
 
 .carousel2-card {
@@ -622,16 +722,22 @@
   }
 }
 
-
 .top-brands-label {
-  top: -50px; /* adjust to bring it just above logos */
+  position: absolute;
+
+top: -25px;
   left: 0;
+
   background: linear-gradient(90deg, navy, #FFD700);
+
   padding: 5px 15px;
+
   color: white;
   font-weight: bold;
+
   border-radius: 4px;
-  margin-left: 10px;
+
+  margin-left: 0;
 }
 
 
@@ -1813,4 +1919,544 @@ box-shadow:
     }
 
 }
+/* =========================================================
+   MOBILE STATS SECTION
+   ========================================================= */
 
+@media (max-width: 991px) {
+
+  .stats-section {
+    margin-top: 15px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .stats-section .container-fluid {
+    padding-left: 34px !important;
+    padding-right: 34px !important;
+  }
+
+  .stats-section .row {
+    row-gap: 18px !important;
+    column-gap: 0 !important;
+  }
+
+  .stats-section .stat-box {
+    min-height: 0 !important;
+    height: 175px !important;
+    padding: 20px 10px !important;
+    margin: 0 !important;
+  }
+
+}
+
+
+/* =========================================================
+   SHOP NOW / CART BUTTON
+   ========================================================= */
+
+.add-bag {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 14px !important;
+}
+
+.add-bag .add-btn {
+  flex-shrink: 0 !important;
+
+  width: 55px !important;
+  height: 55px !important;
+
+  line-height: normal !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  padding: 0 !important;
+}
+
+.add-bag .add-btn .lnr-cart {
+  transform: none !important;
+  display: inline-block !important;
+
+  color: #fff !important;
+}
+
+.add-bag .add-text {
+  display: flex !important;
+  align-items: center !important;
+
+  height: 38px !important;
+
+  padding: 8px 16px !important;
+
+  box-sizing: border-box !important;
+
+  white-space: nowrap !important;
+}
+
+/* =========================================================
+   MOBILE SHOP NOW POSITION
+   ========================================================= */
+
+@media (max-width: 576px) {
+
+  .banner-overlay .add-bag {
+    margin-top: -18px !important;
+    margin-left: 5px !important;
+
+    gap: 10px !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+
+    transform: none !important;
+  }
+
+  .banner-overlay .add-bag .add-btn {
+    width: 50px !important;
+    height: 50px !important;
+
+    flex-shrink: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .banner-overlay .add-bag .add-text {
+    height: 36px !important;
+
+    padding: 7px 14px !important;
+
+    font-size: 13px !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    white-space: nowrap !important;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE FEATURES
+   ========================================================= */
+
+@media (max-width: 576px) {
+
+  /* Space between banner and features */
+  .features-area {
+    width: calc(100% - 42px) !important;
+    margin: 20px auto 0 !important;
+
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+  }
+
+  /* Remove container spacing */
+  .features-area .container {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* 2 x 2 feature layout */
+  .features-inner {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+
+    width: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: #041e38 !important;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  /* Four feature boxes */
+  .features-inner>div {
+    width: 100% !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .single-features {
+    width: 100% !important;
+
+    min-height: 150px !important;
+    height: 150px !important;
+
+    padding: 18px 8px !important;
+    margin: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    text-align: center !important;
+    box-sizing: border-box !important;
+
+    background: transparent !important;
+
+    /* Demarcating lines */
+    border-right: 1px solid rgba(255, 255, 255, 0.35) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35) !important;
+  }
+
+  /* No vertical line after right column */
+  .features-inner>div:nth-child(2) .single-features,
+  .features-inner>div:nth-child(4) .single-features {
+    border-right: none !important;
+  }
+
+  /* No horizontal line below bottom row */
+  .features-inner>div:nth-child(3) .single-features,
+  .features-inner>div:nth-child(4) .single-features {
+    border-bottom: none !important;
+  }
+
+  /* Icons */
+  .single-features .f-icon {
+    margin-bottom: 8px !important;
+  }
+
+  .single-features .f-icon svg {
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  /* Headings */
+  .single-features .Delivery {
+    margin: 4px 0 !important;
+
+    font-size: 17px !important;
+    line-height: 1.3 !important;
+  }
+
+  /* Descriptions */
+  .single-features .hover-text {
+    margin: 0 !important;
+
+    font-size: 14px !important;
+    line-height: 1.35 !important;
+  }
+
+}
+
+/* =========================================================
+   TOP SELLERS + CAROUSEL - MOBILE
+   ========================================================= */
+
+@media (max-width: 576px) {
+
+  /* TOP SELLERS SECTION */
+  .brand-logos {
+    display: block !important;
+
+    width: 100% !important;
+    margin: 0 !important;
+  padding: 15px 0 0 !important;
+
+    position: relative !important;
+    box-sizing: border-box !important;
+  }
+
+
+  /* TOP SELLERS LABEL */
+  .top-brands-label {
+    position: relative !important;
+
+    display: block !important;
+
+    top: auto !important;
+    left: auto !important;
+
+    width: fit-content !important;
+
+    margin: 0 0 18px 14px !important;
+
+    padding: 7px 18px !important;
+
+    z-index: 5 !important;
+  }
+
+  .top-brands-label h5 {
+    margin: 0 !important;
+
+    font-size: 18px !important;
+    line-height: 1.3 !important;
+  }
+
+
+  /* CAROUSEL CONTAINER */
+  .carousel2-container {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    overflow: hidden !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+
+  /* CAROUSEL TRACK */
+.carousel2-track {
+  display: flex !important;
+
+  gap: 12px !important;
+
+  width: max-content !important;
+
+  animation-name: carousel2-scroll-mobile !important;
+  animation-duration: 25s !important;
+  animation-timing-function: linear !important;
+  animation-iteration-count: infinite !important;
+}
+
+@keyframes carousel2-scroll-mobile {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-3428px);
+  }
+}
+
+
+  /* SMALLER MOBILE PRODUCT CARDS */
+.carousel2-card {
+  flex: 0 0 160px !important;
+
+  width: 160px !important;
+  min-width: 160px !important;
+  max-width: 160px !important;
+
+  padding: 8px !important;
+
+  border-radius: 12px !important;
+
+  box-sizing: border-box !important;
+}
+
+}
+
+
+/* =========================================================
+   SLOW DOWN TOP SELLERS ON HOVER
+   ========================================================= */
+
+/* Desktop */
+.carousel2-container:hover .carousel2-track {
+  animation-duration: 70s !important;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .carousel2-container:hover .carousel2-track {
+    animation-duration: 55s !important; 
+  }
+
+    /* MOBILE FULL WIDTH BANNER */
+    .banner-section {
+      width: 100% !important;
+      height: 120px !important;
+      margin: 0 !important;
+      padding: 0 12px !important;
+  
+      box-sizing: border-box !important;
+      overflow: hidden !important;
+    }
+  
+    .banner-section h1 {
+      width: 100% !important;
+  
+      margin: 0 !important;
+      padding: 0 !important;
+  
+      font-size: 24px !important;
+      line-height: 1.15 !important;
+  
+      text-align: center !important;
+  
+      overflow-wrap: break-word !important;
+    }
+}
+
+/* =========================================================
+   EXCLUSIVE DEAL - MOBILE TIMER ONLY
+   ========================================================= */
+ 
+
+@media (max-width: 576px) {
+
+  /* Smaller Exclusive Hot Deal heading */
+  .exclusive-deal-area .exclusive-left .deal-text h1 {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 0 auto 10px !important;
+
+    font-size: 27px !important;
+    line-height: 1.12 !important;
+
+    text-align: center !important;
+  }
+
+
+  /* Slightly smaller description */
+  .exclusive-deal-area .exclusive-left .deal-text p {
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+
+    margin: 0 auto !important;
+  }
+
+
+  /* Smaller countdown box */
+  .exclusive-deal-area .exclusive-left .clock-wrap {
+    width: 72% !important;
+    max-width: 275px !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+    gap: 0 !important;
+
+    padding: 4px !important;
+
+    margin: 14px auto !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* Countdown cells */
+  .exclusive-deal-area .exclusive-left .clockinner {
+    width: 100% !important;
+    min-width: 0 !important;
+
+    margin: 0 !important;
+
+    padding: 7px 3px !important;
+
+    box-sizing: border-box !important;
+
+    text-align: center !important;
+
+    border-right: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+  }
+
+
+  /* Vertical divider */
+  .exclusive-deal-area .exclusive-left .clockinner:nth-child(odd) {
+    border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+  }
+
+
+  /* Remove bottom line from last row */
+  .exclusive-deal-area .exclusive-left .clockinner:nth-child(3),
+  .exclusive-deal-area .exclusive-left .clockinner:nth-child(4) {
+    border-bottom: none !important;
+  }
+
+
+  /* Smaller countdown numbers */
+  .exclusive-deal-area .exclusive-left .clockinner h1 {
+    font-size: 27px !important;
+    line-height: 1 !important;
+
+    margin: 0 0 3px !important;
+  }
+
+
+  /* Smaller Days / Hours / Mins / Secs */
+  .exclusive-deal-area .exclusive-left .clockinner .smalltext {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+  }
+
+
+  /* Keep boot visible */
+  .exclusive-deal-area .exclusive-left {
+    background-size: 125% auto !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+  }
+
+}
+
+/* =========================================================
+   TOP BRANDS - MOBILE
+   ========================================================= */
+
+@media (max-width: 576px) {
+
+  .logo-container {
+    width: 100% !important;
+    height: 90px !important;
+
+    overflow: hidden !important;
+
+    position: relative !important;
+  }
+
+  .logo-track {
+    display: flex !important;
+
+    align-items: center !important;
+
+    gap: 25px !important;
+
+    width: max-content !important;
+
+    animation: mobile-logo-scroll 25s linear infinite !important;
+  }
+
+  .logo-track a {
+    flex: 0 0 auto !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .logo-track img {
+    width: 90px !important;
+    height: 65px !important;
+
+    max-width: none !important;
+    max-height: none !important;
+
+    object-fit: contain !important;
+
+    flex-shrink: 0 !important;
+  }
+
+  @keyframes mobile-logo-scroll {
+
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+
+  }
+
+}

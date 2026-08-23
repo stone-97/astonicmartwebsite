@@ -1447,7 +1447,7 @@ Durable metal probe
     {
         id: 13030,
         name: 'PRO GOL 32 D Optical Level',
-        category: 'dumpy-levels',
+        category: 'dumping-levels',
         group: 'Measuring And Testing',
         parentCategory: 'leveling tools',
         brand: 'Bosch',

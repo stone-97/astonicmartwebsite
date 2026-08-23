@@ -3236,10 +3236,10 @@ Items Included in the Package:
                                     discountPrice: 170000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329852/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpg-2.webp-4.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329852/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpg-2.webp',
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329854/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpeg-2.webp-4.webp',
                                             'https://res.cloudinary.com/taus5tit/image/upload/v1786329852/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329852/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpg-3.webp',
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329852/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpeg-2.webp',
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329857/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpeg-3.webp',
 
                                         ],
 
