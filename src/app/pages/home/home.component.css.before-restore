@@ -231,7 +231,7 @@
     transition: 0.3s ease-in-out;
 }
 
-/* Hover → text becomes white */
+/* Hover â†’ text becomes white */
 .single-features:hover h6 {
     color: #ffffff; 
 }
@@ -448,7 +448,6 @@
   line-height: 1.4;
 
   min-height: 42px;
-}
 /* price row */
 .carousel2-price {
   display: flex;
@@ -510,28 +509,6 @@
 
 /* logo movement */
 
-.logo-container {
-  width: 100%;
-  overflow: hidden;
-  padding: 20px 0;
- 
-}
-
-.logo-track {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  animation: bounce 20s ease-in-out infinite;
-}
-
-.logo-track img {
-  width: 200px;   /* set equal size */
-  height: 140px;
-  object-fit: contain;
-}
-
-/* Bounce: show first logos → slide until last logos → bounce back */
-@keyframes bounce {
   0%   { transform: translateX(0); }        /* show first logo */
   50%  { transform: translateX(-100%); }    /* slide until last logo shows */
   100% { transform: translateX(0); }        /* bounce back to start */
@@ -554,7 +531,7 @@
   width: 100%;
   max-width: 380px;
   margin: auto;
-  padding: 20px;         /* ← use ONE padding value */
+  padding: 20px;         /* â† use ONE padding value */
 }
 
 
@@ -644,7 +621,7 @@
 
 /* Watermark scrolling */
 .banner-overlay:before {
-  content: "ASTONIC MART • ASTONIC MART • ASTONIC MART • ASTONIC MART • ASTONIC MART • ASTONIC MART • ";
+  content: "ASTONIC MART â€¢ ASTONIC MART â€¢ ASTONIC MART â€¢ ASTONIC MART â€¢ ASTONIC MART â€¢ ASTONIC MART â€¢ ";
   position: absolute;
   top: 30%;
   left: 0;
@@ -664,7 +641,7 @@
 
 /* Background sketch icons */
 .banner-overlay:after {
-  content: "⚙ 🛡 🦺 🔧";
+  content: "âš™ ðŸ›¡ ðŸ¦º ðŸ”§";
   position: absolute;
   top: 0;
   left: 0;
@@ -694,7 +671,9 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  height: 100px;
+  height: 120px;
+  padding-top: 20px;
+  box-sizing: border-box;
 }
 
 /* Track: flex row with duplicated logos */
@@ -712,7 +691,7 @@
   object-fit: contain;
 }
 
-/* Ping-Pong Animation: move left → right and back */
+/* Ping-Pong Animation: move left â†’ right and back */
 @keyframes pingpong {
   0% {
     transform: translateX(0); /* start at beginning */
@@ -724,8 +703,7 @@
 
 .top-brands-label {
   position: absolute;
-
-top: -25px;
+  top: 0;
   left: 0;
 
   background: linear-gradient(90deg, navy, #FFD700);
@@ -738,6 +716,8 @@ top: -25px;
   border-radius: 4px;
 
   margin-left: 0;
+
+  z-index: 10;
 }
 
 
@@ -1025,7 +1005,7 @@ top: -25px;
 
 /* one clean arrow only */
 ::ng-deep .custom-exclusive-slider .owl-prev::before {
-  content: "❮";
+  content: "â®";
   position: absolute;
   inset: 0;
   display: flex;
@@ -1037,7 +1017,7 @@ top: -25px;
 }
 
 ::ng-deep .custom-exclusive-slider .owl-next::before {
-  content: "❯";
+  content: "â¯";
   position: absolute;
   inset: 0;
   display: flex;
@@ -1575,7 +1555,6 @@ box-shadow:
   padding: 24px 20px;
 
   border-radius: 18px;
-
   margin-top: 25px;
     margin-bottom: 25px;
 
@@ -1584,58 +1563,6 @@ box-shadow:
   box-shadow:
     0 10px 30px rgba(0, 0, 0, 0.18);
 }
-
-
-
-.smalltext {
-  color: #ccc;
-  font-size: 14px;
-}
-
-@media (max-width: 768px) {
-
-  .deal-text {
-    margin-top: 20px;
-  }
-
-  .deal-text h1 {
-    font-size: 36px !important;
-    line-height: 1.1 !important;
-    margin-bottom: 16px;
-  }
-
-  .deal-text p {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-
-  .clock-wrap {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    padding: 18px 12px;
-  }
-
-  .clockinner {
-    min-width: 45%;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  .clockinner h1 {
-    font-size: 38px;
-  }
-
-}
-
-
-/* product details */
-.product-details {
-  padding-top: 25px;
-
-  text-align: center;
-}
-
 /* price row */
 .product-details .price {
   display: flex;
@@ -1817,7 +1744,7 @@ box-shadow:
 }
 
 /* MOBILE */
-@media (max-width: 991px) {
+@media (min-width: 577px) and (max-width: 991px) {
 
   .exclusive-left {
     min-height: auto;
@@ -2296,109 +2223,7 @@ box-shadow:
     }
 }
 
-/* =========================================================
-   EXCLUSIVE DEAL - MOBILE TIMER ONLY
-   ========================================================= */
- 
 
-@media (max-width: 576px) {
-
-  /* Smaller Exclusive Hot Deal heading */
-  .exclusive-deal-area .exclusive-left .deal-text h1 {
-    width: 100% !important;
-    max-width: 100% !important;
-
-    margin: 0 auto 10px !important;
-
-    font-size: 27px !important;
-    line-height: 1.12 !important;
-
-    text-align: center !important;
-  }
-
-
-  /* Slightly smaller description */
-  .exclusive-deal-area .exclusive-left .deal-text p {
-    font-size: 13px !important;
-    line-height: 1.4 !important;
-
-    margin: 0 auto !important;
-  }
-
-
-  /* Smaller countdown box */
-  .exclusive-deal-area .exclusive-left .clock-wrap {
-    width: 72% !important;
-    max-width: 275px !important;
-
-    display: grid !important;
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-
-    gap: 0 !important;
-
-    padding: 4px !important;
-
-    margin: 14px auto !important;
-
-    box-sizing: border-box !important;
-  }
-
-
-  /* Countdown cells */
-  .exclusive-deal-area .exclusive-left .clockinner {
-    width: 100% !important;
-    min-width: 0 !important;
-
-    margin: 0 !important;
-
-    padding: 7px 3px !important;
-
-    box-sizing: border-box !important;
-
-    text-align: center !important;
-
-    border-right: none !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
-  }
-
-
-  /* Vertical divider */
-  .exclusive-deal-area .exclusive-left .clockinner:nth-child(odd) {
-    border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
-  }
-
-
-  /* Remove bottom line from last row */
-  .exclusive-deal-area .exclusive-left .clockinner:nth-child(3),
-  .exclusive-deal-area .exclusive-left .clockinner:nth-child(4) {
-    border-bottom: none !important;
-  }
-
-
-  /* Smaller countdown numbers */
-  .exclusive-deal-area .exclusive-left .clockinner h1 {
-    font-size: 27px !important;
-    line-height: 1 !important;
-
-    margin: 0 0 3px !important;
-  }
-
-
-  /* Smaller Days / Hours / Mins / Secs */
-  .exclusive-deal-area .exclusive-left .clockinner .smalltext {
-    font-size: 10px !important;
-    line-height: 1.2 !important;
-  }
-
-
-  /* Keep boot visible */
-  .exclusive-deal-area .exclusive-left {
-    background-size: 125% auto !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-  }
-
-}
 
 /* =========================================================
    TOP BRANDS - MOBILE
@@ -2409,17 +2234,13 @@ box-shadow:
   .logo-container {
     width: 100% !important;
     height: 90px !important;
-
     overflow: hidden !important;
-
     position: relative !important;
   }
 
   .logo-track {
     display: flex !important;
-
     align-items: center !important;
-
     gap: 25px !important;
 
     width: max-content !important;
@@ -2429,7 +2250,6 @@ box-shadow:
 
   .logo-track a {
     flex: 0 0 auto !important;
-
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -2439,11 +2259,9 @@ box-shadow:
     width: 90px !important;
     height: 65px !important;
 
-    max-width: none !important;
     max-height: none !important;
 
     object-fit: contain !important;
-
     flex-shrink: 0 !important;
   }
 
@@ -2460,3 +2278,264 @@ box-shadow:
   }
 
 }
+
+/* =========================================================
+   EXCLUSIVE HOT DEAL - MOBILE
+   ========================================================= */
+
+@media (max-width: 576px) {
+
+  /* =======================================================
+     LEFT SIDE - DEAL CONTENT
+     ======================================================= */
+
+  .exclusive-left {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: auto !important;
+
+    padding: 35px 15px 40px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  /* Heading + description */
+  .deal-text {
+    width: 100% !important;
+
+    margin: 0 0 20px !important;
+
+    position: relative !important;
+    z-index: 3 !important;
+
+    text-align: center !important;
+  }
+
+  .deal-text h1 {
+    margin: 0 0 14px !important;
+
+    font-size: 25px !important;
+    line-height: 1.15 !important;
+
+    max-width: 100% !important;
+
+    text-align: center !important;
+  }
+
+  .deal-text p {
+    margin: 0 auto !important;
+
+    max-width: 320px !important;
+
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+
+    text-align: center !important;
+  }
+
+/* =======================================================
+   MOBILE COUNTDOWN - COMPACT
+   ======================================================= */
+
+.clock-wrap {
+  width: 95% !important;
+  max-width: 310px !important;
+
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+
+  padding: 6px !important;
+  margin: 0 auto !important;
+
+  box-sizing: border-box !important;
+}
+
+.clockinner {
+  width: 100% !important;
+  min-width: 0 !important;
+
+  padding: 8px 6px !important;
+  margin: 0 !important;
+
+  text-align: center !important;
+
+  box-sizing: border-box !important;
+
+  border-right: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.clockinner:nth-child(odd) {
+  border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.clockinner:nth-child(3),
+.clockinner:nth-child(4) {
+  border-bottom: none !important;
+}
+
+.clockinner h1 {
+  margin: 0 0 4px !important;
+
+  font-size: 32px !important;
+  line-height: 1 !important;
+}
+
+.clockinner .smalltext {
+  font-size: 12px !important;
+  line-height: 1.2 !important;
+}
+  /* =======================================================
+     LEFT SIDE - SHOP NOW
+     ======================================================= */
+
+  .exclusive-left .primary-btn {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin-top: 25px !important;
+
+    min-height: 56px !important;
+
+    padding: 0 20px !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =======================================================
+     FORCE THE TWO EXCLUSIVE COLUMNS TO STACK
+     ======================================================= */
+
+  .exclusive-deal-area .row {
+    display: flex !important;
+    flex-direction: column !important;
+
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .exclusive-deal-area .row>.exclusive-left,
+  .exclusive-deal-area .row>.exclusive-right {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    flex: 0 0 100% !important;
+    float: none !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =======================================================
+     RIGHT SIDE - PRODUCT AREA
+     ======================================================= */
+
+  .exclusive-deal-area .row>.exclusive-right {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 0 !important;
+    padding: 25px 15px 40px !important;
+
+    min-height: auto !important;
+
+    text-align: center !important;
+
+    overflow: visible !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .exclusive-deal-area .row>.exclusive-right .active-exclusive-product-slider {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    visibility: visible !important;
+    box-sizing: border-box !important;
+  }
+
+  .exclusive-deal-area .row>.exclusive-right .single-exclusive-slider {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    min-height: auto !important;
+
+    margin: 0 !important;
+    padding: 20px 15px !important;
+
+    visibility: visible !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* =======================================================
+     PRODUCT IMAGE
+     ======================================================= */
+
+  .exclusive-deal-area .row>.exclusive-right .single-exclusive-slider .product-image {
+    width: 100% !important;
+    height: 280px !important;
+
+    margin: 0 0 15px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+  }
+
+  .exclusive-deal-area .row>.exclusive-right .single-exclusive-slider .product-image img {
+    display: block !important;
+
+    width: auto !important;
+    max-width: 100% !important;
+
+    height: 250px !important;
+
+    margin: 0 auto !important;
+
+    object-fit: contain !important;
+  }
+
+
+  /* =======================================================
+     PRODUCT DETAILS
+     ======================================================= */
+
+  .exclusive-deal-area .row>.exclusive-right .single-exclusive-slider .product-details {
+    width: 100% !important;
+
+    padding-top: 15px !important;
+
+    text-align: center !important;
+  }
+
+    .exclusive-deal-area .exclusive-left {
+      background-size: 125% auto !important;
+      background-position: center bottom !important;
+      background-repeat: no-repeat !important;
+    }
+}
+

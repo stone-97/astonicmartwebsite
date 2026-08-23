@@ -13,10 +13,12 @@ export const POWER_TOOL_PRODUCTS: Product[] = [
     price: 370000,
     discountPrice: 330000,
     images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786430699/Astonic-Mart/Products/final-local-images/TOTAL_8_inch_20V_Mitre_Saw_-_2_x_4Ah_Batteries_-_Charger_Total_TMSLI20212_r5yogj.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786430700/Astonic-Mart/Products/final-local-images/TOTAL_8_inch_20V_Mitre_Saw_-_2_x_4Ah_Batteries_-_Charger_Total_TMSLI20212-2_b8kxhl.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786430701/Astonic-Mart/Products/final-local-images/TOTAL_8_inch_20V_Mitre_Saw_-_2_x_4Ah_Batteries_-_Charger_Total_TMSLI20212-3_xifo7y.jpg'
-        ],
+        'assets/img/combo kits/Total 3-in-1 Combo Kit TOSLI241198.jpg',
+        'assets/img/combo kits/Total 3-in-1 Combo Kit TOSLI241198-2.jpg',
+        'assets/img/combo kits/Total 3-in-1 Combo Kit TOSLI241198-3.webp',
+        'assets/img/combo kits/Total 3-in-1 Combo Kit TOSLI241198-4.webp'
+
+    ],
     jumiaLink: 'https://www.jumia.com.ng/total-3-in-1-cordless-combo-kit-tosli241198-419288503.html',
     kongaLink: '',
 
@@ -79,11 +81,11 @@ export const POWER_TOOL_PRODUCTS: Product[] = [
                         price: 188000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786308007/Astonic-Mart/Products/ingco%20combi%20kits/inco_combo_kits-_impact_wrench_and_torch.webp2.webp',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305550/Astonic-Mart/Products/combo%20kits/INGCO_Cordless_Impact_Wrench_Combo_Kit_COSLI23011.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305550/Astonic-Mart/Products/combo%20kits/INGCO_Cordless_Impact_Wrench_Combo_Kit_COSLI23011-2.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305551/Astonic-Mart/Products/combo%20kits/INGCO_Cordless_Impact_Wrench_Combo_Kit_COSLI23011-3.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305552/Astonic-Mart/Products/combo%20kits/INGCO_Cordless_Impact_Wrench_Combo_Kit_COSLI23011-4.jpg'
+                                'assets/img/ingco combi kits/inco combo kits- impact wrench and torch.webp2.webp',
+                                'assets/img/combo kits/INGCO Cordless Impact Wrench Combo Kit COSLI23011.jpg',
+                                'assets/img/combo kits/INGCO Cordless Impact Wrench Combo Kit COSLI23011-2.jpeg',
+                                'assets/img/combo kits/INGCO Cordless Impact Wrench Combo Kit COSLI23011-3.jpg',
+                                'assets/img/combo kits/INGCO Cordless Impact Wrench Combo Kit COSLI23011-4.jpg'
                             ],
 
                                 inStock: true,
@@ -145,7 +147,7 @@ export const POWER_TOOL_PRODUCTS: Product[] = [
                         price: 320000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786332781/Astonic-Mart/Products/combo.jpg'
+                                'assets/img/combo.jpg'
                             ],
 
                                 inStock: false,
@@ -212,7 +214,7 @@ export const POWER_TOOL_PRODUCTS: Product[] = [
                         price: 7500,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307338/Astonic-Mart/Products/glue%20guns/ingco_glue_guns.jpg'
+                                'assets/img/glue guns/ingco glue guns.jpg'
                             ],
 
                                 inStock: true,
@@ -257,9 +259,9 @@ export const POWER_TOOL_PRODUCTS: Product[] = [
                         price: 550000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309717/Astonic-Mart/Products/planers/ingco-1500w-thickness-planer.webp',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309700/Astonic-Mart/Products/planers/ingco_1500w_thickness_planer.webp2.webp',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309703/Astonic-Mart/Products/planers/ingco_1500w_thickness_planer.webp3.webp'
+                                'assets/img/planers/ingco-1500w-thickness-planer.webp',
+                                'assets/img/planers/ingco 1500w thickness planer.webp2.webp',
+                                'assets/img/planers/ingco 1500w thickness planer.webp3.webp'
 
                             ],
 
@@ -314,10 +316,10 @@ Items Included in the Package:
                         price: 89000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786310642/Astonic-Mart/Products/ppr/total_ppr_machine.jpg2.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786310642/Astonic-Mart/Products/ppr/total_ppr_machine.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786310649/Astonic-Mart/Products/ppr/total_ppr_machine-4.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786310642/Astonic-Mart/Products/ppr/total_ppr_machine.jpg3.jpg'
+                                'assets/img/ppr/total ppr machine.jpg2.jpg',
+                                'assets/img/ppr/total ppr machine.jpg',
+                                'assets/img/ppr/total ppr machine-4.jpg',
+                                'assets/img/ppr/total ppr machine.jpg3.jpg'
                             ],
 
                                 inStock: true,
@@ -374,10 +376,10 @@ Items Included in the Package:
                         price: 135000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786328606/Astonic-Mart/Products/routers/total-1600w-router.webp',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786328599/Astonic-Mart/Products/routers/TOTAL_ELECTRIC_ROUTER_1.600W_TR111216.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786328602/Astonic-Mart/Products/routers/TOTAL_ELECTRIC_ROUTER_1.600W_TR111216-3.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786328603/Astonic-Mart/Products/routers/TOTAL_ELECTRIC_ROUTER_1.600W_TR111216-2.jpg'
+                                'assets/img/routers/total-1600w-router.webp',
+                                'assets/img/routers/TOTAL ELECTRIC ROUTER 1.600W (TR111216).jpg',
+                                'assets/img/routers/TOTAL ELECTRIC ROUTER 1.600W (TR111216)-3.jpg',
+                                'assets/img/routers/TOTAL ELECTRIC ROUTER 1.600W (TR111216)-2.jpg'
 
 
                             ],
@@ -434,10 +436,10 @@ Items Included in the Package:
                             ],
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328938/Astonic-Mart/Products/sanders/ingco_1050w_dry_wall_sanders.jpg2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328938/Astonic-Mart/Products/sanders/ingco_1050w_dry_wall_sanders.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328938/Astonic-Mart/Products/sanders/ingco_1050w_dry_wall_sanders.jpg3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328938/Astonic-Mart/Products/sanders/ingco_1050w_dry_wall_sanders.jpg4.jpg'
+                                    'assets/img/sanders/ingco 1050w dry wall sanders.jpg2.jpg',
+                                    'assets/img/sanders/ingco 1050w dry wall sanders.jpg',
+                                    'assets/img/sanders/ingco 1050w dry wall sanders.jpg3.jpg',
+                                    'assets/img/sanders/ingco 1050w dry wall sanders.jpg4.jpg'
                                 ],
 
                                     description: `The Ingco 1050W Drywall Sander is a professional power tool designed for sanding drywall surfaces, plaster walls, ceilings, and painted surfaces to achieve a smooth and even finish. Powered by a strong 1050W motor, the machine delivers consistent sanding performance, making it suitable for construction sites, renovation work, and interior finishing projects. The long reach design allows users to comfortably sand high walls and ceilings while maintaining good control during operation. Its efficient dust extraction system helps reduce dust in the working environment, keeping the workspace cleaner and improving visibility during sanding tasks. Built with durable materials and an ergonomic handle design, the Ingco drywall sander provides reliable performance for painters, contractors, and professional builders.
@@ -485,7 +487,7 @@ Items Included in the Package:
                         price: 450000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786306411/Astonic-Mart/Products/edge%20binding%20machine/edge_binding_machine.jpg'
+                                'assets/img/edge binding machine/edge binding machine.jpg'
                             ],
 
                                 description: `The Workflex Edge Binding Machine is a professional woodworking machine designed for applying edge banding to plywood, MDF, particle board, and other furniture panels. It is widely used in carpentry workshops, furniture manufacturing, and interior design projects to give wooden boards a smooth and finished edge. The machine heats adhesive and firmly bonds edge banding tape to board edges, improving durability and giving furniture a clean, professional appearance. Its efficient heating system ensures consistent glue melting for strong bonding, while the ergonomic design allows easy operation and precise edge application. Built with durable components, the Workflex edge binding machine provides reliable performance for cabinet makers, carpenters, and furniture manufacturers.
@@ -532,10 +534,10 @@ Items Included in the Package:
                         price: 210000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786330358/Astonic-Mart/Products/wall%20chasers/ingco_wall_chasers_3000w.jpg2.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786330358/Astonic-Mart/Products/wall%20chasers/ingco_wall_chasers_3000w.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786330358/Astonic-Mart/Products/wall%20chasers/ingco_wall_chasers_3000w.jpg-4.jpeg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786330358/Astonic-Mart/Products/wall%20chasers/ingco_wall_chasers_3000w.jpg-3.jpeg'
+                                'assets/img/wall chasers/ingco wall chasers 3000w.jpg2.jpg',
+                                'assets/img/wall chasers/ingco wall chasers 3000w.jpg',
+                                'assets/img/wall chasers/ingco wall chasers 3000w.jpg-4.jpeg',
+                                'assets/img/wall chasers/ingco wall chasers 3000w.jpg-3.jpeg'
                             ],
 
                                 description: `The Ingco Wall Chaser Power Tool 3000W WLC30001 is a high-performance cutting machine designed for creating precise grooves in walls for electrical wiring, water pipes, and cable installations. Powered by a powerful 3000W motor, the machine delivers strong cutting performance suitable for concrete, brick, and plaster walls. It is widely used by electricians, plumbers, and construction professionals during building installations and renovation projects. The adjustable cutting depth and width allow users to create accurate channels for different installation requirements. Equipped with a dust extraction system, the wall chaser helps reduce dust during operation, improving visibility and maintaining a cleaner work environment. Built with durable materials and ergonomic handles, the Ingco wall chaser provides stability, safety, and reliable performance on demanding construction tasks.
@@ -589,11 +591,11 @@ Items Included in the Package:
                                 power: '400W',
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304370/Astonic-Mart/Products/blowers/ingco_Aspirator_blower_400w_AB4018.jpg-3.jpeg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304373/Astonic-Mart/Products/blowers/ingco_Aspirator_blower_AB4018.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304370/Astonic-Mart/Products/blowers/ingco_Aspirator_blower_400w_AB4018.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304346/Astonic-Mart/Products/blowers/Aspirator_Blower-INGCO_400w.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304370/Astonic-Mart/Products/blowers/ingco_Aspirator_blower_400w_AB4018.jpg-4.jpeg'
+                                        'assets/img/blowers/ingco Aspirator blower 400w AB4018.jpg-3.jpeg',
+                                        'assets/img/blowers/ingco Aspirator blower AB4018.jpg',
+                                        'assets/img/blowers/ingco Aspirator blower 400w AB4018.jpg',
+                                        'assets/img/blowers/Aspirator Blower-INGCO 400w.jpg',
+                                        'assets/img/blowers/ingco Aspirator blower 400w AB4018.jpg-4.jpeg'
                                     ],
 
                                         inStock: true,
@@ -646,10 +648,10 @@ Suitable for both professional tradesmen and DIY users, the AB4028 offers reliab
                                 power: '800W',
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304393/Astonic-Mart/Products/blowers/TOTAL_800W_Electric_Blower_TB2086.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304395/Astonic-Mart/Products/blowers/TOTAL_800W_Electric_Blower_TB2086-5.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304394/Astonic-Mart/Products/blowers/TOTAL_800W_Electric_Blower_TB2086-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304394/Astonic-Mart/Products/blowers/TOTAL_800W_Electric_Blower_TB2086-3.jpg'
+                                        'assets/img/blowers/TOTAL 800W Electric Blower (TB2086).jpg',
+                                        'assets/img/blowers/TOTAL 800W Electric Blower (TB2086)-5.jpg',
+                                        'assets/img/blowers/TOTAL 800W Electric Blower (TB2086)-4.jpg',
+                                        'assets/img/blowers/TOTAL 800W Electric Blower (TB2086)-3.jpg'
                                     ],
 
                                         inStock: true,
@@ -712,10 +714,10 @@ The TB2086 comes complete with a dust bag, flexible tube, and suction nozzles, m
                             price: 65000,
                                 inStock: true,
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323958/Astonic-Mart/Products/drills/ingco_1100w_electrical_drills.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323958/Astonic-Mart/Products/drills/ingco_1100w_electrical_drills.jpg2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323958/Astonic-Mart/Products/drills/ingco_1100w_electrical_drills.jpg3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323958/Astonic-Mart/Products/drills/ingco_1100w_electrical_drills.jpg4.jpg'
+                                        'assets/img/drills/ingco 1100w electrical drills.jpg',
+                                        'assets/img/drills/ingco 1100w electrical drills.jpg2.jpg',
+                                        'assets/img/drills/ingco 1100w electrical drills.jpg3.jpg',
+                                        'assets/img/drills/ingco 1100w electrical drills.jpg4.jpg'
                                     ],
 
                                         description: `The Ingco 1100W Impact Drill 13mm (ID11008) is a powerful and versatile drilling tool designed for drilling into wood, metal, plastic, and masonry surfaces. Powered by a high-performance 1100W motor, the drill delivers strong impact force and high drilling efficiency, making it suitable for construction work, installation tasks, and general maintenance. The hammer drilling function allows users to easily drill into concrete and brick walls, while the variable speed control provides better precision for different drilling applications. Its ergonomic handle and auxiliary side handle offer improved stability and control during operation. Built with durable components, the Ingco impact drill provides reliable performance for electricians, technicians, carpenters, and construction professionals.
@@ -765,10 +767,10 @@ Items Included in the Package:
                             price: 135000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786306079/Astonic-Mart/Products/drills/Bosch_Gsr_180-li_Cordless_Drill_Driver_10mm.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786306081/Astonic-Mart/Products/drills/Bosch_Gsr_180-li_Cordless_Drill_Driver_10mm.webp2.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786306079/Astonic-Mart/Products/drills/Bosch_Gsr_180-li_Cordless_Drill_Driver_10mm.webp3.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786306079/Astonic-Mart/Products/drills/Bosch_Gsr_180-li_Cordless_Drill_Driver_10mm.webp4.webp'
+                                    'assets/img/drills/Bosch Gsr 180-li Cordless Drill Driver  10mm.webp',
+                                    'assets/img/drills/Bosch Gsr 180-li Cordless Drill Driver  10mm.webp2.webp',
+                                    'assets/img/drills/Bosch Gsr 180-li Cordless Drill Driver  10mm.webp3.webp',
+                                    'assets/img/drills/Bosch Gsr 180-li Cordless Drill Driver  10mm.webp4.webp'
                                 ],
                                     inStock: true,
                                         description: `The Bosch GSR 180-LI Cordless Drill Driver is a reliable and high-performance power tool designed for drilling and screw driving in wood, metal, and plastic materials. Powered by an 18V lithium-ion battery system, this cordless drill provides strong torque and consistent performance for professional and DIY applications. The compact and lightweight design allows comfortable handling and improved control during extended use. It features a durable 3/8" (10mm) keyless chuck for quick and easy bit changes, while the two-speed gearbox ensures efficient drilling and fastening across different materials. Built with BoschΓÇÖs robust engineering, the GSR 180-LI delivers durability, long battery life, and dependable performance for technicians, installers, carpenters, and construction professionals.
@@ -817,8 +819,8 @@ Items Included in the Package:
                             price: 520000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786323981/Astonic-Mart/Products/drills/ingco_core_drills_3800w.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786323981/Astonic-Mart/Products/drills/ingco_core_drills_3800w.jpg2.jpg'
+                                    'assets/img/drills/ingco core drills 3800w.jpg',
+                                    'assets/img/drills/ingco core drills 3800w.jpg2.jpg'
                                 ],
 
                                     description: `The Ingco DDM38001 Industrial Core Diamond Drilling Machine is a heavy-duty drilling tool designed for creating precise holes in concrete, reinforced concrete, stone, and brick materials. Powered by a high-performance 3800W motor, this machine delivers strong drilling power suitable for demanding construction and industrial applications. It supports drilling diameters up to 230mm, making it ideal for plumbing, electrical installations, HVAC systems, and structural construction work. The machine is designed with a stable drilling stand that provides accurate vertical drilling and improved control during operation. Its durable construction ensures reliable performance on construction sites, while the powerful motor allows smooth and efficient drilling through tough building materials.
@@ -866,7 +868,7 @@ Items Included in the Package:
                         brand: 'Eurotek',
                             price: 480000,
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786323947/Astonic-Mart/Products/drills/Eurotek-35mm-Magnetic-Drill.jpg'
+                                    'assets/img/drills/Eurotek-35mm-Magnetic-Drill.jpg'
                                 ],
                                     inStock: true,
                                         description: `The Eurotek 35mm Magnetic Drill is a powerful portable drilling machine designed for precise hole cutting in steel and other ferrous metals. It features a strong electromagnetic base that firmly attaches the machine to metal surfaces, allowing stable drilling even on vertical or overhead positions. With a drilling capacity of up to 35mm, the machine is ideal for fabrication workshops, construction sites, steel structure installation, and industrial maintenance. The drill supports annular cutters and twist drill bits, making it suitable for drilling, countersinking, and reaming operations. Its compact design improves portability while maintaining high drilling accuracy and performance for professional metalworking tasks.
@@ -920,9 +922,9 @@ Items Included in the Package:
 
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324125/Astonic-Mart/Products/drills/maxmech_RM_drills-1000w.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324125/Astonic-Mart/Products/drills/maxmech_RM_drills-1000w.jpg2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324125/Astonic-Mart/Products/drills/maxmech_RM_drills-1000w.jpg3.jpg'
+                                        'assets/img/drills/maxmech RM drills-1000w.jpg',
+                                        'assets/img/drills/maxmech RM drills-1000w.jpg2.jpg',
+                                        'assets/img/drills/maxmech RM drills-1000w.jpg3.jpg'
                                     ],
                                         inStock: true,
                                             description: `The Maxmech Multi Functional Rotary Hammer Machine 1000W is a powerful drilling and demolition tool designed for professional construction and heavy-duty DIY applications. Equipped with a strong 1000W motor, the machine delivers high impact energy for efficient drilling in concrete, brick, stone, and masonry materials. It features multiple operating modes including drilling, hammer drilling, and chiseling, allowing users to perform a wide range of tasks such as wall drilling, tile removal, and light demolition work. The ergonomic handle and durable body provide improved control and stability during operation. Designed for reliability and efficiency, the Maxmech rotary hammer is suitable for builders, electricians, plumbers, and general construction professionals.
@@ -972,10 +974,10 @@ Items Included in the Package:
                             price: 180000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324211/Astonic-Mart/Products/drills/total_350w_drill_press.jpg-1.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324211/Astonic-Mart/Products/drills/total_350w_drill_press.jpg2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324211/Astonic-Mart/Products/drills/total_350w_drill_press.jpg4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324211/Astonic-Mart/Products/drills/total_350w_drill_press.jpg'
+                                    'assets/img/drills/total 350w drill press.jpg-1.jpg',
+                                    'assets/img/drills/total 350w drill press.jpg2.jpg',
+                                    'assets/img/drills/total 350w drill press.jpg4.jpg',
+                                    'assets/img/drills/total 350w drill press.jpg'
                                 ],
                                     inStock: true,
                                         description: `The TOTAL Drill Press 350W is a precision drilling machine designed for accurate vertical drilling in wood, metal, and plastic materials. Powered by a reliable 350W motor, this drill press provides stable and controlled drilling performance for workshops, fabrication shops, and DIY projects. The machine features an adjustable worktable and multiple speed settings that allow users to handle different drilling materials and bit sizes with ease. Its solid base and column design provide excellent stability and precision, ensuring clean and accurate holes during operation. The TOTAL drill press is ideal for carpenters, metalworkers, technicians, and hobbyists who require dependable drilling accuracy for professional and workshop use.
@@ -1024,8 +1026,8 @@ Items Included in the Package:
                             power: '9.6kW (13HP)',
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305902/Astonic-Mart/Products/cutting%20machines/total_gasoline_floor_saw_tp1016-1.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305904/Astonic-Mart/Products/cutting%20machines/total_gasoline_floor_saw_tp1016-2.jpg'
+                                    'assets/img/cutting machines/total gasoline floor saw tp1016-1.jpeg',
+                                    'assets/img/cutting machines/total gasoline floor saw tp1016-2.jpg'
                                 ],
 
                                     inStock: false,
@@ -1088,10 +1090,10 @@ Items Included in the Package:
                  price: 95000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305864/Astonic-Mart/Products/cutting%20machines/ingco-cut-off-saw-2000w.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305864/Astonic-Mart/Products/cutting%20machines/ingco-cut-off-saw-2000w.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305864/Astonic-Mart/Products/cutting%20machines/ingco-cut-off-saw-2000w.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305864/Astonic-Mart/Products/cutting%20machines/ingco-cut-off-saw-2000w.webp'
+                                    'assets/img/cutting machines/ingco-cut-off-saw-2000w.webp',
+                                    'assets/img/cutting machines/ingco-cut-off-saw-2000w.webp',
+                                    'assets/img/cutting machines/ingco-cut-off-saw-2000w.webp',
+                                    'assets/img/cutting machines/ingco-cut-off-saw-2000w.webp'
                                 ],
 
                                     inStock: true,
@@ -1131,7 +1133,7 @@ Items Included in the Package:
                         price: 55000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307694/Astonic-Mart/Products/hand%20mixers/total_hand_mixer-1400w.jpg'
+                                'assets/img/hand mixers/total hand mixer-1400w.jpg'
                             ],
 
                                 inStock: true,
@@ -1172,7 +1174,7 @@ Items Included in the Package:
                         price: 68000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307695/Astonic-Mart/Products/hand%20mixers/total_hand_mixer-1800w.jpg'
+                                'assets/img/hand mixers/total hand mixer-1800w.jpg'
                             ],
 
                                 inStock: true,
@@ -1213,13 +1215,13 @@ Items Included in the Package:
                         price: 118000,
                             model: 'AP14008',
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310139/Astonic-Mart/Products/polishers/ingco_angle_polisher_-1400w.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310141/Astonic-Mart/Products/polishers/ingco_angle_polisher_-1400w-2.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310146/Astonic-Mart/Products/polishers/ingco_angle_polisher_-1400w-4.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310146/Astonic-Mart/Products/polishers/ingco_angle_polisher_-1400w-4.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310148/Astonic-Mart/Products/polishers/ingco_angle_polisher_-1400w-5.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310151/Astonic-Mart/Products/polishers/ingco_angle_polisher_-1400w-6.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310142/Astonic-Mart/Products/polishers/ingco_angle_polisher_-1400w-3.webp'
+                                    'assets/img/polishers/ingco angle polisher -1400w.jpg',
+                                    'assets/img/polishers/ingco angle polisher -1400w-2.webp',
+                                    'assets/img/polishers/ingco angle polisher -1400w-4.webp',
+                                    'assets/img/polishers/ingco angle polisher -1400w-4.webp',
+                                    'assets/img/polishers/ingco angle polisher -1400w-5.jpg',
+                                    'assets/img/polishers/ingco angle polisher -1400w-6.jpg',
+                                    'assets/img/polishers/ingco angle polisher -1400w-3.webp'
                                 ],
 
                                     inStock: true,
@@ -1257,10 +1259,10 @@ Items Included in the Package:
                         price: 185000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786310192/Astonic-Mart/Products/polishers/INGCO_Cordless-Polishing-Machine-APLI20181.png',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786327812/Astonic-Mart/Products/polishers/INGCO_Cordless-Polishing-Machine-APLI20181-4.png',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786310308/Astonic-Mart/Products/polishers/INGCO_Cordless-Polishing-Machine-APLI20181-3.png',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786310224/Astonic-Mart/Products/polishers/INGCO_Cordless-Polishing-Machine-APLI20181.png_2.jpg'
+                                'assets/img/polishers/INGCO Cordless-Polishing-Machine-APLI20181.png',
+                                'assets/img/polishers/INGCO Cordless-Polishing-Machine-APLI20181-4.png',
+                                'assets/img/polishers/INGCO Cordless-Polishing-Machine-APLI20181-3.png',
+                                'assets/img/polishers/INGCO Cordless-Polishing-Machine-APLI20181.png 2.jpg'
                             ],
 
                                 inStock: true,
@@ -1317,7 +1319,7 @@ Items Included in the Package:
                         price: 42000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786329370/Astonic-Mart/Products/spray%20guns/ingco_spray_guns_450w.webp'
+                                'assets/img/spray guns/ingco spray guns 450w.webp'
                             ],
 
                                 inStock: true,
@@ -1356,8 +1358,8 @@ Items Included in the Package:
                         price: 47000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786329384/Astonic-Mart/Products/spray%20guns/total-spray-gun-550w.jpg2.webp',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786329384/Astonic-Mart/Products/spray%20guns/total-spray-gun-550w.jpg'
+                                'assets/img/spray guns/total-spray-gun-550w.jpg2.webp',
+                                'assets/img/spray guns/total-spray-gun-550w.jpg'
                             ],
 
                                 inStock: true,
@@ -1398,7 +1400,7 @@ Items Included in the Package:
                         price: 180000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304132/Astonic-Mart/Products/bag%20closers/guru_bag_closer_machine.jpg'
+                                'assets/img/bag closers/guru bag closer machine.jpg'
                             ],
 
                                 inStock: true,
@@ -1441,12 +1443,12 @@ Items Included in the Package:
                     brand: 'Ingco',
                         price: 230000,
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309309/Astonic-Mart/Products/nailers%20and%20staplers/ingco_cordless_brad_nailers_35mm.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309309/Astonic-Mart/Products/nailers%20and%20staplers/ingco_cordless_brad_nailers_35mm.jpg2.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309309/Astonic-Mart/Products/nailers%20and%20staplers/ingco_cordless_brad_nailers_35mm.jpg3.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309309/Astonic-Mart/Products/nailers%20and%20staplers/ingco_cordless_brad_nailers_35mm.jpg4.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309309/Astonic-Mart/Products/nailers%20and%20staplers/ingco_cordless_brad_nailers_35mm.jpg5.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309309/Astonic-Mart/Products/nailers%20and%20staplers/ingco_cordless_brad_nailers_35mm.jpg6.jpg'
+                                'assets/img/nailers and staplers/ingco cordless brad nailers 35mm.jpg',
+                                'assets/img/nailers and staplers/ingco cordless brad nailers 35mm.jpg2.jpg',
+                                'assets/img/nailers and staplers/ingco cordless brad nailers 35mm.jpg3.jpg',
+                                'assets/img/nailers and staplers/ingco cordless brad nailers 35mm.jpg4.jpg',
+                                'assets/img/nailers and staplers/ingco cordless brad nailers 35mm.jpg5.jpg',
+                                'assets/img/nailers and staplers/ingco cordless brad nailers 35mm.jpg6.jpg'
                             ],
 
                                 inStock: true,
@@ -1490,7 +1492,7 @@ Items Included in the Package:
                         price: 12000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307547/Astonic-Mart/Products/guns%20and%20trimmers/total_glue_guns_100w.jpg'
+                                'assets/img/guns and trimmers/total glue guns 100w.jpg'
                             ],
 
 
@@ -1531,7 +1533,7 @@ Items Included in the Package:
                         price: 35000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786308003/Astonic-Mart/Products/impulser%20sealer/impulse_sealers_fs_300.webp'
+                                'assets/img/impulser sealer/impulse sealers fs 300.webp'
                             ],
 
                                 inStock: true,
@@ -1579,10 +1581,10 @@ Items Included in the Package:
                                 inStock: true,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323969/Astonic-Mart/Products/drills/INGCO_CDLI206681_20V_Cordless_Brushless_Drill_66Nm.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323969/Astonic-Mart/Products/drills/INGCO_CDLI206681_20V_Cordless_Brushless_Drill_66Nm.jpg-2.jpeg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323962/Astonic-Mart/Products/drills/INGCO_CDLI205581_20V_Cordless_Brushless_Drill_5Nm.webp-3.jpeg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323969/Astonic-Mart/Products/drills/INGCO_CDLI206681_20V_Cordless_Brushless_Drill_66Nm.jpg-4.jpg',
+                                        'assets/img/drills/INGCO CDLI206681 20V Cordless Brushless Drill 66Nm.jpg',
+                                        'assets/img/drills/INGCO CDLI206681 20V Cordless Brushless Drill 66Nm.jpg-2.jpeg',
+                                        'assets/img/drills/INGCO CDLI205581 20V Cordless Brushless Drill 5Nm.webp-3.jpeg',
+                                        'assets/img/drills/INGCO CDLI206681 20V Cordless Brushless Drill 66Nm.jpg-4.jpg',
 
                                     ],
 
@@ -1637,10 +1639,10 @@ Items Included in the Package:
                                 brand: 'TOTAL',
                                     inStock: true,
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311918/Astonic-Mart/Products/rotary%20hammers/total_rotary_hammer.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311919/Astonic-Mart/Products/rotary%20hammers/total_rotary_hammer.jpg-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311921/Astonic-Mart/Products/rotary%20hammers/total_rotary_hammer.jpg-3.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786328562/Astonic-Mart/Products/rotary%20hammers/total_rotary_hammer-3.jpg'
+                                            'assets/img/rotary hammers/total rotary hammer.jpg',
+                                            'assets/img/rotary hammers/total rotary hammer.jpg-2.webp',
+                                            'assets/img/rotary hammers/total rotary hammer.jpg-3.webp',
+                                            'assets/img/rotary hammers/total rotary hammer-3.jpg'
                                         ],
 
                                             description:
@@ -1694,10 +1696,10 @@ Items Included in the Package:
                                     inStock: true,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311922/Astonic-Mart/Products/rotary%20hammers/total_rotary_hammer-1300w.jpg-3.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311922/Astonic-Mart/Products/rotary%20hammers/total_rotary_hammer-1300w.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311922/Astonic-Mart/Products/rotary%20hammers/total_rotary_hammer-1300w.jpg-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311922/Astonic-Mart/Products/rotary%20hammers/total_rotary_hammer-1300w.jpg-3.webp'
+                                            'assets/img/rotary hammers/total rotary hammer-1300w.jpg-3.webp',
+                                            'assets/img/rotary hammers/total rotary hammer-1300w.jpg',
+                                            'assets/img/rotary hammers/total rotary hammer-1300w.jpg-2.webp',
+                                            'assets/img/rotary hammers/total rotary hammer-1300w.jpg-3.webp'
                                         ],
 
                                             description:
@@ -1750,11 +1752,11 @@ Items Included in the Package:
                             price: 68000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324264/Astonic-Mart/Products/drills/TOTAL_Impact_drill_1.100W_TG211166.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324264/Astonic-Mart/Products/drills/TOTAL_Impact_drill_1.100W_TG211166.jpg-4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324263/Astonic-Mart/Products/drills/TOTAL_Impact_drill_1.100W_TG211166.jpg-2.png',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324264/Astonic-Mart/Products/drills/TOTAL_Impact_drill_1.100W_TG211166.jpg-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324264/Astonic-Mart/Products/drills/TOTAL_Impact_drill_1.100W_TG211166.jpg-5.webp'
+                                    'assets/img/drills/TOTAL Impact drill 1.100W (TG211166).jpg',
+                                    'assets/img/drills/TOTAL Impact drill 1.100W (TG211166).jpg-4.jpg',
+                                    'assets/img/drills/TOTAL Impact drill 1.100W (TG211166).jpg-2.png',
+                                    'assets/img/drills/TOTAL Impact drill 1.100W (TG211166).jpg-3.jpg',
+                                    'assets/img/drills/TOTAL Impact drill 1.100W (TG211166).jpg-5.webp'
                                 ],
 
                                     inStock: true,
@@ -1812,7 +1814,7 @@ Items Included in the Package:
                         price: 18500,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307701/Astonic-Mart/Products/heatguns/ingco_HG200028_Heat_gun.jpg'
+                                'assets/img/heatguns/ingco HG200028 Heat gun.jpg'
                             ],
 
                                 inStock: true,
@@ -1851,7 +1853,7 @@ Items Included in the Package:
                             price: 285000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307389/Astonic-Mart/Products/grinders/Bosch_GWS_24-230_H_Professional_Angle_grinder.jpg'
+                                    'assets/img/grinders/Bosch GWS 24-230 H Professional Angle grinder.jpg'
                                 ],
 
                                     inStock: true,
@@ -1898,7 +1900,7 @@ Items Included in the Package:
                             price: 245000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307390/Astonic-Mart/Products/grinders/bosch-bench_grinders.webp'
+                                    'assets/img/grinders/bosch-bench grinders.webp'
                                 ],
 
                                     inStock: true,
@@ -1944,7 +1946,7 @@ Items Included in the Package:
                             price: 125000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307508/Astonic-Mart/Products/grinders/Total_Mini_Grinder_With_149pcs_-_200watts.webp'
+                                    'assets/img/grinders/Total Mini Grinder With 149pcs - 200watts.webp'
                                 ],
 
                                     inStock: true,
@@ -1989,10 +1991,10 @@ Items Included in the Package:
                                     discountPrice: 265000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307820/Astonic-Mart/Products/impact-wrench/Cordless_impact_wrench_CIWLI42602-42v.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307821/Astonic-Mart/Products/impact-wrench/Cordless_impact_wrench_CIWLI42602-42v-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307965/Astonic-Mart/Products/impact-wrench/ngco_Cordless_brushless_Impact_Wrench_600nm_-_42v-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786326188/Astonic-Mart/Products/impact-wrench/ngco_Cordless_brushless_Impact_Wrench_600nm_-_42v.webp-3.webp'
+                                            'assets/img/impact-wrench/Cordless impact wrench CIWLI42602-42v.jpeg',
+                                            'assets/img/impact-wrench/Cordless impact wrench CIWLI42602-42v-2.jpeg',
+                                            'assets/img/impact-wrench/ngco Cordless brushless Impact Wrench 600nm - 42v-2.jpg',
+                                            'assets/img/impact-wrench/ngco Cordless brushless Impact Wrench 600nm - 42v.webp-3.webp'
                                         ],
 
                                             videos: [
@@ -2063,7 +2065,7 @@ Items Included in the Package:
                             price: 135000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786308001/Astonic-Mart/Products/impact-wrench/TOTAL_half_innch_Electric_Impact_Wrench_With_Case_1050W-2.jpg'
+                                    'assets/img/impact-wrench/TOTAL half innch Electric Impact Wrench With Case 1050W-2.jpg'
                                 ],
 
                                     inStock: true,
@@ -2108,7 +2110,7 @@ Items Included in the Package:
                             price: 95000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307967/Astonic-Mart/Products/impact-wrench/TOTAL_AIR_IMPACT_WRENCH_3_quarter_-_1.600Nm_TAT40342.jpg'
+                                    'assets/img/impact-wrench/TOTAL AIR IMPACT WRENCH 3 quarter - 1.600Nm (TAT40342).jpg'
                                 ],
 
                                     inStock: true,
@@ -2153,7 +2155,7 @@ Items Included in the Package:
                             price: 195000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305967/Astonic-Mart/Products/demolition%20breakers/ingco_demo_breaker-pdb17008.jpg'
+                                    'assets/img/demolition breakers/ingco demo breaker-pdb17008.jpg'
                                 ],
 
                                     inStock: true,
@@ -2198,7 +2200,7 @@ Items Included in the Package:
                             price: 225000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305941/Astonic-Mart/Products/demolition%20breakers/air-jackhammers.avif'
+                                    'assets/img/demolition breakers/air-jackhammers.avif'
                                 ],
 
                                     inStock: true,
@@ -2244,7 +2246,7 @@ Items Included in the Package:
                             price: 185000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304980/Astonic-Mart/Products/circular%20and%20mitre%20saws/Ingco_185mm_Cordless_Circular_Saw_-_CSLI18513.jpg'
+                                    'assets/img/circular and mitre saws/Ingco 185mm Cordless Circular Saw - CSLI18513.jpeg'
                                 ],
 
                                     inStock: true,
@@ -2290,7 +2292,7 @@ Items Included in the Package:
                             price: 125000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786308482/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Bosch_Jigsaw_GST_650_Professional.jpg'
+                                    'assets/img/jig saws and recip saws/Bosch Jigsaw GST 650 Professional.jpg'
                                 ],
 
                                     inStock: true,
@@ -2337,7 +2339,7 @@ Items Included in the Package:
                             price: 95000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786308538/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/TOTAL_RECIPROCATING_SAW_750W_TS100806.jpg'
+                                    'assets/img/jig saws and recip saws/TOTAL RECIPROCATING SAW 750W (TS100806).jpg'
                                 ],
 
                                     inStock: true,
@@ -2381,7 +2383,7 @@ Items Included in the Package:
                             price: 245000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329429/Astonic-Mart/Products/table%20and%20band%20saws/INGCO_TS150078_Table_saw_10_Inch_430X640mm_1500W.jpg'
+                                    'assets/img/table and band saws/INGCO TS150078 Table saw 10 Inch 430X640mm 1500W.webp'
                                 ],
 
                                     inStock: true,
@@ -2428,9 +2430,9 @@ Items Included in the Package:
                             price: 285000,
                                 model: 'TMSLI20212',
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786516020/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_8_inch_20V_Mitre_Saw_-_2_x_4Ah_Batteries_-_Charger_Total_TMSLI20212.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786516021/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_8_inch_20V_Mitre_Saw_-_2_x_4Ah_Batteries_-_Charger_Total_TMSLI20212-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786516020/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_8_inch_20V_Mitre_Saw_-_2_x_4Ah_Batteries_-_Charger_Total_TMSLI20212-3.jpg',
+                                        'assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw + 2 x 4Ah Batteries + Charger Total TMSLI20212.jpg',
+                                        'assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw + 2 x 4Ah Batteries + Charger Total TMSLI20212-2.jpg',
+                                        'assets/img/circular and mitre saws/TOTAL 8 inch 20V Mitre Saw + 2 x 4Ah Batteries + Charger Total TMSLI20212-3.jpg',
                                     ],
 
                                         inStock: true,
@@ -2478,7 +2480,7 @@ Items Included in the Package:
                             price: 180000,
                                 model: 'TOSLI23012',
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304724/Astonic-Mart/Products/chain%20and%20%20band%20saws/Total_Combo_kit-_Cutters_and_Mini_chain_saws_with_20V_TOSLI23012.avif'
+                                        'assets/img/chain and  band saws/Total Combo kit- Cutters and Mini chain saws with 20V TOSLI23012.avif'
                                     ],
 
                                         inStock: true,
@@ -2520,7 +2522,7 @@ Items Included in the Package:
                             price: 650000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304675/Astonic-Mart/Products/chain%20and%20%20band%20saws/BOSCH_06012B7000_-_GCB_18V-127_-_18V_cordless_band_saw.webp'
+                                    'assets/img/chain and  band saws/BOSCH 06012B7000 - GCB 18V-127 - 18V cordless band saw.webp'
                                 ],
 
                                     inStock: false,
@@ -2562,11 +2564,11 @@ Items Included in the Package:
                             price: 130000,
 
                                 images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429671/Astonic-Mart/Products/remaining-local-images/k8mc3fftfftmzrtbcfxi.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429672/Astonic-Mart/Products/remaining-local-images/guhazmhlmjvrh6ifabef.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429673/Astonic-Mart/Products/remaining-local-images/sudjk4teykvzepfaazbp.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429674/Astonic-Mart/Products/remaining-local-images/pfyqeguggnzne7kuzd8c.jpg'
-        ],
+                                    'assets/img/blowers/TOTAL 20V Cordless Blower ΓÇô TABLI20323 Lithium-Ion Portable Air Blower.jpg3.jpg',
+                                    'assets/img/blowers/TOTAL 20V Cordless Blower ΓÇô TABLI20323 Lithium-Ion Portable Air Blower.jpg',
+                                    'assets/img/blowers/TOTAL 20V Cordless Blower ΓÇô TABLI20323 Lithium-Ion Portable Air Blower.jpg2.jpg',
+                                    'assets/img/blowers/TOTAL 20V Cordless Blower ΓÇô TABLI20323 Lithium-Ion Portable Air Blower-4.jpeg'
+                                ],
 
                                     inStock: true,
                                         description: 'The TOTAL TABLI20323 20V Cordless Blower is a lightweight and portable air blower designed for efficient cleaning and dust removal. Powered by a 20V lithium-ion battery, it delivers strong airflow suitable for clearing debris, dust, leaves, and workshop waste. Its compact cordless design ensures easy handling and mobility, making it perfect for both indoor and outdoor use including workshops, construction sites, and home maintenance.',
@@ -2606,7 +2608,7 @@ Items Included in the Package:
                             price: 55000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304374/Astonic-Mart/Products/blowers/Powervent_200_mm_8_Inch_2900_rpm_Portable_Air_Blower_180_W.webp'
+                                    'assets/img/blowers/Powervent 200 mm (8 Inch) 2900 rpm Portable Air Blower 180 W.webp'
                                 ],
 
                                     inStock: true,
@@ -2648,7 +2650,7 @@ Items Included in the Package:
                             price: 120000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304359/Astonic-Mart/Products/blowers/Gasoline_Blower_for_Lawn_Care_25.4CC_Handheld.jpg'
+                                    'assets/img/blowers/Gasoline Blower for Lawn Care (25.4CC Handheld).jpg'
                                 ],
 
                                     inStock: true,
@@ -2689,7 +2691,7 @@ Items Included in the Package:
                             price: 180000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304358/Astonic-Mart/Products/blowers/Dewalt-Cordless-Blower-Dewalt-Leaf-Blower-20v-Max-Cordless-Leaf-3.jpg'
+                                    'assets/img/blowers/Dewalt-Cordless-Blower-Dewalt-Leaf-Blower-20v-Max-Cordless-Leaf-3.jpg'
                                 ],
 
                                     inStock: true,
@@ -2746,12 +2748,12 @@ Items Included in the Package:
                             discountPrice: 140000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307540/Astonic-Mart/Products/guns%20and%20trimmers/total_cordless_edge_trimmers-thli20461.jpeg_2.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307541/Astonic-Mart/Products/guns%20and%20trimmers/total_cordless_edge_trimmers-thli20461.jpeg_3.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307546/Astonic-Mart/Products/guns%20and%20trimmers/total_cordless_edge_trimmers-thli20461.jpeg_7.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786325489/Astonic-Mart/Products/guns%20and%20trimmers/total_cordless_edge_trimmers-thli20461.jpeg_4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786325489/Astonic-Mart/Products/guns%20and%20trimmers/total_cordless_edge_trimmers-thli20461.jpeg_4.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307545/Astonic-Mart/Products/guns%20and%20trimmers/total_cordless_edge_trimmers-thli20461.jpeg_6.jpg'
+                                    'assets/img/guns and trimmers/total cordless edge trimmers-thli20461.jpeg 2.webp',
+                                    'assets/img/guns and trimmers/total cordless edge trimmers-thli20461.jpeg 3.webp',
+                                    'assets/img/guns and trimmers/total cordless edge trimmers-thli20461.jpeg 7.jpg',
+                                    'assets/img/guns and trimmers/total cordless edge trimmers-thli20461.jpeg 4.jpeg',
+                                    'assets/img/guns and trimmers/total cordless edge trimmers-thli20461.jpeg 4.webp',
+                                    'assets/img/guns and trimmers/total cordless edge trimmers-thli20461.jpeg 6.jpg'
                                 ],
 
                                     inStock: true,
@@ -2797,7 +2799,7 @@ Items Included in the Package:
                         price: 8500,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307540/Astonic-Mart/Products/guns%20and%20trimmers/Professional_Silicone_Sealant_Gun_400ml.jpg',
+                                'assets/img/guns and trimmers/Professional Silicone Sealant Gun 400ml.jpg',
 
                             ],
 
@@ -2837,7 +2839,7 @@ Items Included in the Package:
                         price: 22000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307702/Astonic-Mart/Products/heatguns/maxmech_heat_guns.jpg'
+                                'assets/img/heatguns/maxmech heat guns.jpg'
                             ],
 
                                 inStock: true,
@@ -2879,10 +2881,10 @@ Items Included in the Package:
 
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328948/Astonic-Mart/Products/sanders/total_dry_wall_sanders-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328948/Astonic-Mart/Products/sanders/total_dry_wall_sanders.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328953/Astonic-Mart/Products/sanders/total_dry_wall_sanders-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328957/Astonic-Mart/Products/sanders/total_dry_wall_sanders-4.jpg'
+                                    'assets/img/sanders/total dry wall sanders-2.jpg',
+                                    'assets/img/sanders/total dry wall sanders.jpg',
+                                    'assets/img/sanders/total dry wall sanders-3.jpg',
+                                    'assets/img/sanders/total dry wall sanders-4.jpg'
                                 ],
 
                                     jumiaLink: '',
@@ -2941,10 +2943,10 @@ Items Included in the Package:
                                         'https://youtu.be/rERq51V_ouE?si=_Twxzqv_J0w1yW2l'
                                     ],
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307975/Astonic-Mart/Products/impact-wrench/Total_Cordless_Impact_Wrench-20v-Tiwli2040.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307975/Astonic-Mart/Products/impact-wrench/Total_Cordless_Impact_Wrench-20v-Tiwli2040.jpg-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307982/Astonic-Mart/Products/impact-wrench/Total_Cordless_Impact_Wrench-20v-Tiwli2040-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307975/Astonic-Mart/Products/impact-wrench/Total_Cordless_Impact_Wrench-20v-Tiwli2040.jpg-4.jpeg'
+                                            'assets/img/impact-wrench/Total Cordless Impact Wrench-20v-Tiwli2040.jpg',
+                                            'assets/img/impact-wrench/Total Cordless Impact Wrench-20v-Tiwli2040.jpg-2.webp',
+                                            'assets/img/impact-wrench/Total Cordless Impact Wrench-20v-Tiwli2040-3.jpg',
+                                            'assets/img/impact-wrench/Total Cordless Impact Wrench-20v-Tiwli2040.jpg-4.jpeg'
                                         ],
 
                                             jumiaLink: '',
@@ -3006,10 +3008,10 @@ Items Included in the Package:
                                 discountPrice: 240000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305062/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_MITRE_SAW_1.800W_255mm_TS42152557.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305062/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_MITRE_SAW_1.800W_255mm_TS42152557.jpg-2.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305062/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_MITRE_SAW_1.800W_255mm_TS42152557.jpg-2.webp-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305062/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_MITRE_SAW_1.800W_255mm_TS42152557.jpg-2.webp-4.webp'
+                                        'assets/img/circular and mitre saws/TOTAL MITRE SAW 1.800W 255mm (TS42152557).jpg',
+                                        'assets/img/circular and mitre saws/TOTAL MITRE SAW 1.800W 255mm (TS42152557).jpg-2.webp',
+                                        'assets/img/circular and mitre saws/TOTAL MITRE SAW 1.800W 255mm (TS42152557).jpg-2.webp-3.webp',
+                                        'assets/img/circular and mitre saws/TOTAL MITRE SAW 1.800W 255mm (TS42152557).jpg-2.webp-4.webp'
                                     ],
 
                                         videos: [
@@ -3076,10 +3078,10 @@ Items Included in the Package:
 
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307473/Astonic-Mart/Products/grinders/INGCO_Die_Grinder_400W_PDG4003.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307476/Astonic-Mart/Products/grinders/INGCO_Die_Grinder_400W_PDG4003-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307475/Astonic-Mart/Products/grinders/INGCO_Die_Grinder_400W_PDG4003-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307474/Astonic-Mart/Products/grinders/INGCO_Die_Grinder_400W_PDG4003-2.webp'
+                                        'assets/img/grinders/INGCO Die Grinder 400W (PDG4003).jpg',
+                                        'assets/img/grinders/INGCO Die Grinder 400W (PDG4003)-4.jpg',
+                                        'assets/img/grinders/INGCO Die Grinder 400W (PDG4003)-3.webp',
+                                        'assets/img/grinders/INGCO Die Grinder 400W (PDG4003)-2.webp'
                                     ],
 
                                         jumiaLink: '',
@@ -3148,10 +3150,10 @@ Items Included in the Package:
                                     discountPrice: 265000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786309417/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Cordless_brick_nailer_TCSTLI3805-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786309410/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Cordless_brick_nailer_TCSTLI3805.webp-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786309410/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Cordless_brick_nailer_TCSTLI3805.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786309415/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Cordless_brick_nailer_TCSTLI3805-3.jpg',
+                                            'assets/img/nailers and staplers/TOTAL Cordless brick nailer (TCSTLI3805)-5.jpg',
+                                            'assets/img/nailers and staplers/TOTAL Cordless brick nailer (TCSTLI3805).jpg-2.webp',
+                                            'assets/img/nailers and staplers/TOTAL Cordless brick nailer (TCSTLI3805).jpg',
+                                            'assets/img/nailers and staplers/TOTAL Cordless brick nailer (TCSTLI3805)-3.jpg',
 
                                         ],
 
@@ -3236,10 +3238,10 @@ Items Included in the Package:
                                     discountPrice: 170000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329854/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpeg-2.webp-4.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329852/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329852/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpeg-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329857/Astonic-Mart/Products/tools%20sets/ingco_165pcs_tool_sets.jpeg-3.webp',
+                                            'assets/img/tools sets/ingco 165pcs tool sets.jpeg-2.webp-4.webp',
+                                            'assets/img/tools sets/ingco 165pcs tool sets.jpeg-2.webp',
+                                            'assets/img/tools sets/ingco 165pcs tool sets.jpeg',
+                                            'assets/img/tools sets/ingco 165pcs tool sets.jpeg-3.webp',
 
                                         ],
 
@@ -3325,8 +3327,8 @@ Items Included in the Package:
                                 discountPrice: 450000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305542/Astonic-Mart/Products/combo%20kits/Dewalt_6_in_1_Cordless_Combo_Tools_Machine.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305545/Astonic-Mart/Products/combo%20kits/Dewalt_6_in_1_Cordless_Combo_Tools_Machine-2.png'
+                                        'assets/img/combo kits/Dewalt 6 in 1 Cordless Combo Tools Machine.jpg',
+                                        'assets/img/combo kits/Dewalt 6 in 1 Cordless Combo Tools Machine-2.png'
 
                                     ],
 
@@ -3415,8 +3417,8 @@ Items Included in the Package:
                                 discountPrice: 270000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305540/Astonic-Mart/Products/combo%20kits/Dewalt_4_in_1_cordless_combo_tools_machine.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305540/Astonic-Mart/Products/combo%20kits/Dewalt_4_in_1_cordless_combo_tools_machine.webp-2.jpg',
+                                        'assets/img/combo kits/Dewalt 4 in 1 cordless combo tools machine.webp',
+                                        'assets/img/combo kits/Dewalt 4 in 1 cordless combo tools machine.webp-2.jpg',
 
                                     ],
 
@@ -3498,9 +3500,9 @@ Items Included in the Package:
                                 discountPrice: 285000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305589/Astonic-Mart/Products/combo%20kits/Total_Makita_Cordless_Combo_Tool_Set-_188v-_5_In_1.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305592/Astonic-Mart/Products/combo%20kits/Total_Makita_Cordless_Combo_Tool_Set-_188v-_5_In_1-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305566/Astonic-Mart/Products/combo%20kits/To_Makita_Cordless_Combo_Tool_Set-_188v-_5_In_1-2.webp',
+                                        'assets/img/combo kits/Total Makita Cordless Combo Tool Set- 188v- 5 In 1.webp',
+                                        'assets/img/combo kits/Total Makita Cordless Combo Tool Set- 188v- 5 In 1-3.webp',
+                                        'assets/img/combo kits/To Makita Cordless Combo Tool Set- 188v- 5 In 1-2.webp',
                                     ],
 
                                         videos: [
@@ -3586,10 +3588,10 @@ Items Included in the Package:
                                 discountPrice: 250000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305559/Astonic-Mart/Products/combo%20kits/Makita_4_in_1_Cordless_Combo_Tools_Machine.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305565/Astonic-Mart/Products/combo%20kits/Makita_4_in_1_Cordless_Combo_Tools_Machine-5.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305562/Astonic-Mart/Products/combo%20kits/Makita_4_in_1_Cordless_Combo_Tools_Machine-4.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305560/Astonic-Mart/Products/combo%20kits/Makita_4_in_1_Cordless_Combo_Tools_Machine-3.webp'
+                                        'assets/img/combo kits/Makita 4 in 1 Cordless Combo Tools Machine.jpg',
+                                        'assets/img/combo kits/Makita 4 in 1 Cordless Combo Tools Machine-5.webp',
+                                        'assets/img/combo kits/Makita 4 in 1 Cordless Combo Tools Machine-4.webp',
+                                        'assets/img/combo kits/Makita 4 in 1 Cordless Combo Tools Machine-3.webp'
                                     ],
 
                                         videos: [
@@ -3667,7 +3669,7 @@ Items Included in the Package:
         showSimilar: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305539/Astonic-Mart/Products/combo%20kits/DEWALT_118V_Cordless_5in1_Power_Tool_Combo_Kit.png'
+            'assets/img/combo kits/DEWALT 118V Cordless 5in1 Power Tool Combo Kit.png'
         ],
 
         inStock: true,
@@ -3736,10 +3738,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         images: [
 
 
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304723/Astonic-Mart/Products/chain%20and%20%20band%20saws/total_chainsaw_24_tg5602411-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304719/Astonic-Mart/Products/chain%20and%20%20band%20saws/total_chainsaw_24_tg5602411-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304720/Astonic-Mart/Products/chain%20and%20%20band%20saws/total_chainsaw_24_tg5602411-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304721/Astonic-Mart/Products/chain%20and%20%20band%20saws/total_chainsaw_24_tg5602411-4.webp'
+                                            'assets/img/chain and  band saws/total chainsaw 24 tg5602411-5.jpg',
+                                            'assets/img/chain and  band saws/total chainsaw 24 tg5602411-2.jpg',
+                                            'assets/img/chain and  band saws/total chainsaw 24 tg5602411-3.jpg',
+                                            'assets/img/chain and  band saws/total chainsaw 24 tg5602411-4.webp'
                                         ],
 
                                             videos: [
@@ -3805,10 +3807,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 72000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307491/Astonic-Mart/Products/grinders/Total_252_Sets_Mini_Grinder-130w-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307487/Astonic-Mart/Products/grinders/Total_252_Sets_Mini_Grinder-130w.jpg-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307487/Astonic-Mart/Products/grinders/Total_252_Sets_Mini_Grinder-130w.jpg-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307487/Astonic-Mart/Products/grinders/Total_252_Sets_Mini_Grinder-130w.jpg'
+                                            'assets/img/grinders/Total 252 Sets Mini Grinder-130w-2.jpeg',
+                                            'assets/img/grinders/Total 252 Sets Mini Grinder-130w.jpeg-3.jpg',
+                                            'assets/img/grinders/Total 252 Sets Mini Grinder-130w.jpeg-4.jpg',
+                                            'assets/img/grinders/Total 252 Sets Mini Grinder-130w.jpeg'
                                         ],
 
                                             jumiaLink: '',
@@ -3883,9 +3885,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 83000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329345/Astonic-Mart/Products/spray%20guns/dewalt_cordless_spray_guns.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329345/Astonic-Mart/Products/spray%20guns/dewalt_cordless_spray_guns-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329345/Astonic-Mart/Products/spray%20guns/dewalt_cordless_spray_guns-3.jpg'
+                                        'assets/img/spray guns/dewalt cordless spray guns.jpg',
+                                        'assets/img/spray guns/dewalt cordless spray guns-2.jpg',
+                                        'assets/img/spray guns/dewalt cordless spray guns-3.jpg'
                                     ],
 
                                         jumiaLink: 'https://www.jumia.com.ng/cordless-sprayer-gun-with-battery-and-charger-dewalt-mpg11495469.html',
@@ -3961,9 +3963,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         discountPrice: 140000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786325326/Astonic-Mart/Products/grinders/dewalt_cordless_angle_grinder.png',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786325293/Astonic-Mart/Products/grinders/dewalt_cordless_angle_grinder.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307416/Astonic-Mart/Products/grinders/dewalt_cordless_angle_grinder-2.jpg'
+                                                'assets/img/grinders/dewalt cordless angle grinder.png',
+                                                'assets/img/grinders/dewalt cordless angle grinder.jpg',
+                                                'assets/img/grinders/dewalt cordless angle grinder-2.jpg'
                                             ],
 
                                                 jumiaLink: 'https://www.jumia.com.ng/dewalt-cordless-angle-grinder-118v-with-battery-and-charger-mpg7578145.html',
@@ -4038,10 +4040,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         discountPrice: 138000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307437/Astonic-Mart/Products/grinders/Ingco_9_inch_Angle_grinder-_2600w_AG26008.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307438/Astonic-Mart/Products/grinders/Ingco_9_inch_Angle_grinder-_2600w_AG26008.jpg-2.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307437/Astonic-Mart/Products/grinders/Ingco_9_inch_Angle_grinder-_2600w_AG26008.jpg-3.png',
-                                                "https://res.cloudinary.com/taus5tit/image/upload/v1786307437/Astonic-Mart/Products/grinders/Ingco_9_inch_Angle_grinder-_2600w_AG26008.jpg-4.png"
+                                                'assets/img/grinders/Ingco 9 inch Angle grinder- 2600w (AG26008).jpg',
+                                                'assets/img/grinders/Ingco 9 inch Angle grinder- 2600w (AG26008).jpg-2.webp',
+                                                'assets/img/grinders/Ingco 9 inch Angle grinder- 2600w (AG26008).jpg-3.png',
+                                                "assets/img/grinders/Ingco 9 inch Angle grinder- 2600w (AG26008).jpg-4.png"
                                             ],
 
                                                 videos: [
@@ -4116,10 +4118,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 265000,
                                     model: 'TCBNLI5008',
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786309421/Astonic-Mart/Products/nailers%20and%20staplers/total_cordlesss_brad_nailer_f50_TCBNLI5008.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786309421/Astonic-Mart/Products/nailers%20and%20staplers/total_cordlesss_brad_nailer_f50_TCBNLI5008.jpg-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786309421/Astonic-Mart/Products/nailers%20and%20staplers/total_cordlesss_brad_nailer_f50_TCBNLI5008.jpg-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786309421/Astonic-Mart/Products/nailers%20and%20staplers/total_cordlesss_brad_nailer_f50_TCBNLI5008.jpg-4.webp'
+                                            'assets/img/nailers and staplers/total cordlesss brad nailer f50 TCBNLI5008.jpg',
+                                            'assets/img/nailers and staplers/total cordlesss brad nailer f50 TCBNLI5008.jpg-2.webp',
+                                            'assets/img/nailers and staplers/total cordlesss brad nailer f50 TCBNLI5008.jpg-3.jpg',
+                                            'assets/img/nailers and staplers/total cordlesss brad nailer f50 TCBNLI5008.jpg-4.webp'
                                         ],
 
                                             videos: [
@@ -4202,12 +4204,12 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 88000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324255/Astonic-Mart/Products/drills/TOTAL_IMPACT_DRILL_1.010W_TG111136.jpg-5.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324255/Astonic-Mart/Products/drills/TOTAL_IMPACT_DRILL_1.010W_TG111136.jpg-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324253/Astonic-Mart/Products/drills/TOTAL_IMPACT_DRILL_1.010W_TG111136.jpg-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324255/Astonic-Mart/Products/drills/TOTAL_IMPACT_DRILL_1.010W_TG111136.jpg-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324255/Astonic-Mart/Products/drills/TOTAL_IMPACT_DRILL_1.010W_TG111136.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324255/Astonic-Mart/Products/drills/TOTAL_IMPACT_DRILL_1.010W_TG111136.jpg-6.webp'
+                                            'assets/img/drills/TOTAL IMPACT DRILL 1.010W (TG111136).jpg-5.webp',
+                                            'assets/img/drills/TOTAL IMPACT DRILL 1.010W (TG111136).jpg-2.jpg',
+                                            'assets/img/drills/TOTAL IMPACT DRILL 1.010W (TG111136).jpg-3.jpg',
+                                            'assets/img/drills/TOTAL IMPACT DRILL 1.010W (TG111136).jpg-4.jpg',
+                                            'assets/img/drills/TOTAL IMPACT DRILL 1.010W (TG111136).jpg',
+                                            'assets/img/drills/TOTAL IMPACT DRILL 1.010W (TG111136).jpg-6.webp'
                                         ],
 
                                             videos: [
@@ -4287,10 +4289,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         discountPrice: 125000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307480/Astonic-Mart/Products/grinders/maxmech_angle_grinder-2400w.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307477/Astonic-Mart/Products/grinders/maxmech_angle_grinder_2400w.jpg-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307477/Astonic-Mart/Products/grinders/maxmech_angle_grinder_2400w.jpg-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307480/Astonic-Mart/Products/grinders/maxmech_angle_grinder-2400w.jpg',
+                                                'assets/img/grinders/maxmech angle grinder-2400w.jpg',
+                                                'assets/img/grinders/maxmech angle grinder 2400w.jpg-2.jpeg',
+                                                'assets/img/grinders/maxmech angle grinder 2400w.jpg-2.jpeg',
+                                                'assets/img/grinders/maxmech angle grinder-2400w.jpg',
                                             ],
 
                                                 videos: [
@@ -4365,11 +4367,11 @@ Ideal for construction, fabrication, carpentry and maintenance work
 
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305011/Astonic-Mart/Products/circular%20and%20mitre%20saws/INGCO_Industrial_Reciprocating_Saw_750W_RS8008.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305011/Astonic-Mart/Products/circular%20and%20mitre%20saws/INGCO_Industrial_Reciprocating_Saw_750W_RS8008.webp-2.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305011/Astonic-Mart/Products/circular%20and%20mitre%20saws/INGCO_Industrial_Reciprocating_Saw_750W_RS8008.webp-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305011/Astonic-Mart/Products/circular%20and%20mitre%20saws/INGCO_Industrial_Reciprocating_Saw_750W_RS8008.webp-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305011/Astonic-Mart/Products/circular%20and%20mitre%20saws/INGCO_Industrial_Reciprocating_Saw_750W_RS8008.webp-5.jpg'
+                                        'assets/img/circular and mitre saws/INGCO Industrial Reciprocating Saw 750W (RS8008).webp',
+                                        'assets/img/circular and mitre saws/INGCO Industrial Reciprocating Saw 750W (RS8008).webp-2.webp',
+                                        'assets/img/circular and mitre saws/INGCO Industrial Reciprocating Saw 750W (RS8008).webp-3.jpg',
+                                        'assets/img/circular and mitre saws/INGCO Industrial Reciprocating Saw 750W (RS8008).webp-4.jpg',
+                                        'assets/img/circular and mitre saws/INGCO Industrial Reciprocating Saw 750W (RS8008).webp-5.jpg'
                                     ],
 
                                         jumiaLink: '',
@@ -4441,10 +4443,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 335000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305907/Astonic-Mart/Products/cutting%20machines/TOTAL_POWER_CUTTER_2.800W_TPC9203556.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305907/Astonic-Mart/Products/cutting%20machines/TOTAL_POWER_CUTTER_2.800W_TPC9203556.jpg-2.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305912/Astonic-Mart/Products/cutting%20machines/TOTAL_POWER_CUTTER_2.800W_TPC9203556-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305910/Astonic-Mart/Products/cutting%20machines/TOTAL_POWER_CUTTER_2.800W_TPC9203556-3.jpg'
+                                        'assets/img/cutting machines/TOTAL POWER CUTTER 2.800W (TPC9203556).jpg',
+                                        'assets/img/cutting machines/TOTAL POWER CUTTER 2.800W (TPC9203556).jpg-2.webp',
+                                        'assets/img/cutting machines/TOTAL POWER CUTTER 2.800W (TPC9203556)-4.jpg',
+                                        'assets/img/cutting machines/TOTAL POWER CUTTER 2.800W (TPC9203556)-3.jpg'
                                     ],
 
                                         jumiaLink: '',
@@ -4516,9 +4518,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 price: 60000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304396/Astonic-Mart/Products/blowers/total_Aspirator_blower_-600w.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304397/Astonic-Mart/Products/blowers/total_Aspirator_blower_-600w.jpg-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304396/Astonic-Mart/Products/blowers/total_Aspirator_blower_-600w.jpg-5.jpg'
+                                        'assets/img/blowers/total Aspirator blower -600w.jpg',
+                                        'assets/img/blowers/total Aspirator blower -600w.jpg-2.jpg',
+                                        'assets/img/blowers/total Aspirator blower -600w.jpg-5.jpg'
                                     ],
 
                                         videos: [
@@ -4591,10 +4593,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
 
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304676/Astonic-Mart/Products/chain%20and%20%20band%20saws/ingco_Gasoline_chain_saw_GCS5602411.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304678/Astonic-Mart/Products/chain%20and%20%20band%20saws/ingco_Gasoline_chain_saw_GCS5602411.jpg-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304680/Astonic-Mart/Products/chain%20and%20%20band%20saws/ingco_Gasoline_chain_saw_GCS560241-3.jpg',
-                                            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786304679/Astonic-Mart/Products/chain%20and%20%20band%20saws/ingco_Gasoline_chain_saw_GCS5602411-4.jpg'
+                                            'assets/img/chain and  band saws/ingco  Gasoline chain saw GCS5602411.jpg',
+                                            'assets/img/chain and  band saws/ingco  Gasoline chain saw GCS5602411.jpg-2.webp',
+                                            'assets/img/chain and  band saws/ingco  Gasoline chain saw GCS560241-3.jpg',
+                                            'src/assets/img/chain and  band saws/ingco  Gasoline chain saw GCS5602411-4.jpg'
                                         ],
 
                                             videos: [
@@ -4673,10 +4675,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
 
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304348/Astonic-Mart/Products/blowers/Aspirator_Blower-INGCO_AB8008-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304350/Astonic-Mart/Products/blowers/Aspirator_Blower-INGCO_AB8008-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304347/Astonic-Mart/Products/blowers/Aspirator_Blower-INGCO_AB8008.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304350/Astonic-Mart/Products/blowers/Aspirator_Blower-INGCO_AB8008-4.jpg'
+                                        'assets/img/blowers/Aspirator Blower-INGCO AB8008-2.jpg',
+                                        'assets/img/blowers/Aspirator Blower-INGCO AB8008-3.jpg',
+                                        'assets/img/blowers/Aspirator Blower-INGCO AB8008.jpeg',
+                                        'assets/img/blowers/Aspirator Blower-INGCO AB8008-4.jpg'
                                     ],
 
                                         videos: [
@@ -4753,10 +4755,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 185000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305886/Astonic-Mart/Products/cutting%20machines/total_2400w_Cut_off_saw.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305889/Astonic-Mart/Products/cutting%20machines/total_2400w_Cut_off_saw-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305887/Astonic-Mart/Products/cutting%20machines/total_2400w_Cut_off_saw-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305901/Astonic-Mart/Products/cutting%20machines/total_2400w_Cut_off_saw-4.jpg'
+                                            'assets/img/cutting machines/total 2400w Cut off saw.jpg',
+                                            'assets/img/cutting machines/total 2400w Cut off saw-3.jpg',
+                                            'assets/img/cutting machines/total 2400w Cut off saw-2.jpg',
+                                            'assets/img/cutting machines/total 2400w Cut off saw-4.jpg'
                                         ],
 
                                             videos: [
@@ -4837,7 +4839,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
 
                                         images: [
 
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306052/Astonic-Mart/Products/drills/230mm_Eurotek_Diamond_Core_Drilling_Machine.avif'
+                                            'assets/img/drills/230mm Eurotek Diamond Core Drilling Machine.avif'
                                         ],
 
                                             videos: [
@@ -4915,10 +4917,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 62000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307706/Astonic-Mart/Products/heatguns/TOTAL_Heat_gun_LCD_2.000W_TB200561.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307707/Astonic-Mart/Products/heatguns/TOTAL_Heat_gun_LCD_2.000W_TB200561-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307708/Astonic-Mart/Products/heatguns/TOTAL_Heat_gun_LCD_2.000W_TB200561-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307711/Astonic-Mart/Products/heatguns/TOTAL_Heat_gun_LCD_2.000W_TB200561-34.jpg'
+                                        'assets/img/heatguns/TOTAL Heat gun LCD 2.000W (TB200561).jpg',
+                                        'assets/img/heatguns/TOTAL Heat gun LCD 2.000W (TB200561)-2.jpg',
+                                        'assets/img/heatguns/TOTAL Heat gun LCD 2.000W (TB200561)-3.jpg',
+                                        'assets/img/heatguns/TOTAL Heat gun LCD 2.000W (TB200561)-34.jpeg'
                                     ],
 
                                         videos: [
@@ -5000,10 +5002,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         discountPrice: 185000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307393/Astonic-Mart/Products/grinders/cagli1151_-_Cordless_angle_grinder-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307394/Astonic-Mart/Products/grinders/cagli1151_-_Cordless_angle_grinder-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307391/Astonic-Mart/Products/grinders/cagli1151_-_Cordless_angle_grinder.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307396/Astonic-Mart/Products/grinders/cagli1151_-_Cordless_angle_grinder-4.jpg'
+                                                'assets/img/grinders/cagli1151 - Cordless angle grinder-2.jpg',
+                                                'assets/img/grinders/cagli1151 - Cordless angle grinder-3.jpg',
+                                                'assets/img/grinders/cagli1151 - Cordless angle grinder.jpg',
+                                                'assets/img/grinders/cagli1151 - Cordless angle grinder-4.jpg'
                                             ],
 
                                                 videos: [
@@ -5086,9 +5088,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 85000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306103/Astonic-Mart/Products/drills/Dewalt_Tools_Box_With_36V_Drill_Machine.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306105/Astonic-Mart/Products/drills/Dewalt_Tools_Box_With_36V_Drill_Machine-3.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306104/Astonic-Mart/Products/drills/Dewalt_Tools_Box_With_36V_Drill_Machine-2.webp'
+                                            'assets/img/drills/Dewalt Tools Box With 36V Drill Machine.jpg',
+                                            'assets/img/drills/Dewalt Tools Box With 36V Drill Machine-3.webp',
+                                            'assets/img/drills/Dewalt Tools Box With 36V Drill Machine-2.webp'
                                         ],
 
                                             jumiaLink: 'https://www.jumia.com.ng/mlp-dewalt-tool-box/',
@@ -5173,10 +5175,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         discountPrice: 79000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786308523/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Total_Jig_Saw_800W_-_TS2081356.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786308527/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Total_Jig_Saw_800W_-_TS2081356-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786308526/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Total_Jig_Saw_800W_-_TS2081356-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786308528/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Total_Jig_Saw_800W_-_TS2081356-4.jpg'
+                                                'assets/img/jig saws and recip saws/Total Jig Saw 800W - TS2081356.jpg',
+                                                'assets/img/jig saws and recip saws/Total Jig Saw 800W - TS2081356-3.jpg',
+                                                'assets/img/jig saws and recip saws/Total Jig Saw 800W - TS2081356-2.jpg',
+                                                'assets/img/jig saws and recip saws/Total Jig Saw 800W - TS2081356-4.jpg'
                                             ],
 
                                                 videos: [
@@ -5256,10 +5258,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         discountPrice: 130000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324225/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI20558E.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324224/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI20558E-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324225/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI20558E-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324223/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI20558E-4.jpg'
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI20558E).jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI20558E)-3.jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI20558E)-2.jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI20558E)-4.jpg'
                                             ],
 
                                                 videos: [
@@ -5345,10 +5347,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         discountPrice: 138000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324216/Astonic-Mart/Products/drills/TOTAL_Brushless_Cordless_Impact_Drill_66Nm_TIDLI20668.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324223/Astonic-Mart/Products/drills/TOTAL_Brushless_Cordless_Impact_Drill_66Nm_TIDLI20668-4.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324216/Astonic-Mart/Products/drills/TOTAL_Brushless_Cordless_Impact_Drill_66Nm_TIDLI20668-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324219/Astonic-Mart/Products/drills/TOTAL_Brushless_Cordless_Impact_Drill_66Nm_TIDLI20668-2.webp'
+                                                'assets/img/drills/TOTAL Brushless Cordless Impact Drill 66Nm (TIDLI20668).jpg',
+                                                'assets/img/drills/TOTAL Brushless Cordless Impact Drill 66Nm (TIDLI20668)-4.webp',
+                                                'assets/img/drills/TOTAL Brushless Cordless Impact Drill 66Nm (TIDLI20668)-3.jpeg',
+                                                'assets/img/drills/TOTAL Brushless Cordless Impact Drill 66Nm (TIDLI20668)-2.webp'
                                             ],
 
                                                 videos: [
@@ -5435,9 +5437,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 112000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324017/Astonic-Mart/Products/drills/ingco_Ingco_20V_Brushless_Impact_Driver_285Nm.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324004/Astonic-Mart/Products/drills/ingco_Ingco_20V_Brushless_Impact_Driver_285Nm.jpg-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324017/Astonic-Mart/Products/drills/ingco_Ingco_20V_Brushless_Impact_Driver_285Nm.jpg-3.jpg'
+                                            'assets/img/drills/ingco Ingco 20V Brushless Impact Driver 285Nm.jpg',
+                                            'assets/img/drills/ingco Ingco 20V Brushless Impact Driver 285Nm.jpg-2.jpg',
+                                            'assets/img/drills/ingco Ingco 20V Brushless Impact Driver 285Nm.jpg-3.jpg'
                                         ],
 
                                             videos: [
@@ -5514,10 +5516,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 215000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307975/Astonic-Mart/Products/impact-wrench/Total_Cordless_Impact_Wrench-20v-Tiwli2040.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307975/Astonic-Mart/Products/impact-wrench/Total_Cordless_Impact_Wrench-20v-Tiwli2040.jpg-2.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307975/Astonic-Mart/Products/impact-wrench/Total_Cordless_Impact_Wrench-20v-Tiwli2040.jpg-4.jpeg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307982/Astonic-Mart/Products/impact-wrench/Total_Cordless_Impact_Wrench-20v-Tiwli2040-3.jpg'
+                                        'assets/img/impact-wrench/Total Cordless Impact Wrench-20v-Tiwli2040.jpg',
+                                        'assets/img/impact-wrench/Total Cordless Impact Wrench-20v-Tiwli2040.jpg-2.webp',
+                                        'assets/img/impact-wrench/Total Cordless Impact Wrench-20v-Tiwli2040.jpg-4.jpeg',
+                                        'assets/img/impact-wrench/Total Cordless Impact Wrench-20v-Tiwli2040-3.jpg'
                                     ],
 
                                         videos: [
@@ -5597,11 +5599,11 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 85000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-3.jpg'
+                                            'assets/img/jig saws and recip saws/Maxmech Jig Saw Machine.jpeg-5.jpg',
+                                            'assets/img/jig saws and recip saws/Maxmech Jig Saw Machine.jpeg-4.jpg',
+                                            'assets/img/jig saws and recip saws/Maxmech Jig Saw Machine.jpeg',
+                                            'assets/img/jig saws and recip saws/Maxmech Jig Saw Machine.jpeg-2.jpg',
+                                            'assets/img/jig saws and recip saws/Maxmech Jig Saw Machine.jpeg-3.jpg'
                                         ],
 
                                             videos: [
@@ -5681,9 +5683,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 210000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323981/Astonic-Mart/Products/drills/ingco_drill_press_DP133505.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323981/Astonic-Mart/Products/drills/ingco_drill_press_DP133505.jpg-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323981/Astonic-Mart/Products/drills/ingco_drill_press_DP133505.jpg-3.webp'
+                                            'assets/img/drills/ingco drill press DP133505.jpg',
+                                            'assets/img/drills/ingco drill press DP133505.jpg-2.webp',
+                                            'assets/img/drills/ingco drill press DP133505.jpg-3.webp'
 
                                         ],
 
@@ -5766,10 +5768,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 120000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328593/Astonic-Mart/Products/routers/ingco_eletric_router-1600w_RT160028-2.jpg-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328593/Astonic-Mart/Products/routers/ingco_eletric_router-1600w_RT160028.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328598/Astonic-Mart/Products/routers/ingco_eletric_router-1600w_RT160028-4.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328593/Astonic-Mart/Products/routers/ingco_eletric_router-1600w_RT160028-2.jpg'
+                                        'assets/img/routers/ingco eletric router-1600w RT160028-2.jpeg-3.webp',
+                                        'assets/img/routers/ingco eletric router-1600w RT160028.jpeg',
+                                        'assets/img/routers/ingco eletric router-1600w RT160028-4.webp',
+                                        'assets/img/routers/ingco eletric router-1600w RT160028-2.jpeg'
 
 
                                     ],
@@ -5851,10 +5853,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 165000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304735/Astonic-Mart/Products/chain%20and%20%20band%20saws/workflex_chainsaw_24_inches.jpg-1.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304735/Astonic-Mart/Products/chain%20and%20%20band%20saws/workflex_chainsaw_24_inches.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304735/Astonic-Mart/Products/chain%20and%20%20band%20saws/workflex_chainsaw_24_inches.jpg-2.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304735/Astonic-Mart/Products/chain%20and%20%20band%20saws/workflex_chainsaw_24_inches.jpg'
+                                            'assets/img/chain and  band saws/workflex chainsaw 24 inches.jpg-1.png',
+                                            'assets/img/chain and  band saws/workflex chainsaw 24 inches.jpg',
+                                            'assets/img/chain and  band saws/workflex chainsaw 24 inches.jpg-2.png',
+                                            'assets/img/chain and  band saws/workflex chainsaw 24 inches.jpg'
                                         ],
 
                                             videos: [
@@ -5936,9 +5938,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 185000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306346/Astonic-Mart/Products/drills/workflex_drill_press.png-2.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306344/Astonic-Mart/Products/drills/workflex_drill_press.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324288/Astonic-Mart/Products/drills/workflex_drill_press.png-3.jpg'
+                                            'assets/img/drills/workflex drill press.png-2.png',
+                                            'assets/img/drills/workflex drill press.png',
+                                            'assets/img/drills/workflex drill press.png-3.jpg'
                                         ],
 
                                             videos: [
@@ -6017,7 +6019,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 78000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307523/Astonic-Mart/Products/grinders/workflex_bench_grinders.jpg',
+                                        'assets/img/grinders/workflex bench grinders.jpg',
                                     ],
 
                                         videos: [
@@ -6094,11 +6096,11 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 42000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329347/Astonic-Mart/Products/spray%20guns/Ingco_ELECTRIC_HVLP_PAINT_SPRAYER_GUN_550W.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329347/Astonic-Mart/Products/spray%20guns/Ingco_ELECTRIC_HVLP_PAINT_SPRAYER_GUN_550W.jpg-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329347/Astonic-Mart/Products/spray%20guns/Ingco_ELECTRIC_HVLP_PAINT_SPRAYER_GUN_550W.jpg-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329347/Astonic-Mart/Products/spray%20guns/Ingco_ELECTRIC_HVLP_PAINT_SPRAYER_GUN_550W.jpg-4.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329347/Astonic-Mart/Products/spray%20guns/Ingco_ELECTRIC_HVLP_PAINT_SPRAYER_GUN_550W.jpg-5.jpg'
+                                        'assets/img/spray guns/Ingco ELECTRIC HVLP PAINT SPRAYER GUN 550W.jpg',
+                                        'assets/img/spray guns/Ingco ELECTRIC HVLP PAINT SPRAYER GUN 550W.jpg-2.jpg',
+                                        'assets/img/spray guns/Ingco ELECTRIC HVLP PAINT SPRAYER GUN 550W.jpg-3.webp',
+                                        'assets/img/spray guns/Ingco ELECTRIC HVLP PAINT SPRAYER GUN 550W.jpg-4.webp',
+                                        'assets/img/spray guns/Ingco ELECTRIC HVLP PAINT SPRAYER GUN 550W.jpg-5.jpg'
                                     ],
 
                                         videos: [
@@ -6177,9 +6179,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 75000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324208/Astonic-Mart/Products/drills/tools_box_kit_set_with_electric_drill_13mm_machine.jpg-3.jpeg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324208/Astonic-Mart/Products/drills/tools_box_kit_set_with_electric_drill_13mm_machine.jpg-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324208/Astonic-Mart/Products/drills/tools_box_kit_set_with_electric_drill_13mm_machine.jpg'
+                                            'assets/img/drills/tools box kit set with electric drill 13mm machine.jpg-3.jpeg',
+                                            'assets/img/drills/tools box kit set with electric drill 13mm machine.jpg-2.jpg',
+                                            'assets/img/drills/tools box kit set with electric drill 13mm machine.jpg'
                                         ],
 
                                             videos: [
@@ -6264,10 +6266,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 170000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305980/Astonic-Mart/Products/demolition%20breakers/maxmech_demo_breaker-1450w-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305976/Astonic-Mart/Products/demolition%20breakers/maxmech_demo_breaker-1450w.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305978/Astonic-Mart/Products/demolition%20breakers/maxmech_demo_breaker-1450w-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305976/Astonic-Mart/Products/demolition%20breakers/maxmech_demo_breaker-1450w.jpg',
+                                            'assets/img/demolition breakers/maxmech demo breaker-1450w-3.jpg',
+                                            'assets/img/demolition breakers/maxmech demo breaker-1450w.jpg',
+                                            'assets/img/demolition breakers/maxmech demo breaker-1450w-2.jpg',
+                                            'assets/img/demolition breakers/maxmech demo breaker-1450w.jpg',
 
                                         ],
 
@@ -6348,10 +6350,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 price: 45000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304389/Astonic-Mart/Products/blowers/total_400w_aspirator_blower_tb4036.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304391/Astonic-Mart/Products/blowers/total_400w_aspirator_blower_tb4036-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304390/Astonic-Mart/Products/blowers/total_400w_aspirator_blower_tb4036-2.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304392/Astonic-Mart/Products/blowers/total_400w_aspirator_blower_tb4036-4.webp'
+                                        'assets/img/blowers/total 400w aspirator blower tb4036.jpg',
+                                        'assets/img/blowers/total 400w aspirator blower tb4036-3.jpg',
+                                        'assets/img/blowers/total 400w aspirator blower tb4036-2.webp',
+                                        'assets/img/blowers/total 400w aspirator blower tb4036-4.webp'
                                     ],
 
                                         videos: [
@@ -6428,10 +6430,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 180000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786330367/Astonic-Mart/Products/wall%20chasers/TOTAL_WALL_CHASER_1.500W_TWLC1256.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786330368/Astonic-Mart/Products/wall%20chasers/TOTAL_WALL_CHASER_1.500W_TWLC1256-4.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786330368/Astonic-Mart/Products/wall%20chasers/TOTAL_WALL_CHASER_1.500W_TWLC1256-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786330364/Astonic-Mart/Products/wall%20chasers/TOTAL_WALL_CHASER_1.500W_TWLC1256-2.jpg'
+                                        'assets/img/wall chasers/TOTAL WALL CHASER 1.500W (TWLC1256).jpg',
+                                        'assets/img/wall chasers/TOTAL WALL CHASER 1.500W (TWLC1256)-4.webp',
+                                        'assets/img/wall chasers/TOTAL WALL CHASER 1.500W (TWLC1256)-3.jpg',
+                                        'assets/img/wall chasers/TOTAL WALL CHASER 1.500W (TWLC1256)-2.jpg'
                                     ],
 
                                         videos: [
@@ -6512,9 +6514,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 35000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307704/Astonic-Mart/Products/heatguns/orange_heat_gun.webp-2.avif',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307703/Astonic-Mart/Products/heatguns/orange_heat_gun.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307705/Astonic-Mart/Products/heatguns/orange_heat_gun.webp-3.jpg'
+                                        'assets/img/heatguns/orange heat gun.webp-2.avif',
+                                        'assets/img/heatguns/orange heat gun.webp',
+                                        'assets/img/heatguns/orange heat gun.webp-3.jpg'
                                     ],
 
                                         videos: [
@@ -6591,10 +6593,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 90000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328954/Astonic-Mart/Products/sanders/ingco_Rotary_sander_RS4508.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328941/Astonic-Mart/Products/sanders/ingco_Rotary_sander_RS4508.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328941/Astonic-Mart/Products/sanders/ingco_Rotary_sander_RS4508.jpg-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328948/Astonic-Mart/Products/sanders/ingco_Rotary_sander_RS4508.webp-2.webp',
+                                        'assets/img/sanders/ingco Rotary sander RS4508.webp',
+                                        'assets/img/sanders/ingco Rotary sander RS4508.jpg',
+                                        'assets/img/sanders/ingco Rotary sander RS4508.jpg-4.jpg',
+                                        'assets/img/sanders/ingco Rotary sander RS4508.webp-2.webp',
                                     ],
 
                                         videos: [
@@ -6673,9 +6675,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 370000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329409/Astonic-Mart/Products/table%20and%20band%20saws/ferrex_table_saw.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329409/Astonic-Mart/Products/table%20and%20band%20saws/ferrex_table_saw.jpg-1800w-2.png',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329409/Astonic-Mart/Products/table%20and%20band%20saws/ferrex_table_saw.jpg-1800w.png'
+                                        'assets/img/table and band saws/ferrex table saw.jpg',
+                                        'assets/img/table and band saws/ferrex table saw.jpg-1800w-2.png',
+                                        'assets/img/table and band saws/ferrex table saw.jpg-1800w.png'
                                     ],
 
                                         videos: [
@@ -6759,9 +6761,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 36000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307482/Astonic-Mart/Products/grinders/maxmech_angle_grinder-950w.jpg-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307482/Astonic-Mart/Products/grinders/maxmech_angle_grinder-950w.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307483/Astonic-Mart/Products/grinders/maxmech_angle_grinder-950w.jpg-2.jpg'
+                                            'assets/img/grinders/maxmech angle grinder-950w.jpg-4.jpg',
+                                            'assets/img/grinders/maxmech angle grinder-950w.jpg',
+                                            'assets/img/grinders/maxmech angle grinder-950w.jpg-2.jpg'
                                         ],
 
                                             videos: [
@@ -6839,11 +6841,11 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 168000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305969/Astonic-Mart/Products/demolition%20breakers/ingco_demo_breakers_1300w_PDB13008.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305970/Astonic-Mart/Products/demolition%20breakers/ingco_demo_breakers_1300w_PDB13008.jpeg-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305971/Astonic-Mart/Products/demolition%20breakers/ingco_demo_breakers_1300w_PDB13008.jpeg-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305973/Astonic-Mart/Products/demolition%20breakers/ingco_demo_breakers_1300w_PDB13008.jpeg-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305974/Astonic-Mart/Products/demolition%20breakers/ingco_demo_breakers_1300w_PDB13008.jpeg-6.jpg'
+                                            'assets/img/demolition breakers/ingco demo breakers 1300w PDB13008.jpeg',
+                                            'assets/img/demolition breakers/ingco demo breakers 1300w PDB13008.jpeg-2.webp',
+                                            'assets/img/demolition breakers/ingco demo breakers 1300w PDB13008.jpeg-3.jpg',
+                                            'assets/img/demolition breakers/ingco demo breakers 1300w PDB13008.jpeg-5.jpg',
+                                            'assets/img/demolition breakers/ingco demo breakers 1300w PDB13008.jpeg-6.jpg'
                                         ],
 
                                             videos: [
@@ -6923,7 +6925,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 235000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305987/Astonic-Mart/Products/demolition%20breakers/maxmech_demo_breakers-1850w.jpg',
+                                            'assets/img/demolition breakers/maxmech demo breakers-1850w.jpg',
                                         ],
 
                                             videos: [
@@ -7004,8 +7006,8 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 39000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307478/Astonic-Mart/Products/grinders/maxmech_angle_grinder_AG_950-115L.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307479/Astonic-Mart/Products/grinders/maxmech_angle_grinder_AG_950-115L.jpg-2.jpg'
+                                            'assets/img/grinders/maxmech angle grinder AG 950-115L.jpg',
+                                            'assets/img/grinders/maxmech angle grinder AG 950-115L.jpg-2.jpg'
                                         ],
 
                                             videos: [
@@ -7084,8 +7086,8 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 98000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328597/Astonic-Mart/Products/routers/maxmech_router_er_1600-12.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328597/Astonic-Mart/Products/routers/maxmech_router_er_1600-12-2.jpg'
+                                        'assets/img/routers/maxmech router er 1600-12.jpg',
+                                        'assets/img/routers/maxmech router er 1600-12-2.jpg'
                                     ],
 
                                         videos: [
@@ -7165,7 +7167,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 86000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307485/Astonic-Mart/Products/grinders/maxmech_bench_grinder_-_b650-205.jpg',
+                                            'assets/img/grinders/maxmech bench grinder - b650-205.jpg',
                                         ],
 
                                             videos: [
@@ -7246,8 +7248,8 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 64000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307485/Astonic-Mart/Products/grinders/MAXMECH_Bench_Grinder_B450-150.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307486/Astonic-Mart/Products/grinders/MAXMECH_Bench_Grinder_B450-150-2.jpg'
+                                            'assets/img/grinders/MAXMECH Bench Grinder (B450-150.jpg',
+                                            'assets/img/grinders/MAXMECH Bench Grinder (B450-150-2.jpg'
                                         ],
 
                                             videos: [
@@ -7323,10 +7325,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 price: 320000,
                                     discountPrice: 300000,
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305999/Astonic-Mart/Products/demolition%20breakers/TOTAL_DEMOLITION_BREAKER_SDS-HEX_1.700W_TH215456.jpg-1.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306002/Astonic-Mart/Products/demolition%20breakers/TOTAL_DEMOLITION_BREAKER_SDS-HEX_1.700W_TH215456.jpg-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306003/Astonic-Mart/Products/demolition%20breakers/TOTAL_DEMOLITION_BREAKER_SDS-HEX_1.700W_TH215456.jpg-3.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305999/Astonic-Mart/Products/demolition%20breakers/TOTAL_DEMOLITION_BREAKER_SDS-HEX_1.700W_TH215456.jpg'
+                                            'assets/img/demolition breakers/TOTAL DEMOLITION BREAKER SDS-HEX 1.700W (TH215456).jpg-1.jpg',
+                                            'assets/img/demolition breakers/TOTAL DEMOLITION BREAKER SDS-HEX 1.700W (TH215456).jpg-2.jpg',
+                                            'assets/img/demolition breakers/TOTAL DEMOLITION BREAKER SDS-HEX 1.700W (TH215456).jpg-3.webp',
+                                            'assets/img/demolition breakers/TOTAL DEMOLITION BREAKER SDS-HEX 1.700W (TH215456).jpg'
 
                                         ],
 
@@ -7409,9 +7411,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 280000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305995/Astonic-Mart/Products/demolition%20breakers/total_Demolition_breaker_TH217088.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305998/Astonic-Mart/Products/demolition%20breakers/total_Demolition_breaker_TH217088-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305997/Astonic-Mart/Products/demolition%20breakers/total_Demolition_breaker_TH217088.jpg-3.jpg'
+                                            'assets/img/demolition breakers/total Demolition breaker (TH217088).jpg',
+                                            'assets/img/demolition breakers/total Demolition breaker (TH217088)-2.webp',
+                                            'assets/img/demolition breakers/total Demolition breaker (TH217088).jpg-3.jpg'
 
                                         ],
 
@@ -7494,11 +7496,11 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 270000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305991/Astonic-Mart/Products/demolition%20breakers/TH217068_Demolition_Breaker-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305992/Astonic-Mart/Products/demolition%20breakers/TH217068_Demolition_Breaker-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305993/Astonic-Mart/Products/demolition%20breakers/TH217068_Demolition_Breaker-4.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305989/Astonic-Mart/Products/demolition%20breakers/TH217068_Demolition_Breaker.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305989/Astonic-Mart/Products/demolition%20breakers/TH217068_Demolition_Breaker.jpg'
+                                            'assets/img/demolition breakers/TH217068 Demolition Breaker-2.jpg',
+                                            'assets/img/demolition breakers/TH217068 Demolition Breaker-3.jpg',
+                                            'assets/img/demolition breakers/TH217068 Demolition Breaker-4.webp',
+                                            'assets/img/demolition breakers/TH217068 Demolition Breaker.jpg',
+                                            'assets/img/demolition breakers/TH217068 Demolition Breaker.jpg'
                                         ],
 
                                             videos: [
@@ -7577,10 +7579,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 48000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323995/Astonic-Mart/Products/drills/ingco_impact_drill_680w.webp-4.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323996/Astonic-Mart/Products/drills/ingco_impact_drill_680w.webp-3.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323992/Astonic-Mart/Products/drills/ingco_impact_drill_680w.webp-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323995/Astonic-Mart/Products/drills/ingco_impact_drill_680w.webp'
+                                            'assets/img/drills/ingco impact drill 680w.webp-4.png',
+                                            'assets/img/drills/ingco impact drill 680w.webp-3.webp',
+                                            'assets/img/drills/ingco impact drill 680w.webp-2.jpeg',
+                                            'assets/img/drills/ingco impact drill 680w.webp'
                                         ],
 
                                             videos: [
@@ -7658,10 +7660,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 78000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307504/Astonic-Mart/Products/grinders/Total_Die_Grinder_400w_tg504062.png',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307504/Astonic-Mart/Products/grinders/Total_Die_Grinder_400w_tg504062.png-2.jpeg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307504/Astonic-Mart/Products/grinders/Total_Die_Grinder_400w_tg504062.png-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307504/Astonic-Mart/Products/grinders/Total_Die_Grinder_400w_tg504062.png-5.jpg'
+                                        'assets/img/grinders/Total Die Grinder 400w tg504062.png',
+                                        'assets/img/grinders/Total Die Grinder 400w tg504062.png-2.jpeg',
+                                        'assets/img/grinders/Total Die Grinder 400w tg504062.png-3.webp',
+                                        'assets/img/grinders/Total Die Grinder 400w tg504062.png-5.jpg'
                                     ],
 
                                         videos: [
@@ -7738,9 +7740,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 18000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304370/Astonic-Mart/Products/blowers/ingco_Aspirator_blower_400w_AB4018.jpg-3.jpeg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304370/Astonic-Mart/Products/blowers/ingco_Aspirator_blower_400w_AB4018.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304373/Astonic-Mart/Products/blowers/ingco_Aspirator_blower_AB4018.jpg'
+                                        'assets/img/blowers/ingco Aspirator blower 400w AB4018.jpg-3.jpeg',
+                                        'assets/img/blowers/ingco Aspirator blower 400w AB4018.jpg',
+                                        'assets/img/blowers/ingco Aspirator blower AB4018.jpg'
                                     ],
 
                                         videos: [
@@ -7816,10 +7818,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 245000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305057/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_MITRE_SAW_1.400W_TS42142107.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305057/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_MITRE_SAW_1.400W_TS42142107.jpg-3.jpeg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305057/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_MITRE_SAW_1.400W_TS42142107.jpg-4.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305057/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_MITRE_SAW_1.400W_TS42142107.jpg-2.webp'
+                                            'assets/img/circular and mitre saws/TOTAL MITRE SAW 1.400W (TS42142107).jpg',
+                                            'assets/img/circular and mitre saws/TOTAL MITRE SAW 1.400W (TS42142107).jpg-3.jpeg',
+                                            'assets/img/circular and mitre saws/TOTAL MITRE SAW 1.400W (TS42142107).jpg-4.webp',
+                                            'assets/img/circular and mitre saws/TOTAL MITRE SAW 1.400W (TS42142107).jpg-2.webp'
                                         ],
 
                                             videos: [
@@ -7900,10 +7902,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
 
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307548/Astonic-Mart/Products/guns%20and%20trimmers/TOTAL_Laminate_trimmer_600W_TLT6001.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307550/Astonic-Mart/Products/guns%20and%20trimmers/TOTAL_Laminate_trimmer_600W_TLT6001.jpg-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307551/Astonic-Mart/Products/guns%20and%20trimmers/TOTAL_Laminate_trimmer_600W_TLT6001.jpg-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307552/Astonic-Mart/Products/guns%20and%20trimmers/TOTAL_Laminate_trimmer_600W_TLT6001.jpg-4.jpg'
+                                    'assets/img/guns and trimmers/TOTAL Laminate trimmer 600W (TLT6001).jpg',
+                                    'assets/img/guns and trimmers/TOTAL Laminate trimmer 600W (TLT6001).jpg-2.jpeg',
+                                    'assets/img/guns and trimmers/TOTAL Laminate trimmer 600W (TLT6001).jpg-3.jpg',
+                                    'assets/img/guns and trimmers/TOTAL Laminate trimmer 600W (TLT6001).jpg-4.jpeg'
                                 ],
 
                                     videos: [
@@ -7983,9 +7985,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 52000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307553/Astonic-Mart/Products/guns%20and%20trimmers/total_laminate_trimmer-500w.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307553/Astonic-Mart/Products/guns%20and%20trimmers/total_laminate_trimmer-500w.webp-2.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307553/Astonic-Mart/Products/guns%20and%20trimmers/total_laminate_trimmer-500w.webp-3.jpeg'
+                                        'assets/img/guns and trimmers/total laminate trimmer-500w.webp',
+                                        'assets/img/guns and trimmers/total laminate trimmer-500w.webp-2.webp',
+                                        'assets/img/guns and trimmers/total laminate trimmer-500w.webp-3.jpeg'
                                     ],
 
                                         videos: [
@@ -8068,8 +8070,8 @@ Ideal for construction, fabrication, carpentry and maintenance work
 
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323903/Astonic-Mart/Products/drills/Edon_Cordless_Drill_with_Hammer_36v.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786306112/Astonic-Mart/Products/drills/Edon_Cordless_Drill_with_Hammer_36v.webp-2.jpg'
+                                        'assets/img/drills/Edon Cordless Drill with Hammer 36v.webp',
+                                        'assets/img/drills/Edon Cordless Drill with Hammer 36v.webp-2.jpg'
                                     ],
 
                                         videos: [
@@ -8153,7 +8155,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         discountPrice: 75000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311612/Astonic-Mart/Products/rotary%20hammers/800w_Maxmech_Rotary_Hammer.jpg',
+                                                'assets/img/rotary hammers/800w Maxmech Rotary Hammer.jpg',
                                             ],
 
                                                 videos: [
@@ -8237,10 +8239,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 60000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306113/Astonic-Mart/Products/drills/edon_cordless_drill-21v.avif',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323906/Astonic-Mart/Products/drills/edon_cordless_drill-21v-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323906/Astonic-Mart/Products/drills/edon_cordless_drill-21v-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306114/Astonic-Mart/Products/drills/edon_cordless_drill-21v-2.avif'
+                                            'assets/img/drills/edon cordless drill-21v.avif',
+                                            'assets/img/drills/edon cordless drill-21v-4.jpg',
+                                            'assets/img/drills/edon cordless drill-21v-3.jpeg',
+                                            'assets/img/drills/edon cordless drill-21v-2.avif'
                                         ],
 
                                             videos: [
@@ -8323,9 +8325,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 33000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323907/Astonic-Mart/Products/drills/edon_cordless_drill-ad-21v.jpg-3.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323907/Astonic-Mart/Products/drills/edon_cordless_drill-ad-21v.jpg-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786323907/Astonic-Mart/Products/drills/edon_cordless_drill-ad-21v.jpg'
+                                            'assets/img/drills/edon cordless drill-ad-21v.jpg-3.webp',
+                                            'assets/img/drills/edon cordless drill-ad-21v.jpg-2.webp',
+                                            'assets/img/drills/edon cordless drill-ad-21v.jpg'
                                         ],
 
                                             videos: [
@@ -8407,9 +8409,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 80000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786310512/Astonic-Mart/Products/ppr/edon_ppr_machine-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786310510/Astonic-Mart/Products/ppr/edon_ppr_machine.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786310512/Astonic-Mart/Products/ppr/edon_ppr_machine-2.jpg'
+                                        'assets/img/ppr/edon ppr machine-2.jpg',
+                                        'assets/img/ppr/edon ppr machine.jpg',
+                                        'assets/img/ppr/edon ppr machine-2.jpg'
                                     ],
 
                                         videos: [
@@ -8489,9 +8491,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 130000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305583/Astonic-Mart/Products/combo%20kits/total_cordless_tile_vibrtor.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305585/Astonic-Mart/Products/combo%20kits/total_cordless_tile_vibrtor-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305583/Astonic-Mart/Products/combo%20kits/total_cordless_tile_vibrtor.jpg-2.png'
+                                        'assets/img/combo kits/total cordless tile vibrtor.jpeg',
+                                        'assets/img/combo kits/total cordless tile vibrtor-2.jpeg',
+                                        'assets/img/combo kits/total cordless tile vibrtor.jpeg-2.png'
                                     ],
 
                                         videos: [
@@ -8570,9 +8572,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 235000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306106/Astonic-Mart/Products/drills/earth_augers.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306106/Astonic-Mart/Products/drills/earth_augers.webp-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306106/Astonic-Mart/Products/drills/earth_augers.webp-3.webp'
+                                            'assets/img/drills/earth augers.webp',
+                                            'assets/img/drills/earth augers.webp-2.webp',
+                                            'assets/img/drills/earth augers.webp-3.webp'
                                         ],
 
                                             videos: [
@@ -8650,10 +8652,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 760000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307823/Astonic-Mart/Products/impact-wrench/ingco_Air_Impact_Wrench_1_Inch_Square_Drive_AIW11222_ING-PT.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307824/Astonic-Mart/Products/impact-wrench/ingco_Air_Impact_Wrench_1_Inch_Square_Drive_AIW11222_ING-PT.webp3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307822/Astonic-Mart/Products/impact-wrench/ingco_Air_Impact_Wrench_1_Inch_Square_Drive_AIW11222_ING-PT.web2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307825/Astonic-Mart/Products/impact-wrench/ingco_Air_Impact_Wrench_1_Inch_Square_Drive_AIW11222_ING-PT.webp-4.jpg'
+                                            'assets/img/impact-wrench/ingco Air Impact Wrench 1 Inch Square Drive AIW11222 ING-PT.webp',
+                                            'assets/img/impact-wrench/ingco Air Impact Wrench 1 Inch Square Drive AIW11222 ING-PT.webp3.jpeg',
+                                            'assets/img/impact-wrench/ingco Air Impact Wrench 1 Inch Square Drive AIW11222 ING-PT.web2.webp',
+                                            'assets/img/impact-wrench/ingco Air Impact Wrench 1 Inch Square Drive AIW11222 ING-PT.webp-4.jpg'
                                         ],
 
                                             videos: [
@@ -8732,10 +8734,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 178000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786310447/Astonic-Mart/Products/polishers/TOTAL_Cordless_polisher_20V_TAPLI2018.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786310447/Astonic-Mart/Products/polishers/TOTAL_Cordless_polisher_20V_TAPLI2018.webp-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786310447/Astonic-Mart/Products/polishers/TOTAL_Cordless_polisher_20V_TAPLI2018.webp-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786310447/Astonic-Mart/Products/polishers/TOTAL_Cordless_polisher_20V_TAPLI2018.webp-4.webp'
+                                        'assets/img/polishers/TOTAL Cordless polisher  20V (TAPLI2018).webp',
+                                        'assets/img/polishers/TOTAL Cordless polisher  20V (TAPLI2018).webp-2.jpg',
+                                        'assets/img/polishers/TOTAL Cordless polisher  20V (TAPLI2018).webp-3.webp',
+                                        'assets/img/polishers/TOTAL Cordless polisher  20V (TAPLI2018).webp-4.webp'
                                     ],
 
                                         videos: [
@@ -8814,7 +8816,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
 
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305582/Astonic-Mart/Products/combo%20kits/total_Cordless_3_Pcs_Combo_Kit_%5BTOSLI250282%5D.jpg',
+                                    'assets/img/combo kits/total Cordless 3 Pcs Combo Kit [TOSLI250282].jpg',
                                 ],
 
                                     videos: [
@@ -8921,7 +8923,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 600000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305581/Astonic-Mart/Products/combo%20kits/TOTAL_9_Pcs_cordless_industrial_combo_kit.jpg',
+                                        'assets/img/combo kits/TOTAL 9 Pcs cordless industrial combo kit.jpg',
                                     ],
 
                                         videos: [
@@ -9013,9 +9015,9 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         discountPrice: 230000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311895/Astonic-Mart/Products/rotary%20hammers/TOTAL_Cordless_RM_20V_26mm_TRHLI21228.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311898/Astonic-Mart/Products/rotary%20hammers/TOTAL_Cordless_RM_20V_26mm_TRHLI21228-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311896/Astonic-Mart/Products/rotary%20hammers/TOTAL_Cordless_RM_20V_26mm_TRHLI21228-2.jpg',
+                                                'assets/img/rotary hammers/TOTAL Cordless RM 20V 26mm (TRHLI21228).jpg',
+                                                'assets/img/rotary hammers/TOTAL Cordless RM 20V 26mm (TRHLI21228)-3.jpg',
+                                                'assets/img/rotary hammers/TOTAL Cordless RM 20V 26mm (TRHLI21228)-2.jpg',
 
                                             ],
 
@@ -9112,7 +9114,7 @@ Ideal for construction and maintenance work
                                     discountPrice: 640000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324253/Astonic-Mart/Products/drills/total_drill_press-750w.jpg',
+                                            'assets/img/drills/total drill press-750w.png',
                                         ],
 
                                             videos: [
@@ -9194,11 +9196,11 @@ Ideal for construction and maintenance work
                                 inStock: true,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323962/Astonic-Mart/Products/drills/INGCO_CDLI205581_20V_Cordless_Brushless_Drill_5Nm.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323969/Astonic-Mart/Products/drills/INGCO_CDLI205581_20V_Cordless_Brushless_Drill_5Nm-5.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323969/Astonic-Mart/Products/drills/INGCO_CDLI205581_20V_Cordless_Brushless_Drill_5Nm-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323962/Astonic-Mart/Products/drills/INGCO_CDLI205581_20V_Cordless_Brushless_Drill_5Nm.webp-3.jpeg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786323973/Astonic-Mart/Products/drills/INGCO_CDLI205581_20V_Cordless_Brushless_Drill_5Nm-4.webp'
+                                        'assets/img/drills/INGCO CDLI205581 20V Cordless Brushless Drill 5Nm.webp',
+                                        'assets/img/drills/INGCO CDLI205581 20V Cordless Brushless Drill 5Nm-5.jpg',
+                                        'assets/img/drills/INGCO CDLI205581 20V Cordless Brushless Drill 5Nm-2.jpeg',
+                                        'assets/img/drills/INGCO CDLI205581 20V Cordless Brushless Drill 5Nm.webp-3.jpeg',
+                                        'assets/img/drills/INGCO CDLI205581 20V Cordless Brushless Drill 5Nm-4.webp'
                                     ],
 
                                         description:
@@ -9252,10 +9254,10 @@ Ideal for construction and maintenance work
                             price: 190000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304137/Astonic-Mart/Products/bag%20closers/lpi_bag_closers.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304137/Astonic-Mart/Products/bag%20closers/lpi_bag_closers.jpg-4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304141/Astonic-Mart/Products/bag%20closers/lpi_bag_closers-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304137/Astonic-Mart/Products/bag%20closers/lpi_bag_closers.jpg-3.png'
+                                    'assets/img/bag closers/lpi bag closers.jpg',
+                                    'assets/img/bag closers/lpi bag closers.jpg-4.jpg',
+                                    'assets/img/bag closers/lpi bag closers-2.jpg',
+                                    'assets/img/bag closers/lpi bag closers.jpg-3.png'
                                 ],
 
                                     inStock: true,
@@ -9303,9 +9305,9 @@ Ideal for warehouses and packaging facilities`
                             price: 200000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304135/Astonic-Mart/Products/bag%20closers/lp_double_thread_bag_closer-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304134/Astonic-Mart/Products/bag%20closers/lp_double_thread_bag_closer-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304133/Astonic-Mart/Products/bag%20closers/lp_double_thread_bag_closer.jpg-2.webp'
+                                    'assets/img/bag closers/lp double thread bag closer-3.jpg',
+                                    'assets/img/bag closers/lp double thread bag closer-2.jpg',
+                                    'assets/img/bag closers/lp double thread bag closer.jpg-2.webp'
                                 ],
 
                                     inStock: true,
@@ -9356,11 +9358,11 @@ Ideal for factories, farms, and warehouses`
                                 discountPrice: 470000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329427/Astonic-Mart/Products/table%20and%20band%20saws/ingco_2600w_table_saw_TS26005.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329426/Astonic-Mart/Products/table%20and%20band%20saws/ingco_2600w_table_saw_TS26005.jpg-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329426/Astonic-Mart/Products/table%20and%20band%20saws/ingco_2600w_table_saw_TS26005.jpg-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329426/Astonic-Mart/Products/table%20and%20band%20saws/ingco_2600w_table_saw_TS26005.jpg-5.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329429/Astonic-Mart/Products/table%20and%20band%20saws/ingco_2600w_table_saw_TS26005-2.jpg'
+                                        'assets/img/table and band saws/ingco 2600w table saw TS26005.jpg',
+                                        'assets/img/table and band saws/ingco 2600w table saw TS26005.jpg-3.jpeg',
+                                        'assets/img/table and band saws/ingco 2600w table saw TS26005.jpg-4.jpeg',
+                                        'assets/img/table and band saws/ingco 2600w table saw TS26005.jpg-5.jpeg',
+                                        'assets/img/table and band saws/ingco 2600w table saw TS26005-2.jpg'
                                     ],
 
                                         videos: [],
@@ -9438,10 +9440,10 @@ Accessories
                                     discountPrice: 810000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306056/Astonic-Mart/Products/drills/50mm_magnetic_drills.jpg-4.avif',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306056/Astonic-Mart/Products/drills/50mm_magnetic_drills.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306056/Astonic-Mart/Products/drills/50mm_magnetic_drills.jpg-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306056/Astonic-Mart/Products/drills/50mm_magnetic_drills.jpg-3.jpeg'
+                                            'assets/img/drills/50mm magnetic drills.jpeg-4.avif',
+                                            'assets/img/drills/50mm magnetic drills.jpeg',
+                                            'assets/img/drills/50mm magnetic drills.jpeg-2.jpg',
+                                            'assets/img/drills/50mm magnetic drills.jpeg-3.jpeg'
                                         ],
 
                                             videos: [],
@@ -9521,10 +9523,10 @@ Accessories
                                         discountPrice: 165000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304982/Astonic-Mart/Products/circular%20and%20mitre%20saws/ingco_circular_saw_2200w_CS2358.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304982/Astonic-Mart/Products/circular%20and%20mitre%20saws/ingco_circular_saw_2200w_CS2358.jpg-2.jpeg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304982/Astonic-Mart/Products/circular%20and%20mitre%20saws/ingco_circular_saw_2200w_CS2358.jpg-3.jpeg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304982/Astonic-Mart/Products/circular%20and%20mitre%20saws/ingco_circular_saw_2200w_CS2358.jpg-4.webp'
+                                                'assets/img/circular and mitre saws/ingco circular saw 2200w CS2358.jpg',
+                                                'assets/img/circular and mitre saws/ingco circular saw 2200w CS2358.jpg-2.jpeg',
+                                                'assets/img/circular and mitre saws/ingco circular saw 2200w CS2358.jpg-3.jpeg',
+                                                'assets/img/circular and mitre saws/ingco circular saw 2200w CS2358.jpg-4.webp'
                                             ],
 
                                                 inStock: true,
@@ -9575,10 +9577,10 @@ Accessories
                                     price: 140000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307501/Astonic-Mart/Products/grinders/TOTAL_Cordless_Brushless_Angle_G_TAGLI261521-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307499/Astonic-Mart/Products/grinders/TOTAL_Cordless_Brushless_Angle_G_TAGLI261521-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307502/Astonic-Mart/Products/grinders/TOTAL_Cordless_Brushless_Angle_G_TAGLI261521-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307499/Astonic-Mart/Products/grinders/TOTAL_Cordless_Brushless_Angle_G_TAGLI261521.jpg'
+                                            'assets/img/grinders/TOTAL Cordless Brushless Angle G (TAGLI261521)-3.jpg',
+                                            'assets/img/grinders/TOTAL Cordless Brushless Angle G (TAGLI261521)-2.jpg',
+                                            'assets/img/grinders/TOTAL Cordless Brushless Angle G (TAGLI261521)-4.jpg',
+                                            'assets/img/grinders/TOTAL Cordless Brushless Angle G (TAGLI261521).jpg'
                                         ],
 
                                             inStock: true,
@@ -9633,11 +9635,11 @@ Suitable for cutting, grinding, polishing and surface preparation on metal and o
                             price: 185000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307685/Astonic-Mart/Products/hand%20mixers/ingco_hand_mixer_1800W.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307686/Astonic-Mart/Products/hand%20mixers/ingco_hand_mixer_1800W.jpeg-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307685/Astonic-Mart/Products/hand%20mixers/ingco_hand_mixer_1800W.webp-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307685/Astonic-Mart/Products/hand%20mixers/ingco_hand_mixer_1800W.webp-4.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307685/Astonic-Mart/Products/hand%20mixers/ingco_hand_mixer_1800W.webp-5.webp'
+                                    'assets/img/hand mixers/ingco hand mixer 1800W.jpeg',
+                                    'assets/img/hand mixers/ingco hand mixer 1800W.jpeg-2.jpg',
+                                    'assets/img/hand mixers/ingco hand mixer 1800W.jpeg-3.jpg',
+                                    'assets/img/hand mixers/ingco hand mixer 1800W.jpeg-4.webp',
+                                    'assets/img/hand mixers/ingco hand mixer 1800W.jpeg-5.webp'
                                 ],
 
                                     inStock: true,
@@ -9687,11 +9689,11 @@ Suitable for cutting, grinding, polishing and surface preparation on metal and o
                             price: 145000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307681/Astonic-Mart/Products/hand%20mixers/INGCO_Electric_Mixer_1400W.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307684/Astonic-Mart/Products/hand%20mixers/INGCO_Electric_Mixer_1400W-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307682/Astonic-Mart/Products/hand%20mixers/INGCO_Electric_Mixer_1400W.jpg-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307682/Astonic-Mart/Products/hand%20mixers/INGCO_Electric_Mixer_1400W.jpg-4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307681/Astonic-Mart/Products/hand%20mixers/INGCO_Electric_Mixer_1400W.jpg-5.webp'
+                                    'assets/img/hand mixers/INGCO Electric Mixer 1400W.jpg',
+                                    'assets/img/hand mixers/INGCO Electric Mixer 1400W-2.jpg',
+                                    'assets/img/hand mixers/INGCO Electric Mixer 1400W.jpg-3.jpeg',
+                                    'assets/img/hand mixers/INGCO Electric Mixer 1400W.jpg-4.jpg',
+                                    'assets/img/hand mixers/INGCO Electric Mixer 1400W.jpg-5.webp'
                                 ],
 
                                     inStock: true,
@@ -9740,10 +9742,10 @@ Suitable for cutting, grinding, polishing and surface preparation on metal and o
                             price: 110000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307677/Astonic-Mart/Products/hand%20mixers/INGCO_Electric_Mixer_1100W.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307678/Astonic-Mart/Products/hand%20mixers/INGCO_Electric_Mixer_1100W.jpg-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307677/Astonic-Mart/Products/hand%20mixers/INGCO_Electric_Mixer_1100W.jpg-3.jpeg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307677/Astonic-Mart/Products/hand%20mixers/INGCO_Electric_Mixer_1100W.jpg-4.jpeg'
+                                    'assets/img/hand mixers/INGCO Electric Mixer 1100W.jpg',
+                                    'assets/img/hand mixers/INGCO Electric Mixer 1100W.jpg-2.jpeg',
+                                    'assets/img/hand mixers/INGCO Electric Mixer 1100W.jpg-3.jpeg',
+                                    'assets/img/hand mixers/INGCO Electric Mixer 1100W.jpg-4.jpeg'
                                 ],
 
                                     inStock: false,
@@ -9796,10 +9798,10 @@ Suitable for cutting, grinding, polishing and surface preparation on metal and o
                                         power: '3000W',
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307443/Astonic-Mart/Products/grinders/ingco_AG_3000w_AG30008.png',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307444/Astonic-Mart/Products/grinders/ingco_AG_3000w_AG30008-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307445/Astonic-Mart/Products/grinders/ingco_AG_3000w_AG30008-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307447/Astonic-Mart/Products/grinders/ingco_AG_3000w_AG30008-4.jpg'
+                                                'assets/img/grinders/ingco AG 3000w AG30008.png',
+                                                'assets/img/grinders/ingco AG 3000w AG30008-2.jpeg',
+                                                'assets/img/grinders/ingco AG 3000w AG30008-3.jpeg',
+                                                'assets/img/grinders/ingco AG 3000w AG30008-4.jpg'
                                             ],
 
                                                 inStock: true,
@@ -9865,10 +9867,10 @@ The AG30008 is ideal for professional fabricators, welders, technicians, and con
                                         power: '3000W',
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307522/Astonic-Mart/Products/grinders/tTOTAL_TG13008_Angle_Grinder_3000W.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307520/Astonic-Mart/Products/grinders/TOTAL_TG13008_Angle_Grinder_3000W.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307519/Astonic-Mart/Products/grinders/TOTAL_TG13008_Angle_Grinder_3000W_230mm-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307521/Astonic-Mart/Products/grinders/TOTAL_TG13008_Angle_Grinder_3000W-4.jpg'
+                                                'assets/img/grinders/tTOTAL TG13008 Angle Grinder 3000W.jpg',
+                                                'assets/img/grinders/TOTAL TG13008 Angle Grinder 3000W.jpg',
+                                                'assets/img/grinders/TOTAL TG13008 Angle Grinder 3000W 230mm-3.jpg',
+                                                'assets/img/grinders/TOTAL TG13008 Angle Grinder 3000W-4.jpg'
                                             ],
 
                                                 inStock: true,
@@ -9935,10 +9937,10 @@ The large 230mm disc capacity makes it ideal for demanding industrial applicatio
                                         power: '2400W',
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307516/Astonic-Mart/Products/grinders/TOTAL_TG1242306_Angle_Grinder_2400W.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307518/Astonic-Mart/Products/grinders/TOTAL_TG1242306_Angle_Grinder_2400W-4.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307516/Astonic-Mart/Products/grinders/TOTAL_TG1242306_Angle_Grinder_2400W-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307517/Astonic-Mart/Products/grinders/TOTAL_TG1242306_Angle_Grinder_2400W-3.jpg',
+                                                'assets/img/grinders/TOTAL TG1242306 Angle Grinder 2400W.jpg',
+                                                'assets/img/grinders/TOTAL TG1242306 Angle Grinder 2400W-4.webp',
+                                                'assets/img/grinders/TOTAL TG1242306 Angle Grinder 2400W-2.jpg',
+                                                'assets/img/grinders/TOTAL TG1242306 Angle Grinder 2400W-3.jpg',
 
                                             ],
 
@@ -9992,10 +9994,10 @@ Powered by a robust 2400W motor, the grinder delivers excellent performance for 
                                         power: '2200W',
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307512/Astonic-Mart/Products/grinders/TOTAL_TG1222306_Angle_Grinder_2200w-1.png',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307514/Astonic-Mart/Products/grinders/TOTAL_TG1222306_Angle_Grinder_2200W-2.avif',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307515/Astonic-Mart/Products/grinders/TOTAL_TG1222306_Angle_Grinder_2200W-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307509/Astonic-Mart/Products/grinders/TOTAL_TG1222306_Angle_Grinder_2200W.avif'
+                                                'assets/img/grinders/TOTAL TG1222306 Angle Grinder 2200w-1.png',
+                                                'assets/img/grinders/TOTAL TG1222306 Angle Grinder 2200W-2.avif',
+                                                'assets/img/grinders/TOTAL TG1222306 Angle Grinder 2200W-3.jpg',
+                                                'assets/img/grinders/TOTAL TG1222306 Angle Grinder 2200W.avif'
                                             ],
 
                                                 inStock: true,
@@ -10048,10 +10050,10 @@ Its robust construction, ergonomic side handle, and large 230mm disc capacity ma
                                         power: '2400W',
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307447/Astonic-Mart/Products/grinders/INGCO_AG24008_Angle_Grinder_2400W.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307451/Astonic-Mart/Products/grinders/INGCO_AG24008_Angle_Grinder_2400W-4.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307449/Astonic-Mart/Products/grinders/INGCO_AG24008_Angle_Grinder_2400W-3.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307448/Astonic-Mart/Products/grinders/INGCO_AG24008_Angle_Grinder_2400W-2.webp'
+                                                'assets/img/grinders/INGCO AG24008 Angle Grinder 2400W.jpg',
+                                                'assets/img/grinders/INGCO AG24008 Angle Grinder 2400W-4.webp',
+                                                'assets/img/grinders/INGCO AG24008 Angle Grinder 2400W-3.webp',
+                                                'assets/img/grinders/INGCO AG24008 Angle Grinder 2400W-2.webp'
                                             ],
 
                                                 inStock: true,
@@ -10103,8 +10105,8 @@ Powered by a 2400W motor, the grinder delivers excellent cutting and grinding pe
                                 power: '2200W',
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305927/Astonic-Mart/Products/cutting%20machines/workflex_cut_off_saw_-1.png',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305930/Astonic-Mart/Products/cutting%20machines/workflex_cut_off_saw_2.png'
+                                        'assets/img/cutting machines/workflex cut off saw -1.png',
+                                        'assets/img/cutting machines/workflex cut off saw 2.png'
                                     ],
 
 
@@ -10162,12 +10164,12 @@ The machine features a powerful motor, durable steel base, adjustable vise clamp
                                     power: '2050W',
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304915/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_235_circular_saw.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304915/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_235_circular_saw.webp-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304920/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_235_circular_saw-3.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304915/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_235_circular_saw.webp-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304915/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_235_circular_saw.webp-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304915/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_235_circular_saw.webp-6.jpg'
+                                            'assets/img/circular and mitre saws/Bosch gks 235 circular saw.webp',
+                                            'assets/img/circular and mitre saws/Bosch gks 235 circular saw.webp-2.jpg',
+                                            'assets/img/circular and mitre saws/Bosch gks 235 circular saw-3.webp',
+                                            'assets/img/circular and mitre saws/Bosch gks 235 circular saw.webp-4.jpg',
+                                            'assets/img/circular and mitre saws/Bosch gks 235 circular saw.webp-5.jpg',
+                                            'assets/img/circular and mitre saws/Bosch gks 235 circular saw.webp-6.jpg'
                                         ],
 
                                             inStock: true,
@@ -10231,11 +10233,11 @@ The saw features a large 235mm blade capacity, deep cutting depth, robust constr
 
                                     power: '1400W',
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304814/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_190_circular_saw.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304814/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_190_circular_saw.jpg-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304814/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_190_circular_saw.jpg-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304911/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_190_circular_saw-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304914/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_gks_190_circular_saw-5.jpg'
+                                            'assets/img/circular and mitre saws/Bosch gks 190 circular saw.jpg',
+                                            'assets/img/circular and mitre saws/Bosch gks 190 circular saw.jpg-2.jpg',
+                                            'assets/img/circular and mitre saws/Bosch gks 190 circular saw.jpg-3.jpg',
+                                            'assets/img/circular and mitre saws/Bosch gks 190 circular saw-4.jpg',
+                                            'assets/img/circular and mitre saws/Bosch gks 190 circular saw-5.jpg'
                                         ],
 
                                             inStock: true,
@@ -10299,12 +10301,12 @@ Its compact and durable design makes it suitable for demanding workshop and job-
                                     power: '2300W',
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786314733/Astonic-Mart/Products/cutting%20machines/bosch_cutting_machines_GCO_230.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305845/Astonic-Mart/Products/cutting%20machines/bosch_cutting_machines_GCO_230-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786314733/Astonic-Mart/Products/cutting%20machines/bosch_cutting_machines_GCO_230.jpg-2.jpeg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786314733/Astonic-Mart/Products/cutting%20machines/bosch_cutting_machines_GCO_230.jpg-4.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786314733/Astonic-Mart/Products/cutting%20machines/bosch_cutting_machines_GCO_230.jpg-5.jpeg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786314733/Astonic-Mart/Products/cutting%20machines/bosch_cutting_machines_GCO_230.jpg-5.jpeg'
+                                            'assets/img/cutting machines/bosch  cutting machines GCO 230.jpeg',
+                                            'assets/img/cutting machines/bosch  cutting machines GCO 230-3.jpeg',
+                                            'assets/img/cutting machines/bosch  cutting machines GCO 230.jpeg-2.jpeg',
+                                            'assets/img/cutting machines/bosch  cutting machines GCO 230.jpeg-4.webp',
+                                            'assets/img/cutting machines/bosch  cutting machines GCO 230.jpeg-5.jpeg',
+                                            'assets/img/cutting machines/bosch  cutting machines GCO 230.jpeg-5.jpeg'
                                         ],
 
                                             inStock: true,
@@ -10364,10 +10366,10 @@ The saw features an adjustable spark guard, ergonomic handle, heavy-duty metal b
                                 power: '1800W',
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307697/Astonic-Mart/Products/heatguns/bosch_heat_guns.jpg-4.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307699/Astonic-Mart/Products/heatguns/bosch_heat_guns-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307697/Astonic-Mart/Products/heatguns/bosch_heat_guns.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307698/Astonic-Mart/Products/heatguns/bosch_heat_guns.jpeg-3.jpg'
+                                        'assets/img/heatguns/bosch heat guns.jpeg-4.webp',
+                                        'assets/img/heatguns/bosch heat guns-2.jpeg',
+                                        'assets/img/heatguns/bosch heat guns.jpeg',
+                                        'assets/img/heatguns/bosch heat guns.jpeg-3.jpeg'
                                     ],
 
                                         inStock: true,
@@ -10427,9 +10429,9 @@ The tool features three temperature settings, adjustable airflow, and built-in o
                             power: '2000W',
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307713/Astonic-Mart/Products/heatguns/workflex_heat_gun.png',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307721/Astonic-Mart/Products/heatguns/workflex_heat_gun-3.png',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307717/Astonic-Mart/Products/heatguns/workflex_heat_gun-2.png'
+                                    'assets/img/heatguns/workflex heat gun.png',
+                                    'assets/img/heatguns/workflex heat gun-3.png',
+                                    'assets/img/heatguns/workflex heat gun-2.png'
                                 ],
 
                                     inStock: true,
@@ -10498,10 +10500,10 @@ The ergonomic design ensures comfortable handling, while the adjustable temperat
                                                 discountPrice: 150000,
 
                                                     images: [
-                                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786311906/Astonic-Mart/Products/rotary%20hammers/TOTAL_Rotary_hammer_1500W_TH1153256.jpg',
-                                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786311912/Astonic-Mart/Products/rotary%20hammers/TOTAL_Rotary_hammer_1500W_TH1153256-4.jpg',
-                                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786311911/Astonic-Mart/Products/rotary%20hammers/TOTAL_Rotary_hammer_1500W_TH1153256-3.jpg',
-                                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786311908/Astonic-Mart/Products/rotary%20hammers/TOTAL_Rotary_hammer_1500W_TH1153256-2.webp'
+                                                        'assets/img/rotary hammers/TOTAL Rotary hammer 1500W TH1153256.jpg',
+                                                        'assets/img/rotary hammers/TOTAL Rotary hammer 1500W TH1153256-4.jpg',
+                                                        'assets/img/rotary hammers/TOTAL Rotary hammer 1500W TH1153256-3.jpg',
+                                                        'assets/img/rotary hammers/TOTAL Rotary hammer 1500W TH1153256-2.webp'
                                                     ],
 
                                                         inStock: true,
@@ -10574,9 +10576,9 @@ The anti-vibration system enhances user comfort during prolonged operation, whil
                                             discountPrice: 115000,
 
                                                 images: [
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786311914/Astonic-Mart/Products/rotary%20hammers/TOTAL_Rotary_Hammer_800W_TH308268-2.jpg',
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786311913/Astonic-Mart/Products/rotary%20hammers/TOTAL_Rotary_Hammer_800W_TH308268.jpg',
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786311914/Astonic-Mart/Products/rotary%20hammers/TOTAL_Rotary_Hammer_800W_TH308268-2.jpg'
+                                                    'assets/img/rotary hammers/TOTAL Rotary Hammer 800W TH308268-2.jpg',
+                                                    'assets/img/rotary hammers/TOTAL Rotary Hammer 800W TH308268.jpg',
+                                                    'assets/img/rotary hammers/TOTAL Rotary Hammer 800W TH308268-2.jpg'
                                                 ],
 
                                                     inStock: true,
@@ -10644,13 +10646,13 @@ Its SDS-Plus chuck system allows quick bit changes, while the rotary hammer func
                                                 discountPrice: 120000,
 
                                                     images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429675/Astonic-Mart/Products/remaining-local-images/rzmczkgobvvkpczlih42.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429676/Astonic-Mart/Products/remaining-local-images/icpk0q4sn0eaoncymw2y.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429678/Astonic-Mart/Products/remaining-local-images/ymdbwogiprhgekvr30tz.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429679/Astonic-Mart/Products/remaining-local-images/vmivtxhrfq5jjcmvgpxg.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429681/Astonic-Mart/Products/remaining-local-images/nsmn1jnupek65rlglogx.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429682/Astonic-Mart/Products/remaining-local-images/gvgca9dpaqyxacahynuk.jpg'
-        ],
+                                                        'assets/img/rotary hammers/INGCO Rotary Hammer 800W ΓÇô RGH9028-2.jpg',
+                                                        'assets/img/rotary hammers/INGCO Rotary Hammer 800W ΓÇô RGH9028.jpg',
+                                                        'assets/img/rotary hammers/INGCO Rotary Hammer 800W ΓÇô RGH9028-4.jpg',
+                                                        'assets/img/rotary hammers/INGCO Rotary Hammer 800W ΓÇô RGH9028-3.webp',
+                                                        'assets/img/rotary hammers/INGCO Rotary Hammer 800W ΓÇô RGH9028-5.jpeg',
+                                                        'assets/img/rotary hammers/INGCO Rotary Hammer 800W ΓÇô RGH9028-6.jpeg'
+                                                    ],
 
                                                         inStock: true,
                                                             jumiaLink: '',
@@ -10720,7 +10722,7 @@ The SDS-Plus chuck system allows quick bit changes while the ergonomic design pr
                                             discountPrice: 240000,
 
                                                 images: [
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305921/Astonic-Mart/Products/cutting%20machines/workflex_2400w_cut_off_saw.png'
+                                                    'assets/img/cutting machines/workflex 2400w cut off saw.png'
                                                 ],
 
                                                     inStock: true,
@@ -10784,7 +10786,7 @@ The machine features a durable steel base, adjustable vice clamp and protective 
                                         discountPrice: 110000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305116/Astonic-Mart/Products/circular%20and%20mitre%20saws/workflex_circluar_1400w.png'
+                                                'assets/img/circular and mitre saws/workflex circluar 1400w.png'
                                             ],
 
                                                 inStock: true,
@@ -10853,7 +10855,7 @@ The robust base plate and ergonomic handle provide improved control and stabilit
                                             discountPrice: 150000,
 
                                                 images: [
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305164/Astonic-Mart/Products/circular%20and%20mitre%20saws/workflex_circluar_2400w.png'
+                                                    'assets/img/circular and mitre saws/workflex circluar 2400w.png'
                                                 ],
 
                                                     inStock: true,
@@ -10922,10 +10924,10 @@ Its large blade size provides deeper cutting capacity than standard circular saw
 
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309719/Astonic-Mart/Products/planers/TOTAL_ELECTRICPLANER_1050W_TL1108236.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309726/Astonic-Mart/Products/planers/TOTAL_ELECTRICPLANER_1050W_TL1108236-4.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309724/Astonic-Mart/Products/planers/TOTAL_ELECTRICPLANER_1050W_TL1108236-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309723/Astonic-Mart/Products/planers/TOTAL_ELECTRICPLANER_1050W_TL1108236-2.jpg'
+                                                'assets/img/planers/TOTAL ELECTRICPLANER 1050W (TL1108236).jpg',
+                                                'assets/img/planers/TOTAL ELECTRICPLANER 1050W (TL1108236)-4.jpg',
+                                                'assets/img/planers/TOTAL ELECTRICPLANER 1050W (TL1108236)-3.jpg',
+                                                'assets/img/planers/TOTAL ELECTRICPLANER 1050W (TL1108236)-2.jpg'
                                             ],
 
                                                 inStock: true,
@@ -11004,11 +11006,11 @@ The planer features a heavy-duty aluminum base, self-cooling belt system, and ad
 
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309704/Astonic-Mart/Products/planers/ingco_Electric_planer_UPL10508.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309708/Astonic-Mart/Products/planers/ingco_Electric_planer_UPL10508-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309710/Astonic-Mart/Products/planers/ingco_Electric_planer_UPL10508-3.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309711/Astonic-Mart/Products/planers/ingco_Electric_planer_UPL10508-4.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309715/Astonic-Mart/Products/planers/ingco_Electric_planer_UPL10508-5.jpg'
+                                                'assets/img/planers/ingco Electric planer UPL10508.jpg',
+                                                'assets/img/planers/ingco Electric planer UPL10508-2.jpg',
+                                                'assets/img/planers/ingco Electric planer UPL10508-3.webp',
+                                                'assets/img/planers/ingco Electric planer UPL10508-4.jpg',
+                                                'assets/img/planers/ingco Electric planer UPL10508-5.jpg'
                                             ],
 
                                                 inStock: true,
@@ -11081,15 +11083,15 @@ Its heavy-duty aluminum base and self-cooling belt system provide durability, st
 
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309675/Astonic-Mart/Products/planers/Bosch_Gho_6500_Planer.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309677/Astonic-Mart/Products/planers/Bosch_Gho_6500_Planer-2.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309679/Astonic-Mart/Products/planers/Bosch_Gho_6500_Planer-3.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309680/Astonic-Mart/Products/planers/Bosch_Gho_6500_Planer-4.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309682/Astonic-Mart/Products/planers/Bosch_Gho_6500_Planer-5.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309684/Astonic-Mart/Products/planers/Bosch_Gho_6500_Planer-7.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309685/Astonic-Mart/Products/planers/Bosch_Gho_6500_Planer-8.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309685/Astonic-Mart/Products/planers/Bosch_Gho_6500_Planer-8.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309673/Astonic-Mart/Products/planers/Bosch_Gho_6500_Planer.web-7.jpg'
+                                                'assets/img/planers/Bosch Gho 6500 Planer.webp',
+                                                'assets/img/planers/Bosch Gho 6500 Planer-2.webp',
+                                                'assets/img/planers/Bosch Gho 6500 Planer-3.webp',
+                                                'assets/img/planers/Bosch Gho 6500 Planer-4.jpg',
+                                                'assets/img/planers/Bosch Gho 6500 Planer-5.jpg',
+                                                'assets/img/planers/Bosch Gho 6500 Planer-7.jpg',
+                                                'assets/img/planers/Bosch Gho 6500 Planer-8.jpg',
+                                                'assets/img/planers/Bosch Gho 6500 Planer-8.jpg',
+                                                'assets/img/planers/Bosch Gho 6500 Planer.web-7.jpg'
                                             ],
 
                                                 inStock: true,
@@ -11158,9 +11160,9 @@ The planer features optimized chip ejection, ergonomic handling and a robust bas
                                             power: '1500W',
 
                                                 images: [
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304415/Astonic-Mart/Products/blowers/workflex_blower-1500w.png',
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304415/Astonic-Mart/Products/blowers/workflex_blower-1500w.png-2.png',
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304425/Astonic-Mart/Products/blowers/workflex_blower-1500w-3.png'
+                                                    'assets/img/blowers/workflex blower-1500w.png',
+                                                    'assets/img/blowers/workflex blower-1500w.png-2.png',
+                                                    'assets/img/blowers/workflex blower-1500w-3.png'
                                                 ],
 
                                                     inStock: true,
@@ -11225,9 +11227,9 @@ Workflex WF-PB1500 Portable Electric Blower is a powerful 1500W cleaning tool de
                                             power: '24V',
 
                                                 images: [
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324122/Astonic-Mart/Products/drills/maxmech_24v_drill_machine.webp',
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324120/Astonic-Mart/Products/drills/maxmech_24v_drill_machine-2.jpg',
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324118/Astonic-Mart/Products/drills/maxmech_24v_drill_machine-3.webp'
+                                                    'assets/img/drills/maxmech 24v drill machine.webp',
+                                                    'assets/img/drills/maxmech 24v drill machine-2.jpg',
+                                                    'assets/img/drills/maxmech 24v drill machine-3.webp'
                                                 ],
 
                                                     inStock: true,
@@ -11293,9 +11295,9 @@ Maxmech CD 24V-10 Cordless Drill Driver is a versatile battery-powered tool desi
                                         power: '750W',
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324126/Astonic-Mart/Products/drills/maxmech_ED_750-13.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324125/Astonic-Mart/Products/drills/maxmech_ED_750-13.jpg-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324126/Astonic-Mart/Products/drills/maxmech_ED_750-13.jpg-3.jpg'
+                                                'assets/img/drills/maxmech ED 750-13.jpg',
+                                                'assets/img/drills/maxmech ED 750-13.jpg-2.jpg',
+                                                'assets/img/drills/maxmech ED 750-13.jpg-3.jpg'
                                             ],
 
                                                 inStock: true,
@@ -11365,7 +11367,7 @@ Maxmech ED 750-13 Electric Drill is a powerful and versatile corded drilling mac
                                             power: '1400W',
 
                                                 images: [
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307693/Astonic-Mart/Products/hand%20mixers/Maxmech_Electric_Hand_Mixer_1400W.jpg'
+                                                    'assets/img/hand mixers/Maxmech Electric Hand Mixer 1400W.jpg'
                                                 ],
 
                                                     inStock: true,
@@ -11431,10 +11433,10 @@ Maxmech HM1400-120 Electric Hand Mixer is a heavy-duty mixing machine designed f
                                             power: '1000W',
 
                                                 images: [
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307693/Astonic-Mart/Products/hand%20mixers/Maxmech_Electric_Hand_Mixer_1400W.jpg',
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307690/Astonic-Mart/Products/hand%20mixers/Maxmech_Electric_Hand_Mixer_1000w-2.jpg',
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307691/Astonic-Mart/Products/hand%20mixers/Maxmech_Electric_Hand_Mixer_1000w-3.jpg',
-                                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786307692/Astonic-Mart/Products/hand%20mixers/Maxmech_Electric_Hand_Mixer_1000w-4.jpg'
+                                                    'assets/img/hand mixers/Maxmech Electric Hand Mixer 1400W.jpg',
+                                                    'assets/img/hand mixers/Maxmech Electric Hand Mixer 1000w-2.jpg',
+                                                    'assets/img/hand mixers/Maxmech Electric Hand Mixer 1000w-3.jpg',
+                                                    'assets/img/hand mixers/Maxmech Electric Hand Mixer 1000w-4.jpg'
                                                 ],
 
                                                     inStock: true,
@@ -11499,10 +11501,10 @@ Maxmech HM 1000-120 Electric Hand Mixer is a professional-grade mixing machine d
                                         discountPrice: 440000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324065/Astonic-Mart/Products/drills/magnetic_drill_eurotek-28mm-2.png-3.png',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324065/Astonic-Mart/Products/drills/magnetic_drill_eurotek-28mm-2.png',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324033/Astonic-Mart/Products/drills/magnetic_drill_eurotek-28mm.png',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324115/Astonic-Mart/Products/drills/magnetic_drill_eurotek-28mm-3.png'
+                                                'assets/img/drills/magnetic drill eurotek-28mm-2.png-3.png',
+                                                'assets/img/drills/magnetic drill eurotek-28mm-2.png',
+                                                'assets/img/drills/magnetic drill eurotek-28mm.png',
+                                                'assets/img/drills/magnetic drill eurotek-28mm-3.png'
                                             ],
 
                                                 inStock: true,
@@ -11571,10 +11573,10 @@ Eurotek J1A-28 Industrial Magnetic Drill Press is a heavy-duty portable drilling
                                     discountPrice: 65000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308530/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/TOTAL_Jigsaw_570W_TS206656.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308535/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/TOTAL_Jigsaw_570W_TS206656-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308537/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/TOTAL_Jigsaw_570W_TS206656-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308533/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/TOTAL_Jigsaw_570W_TS206656-2.jpg'
+                                            'assets/img/jig saws and recip saws/TOTAL Jigsaw 570W (TS206656).jpg',
+                                            'assets/img/jig saws and recip saws/TOTAL Jigsaw 570W (TS206656)-3.jpg',
+                                            'assets/img/jig saws and recip saws/TOTAL Jigsaw 570W (TS206656)-4.jpg',
+                                            'assets/img/jig saws and recip saws/TOTAL Jigsaw 570W (TS206656)-2.jpg'
                                         ],
 
                                             inStock: true,
@@ -11631,10 +11633,10 @@ Eurotek J1A-28 Industrial Magnetic Drill Press is a heavy-duty portable drilling
                                     discountPrice: 78000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308494/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Jig_Saw_800W_JS80028.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308499/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Jig_Saw_800W_JS80028-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308508/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Jig_Saw_800W_JS80028-3.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308511/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Jig_Saw_800W_JS80028-4.jpg'
+                                            'assets/img/jig saws and recip saws/INGCO Jig Saw 800W (JS80028).jpeg',
+                                            'assets/img/jig saws and recip saws/INGCO Jig Saw 800W (JS80028)-2.jpg',
+                                            'assets/img/jig saws and recip saws/INGCO Jig Saw 800W (JS80028)-3.jpeg',
+                                            'assets/img/jig saws and recip saws/INGCO Jig Saw 800W (JS80028)-4.jpeg'
                                         ],
 
                                             inStock: true,
@@ -11691,12 +11693,12 @@ Eurotek J1A-28 Industrial Magnetic Drill Press is a heavy-duty portable drilling
                                     discountPrice: 148000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308486/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Cordless_Jig_Saw_CJSLI8501-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308484/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Cordless_Jig_Saw_CJSLI8501.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308487/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Cordless_Jig_Saw_CJSLI8501-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308488/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Cordless_Jig_Saw_CJSLI8501-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308491/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Cordless_Jig_Saw_CJSLI8501-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308493/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Cordless_Jig_Saw_CJSLI8501-6.jpg',
+                                            'assets/img/jig saws and recip saws/INGCO Cordless Jig Saw (CJSLI8501)-2.jpg',
+                                            'assets/img/jig saws and recip saws/INGCO Cordless Jig Saw (CJSLI8501).webp',
+                                            'assets/img/jig saws and recip saws/INGCO Cordless Jig Saw (CJSLI8501)-3.jpg',
+                                            'assets/img/jig saws and recip saws/INGCO Cordless Jig Saw (CJSLI8501)-4.jpg',
+                                            'assets/img/jig saws and recip saws/INGCO Cordless Jig Saw (CJSLI8501)-5.jpg',
+                                            'assets/img/jig saws and recip saws/INGCO Cordless Jig Saw (CJSLI8501)-6.jpg',
 
                                         ],
 
@@ -11748,10 +11750,10 @@ Color Box Packaging
                                     discountPrice: 90000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329936/Astonic-Mart/Products/tools%20sets/total_81_Pcs_tools_set_THKTHP10812.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329935/Astonic-Mart/Products/tools%20sets/total_81_Pcs_tools_set_THKTHP10812-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329935/Astonic-Mart/Products/tools%20sets/total_81_Pcs_tools_set_THKTHP10812-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329941/Astonic-Mart/Products/tools%20sets/total_81_Pcs_tools_set_THKTHP10812-4.jpg'
+                                            'assets/img/tools sets/total 81 Pcs tools set THKTHP10812.jpg',
+                                            'assets/img/tools sets/total 81 Pcs tools set THKTHP10812-2.jpg',
+                                            'assets/img/tools sets/total 81 Pcs tools set THKTHP10812-3.jpg',
+                                            'assets/img/tools sets/total 81 Pcs tools set THKTHP10812-4.jpg'
                                         ],
 
                                             inStock: true,
@@ -11820,12 +11822,12 @@ Color Box Packaging
                                     discountPrice: 89000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305040/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_CIRCULAR_SAW_1400W_TS11418526.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305040/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_CIRCULAR_SAW_1400W_TS11418526.jpg-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305040/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_CIRCULAR_SAW_1400W_TS11418526.jpg-3.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305040/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_CIRCULAR_SAW_1400W_TS11418526.jpg-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305040/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_CIRCULAR_SAW_1400W_TS11418526.jpg-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305040/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_CIRCULAR_SAW_1400W_TS11418526.jpg-6.jpg'
+                                            'assets/img/circular and mitre saws/TOTAL CIRCULAR SAW 1400W  (TS11418526).jpg',
+                                            'assets/img/circular and mitre saws/TOTAL CIRCULAR SAW 1400W  (TS11418526).jpg-2.jpg',
+                                            'assets/img/circular and mitre saws/TOTAL CIRCULAR SAW 1400W  (TS11418526).jpg-3.webp',
+                                            'assets/img/circular and mitre saws/TOTAL CIRCULAR SAW 1400W  (TS11418526).jpg-4.jpg',
+                                            'assets/img/circular and mitre saws/TOTAL CIRCULAR SAW 1400W  (TS11418526).jpg-5.jpg',
+                                            'assets/img/circular and mitre saws/TOTAL CIRCULAR SAW 1400W  (TS11418526).jpg-6.jpg'
 
 
                                         ],
@@ -11889,12 +11891,12 @@ Color Box Packaging
                                     discountPrice: 155000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305049/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_Circular_Saw_2200W_235mm_TS1222356-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305047/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_Circular_Saw_2200W_235mm_TS1222356.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305056/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_Circular_Saw_2200W_235mm_TS1222356-6.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305052/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_Circular_Saw_2200W_235mm_TS1222356-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305054/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_Circular_Saw_2200W_235mm_TS1222356-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305050/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_Circular_Saw_2200W_235mm_TS1222356-3.jpg'
+                                            'assets/img/circular and mitre saws/TOTAL Circular Saw 2200W 235mm (TS1222356)-2.jpg',
+                                            'assets/img/circular and mitre saws/TOTAL Circular Saw 2200W 235mm (TS1222356).webp',
+                                            'assets/img/circular and mitre saws/TOTAL Circular Saw 2200W 235mm (TS1222356)-6.jpg',
+                                            'assets/img/circular and mitre saws/TOTAL Circular Saw 2200W 235mm (TS1222356)-4.jpg',
+                                            'assets/img/circular and mitre saws/TOTAL Circular Saw 2200W 235mm (TS1222356)-5.jpg',
+                                            'assets/img/circular and mitre saws/TOTAL Circular Saw 2200W 235mm (TS1222356)-3.jpg'
                                         ],
 
                                             inStock: true,
@@ -11955,9 +11957,9 @@ Color Box Packaging
 
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329345/Astonic-Mart/Products/spray%20guns/edon_spray_gun.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329345/Astonic-Mart/Products/spray%20guns/edon_spray_gun.webp-2.jpeg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329345/Astonic-Mart/Products/spray%20guns/edon_spray_gun.webp-3.jpg'
+                                    'assets/img/spray guns/edon spray gun.webp',
+                                    'assets/img/spray guns/edon spray gun.webp-2.jpeg',
+                                    'assets/img/spray guns/edon spray gun.webp-3.jpg'
                                 ],
 
                                     inStock: true,
@@ -12020,7 +12022,7 @@ Color Box Packaging
                                     discountPrice: 420000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329426/Astonic-Mart/Products/table%20and%20band%20saws/ingco_1500w_table_saw-10_inchTS15007.jpg'
+                                            'assets/img/table and band saws/ingco 1500w table saw-10 inchTS15007.jpg'
                                         ],
 
                                             inStock: false,
@@ -12083,10 +12085,10 @@ Color Box Packaging
                                     discountPrice: 900000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305948/Astonic-Mart/Products/demolition%20breakers/Demolition_Breaker_HM1812_Makita.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305949/Astonic-Mart/Products/demolition%20breakers/Demolition_Breaker_HM1812_Makita-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305950/Astonic-Mart/Products/demolition%20breakers/Demolition_Breaker_HM1812_Makita-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305952/Astonic-Mart/Products/demolition%20breakers/Demolition_Breaker_HM1812_Makita-4.jpg'
+                                            'assets/img/demolition breakers/Demolition Breaker HM1812 Makita.jpeg',
+                                            'assets/img/demolition breakers/Demolition Breaker HM1812 Makita-2.jpg',
+                                            'assets/img/demolition breakers/Demolition Breaker HM1812 Makita-3.jpeg',
+                                            'assets/img/demolition breakers/Demolition Breaker HM1812 Makita-4.jpg'
                                         ],
 
                                             inStock: true,
@@ -12148,10 +12150,10 @@ Color Box Packaging
                                     discountPrice: 440000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307969/Astonic-Mart/Products/impact-wrench/TOTAL_Cordless_Impact_Wrench_1350Nm_TIWLI20135E.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307971/Astonic-Mart/Products/impact-wrench/TOTAL_Cordless_Impact_Wrench_1350Nm_TIWLI20135E-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307974/Astonic-Mart/Products/impact-wrench/TOTAL_Cordless_Impact_Wrench_1350Nm_TIWLI20135E-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307973/Astonic-Mart/Products/impact-wrench/TOTAL_Cordless_Impact_Wrench_1350Nm_TIWLI20135E-3.jpg'
+                                            'assets/img/impact-wrench/TOTAL Cordless Impact Wrench 1350Nm (TIWLI20135E).jpg',
+                                            'assets/img/impact-wrench/TOTAL Cordless Impact Wrench 1350Nm (TIWLI20135E)-2.jpg',
+                                            'assets/img/impact-wrench/TOTAL Cordless Impact Wrench 1350Nm (TIWLI20135E)-4.jpg',
+                                            'assets/img/impact-wrench/TOTAL Cordless Impact Wrench 1350Nm (TIWLI20135E)-3.jpg'
                                         ],
 
                                             inStock: true,
@@ -12213,7 +12215,7 @@ Color Box Packaging
 
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786306084/Astonic-Mart/Products/drills/bosch_style_48v_cordless_driil_kit.jpg'
+                                        'assets/img/drills/bosch style 48v cordless driil kit.jpg'
                                     ],
 
                                         inStock: true,
@@ -12274,12 +12276,12 @@ Color Box Packaging
                                         discountPrice: 80000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304360/Astonic-Mart/Products/blowers/INGCO_20V_Cordless_Blower_CABLI20018.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304362/Astonic-Mart/Products/blowers/INGCO_20V_Cordless_Blower_CABLI20018-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304363/Astonic-Mart/Products/blowers/INGCO_20V_Cordless_Blower_CABLI20018-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304365/Astonic-Mart/Products/blowers/INGCO_20V_Cordless_Blower_CABLI20018-4.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304366/Astonic-Mart/Products/blowers/INGCO_20V_Cordless_Blower_CABLI20018-5.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304367/Astonic-Mart/Products/blowers/INGCO_20V_Cordless_Blower_CABLI20018-6.jpg'
+                                                'assets/img/blowers/INGCO 20V Cordless Blower (CABLI20018).jpg',
+                                                'assets/img/blowers/INGCO 20V Cordless Blower (CABLI20018)-2.jpg',
+                                                'assets/img/blowers/INGCO 20V Cordless Blower (CABLI20018)-3.jpg',
+                                                'assets/img/blowers/INGCO 20V Cordless Blower (CABLI20018)-4.jpg',
+                                                'assets/img/blowers/INGCO 20V Cordless Blower (CABLI20018)-5.jpg',
+                                                'assets/img/blowers/INGCO 20V Cordless Blower (CABLI20018)-6.jpg'
                                             ],
 
                                                 inStock: true,
@@ -12334,10 +12336,10 @@ Color Box Packaging
                                     discountPrice: 72000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304399/Astonic-Mart/Products/blowers/TOTAL_Cordless_Air_Blower-TABLI200281.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304400/Astonic-Mart/Products/blowers/TOTAL_Cordless_Air_Blower-TABLI200281-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304402/Astonic-Mart/Products/blowers/TOTAL_Cordless_Air_Blower-TABLI200281-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304403/Astonic-Mart/Products/blowers/TOTAL_Cordless_Air_Blower-TABLI200281-4.webp'
+                                            'assets/img/blowers/TOTAL Cordless Air Blower-TABLI200281.jpg',
+                                            'assets/img/blowers/TOTAL Cordless Air Blower-TABLI200281-2.webp',
+                                            'assets/img/blowers/TOTAL Cordless Air Blower-TABLI200281-3.jpeg',
+                                            'assets/img/blowers/TOTAL Cordless Air Blower-TABLI200281-4.webp'
                                         ],
 
                                             inStock: true,
@@ -12391,9 +12393,9 @@ Color Box Packaging
                                 price: 650000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305069/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_Mitre_Saw_Radial_2400W_305mm.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305071/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_Mitre_Saw_Radial_2400W_305mm-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305074/Astonic-Mart/Products/circular%20and%20mitre%20saws/TOTAL_Mitre_Saw_Radial_2400W_305mm-3.png',
+                                        'assets/img/circular and mitre saws/TOTAL Mitre Saw Radial 2400W 305mm.jpg',
+                                        'assets/img/circular and mitre saws/TOTAL Mitre Saw Radial 2400W 305mm-2.jpg',
+                                        'assets/img/circular and mitre saws/TOTAL Mitre Saw Radial 2400W 305mm-3.png',
 
                                     ],
 
@@ -12464,10 +12466,10 @@ Designed for continuous heavy-duty operation
                                 price: 480000,
                                     power: '20V',
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305079/Astonic-Mart/Products/circular%20and%20mitre%20saws/Total_Sliding_Mitre_Saw_1800w_255mm_TS42182551-1.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305102/Astonic-Mart/Products/circular%20and%20mitre%20saws/Total_Sliding_Mitre_Saw_1800w_255mm_TS42182551-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305105/Astonic-Mart/Products/circular%20and%20mitre%20saws/Total_Sliding_Mitre_Saw_1800w_255mm_TS42182551-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786305077/Astonic-Mart/Products/circular%20and%20mitre%20saws/Total_Sliding_Mitre_Saw_1800w_255mm_TS42182551.jpg'
+                                            'assets/img/circular and mitre saws/Total Sliding Mitre Saw 1800w 255mm (TS42182551)-1.jpg',
+                                            'assets/img/circular and mitre saws/Total Sliding Mitre Saw 1800w 255mm (TS42182551)-2.jpg',
+                                            'assets/img/circular and mitre saws/Total Sliding Mitre Saw 1800w 255mm (TS42182551)-3.jpg',
+                                            'assets/img/circular and mitre saws/Total Sliding Mitre Saw 1800w 255mm (TS42182551).jpg'
                                         ],
 
                                             inStock: true,
@@ -12539,13 +12541,13 @@ Reliable performance for continuous operation
                                     price: 190000,
                                         power: '20V',
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311885/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_CRHLI22012.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311887/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_CRHLI22012-2.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311889/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_CRHLI22012-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311891/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_CRHLI22012-4.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311892/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_CRHLI22012-5.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311894/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_CRHLI22012-6.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786311865/Astonic-Mart/Products/rotary%20hammers/INGCO_Cordless_Hammer_Drill-26_mm-7.png'
+                                                'assets/img/rotary hammers/ingco cordless RM CRHLI22012.jpg',
+                                                'assets/img/rotary hammers/ingco cordless RM CRHLI22012-2.webp',
+                                                'assets/img/rotary hammers/ingco cordless RM CRHLI22012-3.jpg',
+                                                'assets/img/rotary hammers/ingco cordless RM CRHLI22012-4.jpg',
+                                                'assets/img/rotary hammers/ingco cordless RM CRHLI22012-5.jpg',
+                                                'assets/img/rotary hammers/ingco cordless RM CRHLI22012-6.jpg',
+                                                'assets/img/rotary hammers/INGCO Cordless Hammer Drill-26 mm-7.png'
                                             ],
 
                                                 inStock: true,
@@ -12618,13 +12620,13 @@ Compatible with INGCO P20S battery platform
                                     price: 285000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311867/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_-28mm_CRHLI202882.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311869/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_-28mm_CRHLI202882-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311871/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_-28mm_CRHLI202882-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311873/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_-28mm_CRHLI202882-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311874/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_-28mm_CRHLI202882-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311878/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_-28mm_CRHLI202882-6.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311883/Astonic-Mart/Products/rotary%20hammers/ingco_cordless_RM_-28mm_CRHLI202882-7.jpg'
+                                            'assets/img/rotary hammers/ingco cordless RM -28mm CRHLI202882.jpg',
+                                            'assets/img/rotary hammers/ingco cordless RM -28mm CRHLI202882-2.jpg',
+                                            'assets/img/rotary hammers/ingco cordless RM -28mm CRHLI202882-3.jpg',
+                                            'assets/img/rotary hammers/ingco cordless RM -28mm CRHLI202882-4.jpg',
+                                            'assets/img/rotary hammers/ingco cordless RM -28mm CRHLI202882-5.jpg',
+                                            'assets/img/rotary hammers/ingco cordless RM -28mm CRHLI202882-6.jpg',
+                                            'assets/img/rotary hammers/ingco cordless RM -28mm CRHLI202882-7.jpg'
                                         ],
 
                                             inStock: true,
@@ -12701,13 +12703,13 @@ Professional-grade construction
                                     price: 245000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311676/Astonic-Mart/Products/rotary%20hammers/INGCO_Cordless_Hammer_Drill-26_mm-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311666/Astonic-Mart/Products/rotary%20hammers/INGCO_Cordless_Hammer_Drill-26_mm.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311723/Astonic-Mart/Products/rotary%20hammers/INGCO_Cordless_Hammer_Drill-26_mm-3.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311760/Astonic-Mart/Products/rotary%20hammers/INGCO_Cordless_Hammer_Drill-26_mm-4.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311798/Astonic-Mart/Products/rotary%20hammers/INGCO_Cordless_Hammer_Drill-26_mm-5.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311834/Astonic-Mart/Products/rotary%20hammers/INGCO_Cordless_Hammer_Drill-26_mm-6.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311865/Astonic-Mart/Products/rotary%20hammers/INGCO_Cordless_Hammer_Drill-26_mm-7.png'
+                                            'assets/img/rotary hammers/INGCO Cordless Hammer Drill-26 mm-2.jpg',
+                                            'assets/img/rotary hammers/INGCO Cordless Hammer Drill-26 mm.png',
+                                            'assets/img/rotary hammers/INGCO Cordless Hammer Drill-26 mm-3.png',
+                                            'assets/img/rotary hammers/INGCO Cordless Hammer Drill-26 mm-4.png',
+                                            'assets/img/rotary hammers/INGCO Cordless Hammer Drill-26 mm-5.png',
+                                            'assets/img/rotary hammers/INGCO Cordless Hammer Drill-26 mm-6.png',
+                                            'assets/img/rotary hammers/INGCO Cordless Hammer Drill-26 mm-7.png'
                                         ],
 
                                             inStock: true,
@@ -12803,9 +12805,9 @@ Heavy-duty performance for demanding applications
                                     price: 295000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786328562/Astonic-Mart/Products/rotary%20hammers/TOTAL_TRHLI202885_20V_Brushless_Cordless_RM_28mm.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786328562/Astonic-Mart/Products/rotary%20hammers/TOTAL_TRHLI202885_20V_Brushless_Cordless_RM_28mm-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786328565/Astonic-Mart/Products/rotary%20hammers/TOTAL_TRHLI202885_20V_Brushless_Cordless_RM_28mm-3.webp',
+                                            'assets/img/rotary hammers/TOTAL TRHLI202885 20V Brushless Cordless RM 28mm.jpg',
+                                            'assets/img/rotary hammers/TOTAL TRHLI202885 20V Brushless Cordless RM 28mm-2.jpeg',
+                                            'assets/img/rotary hammers/TOTAL TRHLI202885 20V Brushless Cordless RM 28mm-3.webp',
 
                                         ],
 
@@ -12898,11 +12900,11 @@ Maximum power for demanding tasks
                                     price: 185000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311901/Astonic-Mart/Products/rotary%20hammers/TOTAL_Cordless_rotary_hammer_TRHLI21228-22mm.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311901/Astonic-Mart/Products/rotary%20hammers/TOTAL_Cordless_rotary_hammer_TRHLI21228-22mm.webp-2.avif',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311901/Astonic-Mart/Products/rotary%20hammers/TOTAL_Cordless_rotary_hammer_TRHLI21228-22mm.webp-4.avif',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311901/Astonic-Mart/Products/rotary%20hammers/TOTAL_Cordless_rotary_hammer_TRHLI21228-22mm.webp-5.avif',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311901/Astonic-Mart/Products/rotary%20hammers/TOTAL_Cordless_rotary_hammer_TRHLI21228-22mm.webp-5.avif'
+                                            'assets/img/rotary hammers/TOTAL Cordless rotary hammer (TRHLI21228)-22mm.webp',
+                                            'assets/img/rotary hammers/TOTAL Cordless rotary hammer (TRHLI21228)-22mm.webp-2.avif',
+                                            'assets/img/rotary hammers/TOTAL Cordless rotary hammer (TRHLI21228)-22mm.webp-4.avif',
+                                            'assets/img/rotary hammers/TOTAL Cordless rotary hammer (TRHLI21228)-22mm.webp-5.avif',
+                                            'assets/img/rotary hammers/TOTAL Cordless rotary hammer (TRHLI21228)-22mm.webp-5.avif'
                                         ],
 
                                             inStock: true,
@@ -12979,12 +12981,12 @@ Reliable performance for daily use
                                     price: 63000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307430/Astonic-Mart/Products/grinders/GWS_700_Professional_AG.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307431/Astonic-Mart/Products/grinders/GWS_700_Professional_AG-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307432/Astonic-Mart/Products/grinders/GWS_700_Professional_AG-3.avif',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307433/Astonic-Mart/Products/grinders/GWS_700_Professional_AG-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307434/Astonic-Mart/Products/grinders/GWS_700_Professional_AG-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307436/Astonic-Mart/Products/grinders/GWS_700_Professional_AG-6.jpg'
+                                            'assets/img/grinders/GWS 700 Professional AG.png',
+                                            'assets/img/grinders/GWS 700 Professional AG-2.jpeg',
+                                            'assets/img/grinders/GWS 700 Professional AG-3.jpg',
+                                            'assets/img/grinders/GWS 700 Professional AG-4.jpg',
+                                            'assets/img/grinders/GWS 700 Professional AG-5.jpg',
+                                            'assets/img/grinders/GWS 700 Professional AG-6.jpg'
                                         ],
 
                                             inStock: true,
@@ -13056,12 +13058,12 @@ Accessories:
                                     price: 265000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307418/Astonic-Mart/Products/grinders/GWS_1400_Professional_AG.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307419/Astonic-Mart/Products/grinders/GWS_1400_Professional_AG-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307420/Astonic-Mart/Products/grinders/GWS_1400_Professional_AG-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307421/Astonic-Mart/Products/grinders/GWS_1400_Professional_AG-4.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307422/Astonic-Mart/Products/grinders/GWS_1400_Professional_AG-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307418/Astonic-Mart/Products/grinders/GWS_1400_Professional_AG.jpg'
+                                            'assets/img/grinders/GWS 1400 Professional AG.jpg',
+                                            'assets/img/grinders/GWS 1400 Professional AG-2.jpg',
+                                            'assets/img/grinders/GWS 1400 Professional AG-3.jpg',
+                                            'assets/img/grinders/GWS 1400 Professional AG-4.webp',
+                                            'assets/img/grinders/GWS 1400 Professional AG-5.jpeg',
+                                            'assets/img/grinders/GWS 1400 Professional AG.jpg'
                                         ],
 
                                             inStock: true,
@@ -13134,10 +13136,10 @@ Accessories:
                                     price: 185000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307426/Astonic-Mart/Products/grinders/GWS_2200_Professional_AG.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307427/Astonic-Mart/Products/grinders/GWS_2200_Professional_AG-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307428/Astonic-Mart/Products/grinders/GWS_2200_Professional_AG-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307429/Astonic-Mart/Products/grinders/GWS_2200_Professional_AG-4.jpg',
+                                            'assets/img/grinders/GWS 2200 Professional AG.jpeg',
+                                            'assets/img/grinders/GWS 2200 Professional AG-2.jpg',
+                                            'assets/img/grinders/GWS 2200 Professional AG-3.jpg',
+                                            'assets/img/grinders/GWS 2200 Professional AG-4.jpg',
 
                                         ],
 
@@ -13210,11 +13212,11 @@ Accessories:
                                     price: 155000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307423/Astonic-Mart/Products/grinders/GWS_2000_Professional_AG.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307423/Astonic-Mart/Products/grinders/GWS_2000_Professional_AG.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307424/Astonic-Mart/Products/grinders/GWS_2000_Professional_AG-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307425/Astonic-Mart/Products/grinders/GWS_2000_Professional_AG-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307426/Astonic-Mart/Products/grinders/GWS_2000_Professional_AG-5.jpg'
+                                            'assets/img/grinders/GWS 2000 Professional AG.jpg',
+                                            'assets/img/grinders/GWS 2000 Professional AG.jpg',
+                                            'assets/img/grinders/GWS 2000 Professional AG-3.jpg',
+                                            'assets/img/grinders/GWS 2000 Professional AG-4.jpg',
+                                            'assets/img/grinders/GWS 2000 Professional AG-5.jpg'
                                         ],
 
                                             inStock: true,
@@ -13284,11 +13286,11 @@ Accessories:
                             price: 120000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310479/Astonic-Mart/Products/polishers/TOTAL_round_polisher_20V_TOPLI2001.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310483/Astonic-Mart/Products/polishers/TOTAL_round_polisher_20V_TOPLI2001-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310485/Astonic-Mart/Products/polishers/TOTAL_round_polisher_20V_TOPLI2001-3.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310486/Astonic-Mart/Products/polishers/TOTAL_round_polisher_20V_TOPLI2001-4.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786310487/Astonic-Mart/Products/polishers/TOTAL_round_polisher_20V_TOPLI2001-5.webp'
+                                    'assets/img/polishers/TOTAL round polisher 20V (TOPLI2001).webp',
+                                    'assets/img/polishers/TOTAL round polisher 20V (TOPLI2001)-2.jpeg',
+                                    'assets/img/polishers/TOTAL round polisher 20V (TOPLI2001)-3.webp',
+                                    'assets/img/polishers/TOTAL round polisher 20V (TOPLI2001)-4.webp',
+                                    'assets/img/polishers/TOTAL round polisher 20V (TOPLI2001)-5.webp'
                                 ],
 
                                     inStock: true,
@@ -13358,10 +13360,10 @@ User Manual
                                 price: 1691100,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786311621/Astonic-Mart/Products/rotary%20hammers/Bosch_PRO_GSH_11_VC_RM.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786311622/Astonic-Mart/Products/rotary%20hammers/Bosch_PRO_GSH_11_VC_RM-2.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786311623/Astonic-Mart/Products/rotary%20hammers/Bosch_PRO_GSH_11_VC_RM-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786311625/Astonic-Mart/Products/rotary%20hammers/Bosch_PRO_GSH_11_VC_RM-4.jpg'
+                                        'assets/img/rotary hammers/Bosch PRO GSH 11 VC RM.jpg',
+                                        'assets/img/rotary hammers/Bosch PRO GSH 11 VC RM-2.webp',
+                                        'assets/img/rotary hammers/Bosch PRO GSH 11 VC RM-3.webp',
+                                        'assets/img/rotary hammers/Bosch PRO GSH 11 VC RM-4.jpg'
                                     ],
 
                                         inStock: true,
@@ -13435,11 +13437,11 @@ User Manual
                                 price: 770000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305942/Astonic-Mart/Products/demolition%20breakers/bosch-gsh-500-demolition-hammer.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305943/Astonic-Mart/Products/demolition%20breakers/bosch-gsh-500-demolition-hammer-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305945/Astonic-Mart/Products/demolition%20breakers/bosch-gsh-500-demolition-hammer-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305947/Astonic-Mart/Products/demolition%20breakers/bosch-gsh-500-demolition-hammer-5.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305946/Astonic-Mart/Products/demolition%20breakers/bosch-gsh-500-demolition-hammer-4.jpg'
+                                        'assets/img/demolition breakers/bosch-gsh-500-demolition-hammer.webp',
+                                        'assets/img/demolition breakers/bosch-gsh-500-demolition-hammer-2.jpg',
+                                        'assets/img/demolition breakers/bosch-gsh-500-demolition-hammer-3.webp',
+                                        'assets/img/demolition breakers/bosch-gsh-500-demolition-hammer-5.jpg',
+                                        'assets/img/demolition breakers/bosch-gsh-500-demolition-hammer-4.jpg'
                                     ],
 
                                         inStock: true,
@@ -13514,10 +13516,10 @@ User Manual
                                     discountPrice: 325000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306065/Astonic-Mart/Products/drills/bosch_GBM_1600_RE_drill.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306067/Astonic-Mart/Products/drills/bosch_GBM_1600_RE_drill-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306068/Astonic-Mart/Products/drills/bosch_GBM_1600_RE_drill-3.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306069/Astonic-Mart/Products/drills/bosch_GBM_1600_RE_drill-4.webp'
+                                            'assets/img/drills/bosch GBM 1600 RE drill.jpg',
+                                            'assets/img/drills/bosch GBM 1600 RE drill-2.jpg',
+                                            'assets/img/drills/bosch GBM 1600 RE drill-3.webp',
+                                            'assets/img/drills/bosch GBM 1600 RE drill-4.webp'
                                         ],
 
                                             inStock: true,
@@ -13591,10 +13593,10 @@ User Manual
                                     price: 145000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311613/Astonic-Mart/Products/rotary%20hammers/Bosch_GBH_220_Professional_RM_Drill.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311615/Astonic-Mart/Products/rotary%20hammers/Bosch_GBH_220_Professional_RM_Drill-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311618/Astonic-Mart/Products/rotary%20hammers/Bosch_GBH_220_Professional_RM_Drill-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786311619/Astonic-Mart/Products/rotary%20hammers/Bosch_GBH_220_Professional_RM_Drill-5.webp',
+                                            'assets/img/rotary hammers/Bosch GBH 220 Professional RM Drill.webp',
+                                            'assets/img/rotary hammers/Bosch GBH 220 Professional RM Drill-2.jpg',
+                                            'assets/img/rotary hammers/Bosch GBH 220 Professional RM Drill-4.jpg',
+                                            'assets/img/rotary hammers/Bosch GBH 220 Professional RM Drill-5.webp',
                                         ],
 
                                             inStock: true,
@@ -13669,12 +13671,12 @@ User Manual
                         model: 'TOSLI23024',
                             price: 235000,
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331841/Astonic-Mart/Products/combo%20kits/Total_Trimmer_and_Blower_Combo_Kit_Tosli23024-1.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331843/Astonic-Mart/Products/combo%20kits/Total_Trimmer_and_Blower_Combo_Kit_Tosli23024-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331842/Astonic-Mart/Products/combo%20kits/Total_Trimmer_and_Blower_Combo_Kit_Tosli23024-3.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331842/Astonic-Mart/Products/combo%20kits/Total_Trimmer_and_Blower_Combo_Kit_Tosli23024-4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331849/Astonic-Mart/Products/combo%20kits/Total_Trimmer_and_Blower_Combo_Kit_Tosli23024.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331852/Astonic-Mart/Products/combo%20kits/Total_Trimmer_and_Blower_Combo_Kit_Tosli23024-5.jpg'
+                                    'assets/img/combo kits/Total  Trimmer & Blower Combo Kit Tosli23024-1.jpeg',
+                                    'assets/img/combo kits/Total  Trimmer & Blower Combo Kit Tosli23024-2.webp',
+                                    'assets/img/combo kits/Total  Trimmer & Blower Combo Kit Tosli23024-3.webp',
+                                    'assets/img/combo kits/Total  Trimmer & Blower Combo Kit Tosli23024-4.webp',
+                                    'assets/img/combo kits/Total  Trimmer & Blower Combo Kit Tosli23024.webp',
+                                    'assets/img/combo kits/Total  Trimmer & Blower Combo Kit Tosli23024-5.jpg'
                                 ],
 
                                     inStock: true,
@@ -13750,13 +13752,13 @@ User Manual
                                 price: 170000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304926/Astonic-Mart/Products/circular%20and%20mitre%20saws/incgo_cordless_circular_saw-CSLI1651.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304926/Astonic-Mart/Products/circular%20and%20mitre%20saws/incgo_cordless_circular_saw-CSLI1651.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304928/Astonic-Mart/Products/circular%20and%20mitre%20saws/incgo_cordless_circular_saw-CSLI1651-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304970/Astonic-Mart/Products/circular%20and%20mitre%20saws/incgo_cordless_circular_saw-CSLI1651-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304974/Astonic-Mart/Products/circular%20and%20mitre%20saws/incgo_cordless_circular_saw-CSLI1651-5.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304978/Astonic-Mart/Products/circular%20and%20mitre%20saws/incgo_cordless_circular_saw-CSLI1651-6.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304979/Astonic-Mart/Products/circular%20and%20mitre%20saws/incgo_cordless_circular_saw-CSLI1651-7.jpg'
+                                        'assets/img/circular and mitre saws/incgo cordless circular saw-CSLI1651.jpg',
+                                        'assets/img/circular and mitre saws/incgo cordless circular saw-CSLI1651.jpg',
+                                        'assets/img/circular and mitre saws/incgo cordless circular saw-CSLI1651-3.jpg',
+                                        'assets/img/circular and mitre saws/incgo cordless circular saw-CSLI1651-4.jpg',
+                                        'assets/img/circular and mitre saws/incgo cordless circular saw-CSLI1651-5.jpg',
+                                        'assets/img/circular and mitre saws/incgo cordless circular saw-CSLI1651-6.jpg',
+                                        'assets/img/circular and mitre saws/incgo cordless circular saw-CSLI1651-7.jpg'
                                     ],
 
                                         inStock: true,
@@ -13830,9 +13832,9 @@ User Manual
                                 price: 63200,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786306088/Astonic-Mart/Products/drills/dewalt_cordless_drill_kit-36v.png',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786306100/Astonic-Mart/Products/drills/dewalt_cordless_drill_kit-36v-2.png',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786306101/Astonic-Mart/Products/drills/dewalt_cordless_drill_kit-36v-3.jpg',
+                                        'assets/img/drills/dewalt  cordless drill kit-36v.png',
+                                        'assets/img/drills/dewalt  cordless drill kit-36v-2.png',
+                                        'assets/img/drills/dewalt  cordless drill kit-36v-3.jpg',
 
                                     ],
 
@@ -13911,12 +13913,12 @@ User Manual
                             price: 35000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324130/Astonic-Mart/Products/drills/NGCO_4V_Electric_Cordless_Screwdriver%2C.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324131/Astonic-Mart/Products/drills/NGCO_4V_Electric_Cordless_Screwdriver-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324131/Astonic-Mart/Products/drills/NGCO_4V_Electric_Cordless_Screwdriver-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324130/Astonic-Mart/Products/drills/NGCO_4V_Electric_Cordless_Screwdriver-4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324136/Astonic-Mart/Products/drills/NGCO_4V_Electric_Cordless_Screwdriver-5.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786324136/Astonic-Mart/Products/drills/NGCO_4V_Electric_Cordless_Screwdriver-6.jpg'
+                                    'assets/img/drills/NGCO 4V Electric Cordless Screwdriver,.jpg',
+                                    'assets/img/drills/NGCO 4V Electric Cordless Screwdriver-2.jpg',
+                                    'assets/img/drills/NGCO 4V Electric Cordless Screwdriver-3.jpg',
+                                    'assets/img/drills/NGCO 4V Electric Cordless Screwdriver-4.jpg',
+                                    'assets/img/drills/NGCO 4V Electric Cordless Screwdriver-5.jpg',
+                                    'assets/img/drills/NGCO 4V Electric Cordless Screwdriver-6.jpg'
                                 ],
 
                                     inStock: true,
@@ -13966,8 +13968,8 @@ Supplied with screwdriver bits and accessories
                         price: 550000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309748/Astonic-Mart/Products/planers/workflex_thickness.png',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309770/Astonic-Mart/Products/planers/workflex_thickness-2.png'
+                                'assets/img/planers/workflex thickness.png',
+                                'assets/img/planers/workflex thickness-2.png'
                             ],
 
                                 inStock: true,
@@ -14020,9 +14022,9 @@ Easy operation and maintenance
                             price: 109000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304357/Astonic-Mart/Products/blowers/Bosch_Air_Blower_-_800watts.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304355/Astonic-Mart/Products/blowers/Bosch_Air_Blower_-_800-2.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304357/Astonic-Mart/Products/blowers/Bosch_Air_Blower_-_800-3.jpg'
+                                    'assets/img/blowers/Bosch  Air Blower - 800watts.jpg',
+                                    'assets/img/blowers/Bosch  Air Blower - 800-2.webp',
+                                    'assets/img/blowers/Bosch  Air Blower - 800-3.jpg'
                                 ],
 
                                     inStock: true,
@@ -14074,10 +14076,10 @@ Reliable Bosch performance
                             price: 99000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304351/Astonic-Mart/Products/blowers/Bosch_Air_Blower_-_650w.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304352/Astonic-Mart/Products/blowers/Bosch_Air_Blower_-_650w-2.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304353/Astonic-Mart/Products/blowers/Bosch_Air_Blower_-_650w-3.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304354/Astonic-Mart/Products/blowers/Bosch_Air_Blower_-_650w-4.webp'
+                                    'assets/img/blowers/Bosch  Air Blower - 650w.webp',
+                                    'assets/img/blowers/Bosch  Air Blower - 650w-2.webp',
+                                    'assets/img/blowers/Bosch  Air Blower - 650w-3.webp',
+                                    'assets/img/blowers/Bosch  Air Blower - 650w-4.webp'
                                 ],
 
                                     inStock: true,
@@ -14131,11 +14133,11 @@ Ideal for professional and home use
 
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329378/Astonic-Mart/Products/spray%20guns/total_cordless_srpay_gun-TSGLI20406.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329378/Astonic-Mart/Products/spray%20guns/total_cordless_srpay_gun-TSGLI20406-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329378/Astonic-Mart/Products/spray%20guns/total_cordless_srpay_gun-TSGLI20406-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329382/Astonic-Mart/Products/spray%20guns/total_cordless_srpay_gun-TSGLI20406-4.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786329381/Astonic-Mart/Products/spray%20guns/total_cordless_srpay_gun-TSGLI20406-5.jpg'
+                                            'assets/img/spray guns/total cordless srpay gun-TSGLI20406.jpg',
+                                            'assets/img/spray guns/total cordless srpay gun-TSGLI20406-2.jpg',
+                                            'assets/img/spray guns/total cordless srpay gun-TSGLI20406-3.jpg',
+                                            'assets/img/spray guns/total cordless srpay gun-TSGLI20406-4.webp',
+                                            'assets/img/spray guns/total cordless srpay gun-TSGLI20406-5.jpeg'
                                         ],
 
                                             inStock: true,
@@ -14190,12 +14192,12 @@ Durable construction
                                         power: '1500W',
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786330354/Astonic-Mart/Products/wall%20chasers/ingco_wall_chasers_1500w.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786330354/Astonic-Mart/Products/wall%20chasers/ingco_wall_chasers_1500w-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786330355/Astonic-Mart/Products/wall%20chasers/ingco_wall_chasers_1500w-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786330354/Astonic-Mart/Products/wall%20chasers/ingco_wall_chasers_1500w-4.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786330354/Astonic-Mart/Products/wall%20chasers/ingco_wall_chasers_1500w-5.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786330363/Astonic-Mart/Products/wall%20chasers/ingco_wall_chasers_1500w-6.jpg'
+                                                'assets/img/wall chasers/ingco wall chasers 1500w.jpg',
+                                                'assets/img/wall chasers/ingco wall chasers 1500w-2.jpg',
+                                                'assets/img/wall chasers/ingco wall chasers 1500w-3.jpg',
+                                                'assets/img/wall chasers/ingco wall chasers 1500w-4.jpg',
+                                                'assets/img/wall chasers/ingco wall chasers 1500w-5.jpg',
+                                                'assets/img/wall chasers/ingco wall chasers 1500w-6.jpg'
                                             ],
 
                                                 inStock: true,
@@ -14254,10 +14256,10 @@ Easy maintenance design
                                         power: '1500W',
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309728/Astonic-Mart/Products/planers/TOTAL_Thickness_Planer_1500W_TTKP15001.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309729/Astonic-Mart/Products/planers/TOTAL_Thickness_Planer_1500W_TTKP15001-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309728/Astonic-Mart/Products/planers/TOTAL_Thickness_Planer_1500W_TTKP15001.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786309730/Astonic-Mart/Products/planers/TOTAL_Thickness_Planer_1500W_TTKP15001-4.jpg'
+                                                'assets/img/planers/TOTAL Thickness Planer 1500W (TTKP15001).jpg',
+                                                'assets/img/planers/TOTAL Thickness Planer 1500W (TTKP15001)-2.jpg',
+                                                'assets/img/planers/TOTAL Thickness Planer 1500W (TTKP15001).jpg',
+                                                'assets/img/planers/TOTAL Thickness Planer 1500W (TTKP15001)-4.jpg'
                                             ],
 
                                                 inStock: true,
@@ -14313,10 +14315,10 @@ Ideal for professional woodworking
                             discountPrice: 150000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328602/Astonic-Mart/Products/routers/TOTAL_ELECTRIC_ROUTER_2.200W_TR111226.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328602/Astonic-Mart/Products/routers/TOTAL_ELECTRIC_ROUTER_2.200W_TR111226-2.avif',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328602/Astonic-Mart/Products/routers/TOTAL_ELECTRIC_ROUTER_2.200W_TR111226-3.avif',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328606/Astonic-Mart/Products/routers/TOTAL_ELECTRIC_ROUTER_2.200W_TR111226-4.webp'
+                                    'assets/img/routers/TOTAL ELECTRIC ROUTER 2.200W (TR111226).jpg',
+                                    'assets/img/routers/TOTAL ELECTRIC ROUTER 2.200W (TR111226)-2.avif',
+                                    'assets/img/routers/TOTAL ELECTRIC ROUTER 2.200W (TR111226)-3.avif',
+                                    'assets/img/routers/TOTAL ELECTRIC ROUTER 2.200W (TR111226)-4.webp'
                                 ],
 
                                     model: 'TR111226',
@@ -14377,11 +14379,11 @@ Ideal for professional woodworking
                             discountPrice: 155000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328591/Astonic-Mart/Products/routers/INGCO_Electric_Router_2200W_RT22008.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328590/Astonic-Mart/Products/routers/INGCO_Electric_Router_2200W_RT22008-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328593/Astonic-Mart/Products/routers/INGCO_Electric_Router_2200W_RT22008-3.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328594/Astonic-Mart/Products/routers/INGCO_Electric_Router_2200W_RT22008-4.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786328594/Astonic-Mart/Products/routers/INGCO_Electric_Router_2200W_RT22008-5.jpg'
+                                    'assets/img/routers/INGCO Electric Router 2200W RT22008.webp',
+                                    'assets/img/routers/INGCO Electric Router 2200W RT22008-2.jpg',
+                                    'assets/img/routers/INGCO Electric Router 2200W RT22008-3.webp',
+                                    'assets/img/routers/INGCO Electric Router 2200W RT22008-4.webp',
+                                    'assets/img/routers/INGCO Electric Router 2200W RT22008-5.jpeg'
                                 ],
 
                                     model: 'RT22008',
@@ -14443,12 +14445,12 @@ Ideal for professional woodworking
                                 discountPrice: 199000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307829/Astonic-Mart/Products/impact-wrench/ingco_ciwli2050_cordless_impact_wrench_500nm.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307832/Astonic-Mart/Products/impact-wrench/ingco_ciwli2050_cordless_impact_wrench_500nm-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307835/Astonic-Mart/Products/impact-wrench/ingco_ciwli2050_cordless_impact_wrench_500nm-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307839/Astonic-Mart/Products/impact-wrench/ingco_ciwli2050_cordless_impact_wrench_500nm-4.png',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307854/Astonic-Mart/Products/impact-wrench/ingco_ciwli2050_cordless_impact_wrench_500nm-6.png',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307845/Astonic-Mart/Products/impact-wrench/ingco_ciwli2050_cordless_impact_wrench_500nm-5.png'
+                                        'assets/img/impact-wrench/ingco ciwli2050 cordless impact wrench 500nm.jpeg',
+                                        'assets/img/impact-wrench/ingco ciwli2050 cordless impact wrench 500nm-2.jpg',
+                                        'assets/img/impact-wrench/ingco ciwli2050 cordless impact wrench 500nm-3.jpg',
+                                        'assets/img/impact-wrench/ingco ciwli2050 cordless impact wrench 500nm-4.png',
+                                        'assets/img/impact-wrench/ingco ciwli2050 cordless impact wrench 500nm-6.png',
+                                        'assets/img/impact-wrench/ingco ciwli2050 cordless impact wrench 500nm-5.png'
                                     ],
 
                                         model: 'CIWLI2050',
@@ -14515,15 +14517,15 @@ Ideal for professional woodworking
                                 discountPrice: 250000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307855/Astonic-Mart/Products/impact-wrench/INGCO_CIWLI2085_Cordless_Impact_Wrenchn_850nm.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307858/Astonic-Mart/Products/impact-wrench/INGCO_CIWLI2085_Cordless_Impact_Wrenchn_850nm-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307861/Astonic-Mart/Products/impact-wrench/INGCO_CIWLI2085_Cordless_Impact_Wrenchn_850nm-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307863/Astonic-Mart/Products/impact-wrench/INGCO_CIWLI2085_Cordless_Impact_Wrenchn_850nm-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307865/Astonic-Mart/Products/impact-wrench/INGCO_CIWLI2085_Cordless_Impact_Wrenchn_850nm-5.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786331884/Astonic-Mart/Products/impact-wrench/INGCO_CIWLI2085_Cordless_Impact_Wrenchn_850nm-6.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786326187/Astonic-Mart/Products/impact-wrench/INGCO_CIWLI2085_Cordless_Impact_Wrenchn_850nm-7.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786326187/Astonic-Mart/Products/impact-wrench/INGCO_CIWLI2085_Cordless_Impact_Wrenchn_850nm-7.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786326199/Astonic-Mart/Products/impact-wrench/INGCO_CIWLI2085_Cordless_Impact_Wrenchn_850nm-8.jpg'
+                                        'assets/img/impact-wrench/INGCO CIWLI2085 Cordless Impact Wrenchn 850nm.jpg',
+                                        'assets/img/impact-wrench/INGCO CIWLI2085 Cordless Impact Wrenchn 850nm-2.jpg',
+                                        'assets/img/impact-wrench/INGCO CIWLI2085 Cordless Impact Wrenchn 850nm-3.jpg',
+                                        'assets/img/impact-wrench/INGCO CIWLI2085 Cordless Impact Wrenchn 850nm-4.jpg',
+                                        'assets/img/impact-wrench/INGCO CIWLI2085 Cordless Impact Wrenchn 850nm-5.jpg',
+                                        'assets/img/impact-wrench/INGCO CIWLI2085 Cordless Impact Wrenchn 850nm-6.jpg',
+                                        'assets/img/impact-wrench/INGCO CIWLI2085 Cordless Impact Wrenchn 850nm-7.jpg',
+                                        'assets/img/impact-wrench/INGCO CIWLI2085 Cordless Impact Wrenchn 850nm-7.jpg',
+                                        'assets/img/impact-wrench/INGCO CIWLI2085 Cordless Impact Wrenchn 850nm-8.jpg'
                                     ],
 
                                         model: 'CIWLI2085',
@@ -14594,10 +14596,10 @@ Ideal for professional woodworking
                                 discountPrice: 145000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329942/Astonic-Mart/Products/tools%20sets/TOTAL_SET_CORDLESS_DRILL_128PCS_THKTHP11282.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329941/Astonic-Mart/Products/tools%20sets/TOTAL_SET_CORDLESS_DRILL_128PCS_THKTHP11282-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329941/Astonic-Mart/Products/tools%20sets/TOTAL_SET_CORDLESS_DRILL_128PCS_THKTHP11282-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786329941/Astonic-Mart/Products/tools%20sets/TOTAL_SET_CORDLESS_DRILL_128PCS_THKTHP11282-4.jpg'
+                                        'assets/img/tools sets/TOTAL SET CORDLESS DRILL  128PCS (THKTHP11282).jpg',
+                                        'assets/img/tools sets/TOTAL SET CORDLESS DRILL  128PCS (THKTHP11282)-2.jpeg',
+                                        'assets/img/tools sets/TOTAL SET CORDLESS DRILL  128PCS (THKTHP11282)-3.jpg',
+                                        'assets/img/tools sets/TOTAL SET CORDLESS DRILL  128PCS (THKTHP11282)-4.jpg'
                                     ],
 
                                         model: 'THKTHP11282',
@@ -14676,10 +14678,10 @@ Ideal for professional woodworking
                                 discountPrice: 88000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324247/Astonic-Mart/Products/drills/total_drill_machine_1.5ah-1.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324246/Astonic-Mart/Products/drills/total_drill_machine_1.5ah-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324253/Astonic-Mart/Products/drills/total_drill_machine_1.5ah-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324246/Astonic-Mart/Products/drills/total_drill_machine_1.5ah.jpg'
+                                        'assets/img/drills/total drill machine 1.5ah-1.jpg',
+                                        'assets/img/drills/total drill machine 1.5ah-2.jpg',
+                                        'assets/img/drills/total drill machine 1.5ah-3.jpg',
+                                        'assets/img/drills/total drill machine 1.5ah.jpg'
                                     ],
 
                                         model: 'TDLI20028',
@@ -14769,10 +14771,10 @@ Ideal for professional woodworking
                                 discountPrice: 65000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324272/Astonic-Mart/Products/drills/TOTAL_TDLI12202_12V_Lithium-Ion_Cordless_Drill.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324280/Astonic-Mart/Products/drills/TOTAL_TDLI12202_12V_Lithium-Ion_Cordless_Drill-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324282/Astonic-Mart/Products/drills/TOTAL_TDLI12202_12V_Lithium-Ion_Cordless_Drill-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324269/Astonic-Mart/Products/drills/TOTAL_TDLI12202_12V_Lithium-Ion_Cordless_Drill-2.jpg'
+                                        'assets/img/drills/TOTAL TDLI12202 12V Lithium-Ion Cordless Drill.jpg',
+                                        'assets/img/drills/TOTAL TDLI12202 12V Lithium-Ion Cordless Drill-3.jpg',
+                                        'assets/img/drills/TOTAL TDLI12202 12V Lithium-Ion Cordless Drill-4.jpg',
+                                        'assets/img/drills/TOTAL TDLI12202 12V Lithium-Ion Cordless Drill-2.jpg'
                                     ],
 
                                         model: 'TDLI12202',
@@ -14855,13 +14857,13 @@ Ideal for professional woodworking
                                 discountPrice: 40000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307464/Astonic-Mart/Products/grinders/INGCO_CMGLI0801_Cordless_Grinder_8V-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307463/Astonic-Mart/Products/grinders/INGCO_CMGLI0801_Cordless_Grinder_8V.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307463/Astonic-Mart/Products/grinders/INGCO_CMGLI0801_Cordless_Grinder_8V.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307465/Astonic-Mart/Products/grinders/INGCO_CMGLI0801_Cordless_Grinder_8V-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307466/Astonic-Mart/Products/grinders/INGCO_CMGLI0801_Cordless_Grinder_8V-5.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307467/Astonic-Mart/Products/grinders/INGCO_CMGLI0801_Cordless_Grinder_8V-6.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307469/Astonic-Mart/Products/grinders/INGCO_CMGLI0801_Cordless_Grinder_8V-7.jpg',
+                                        'assets/img/grinders/INGCO CMGLI0801 Cordless Grinder 8V-3.jpg',
+                                        'assets/img/grinders/INGCO CMGLI0801 Cordless Grinder 8V.jpg',
+                                        'assets/img/grinders/INGCO CMGLI0801 Cordless Grinder 8V.jpg',
+                                        'assets/img/grinders/INGCO CMGLI0801 Cordless Grinder 8V-4.jpg',
+                                        'assets/img/grinders/INGCO CMGLI0801 Cordless Grinder 8V-5.jpg',
+                                        'assets/img/grinders/INGCO CMGLI0801 Cordless Grinder 8V-6.jpg',
+                                        'assets/img/grinders/INGCO CMGLI0801 Cordless Grinder 8V-7.jpg',
                                     ],
 
                                         model: 'CMGLI0801',
@@ -14936,11 +14938,11 @@ Ideal for professional woodworking
                                 discountPrice: 120000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324283/Astonic-Mart/Products/drills/TOTAL_TIDLI201452_20V_Cordless_Impact_Drill-45nm.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324284/Astonic-Mart/Products/drills/TOTAL_TIDLI201452_20V_Cordless_Impact_Drill-45nm-2.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324284/Astonic-Mart/Products/drills/TOTAL_TIDLI201452_20V_Cordless_Impact_Drill-45nm-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324288/Astonic-Mart/Products/drills/TOTAL_TIDLI201452_20V_Cordless_Impact_Drill-45nm-4.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324289/Astonic-Mart/Products/drills/TOTAL_TIDLI201452_20V_Cordless_Impact_Drill-45nm-5.jpg'
+                                        'assets/img/drills/TOTAL TIDLI201452 20V Cordless Impact Drill-45nm.jpg',
+                                        'assets/img/drills/TOTAL TIDLI201452 20V Cordless Impact Drill-45nm-2.webp',
+                                        'assets/img/drills/TOTAL TIDLI201452 20V Cordless Impact Drill-45nm-3.jpg',
+                                        'assets/img/drills/TOTAL TIDLI201452 20V Cordless Impact Drill-45nm-4.webp',
+                                        'assets/img/drills/TOTAL TIDLI201452 20V Cordless Impact Drill-45nm-5.jpg'
                                     ],
 
                                         model: 'TIDLI201452',
@@ -15029,13 +15031,13 @@ Ideal for professional woodworking
                             price: 95000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329866/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329869/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-2.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329867/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329867/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329868/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-5.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329874/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-6.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786329871/Astonic-Mart/Products/tools%20sets/INGCO_81PCS_Tools_Set_with_12V_Cordless_Drill-7.jpg'
+                                    'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill.jpg',
+                                    'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-2.webp',
+                                    'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-3.jpg',
+                                    'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-4.jpg',
+                                    'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-5.jpg',
+                                    'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-6.jpg',
+                                    'assets/img/tools sets/INGCO 81PCS Tools Set with 12V Cordless Drill-7.jpg'
                                 ],
 
                                     model: 'UHKTHP10811',
@@ -15131,9 +15133,9 @@ Ideal for professional woodworking
                                 inStock: true,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786313650/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_Saw_chain_24_inch_TG5602411_TGTSC52401.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304734/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_Saw_chain_24_inch_TG5602411_TGTSC52401-2.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786313635/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_Saw_chain_24_inch_TG5602411_TGTSC52401.jpg'
+                                        'assets/img/chain and  band saws/TOTAL Saw chain 24 inch TG5602411 (TGTSC52401).jpg',
+                                        'assets/img/chain and  band saws/TOTAL Saw chain 24 inch TG5602411 (TGTSC52401)-2.webp',
+                                        'assets/img/chain and  band saws/TOTAL Saw chain 24 inch TG5602411 (TGTSC52401).jpeg'
                                     ],
 
                                         description: 'The TOTAL TGTSC52401 Saw Chain is a high-performance replacement chainsaw chain designed for use with the TOTAL TG5602411 gasoline chainsaw and other compatible 24-inch guide bars. Manufactured from hardened alloy steel, it delivers fast, smooth, and efficient cutting performance for logging, tree felling, pruning, firewood preparation, and general forestry applications.',
@@ -15216,10 +15218,10 @@ Professional-grade chainsaw accessory
                                     discountPrice: 52000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307492/Astonic-Mart/Products/grinders/TOTAL_Angle_Grinder_750W_-_115mm.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307492/Astonic-Mart/Products/grinders/TOTAL_Angle_Grinder_750W_-_115mm-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307494/Astonic-Mart/Products/grinders/TOTAL_Angle_Grinder_750W_-_115mm-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307494/Astonic-Mart/Products/grinders/TOTAL_Angle_Grinder_750W_-_115mm-4.jpg'
+                                            'assets/img/grinders/TOTAL Angle Grinder 750W - 115mm.jpg',
+                                            'assets/img/grinders/TOTAL Angle Grinder 750W - 115mm-2.jpg',
+                                            'assets/img/grinders/TOTAL Angle Grinder 750W - 115mm-3.jpg',
+                                            'assets/img/grinders/TOTAL Angle Grinder 750W - 115mm-4.jpg'
                                         ],
 
                                             inStock: true,
@@ -15276,11 +15278,11 @@ Professional-grade chainsaw accessory
                                     discountPrice: 30000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307458/Astonic-Mart/Products/grinders/ingco_Angle_Grinder_750W_-_115mm.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307459/Astonic-Mart/Products/grinders/ingco_Angle_Grinder_750W_-_115mm-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307460/Astonic-Mart/Products/grinders/ingco_Angle_Grinder_750W_-_115mm-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307461/Astonic-Mart/Products/grinders/ingco_Angle_Grinder_750W_-_115mm-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307462/Astonic-Mart/Products/grinders/ingco_Angle_Grinder_750W_-_115mm-5.jpg'
+                                            'assets/img/grinders/ingco Angle Grinder 750W - 115mm.jpg',
+                                            'assets/img/grinders/ingco Angle Grinder 750W - 115mm-2.jpeg',
+                                            'assets/img/grinders/ingco Angle Grinder 750W - 115mm-3.jpeg',
+                                            'assets/img/grinders/ingco Angle Grinder 750W - 115mm-4.jpeg',
+                                            'assets/img/grinders/ingco Angle Grinder 750W - 115mm-5.jpg'
                                         ],
 
                                             inStock: true,
@@ -15338,9 +15340,9 @@ Professional-grade chainsaw accessory
                                     discountPrice: 60000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786325365/Astonic-Mart/Products/grinders/ingco_Angle_Grinder_1100w_5_inch.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786325366/Astonic-Mart/Products/grinders/ingco_Angle_Grinder_1100w_5_inch.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307457/Astonic-Mart/Products/grinders/ingco_Angle_Grinder_1100w_inch.jpg'
+                                            'assets/img/grinders/ingco Angle Grinder 1100w 5 inch.jpeg',
+                                            'assets/img/grinders/ingco Angle Grinder 1100w 5 inch.png',
+                                            'assets/img/grinders/ingco Angle Grinder 1100w inch.jpeg'
                                         ],
 
                                             inStock: true,
@@ -15396,10 +15398,10 @@ Professional-grade chainsaw accessory
                                 discountPrice: 90000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328957/Astonic-Mart/Products/sanders/TOTAL_Rotary_Sander_450W_-_150mm_6_TF2061506.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328959/Astonic-Mart/Products/sanders/TOTAL_Rotary_Sander_450W_-_150mm_6inch.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328959/Astonic-Mart/Products/sanders/TOTAL_Rotary_Sander_450W_-_150mm_6_TF2061506-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328958/Astonic-Mart/Products/sanders/TOTAL_Rotary_Sander_450W_-_150mm_6_TF2061506-3.jpg'
+                                        'assets/img/sanders/TOTAL Rotary Sander 450W - 150mm (6) TF2061506.jpg',
+                                        'assets/img/sanders/TOTAL Rotary Sander 450W - 150mm 6inch.webp',
+                                        'assets/img/sanders/TOTAL Rotary Sander 450W - 150mm (6) TF2061506-2.jpg',
+                                        'assets/img/sanders/TOTAL Rotary Sander 450W - 150mm (6) TF2061506-3.jpeg'
                                     ],
 
                                         inStock: false,
@@ -15453,11 +15455,11 @@ Professional-grade chainsaw accessory
                                 discountPrice: 90000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328960/Astonic-Mart/Products/sanders/TOTAL_TF2041506_Rotary_sander_450W-5.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328961/Astonic-Mart/Products/sanders/TOTAL_TF2041506_Rotary_sander_450W.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328961/Astonic-Mart/Products/sanders/TOTAL_TF2041506_Rotary_sander_450W-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328961/Astonic-Mart/Products/sanders/TOTAL_TF2041506_Rotary_sander_450W-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328960/Astonic-Mart/Products/sanders/TOTAL_TF2041506_Rotary_sander_450W-4.jpg'
+                                        'assets/img/sanders/TOTAL TF2041506 Rotary sander 450W-5.webp',
+                                        'assets/img/sanders/TOTAL TF2041506 Rotary sander 450W.jpg',
+                                        'assets/img/sanders/TOTAL TF2041506 Rotary sander 450W-2.jpg',
+                                        'assets/img/sanders/TOTAL TF2041506 Rotary sander 450W-3.jpg',
+                                        'assets/img/sanders/TOTAL TF2041506 Rotary sander 450W-4.jpg'
                                     ],
 
                                         inStock: true,
@@ -15518,10 +15520,10 @@ Professional-grade chainsaw accessory
 
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304681/Astonic-Mart/Products/chain%20and%20%20band%20saws/INGCO_Cordless_Pruner_Saw_-_CGSLI20581.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304682/Astonic-Mart/Products/chain%20and%20%20band%20saws/INGCO_Cordless_Pruner_Saw_-_CGSLI20581-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304683/Astonic-Mart/Products/chain%20and%20%20band%20saws/INGCO_Cordless_Pruner_Saw_-_CGSLI20581-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304684/Astonic-Mart/Products/chain%20and%20%20band%20saws/INGCO_Cordless_Pruner_Saw_-_CGSLI20581-4.jpg'
+                                            'assets/img/chain and  band saws/INGCO Cordless Pruner Saw - CGSLI20581.jpg',
+                                            'assets/img/chain and  band saws/INGCO Cordless Pruner Saw - CGSLI20581-2.jpg',
+                                            'assets/img/chain and  band saws/INGCO Cordless Pruner Saw - CGSLI20581-3.jpg',
+                                            'assets/img/chain and  band saws/INGCO Cordless Pruner Saw - CGSLI20581-4.jpg'
                                         ],
 
                                             inStock: false,
@@ -15577,10 +15579,10 @@ Professional-grade chainsaw accessory
                                     inStock: true,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786310513/Astonic-Mart/Products/ppr/makita_cordless_ppr_machine.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786310553/Astonic-Mart/Products/ppr/makita_cordless_ppr_machine-2.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786310593/Astonic-Mart/Products/ppr/makita_cordless_ppr_machine-3.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786310639/Astonic-Mart/Products/ppr/makita_cordless_ppr_machine-4.png'
+                                            'assets/img/ppr/makita cordless ppr machine.jpg',
+                                            'assets/img/ppr/makita cordless ppr machine-2.png',
+                                            'assets/img/ppr/makita cordless ppr machine-3.png',
+                                            'assets/img/ppr/makita cordless ppr machine-4.png'
                                         ],
 
                                             description: `The Generic Makita Cordless PPR Welding Machine 118VF is a portable lithium-battery-powered fusion welding tool designed for joining PPR, PE, PP and similar plastic pipes. Its cordless design allows plumbers and installers to work conveniently in locations without direct access to electricity while maintaining stable heating performance.`,
@@ -15638,14 +15640,14 @@ Accessories Included:
                                     inStock: true,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304705/Astonic-Mart/Products/chain%20and%20%20band%20saws/STIHL_MS_070_Petrol_Chainsaw.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304706/Astonic-Mart/Products/chain%20and%20%20band%20saws/STIHL_MS_070_Petrol_Chainsaw-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304709/Astonic-Mart/Products/chain%20and%20%20band%20saws/STIHL_MS_070_Petrol_Chainsaw-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304710/Astonic-Mart/Products/chain%20and%20%20band%20saws/STIHL_MS_070_Petrol_Chainsaw-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304711/Astonic-Mart/Products/chain%20and%20%20band%20saws/STIHL_MS_070_Petrol_Chainsaw-6.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304712/Astonic-Mart/Products/chain%20and%20%20band%20saws/STIHL_MS_070_Petrol_Chainsaw-7.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304713/Astonic-Mart/Products/chain%20and%20%20band%20saws/STIHL_MS_070_Petrol_Chainsaw-8.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304707/Astonic-Mart/Products/chain%20and%20%20band%20saws/STIHL_MS_070_Petrol_Chainsaw-3.jpg'
+                                            'assets/img/chain and  band saws/STIHL MS 070 Petrol Chainsaw.jpg',
+                                            'assets/img/chain and  band saws/STIHL MS 070 Petrol Chainsaw-2.jpg',
+                                            'assets/img/chain and  band saws/STIHL MS 070 Petrol Chainsaw-4.jpg',
+                                            'assets/img/chain and  band saws/STIHL MS 070 Petrol Chainsaw-5.jpg',
+                                            'assets/img/chain and  band saws/STIHL MS 070 Petrol Chainsaw-6.jpg',
+                                            'assets/img/chain and  band saws/STIHL MS 070 Petrol Chainsaw-7.jpg',
+                                            'assets/img/chain and  band saws/STIHL MS 070 Petrol Chainsaw-8.jpg',
+                                            'assets/img/chain and  band saws/STIHL MS 070 Petrol Chainsaw-3.jpg'
                                         ],
 
                                             description: `The STIHL MS 070 Petrol Chainsaw is a professional-grade heavy-duty chainsaw designed for forestry operations, timber harvesting, tree felling, and large-scale wood cutting. It features a powerful 2-stroke gasoline engine, durable construction, and a long guide bar suitable for demanding cutting applications.`,
@@ -15703,9 +15705,9 @@ Accessories Included:
                                     inStock: true,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304685/Astonic-Mart/Products/chain%20and%20%20band%20saws/Makita_18v_150_mm_Cordless_Pruning_Saw.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304698/Astonic-Mart/Products/chain%20and%20%20band%20saws/Makita_18v_150_mm_Cordless_Pruning_Saw-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304686/Astonic-Mart/Products/chain%20and%20%20band%20saws/Makita_18v_150_mm_Cordless_Pruning_Saw-2.jpg'
+                                            'assets/img/chain and  band saws/Makita 18v 150 mm  Cordless Pruning Saw.jpg',
+                                            'assets/img/chain and  band saws/Makita 18v 150 mm  Cordless Pruning Saw-3.jpg',
+                                            'assets/img/chain and  band saws/Makita 18v 150 mm  Cordless Pruning Saw-2.jpg'
                                         ],
 
                                             description: `The Makita 18V 150mm (6") Cordless Pruning Saw is a lightweight and portable battery-powered chainsaw designed for pruning branches, trimming trees, cutting firewood, and general garden maintenance. Its compact design allows for easy one-handed operation while delivering fast and efficient cutting performance.`,
@@ -15765,9 +15767,9 @@ Accessories Included:
                                         inStock: true,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305576/Astonic-Mart/Products/combo%20kits/TOTAL_5_Pcs_Cordless_industrial_combo_kit_TCKLI20592E.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305577/Astonic-Mart/Products/combo%20kits/TOTAL_5_Pcs_Cordless_industrial_combo_kit_TCKLI20592E-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305579/Astonic-Mart/Products/combo%20kits/TOTAL_5_Pcs_Cordless_industrial_combo_kit_TCKLI20592E-3.png'
+                                                'assets/img/combo kits/TOTAL 5 Pcs Cordless industrial combo kit (TCKLI20592E).jpg',
+                                                'assets/img/combo kits/TOTAL 5 Pcs Cordless industrial combo kit (TCKLI20592E)-2.jpg',
+                                                'assets/img/combo kits/TOTAL 5 Pcs Cordless industrial combo kit (TCKLI20592E)-3.png'
                                             ],
 
                                                 description: `
@@ -15827,10 +15829,10 @@ Accessories Included:
                         price: 137000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304125/Astonic-Mart/Products/bag%20closers/GK9-12A_Portable_Bag_Closer_Machine.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304126/Astonic-Mart/Products/bag%20closers/GK9-12A_Portable_Bag_Closer_Machine-2.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304127/Astonic-Mart/Products/bag%20closers/GK9-12A_Portable_Bag_Closer_Machine-3.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786304131/Astonic-Mart/Products/bag%20closers/GK9-12A_Portable_Bag_Closer_Machine-4.png'
+                                'assets/img/bag closers/GK9-12A Portable Bag Closer Machine.jpg',
+                                'assets/img/bag closers/GK9-12A Portable Bag Closer Machine-2.jpg',
+                                'assets/img/bag closers/GK9-12A Portable Bag Closer Machine-3.jpeg',
+                                'assets/img/bag closers/GK9-12A Portable Bag Closer Machine-4.png'
                             ],
 
                                 inStock: true,
@@ -15890,9 +15892,9 @@ Accessories Included:
                             price: 180000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304670/Astonic-Mart/Products/chain%20and%20%20band%20saws/AGP_Professional_Gasoline_Chain_Saw_AG3500W.png',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304675/Astonic-Mart/Products/chain%20and%20%20band%20saws/BOSCH_06012B7000_-_GCB_18V-127_-_18V_cordless_band_saw.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304674/Astonic-Mart/Products/chain%20and%20%20band%20saws/AGP_Professional_Gasoline_Chain_Saw_AG3500W-1.png'
+                                    'assets/img/chain and  band saws/AGP Professional Gasoline Chain Saw AG3500W.png',
+                                    'assets/img/chain and  band saws/BOSCH 06012B7000 - GCB 18V-127 - 18V cordless band saw.webp',
+                                    'assets/img/chain and  band saws/AGP Professional Gasoline Chain Saw AG3500W-1.png'
                                 ],
 
                                     inStock: true,
@@ -15955,9 +15957,9 @@ Accessories Included:
                         price: 380000,
 
                             images: [
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305546/Astonic-Mart/Products/combo%20kits/INGCO_Cordless_3pcs_Combo_Kit_COSLI240202.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305549/Astonic-Mart/Products/combo%20kits/INGCO_Cordless_3pcs_Combo_Kit_COSLI240202-3.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305547/Astonic-Mart/Products/combo%20kits/INGCO_Cordless_3pcs_Combo_Kit_COSLI240202-2.jpg'
+                                'assets/img/combo kits/INGCO Cordless 3pcs Combo Kit COSLI240202.jpg',
+                                'assets/img/combo kits/INGCO Cordless 3pcs Combo Kit COSLI240202-3.jpg',
+                                'assets/img/combo kits/INGCO Cordless 3pcs Combo Kit COSLI240202-2.jpeg'
                             ],
 
                                 inStock: true,
@@ -16045,9 +16047,9 @@ Accessories Included:
                                     model: 'TDDM28001',
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324240/Astonic-Mart/Products/drills/TOTAL_DIAMOND_DRILLING_MACHINE_2.800W_TDDM28001.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324241/Astonic-Mart/Products/drills/TOTAL_DIAMOND_DRILLING_MACHINE_2.800W_TDDM28001-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786324240/Astonic-Mart/Products/drills/TOTAL_DIAMOND_DRILLING_MACHINE_2.800W_TDDM28001-3.jpg'
+                                            'assets/img/drills/TOTAL DIAMOND DRILLING MACHINE 2.800W (TDDM28001).jpg',
+                                            'assets/img/drills/TOTAL DIAMOND DRILLING MACHINE 2.800W (TDDM28001)-2.jpeg',
+                                            'assets/img/drills/TOTAL DIAMOND DRILLING MACHINE 2.800W (TDDM28001)-3.jpg'
                                         ],
                                             videos: [
                                                 'https://youtu.be/qXnrhhzNI2w?si=iRn9_CHEFw9kvYZn'
@@ -16114,9 +16116,9 @@ User Manual
                                         power: '3800W',
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324241/Astonic-Mart/Products/drills/TOTAL_Diamond_Drilling_Machine_3800W_TDDM38001.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324247/Astonic-Mart/Products/drills/TOTAL_Diamond_Drilling_Machine_3800W_TDDM38001-2.webp',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324246/Astonic-Mart/Products/drills/TOTAL_Diamond_Drilling_Machine_3800W_TDDM38001-5.jpg'
+                                                'assets/img/drills/TOTAL Diamond Drilling Machine 3800W  (TDDM38001).jpg',
+                                                'assets/img/drills/TOTAL Diamond Drilling Machine 3800W  (TDDM38001)-2.webp',
+                                                'assets/img/drills/TOTAL Diamond Drilling Machine 3800W (TDDM38001)-5.jpg'
                                             ],
 
                                                 description: 'The TOTAL TDDM38001 Diamond Drilling Machine is a professional heavy-duty core drilling machine designed for drilling large-diameter holes in reinforced concrete, masonry, brick, stone, and construction materials. Its powerful 3800W motor and drilling stand provide stable, accurate, and efficient drilling performance for demanding job site applications.',
@@ -16174,7 +16176,7 @@ User Manual
                                     power: '1100W',
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307528/Astonic-Mart/Products/grinders/Workflex_Pedestal_Bench_Grinder_250mm_WFS3-250.png'
+                                            'assets/img/grinders/Workflex Pedestal Bench Grinder 250mm (WFS3-250).png'
                                         ],
 
                                             description: 'The WFS3-250 Pedestal Bench Grinder is a heavy-duty grinding machine designed for sharpening, deburring, shaping, polishing, and surface preparation of metal components. Featuring dual grinding wheels and a powerful copper-wound motor, it is suitable for workshops, fabrication shops, maintenance departments, and industrial applications.',
@@ -16231,7 +16233,7 @@ User Manual
                                 model: 'EZ-630',
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305646/Astonic-Mart/Products/crimping%20tools/EZ-630_Cordless_Hydraulic_Crimping_Tool_Kit.png'
+                                        'assets/img/crimping tools/EZ-630 Cordless Hydraulic Crimping Tool Kit.png'
                                     ],
 
                                         variations: [
@@ -16313,11 +16315,11 @@ User Manual
                             discountPrice: 250000,
 
                                 images: [
-                                    "https://res.cloudinary.com/taus5tit/image/upload/v1786305593/Astonic-Mart/Products/combo%20kits/TOTAL_Pole_Saw_with_Pole_Hedge_Trimmer_20V_TPTS201681.jpg",
-                                    "https://res.cloudinary.com/taus5tit/image/upload/v1786305594/Astonic-Mart/Products/combo%20kits/TOTAL_Pole_Saw_with_Pole_Hedge_Trimmer_20V_TPTS201681-2.webp",
-                                    "https://res.cloudinary.com/taus5tit/image/upload/v1786305595/Astonic-Mart/Products/combo%20kits/TOTAL_Pole_Saw_with_Pole_Hedge_Trimmer_20V_TPTS201681-3.webp",
-                                    "https://res.cloudinary.com/taus5tit/image/upload/v1786305596/Astonic-Mart/Products/combo%20kits/TOTAL_Pole_Saw_with_Pole_Hedge_Trimmer_20V_TPTS201681-4.jpg",
-                                    "https://res.cloudinary.com/taus5tit/image/upload/v1786305597/Astonic-Mart/Products/combo%20kits/TOTAL_Pole_Saw_with_Pole_Hedge_Trimmer_20V_TPTS201681-5.jpg"
+                                    "assets/img/combo kits/TOTAL Pole Saw with Pole Hedge Trimmer 20V (TPTS201681).jpg",
+                                    "assets/img/combo kits/TOTAL Pole Saw with Pole Hedge Trimmer 20V (TPTS201681)-2.webp",
+                                    "assets/img/combo kits/TOTAL Pole Saw with Pole Hedge Trimmer 20V (TPTS201681)-3.webp",
+                                    "assets/img/combo kits/TOTAL Pole Saw with Pole Hedge Trimmer 20V (TPTS201681)-4.jpeg",
+                                    "assets/img/combo kits/TOTAL Pole Saw with Pole Hedge Trimmer 20V (TPTS201681)-5.jpeg"
                                 ],
 
                                     description: `
@@ -16398,10 +16400,10 @@ Accessories Included:
                             discountPrice: 150000,
 
                                 images: [
-                                    "https://res.cloudinary.com/taus5tit/image/upload/v1786307536/Astonic-Mart/Products/guns%20and%20trimmers/ingco_cordless_hedge_trimmer_CHTLI20018-1.jpg",
-                                    "https://res.cloudinary.com/taus5tit/image/upload/v1786307537/Astonic-Mart/Products/guns%20and%20trimmers/ingco_cordless_hedge_trimmer_CHTLI20018-2.jpg",
-                                    "https://res.cloudinary.com/taus5tit/image/upload/v1786307538/Astonic-Mart/Products/guns%20and%20trimmers/ingco_cordless_hedge_trimmer_CHTLI20018-3.jpg",
-                                    "https://res.cloudinary.com/taus5tit/image/upload/v1786307535/Astonic-Mart/Products/guns%20and%20trimmers/ingco_cordless_hedge_trimmer_CHTLI20018.jpg"
+                                    "assets/img/guns and trimmers/ingco cordless hedge trimmer CHTLI20018-1.jpg",
+                                    "assets/img/guns and trimmers/ingco cordless hedge trimmer CHTLI20018-2.jpg",
+                                    "assets/img/guns and trimmers/ingco cordless hedge trimmer CHTLI20018-3.jpg",
+                                    "assets/img/guns and trimmers/ingco cordless hedge trimmer CHTLI20018.jpg"
                                 ],
 
                                     description: `
@@ -16474,8 +16476,8 @@ Accessories Included:
                                     discountPrice: 280000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307471/Astonic-Mart/Products/grinders/ingco_Cordless_angle_grinder-42v.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307472/Astonic-Mart/Products/grinders/ingco_Cordless_angle_grinder-42v-2.jpg',
+                                            'assets/img/grinders/ingco Cordless angle grinder-42v.jpg',
+                                            'assets/img/grinders/ingco Cordless angle grinder-42v-2.jpeg',
 
                                         ],
 
@@ -16542,8 +16544,8 @@ Accessories Included:
                         price: 1700000, // Add your selling price
 
                             images: [
-                                "https://res.cloudinary.com/taus5tit/image/upload/v1786305704/Astonic-Mart/Products/cutting%20machines/14_Inch_Brick_Cutter_Machine.png",
-                                "https://res.cloudinary.com/taus5tit/image/upload/v1786305837/Astonic-Mart/Products/cutting%20machines/14_Inch_Brick_Cutter_Machine-2.png"
+                                "assets/img/cutting machines/14 Inch Brick Cutter Machine.png",
+                                "assets/img/cutting machines/14 Inch Brick Cutter Machine-2.png"
                             ],
 
                                 description: `The 14 Inch Brick Cutter Machine is a heavy-duty masonry cutting machine designed for precise cutting of bricks, concrete blocks, paving stones, granite, marble, and other construction materials. Featuring a robust steel frame, water cooling system, and sliding cutting table, it delivers smooth and accurate cuts for construction professionals and masonry workshops.`,
@@ -16590,11 +16592,11 @@ Accessories Included:
                         price: 115000,
 
                             images: [
-                                "https://res.cloudinary.com/taus5tit/image/upload/v1786310458/Astonic-Mart/Products/polishers/TOTAL_Polisher_1400W_180mm_TP11418026.jpg",
-                                "https://res.cloudinary.com/taus5tit/image/upload/v1786310459/Astonic-Mart/Products/polishers/TOTAL_Polisher_1400W_180mm_TP11418026-2.jpg",
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786310461/Astonic-Mart/Products/polishers/TOTAL_Polisher_1400W_180mm_TP11418026-4.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786310462/Astonic-Mart/Products/polishers/TOTAL_Polisher_1400W_180mm_TP11418026-5.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786310473/Astonic-Mart/Products/polishers/TOTAL_Polisher_1400W_180mm_TP11418026-6.jpg'
+                                "assets/img/polishers/TOTAL Polisher 1400W 180mm (TP11418026).jpg",
+                                "assets/img/polishers/TOTAL Polisher 1400W 180mm (TP11418026)-2.jpeg",
+                                'assets/img/polishers/TOTAL Polisher 1400W 180mm (TP11418026)-4.jpg',
+                                'assets/img/polishers/TOTAL Polisher 1400W 180mm (TP11418026)-5.jpg',
+                                'assets/img/polishers/TOTAL Polisher 1400W 180mm (TP11418026)-6.jpg'
                             ],
 
                                 description: `The TOTAL TP11418026 180mm Polisher is a high-performance electric polishing machine designed for polishing, buffing, waxing, and restoring painted surfaces. Powered by a robust 1400W motor with variable speed control, it delivers consistent performance for automotive detailing, furniture finishing, metal polishing, and industrial surface restoration. Its ergonomic design and soft-grip handle provide comfort during extended use while ensuring precise control.`,
@@ -16644,9 +16646,9 @@ Accessories Included:
                         price: 95000,
 
                             images: [
-                                "https://res.cloudinary.com/taus5tit/image/upload/v1786314385/Astonic-Mart/Products/combo%20kits/TOTAL_Laser_Distance_Detector_Combo_Kit_TLDD241201-2.webp",
-                                "https://res.cloudinary.com/taus5tit/image/upload/v1786314384/Astonic-Mart/Products/combo%20kits/TOTAL_Laser_Distance_Detector_Combo_Kit_TLDD241201-2.jpg",
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305586/Astonic-Mart/Products/combo%20kits/TOTAL_Laser_Distance_Detector_Combo_Kit_TLDD241201-1.jpg'
+                                "assets/img/combo kits/TOTAL Laser Distance Detector Combo Kit (TLDD241201)-2.webp",
+                                "assets/img/combo kits/TOTAL Laser Distance Detector Combo Kit (TLDD241201)-2.jpeg",
+                                'assets/img/combo kits/TOTAL Laser Distance Detector Combo Kit (TLDD241201)-1.jpeg'
                             ],
 
                                 description: `The TOTAL TLDD241201 Laser Distance Detector Combo Kit is a professional measuring solution that combines a high-precision 70-meter laser distance meter with a 5m steel measuring tape. Designed for contractors, engineers, architects, electricians, carpenters, and surveyors, the kit provides fast, accurate measurements for construction, interior finishing, renovation, and installation projects.`,
@@ -16713,11 +16715,11 @@ Accessories Included:
                         price: 97000,
 
                             images: [
-                                "https://res.cloudinary.com/taus5tit/image/upload/v1786305553/Astonic-Mart/Products/combo%20kits/INGCO_Laser_Distance_Detector_Combo_Kit_HLDD241201-1.jpg",
-                                "https://res.cloudinary.com/taus5tit/image/upload/v1786305554/Astonic-Mart/Products/combo%20kits/INGCO_Laser_Distance_Detector_Combo_Kit_HLDD241201-2.jpg",
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305557/Astonic-Mart/Products/combo%20kits/INGCO_Laser_Distance_Detector_Combo_Kit_HLDD241201-4.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305555/Astonic-Mart/Products/combo%20kits/INGCO_Laser_Distance_Detector_Combo_Kit_HLDD241201-3.jpg',
-                                'https://res.cloudinary.com/taus5tit/image/upload/v1786305558/Astonic-Mart/Products/combo%20kits/INGCO_Laser_Distance_Detector_Combo_Kit_HLDD241201-5.jpg'
+                                "assets/img/combo kits/INGCO Laser Distance Detector Combo Kit (HLDD241201)-1.jpg",
+                                "assets/img/combo kits/INGCO Laser Distance Detector Combo Kit (HLDD241201)-2.jpg",
+                                'assets/img/combo kits/INGCO Laser Distance Detector Combo Kit (HLDD241201)-4.jpg',
+                                'assets/img/combo kits/INGCO Laser Distance Detector Combo Kit (HLDD241201)-3.jpg',
+                                'assets/img/combo kits/INGCO Laser Distance Detector Combo Kit (HLDD241201)-5.jpg'
                             ],
 
                                 description: `The INGCO HLDD241201 Laser Distance Detector Combo Kit combines a 70-meter laser distance meter with a 5m steel measuring tape, providing a complete measuring solution for construction, engineering, carpentry, interior decoration, electrical installation, and surveying. The laser meter offers fast and accurate distance measurements with multiple calculation functions, while the heavy-duty tape measure is ideal for everyday measuring tasks.`,
@@ -16786,13 +16788,13 @@ Accessories Included:
 
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304117/Astonic-Mart/Products/bag%20closers/36V_Cordless_Portable_Bag_Sewing_Machine.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304118/Astonic-Mart/Products/bag%20closers/36V_Cordless_Portable_Bag_Sewing_Machine-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304120/Astonic-Mart/Products/bag%20closers/36V_Cordless_Portable_Bag_Sewing_Machine-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304121/Astonic-Mart/Products/bag%20closers/36V_Cordless_Portable_Bag_Sewing_Machine-4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304122/Astonic-Mart/Products/bag%20closers/36V_Cordless_Portable_Bag_Sewing_Machine-5.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304123/Astonic-Mart/Products/bag%20closers/36V_Cordless_Portable_Bag_Sewing_Machine-6.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304124/Astonic-Mart/Products/bag%20closers/36V_Cordless_Portable_Bag_Sewing_Machine-7.jpg'
+                                    'assets/img/bag closers/36V Cordless Portable Bag Sewing Machine.jpg',
+                                    'assets/img/bag closers/36V Cordless Portable Bag Sewing Machine-2.jpg',
+                                    'assets/img/bag closers/36V Cordless Portable Bag Sewing Machine-3.jpg',
+                                    'assets/img/bag closers/36V Cordless Portable Bag Sewing Machine-4.jpg',
+                                    'assets/img/bag closers/36V Cordless Portable Bag Sewing Machine-5.jpg',
+                                    'assets/img/bag closers/36V Cordless Portable Bag Sewing Machine-6.jpg',
+                                    'assets/img/bag closers/36V Cordless Portable Bag Sewing Machine-7.jpg'
                                 ],
 
                                     description:
@@ -16862,10 +16864,10 @@ User Manual
                                     discountPrice: 150000,
                                         brand: 'TOTAL',
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307495/Astonic-Mart/Products/grinders/TOTAL_Cordless_Angle_Grinder_TAGLI271532E.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307496/Astonic-Mart/Products/grinders/TOTAL_Cordless_Angle_Grinder_TAGLI271532E-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307497/Astonic-Mart/Products/grinders/TOTAL_Cordless_Angle_Grinder_TAGLI271532E-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786307498/Astonic-Mart/Products/grinders/TOTAL_Cordless_Angle_Grinder_TAGLI271532E-4.jpg'
+                                                'assets/img/grinders/TOTAL Cordless Angle Grinder (TAGLI271532E).jpg',
+                                                'assets/img/grinders/TOTAL Cordless Angle Grinder (TAGLI271532E)-2.jpg',
+                                                'assets/img/grinders/TOTAL Cordless Angle Grinder (TAGLI271532E)-3.jpg',
+                                                'assets/img/grinders/TOTAL Cordless Angle Grinder (TAGLI271532E)-4.jpg'
                                             ],
 
                                                 description:
@@ -16934,9 +16936,9 @@ User Manual
                                 discountPrice: 170000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305256/Astonic-Mart/Products/clamp%20and%20multimeters/TOTAL_TOS24068_Electrical_Test_Kit_3PCS_SET-1.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305257/Astonic-Mart/Products/clamp%20and%20multimeters/TOTAL_TOS24068_Electrical_Test_Kit_3PCS_SET-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305254/Astonic-Mart/Products/clamp%20and%20multimeters/TOTAL_TOS24068_Electrical_Test_Kit_3PCS_SET.webp'
+                                        'assets/img/clamp and multimeters/TOTAL TOS24068 Electrical Test Kit 3PCS SET-1.jpg',
+                                        'assets/img/clamp and multimeters/TOTAL TOS24068 Electrical Test Kit 3PCS SET-2.jpeg',
+                                        'assets/img/clamp and multimeters/TOTAL TOS24068 Electrical Test Kit 3PCS SET.webp'
                                     ],
 
                                         description:
@@ -17006,7 +17008,7 @@ User Manual
                                 discountPrice: 140000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305264/Astonic-Mart/Products/clamp%20and%20multimeters/TOTAL_TOS24069_Electrical_Test_Kit_3PCS_SET.png'
+                                        'assets/img/clamp and multimeters/TOTAL TOS24069 Electrical Test Kit 3PCS SET.png'
                                     ],
 
                                         description:
@@ -17071,8 +17073,9 @@ User Manual
                                 discountPrice: 85000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786310395/Astonic-Mart/Products/polishers/Smartec_ST-1802_Electric_Polisher_1400w.png',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786310442/Astonic-Mart/Products/polishers/Smartec_ST-1802_Electric_Polisher_1400w-2.png',
+                                        'assets/img/polishers/Smartec ST-1802 Electric Polisher 1400w.png',
+                                        'assets/img/polishers/Smartec ST-1802 Electric Polisher 1400w-2.png',
+                                        'assets/img/polishers/Smartec ST-1802 Electric Polisher-3.png'
                                     ],
 
                                         description: 'The Smartec ST-1802 Electric Polisher is a professional polishing and buffing machine designed for automotive detailing, furniture restoration, floor finishing and surface maintenance. It features a powerful 1400W motor, variable speed control and ergonomic dual-handle design for smooth and efficient polishing operations.',
@@ -17133,7 +17136,7 @@ User Manual
                                 discountPrice: 170000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324205/Astonic-Mart/Products/drills/power_plus_13mm_Bench_Drill_Press.png',
+                                        'assets/img/drills/power plus 13mm Bench Drill Press.png',
 
                                     ],
 
@@ -17195,7 +17198,7 @@ User Manual
                                 discountPrice: 290000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324195/Astonic-Mart/Products/drills/Power_Plus_16mm_Drill_Press.png',
+                                        'assets/img/drills/Power Plus 16mm Drill Press.png',
 
                                     ],
 
@@ -17256,7 +17259,7 @@ User Manual
                                 discountPrice: 780000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786324197/Astonic-Mart/Products/drills/Power_Plus_32mm_Drill_Press.png',
+                                        'assets/img/drills/Power Plus 32mm Drill Press.png',
 
                                     ],
 
@@ -17324,11 +17327,11 @@ User Manual
                                 discountPrice: 2700000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305872/Astonic-Mart/Products/cutting%20machines/sthil_ts420_petrol_cut_0ff_saw.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305873/Astonic-Mart/Products/cutting%20machines/sthil_ts420_petrol_cut_0ff_saw-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305874/Astonic-Mart/Products/cutting%20machines/sthil_ts420_petrol_cut_0ff_saw-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305875/Astonic-Mart/Products/cutting%20machines/sthil_ts420_petrol_cut_0ff_saw-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305884/Astonic-Mart/Products/cutting%20machines/sthil_ts420_petrol_cut_0ff_saw-5.png'
+                                        'assets/img/cutting machines/sthil ts420 petrol cut 0ff saw.jpeg',
+                                        'assets/img/cutting machines/sthil ts420 petrol cut 0ff saw-2.jpg',
+                                        'assets/img/cutting machines/sthil ts420 petrol cut 0ff saw-3.jpeg',
+                                        'assets/img/cutting machines/sthil ts420 petrol cut 0ff saw-4.jpg',
+                                        'assets/img/cutting machines/sthil ts420 petrol cut 0ff saw-5.png'
                                     ],
 
                                         description: 'The STIHL TS420 Petrol Cut-Off Saw is a professional-grade portable cutting machine designed for construction, road maintenance, masonry, metal fabrication and rescue operations. Equipped with a powerful 2-stroke engine and a 350mm cutting wheel capacity, it delivers high cutting performance for concrete, asphalt, steel and stone materials.',
@@ -17388,10 +17391,10 @@ Operator Manual
                                 discountPrice: 270000,
 
                                     images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429683/Astonic-Mart/Products/remaining-local-images/pf9e4wiafmotvwuejdar.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429684/Astonic-Mart/Products/remaining-local-images/eynx7ruolft1miviz1jc.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429685/Astonic-Mart/Products/remaining-local-images/pakyftbydn4i5i70uu6z.jpg'
-        ],
+                                        'assets/img/lasers and measurement tools/TOTAL TOSLI250606 3PCS Tiling Combo Kit + TLLT01152 Tripod.jpg',
+                                        'assets/img/lasers and measurement tools/TOTAL TOSLI250606 3PCS Tiling Combo Kit + TLLT01152 Tripod-2.jpg',
+                                        'assets/img/lasers and measurement tools/TOTAL TOSLI250606 3PCS Tiling Combo Kit + TLLT01152 Tripod-3.jpg'
+                                    ],
 
                                         jumiaLink: 'https://www.jumia.com.ng/total-tosli250606-3pcs-tiling-combo-kit-tllt01152-tripod-419473719.html',
                                             kongaLink: '',
@@ -17441,9 +17444,9 @@ Operator Manual
                             price: 1300000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305848/Astonic-Mart/Products/cutting%20machines/bossflex_ring_saw.png',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305853/Astonic-Mart/Products/cutting%20machines/bossflex_ring_saw-2.png',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786305857/Astonic-Mart/Products/cutting%20machines/bossflex_ring_saw-3.png'
+                                    'assets/img/cutting machines/bossflex ring saw.png',
+                                    'assets/img/cutting machines/bossflex ring saw-2.png',
+                                    'assets/img/cutting machines/bossflex ring saw-3.png'
                                 ],
 
                                     description: 'The Bossfex 405HF Cutter Power Saw is a heavy-duty wall chaser designed for cutting grooves and channels in concrete walls, blocks and masonry surfaces for electrical conduit installation, plumbing pipes and cable routing. It features a powerful high-speed motor, large cutting capacity and integrated water cooling system for dust suppression and extended blade life.',
@@ -17516,13 +17519,13 @@ Carrying Carton
                             price: 790000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331886/Astonic-Mart/Products/pipe%20threading%20kit/Electric_Pipe_Threading_Machine_-_1and2_to_2inch.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331887/Astonic-Mart/Products/pipe%20threading%20kit/Electric_Pipe_Threading_Machine_-_1and2_to_2inch-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331886/Astonic-Mart/Products/pipe%20threading%20kit/Electric_Pipe_Threading_Machine_-_1and2_to_2inch-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331886/Astonic-Mart/Products/pipe%20threading%20kit/Electric_Pipe_Threading_Machine_-_1and2_to_2inch-4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331894/Astonic-Mart/Products/pipe%20threading%20kit/Electric_Pipe_Threading_Machine_-_1and2_to_2inch-5.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331894/Astonic-Mart/Products/pipe%20threading%20kit/Electric_Pipe_Threading_Machine_-_1and2_to_2inch-6.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786331894/Astonic-Mart/Products/pipe%20threading%20kit/Electric_Pipe_Threading_Machine_-_1and2_to_2inch-7.jpg',
+                                    'assets/img/pipe threading kit/Electric Pipe Threading Machine - 1&2 to 2inch.jpg',
+                                    'assets/img/pipe threading kit/Electric Pipe Threading Machine - 1&2 to 2inch-2.jpg',
+                                    'assets/img/pipe threading kit/Electric Pipe Threading Machine - 1&2 to 2inch-3.jpg',
+                                    'assets/img/pipe threading kit/Electric Pipe Threading Machine - 1&2 to 2inch-4.jpg',
+                                    'assets/img/pipe threading kit/Electric Pipe Threading Machine - 1&2 to 2inch-5.jpg',
+                                    'assets/img/pipe threading kit/Electric Pipe Threading Machine - 1&2 to 2inch-6.jpg',
+                                    'assets/img/pipe threading kit/Electric Pipe Threading Machine - 1&2 to 2inch-7.jpg',
 
                                 ],
 
@@ -17610,14 +17613,8 @@ User Manual
                                 discountPrice: 240000,
 
                                     images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429686/Astonic-Mart/Products/remaining-local-images/nbwchnfcnrndlpmxlzwj.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429687/Astonic-Mart/Products/remaining-local-images/jwveg0yw58fwp2joyd4m.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429688/Astonic-Mart/Products/remaining-local-images/rnv0wvpugq2e82sf4akf.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429703/Astonic-Mart/Products/remaining-local-images/yk9tq1h8uhslsusrz24f.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429704/Astonic-Mart/Products/remaining-local-images/uwoeabwqqwqoewxki6nd.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429704/Astonic-Mart/Products/remaining-local-images/nzldorbbsmqa1rhy7bzj.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429705/Astonic-Mart/Products/remaining-local-images/voq2baoxnwqoin2ylbo4.jpg'
-        ],
+                                        'assets/img/lasers and measurement tools/TOTAL TOSLI250606 3PCS Tiling Combo Kit + TLLT01152 Tripod-3.jpg'
+                                    ],
 
                                         inStock: true,
 
@@ -17665,10 +17662,10 @@ User Manual
                                     discountPrice: 130000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304725/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_Cordless_Pruner_Saw_20V_Brushless-TGSLI20882.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304726/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_Cordless_Pruner_Saw_20V_Brushless-TGSLI20882-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304727/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_Cordless_Pruner_Saw_20V_Brushless-TGSLI20882-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304728/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_Cordless_Pruner_Saw_20V_Brushless-TGSLI20882-4.jpg'
+                                            'assets/img/chain and  band saws/TOTAL Cordless Pruner Saw 20V Brushless-TGSLI20882.jpeg',
+                                            'assets/img/chain and  band saws/TOTAL Cordless Pruner Saw 20V Brushless-TGSLI20882-2.jpeg',
+                                            'assets/img/chain and  band saws/TOTAL Cordless Pruner Saw 20V Brushless-TGSLI20882-3.jpeg',
+                                            'assets/img/chain and  band saws/TOTAL Cordless Pruner Saw 20V Brushless-TGSLI20882-4.jpeg'
                                         ],
 
                                             inStock: true,
@@ -17728,10 +17725,10 @@ User Manual
                             price: 160000,
 
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786309686/Astonic-Mart/Products/planers/Bosch_GHO_700_Professional_Planer.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786309687/Astonic-Mart/Products/planers/Bosch_GHO_700_Professional_Planer-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786309689/Astonic-Mart/Products/planers/Bosch_GHO_700_Professional_Planer-3.webp',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786309690/Astonic-Mart/Products/planers/Bosch_GHO_700_Professional_Planer-4.webp'
+                                    'assets/img/planers/Bosch GHO 700 Professional Planer.webp',
+                                    'assets/img/planers/Bosch GHO 700 Professional Planer-2.jpg',
+                                    'assets/img/planers/Bosch GHO 700 Professional Planer-3.webp',
+                                    'assets/img/planers/Bosch GHO 700 Professional Planer-4.webp'
                                 ],
 
                                     inStock: true,
@@ -17786,11 +17783,11 @@ User Manual
                                 discountPrice: 517350,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786309691/Astonic-Mart/Products/planers/Bosch_PRO_GHO_26-82_D_Professional_Planer.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786309692/Astonic-Mart/Products/planers/Bosch_PRO_GHO_26-82_D_Professional_Planer-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786309693/Astonic-Mart/Products/planers/Bosch_PRO_GHO_26-82_D_Professional_Planer-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786309695/Astonic-Mart/Products/planers/Bosch_PRO_GHO_26-82_D_Professional_Planer-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786309698/Astonic-Mart/Products/planers/Bosch_PRO_GHO_26-82_D_Professional_Planer-5.jpg'
+                                        'assets/img/planers/Bosch PRO GHO 26-82 D Professional Planer.jpg',
+                                        'assets/img/planers/Bosch PRO GHO 26-82 D Professional Planer-2.jpg',
+                                        'assets/img/planers/Bosch PRO GHO 26-82 D Professional Planer-3.jpg',
+                                        'assets/img/planers/Bosch PRO GHO 26-82 D Professional Planer-4.jpg',
+                                        'assets/img/planers/Bosch PRO GHO 26-82 D Professional Planer-5.jpg'
                                     ],
 
                                         inStock: true,
@@ -17838,11 +17835,11 @@ User Manual
                                 price: 145000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786306072/Astonic-Mart/Products/drills/Bosch_GSB_183-LI_Cordless_Impact_Drill.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786306073/Astonic-Mart/Products/drills/Bosch_GSB_183-LI_Cordless_Impact_Drill-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786306075/Astonic-Mart/Products/drills/Bosch_GSB_183-LI_Cordless_Impact_Drill-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786306076/Astonic-Mart/Products/drills/Bosch_GSB_183-LI_Cordless_Impact_Drill-4.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786306077/Astonic-Mart/Products/drills/Bosch_GSB_183-LI_Cordless_Impact_Drill-5.jpg'
+                                        'assets/img/drills/Bosch GSB 183-LI Cordless Impact Drill.jpeg',
+                                        'assets/img/drills/Bosch GSB 183-LI Cordless Impact Drill-2.jpeg',
+                                        'assets/img/drills/Bosch GSB 183-LI Cordless Impact Drill-3.jpg',
+                                        'assets/img/drills/Bosch GSB 183-LI Cordless Impact Drill-4.jpg',
+                                        'assets/img/drills/Bosch GSB 183-LI Cordless Impact Drill-5.jpg'
                                     ],
 
                                         description:
@@ -17892,10 +17889,10 @@ Bit Holder
                                 price: 354100,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307379/Astonic-Mart/Products/grinders/Bosch_1700W_Angle_Grinder.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307380/Astonic-Mart/Products/grinders/Bosch_1700W_Angle_Grinder-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307381/Astonic-Mart/Products/grinders/Bosch_1700W_Angle_Grinder-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307382/Astonic-Mart/Products/grinders/Bosch_1700W_Angle_Grinder-4.webp'
+                                        'assets/img/grinders/Bosch 1700W Angle Grinder.jpg',
+                                        'assets/img/grinders/Bosch 1700W Angle Grinder-2.jpg',
+                                        'assets/img/grinders/Bosch 1700W Angle Grinder-3.jpg',
+                                        'assets/img/grinders/Bosch 1700W Angle Grinder-4.webp'
                                     ],
 
                                         power: '1700W',
@@ -17950,11 +17947,11 @@ User Manual
                                     price: 285250,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307384/Astonic-Mart/Products/grinders/Bosch_900W_Angle_Grinder-1.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307385/Astonic-Mart/Products/grinders/Bosch_900W_Angle_Grinder-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307386/Astonic-Mart/Products/grinders/Bosch_900W_Angle_Grinder-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307387/Astonic-Mart/Products/grinders/Bosch_900W_Angle_Grinder-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786307388/Astonic-Mart/Products/grinders/Bosch_900W_Angle_Grinder-5.jpg'
+                                            'assets/img/grinders/Bosch 900W Angle Grinder-1.jpg',
+                                            'assets/img/grinders/Bosch 900W Angle Grinder-2.jpg',
+                                            'assets/img/grinders/Bosch 900W Angle Grinder-3.jpg',
+                                            'assets/img/grinders/Bosch 900W Angle Grinder-4.jpg',
+                                            'assets/img/grinders/Bosch 900W Angle Grinder-5.jpg'
                                         ],
 
                                             power: '900W',
@@ -18006,11 +18003,11 @@ User Manual
                                     discountPrice: 388000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308472/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Bosch_GST_90_BE_Professional_Jigsaw.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308477/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Bosch_GST_90_BE_Professional_Jigsaw-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308474/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Bosch_GST_90_BE_Professional_Jigsaw-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308479/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Bosch_GST_90_BE_Professional_Jigsaw-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308481/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Bosch_GST_90_BE_Professional_Jigsaw-5.jpg'
+                                            'assets/img/jig saws and recip saws/Bosch GST 90 BE Professional Jigsaw.webp',
+                                            'assets/img/jig saws and recip saws/Bosch GST 90 BE Professional Jigsaw-3.jpg',
+                                            'assets/img/jig saws and recip saws/Bosch GST 90 BE Professional Jigsaw-2.jpg',
+                                            'assets/img/jig saws and recip saws/Bosch GST 90 BE Professional Jigsaw-4.jpg',
+                                            'assets/img/jig saws and recip saws/Bosch GST 90 BE Professional Jigsaw-5.jpg'
                                         ],
 
                                             power: '650W',
@@ -18065,10 +18062,10 @@ Jigsaw Blade
                                 discountPrice: 2600000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304923/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_PRO_GCM_12_GDL_Mitre_Saw-1.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304924/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_PRO_GCM_12_GDL_Mitre_Saw-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304922/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_PRO_GCM_12_GDL_Mitre_Saw.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304925/Astonic-Mart/Products/circular%20and%20mitre%20saws/Bosch_PRO_GCM_12_GDL_Mitre_Saw-4.jpg'
+                                        'assets/img/circular and mitre saws/Bosch PRO GCM 12 GDL Mitre Saw-1.webp',
+                                        'assets/img/circular and mitre saws/Bosch PRO GCM 12 GDL Mitre Saw-2.jpeg',
+                                        'assets/img/circular and mitre saws/Bosch PRO GCM 12 GDL Mitre Saw.png',
+                                        'assets/img/circular and mitre saws/Bosch PRO GCM 12 GDL Mitre Saw-4.jpg'
                                     ],
 
                                         inStock: true,
@@ -18129,12 +18126,12 @@ Jigsaw Blade
                                     discountPrice: 180000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304404/Astonic-Mart/Products/blowers/TOTAL_TABLI204282_Brushless_Cordless_Blower.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304405/Astonic-Mart/Products/blowers/TOTAL_TABLI204282_Brushless_Cordless_Blower-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304406/Astonic-Mart/Products/blowers/TOTAL_TABLI204282_Brushless_Cordless_Blower-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304407/Astonic-Mart/Products/blowers/TOTAL_TABLI204282_Brushless_Cordless_Blower-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304408/Astonic-Mart/Products/blowers/TOTAL_TABLI204282_Brushless_Cordless_Blower-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304411/Astonic-Mart/Products/blowers/TOTAL_TABLI204282_Brushless_Cordless_Blower-6.jpg'
+                                            'assets/img/blowers/TOTAL TABLI204282 Brushless Cordless Blower.jpg',
+                                            'assets/img/blowers/TOTAL TABLI204282 Brushless Cordless Blower-2.jpg',
+                                            'assets/img/blowers/TOTAL TABLI204282 Brushless Cordless Blower-3.jpg',
+                                            'assets/img/blowers/TOTAL TABLI204282 Brushless Cordless Blower-4.jpg',
+                                            'assets/img/blowers/TOTAL TABLI204282 Brushless Cordless Blower-5.jpg',
+                                            'assets/img/blowers/TOTAL TABLI204282 Brushless Cordless Blower-6.jpg'
                                         ],
 
                                             inStock: true,
@@ -18191,7 +18188,7 @@ Jigsaw Blade
                                 discountPrice: 2550000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786309623/Astonic-Mart/Products/pipe%20benders/Electric_Pipe_Bending_Machine.jpg',
+                                        'assets/img/pipe benders/Electric Pipe Bending Machine.jpeg',
 
                                     ],
 
@@ -18251,11 +18248,11 @@ Jigsaw Blade
                                         discountPrice: 150000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324240/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI426982E.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324232/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI426981E-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324234/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI426981E-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324231/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI426981E-4.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324231/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI426981E-5.jpg'
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI426982E).jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI426981E)-2.jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI426981E)-3.jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI426981E)-4.jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI426981E)-5.jpg'
 
                                             ],
 
@@ -18314,11 +18311,11 @@ Jigsaw Blade
                                         discountPrice: 130000,
 
                                             images: [
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324233/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI426981E-1.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324232/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI426981E-2.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324234/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI426981E-3.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324231/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI426981E-4.jpg',
-                                                'https://res.cloudinary.com/taus5tit/image/upload/v1786324231/Astonic-Mart/Products/drills/TOTAL_Compact_Brushless_Cordless_Impact_Drill_TIDLI426981E-5.jpg'
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI426981E)-1.jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI426981E)-2.jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI426981E)-3.jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI426981E)-4.jpg',
+                                                'assets/img/drills/TOTAL Compact Brushless Cordless Impact Drill (TIDLI426981E)-5.jpg'
                                             ],
 
                                                 inStock: true,
@@ -18373,11 +18370,11 @@ Jigsaw Blade
                                 price: 250000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305960/Astonic-Mart/Products/demolition%20breakers/Edon_DH-GL65A_Demolition_Hammer-1.avif',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305962/Astonic-Mart/Products/demolition%20breakers/Edon_DH-GL65A_Demolition_Hammer-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305964/Astonic-Mart/Products/demolition%20breakers/Edon_DH-GL65A_Demolition_Hammer-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305966/Astonic-Mart/Products/demolition%20breakers/Edon_DH-GL65A_Demolition_Hammer-5.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305959/Astonic-Mart/Products/demolition%20breakers/Edon_DH-GL65A_Demolition_Hammer.avif'
+                                        'assets/img/demolition breakers/Edon DH-GL65A Demolition Hammer-1.avif',
+                                        'assets/img/demolition breakers/Edon DH-GL65A Demolition Hammer-2.jpeg',
+                                        'assets/img/demolition breakers/Edon DH-GL65A Demolition Hammer-3.webp',
+                                        'assets/img/demolition breakers/Edon DH-GL65A Demolition Hammer-5.jpeg',
+                                        'assets/img/demolition breakers/Edon DH-GL65A Demolition Hammer.avif'
                                     ],
 
                                         inStock: true,
@@ -18426,11 +18423,11 @@ Jigsaw Blade
                                 model: 'MS-92552A',
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305034/Astonic-Mart/Products/circular%20and%20mitre%20saws/MS-92552A_Mitre_Saw.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305036/Astonic-Mart/Products/circular%20and%20mitre%20saws/MS-92552A_Mitre_Saw-3.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305035/Astonic-Mart/Products/circular%20and%20mitre%20saws/MS-92552A_Mitre_Saw-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305038/Astonic-Mart/Products/circular%20and%20mitre%20saws/MS-92552A_Mitre_Saw-4.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305039/Astonic-Mart/Products/circular%20and%20mitre%20saws/MS-92552A_Mitre_Saw-5.jpg'
+                                        'assets/img/circular and mitre saws/MS-92552A Mitre Saw.jpg',
+                                        'assets/img/circular and mitre saws/MS-92552A Mitre Saw-3.webp',
+                                        'assets/img/circular and mitre saws/MS-92552A Mitre Saw-2.jpeg',
+                                        'assets/img/circular and mitre saws/MS-92552A Mitre Saw-4.webp',
+                                        'assets/img/circular and mitre saws/MS-92552A Mitre Saw-5.jpeg'
                                     ],
 
                                         inStock: true,
@@ -18484,11 +18481,11 @@ Designed for professional and workshop use
                         brand: 'Generic',
                             price: 750000,
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304006/Astonic-Mart/Products/airless%20sprayers/ED450_Electric_Diaphragm_Airless_Paint_Sprayer_3200W.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304011/Astonic-Mart/Products/airless%20sprayers/ED450_Electric_Diaphragm_Airless_Paint_Sprayer_3200W-2.png',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304012/Astonic-Mart/Products/airless%20sprayers/ED450_Electric_Diaphragm_Airless_Paint_Sprayer_3200W-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304013/Astonic-Mart/Products/airless%20sprayers/ED450_Electric_Diaphragm_Airless_Paint_Sprayer_3200W-4.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304014/Astonic-Mart/Products/airless%20sprayers/ED450_Electric_Diaphragm_Airless_Paint_Sprayer_3200W-5.jpg'
+                                    'assets/img/airless sprayers/ED450 Electric Diaphragm Airless Paint Sprayer 3200W.jpg',
+                                    'assets/img/airless sprayers/ED450 Electric Diaphragm Airless Paint Sprayer 3200W-2.png',
+                                    'assets/img/airless sprayers/ED450 Electric Diaphragm Airless Paint Sprayer 3200W-3.jpg',
+                                    'assets/img/airless sprayers/ED450 Electric Diaphragm Airless Paint Sprayer 3200W-4.jpg',
+                                    'assets/img/airless sprayers/ED450 Electric Diaphragm Airless Paint Sprayer 3200W-5.jpg'
                                 ],
                                     inStock: true,
                                         jumiaLink: '',
@@ -18543,10 +18540,10 @@ Designed for professional and workshop use
                         brand: 'FireROSE',
                             price: 850000,
                                 images: [
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304018/Astonic-Mart/Products/airless%20sprayers/FireROSE_395_Electric_Airless_Paint_Sprayer.png',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304019/Astonic-Mart/Products/airless%20sprayers/FireROSE_395_Electric_Airless_Paint_Sprayer-2.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304020/Astonic-Mart/Products/airless%20sprayers/FireROSE_395_Electric_Airless_Paint_Sprayer-3.jpg',
-                                    'https://res.cloudinary.com/taus5tit/image/upload/v1786304021/Astonic-Mart/Products/airless%20sprayers/FireROSE_395_Electric_Airless_Paint_Sprayer-4.jpg'
+                                    'assets/img/airless sprayers/FireROSE 395 Electric Airless Paint Sprayer.png',
+                                    'assets/img/airless sprayers/FireROSE 395 Electric Airless Paint Sprayer-2.jpg',
+                                    'assets/img/airless sprayers/FireROSE 395 Electric Airless Paint Sprayer-3.jpg',
+                                    'assets/img/airless sprayers/FireROSE 395 Electric Airless Paint Sprayer-4.jpg'
                                 ],
                                     inStock: true,
                                         jumiaLink: '',
@@ -18598,11 +18595,11 @@ Designed for professional and workshop use
                             brand: 'SAMSTORM',
                                 price: 265390,
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304376/Astonic-Mart/Products/blowers/SAMSTORM_EB650_Gasoline_Backpack_Leaf_Blower.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304383/Astonic-Mart/Products/blowers/SAMSTORM_EB650_Gasoline_Backpack_Leaf_Blower-1.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304385/Astonic-Mart/Products/blowers/SAMSTORM_EB650_Gasoline_Backpack_Leaf_Blower-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304386/Astonic-Mart/Products/blowers/SAMSTORM_EB650_Gasoline_Backpack_Leaf_Blower-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304387/Astonic-Mart/Products/blowers/SAMSTORM_EB650_Gasoline_Backpack_Leaf_Blower-4.jpg',
+                                        'assets/img/blowers/SAMSTORM EB650 Gasoline Backpack Leaf Blower.jpg',
+                                        'assets/img/blowers/SAMSTORM EB650 Gasoline Backpack Leaf Blower-1.jpg',
+                                        'assets/img/blowers/SAMSTORM EB650 Gasoline Backpack Leaf Blower-2.jpg',
+                                        'assets/img/blowers/SAMSTORM EB650 Gasoline Backpack Leaf Blower-3.jpg',
+                                        'assets/img/blowers/SAMSTORM EB650 Gasoline Backpack Leaf Blower-4.jpg',
                                     ],
                                         inStock: true,
                                             jumiaLink: '',
@@ -18654,10 +18651,10 @@ Designed for professional and workshop use
                             discountPrice: 420500,
                                 showSimilar: true,
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304563/Astonic-Mart/Products/cable%20pullers/20V_Cordless_Electric_Cable_Puller_Machine.webp',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304564/Astonic-Mart/Products/cable%20pullers/20V_Cordless_Electric_Cable_Puller_Machine-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304565/Astonic-Mart/Products/cable%20pullers/20V_Cordless_Electric_Cable_Puller_Machine-3.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786304566/Astonic-Mart/Products/cable%20pullers/20V_Cordless_Electric_Cable_Puller_Machine-4.jpg'
+                                        'assets/img/cable pullers/20V Cordless Electric Cable Puller Machine.webp',
+                                        'assets/img/cable pullers/20V Cordless Electric Cable Puller Machine-2.jpg',
+                                        'assets/img/cable pullers/20V Cordless Electric Cable Puller Machine-3.jpg',
+                                        'assets/img/cable pullers/20V Cordless Electric Cable Puller Machine-4.jpg'
                                     ],
 
                                         videos: [],
@@ -18712,12 +18709,12 @@ Designed for professional and workshop use
                                 discountPrice: 1500000,
                                     model: 'CRCLI2002',
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304540/Astonic-Mart/Products/cable%20cutters/CRCLI2002_Cordless_Hydraulic_Cable_Cutter-1.png',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304541/Astonic-Mart/Products/cable%20cutters/CRCLI2002_Cordless_Hydraulic_Cable_Cutter-2.webp',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304543/Astonic-Mart/Products/cable%20cutters/CRCLI2002_Cordless_Hydraulic_Cable_Cutter-3.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304544/Astonic-Mart/Products/cable%20cutters/CRCLI2002_Cordless_Hydraulic_Cable_Cutter-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304539/Astonic-Mart/Products/cable%20cutters/CRCLI2002_Cordless_Hydraulic_Cable_Cutter.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786304545/Astonic-Mart/Products/cable%20cutters/CRCLI2002_Cordless_Hydraulic_Cable_Cutter-5.jpg'
+                                            'assets/img/cable cutters/CRCLI2002 Cordless Hydraulic Cable Cutter-1.png',
+                                            'assets/img/cable cutters/CRCLI2002 Cordless Hydraulic Cable Cutter-2.webp',
+                                            'assets/img/cable cutters/CRCLI2002 Cordless Hydraulic Cable Cutter-3.jpeg',
+                                            'assets/img/cable cutters/CRCLI2002 Cordless Hydraulic Cable Cutter-4.jpeg',
+                                            'assets/img/cable cutters/CRCLI2002 Cordless Hydraulic Cable Cutter.jpg',
+                                            'assets/img/cable cutters/CRCLI2002 Cordless Hydraulic Cable Cutter-5.jpg'
                                         ],
 
                                             videos: [],
@@ -18771,7 +18768,7 @@ Designed for professional and workshop use
         showSimilar: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304022/Astonic-Mart/Products/airless%20sprayers/PT-631_Pneumatic_Airless_Paint_Sprayer.webp'
+            'assets/img/airless sprayers/PT-631 Pneumatic Airless Paint Sprayer.webp'
         ],
 
         inStock: true,
@@ -18842,9 +18839,9 @@ Reliable performance in hazardous and explosion-prone environments
   showSimilar: true,
 
   images: [
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786323912/Astonic-Mart/Products/drills/edon_ed_jd1800_28.jpg',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786323917/Astonic-Mart/Products/drills/edon_ed_jd1800_28-3.jpg',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786323948/Astonic-Mart/Products/drills/edon_ed_jd1800_28-2.png'
+    'assets/img/drills/edon ed jd1800 28.jpeg',
+    'assets/img/drills/edon ed jd1800 28-3.jpg',
+    'assets/img/drills/edon ed jd1800 28-2.png'
   ],
 
   inStock: true,
@@ -18909,11 +18906,11 @@ model: 'LW1401S/1',
   showSimilar: true,
 
   images: [
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786305866/Astonic-Mart/Products/cutting%20machines/Makita_LW1401S1_110V_Portable_Cut-Off_Saw.jpg',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786305867/Astonic-Mart/Products/cutting%20machines/Makita_LW1401S1_110V_Portable_Cut-Off_Saw-2.webp',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786305869/Astonic-Mart/Products/cutting%20machines/Makita_LW1401S1_110V_Portable_Cut-Off_Saw-5.avif',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786305868/Astonic-Mart/Products/cutting%20machines/Makita_LW1401S1_110V_Portable_Cut-Off_Saw-4.webp',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786305871/Astonic-Mart/Products/cutting%20machines/Makita_LW1401S1_110V_Portable_Cut-Off_Saw-6.jpg'
+    'assets/img/cutting machines/Makita LW1401S1 110V Portable Cut-Off Saw.jpg',
+    'assets/img/cutting machines/Makita LW1401S1 110V Portable Cut-Off Saw-2.webp',
+    'assets/img/cutting machines/Makita LW1401S1 110V Portable Cut-Off Saw-5.avif',
+    'assets/img/cutting machines/Makita LW1401S1 110V Portable Cut-Off Saw-4.webp',
+    'assets/img/cutting machines/Makita LW1401S1 110V Portable Cut-Off Saw-6.jpeg'
   ],
 
   inStock: true,
@@ -18979,10 +18976,10 @@ Ideal for fabrication workshops, construction sites and industrial metalworking
   showSimilar: true,
 
   images: [
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786324067/Astonic-Mart/Products/drills/Makita_DF488DWAE_18V_Lithium-ion_G-Series_Cordless_Drill-1.jpg',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786324117/Astonic-Mart/Products/drills/Makita_DF488DWAE_18V_Lithium-ion_G-Series_Cordless_Drill-3.jpg',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786324121/Astonic-Mart/Products/drills/Makita_DF488DWAE_18V_Lithium-ion_G-Series_Cordless_Drill-4.jpg',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786324067/Astonic-Mart/Products/drills/Makita_DF488DWAE_18V_Lithium-ion_G-Series_Cordless_Drill.jpg'
+    'assets/img/drills/Makita DF488DWAE 18V Lithium-ion G-Series Cordless Drill-1.jpg',
+    'assets/img/drills/Makita DF488DWAE 18V Lithium-ion G-Series Cordless Drill-3.jpg',
+    'assets/img/drills/Makita DF488DWAE 18V Lithium-ion G-Series Cordless Drill-4.jpg',
+    'assets/img/drills/Makita DF488DWAE 18V Lithium-ion G-Series Cordless Drill.jpg'
   ],
 
   inStock: true,
@@ -19051,11 +19048,11 @@ Supplied with two batteries, charger and carrying case
         showSimilar: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305022/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5801B_Corded_Circular_Saw-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305023/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5801B_Corded_Circular_Saw-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305024/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5801B_Corded_Circular_Saw-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305025/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5801B_Corded_Circular_Saw-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305020/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5801B_Corded_Circular_Saw.webp'
+            'assets/img/circular and mitre saws/Makita M5801B Corded Circular Saw-1.jpeg',
+            'assets/img/circular and mitre saws/Makita M5801B Corded Circular Saw-2.webp',
+            'assets/img/circular and mitre saws/Makita M5801B Corded Circular Saw-3.jpeg',
+            'assets/img/circular and mitre saws/Makita M5801B Corded Circular Saw-4.jpeg',
+            'assets/img/circular and mitre saws/Makita M5801B Corded Circular Saw.webp'
         ],
 
         inStock: true,
@@ -19121,12 +19118,12 @@ Ideal for cutting timber, plywood, MDF and other wood materials
         showSimilar: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305026/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5900B_Corded_Circular_Saw.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305027/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5900B_Corded_Circular_Saw-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305028/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5900B_Corded_Circular_Saw-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305030/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5900B_Corded_Circular_Saw-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305031/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5900B_Corded_Circular_Saw-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305032/Astonic-Mart/Products/circular%20and%20mitre%20saws/Makita_M5900B_Corded_Circular_Saw-6.webp'
+            'assets/img/circular and mitre saws/Makita M5900B Corded Circular Saw.jpg',
+            'assets/img/circular and mitre saws/Makita M5900B Corded Circular Saw-2.jpg',
+            'assets/img/circular and mitre saws/Makita M5900B Corded Circular Saw-3.jpg',
+            'assets/img/circular and mitre saws/Makita M5900B Corded Circular Saw-4.jpeg',
+            'assets/img/circular and mitre saws/Makita M5900B Corded Circular Saw-5.jpeg',
+            'assets/img/circular and mitre saws/Makita M5900B Corded Circular Saw-6.webp'
         ],
 
         inStock: true,
@@ -19193,11 +19190,11 @@ Ideal for timber, plywood, hardwood and general construction work
         showSimilar: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305953/Astonic-Mart/Products/demolition%20breakers/Dewalt_D25899K-QS_D25899K-QS-Martillo_Demoledor_10kg_1500W.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305954/Astonic-Mart/Products/demolition%20breakers/Dewalt_D25899K-QS_D25899K-QS-Martillo_Demoledor_10kg_1500W-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305955/Astonic-Mart/Products/demolition%20breakers/Dewalt_D25899K-QS_D25899K-QS-Martillo_Demoledor_10kg_1500W-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305956/Astonic-Mart/Products/demolition%20breakers/Dewalt_D25899K-QS_D25899K-QS-Martillo_Demoledor_10kg_1500W-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305958/Astonic-Mart/Products/demolition%20breakers/Dewalt_D25899K-QS_D25899K-QS-Martillo_Demoledor_10kg_1500W-5.avif'
+            'assets/img/demolition breakers/Dewalt D25899K-QS D25899K-QS-Martillo Demoledor 10kg 1500W.jpg',
+            'assets/img/demolition breakers/Dewalt D25899K-QS D25899K-QS-Martillo Demoledor 10kg 1500W-2.jpg',
+            'assets/img/demolition breakers/Dewalt D25899K-QS D25899K-QS-Martillo Demoledor 10kg 1500W-3.jpg',
+            'assets/img/demolition breakers/Dewalt D25899K-QS D25899K-QS-Martillo Demoledor 10kg 1500W-4.jpg',
+            'assets/img/demolition breakers/Dewalt D25899K-QS D25899K-QS-Martillo Demoledor 10kg 1500W-5.avif'
         ],
 
         inStock: true,
@@ -19262,12 +19259,12 @@ Ideal for concrete breaking, masonry demolition and renovation work
         showSimilar: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305931/Astonic-Mart/Products/demolition%20breakers/52CC_Demolition_Jack_Hammer_2_Stroke-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305933/Astonic-Mart/Products/demolition%20breakers/52CC_Demolition_Jack_Hammer_2_Stroke-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305934/Astonic-Mart/Products/demolition%20breakers/52CC_Demolition_Jack_Hammer_2_Stroke-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305935/Astonic-Mart/Products/demolition%20breakers/52CC_Demolition_Jack_Hammer_2_Stroke-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305939/Astonic-Mart/Products/demolition%20breakers/52CC_Demolition_Jack_Hammer_2_Stroke-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305937/Astonic-Mart/Products/demolition%20breakers/52CC_Demolition_Jack_Hammer_2_Stroke-5.jpg'
+            'assets/img/demolition breakers/52CC Demolition Jack Hammer 2 Stroke-1.jpg',
+            'assets/img/demolition breakers/52CC Demolition Jack Hammer 2 Stroke-2.jpg',
+            'assets/img/demolition breakers/52CC Demolition Jack Hammer 2 Stroke-3.jpg',
+            'assets/img/demolition breakers/52CC Demolition Jack Hammer 2 Stroke-4.jpg',
+            'assets/img/demolition breakers/52CC Demolition Jack Hammer 2 Stroke-6.jpg',
+            'assets/img/demolition breakers/52CC Demolition Jack Hammer 2 Stroke-5.jpg'
         ],
 
         inStock: true,
@@ -19332,10 +19329,10 @@ Ideal for road construction, demolition, utility work and landscaping
   showSimilar: true,
 
   images: [
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786305861/Astonic-Mart/Products/cutting%20machines/HARDEN_14inch_Cut-Off_Saw-1.webp',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786305862/Astonic-Mart/Products/cutting%20machines/HARDEN_14inch_Cut-Off_Saw-2.jpg',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786305863/Astonic-Mart/Products/cutting%20machines/HARDEN_14inch_Cut-Off_Saw-3.jpg',
-    'https://res.cloudinary.com/taus5tit/image/upload/v1786305860/Astonic-Mart/Products/cutting%20machines/HARDEN_14inch_Cut-Off_Saw.jpg'
+    'assets/img/cutting machines/HARDEN 14inch Cut-Off Saw-1.webp',
+    'assets/img/cutting machines/HARDEN 14inch Cut-Off Saw-2.jpeg',
+    'assets/img/cutting machines/HARDEN 14inch Cut-Off Saw-3.jpeg',
+    'assets/img/cutting machines/HARDEN 14inch Cut-Off Saw.jpg'
   ],
 
   inStock: true,
@@ -19385,4 +19382,3 @@ Ideal for workshops, fabrication shops and construction sites
 },
 
 ];
-

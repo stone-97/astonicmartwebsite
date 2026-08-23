@@ -495,7 +495,7 @@
   </ul>
 </li>
               </ul>
-
+                        
               <h5 class="fw-bold text-uppercase mb-3" style="color: #ffba00; font-size: 1.1rem">
                 Power Hand Tools
               </h5>
@@ -2615,76 +2615,4605 @@ Ingco
       </li>
     </ul>
 
+
     <!-- Mobile Toggler -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<button 
+  class="navbar-toggler" 
+  type="button" 
+  data-toggle="collapse" 
+  data-target="#navbarNav"
+  aria-controls="navbarNav"
+  aria-expanded="false"
+  aria-label="Toggle navigation"
+>
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Right-side links -->
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNav"
+    >
       <ul class="navbar-nav align-items-lg-center">
-        <li class="nav-item"><a class="nav-link" routerLink="/">Home</a></li>
 
-        <li class="nav-item dropdown no-mega">
-          <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/"
+            (click)="closeMobileMenu()"
+          >
+            Home  </a> </li> <li class="nav-item dropdown no-mega"> <a
+            class="nav-link dropdown-toggle"
+            href="javascript:void(0)"
+            data-bs-toggle="dropdown" >
             Shop
           </a>
 
           <ul class="dropdown-menu simple-menu align-right">
+
             <li>
-              <a class="dropdown-item" routerLink="/shopcategories">Shop Category</a>
+              <a
+                class="dropdown-item"
+                routerLink="/shopcategories"
+              >
+                Shop Category
+              </a>
             </li>
+
             <li>
-              <a class="dropdown-item" routerLink="/productcheckout">Product Checkout</a>
+              <a
+                class="dropdown-item"
+                routerLink="/productcheckout"
+              >
+                Product Checkout
+              </a>
             </li>
+
             <li>
-              <a class="dropdown-item" routerLink="/shoppingcart">Shopping Cart</a>
+              <a
+                class="dropdown-item"
+                routerLink="/shoppingcart"
+              >
+                Shopping Cart
+              </a>
             </li>
+
             <li>
-              <a class="dropdown-item" routerLink="/confirmation">Confirmation</a>
+              <a
+                class="dropdown-item"
+                routerLink="/confirmation"
+              >
+                Confirmation
+              </a>
             </li>
+
           </ul>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/blog">Blog</a>
-        </li>
-
         <li class="nav-item dropdown no-mega">
-          <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown">
+
+          <a
+            class="nav-link dropdown-toggle"
+            href="javascript:void(0)"
+            data-bs-toggle="dropdown"
+          >
             Pages
           </a>
 
           <ul class="dropdown-menu simple-menu">
-            <li><a class="dropdown-item" routerLink="/whishlist">Whishlist</a></li>
+
             <li>
-              <a class="dropdown-item" routerLink="/compare">Compare</a>
+              <a
+                class="dropdown-item"
+                routerLink="/whishlist"
+              >
+                Whishlist
+              </a>
             </li>
+
             <li>
-              <a class="dropdown-item" routerLink="/deliverypolicy">Delivery Policy</a>
+              <a
+                class="dropdown-item"
+                routerLink="/compare"
+              >
+                Compare
+              </a>
             </li>
+
             <li>
-              <a class="dropdown-item" routerLink="/warrantyandreturns">Warranty & Returns</a>
+              <a
+                class="dropdown-item"
+                routerLink="/deliverypolicy"
+              >
+                Delivery Policy
+              </a>
             </li>
+
+            <li>
+              <a
+                class="dropdown-item"
+                routerLink="/warrantyandreturns"
+              >
+                Warranty & Returns
+              </a>
+            </li>
+
           </ul>
         </li>
-          <li class="nav-item">
-          <a class="nav-link" routerLink="/get-a-quote">Get A Qoute</a>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/get-a-quote"
+            (click)="closeMobileMenu()"
+          >
+            Get A Qoute
+          </a>
         </li>
 
-         <li class="nav-item">
-          <a class="nav-link" routerLink="/bulkorders">Bulk Orders</a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/aboutus">About Us</a>
+          <a
+            class="nav-link"
+            routerLink="/bulkorders"
+            (click)="closeMobileMenu()"
+          >
+            Bulk Orders
+          </a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" routerLink="/contact">Contact</a>
+          <a
+            class="nav-link"
+            routerLink="/aboutus"
+            (click)="closeMobileMenu()"
+          >
+            About Us
+          </a>
         </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/contact"
+            (click)="closeMobileMenu()"
+          >
+            Contact
+          </a>
+        </li>
+
       </ul>
     </div>
+
   </div>
+
+  
 </nav>
+
+
+<!-- MOBILE SHOP BY CATEGORY -->
+<div class="mobile-shop-category d-lg-none">
+
+  <!-- Main Category Button -->
+  <button
+    type="button"
+    class="mobile-category-toggle"
+    (click)="mobileCategoriesOpen = !mobileCategoriesOpen"
+    [attr.aria-expanded]="mobileCategoriesOpen"
+  >
+    <span>
+      <i class="bi bi-list me-2"></i>
+      Shop by Category
+    </span>
+
+    <i
+      class="bi ms-auto"
+      [ngClass]="mobileCategoriesOpen ? 'bi-chevron-up' : 'bi-chevron-down'"
+    ></i>
+  </button>
+
+
+  <!-- Main Category List -->
+  <div
+    class="mobile-category-list"
+    [class.open]="mobileCategoriesOpen"
+  >
+
+    <!-- Safety & PPE -->
+<!-- SAFETY & PPE -->
+<button
+  type="button"
+  class="mobile-category-item mobile-category-button"
+  (click)="mobileSafetyOpen = !mobileSafetyOpen"
+  [attr.aria-expanded]="mobileSafetyOpen"
+>
+  <span>Safety &amp; PPE</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobileSafetyOpen ? 'bi-chevron-down' : 'bi-chevron-right'"
+  ></i>
+</button>
+
+
+<!-- SAFETY & PPE LEVEL -->
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobileSafetyOpen"
+>
+
+
+  <!-- BY CATEGORY -->
+  <button
+    type="button"
+    class="mobile-subcategory-item mobile-subcategory-button"
+    (click)="mobileSafetyByCategoryOpen = !mobileSafetyByCategoryOpen"
+    [attr.aria-expanded]="mobileSafetyByCategoryOpen"
+  >
+    <span>By Category</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileSafetyByCategoryOpen ? 'bi-chevron-down' : 'bi-chevron-right'"
+    ></i>
+  </button>
+
+
+  <!-- BY CATEGORY ITEMS -->
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileSafetyByCategoryOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/handgloves">
+      Hand Gloves
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/safetyboots">
+      Safety Boots (Ankle)
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/safetyharnessandlanyards">
+      Safety Harness &amp; Lanyards
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/fallarrestors">
+      Fall Arrestors
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/safetyeyegoogles">
+      Safety Eye Goggles
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/safetyshoes">
+      Safety Shoes
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/flashlights">
+      Flash Lights
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/headlamps">
+      Head Lamps
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/safetyraincoatsandboots">
+      Safety Raincoats &amp; Boots
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/gasdetectors">
+      Gas Detectors
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/emergencyeyewash">
+      Emergency Eye Wash Station
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/spillkits">
+      Spill Kits
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/firstaids">
+      First Aids
+    </a>
+
+  </div>
+
+
+  <!-- CLOTHING -->
+  <button
+    type="button"
+    class="mobile-subcategory-item mobile-subcategory-button"
+    (click)="mobileClothingOpen = !mobileClothingOpen"
+    [attr.aria-expanded]="mobileClothingOpen"
+  >
+    <span>Clothing</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileClothingOpen ? 'bi-chevron-down' : 'bi-chevron-right'"
+    ></i>
+  </button>
+
+
+  <!-- CLOTHING ITEMS -->
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileClothingOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/disposables">
+      Disposables
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/coveralls">
+      Coveralls / Overalls
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/reflectivevests">
+      Reflective Jackets
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/labcoats">
+      Lab Coats
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/firesuits">
+      Fire-Resistant Suits
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/chemicalresistant">
+      Chemical-Resistant Wears
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/coldroomwears">
+      Cold Room Wears
+    </a>
+
+  </div>
+
+
+  <!-- SECURITY & SURVEILLANCE -->
+  <button
+    type="button"
+    class="mobile-subcategory-item mobile-subcategory-button"
+    (click)="mobileSecurityOpen = !mobileSecurityOpen"
+    [attr.aria-expanded]="mobileSecurityOpen"
+  >
+    <span>Security &amp; Surveillance</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileSecurityOpen ? 'bi-chevron-down' : 'bi-chevron-right'"
+    ></i>
+  </button>
+
+
+  <!-- SECURITY ITEMS -->
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileSecurityOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/securitygears">
+      Security Gears
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/stanchions">
+      Stanchions
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/walkietalkies">
+      Walkie Talkies
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/metaldetectors">
+      Metal Detectors
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/personalsafety">
+      Personal Safety
+    </a>
+
+  </div>
+
+
+  <!-- HEAD PROTECTION -->
+  <button
+    type="button"
+    class="mobile-subcategory-item mobile-subcategory-button"
+    (click)="mobileHeadProtectionOpen = !mobileHeadProtectionOpen"
+    [attr.aria-expanded]="mobileHeadProtectionOpen"
+  >
+    <span>Head Protection</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileHeadProtectionOpen ? 'bi-chevron-down' : 'bi-chevron-right'"
+    ></i>
+  </button>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileHeadProtectionOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/safetyhelmets">
+      Safety Helmets
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/bumpcaps">
+      Bump Caps
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/weldinghelmets">
+      Welding Helmets
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/faceshields">
+      Face Shields
+    </a>
+
+  </div>
+
+
+  <!-- EYE PROTECTION -->
+  <button
+    type="button"
+    class="mobile-subcategory-item mobile-subcategory-button"
+    (click)="mobileEyeProtectionOpen = !mobileEyeProtectionOpen"
+    [attr.aria-expanded]="mobileEyeProtectionOpen"
+  >
+    <span>Eye Protection</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileEyeProtectionOpen ? 'bi-chevron-down' : 'bi-chevron-right'"
+    ></i>
+  </button>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileEyeProtectionOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/safetygoggles">
+      Safety Goggles
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/safetyspectacles">
+      Safety Spectacles
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/weldingsafetyglasses">
+      Welding Safety Glasses
+    </a>
+
+  </div>
+
+
+  <!-- RESPIRATORY & HEARING -->
+  <button
+    type="button"
+    class="mobile-subcategory-item mobile-subcategory-button"
+    (click)="mobileRespiratoryOpen = !mobileRespiratoryOpen"
+    [attr.aria-expanded]="mobileRespiratoryOpen"
+  >
+    <span>Respiratory &amp; Hearing Protection</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileRespiratoryOpen ? 'bi-chevron-down' : 'bi-chevron-right'"
+    ></i>
+  </button>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileRespiratoryOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/nosemasks">
+      Nose Masks
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/earplugs">
+      Earplugs
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/earmuffs">
+      Earmuffs
+    </a>
+
+  </div>
+
+
+  <!-- LIFE SAVING -->
+  <button
+    type="button"
+    class="mobile-subcategory-item mobile-subcategory-button"
+    (click)="mobileLifeSavingOpen = !mobileLifeSavingOpen"
+    [attr.aria-expanded]="mobileLifeSavingOpen"
+  >
+    <span>Life Saving Equipment</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileLifeSavingOpen ? 'bi-chevron-down' : 'bi-chevron-right'"
+    ></i>
+  </button>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileLifeSavingOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/lifejackets">
+      Life Jackets
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/lifevests">
+      Life Vests
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/lifebuoys">
+      Life Buoys
+    </a>
+
+  </div>
+
+
+  <!-- BY BRANDS -->
+  <button
+    type="button"
+    class="mobile-subcategory-item mobile-subcategory-button"
+    (click)="mobileSafetyByBrandsOpen = !mobileSafetyByBrandsOpen"
+    [attr.aria-expanded]="mobileSafetyByBrandsOpen"
+  >
+    <span>By Brands</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileSafetyByBrandsOpen ? 'bi-chevron-down' : 'bi-chevron-right'"
+    ></i>
+  </button>
+
+
+  <!-- BRAND ITEMS -->
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileSafetyByBrandsOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: 'Beta', parentCategory: 'safety ppe' }"
+    >
+      Beta
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: 'Dickies', parentCategory: 'safety ppe' }"
+    >
+      Dickies
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: 'Portwest', parentCategory: 'safety ppe' }"
+    >
+      Portwest
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: 'Redwings', parentCategory: 'safety ppe' }"
+    >
+      Redwings
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: 'Safety Jogger', parentCategory: 'safety ppe' }"
+    >
+      Safety Jogger
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: 'Super Steel', parentCategory: 'safety ppe' }"
+    >
+      Super Steel
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: '3M', parentCategory: 'safety ppe' }"
+    >
+      3M
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: 'MSA safety', parentCategory: 'safety ppe' }"
+    >
+      MSA safety
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: 'Uvex', parentCategory: 'safety ppe' }"
+    >
+      Uvex
+    </a>
+
+  </div>
+
+</div>
+
+<!-- =========================================================
+     POWER HAND TOOLS - MOBILE
+     ========================================================= -->
+
+<div
+  class="mobile-category-item"
+  (click)="mobilePowerHandToolsOpen = !mobilePowerHandToolsOpen"
+>
+  <span>Power Hand Tools</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobilePowerHandToolsOpen
+      ? 'bi-chevron-down'
+      : 'bi-chevron-right'"
+  ></i>
+</div>
+
+
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobilePowerHandToolsOpen"
+>
+
+
+  <!-- =======================================================
+       BY CATEGORY
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobilePowerByCategoryOpen = !mobilePowerByCategoryOpen"
+  >
+    <span>By Category</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobilePowerByCategoryOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobilePowerByCategoryOpen"
+  >
+
+
+    <!-- =====================================================
+         DRILLS
+         ===================================================== -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobilePowerDrillsOpen = !mobilePowerDrillsOpen"
+    >
+      <span>Drills</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobilePowerDrillsOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobilePowerDrillsOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/cordeddrills"
+      >
+        Corded Drills
+      </a>
+
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/cordlessdrillsanddrivers"
+      >
+        Cordless Drills &amp; Drivers
+      </a>
+
+
+      <!-- ROTARY HAMMER DRILLS -->
+
+      <div
+        class="mobile-subcategory-item"
+        (click)="mobilePowerRotaryHammerDrillsOpen = !mobilePowerRotaryHammerDrillsOpen"
+      >
+        <span>Rotary Hammer Drills</span>
+
+        <i
+          class="bi"
+          [ngClass]="mobilePowerRotaryHammerDrillsOpen
+            ? 'bi-chevron-down'
+            : 'bi-chevron-right'"
+        ></i>
+      </div>
+
+
+      <div
+        class="mobile-nested-list"
+        [class.open]="mobilePowerRotaryHammerDrillsOpen"
+      >
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/electricalrotaryhammerdrills"
+        >
+          Electrical Rotary Hammer Drills
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/cordlessrotaryhammerdrills"
+        >
+          Cordless Rotary Hammer Drills
+        </a>
+
+      </div>
+
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/drillpresses"
+      >
+        Drill Presses
+      </a>
+
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/magneticdrills"
+      >
+        Magnetic Drills
+      </a>
+
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/coredrills"
+      >
+        Core Drills
+      </a>
+
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/earthaugers"
+      >
+        Earth Augers
+      </a>
+
+    </div>
+
+
+    <!-- =====================================================
+         GRINDERS
+         ===================================================== -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobilePowerGrindersOpen = !mobilePowerGrindersOpen"
+    >
+      <span>Grinders</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobilePowerGrindersOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobilePowerGrindersOpen"
+    >
+
+      <!-- ANGLE GRINDERS -->
+
+      <div
+        class="mobile-subcategory-item"
+        (click)="mobilePowerAngleGrindersOpen = !mobilePowerAngleGrindersOpen"
+      >
+        <span>Angle Grinders</span>
+
+        <i
+          class="bi"
+          [ngClass]="mobilePowerAngleGrindersOpen
+            ? 'bi-chevron-down'
+            : 'bi-chevron-right'"
+        ></i>
+      </div>
+
+
+      <div
+        class="mobile-nested-list"
+        [class.open]="mobilePowerAngleGrindersOpen"
+      >
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/cordlessanglegrinders"
+        >
+          Cordless Angle Grinders
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/electricanglegrinders"
+        >
+          Electric Angle Grinders
+        </a>
+
+      </div>
+
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/benchgrinders"
+      >
+        Bench Grinders
+      </a>
+
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/dieandminigrinders"
+      >
+        Die &amp; Mini Grinders
+      </a>
+
+    </div>
+
+
+    <!-- =====================================================
+         SAWS
+         ===================================================== -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobilePowerSawsOpen = !mobilePowerSawsOpen"
+    >
+      <span>Saws</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobilePowerSawsOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobilePowerSawsOpen"
+    >
+
+      <a class="mobile-nested-item" routerLink="/circularsaws">
+        Circular Saws
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/jigsaws">
+        Jig Saws
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/reciprocatingsaws">
+        Reciprocating Saws
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/tablesaws">
+        Table Saws
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/mitresaws">
+        Mitre Saws
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/chainsaws">
+        Chain Saws
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/bandsaws">
+        Band Saws
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/cutoffsaws">
+        Cut-off Saws
+      </a>
+
+    </div>
+
+
+    <!-- =====================================================
+         IMPACT WRENCHES
+         ===================================================== -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobilePowerImpactWrenchesOpen = !mobilePowerImpactWrenchesOpen"
+    >
+      <span>Impact Wrenches</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobilePowerImpactWrenchesOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobilePowerImpactWrenchesOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/cordlessimpactwrenches"
+      >
+        Cordless Impact Wrenches
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/electricimpactwrenches"
+      >
+        Electric Impact Wrenches
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/pneumaticimpactwrenches"
+      >
+        Pneumatic Impact Wrenches
+      </a>
+
+    </div>
+
+
+    <!-- =====================================================
+         JACK HAMMERS
+         ===================================================== -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobilePowerJackHammersOpen = !mobilePowerJackHammersOpen"
+    >
+      <span>Jack Hammers</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobilePowerJackHammersOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobilePowerJackHammersOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/demolitionbreakers"
+      >
+        Demolition Breakers
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/pneumaticjackhammers"
+      >
+        Pneumatic Jack Hammers
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/gasolinejackhammers"
+      >
+        Gasoline Jack Hammers
+      </a>
+
+    </div>
+
+
+    <!-- =====================================================
+         PRESSURE WASHERS
+         ===================================================== -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobilePowerPressureWashersOpen = !mobilePowerPressureWashersOpen"
+    >
+      <span>Pressure Washers</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobilePowerPressureWashersOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobilePowerPressureWashersOpen"
+    >
+
+      <!-- BY CATEGORY -->
+
+      <div
+        class="mobile-subcategory-item"
+        (click)="mobilePowerPressureWasherCategoryOpen = !mobilePowerPressureWasherCategoryOpen"
+      >
+        <span>By Category</span>
+
+        <i
+          class="bi"
+          [ngClass]="mobilePowerPressureWasherCategoryOpen
+            ? 'bi-chevron-down'
+            : 'bi-chevron-right'"
+        ></i>
+      </div>
+
+
+      <div
+        class="mobile-nested-list"
+        [class.open]="mobilePowerPressureWasherCategoryOpen"
+      >
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/electricpressurewashers"
+        >
+          Electric Pressure Washers
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/petrolpressurewashers"
+        >
+          Petrol Pressure Washers
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/industrialpressurewashers"
+        >
+          Industrial Pressure Washers
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/cordlesspressurewashers"
+        >
+          Cordless Pressure Washers
+        </a>
+
+      </div>
+
+
+      <!-- BY BRANDS -->
+
+      <div
+        class="mobile-subcategory-item"
+        (click)="mobilePowerPressureWasherBrandsOpen = !mobilePowerPressureWasherBrandsOpen"
+      >
+        <span>By Brands</span>
+
+        <i
+          class="bi"
+          [ngClass]="mobilePowerPressureWasherBrandsOpen
+            ? 'bi-chevron-down'
+            : 'bi-chevron-right'"
+        ></i>
+      </div>
+
+
+      <div
+        class="mobile-nested-list"
+        [class.open]="mobilePowerPressureWasherBrandsOpen"
+      >
+
+        <a
+          class="mobile-nested-item"
+          [routerLink]="['/pagination']"
+          [queryParams]="{
+            brand: 'Ingco',
+            parentCategory: 'pressure washers'
+          }"
+        >
+          Ingco
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          [routerLink]="['/pagination']"
+          [queryParams]="{
+            brand: 'Bosch',
+            parentCategory: 'pressure washers'
+          }"
+        >
+          Bosch
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          [routerLink]="['/pagination']"
+          [queryParams]="{
+            brand: 'Maxmech',
+            parentCategory: 'pressure washers'
+          }"
+        >
+          Maxmech
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          [routerLink]="['/pagination']"
+          [queryParams]="{
+            brand: 'Karcher',
+            parentCategory: 'pressure washers'
+          }"
+        >
+          Karcher
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          [routerLink]="['/pagination']"
+          [queryParams]="{
+            brand: 'Total',
+            parentCategory: 'pressure washers'
+          }"
+        >
+          Total
+        </a>
+
+      </div>
+
+
+      <!-- ACCESSORIES -->
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/pressurewashersaccessories"
+      >
+        Pressure Washer Accessories
+      </a>
+
+    </div>
+
+
+    <!-- =====================================================
+         BLOWERS
+         ===================================================== -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobilePowerBlowersOpen = !mobilePowerBlowersOpen"
+    >
+      <span>Blowers</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobilePowerBlowersOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobilePowerBlowersOpen"
+    >
+
+      <!-- BLOWER CATEGORIES -->
+
+      <div
+        class="mobile-subcategory-item"
+        (click)="mobilePowerBlowerCategoriesOpen = !mobilePowerBlowerCategoriesOpen"
+      >
+        <span>By Category</span>
+
+        <i
+          class="bi"
+          [ngClass]="mobilePowerBlowerCategoriesOpen
+            ? 'bi-chevron-down'
+            : 'bi-chevron-right'"
+        ></i>
+      </div>
+
+
+      <div
+        class="mobile-nested-list"
+        [class.open]="mobilePowerBlowerCategoriesOpen"
+      >
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/cordlessblowers"
+        >
+          Cordless Blowers
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/electricblowers"
+        >
+          Electric Blowers
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          routerLink="/gasolineblowers"
+        >
+          Gasoline Blowers
+        </a>
+
+      </div>
+
+
+      <!-- BLOWER BRANDS -->
+
+      <div
+        class="mobile-subcategory-item"
+        (click)="mobilePowerBlowerBrandsOpen = !mobilePowerBlowerBrandsOpen"
+      >
+        <span>By Brands</span>
+
+        <i
+          class="bi"
+          [ngClass]="mobilePowerBlowerBrandsOpen
+            ? 'bi-chevron-down'
+            : 'bi-chevron-right'"
+        ></i>
+      </div>
+
+
+      <div
+        class="mobile-nested-list"
+        [class.open]="mobilePowerBlowerBrandsOpen"
+      >
+
+        <a
+          class="mobile-nested-item"
+          [routerLink]="['/pagination']"
+          [queryParams]="{
+            brand: 'Bosch',
+            parentCategory: 'blowers'
+          }"
+        >
+          Bosch
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          [routerLink]="['/pagination']"
+          [queryParams]="{
+            brand: 'Ingco',
+            parentCategory: 'blowers'
+          }"
+        >
+          Ingco
+        </a>
+
+        <a
+          class="mobile-nested-item"
+          [routerLink]="['/pagination']"
+          [queryParams]="{
+            brand: 'Total',
+            parentCategory: 'blowers'
+          }"
+        >
+          Total
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         OTHER POWER TOOL CATEGORIES
+         ===================================================== -->
+
+    <a class="mobile-nested-item" routerLink="/heatguns">
+      Heat Guns
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/cuttingmachines">
+      Cutting Machines
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/handmixers">
+      Hand Mixers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/polishers">
+      Angle Polishers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/sprayguns">
+      Spray Guns
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/bagclosermachines">
+      Bag Closer Machines
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/nailers">
+      Nailers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/trimmers">
+      Trimmers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/generalguntools">
+      General Gun Tools
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/impulsesealers">
+      Impulse Sealers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/planers">
+      Planers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/pprandthreadingmachines">
+      PPR And Threading Machines
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/powercrimpingtools">
+      Power Crimping Tools
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/routers">
+      Routers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/sanders">
+      Sanders
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/edgebandingmachines">
+      Edge Binding Machines
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/wallchasers">
+      Wall Chasers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/vibrators">
+      Vibrators
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/electricpipebenders">
+      Electric Pipe Benders
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/airlesssprayers">
+      Airless-Sprayers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/electricalcablecutters">
+      Electrical Cable Cutter
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/electricalcablepullers">
+      Electrical Cable Pullers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/combokits">
+      Combo Kits
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       BY BRANDS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobilePowerByBrandsOpen = !mobilePowerByBrandsOpen"
+  >
+    <span>By Brands</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobilePowerByBrandsOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobilePowerByBrandsOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Ingco',
+        parentCategory: 'power-tools'
+      }"
+    >
+      Ingco
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Maxmech',
+        parentCategory: 'power-tools'
+      }"
+    >
+      Maxmech
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Total',
+        parentCategory: 'power-tools'
+      }"
+    >
+      Total
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Makita',
+        parentCategory: 'power-tools'
+      }"
+    >
+      Makita
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Bosch',
+        parentCategory: 'power-tools'
+      }"
+    >
+      Bosch
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Dewalt',
+        parentCategory: 'power-tools'
+      }"
+    >
+      Dewalt
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Stanley',
+        parentCategory: 'power-tools'
+      }"
+    >
+      Stanley
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Edon',
+        parentCategory: 'power-tools'
+      }"
+    >
+      Edon
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Powerflex',
+        parentCategory: 'power-tools'
+      }"
+    >
+      Powerflex
+    </a>
+
+  </div>
+
+</div>
+<!-- =========================================================
+     MEASURING & TESTING - MOBILE
+     ========================================================= -->
+
+<div
+  class="mobile-category-item"
+  (click)="mobileMeasuringTestingOpen = !mobileMeasuringTestingOpen"
+>
+  <span>Measuring &amp; Testing</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobileMeasuringTestingOpen
+      ? 'bi-chevron-down'
+      : 'bi-chevron-right'"
+  ></i>
+</div>
+
+
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobileMeasuringTestingOpen"
+>
+
+
+  <!-- =====================================================
+       FUEL TESTING & MEASURING
+       ===================================================== -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileFuelTestingOpen = !mobileFuelTestingOpen"
+  >
+    <span>Fuel Testing &amp; Measuring</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileFuelTestingOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileFuelTestingOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/hydrometers">
+      Hydrometers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/flowmeters">
+      Flow Meters
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/thermometers">
+      Thermometers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/measuringcans">
+      Measuring Cans
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/testingpastes">
+      Testing Paste
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/measuringcylinders">
+      Measuring Cylinders
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/fueltestingkits">
+      Fuel Testing Kits
+    </a>
+
+  </div>
+
+
+  <!-- =====================================================
+       GENERAL MEASURING INSTRUMENTS
+       ===================================================== -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileGeneralMeasuringOpen = !mobileGeneralMeasuringOpen"
+  >
+    <span>General Measuring Instruments</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileGeneralMeasuringOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileGeneralMeasuringOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/generalmeters">
+      General Meters
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/generaltesters">
+      General Testers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/multimeters">
+      Multimeters
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/clampmeters">
+      Digital Clamp Meters
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/batterytesters">
+      Battery Testers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/measuringtapes">
+      Measuring Tapes
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/dialindicators">
+      Dial Indicators
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/generalgauges">
+      General Gauges
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/measuringwheels">
+      Measuring Wheels
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/generaltesters">
+      General Testers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/gpstrackers">
+      GPS Trackers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/infraredthermometers">
+      Infrared Thermometers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/digitalthermometers">
+      Digital Thermometers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/scannersanddetectors">
+      Scanners And Detectors
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/thicknessgauges">
+      Thickness Gauges
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/gasdetectors">
+      Gas Detectors
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/digitalmultimeters">
+      Digital Multimeters
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/dialboregauges">
+      Dial Bore Gauges
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/gasanalyzers">
+      Gas Analyzers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/dippingtape">
+      Dipping Tape
+    </a>
+
+
+    <!-- CALIPERS -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCalipersOpen = !mobileCalipersOpen"
+    >
+      <span>Calipers</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCalipersOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCalipersOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/digitalcalipers"
+      >
+        Digital Calipers
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/verniercalipers"
+      >
+        Vernier Calipers (Analogue)
+      </a>
+
+    </div>
+
+
+    <!-- MICROMETERS -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileMicrometersOpen = !mobileMicrometersOpen"
+    >
+      <span>Micrometers</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileMicrometersOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileMicrometersOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/analoguemicrometers"
+      >
+        Micrometers (Analogue)
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/digitalmicrometers"
+      >
+        Micrometers (Digital)
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       WATER & LAB TESTERS
+       ===================================================== -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileWaterTestersOpen = !mobileWaterTestersOpen"
+  >
+    <span>Water &amp; Lab Testers</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileWaterTestersOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileWaterTestersOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/watertesters">
+      Water Testers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/alcoholtesters">
+      Alcohol Testers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/phmeters">
+      pH Meters
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/concretemeters">
+      Concrete Testers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/testingbuckets">
+      Testing Buckets
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/moisturetesters">
+      Moisture Testers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/moistureanalyzers">
+      Moisture Analyzers
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/centrifuges">
+      Centrifuges
+    </a>
+
+  </div>
+
+
+  <!-- =====================================================
+       LEVELING TOOLS
+       ===================================================== -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileLevelingToolsOpen = !mobileLevelingToolsOpen"
+  >
+    <span>Leveling Tools</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileLevelingToolsOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileLevelingToolsOpen"
+  >
+
+    <a class="mobile-nested-item" routerLink="/spiritlevels">
+      Spirit Levels
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/dumpinglevels">
+      Dumpy Levels (Auto Levels)
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/surveytripods">
+      Survey Poles And Tripods
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/laserdistancemeters">
+      Laser Distance Meters
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/laserlevels">
+      Laser Levels
+    </a>
+
+    <a class="mobile-nested-item" routerLink="/surveyinstruments">
+      Survey Instruments
+    </a>
+
+  </div>
+
+
+  <!-- =====================================================
+       MEASURING SCALES
+       ===================================================== -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileMeasuringScalesOpen = !mobileMeasuringScalesOpen"
+  >
+    <span>Measuring Scales</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileMeasuringScalesOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileMeasuringScalesOpen"
+  >
+
+
+    <!-- ANALOGUE SCALES -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileAnalogueScalesOpen = !mobileAnalogueScalesOpen"
+    >
+      <span>Analogue Scales</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileAnalogueScalesOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileAnalogueScalesOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/springbalances"
+      >
+        Spring Balances
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/beambalances"
+      >
+        Beam Balances
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/mechanicalplatformscales"
+      >
+        Mechanical Platform Scales
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/analoguekitchenscales"
+      >
+        Analogue Kitchen Scales
+      </a>
+
+    </div>
+
+
+    <!-- DIGITAL SCALES -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileDigitalScalesOpen = !mobileDigitalScalesOpen"
+    >
+      <span>Digital Scales</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileDigitalScalesOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileDigitalScalesOpen"
+    >
+
+      <a class="mobile-nested-item" routerLink="/platformscales">
+        Platform Scales
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/cranescales">
+        Crane Scales
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/hangingscales">
+        Hanging Scales
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/analyticalbalances">
+        Analytical &amp; Lab Balances
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/bathroomscales">
+        Bathroom Scales
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/kitchenscales">
+        Kitchen Scales (Digital)
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/pocketscales">
+        Pocket Scales
+      </a>
+
+      <a class="mobile-nested-item" routerLink="/pricingscales">
+        Pricing Scales
+      </a>
+
+    </div>
+
+
+    <!-- SCALE ACCESSORIES -->
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/scaleaccessories"
+    >
+      Scale Accessories
+    </a>
+
+  </div>
+
+</div>
+
+  <!-- =========================================================
+     HAND TOOLS & ACCESSORIES - MOBILE
+     ========================================================= -->
+
+<div
+  class="mobile-category-item"
+  (click)="mobileHandToolsOpen = !mobileHandToolsOpen"
+>
+  <span>Hand Tools &amp; Accessories</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobileHandToolsOpen
+      ? 'bi-chevron-down'
+      : 'bi-chevron-right'"
+  ></i>
+</div>
+
+
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobileHandToolsOpen"
+>
+
+
+  <!-- =======================================================
+       HAND TOOLS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileHandToolCategoriesOpen = !mobileHandToolCategoriesOpen"
+  >
+    <span>Hand Tools</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileHandToolCategoriesOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileHandToolCategoriesOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/spannersandwrenches"
+    >
+      Spanners &amp; Wrenches
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/hammersandmallets"
+    >
+      Hammers &amp; Mallets
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/screwdrivers"
+    >
+      Screwdrivers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/pliersandcutters"
+    >
+      Pliers &amp; Cutters
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/socketsandracthets"
+    >
+      Sockets &amp; Ratchets
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/measuringtapes"
+    >
+      Measuring Tapes
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/utilityknivesandblades"
+    >
+      Utility Knives &amp; Blades
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/chiselsandpunches"
+    >
+      Chisels &amp; Punches
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/toolbags"
+    >
+      Tool Bags
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/toolboxes"
+    >
+      Tool Boxes
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/toolscabinets"
+    >
+      Tool Cabinets
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/handriveters"
+    >
+      Hand Riveters
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/crimpingtools"
+    >
+      Crimping Tools
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/tilescutters"
+    >
+      Tiles Cutters
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/drivers"
+    >
+      General Drivers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/flaringtools"
+    >
+      Flaring Tools
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/bearingpullers"
+    >
+      Bearing Pullers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/toolssets"
+    >
+      Toolssets
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/handsaws"
+    >
+      Hand Saws
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/holesaws"
+    >
+      Hole Saws
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/allenkeys"
+    >
+      Allen Keys
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/puttyknife"
+    >
+      Putty Knives
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/stapleguns"
+    >
+      Staple Guns
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/tapanddie"
+    >
+      Tap And Die
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/handgreaseguns"
+    >
+      Hand Grease Guns
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/airnailguns"
+    >
+      Air Nail Guns
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/manualsprayguns"
+    >
+      Manual Spray Guns
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/doorhardware"
+    >
+      Door Hardware
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/suctioncups"
+    >
+      Suction Cups
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/pipethreaders"
+    >
+      Pipe Threaders
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/cablepullersandfishtapes"
+    >
+      Cable Puller Sand Fish Tapes
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/pipecutters"
+    >
+      Pipe Cutters
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/cablecutters"
+    >
+      Cable Cutters
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/pipebenders"
+    >
+      Pipe Benders
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/torquewrenches"
+    >
+      Torque Wrenches
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/plasteringtools"
+    >
+      Plastering Tools
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/handgearwinches"
+    >
+      Hand Gear Winches
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       ACCESSORIES
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileHandToolAccessoriesOpen = !mobileHandToolAccessoriesOpen"
+  >
+    <span>Accessories</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileHandToolAccessoriesOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileHandToolAccessoriesOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/drillbits"
+    >
+      Drill Bits
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/sawblades"
+    >
+      Saw Blades
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/sandingpads"
+    >
+      Sanding Pads
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/polishingpadsandbuffers"
+    >
+      Polishing Pads &amp; Buffers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/cuttingandgrindingdiscs"
+    >
+      Cutting &amp; Grinding Disc
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/screwdriverbits"
+    >
+      Screw Driver Bits
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/grindingstonesandwheels"
+    >
+      Grinding Stones And Wheels
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/corecuttersandbits"
+    >
+      Core Cutters And Bits
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/routerbits"
+    >
+      Router Bits
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       BY BRANDS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileHandToolsBrandsOpen = !mobileHandToolsBrandsOpen"
+  >
+    <span>By Brands</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileHandToolsBrandsOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileHandToolsBrandsOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Stanley',
+        parentCategory: 'hand-tools'
+      }"
+    >
+      Stanley
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Bosch',
+        parentCategory: 'hand-tools'
+      }"
+    >
+      Bosch
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Makita',
+        parentCategory: 'hand-tools'
+      }"
+    >
+      Makita
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Ingco',
+        parentCategory: 'hand-tools'
+      }"
+    >
+      Ingco
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Total',
+        parentCategory: 'hand-tools'
+      }"
+    >
+      Total
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      [routerLink]="['/pagination']"
+      [queryParams]="{
+        brand: 'Maxmech',
+        parentCategory: 'hand-tools'
+      }"
+    >
+      Maxmech
+    </a>
+
+  </div>
+
+  </div> <!-- CLOSE Hand Tools & Accessories -->
+<!-- =========================================================
+     ELECTRICAL EQUIPMENT - MOBILE
+     ========================================================= -->
+
+<div
+  class="mobile-category-item"
+  (click)="mobileElectricalEquipmentOpen = !mobileElectricalEquipmentOpen"
+>
+  <span>Electrical Equipment</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobileElectricalEquipmentOpen
+      ? 'bi-chevron-down'
+      : 'bi-chevron-right'"
+  ></i>
+</div>
+
+
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobileElectricalEquipmentOpen"
+>
+
+
+  <!-- =======================================================
+       BY CATEGORY
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileElectricalCategoriesOpen = !mobileElectricalCategoriesOpen"
+  >
+    <span>By Category</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileElectricalCategoriesOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileElectricalCategoriesOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/batteries"
+    >
+      Batteries
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/bagclosermachines"
+    >
+      Bag Closer Machines
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/autoaircompressors"
+    >
+      Auto Air Compressors
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/cablewireandboosters"
+    >
+      Cable Wires &amp; Cable Boosters
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/plasmacutters"
+    >
+      Plasma Cutters
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/aircompressors"
+    >
+      Air Compressors
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/batterytesters"
+    >
+      Battery Testers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/batterychargers"
+    >
+      Battery Chargers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/jumperstarters"
+    >
+      Jumper Starters
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/solderingequipment"
+    >
+      Soldering Equipment
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       GENERATORS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileGeneratorsOpen = !mobileGeneratorsOpen"
+  >
+    <span>Generators</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileGeneratorsOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileGeneratorsOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/desielgenerators"
+    >
+      Desiel Generators
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/petrolgenerators"
+    >
+      Petrol Generators
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/invertergenerators"
+    >
+      Inverter Generators
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       WELDING
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileWeldingOpen = !mobileWeldingOpen"
+  >
+    <span>Welding</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileWeldingOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileWeldingOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/tigweldingmachines"
+    >
+      TIG Welding Machines
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/mmaweldingmachines"
+    >
+      MMA Welding Machines
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/migweldingmachines"
+    >
+      MIG Welding Machines
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/arcweldingmachines"
+    >
+      Arc Welding Machines
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/weldingaccessories"
+    >
+      Welding Accessories
+    </a>
+
+  </div>
+
+
+</div>
+
+<!-- =========================================================
+     CONSTRUCTION EQUIPMENT - MOBILE
+     ========================================================= -->
+
+<div
+  class="mobile-category-item"
+  (click)="mobileConstructionEquipmentOpen = !mobileConstructionEquipmentOpen"
+>
+  <span>Construction Equipment</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobileConstructionEquipmentOpen
+      ? 'bi-chevron-down'
+      : 'bi-chevron-right'"
+  ></i>
+</div>
+
+
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobileConstructionEquipmentOpen"
+>
+
+
+  <!-- =======================================================
+       BY CATEGORY
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileConstructionCategoriesOpen = !mobileConstructionCategoriesOpen"
+  >
+    <span>By Category</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileConstructionCategoriesOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileConstructionCategoriesOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/concretemixers"
+    >
+      Concrete Mixers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/jumpingrammers"
+    >
+      Jumping Rammers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/wheelbarrows"
+    >
+      Wheelbarrows
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/platecompactors"
+    >
+      Plate Compactors
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/concretevibrators"
+    >
+      Concrete Vibrators
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/powertrowels"
+    >
+      Power Trowels
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/testingequipment"
+    >
+      Testing Equipment
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/fallarresters"
+    >
+      Fall Arrestors
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/pokerhoses"
+    >
+      Poker Hoses
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/rebarmachines"
+    >
+      Rebar Machines
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/drumtrucks"
+    >
+      Drum Trucks
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/concretepumps"
+    >
+      Concrete Pumps
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/drumrollercompactors"
+    >
+      Drum Roller Compactors
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/roadmarkingmachines"
+    >
+      Road Marking Machines
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/concretescreeders"
+    >
+      Concrete Screeders
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/generalconcreteequipment"
+    >
+      generalconcreteequipment
+    </a>
+
+  </div>
+
+</div>
+<!-- =========================================================
+     PUMPING MACHINES - MOBILE
+     ========================================================= -->
+
+<div
+  class="mobile-category-item"
+  (click)="mobilePumpingMachinesOpen = !mobilePumpingMachinesOpen"
+>
+  <span>Pumping Machines</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobilePumpingMachinesOpen
+      ? 'bi-chevron-down'
+      : 'bi-chevron-right'"
+  ></i>
+</div>
+
+
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobilePumpingMachinesOpen"
+>
+
+
+  <!-- =======================================================
+       BY CATEGORY
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobilePumpingCategoriesOpen = !mobilePumpingCategoriesOpen"
+  >
+    <span>By Category</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobilePumpingCategoriesOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobilePumpingCategoriesOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/waterpumps"
+    >
+      Water Pumps
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/submersiblepumps"
+    >
+      Submersible Pumps
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/fueltransferpumps"
+    >
+      Fuel Transfer Pumps
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/rotarypumps"
+    >
+      Hand Rotary Pumps
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/pressurepumps"
+    >
+      Pressure Pumps
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/vacuumpumps"
+    >
+      Vacuum Pumps
+    </a>
+
+  </div>
+
+</div>
+
+
+ <!-- =========================================================
+     CLEANING & GARDEN SUPPLIES - MOBILE
+     ========================================================= -->
+
+<div
+  class="mobile-category-item"
+  (click)="mobileCleaningGardenOpen = !mobileCleaningGardenOpen"
+>
+  <span>Cleaning &amp; Garden Supplies</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobileCleaningGardenOpen
+      ? 'bi-chevron-down'
+      : 'bi-chevron-right'"
+  ></i>
+</div>
+
+
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobileCleaningGardenOpen"
+>
+
+
+  <!-- =======================================================
+       MAIN CLEANING & GARDEN ITEMS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileCleaningGardenMainOpen = !mobileCleaningGardenMainOpen"
+  >
+    <span>By Category</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileCleaningGardenMainOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileCleaningGardenMainOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/cleaningaccessories"
+    >
+      Cleaning Accessories
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/scrubbersandsweepers"
+    >
+      Scrubbers And Sweepers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/gardensprinklers"
+    >
+      Garden Sprinklers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/knapsacksprayers"
+    >
+      Knapsack Sprayers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/steamecleanermachines"
+    >
+      Steam Cleaner Machines
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       PRESSURE WASHERS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileCleaningPressureWashersOpen = !mobileCleaningPressureWashersOpen"
+  >
+    <span>Pressure Washers</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileCleaningPressureWashersOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileCleaningPressureWashersOpen"
+  >
+
+
+    <!-- PRESSURE WASHER - BY CATEGORY -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCleaningPressureWasherCategoriesOpen = !mobileCleaningPressureWasherCategoriesOpen"
+    >
+      <span>By Category</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCleaningPressureWasherCategoriesOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCleaningPressureWasherCategoriesOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/electricpressurewashers"
+      >
+        Electric Pressure Washers
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/petrolpressurewashers"
+      >
+        Petrol Pressure Washers
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/industrialpressurewashers"
+      >
+        Industrial Pressure Washers
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/cordlesspressurewashers"
+      >
+        Cordless Pressure Washers
+      </a>
+
+    </div>
+
+
+    <!-- PRESSURE WASHER - BY BRANDS -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCleaningPressureWasherBrandsOpen = !mobileCleaningPressureWasherBrandsOpen"
+    >
+      <span>By Brands</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCleaningPressureWasherBrandsOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCleaningPressureWasherBrandsOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Ingco',
+          parentCategory: 'pressure washers'
+        }"
+      >
+        Ingco
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Bosch',
+          parentCategory: 'pressure washers'
+        }"
+      >
+        Bosch
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Maxmech',
+          parentCategory: 'pressure washers'
+        }"
+      >
+        Maxmech
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Karcher',
+          parentCategory: 'pressure washers'
+        }"
+      >
+        Karcher
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Total',
+          parentCategory: 'pressure washers'
+        }"
+      >
+        Total
+      </a>
+
+    </div>
+
+
+    <!-- PRESSURE WASHER ACCESSORIES -->
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/pressurewashersaccessories"
+    >
+      Pressure Washer Accessories
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       BLOWERS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileCleaningBlowersOpen = !mobileCleaningBlowersOpen"
+  >
+    <span>Blowers</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileCleaningBlowersOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileCleaningBlowersOpen"
+  >
+
+
+    <!-- BLOWERS - BY CATEGORY -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCleaningBlowerCategoriesOpen = !mobileCleaningBlowerCategoriesOpen"
+    >
+      <span>By Category</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCleaningBlowerCategoriesOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCleaningBlowerCategoriesOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/cordlessblowers"
+      >
+        Cordless Blowers
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/electricblowers"
+      >
+        Electric Blowers
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/gasolineblowers"
+      >
+        Gasoline Blowers
+      </a>
+
+    </div>
+
+
+    <!-- BLOWERS - BY BRANDS -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCleaningBlowerBrandsOpen = !mobileCleaningBlowerBrandsOpen"
+    >
+      <span>By Brands</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCleaningBlowerBrandsOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCleaningBlowerBrandsOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Bosch',
+          parentCategory: 'blowers'
+        }"
+      >
+        Bosch
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Ingco',
+          parentCategory: 'blowers'
+        }"
+      >
+        Ingco
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Total',
+          parentCategory: 'blowers'
+        }"
+      >
+        Total
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- =======================================================
+       HOSE
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileCleaningHoseOpen = !mobileCleaningHoseOpen"
+  >
+    <span>Hose</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileCleaningHoseOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileCleaningHoseOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/waterandpumphose"
+    >
+      Water And Pump Hose
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/pressurehose"
+    >
+      Pressure Hose
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/hoseaccessories"
+    >
+      Hose Accessories
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/hydraulichose"
+    >
+      Hydraulic Hose
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/hosereels"
+    >
+      Hose Reels
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       VACUUM CLEANERS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileCleaningVacuumCleanersOpen = !mobileCleaningVacuumCleanersOpen"
+  >
+    <span>Vacuum Cleaners</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileCleaningVacuumCleanersOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileCleaningVacuumCleanersOpen"
+  >
+
+
+    <!-- VACUUM - BY CATEGORY -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCleaningVacuumCategoriesOpen = !mobileCleaningVacuumCategoriesOpen"
+    >
+      <span>By Category</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCleaningVacuumCategoriesOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCleaningVacuumCategoriesOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/cyclonevacuumcleaners"
+      >
+        Cyclone Vacuum Cleaners
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/wetanddryvacuumcleaners"
+      >
+        Wet &amp; Dry Vacuum Cleaners
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/industrialvacuumcleaners"
+      >
+        Industrial Vacuum Cleaners
+      </a>
+
+    </div>
+
+
+    <!-- VACUUM - BY BRANDS -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCleaningVacuumBrandsOpen = !mobileCleaningVacuumBrandsOpen"
+    >
+      <span>By Brands</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCleaningVacuumBrandsOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCleaningVacuumBrandsOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Ingco',
+          parentCategory: 'vacuum cleaners'
+        }"
+      >
+        Ingco
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Total',
+          parentCategory: 'vacuum cleaners'
+        }"
+      >
+        Total
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Bosch',
+          parentCategory: 'vacuum cleaners'
+        }"
+      >
+        Bosch
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- =======================================================
+       LAWN MOWERS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileCleaningLawnMowersOpen = !mobileCleaningLawnMowersOpen"
+  >
+    <span>Lawn Mowers</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileCleaningLawnMowersOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileCleaningLawnMowersOpen"
+  >
+
+
+    <!-- LAWN MOWERS - BY CATEGORY -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCleaningLawnMowerCategoriesOpen = !mobileCleaningLawnMowerCategoriesOpen"
+    >
+      <span>By Category</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCleaningLawnMowerCategoriesOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCleaningLawnMowerCategoriesOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/gasolinelawnmowers"
+      >
+        Gasoline Lawn Mowers
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/electricandcordlesslawnmowers"
+      >
+        Electric And Cordless Lawn Mowers
+      </a>
+
+    </div>
+
+
+    <!-- LAWN MOWERS - BY BRANDS -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCleaningLawnMowerBrandsOpen = !mobileCleaningLawnMowerBrandsOpen"
+    >
+      <span>By Brands</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCleaningLawnMowerBrandsOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCleaningLawnMowerBrandsOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Ingco',
+          parentCategory: 'lawn mowers'
+        }"
+      >
+        Ingco
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Total',
+          parentCategory: 'lawn mowers'
+        }"
+      >
+        Total
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Prince Garden',
+          parentCategory: 'lawn mowers'
+        }"
+      >
+        Prince Garden
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- =======================================================
+       BRUSH CUTTERS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileCleaningBrushCuttersOpen = !mobileCleaningBrushCuttersOpen"
+  >
+    <span>Brush Cutters</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileCleaningBrushCuttersOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileCleaningBrushCuttersOpen"
+  >
+
+
+    <!-- BRUSH CUTTERS - BY CATEGORY -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCleaningBrushCutterCategoriesOpen = !mobileCleaningBrushCutterCategoriesOpen"
+    >
+      <span>By Category</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCleaningBrushCutterCategoriesOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCleaningBrushCutterCategoriesOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/gasolinebrushcutters"
+      >
+        Gasoline Brush Cutters
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        routerLink="/cordlessbrushcutters"
+      >
+        Cordless Brush Cutters
+      </a>
+
+    </div>
+
+
+    <!-- BRUSH CUTTERS - BY BRANDS -->
+
+    <div
+      class="mobile-subcategory-item"
+      (click)="mobileCleaningBrushCutterBrandsOpen = !mobileCleaningBrushCutterBrandsOpen"
+    >
+      <span>By Brands</span>
+
+      <i
+        class="bi"
+        [ngClass]="mobileCleaningBrushCutterBrandsOpen
+          ? 'bi-chevron-down'
+          : 'bi-chevron-right'"
+      ></i>
+    </div>
+
+
+    <div
+      class="mobile-nested-list"
+      [class.open]="mobileCleaningBrushCutterBrandsOpen"
+    >
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Ingco',
+          parentCategory: 'brush cutters'
+        }"
+      >
+        Ingco
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Total',
+          parentCategory: 'brush cutters'
+        }"
+      >
+        Total
+      </a>
+
+      <a
+        class="mobile-nested-item"
+        [routerLink]="['/pagination']"
+        [queryParams]="{
+          brand: 'Maxmech',
+          parentCategory: 'brush cutters'
+        }"
+      >
+        Maxmech
+      </a>
+
+    </div>
+
+
+    <!-- BRUSH CUTTER ACCESSORIES -->
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/brushcutteraccessories"
+    >
+      Brush Cutter Accessories
+    </a>
+
+  </div>
+
+</div>
+
+  <!-- =========================================================
+     FARM EQUIPMENTS - MOBILE
+     ========================================================= -->
+
+<div
+  class="mobile-category-item"
+  (click)="mobileFarmEquipmentsOpen = !mobileFarmEquipmentsOpen"
+>
+  <span>Farm Equipments</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobileFarmEquipmentsOpen
+      ? 'bi-chevron-down'
+      : 'bi-chevron-right'"
+  ></i>
+</div>
+
+
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobileFarmEquipmentsOpen"
+>
+
+
+  <!-- =======================================================
+       BY CATEGORY
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileFarmCategoriesOpen = !mobileFarmCategoriesOpen"
+  >
+    <span>By Category</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileFarmCategoriesOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileFarmCategoriesOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/farmmachines"
+    >
+      Farm Machines
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/farmtools"
+    >
+      Farm Tools
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/knapsacksprayers"
+    >
+      Knapsack Sprayers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/agrochemicals"
+    >
+      Agro Chemicals
+    </a>
+
+  </div>
+
+</div>
+<!-- =========================================================
+     SAFETY & TRAFFIC - MOBILE
+     ========================================================= -->
+
+<!-- =========================================================
+     SAFETY & TRAFFIC - MOBILE
+     ========================================================= -->
+
+<div
+  class="mobile-category-item"
+  (click)="mobileSafetyTrafficOpen = !mobileSafetyTrafficOpen"
+>
+  <span>Safety &amp; Traffic</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobileSafetyTrafficOpen
+      ? 'bi-chevron-down'
+      : 'bi-chevron-right'"
+  ></i>
+</div>
+
+
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobileSafetyTrafficOpen"
+>
+
+
+  <!-- =======================================================
+       TRAFFIC SAFETY
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileSafetyTrafficCategoriesOpen = !mobileSafetyTrafficCategoriesOpen"
+  >
+    <span>Traffic Safety</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileSafetyTrafficCategoriesOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileSafetyTrafficCategoriesOpen"
+  >
+
+    <!-- Traffic Safety Items -->
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/trafficcones"
+    >
+      Traffic Cones
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/roadbarriers"
+    >
+      Road Barriers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/warningsigns"
+    >
+      Warning Signs
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/speedbumps"
+    >
+      Speed Bumps
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/reflectors"
+    >
+      Reflectors
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/safetyvests"
+    >
+      Safety Vests
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/cautiontapes"
+    >
+      Caution Tapes
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/wheelchokes"
+    >
+      Wheel Chocks
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/cableramps"
+    >
+      Cable Ramps
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/convexmirrors"
+    >
+      Convex Mirrors
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/inspectionmirrors"
+    >
+      Inspection Mirrors
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/metaldetectors"
+    >
+      Metal Detectors
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/trafficcontrolsystems"
+    >
+      Traffic Control Systems
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/trafficandsolarlights"
+    >
+      Traffic And Solar Lights
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       FIRE SAFETY
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileFireSafetyOpen = !mobileFireSafetyOpen"
+  >
+    <span>Fire Safety</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileFireSafetyOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileFireSafetyOpen"
+  >
+
+    <!-- Fire Safety Items -->
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/fireextinguishers"
+    >
+      Fire Extinguishers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/fireblankets"
+    >
+      Fire Blankets
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/smokeandfirealarms"
+    >
+      Smoke &amp; Fire Alarms
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/firehose"
+    >
+      Fire Hose
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/firehosecabinet"
+    >
+      Fire Hose Cabinet
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/emergencyalertsystems"
+    >
+      Emergency Fire Systems
+    </a>
+
+  </div>
+
+</div>
+
+<!-- =========================================================
+     WORKSHOP & GARAGE - MOBILE
+     ========================================================= -->
+
+<div
+  class="mobile-category-item"
+  (click)="mobileWorkshopGarageOpen = !mobileWorkshopGarageOpen"
+>
+  <span>Workshop &amp; Garage</span>
+
+  <i
+    class="bi"
+    [ngClass]="mobileWorkshopGarageOpen
+      ? 'bi-chevron-down'
+      : 'bi-chevron-right'"
+  ></i>
+</div>
+
+
+<!-- WORKSHOP & GARAGE CONTENT -->
+<div
+  class="mobile-subcategory-list"
+  [class.open]="mobileWorkshopGarageOpen"
+>
+
+  <!-- =======================================================
+       WORKSHOP & GARAGE CATEGORIES
+       ======================================================= -->
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/toolscabinets"
+  >
+    Tool Cabinets
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/workbenches"
+  >
+    Work Bench vices
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/aircompressors"
+  >
+    Air Compressors
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/autoaircompressors"
+  >
+    Auto Air Compressors
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/aircompressoraccessories"
+  >
+    Air Compressor Accessories
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/powerextensionandreels"
+  >
+    Power Extension &amp; Reels
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/toolsets"
+  >
+    Tool Sets
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/carcreepers"
+  >
+    Car Creepers
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/greasebuckets"
+  >
+    Grease Buckets
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/testingbuckets"
+  >
+    Testing Buckets
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/rotarypumps"
+  >
+    Rotary Hand Pumps
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/hydraulicshoppress"
+  >
+    hydraulic shop press
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/pressurekits"
+  >
+    Pressure Kits
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/enginesandmotors"
+  >
+    Engines &amp; Motors
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/wheelchokes"
+  >
+    Wheel Chokes
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/oilextractorsanddrainers"
+  >
+    Oil Extractors &amp; Drainers
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/hydraulicpumps"
+  >
+    Hydraulic Pump
+  </a>
+
+  <a
+    class="mobile-nested-item"
+    routerLink="/generalautomotivetools"
+  >
+    General Automotive Tools
+  </a>
+
+
+  <!-- =======================================================
+       LIFTING & HANDLING
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileLiftingHandlingOpen = !mobileLiftingHandlingOpen"
+  >
+    <span>Lifting &amp; Handling</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileLiftingHandlingOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileLiftingHandlingOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/jackandlifts"
+    >
+      Jacks &amp; Lifts
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/chainblocksandhoists"
+    >
+      Chain Blocks &amp; Hoists
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/drumhandlingequipments"
+    >
+      Drum Handling Equipment
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/enginecranes"
+    >
+      Engine Cranes
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/liftingbelts"
+    >
+      Lifting Belts
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/palletetrucks"
+    >
+      Pallet Trucks
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/palletestackers"
+    >
+      Pallet Stackers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/trolleys"
+    >
+      Trolleys
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/verticalclamps"
+    >
+      Veritcal Clamps
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       WHEEL SERVICE
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileWheelServiceOpen = !mobileWheelServiceOpen"
+  >
+    <span>Wheel Service</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileWheelServiceOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileWheelServiceOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/wheelbalancers"
+    >
+      Wheel Balancers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/wheelalignmentguages"
+    >
+      Wheel Alignment Gauges
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/wheelchocks"
+    >
+      Wheel Chocks
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/wheelocks"
+    >
+      Wheel Locks
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/tirechangers"
+    >
+      Tire Changers
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/generalautomotivetools"
+    >
+      General Automotive Tools &amp; Equipment
+    </a>
+
+  </div>
+
+
+  <!-- =======================================================
+       LADDERS
+       ======================================================= -->
+
+  <div
+    class="mobile-subcategory-item"
+    (click)="mobileLaddersOpen = !mobileLaddersOpen"
+  >
+    <span>Ladders</span>
+
+    <i
+      class="bi"
+      [ngClass]="mobileLaddersOpen
+        ? 'bi-chevron-down'
+        : 'bi-chevron-right'"
+    ></i>
+  </div>
+
+
+  <div
+    class="mobile-nested-list"
+    [class.open]="mobileLaddersOpen"
+  >
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/stepladders"
+    >
+      Step Ladders
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/extensionladders"
+    >
+      Extension Ladders
+    </a>
+
+    <a
+      class="mobile-nested-item"
+      routerLink="/foldingladders"
+    >
+      Folding Ladders
+    </a>
+
+  </div>
+
+</div>
+
+
+  </div>
+
+</div>
+<!-- MOBILE SHOP BY CATEGORY END -->
 
 <!-- NAV BAR END -->
 

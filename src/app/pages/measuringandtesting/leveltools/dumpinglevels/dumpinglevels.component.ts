@@ -35,7 +35,7 @@ export class DumpinglevelsComponent {
     // load electric pressure washer products only
     this.products =
       this.SearchService.getProductsByCategory(
-        'dumpy-levels');
+        'dumping-levels');
 
     // default view
     this.filteredProducts = [...this.products];

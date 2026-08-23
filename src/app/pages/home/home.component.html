@@ -22,11 +22,13 @@
   
 <app-slider></app-slider>
 <div class="text-center my-4">
-<button class="btn btn-secondary text-dark d-block mx-auto"
-        data-bs-toggle="modal"
-        data-bs-target="#quoteModal">
-  Get a Quote
-</button>
+  <button
+    type="button"
+    class="btn btn-secondary text-dark d-block mx-auto"
+    data-toggle="modal"
+    data-target="#quoteModal">
+    Get a Quote
+  </button>
 </div>
 
 <!-- slider end -->
@@ -37,7 +39,14 @@
 
       <div class="modal-header">
         <h5 class="modal-title fw-bold">Request a Quote</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
 
       <div class="modal-body">
@@ -50,10 +59,10 @@
 
 
  <!-- Stats Section -->
-<section class="stats-section py-5 bg-light text-center" style="margin-top: 100px;">
+<section class="stats-section py-5 bg-light text-center">
  <div class="container-fluid px-4">
 
-    <div class="row g-8">
+  <div class="row">
       <div class="col-6 col-md-3">
         <div class="stat-box shadow-sm p-4 rounded">
           <h2 class="fw-bold mb-1 counter" data-target="500" style="color: #ffba00;">500</h2>
@@ -177,7 +186,7 @@
 
 
   <div class="d-flex justify-content-center align-items-center flex-wrap brand-logos position-relative">
-      <div class="top-brands-label position-absolute">
+      <div class="top-brands-label">
         <h5 style="color: white;">Top Sellers</h5>
       </div>
 
@@ -188,7 +197,7 @@
 
     <div
       class="carousel2-card"
-      *ngFor="let product of carouselProducts"
+      *ngFor="let product of carouselProductsLoop"
       (click)="openProduct(product)"
       style="cursor:pointer"
     >
@@ -670,57 +679,31 @@
   <div class="logo-container">
     <div class="logo-track">
 
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Dewalt' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653674/dewalt-logo-png_zdkbie.png" alt="Dewalt Logo">
-      </a>
+  <ng-container *ngFor="let brand of topBrands">
+    <a
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: brand.name }"
+    >
+      <img
+        [src]="brand.image"
+        [alt]="brand.name + ' Logo'"
+      />
+    </a>
+  </ng-container>
 
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Bosch' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653675/bosch_logo_nxyuvy.jpg" alt="Bosch Logo">
-      </a>
+  <ng-container *ngFor="let brand of topBrands">
+    <a
+      [routerLink]="['/pagination']"
+      [queryParams]="{ brand: brand.name }"
+    >
+      <img
+        [src]="brand.image"
+        [alt]="brand.name + ' Logo'"
+      />
+    </a>
+  </ng-container>
 
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Red Wing' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653696/red-wing-logo_vi6qz0.png" alt="Red Wing Logo">
-      </a>
-
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Maxmech' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653695/maxmech_logo.jpg2_ii5gnk.jpg" alt="Maxmech Logo">
-      </a>
-
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Karcher' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653675/karcher_logo_mx5nh8.png" alt="Karcher Logo">
-      </a>
-
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Makita' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653675/makita_logo_rmtl7y.png" alt="Makita Logo">
-      </a>
-
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Ingco' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653675/inggco_logo_uigxor.jpg" alt="Ingco Logo">
-      </a>
-
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Safety Jogger' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653700/safety_jogger_logo_t5zdlu.jpg" alt="Safety Jogger Logo">
-      </a>
-
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Total' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653708/total_logo_l6bimy.png" alt="Total Logo">
-      </a>
-
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: '3M' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653674/3mlogo_nmxw71.jpg" alt="3M Logo">
-      </a>
-
-      <!-- repeat first logo for slider loop -->
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'Dewalt' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653674/dewalt-logo-png_zdkbie.png" alt="Dewalt Logo">
-      </a>
-
-      <a [routerLink]="['/pagnation']" [queryParams]="{ brand: 'MSA Safety' }">
-        <img src="https://res.cloudinary.com/taus5tit/image/upload/v1786653696/MSA_safety_logo_i96rhh.png" alt="MSA Safety Logo">
-      </a>
-
-
-    </div>
+</div>
   </div>
 </div>
 

@@ -19,7 +19,7 @@ export const PPE_PRODUCTS: Product[] = [
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786430702/Astonic-Mart/Products/final-local-images/beta_earmuff_d7juyb.jpg'
+            'assets/img/hand gloves/welders_hand_glove__red.jpg',
         ],
 
         inStock: true,
@@ -66,7 +66,7 @@ export const PPE_PRODUCTS: Product[] = [
         colors: [
             'Navy Blue'
         ],
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786307604/Astonic-Mart/Products/hand%20gloves/mechanix_gloves.webp'],
+        images: ['assets/img/hand gloves/mechanix gloves.webp'],
 
 
         inStock: true,
@@ -96,7 +96,7 @@ export const PPE_PRODUCTS: Product[] = [
         group: 'safety ppe',
         brand: 'Ansell',
         price: 42000,
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786332774/Astonic-Mart/Products/kong-original-impact-gloves.jpg'],
+        images: ['assets/img/kong-original-impact-gloves.jpg'],
 
         inStock: true,
         jumiaLink: '',
@@ -118,9 +118,9 @@ export const PPE_PRODUCTS: Product[] = [
         discountPrice: 7500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307674/Astonic-Mart/Products/hand%20gloves/Safety_Jogger_SHIELD_4X43C_Cut_Resistant_Gloves-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307673/Astonic-Mart/Products/hand%20gloves/Safety_Jogger_SHIELD_4X43C_Cut_Resistant_Gloves.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307675/Astonic-Mart/Products/hand%20gloves/Safety_Jogger_SHIELD_4X43C_Cut_Resistant_Gloves-3.jpg'
+            'assets/img/hand gloves/Safety Jogger SHIELD 4X43C Cut Resistant Gloves-1.jpeg',
+            'assets/img/hand gloves/Safety Jogger SHIELD 4X43C Cut Resistant Gloves.webp',
+            'assets/img/hand gloves/Safety Jogger SHIELD 4X43C Cut Resistant Gloves-3.jpg'
         ],
 
         inStock: true,
@@ -192,9 +192,9 @@ export const PPE_PRODUCTS: Product[] = [
         price: 5800,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307643/Astonic-Mart/Products/hand%20gloves/rokk_safety_gloves.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307650/Astonic-Mart/Products/hand%20gloves/rokk_safety_gloves-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307657/Astonic-Mart/Products/hand%20gloves/rokk_safety_gloves-3.png'
+            'assets/img/hand gloves/rokk safety gloves.png',
+            'assets/img/hand gloves/rokk safety gloves-2.png',
+            'assets/img/hand gloves/rokk safety gloves-3.png'
         ],
 
 
@@ -230,14 +230,14 @@ export const PPE_PRODUCTS: Product[] = [
         brand: 'Ansell',
         price: 65000,
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307604/Astonic-Mart/Products/hand%20gloves/mesh_handgloves.jp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307605/Astonic-Mart/Products/hand%20gloves/mesh_handgloves.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307605/Astonic-Mart/Products/hand%20gloves/mesh_handgloves.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307605/Astonic-Mart/Products/hand%20gloves/mesh_handgloves.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307605/Astonic-Mart/Products/hand%20gloves/mesh_handgloves.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307605/Astonic-Mart/Products/hand%20gloves/mesh_handgloves.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307605/Astonic-Mart/Products/hand%20gloves/mesh_handgloves.jpg-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307605/Astonic-Mart/Products/hand%20gloves/mesh_handgloves.jpg-7.jpg'
+            'assets/img/hand gloves/mesh handgloves.jp-2.jpg',
+            'assets/img/hand gloves/mesh handgloves.jpg',
+            'assets/img/hand gloves/mesh handgloves.jpg-2.jpg',
+            'assets/img/hand gloves/mesh handgloves.jpg-3.jpg',
+            'assets/img/hand gloves/mesh handgloves.jpg-4.jpg',
+            'assets/img/hand gloves/mesh handgloves.jpg-5.jpg',
+            'assets/img/hand gloves/mesh handgloves.jpg-6.jpg',
+            'assets/img/hand gloves/mesh handgloves.jpg-7.jpg'
         ],
 
         inStock: true,
@@ -255,10 +255,10 @@ export const PPE_PRODUCTS: Product[] = [
         group: 'safety ppe',
         brand: 'Workman',
         price: 65000,
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786304308/Astonic-Mart/Products/belt/workman_harness_belt.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304308/Astonic-Mart/Products/belt/workman_harness_belt.webp2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304308/Astonic-Mart/Products/belt/workman_harness_belt.webp3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304308/Astonic-Mart/Products/belt/workman_harness_belt.webp4.jpg'
+        images: ['assets/img/belt/workman harness belt.jpg',
+            'assets/img/belt/workman harness belt.jpg2.jpg',
+            'assets/img/belt/workman harness belt.jpg3.jpg',
+            'assets/img/belt/workman harness belt.jpg4.jpg'
         ],
 
         inStock: true,
@@ -294,7 +294,7 @@ export const PPE_PRODUCTS: Product[] = [
         group: 'safety ppe',
         brand: 'American Steel',
         price: 85000,
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786332796/Astonic-Mart/Products/-American-Safety-Boot.jpg'],
+        images: ['assets/img/-American-Safety-Boot.jpg'],
 
 
         sizes: [40, 41, 42, 43, 44, 45, 46],
@@ -335,10 +335,10 @@ export const PPE_PRODUCTS: Product[] = [
         discountPrice: 80000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328696/Astonic-Mart/Products/safety%20joggers/Safety_Jogger_FLOW_S3_LOW.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328697/Astonic-Mart/Products/safety%20joggers/Safety_Jogger_FLOW_S3_LOW-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328697/Astonic-Mart/Products/safety%20joggers/Safety_Jogger_FLOW_S3_LOW-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328697/Astonic-Mart/Products/safety%20joggers/Safety_Jogger_FLOW_S3_LOW-4.webp'
+            'assets/img/safety joggers/Safety Jogger FLOW S3 LOW.webp',
+            'assets/img/safety joggers/Safety Jogger FLOW S3 LOW-2.webp',
+            'assets/img/safety joggers/Safety Jogger FLOW S3 LOW-3.webp',
+            'assets/img/safety joggers/Safety Jogger FLOW S3 LOW-4.webp'
         ],
         sizes: [40, 41, 42, 43, 44, 45, 46],
         inStock: true,
@@ -400,9 +400,9 @@ export const PPE_PRODUCTS: Product[] = [
         group: 'safety ppe',
         showSimilar: true,
         price: 95000,
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786328671/Astonic-Mart/Products/safety%20joggers/bestboy_safety_joggers.webp',
+        images: ['assets/img/safety joggers/bestboy safety joggers.webp',
 
-            '/https://res.cloudinary.com/taus5tit/image/upload/v1786328694/Astonic-Mart/Products/safety%20joggers/MODULO_S1PS_Low_Safety_jogger.jpg3.jpg'],
+            '/assets/img/safety joggers/MODULO S1PS Low Safety jogger.jpg3.jpg'],
 
         sizes: [40, 41, 42, 43, 44, 45, 46],
 
@@ -434,10 +434,10 @@ export const PPE_PRODUCTS: Product[] = [
         group: 'safety ppe',
         brand: 'Safety Jogger',
         price: 95000,
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786328691/Astonic-Mart/Products/safety%20joggers/MODULO_LEA_S3S_LOW_T.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328691/Astonic-Mart/Products/safety%20joggers/MODULO_LEA_S3S_LOW_T-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328691/Astonic-Mart/Products/safety%20joggers/MODULO_LEA_S3S_LOW_T-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328695/Astonic-Mart/Products/safety%20joggers/MODULO_LEA_S3S_LOW_T-4.webp'
+        images: ['assets/img/safety joggers/MODULO LEA S3S LOW T.webp',
+            'assets/img/safety joggers/MODULO LEA S3S LOW T-2.webp',
+            'assets/img/safety joggers/MODULO LEA S3S LOW T-3.webp',
+            'assets/img/safety joggers/MODULO LEA S3S LOW T-4.webp'
         ],
 
         inStock: false,
@@ -476,10 +476,10 @@ export const PPE_PRODUCTS: Product[] = [
         group: 'safety ppe',
         price: 105000,
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328659/Astonic-Mart/Products/safety%20joggers/baltor_safety_jogger.webp4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328659/Astonic-Mart/Products/safety%20joggers/baltor_safety_jogger.webp2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328659/Astonic-Mart/Products/safety%20joggers/baltor_safety_jogger.webp3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328659/Astonic-Mart/Products/safety%20joggers/baltor_safety_jogger.webp',
+            'assets/img/safety joggers/baltor safety jogger.webp4.jpg',
+            'assets/img/safety joggers/baltor safety jogger.webp2.webp',
+            'assets/img/safety joggers/baltor safety jogger.webp3.jpg',
+            'assets/img/safety joggers/baltor safety jogger.webp',
         ],
 
         inStock: true,
@@ -529,7 +529,7 @@ Items Included in the Package:
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328712/Astonic-Mart/Products/safety%20joggers/x1110-s3s-safety-shoe.jpg',
+            'assets/img/safety joggers/x1110-s3s-safety-shoe.jpg',
 
         ],
 
@@ -576,7 +576,7 @@ Items Included in the Package:
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328694/Astonic-Mart/Products/safety%20joggers/modulo_s3s_low_sj.jpg',
+            'assets/img/safety joggers/modulo s3s low sj.jpg',
         ],
 
         sizes: [40, 41, 42, 43, 44, 45, 46],
@@ -626,7 +626,7 @@ Items Included in the Package:
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328694/Astonic-Mart/Products/safety%20joggers/modulo_s3s_low_sj.jpg',
+            'assets/img/safety joggers/modulo s3s low sj.jpg',
         ],
 
         inStock: true,
@@ -673,7 +673,7 @@ Items Included in the Package:
         showSimilar: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328689/Astonic-Mart/Products/safety%20joggers/lights1ps_sj.webp',
+            'assets/img/safety joggers/lights1ps sj.webp',
         ],
 
 
@@ -719,7 +719,7 @@ Items Included in the Package:
         price: 72000,
         showSimilar: true,
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328689/Astonic-Mart/Products/safety%20joggers/lights1ps_sj.webp',
+            'assets/img/safety joggers/lights1ps sj.webp',
         ],
 
 
@@ -763,7 +763,7 @@ Items Included in the Package:
         group: 'safety ppe',
         brand: 'Safety Jogger',
         price: 110000,
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786328701/Astonic-Mart/Products/safety%20joggers/Safety-Jogger-ECOFITZ-S1P-ESD-Safety-Shoes-Black-1.webp'],
+        images: ['assets/img/safety joggers/Safety-Jogger-ECOFITZ-S1P-ESD-Safety-Shoes-Black-1.webp'],
 
 
         inStock: true,
@@ -801,9 +801,9 @@ Items Included in the Package:
         group: 'safety ppe',
         brand: 'Safety Jogger',
         price: 102000,
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786328660/Astonic-Mart/Products/safety%20joggers/aak_safety_jogger_ash.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328660/Astonic-Mart/Products/safety%20joggers/aak_safety_jogger_ash.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328660/Astonic-Mart/Products/safety%20joggers/aak_safety_jogger_ash.webp4.jpg'
+        images: ['assets/img/safety joggers/aak safety jogger ash.webp',
+            'assets/img/safety joggers/aak safety jogger ash.webp',
+            'assets/img/safety joggers/aak safety jogger ash.webp4.jpg'
 
         ],
         showSimilar: true,
@@ -846,7 +846,7 @@ Items Included in the Package:
         price: 125000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328724/Astonic-Mart/Products/safety%20joggers/yukon_safety_jogger.png2.png'
+            'assets/img/safety joggers/yukon safety jogger.png2.png'
         ],
 
         inStock: true,
@@ -891,11 +891,11 @@ Items Included in the Package:
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328608/Astonic-Mart/Products/safety%20eye%20google/Anti-Fog_Ventilated_Safety_Goggles-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328608/Astonic-Mart/Products/safety%20eye%20google/Anti-Fog_Ventilated_Safety_Goggles-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328612/Astonic-Mart/Products/safety%20eye%20google/Anti-Fog_Ventilated_Safety_Goggles-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328612/Astonic-Mart/Products/safety%20eye%20google/Anti-Fog_Ventilated_Safety_Goggles-5.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328608/Astonic-Mart/Products/safety%20eye%20google/Anti-Fog_Ventilated_Safety_Goggles.avif'
+            'assets/img/safety eye google/Anti-Fog Ventilated Safety Goggles-2.jpg',
+            'assets/img/safety eye google/Anti-Fog Ventilated Safety Goggles-3.jpeg',
+            'assets/img/safety eye google/Anti-Fog Ventilated Safety Goggles-4.jpeg',
+            'assets/img/safety eye google/Anti-Fog Ventilated Safety Goggles-5.avif',
+            'assets/img/safety eye google/Anti-Fog Ventilated Safety Goggles.avif'
         ],
 
         inStock: true,
@@ -943,9 +943,9 @@ Items Included in the Package:
         group: 'safety ppe',
         brand: 'Safety Jogger',
         price: 32000,
-        images: ['/https://res.cloudinary.com/taus5tit/image/upload/v1786328654/Astonic-Mart/Products/safety%20eye%20google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles-2.webp',
-            'shttps://res.cloudinary.com/taus5tit/image/upload/v1786328651/Astonic-Mart/Products/safety%20eye%20google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328651/Astonic-Mart/Products/safety%20eye%20google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles.webp-3.png'
+        images: ['/assets/img/safety eye google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles-2.webp',
+            'sassets/img/safety eye google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles.webp',
+            'assets/img/safety eye google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles.webp-3.png'
 
         ],
 
@@ -981,7 +981,7 @@ Items Included in the Package:
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328712/Astonic-Mart/Products/safety%20joggers/x1110-s3s-safety-shoe.jpg',
+            'assets/img/safety joggers/x1110-s3s-safety-shoe.jpg',
 
         ],
 
@@ -1026,9 +1026,9 @@ Items Included in the Package:
         group: 'safety ppe',
         brand: 'Generic',
         price: 145000,
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786306460/Astonic-Mart/Products/fall%20arresters/fall-arrester-15mm.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306452/Astonic-Mart/Products/fall%20arresters/15m_fall_arrester.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306458/Astonic-Mart/Products/fall%20arresters/15m_fall_arrester-2.png'
+        images: ['assets/img/fall arresters/fall-arrester-15mm.jpg',
+            'assets/img/fall arresters/15m fall arrester.png',
+            'assets/img/fall arresters/15m fall arrester-2.png'
 
         ],
 
@@ -1063,8 +1063,8 @@ Items Included in the Package:
         group: 'safety ppe',
         brand: 'Safety Jogger',
         price: 18000,
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786328654/Astonic-Mart/Products/safety%20eye%20google/TSAVO_safety_jogger_google.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328654/Astonic-Mart/Products/safety%20eye%20google/TSAVO_safety_jogger_google.webp2.webp'
+        images: ['assets/img/safety eye google/TSAVO safety jogger google.webp',
+            'assets/img/safety eye google/TSAVO safety jogger google.webp2.webp'
 
         ],
 
@@ -1099,9 +1099,9 @@ Items Included in the Package:
         brand: 'Safety Jogger',
         price: 25000,
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328656/Astonic-Mart/Products/safety%20eye%20google/VIRUNGA_SJ.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328656/Astonic-Mart/Products/safety%20eye%20google/VIRUNGA_SJ.webp3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328656/Astonic-Mart/Products/safety%20eye%20google/VIRUNGA_SJ.webp2.webp',
+            'assets/img/safety eye google/VIRUNGA SJ.webp',
+            'assets/img/safety eye google/VIRUNGA SJ.webp3.webp',
+            'assets/img/safety eye google/VIRUNGA SJ.webp2.webp',
 
         ],
 
@@ -1139,7 +1139,7 @@ Items Included in the Package:
         parentCategory: 'head protections',
         brand: 'Generic',
         price: 22000,
-        images: ['https://res.cloudinary.com/taus5tit/image/upload/v1786304530/Astonic-Mart/Products/bump%20caps/net_bump_capblue.webp'],
+        images: ['assets/img/bump caps/net bump cap(blue).webp'],
 
 
         inStock: true,
@@ -1179,10 +1179,10 @@ Items Included in the Package:
         price: 22000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306620/Astonic-Mart/Products/flashlights/1101_type_flashlight.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306620/Astonic-Mart/Products/flashlights/1101_type_flashlight.webp2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306620/Astonic-Mart/Products/flashlights/1101_type_flashlight.webp3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306620/Astonic-Mart/Products/flashlights/1101_type_flashlight.webp4.webp'
+            'assets/img/flashlights/1101 type flashlight.webp',
+            'assets/img/flashlights/1101 type flashlight.webp2.webp',
+            'assets/img/flashlights/1101 type flashlight.webp3.webp',
+            'assets/img/flashlights/1101 type flashlight.webp4.webp'
         ],
 
         inStock: true,
@@ -1225,7 +1225,7 @@ Items Included in the Package:
         price: 15000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311426/Astonic-Mart/Products/rainwears/pvc_gown_raincoatgreen.jpg',
+            'assets/img/rainwears/pvc gown raincoat(green).jpg',
         ],
 
         inStock: true,
@@ -1273,7 +1273,7 @@ Items Included in the Package:
         price: 25000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311425/Astonic-Mart/Products/rainwears/polyester_jacket_and_trouser_raincoat.avif',
+            'assets/img/rainwears/polyester jacket and trouser raincoat.avif',
         ],
 
         inStock: true,
@@ -1317,7 +1317,7 @@ Items Included in the Package:
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311440/Astonic-Mart/Products/rainwears/trucker_safety_rainboot.webp',
+            'assets/img/rainwears/trucker safety rainboot.webp',
         ],
 
         inStock: true,
@@ -1361,7 +1361,7 @@ Items Included in the Package:
         price: 42000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311416/Astonic-Mart/Products/rainwears/hercules_SJ_rainboot.webp',
+            'assets/img/rainwears/hercules SJ rainboot.webp',
         ],
 
         inStock: true,
@@ -1408,7 +1408,7 @@ Items Included in the Package:
         price: 950000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306743/Astonic-Mart/Products/gas%20detectors/ALTAIR5XMultigasDetector.avif',
+            'assets/img/gas detectors/ALTAIR5XMultigasDetector.avif',
         ],
 
         inStock: true,
@@ -1455,7 +1455,7 @@ Items Included in the Package:
         price: 650000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306764/Astonic-Mart/Products/gas%20detectors/MSA_Multi-Gas_Detector_MSA_Alstair_4X.jpg',
+            'assets/img/gas detectors/MSA_Multi-Gas_Detector_MSA_Alstair_4X.jpg',
         ],
 
         inStock: true,
@@ -1505,7 +1505,7 @@ Items Included in the Package:
         price: 420000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306443/Astonic-Mart/Products/eye%20wash%20station/emergency_eye_wash_station_RYFH004.jpg'
+            'assets/img/eye wash station/emergency eye wash station RYFH004.jpeg'
         ],
 
         inStock: true,
@@ -1557,7 +1557,7 @@ Items Included in the Package:
         price: 350000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306445/Astonic-Mart/Products/eye%20wash%20station/emergency_eye_wash_station.jpg2.webp',
+            'assets/img/eye wash station/emergency eye wash station.jpg2.webp',
         ],
 
         inStock: true,
@@ -1601,7 +1601,7 @@ Items Included in the Package:
         price: 220000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306448/Astonic-Mart/Products/eye%20wash%20station/portable_eye_wash_station_8gallon.webp3.jpg',
+            'assets/img/eye wash station/portable eye wash station 8gallon.webp3.jpg',
         ],
 
         inStock: true,
@@ -1647,7 +1647,7 @@ Items Included in the Package:
         price: 75000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329034/Astonic-Mart/Products/security%20gears/garrett-super-scanner-v-metal-detector_1.jpg',
+            'assets/img/security gears/garrett-super-scanner-v-metal-detector (1).jpg',
         ],
 
         inStock: true,
@@ -1695,7 +1695,7 @@ Items Included in the Package:
         price: 180000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429706/Astonic-Mart/Products/remaining-local-images/m9xgml6udamffbc0juuv.webp'
+            'assets/img/stanchions/Rope Type Stanchion Crowd Queue Control Barrier Post - 4 Poles + 2 Ropes.webp',
         ],
 
         inStock: true,
@@ -1746,7 +1746,7 @@ Items Included in the Package:
         price: 250,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306020/Astonic-Mart/Products/disposables/tyvek-disposable-coveralls.jpg'
+            'assets/img/disposables/tyvek-disposable-coveralls.jpg'
         ],
 
 
@@ -1797,7 +1797,7 @@ Items Included in the Package:
         price: 22000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305641/Astonic-Mart/Products/coveralls/safety_coveralls.webp',
+            'assets/img/coveralls/safety coveralls.webp',
         ],
 
         inStock: true,
@@ -1853,7 +1853,7 @@ Items Included in the Package:
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305619/Astonic-Mart/Products/coveralls/dickies_fireretardent_coverall.webp',
+            'assets/img/coveralls/dickies fireretardent coverall.webp',
         ],
 
         inStock: true,
@@ -1909,7 +1909,7 @@ Items Included in the Package:
         price: 15000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311497/Astonic-Mart/Products/reflective%20jackets/lemon_reflective_jacket.webp',
+            'assets/img/reflective jackets/lemon reflective jacket.webp',
         ],
 
         inStock: true,
@@ -1963,7 +1963,7 @@ Items Included in the Package:
         price: 12000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308555/Astonic-Mart/Products/lab%20coats/lab_coatswhite.jpg3.jpg',
+            'assets/img/lab coats/lab coats(white.jpg3.jpg',
         ],
 
         inStock: true,
@@ -2014,7 +2014,7 @@ Items Included in the Package:
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305619/Astonic-Mart/Products/coveralls/dickies_fireretardent_coverall.webp',
+            'assets/img/coveralls/dickies fireretardent coverall.webp',
         ],
 
         inStock: true,
@@ -2071,7 +2071,7 @@ Items Included in the Package:
         price: 95000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329339/Astonic-Mart/Products/spill%20kits/120l_spill_kits.jpg'
+            'assets/img/spill kits/120l spill kits.jpg'
         ],
 
         inStock: true,
@@ -2109,7 +2109,7 @@ Items Included in the Package:
         price: 28000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306587/Astonic-Mart/Products/first%20aids/first_aid_green_50_people.jpg'
+            'assets/img/first aids/first aid green 50 people.jpg'
         ],
 
         inStock: true,
@@ -2147,7 +2147,7 @@ Items Included in the Package:
         price: 32000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309487/Astonic-Mart/Products/nose%20mask/3m-63000-half-nose-mask.jpg'
+            'assets/img/nose mask/3m-63000-half--nose-mask.jpg'
         ],
 
         inStock: true,
@@ -2188,9 +2188,9 @@ Items Included in the Package:
         price: 28000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306401/Astonic-Mart/Products/earmuffs/peltor_105_earmuff.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306403/Astonic-Mart/Products/earmuffs/peltor_105_earmuff.jpg2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306401/Astonic-Mart/Products/earmuffs/peltor_105_earmuff.jpg3.jpg'
+            'assets/img/earmuffs/peltor 105 earmuff.jpg',
+            'assets/img/earmuffs/peltor 105 earmuff.jpg2.jpg',
+            'assets/img/earmuffs/peltor 105 earmuff.jpg3.jpg'
         ],
 
         inStock: true,
@@ -2230,7 +2230,7 @@ Items Included in the Package:
         price: 35000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306405/Astonic-Mart/Products/earplugs/3m_ultra_fit_earplugs.jpg'
+            'assets/img/earplugs/3m ultra fit earplugs.jpg'
         ],
 
         inStock: true,
@@ -2271,7 +2271,7 @@ Items Included in the Package:
         price: 89000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306461/Astonic-Mart/Products/fall%20arresters/Toyo-3m-retractable-all-arrestor.jpg'
+            'assets/img/fall arresters/Toyo-3m-retractable-all-arrestor.jpg'
         ],
 
         inStock: true,
@@ -2310,7 +2310,7 @@ Items Included in the Package:
         price: 9500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307594/Astonic-Mart/Products/hand%20gloves/ECOPROCUT-GRY_safety_jogger_gloves.webp',
+            'assets/img/hand gloves/ECOPROCUT-GRY safety jogger gloves.webp',
 
         ],
 
@@ -2359,7 +2359,8 @@ Items Included in the Package:
         price: 132000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328692/Astonic-Mart/Products/safety%20joggers/MODULO_LE_S3S_LOW_TG.webp',
+            'assets/img/safety joggers/MODULO LE S3S LOW TG.webp',
+            'assets/img/safety joggers/Safety Jogger MODULO LE S3S LOW TG 2.webp'
         ],
 
         inStock: true,
@@ -2411,7 +2412,7 @@ Items Included in the Package:
         price: 55000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307722/Astonic-Mart/Products/helmets%20and%20faceshield/1TOTAL_TSP9103-Auto-Darkening-Welding-Helmet.jpg',
+            'assets/img/helmets and faceshield/1TOTAL TSP9103-Auto-Darkening-Welding-Helmet.jpg',
         ],
 
         inStock: true,
@@ -2465,7 +2466,7 @@ Items Included in the Package:
         price: 26000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307723/Astonic-Mart/Products/helmets%20and%20faceshield/AJUSCO_CHINSTRAP_safety_jogger_helmets.webp',
+            'assets/img/helmets and faceshield/AJUSCO CHINSTRAP safety jogger helmets.webp',
         ],
 
         inStock: true,
@@ -2514,12 +2515,12 @@ Items Included in the Package:
         price: 240000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306529/Astonic-Mart/Products/fire%20wears/aluminized_fire_suit.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306532/Astonic-Mart/Products/fire%20wears/aluminized_fire_suit-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306534/Astonic-Mart/Products/fire%20wears/aluminized_fire_suit-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306539/Astonic-Mart/Products/fire%20wears/aluminized_fire_suit-7.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306536/Astonic-Mart/Products/fire%20wears/aluminized_fire_suit-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306538/Astonic-Mart/Products/fire%20wears/aluminized_fire_suit-6.jpg'
+            'assets/img/fire wears/aluminized fire suit.avif',
+            'assets/img/fire wears/aluminized fire suit-2.jpg',
+            'assets/img/fire wears/aluminized fire suit-3.jpg',
+            'assets/img/fire wears/aluminized fire suit-7.avif',
+            'assets/img/fire wears/aluminized fire suit-5.jpg',
+            'assets/img/fire wears/aluminized fire suit-6.jpg'
         ],
 
         inStock: true,
@@ -2566,11 +2567,11 @@ Items Included in the Package:
         price: 270000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306550/Astonic-Mart/Products/fire%20wears/fireman_suit.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306557/Astonic-Mart/Products/fire%20wears/fireman_suit-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306559/Astonic-Mart/Products/fire%20wears/fireman_suit-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306560/Astonic-Mart/Products/fire%20wears/fireman_suit-4.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306562/Astonic-Mart/Products/fire%20wears/fireman_suit-5.webp'
+            'assets/img/fire wears/fireman suit.jpg',
+            'assets/img/fire wears/fireman suit-2.jpg',
+            'assets/img/fire wears/fireman suit-3.jpg',
+            'assets/img/fire wears/fireman suit-4.avif',
+            'assets/img/fire wears/fireman suit-5.webp'
         ],
 
         inStock: true,
@@ -2614,9 +2615,9 @@ Items Included in the Package:
         price: 58000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304764/Astonic-Mart/Products/chemical%20wears/chemical_suit.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304766/Astonic-Mart/Products/chemical%20wears/chemical_suit-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304765/Astonic-Mart/Products/chemical%20wears/chemical_suit-2.jpg'
+            'assets/img/chemical wears/chemical suit.avif',
+            'assets/img/chemical wears/chemical suit-3.jpeg',
+            'assets/img/chemical wears/chemical suit-2.jpeg'
         ],
 
         inStock: true,
@@ -2663,7 +2664,7 @@ Items Included in the Package:
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307724/Astonic-Mart/Products/helmets%20and%20faceshield/face_sheilds.jpg',
+            'assets/img/helmets and faceshield/face sheilds.jpg',
         ],
 
         inStock: true,
@@ -2709,7 +2710,7 @@ Items Included in the Package:
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330195/Astonic-Mart/Products/umbrella/Large_umbrella_black-24_stroke.jpg',
+            'assets/img/umbrella/Large umbrella black-24 stroke.jpg',
         ],
 
         inStock: true,
@@ -2754,7 +2755,7 @@ Items Included in the Package:
         price: 12500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311503/Astonic-Mart/Products/reflective%20jackets/REFLECTIVE_SAFETY_VEST_FN_500.jpg',
+            'assets/img/reflective jackets/REFLECTIVE SAFETY VEST FN 500.jpg',
         ],
 
         inStock: true,
@@ -2799,7 +2800,7 @@ Items Included in the Package:
         price: 28500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308793/Astonic-Mart/Products/life%20saving%20eq/work_vest.jpg',
+            'assets/img/life saving eq/work vest.jpg',
         ],
 
         inStock: true,
@@ -2843,7 +2844,8 @@ Items Included in the Package:
         price: 78000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328696/Astonic-Mart/Products/safety%20joggers/Safety_Jogger_cardo_S1P_esd_src_Safety_Shoe.webp',
+            'assets/img/safety joggers/Safety Jogger cardo S1P esd src Safety Shoe.webp',
+            'assets/img/safety joggers/cador safety jogger 2.jpg'
         ],
 
         inStock: true,
@@ -2886,7 +2888,8 @@ Items Included in the Package:
         price: 98500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328676/Astonic-Mart/Products/safety%20joggers/FREEDOM_S1PS_LOW_S1_PS.webp',
+            'assets/img/safety joggers/FREEDOM S1PS LOW S1 PS.webp',
+            'assets/img/safety joggers/Safety Jogger FREEDOM S1PS LOW 2.webp'
         ],
 
         inStock: true,
@@ -2931,10 +2934,10 @@ Items Included in the Package:
         price: 108000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328676/Astonic-Mart/Products/safety%20joggers/FREEDOM_S1PS_MID_S1_PS.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328681/Astonic-Mart/Products/safety%20joggers/FREEDOM_S1PS_MID_S1_PS-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328676/Astonic-Mart/Products/safety%20joggers/FREEDOM_S1PS_MID_S1_PS-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328677/Astonic-Mart/Products/safety%20joggers/FREEDOM_S1PS_MID_S1_PS-3.webp'
+            'assets/img/safety joggers/FREEDOM S1PS MID S1 PS.webp',
+            'assets/img/safety joggers/FREEDOM S1PS MID S1 PS-4.webp',
+            'assets/img/safety joggers/FREEDOM S1PS MID S1 PS-2.webp',
+            'assets/img/safety joggers/FREEDOM S1PS MID S1 PS-3.webp'
         ],
 
         inStock: true,
@@ -2980,7 +2983,8 @@ Items Included in the Package:
         price: 142000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328691/Astonic-Mart/Products/safety%20joggers/MODULO_LE_S3S_MID_TG_S3S-3.webp',
+            'assets/img/safety joggers/MODULO LE S3S MID TG S3S-3.webp',
+            'assets/img/safety joggers/Safety Jogger MODULO LE S3S MID TG 2.webp'
         ],
 
         inStock: true,
@@ -3029,10 +3033,10 @@ Items Included in the Package:
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328686/Astonic-Mart/Products/safety%20joggers/LIGERO2_S1P_LOW_TLS_S1_P.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328684/Astonic-Mart/Products/safety%20joggers/LIGERO2_S1P_LOW_TLS_S1_P-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328684/Astonic-Mart/Products/safety%20joggers/LIGERO2_S1P_LOW_TLS_S1_P-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328684/Astonic-Mart/Products/safety%20joggers/LIGERO2_S1P_LOW_TLS_S1_P-4.webp'
+            'assets/img/safety joggers/LIGERO2 S1P LOW TLS S1 P.webp',
+            'assets/img/safety joggers/LIGERO2 S1P LOW TLS S1 P-2.webp',
+            'assets/img/safety joggers/LIGERO2 S1P LOW TLS S1 P-3.webp',
+            'assets/img/safety joggers/LIGERO2 S1P LOW TLS S1 P-4.webp'
 
         ],
 
@@ -3082,10 +3086,10 @@ Items Included in the Package:
         price: 78000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328701/Astonic-Mart/Products/safety%20joggers/Safety-Jogger-ECOFITZ-S1P-ESD-Safety-Shoes-Black-1.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328702/Astonic-Mart/Products/safety%20joggers/Safety-Jogger-ECOFITZ-S1P-ESD-Safety-Shoes-Black-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328701/Astonic-Mart/Products/safety%20joggers/Safety-Jogger-ECOFITZ-S1P-ESD.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328704/Astonic-Mart/Products/safety%20joggers/Safety-Jogger-ECOFITZ-S1P-ESD-Safety-Shoes-Black-3.webp'
+            'assets/img/safety joggers/Safety-Jogger-ECOFITZ-S1P-ESD-Safety-Shoes-Black-1.webp',
+            'assets/img/safety joggers/Safety-Jogger-ECOFITZ-S1P-ESD-Safety-Shoes-Black-2.webp',
+            'assets/img/safety joggers/Safety-Jogger-ECOFITZ-S1P-ESD.webp',
+            'assets/img/safety joggers/Safety-Jogger-ECOFITZ-S1P-ESD-Safety-Shoes-Black-3.webp'
         ],
         sizes: [40, 41, 42, 43, 44, 45, 46],
         inStock: true,
@@ -3132,7 +3136,8 @@ Items Included in the Package:
         price: 118000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328674/Astonic-Mart/Products/safety%20joggers/DAKAR_EW_S3_LEATHER_S3-2.webp',
+            'assets/img/safety joggers/DAKAR EW S3 LEATHER S3-2.webp',
+            'assets/img/safety joggers/Safety Jogger DAKAR EW S3 Leather 2.webp'
         ],
 
         sizes: [40, 41, 42, 43, 44, 45, 46],
@@ -3188,7 +3193,8 @@ Items Included in the Package:
         price: 87000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328680/Astonic-Mart/Products/safety%20joggers/JACKMAN_S3.webp',
+            'assets/img/safety joggers/JACKMAN S3.webp',
+            'assets/img/safety joggers/Safety Jogger JACKMAN S3 Leather 2.webp'
         ],
 
 
@@ -3245,9 +3251,9 @@ Items Included in the Package:
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329475/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_black_and_yellow_reflective_tape.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_black_and_yellow_reflective_tape-2.jpg-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_black_and_yellow_reflective_tape-2.jpg'
+            'assets/img/tapes and adhesives/2 inch black and yellow reflective tape.jpeg',
+            'assets/img/tapes and adhesives/2 inch black and yellow reflective tape-2.jpeg-3.avif',
+            'assets/img/tapes and adhesives/2 inch black and yellow reflective tape-2.jpeg'
         ],
 
 
@@ -3297,9 +3303,9 @@ Items Included in the Package:
         discountPrice: 9500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329466/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_50m_adhesives_tapes_yellow_and_black.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_50m_adhesives_tapes_yellow_and_black-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_50m_adhesives_tapes_yellow_and_black-3.webp'
+            'assets/img/tapes and adhesives/2 inch  by 50m adhesives tapes yellow and black.jpg',
+            'assets/img/tapes and adhesives/2 inch by 50m adhesives tapes yellow and black-2.jpeg',
+            'assets/img/tapes and adhesives/2 inch by 50m adhesives tapes yellow and black-3.webp'
         ],
 
         videos: [
@@ -3358,9 +3364,9 @@ Items Included in the Package:
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329575/Astonic-Mart/Products/tapes%20and%20adhesives/Watch_Your_Anti_Slip_Tape-2_inch_by_10m.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329575/Astonic-Mart/Products/tapes%20and%20adhesives/Watch_Your_Anti_Slip_Tape-2_inch_by_10m.jpg-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329575/Astonic-Mart/Products/tapes%20and%20adhesives/Watch_Your_Anti_Slip_Tape-2_inch_by_10m.jpg-4.jpeg'
+            'assets/img/tapes and adhesives/Watch Your Anti Slip Tape-2 inch by 10m.jpg',
+            'assets/img/tapes and adhesives/Watch Your Anti Slip Tape-2 inch by 10m.jpg-2.webp',
+            'assets/img/tapes and adhesives/Watch Your Anti Slip Tape-2 inch by 10m.jpg-4.jpeg'
         ],
 
         videos: [
@@ -3418,10 +3424,10 @@ Items Included in the Package:
         discountPrice: 12500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329475/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_50m_Silver_Safety_Reflective_adhesive_Warning_Tape.webp-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329475/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_50m_Silver_Safety_Reflective_adhesive_Warning_Tape.webp-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329475/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_50m_Silver_Safety_Reflective_adhesive_Warning_Tape.webp-2.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329475/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_50m_Silver_Safety_Reflective_adhesive_Warning_Tape.webp'
+            'assets/img/tapes and adhesives/2 inch 50m Silver Safety Reflective adhesive Warning Tape.webp-4.jpg',
+            'assets/img/tapes and adhesives/2 inch 50m Silver Safety Reflective adhesive Warning Tape.webp-3.jpg',
+            'assets/img/tapes and adhesives/2 inch 50m Silver Safety Reflective adhesive Warning Tape.webp-2.jpeg',
+            'assets/img/tapes and adhesives/2 inch 50m Silver Safety Reflective adhesive Warning Tape.webp'
         ],
 
         jumiaLink: '',
@@ -3489,9 +3495,9 @@ Items Included in the Package:
         discountPrice: 15000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329387/Astonic-Mart/Products/stanchions/velvet_stanction_rope.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329387/Astonic-Mart/Products/stanchions/velvet_stanction_rope-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329387/Astonic-Mart/Products/stanchions/velvet_stanction_rope-2.jpg'
+            'assets/img/stanchions/velvet stanction rope.jpg',
+            'assets/img/stanchions/velvet stanction rope-3.jpg',
+            'assets/img/stanchions/velvet stanction rope-2.jpg'
         ],
 
         videos: [
@@ -3563,10 +3569,10 @@ Items Included in the Package:
         discountPrice: 86000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329384/Astonic-Mart/Products/stanchions/stanchions-queue-stand_automatic-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329387/Astonic-Mart/Products/stanchions/stanchions-queue-stand_automatic-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329387/Astonic-Mart/Products/stanchions/stanchions-queue-stand_automatic-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329384/Astonic-Mart/Products/stanchions/stanchions-queue-stand_automatic-2.jpg'
+            'assets/img/stanchions/stanchions-queue-stand automatic-2.jpg',
+            'assets/img/stanchions/stanchions-queue-stand automatic-4.jpg',
+            'assets/img/stanchions/stanchions-queue-stand automatic-3.avif',
+            'assets/img/stanchions/stanchions-queue-stand automatic-2.jpg'
         ],
 
         videos: [
@@ -3643,10 +3649,10 @@ Items Included in the Package:
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307787/Astonic-Mart/Products/helmets%20and%20faceshield/welding_helmets-manual-5.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307780/Astonic-Mart/Products/helmets%20and%20faceshield/welding_helmets-manual.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307782/Astonic-Mart/Products/helmets%20and%20faceshield/welding_helmets-manual-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307781/Astonic-Mart/Products/helmets%20and%20faceshield/welding_helmets-manual-2.jpg'
+            'assets/img/helmets and faceshield/welding helmets-manual-5.png',
+            'assets/img/helmets and faceshield/welding helmets-manual.jpg',
+            'assets/img/helmets and faceshield/welding helmets-manual-4.jpg',
+            'assets/img/helmets and faceshield/welding helmets-manual-2.jpg'
         ],
 
         videos: [
@@ -3724,9 +3730,9 @@ Items Included in the Package:
         discountPrice: 16000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330145/Astonic-Mart/Products/umbrella/68_Inch_Black-and-Blue-Double-Vented-umbrella.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330145/Astonic-Mart/Products/umbrella/68_Inch_Black-and-Blue-Double-Vented-umbrella.jpg-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330145/Astonic-Mart/Products/umbrella/68_Inch_Black-and-Blue-Double-Vented-umbrella.jpg-3.webp'
+            'assets/img/umbrella/68 Inch Black-and-Blue-Double-Vented-umbrella.jpg',
+            'assets/img/umbrella/68 Inch Black-and-Blue-Double-Vented-umbrella.jpg-2.webp',
+            'assets/img/umbrella/68 Inch Black-and-Blue-Double-Vented-umbrella.jpg-3.webp'
         ],
 
         videos: [
@@ -3800,10 +3806,10 @@ Items Included in the Package:
         discountPrice: 55000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307760/Astonic-Mart/Products/helmets%20and%20faceshield/tiger_master_leather_face_welding_mask.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307760/Astonic-Mart/Products/helmets%20and%20faceshield/tiger_master_leather_face_welding_mask.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307760/Astonic-Mart/Products/helmets%20and%20faceshield/tiger_master_leather_face_welding_mask.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307760/Astonic-Mart/Products/helmets%20and%20faceshield/tiger_master_leather_face_welding_mask.jpg-4.jpg'
+            'assets/img/helmets and faceshield/tiger master leather face welding mask.jpg',
+            'assets/img/helmets and faceshield/tiger master leather face welding mask.jpg-3.webp',
+            'assets/img/helmets and faceshield/tiger master leather face welding mask.jpg-2.jpg',
+            'assets/img/helmets and faceshield/tiger master leather face welding mask.jpg-4.jpg'
         ],
 
         videos: [
@@ -3879,8 +3885,8 @@ Items Included in the Package:
         discountPrice: 150000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328874/Astonic-Mart/Products/safety-boots/REDWINGS-ANKLE-BOOT-22455.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328876/Astonic-Mart/Products/safety-boots/REDWINGS-ANKLE-BOOT-22455-2.jpg'
+            'assets/img/safety-boots/REDWINGS-ANKLE-BOOT-22455.jpeg',
+            'assets/img/safety-boots/REDWINGS-ANKLE-BOOT-22455-2.jpeg'
 
         ],
 
@@ -3968,10 +3974,10 @@ Items Included in the Package:
         discountPrice: 65000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329550/Astonic-Mart/Products/tapes%20and%20adhesives/glow_in_the_dark_adhesives_tapes_2by30m.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329550/Astonic-Mart/Products/tapes%20and%20adhesives/glow_in_the_dark_adhesives_tapes_2by30m.webp-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329550/Astonic-Mart/Products/tapes%20and%20adhesives/glow_in_the_dark_adhesives_tapes_2by30m.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329550/Astonic-Mart/Products/tapes%20and%20adhesives/glow_in_the_dark_adhesives_tapes_2by30m.webp-4.avif'
+            'assets/img/tapes and adhesives/glow in the dark adhesives tapes 2by30m.webp',
+            'assets/img/tapes and adhesives/glow in the dark adhesives tapes 2by30m.webp-2.avif',
+            'assets/img/tapes and adhesives/glow in the dark adhesives tapes 2by30m.webp-3.webp',
+            'assets/img/tapes and adhesives/glow in the dark adhesives tapes 2by30m.webp-4.avif'
         ],
 
         videos: [
@@ -4044,10 +4050,10 @@ Items Included in the Package:
         discountPrice: 65000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329550/Astonic-Mart/Products/tapes%20and%20adhesives/glow_in_the_dark_adhesives_tapes_2by30m.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329550/Astonic-Mart/Products/tapes%20and%20adhesives/glow_in_the_dark_adhesives_tapes_2by30m.webp-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329550/Astonic-Mart/Products/tapes%20and%20adhesives/glow_in_the_dark_adhesives_tapes_2by30m.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329550/Astonic-Mart/Products/tapes%20and%20adhesives/glow_in_the_dark_adhesives_tapes_2by30m.webp-4.avif'
+            'assets/img/tapes and adhesives/glow in the dark adhesives tapes 2by30m.webp',
+            'assets/img/tapes and adhesives/glow in the dark adhesives tapes 2by30m.webp-2.avif',
+            'assets/img/tapes and adhesives/glow in the dark adhesives tapes 2by30m.webp-3.webp',
+            'assets/img/tapes and adhesives/glow in the dark adhesives tapes 2by30m.webp-4.avif'
         ],
 
         videos: [
@@ -4117,10 +4123,10 @@ Items Included in the Package:
         discountPrice: 76000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328669/Astonic-Mart/Products/safety%20joggers/CADOR_S3_LOW_safety_jogger.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328669/Astonic-Mart/Products/safety%20joggers/CADOR_S3_LOW_safety_jogger.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328669/Astonic-Mart/Products/safety%20joggers/CADOR_S3_LOW_safety_jogger.webp-3.webp',
-            ' nmhttps://res.cloudinary.com/taus5tit/image/upload/v1786328669/Astonic-Mart/Products/safety%20joggers/CADOR_S3_LOW_safety_jogger.webp-4.webp'
+            'assets/img/safety joggers/CADOR S3 LOW safety jogger.webp',
+            'assets/img/safety joggers/CADOR S3 LOW safety jogger.webp-2.webp',
+            'assets/img/safety joggers/CADOR S3 LOW safety jogger.webp-3.webp',
+            ' nmassets/img/safety joggers/CADOR S3 LOW safety jogger.webp-4.webp'
 
         ],
 
@@ -4208,10 +4214,10 @@ Items Included in the Package:
         discountPrice: 24000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307621/Astonic-Mart/Products/hand%20gloves/North_by_Honeywell_51_by_7147_Grip_N_Hot_Mill_Nitrile_Coated_Gloves%2C.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307622/Astonic-Mart/Products/hand%20gloves/North_by_Honeywell_51_by_7147_Grip_N_Hot_Mill_Nitrile_Coated_Gloves-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307623/Astonic-Mart/Products/hand%20gloves/North_by_Honeywell_51_by_7147_Grip_N_Hot_Mill_Nitrile_Coated_Gloves-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307624/Astonic-Mart/Products/hand%20gloves/North_by_Honeywell_51_by_7147_Grip_N_Hot_Mill_Nitrile_Coated_Gloves-4.webp'
+            'assets/img/hand gloves/North by Honeywell 51 by 7147 Grip N Hot Mill Nitrile Coated Gloves,.jpeg',
+            'assets/img/hand gloves/North by Honeywell 51 by 7147 Grip N Hot Mill Nitrile Coated Gloves-2.jpeg',
+            'assets/img/hand gloves/North by Honeywell 51 by 7147 Grip N Hot Mill Nitrile Coated Gloves-3.png',
+            'assets/img/hand gloves/North by Honeywell 51 by 7147 Grip N Hot Mill Nitrile Coated Gloves-4.png'
         ],
 
         videos: [
@@ -4288,7 +4294,7 @@ Items Included in the Package:
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307585/Astonic-Mart/Products/hand%20gloves/cut-heat-resistant-glove.jpg',
+            'assets/img/hand gloves/cut-heat-resistant-glove.jpg',
         ],
 
         videos: [
@@ -4361,7 +4367,7 @@ Items Included in the Package:
         discountPrice: 40000,
         sizes: [40, 41, 42, 43, 44, 45, 46],
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328760/Astonic-Mart/Products/safety-boots/beta_safety_boot.jpg',
+            'assets/img/safety-boots/beta safety boot.jpg',
         ],
 
         videos: [
@@ -4446,10 +4452,10 @@ Items Included in the Package:
         discountPrice: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328763/Astonic-Mart/Products/safety-boots/ECODEMPO_S3S_LOW_sj.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328763/Astonic-Mart/Products/safety-boots/ECODEMPO_S3S_LOW_sj.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328768/Astonic-Mart/Products/safety-boots/ECODEMPO_S3S_LOW_sj-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328768/Astonic-Mart/Products/safety-boots/ECODEMPO_S3S_LOW_sj-4.webp'
+            'assets/img/safety-boots/ECODEMPO S3S LOW sj.webp',
+            'assets/img/safety-boots/ECODEMPO S3S LOW sj.webp-2.webp',
+            'assets/img/safety-boots/ECODEMPO S3S LOW sj-3.webp',
+            'assets/img/safety-boots/ECODEMPO S3S LOW sj-4.webp'
         ],
 
         videos: [
@@ -4531,8 +4537,8 @@ Items Included in the Package:
         price: 28000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307573/Astonic-Mart/Products/hand%20gloves/11kva_electrical_gloves.webp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307573/Astonic-Mart/Products/hand%20gloves/11kva_electrical_gloves.webp'
+            'assets/img/hand gloves/11kva electrical gloves.webp-2.jpg',
+            'assets/img/hand gloves/11kva electrical gloves.webp'
         ],
 
         inStock: true,
@@ -4585,8 +4591,8 @@ Items Included in the Package:
         price: 38000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307575/Astonic-Mart/Products/hand%20gloves/33kva_electrical_gloves.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307575/Astonic-Mart/Products/hand%20gloves/33kva_electrical_gloves.jpg-2.jpg'
+            'assets/img/hand gloves/33kva electrical gloves.jpg',
+            'assets/img/hand gloves/33kva electrical gloves.jpg-2.jpg'
         ],
 
         inStock: true,
@@ -4640,12 +4646,12 @@ Items Included in the Package:
         price: 8500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329541/Astonic-Mart/Products/tapes%20and%20adhesives/fiberglass_joint_mesh-tape.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329541/Astonic-Mart/Products/tapes%20and%20adhesives/fiberglass_joint_mesh-tape.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329541/Astonic-Mart/Products/tapes%20and%20adhesives/fiberglass_joint_mesh-tape.jpg-2.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329541/Astonic-Mart/Products/tapes%20and%20adhesives/fiberglass_joint_mesh-tape.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329541/Astonic-Mart/Products/tapes%20and%20adhesives/fiberglass_joint_mesh-tape.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329541/Astonic-Mart/Products/tapes%20and%20adhesives/fiberglass_joint_mesh-tape.jpg-6.jpg'
+            'assets/img/tapes and adhesives/fiberglass joint mesh-tape.jpg',
+            'assets/img/tapes and adhesives/fiberglass joint mesh-tape.jpg-2.jpg',
+            'assets/img/tapes and adhesives/fiberglass joint mesh-tape.jpg-2.jpg-3.webp',
+            'assets/img/tapes and adhesives/fiberglass joint mesh-tape.jpg-4.jpg',
+            'assets/img/tapes and adhesives/fiberglass joint mesh-tape.jpg-5.jpg',
+            'assets/img/tapes and adhesives/fiberglass joint mesh-tape.jpg-6.jpg'
         ],
 
         inStock: true,
@@ -4685,11 +4691,11 @@ Lightweight and durable construction
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_55m_duct_tape.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_55m_duct_tape.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_55m_duct_tape.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_55m_duct_tape.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329480/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_by_55m_duct_tape.jpg-5.jpg'
+            'assets/img/tapes and adhesives/2 inch by 55m duct tape.jpg',
+            'assets/img/tapes and adhesives/2 inch by 55m duct tape.jpg-2.jpg',
+            'assets/img/tapes and adhesives/2 inch by 55m duct tape.jpg-3.jpg',
+            'assets/img/tapes and adhesives/2 inch by 55m duct tape.jpg-4.jpg',
+            'assets/img/tapes and adhesives/2 inch by 55m duct tape.jpg-5.jpg'
         ],
 
         inStock: true,
@@ -4733,10 +4739,10 @@ Heavy-duty multipurpose performance`
         price: 35000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328879/Astonic-Mart/Products/safety-boots/Super-Steel-Boot.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328879/Astonic-Mart/Products/safety-boots/Super-Steel-Boot.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328879/Astonic-Mart/Products/safety-boots/Super-Steel-Boot.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328879/Astonic-Mart/Products/safety-boots/Super-Steel-Boot.webp-4.webp'
+            'assets/img/safety-boots/Super-Steel-Boot.webp',
+            'assets/img/safety-boots/Super-Steel-Boot.webp-2.webp',
+            'assets/img/safety-boots/Super-Steel-Boot.webp-3.webp',
+            'assets/img/safety-boots/Super-Steel-Boot.webp-4.webp'
         ],
         sizes: [40, 41, 42, 43, 44, 45, 46],
         inStock: true,
@@ -4784,11 +4790,11 @@ Provides reliable workplace foot protection`
         price: 37000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328857/Astonic-Mart/Products/safety-boots/panda_safety_boot.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328857/Astonic-Mart/Products/safety-boots/panda_safety_boot.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328857/Astonic-Mart/Products/safety-boots/panda_safety_boot.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328857/Astonic-Mart/Products/safety-boots/panda_safety_boot.webp-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328857/Astonic-Mart/Products/safety-boots/panda_safety_boot.webp-5.webp'
+            'assets/img/safety-boots/panda safety boot.webp',
+            'assets/img/safety-boots/panda safety boot.webp-2.webp',
+            'assets/img/safety-boots/panda safety boot.webp-3.webp',
+            'assets/img/safety-boots/panda safety boot.webp-4.webp',
+            'assets/img/safety-boots/panda safety boot.webp-5.webp'
         ],
         sizes: [40, 41, 42, 43, 44, 45, 46],
         inStock: true,
@@ -4835,10 +4841,10 @@ Reliable workplace safety protection`
         price: 37000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328876/Astonic-Mart/Products/safety-boots/safety_1st_safety_boot.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328876/Astonic-Mart/Products/safety-boots/safety_1st_safety_boot.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328876/Astonic-Mart/Products/safety-boots/safety_1st_safety_boot.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328876/Astonic-Mart/Products/safety-boots/safety_1st_safety_boot.webp-4.webp'
+            'assets/img/safety-boots/safety 1st safety boot.webp',
+            'assets/img/safety-boots/safety 1st safety boot.webp-2.webp',
+            'assets/img/safety-boots/safety 1st safety boot.webp-3.webp',
+            'assets/img/safety-boots/safety 1st safety boot.webp-4.webp'
         ],
         sizes: [40, 41, 42, 43, 44, 45, 46],
         inStock: true,
@@ -4887,12 +4893,12 @@ Reliable workplace safety protection`
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305379/Astonic-Mart/Products/cold%20room%20wears/cold_jack_and_trouser.png-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305379/Astonic-Mart/Products/cold%20room%20wears/cold_jack_and_trouser.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305510/Astonic-Mart/Products/cold%20room%20wears/cold_room_jacket.jpg-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305510/Astonic-Mart/Products/cold%20room%20wears/cold_room_jacket.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305510/Astonic-Mart/Products/cold%20room%20wears/cold_room_jacket.jpg-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305527/Astonic-Mart/Products/cold%20room%20wears/cold_trouser.webp'
+            'assets/img/cold room wears/cold jack and trouser.jpeg-2.png',
+            'assets/img/cold room wears/cold jack and trouser.jpeg',
+            'assets/img/cold room wears/cold room jacket.jpg-2.png',
+            'assets/img/cold room wears/cold room jacket.jpg-3.webp',
+            'assets/img/cold room wears/cold room jacket.jpg-4.webp',
+            'assets/img/cold room wears/cold trouser.webp'
         ],
 
         inStock: true,
@@ -4942,9 +4948,9 @@ Ideal for cold storage and freezer operations`
         price: 110000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305504/Astonic-Mart/Products/cold%20room%20wears/cold_room_combo.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305506/Astonic-Mart/Products/cold%20room%20wears/cold_room_combo.png-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305379/Astonic-Mart/Products/cold%20room%20wears/cold_jack_and_trouser.png-3.jpg'
+            'assets/img/cold room wears/cold room combo.png',
+            'assets/img/cold room wears/cold room combo.png-3.jpg',
+            'assets/img/cold room wears/cold jack and trouser.jpeg-3.jpg'
         ],
 
         inStock: true,
@@ -4994,10 +5000,10 @@ Ideal for food processing and cold storage facilities`
         price: 40000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305510/Astonic-Mart/Products/cold%20room%20wears/cold_room_jacket.jpg-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305510/Astonic-Mart/Products/cold%20room%20wears/cold_room_jacket.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305510/Astonic-Mart/Products/cold%20room%20wears/cold_room_jacket.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305510/Astonic-Mart/Products/cold%20room%20wears/cold_room_jacket.jpg-4.webp'
+            'assets/img/cold room wears/cold room jacket.jpg-2.png',
+            'assets/img/cold room wears/cold room jacket.jpg',
+            'assets/img/cold room wears/cold room jacket.jpg-3.webp',
+            'assets/img/cold room wears/cold room jacket.jpg-4.webp'
         ],
 
         inStock: true,
@@ -5045,8 +5051,8 @@ Ideal for cold room and freezer operations`
         price: 40000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305527/Astonic-Mart/Products/cold%20room%20wears/cold_trouser.webp-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305527/Astonic-Mart/Products/cold%20room%20wears/cold_trouser.webp',
+            'assets/img/cold room wears/cold trouser.webp-2.png',
+            'assets/img/cold room wears/cold trouser.webp',
 
         ],
 
@@ -5094,7 +5100,9 @@ Ideal for cold room and freezer operations`
         price: 140000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305488/Astonic-Mart/Products/cold%20room%20wears/cold_room_combo_set-1.png',
+            'assets/img/cold room wears/cold room combo set-1.png',
+            'assets/img/cold room wear/Work Race Cold Room Full Protection Combo Set-2.jpg',
+            'assets/img/cold room wear/Work Race Cold Room Full Protection Combo Set-3.jpg'
         ],
 
         inStock: true,
@@ -5146,11 +5154,11 @@ Ideal for food processing and cold storage facilities`
         discountPrice: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307586/Astonic-Mart/Products/hand%20gloves/delta_cut_safety_gloves.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307586/Astonic-Mart/Products/hand%20gloves/delta_cut_safety_gloves.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307591/Astonic-Mart/Products/hand%20gloves/delta_cut_safety_gloves-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307586/Astonic-Mart/Products/hand%20gloves/delta_cut_safety_gloves.jpg-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307586/Astonic-Mart/Products/hand%20gloves/delta_cut_safety_gloves.jpg-5.webp'
+            'assets/img/hand gloves/delta cut safety gloves.jpg',
+            'assets/img/hand gloves/delta cut safety gloves.jpg-3.webp',
+            'assets/img/hand gloves/delta cut safety gloves-2.jpg',
+            'assets/img/hand gloves/delta cut safety gloves.jpg-4.webp',
+            'assets/img/hand gloves/delta cut safety gloves.jpg-5.webp'
         ],
 
         videos: [],
@@ -5228,12 +5236,12 @@ Packaging
         discountPrice: 55000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329429/Astonic-Mart/Products/tags/scalffoding_tags.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329433/Astonic-Mart/Products/tags/scalffoding_tags-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329433/Astonic-Mart/Products/tags/scalffoding_tags-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329429/Astonic-Mart/Products/tags/scalffoding_tags-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329433/Astonic-Mart/Products/tags/scalffoding_tags-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329429/Astonic-Mart/Products/tags/scalffoding_tags-3.jpg'
+            'assets/img/tags/scalffoding tags.jpg',
+            'assets/img/tags/scalffoding tags-6.jpg',
+            'assets/img/tags/scalffoding tags-5.jpg',
+            'assets/img/tags/scalffoding tags-2.jpg',
+            'assets/img/tags/scalffoding tags-4.jpg',
+            'assets/img/tags/scalffoding tags-3.jpg'
         ],
 
         videos: [],
@@ -5308,10 +5316,10 @@ Accessories
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306637/Astonic-Mart/Products/flashlights/ingco_head_lamp_HHL013AAA8.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306638/Astonic-Mart/Products/flashlights/ingco_head_lamp_HHL013AAA8.jpg-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306641/Astonic-Mart/Products/flashlights/ingco_head_lamp_HHL013AAA8-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306639/Astonic-Mart/Products/flashlights/ingco_head_lamp_HHL013AAA8-2.jpg'
+            'assets/img/flashlights/ingco head lamp HHL013AAA8.jpg',
+            'assets/img/flashlights/ingco head lamp HHL013AAA8.jpg-3.avif',
+            'assets/img/flashlights/ingco head lamp HHL013AAA8-4.jpeg',
+            'assets/img/flashlights/ingco head lamp HHL013AAA8-2.jpg'
         ],
 
         videos: [],
@@ -5383,9 +5391,9 @@ Accessories
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330194/Astonic-Mart/Products/umbrella/garden_umbrella-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330194/Astonic-Mart/Products/umbrella/garden_umbrella.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330194/Astonic-Mart/Products/umbrella/garden_umbrella.jpg'
+            'assets/img/umbrella/garden umbrella-2.jpg',
+            'assets/img/umbrella/garden umbrella.jpg',
+            'assets/img/umbrella/garden umbrella.jpg'
         ],
 
         videos: [],
@@ -5457,11 +5465,11 @@ Accessories
         price: 47000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329531/Astonic-Mart/Products/tapes%20and%20adhesives/Adhesive_Tape_4_Inch_x_50m_Red_White.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329531/Astonic-Mart/Products/tapes%20and%20adhesives/Adhesive_Tape_4_Inch_x_50m_Red_White.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329538/Astonic-Mart/Products/tapes%20and%20adhesives/Adhesive_Tape_4_Inch_x_50m_Red_White-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329534/Astonic-Mart/Products/tapes%20and%20adhesives/Adhesive_Tape_4_Inch_x_50m_Red_White-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329534/Astonic-Mart/Products/tapes%20and%20adhesives/Adhesive_Tape_4_Inch_x_50m_Red_White-3.webp',
+            'assets/img/tapes and adhesives/Adhesive Tape 4 Inch x 50m Red White.webp-2.webp',
+            'assets/img/tapes and adhesives/Adhesive Tape 4 Inch x 50m Red White.webp',
+            'assets/img/tapes and adhesives/Adhesive Tape 4 Inch x 50m Red White-5.webp',
+            'assets/img/tapes and adhesives/Adhesive Tape 4 Inch x 50m Red White-4.webp',
+            'assets/img/tapes and adhesives/Adhesive Tape 4 Inch x 50m Red White-3.webp',
 
         ],
 
@@ -5513,12 +5521,12 @@ Its wide 4-inch design offers enhanced visibility from a distance, while the 50-
         price: 30000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329489/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_red_and_white_adhesive_tape.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329489/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_red_and_white_adhesive_tape.webp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329489/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_red_and_white_adhesive_tape.webp-3.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329489/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_red_and_white_adhesive_tape.webp-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329489/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_red_and_white_adhesive_tape.webp-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329489/Astonic-Mart/Products/tapes%20and%20adhesives/2_inch_red_and_white_adhesive_tape.webp-6.jpg'
+            'assets/img/tapes and adhesives/2 inch red and white adhesive tape.webp',
+            'assets/img/tapes and adhesives/2 inch red and white adhesive tape.webp-2.webp',
+            'assets/img/tapes and adhesives/2 inch red and white adhesive tape.webp-3.jpeg',
+            'assets/img/tapes and adhesives/2 inch red and white adhesive tape.webp-4.jpg',
+            'assets/img/tapes and adhesives/2 inch red and white adhesive tape.webp-5.jpg',
+            'assets/img/tapes and adhesives/2 inch red and white adhesive tape.webp-6.jpg'
         ],
 
         inStock: true,
@@ -5571,11 +5579,11 @@ The 2-inch width provides excellent visibility while remaining compact enough fo
         price: 9500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330148/Astonic-Mart/Products/umbrella/foldable_umbrella_black.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330148/Astonic-Mart/Products/umbrella/foldable_umbrella_black.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330148/Astonic-Mart/Products/umbrella/foldable_umbrella_black.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330194/Astonic-Mart/Products/umbrella/foldable_umbrella_dark_red.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330194/Astonic-Mart/Products/umbrella/foldable_umbrella_navy_blue.jpg'
+            'assets/img/umbrella/foldable umbrella black.jpg-5.jpg',
+            'assets/img/umbrella/foldable umbrella black.jpg',
+            'assets/img/umbrella/foldable umbrella black.jpg-2.jpg',
+            'assets/img/umbrella/foldable umbrella dark red.jpg',
+            'assets/img/umbrella/foldable umbrella navy blue.jpg'
         ],
 
         inStock: true,
@@ -5626,10 +5634,10 @@ Suitable for both residential and commercial applications, the foldable outdoor 
         price: 25000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329030/Astonic-Mart/Products/security%20gears/7-Pouches-Tactical-Belt.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329030/Astonic-Mart/Products/security%20gears/7-Pouches-Tactical-Belt.webp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329030/Astonic-Mart/Products/security%20gears/7-Pouches-Tactical-Belt.webp-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329030/Astonic-Mart/Products/security%20gears/7-Pouches-Tactical-Belt.webp-4.jpg'
+            'assets/img/security gears/7-Pouches-Tactical-Belt.webp',
+            'assets/img/security gears/7-Pouches-Tactical-Belt.webp-2.jpg',
+            'assets/img/security gears/7-Pouches-Tactical-Belt.webp-3.jpg',
+            'assets/img/security gears/7-Pouches-Tactical-Belt.webp-4.jpg'
         ],
 
         inStock: true,
@@ -5679,10 +5687,10 @@ Ideal for security operations, patrol duties, crowd control, tactical activities
         price: 12000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329064/Astonic-Mart/Products/security%20gears/security_belt.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329064/Astonic-Mart/Products/security%20gears/security_belt.jpg-2.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329064/Astonic-Mart/Products/security%20gears/security_belt.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329064/Astonic-Mart/Products/security%20gears/security_belt.jpg-4.avif'
+            'assets/img/security gears/security belt.jpg',
+            'assets/img/security gears/security belt.jpg-2.jpeg',
+            'assets/img/security gears/security belt.jpg-3.webp',
+            'assets/img/security gears/security belt.jpg-4.avif'
         ],
 
         inStock: true,
@@ -5730,10 +5738,10 @@ Ideal for security services, event management, industrial facilities, residentia
         price: 30000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329064/Astonic-Mart/Products/security%20gears/Tactical_Security_Jacket.jpg-3.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329064/Astonic-Mart/Products/security%20gears/Tactical_Security_Jacket.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329064/Astonic-Mart/Products/security%20gears/Tactical_Security_Jacket.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329064/Astonic-Mart/Products/security%20gears/Tactical_Security_Jacket.jpg-4.png'
+            'assets/img/security gears/Tactical Security Jacket.jpg-3.png',
+            'assets/img/security gears/Tactical Security Jacket.jpg-2.jpg',
+            'assets/img/security gears/Tactical Security Jacket.jpg',
+            'assets/img/security gears/Tactical Security Jacket.jpg-4.png'
         ],
 
         inStock: true,
@@ -5784,7 +5792,7 @@ Ideal for security operations, patrol duties, event security, industrial facilit
         price: 12000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786516020/Astonic-Mart/Products/earmuffs/beta_earmuff.jpg'
+            'assets/img/ppe/beta-safety-earmuff.jpg'
         ],
 
         inStock: true,
@@ -5836,12 +5844,12 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 25000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306394/Astonic-Mart/Products/earmuffs/3M-PELTOR-OPTIME-105_mounted_earmuff.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306398/Astonic-Mart/Products/earmuffs/3M-PELTOR-OPTIME-105_mounted_earmuff-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306396/Astonic-Mart/Products/earmuffs/3M-PELTOR-OPTIME-105_mounted_earmuff-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306399/Astonic-Mart/Products/earmuffs/3M-PELTOR-OPTIME-105_mounted_earmuff-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306400/Astonic-Mart/Products/earmuffs/3M-PELTOR-OPTIME-105_mounted_earmuff-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306395/Astonic-Mart/Products/earmuffs/3M-PELTOR-OPTIME-105_mounted_earmuff-2.jpg'
+            'assets/img/earmuffs/3M-PELTOR-OPTIME-105 mounted earmuff.jpg',
+            'assets/img/earmuffs/3M-PELTOR-OPTIME-105 mounted earmuff-4.jpg',
+            'assets/img/earmuffs/3M-PELTOR-OPTIME-105 mounted earmuff-3.jpeg',
+            'assets/img/earmuffs/3M-PELTOR-OPTIME-105 mounted earmuff-5.jpg',
+            'assets/img/earmuffs/3M-PELTOR-OPTIME-105 mounted earmuff-6.jpg',
+            'assets/img/earmuffs/3M-PELTOR-OPTIME-105 mounted earmuff-2.jpg'
         ],
 
         inStock: true,
@@ -5889,9 +5897,9 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 25000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304282/Astonic-Mart/Products/belt/safety_waist_belt_with_big_hook-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304281/Astonic-Mart/Products/belt/safety_waist_belt_with_big_hook-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304280/Astonic-Mart/Products/belt/safety_waist_belt_with_big_hook.jpg'
+            'assets/img/belt/safety waist belt with big hook-3.webp',
+            'assets/img/belt/safety waist belt with big hook-2.jpeg',
+            'assets/img/belt/safety waist belt with big hook.jpeg'
         ],
 
         inStock: true,
@@ -5935,9 +5943,9 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 19000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304287/Astonic-Mart/Products/belt/safety_waist_belt_with_small_hook-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304283/Astonic-Mart/Products/belt/safety_waist_belt_with_small_hook.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304284/Astonic-Mart/Products/belt/safety_waist_belt_with_small_hook-2.jpg'
+            'assets/img/belt/safety waist belt with small hook-3.avif',
+            'assets/img/belt/safety waist belt with small hook.avif',
+            'assets/img/belt/safety waist belt with small hook-2.jpeg'
         ],
 
         inStock: true,
@@ -5984,9 +5992,9 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 20000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330497/Astonic-Mart/Products/welding%20accessories/welding_apron-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330497/Astonic-Mart/Products/welding%20accessories/welding_apron.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330497/Astonic-Mart/Products/welding%20accessories/welding_apron-2.webp'
+            'assets/img/welding accessories/welding apron-2.webp',
+            'assets/img/welding accessories/welding apron.webp',
+            'assets/img/welding accessories/welding apron-2.webp'
         ],
 
         inStock: true,
@@ -6033,9 +6041,9 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 45000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330499/Astonic-Mart/Products/welding%20accessories/welding_jacket.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330499/Astonic-Mart/Products/welding%20accessories/welding_jacket.webp-2.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330499/Astonic-Mart/Products/welding%20accessories/welding_jacket.webp',
+            'assets/img/welding accessories/welding jacket.webp',
+            'assets/img/welding accessories/welding jacket.webp-2.jpeg',
+            'assets/img/welding accessories/welding jacket.webp',
         ],
 
         inStock: true,
@@ -6083,7 +6091,7 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 45000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305627/Astonic-Mart/Products/coveralls/jacket_and_trousers_coverall.webp'
+            'assets/img/coveralls/jacket and trousers coverall.webp'
         ],
 
         inStock: true,
@@ -6131,7 +6139,7 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 35000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305618/Astonic-Mart/Products/coveralls/combination_coverall.png'
+            'assets/img/coveralls/combination coverall.png'
         ],
 
         inStock: true,
@@ -6178,7 +6186,7 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 58000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305639/Astonic-Mart/Products/coveralls/rokk_coverall.png'
+            'assets/img/coveralls/rokk coverall.png'
         ],
 
         inStock: true,
@@ -6228,10 +6236,10 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328708/Astonic-Mart/Products/safety%20joggers/X1100N_S3S.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328713/Astonic-Mart/Products/safety%20joggers/X1100N_S3S-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328713/Astonic-Mart/Products/safety%20joggers/X1100N_S3S-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328712/Astonic-Mart/Products/safety%20joggers/X1100N_S3S-4.webp'
+            'assets/img/safety joggers/X1100N S3S.webp',
+            'assets/img/safety joggers/X1100N S3S-2.webp',
+            'assets/img/safety joggers/X1100N S3S-3.webp',
+            'assets/img/safety joggers/X1100N S3S-4.webp'
         ],
 
         inStock: true,
@@ -6281,10 +6289,10 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 115000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328715/Astonic-Mart/Products/safety%20joggers/X430_safety_jogger.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328715/Astonic-Mart/Products/safety%20joggers/X430_safety_jogger.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328715/Astonic-Mart/Products/safety%20joggers/X430_safety_jogger.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328715/Astonic-Mart/Products/safety%20joggers/X430_safety_jogger.webp-4.webp'
+            'assets/img/safety joggers/X430 safety jogger.webp',
+            'assets/img/safety joggers/X430 safety jogger.webp-2.webp',
+            'assets/img/safety joggers/X430 safety jogger.webp-3.webp',
+            'assets/img/safety joggers/X430 safety jogger.webp-4.webp'
         ],
         sizes: [40, 41, 42, 43, 44, 45, 46],
         inStock: true,
@@ -6334,10 +6342,10 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 125000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328666/Astonic-Mart/Products/safety%20joggers/BASALT_S7S.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328665/Astonic-Mart/Products/safety%20joggers/BASALT_S7S.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328665/Astonic-Mart/Products/safety%20joggers/BASALT_S7S.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328665/Astonic-Mart/Products/safety%20joggers/BASALT_S7S.webp-4.webp'
+            'assets/img/safety joggers/BASALT S7S.webp',
+            'assets/img/safety joggers/BASALT S7S.webp-2.webp',
+            'assets/img/safety joggers/BASALT S7S.webp-3.webp',
+            'assets/img/safety joggers/BASALT S7S.webp-4.webp'
         ],
         sizes: [40, 41, 42, 43, 44, 45, 46],
         inStock: true,
@@ -6387,11 +6395,11 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 185000,
         discountPrice: 175000,
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328865/Astonic-Mart/Products/safety-boots/red_wings_3228.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328870/Astonic-Mart/Products/safety-boots/red_wings_3228-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328863/Astonic-Mart/Products/safety-boots/red_wings_3228.png-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328865/Astonic-Mart/Products/safety-boots/red_wings_3228.png-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328865/Astonic-Mart/Products/safety-boots/red_wings_3228.png-6.webp'
+            'assets/img/safety-boots/red wings 3228.png',
+            'assets/img/safety-boots/red wings 3228-2.png',
+            'assets/img/safety-boots/red wings 3228.png-4.webp',
+            'assets/img/safety-boots/red wings 3228.png-5.webp',
+            'assets/img/safety-boots/red wings 3228.png-6.webp'
         ],
         sizes: [40, 41, 42, 43, 44, 45, 46],
         inStock: true,
@@ -6443,13 +6451,13 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 185000,
         discountPrice: 175000,
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328867/Astonic-Mart/Products/safety-boots/red_wings_3228-black.jpg-6.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328867/Astonic-Mart/Products/safety-boots/red_wings_3228-black.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328867/Astonic-Mart/Products/safety-boots/red_wings_3228-black.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328867/Astonic-Mart/Products/safety-boots/red_wings_3228-black.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328867/Astonic-Mart/Products/safety-boots/red_wings_3228-black.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328865/Astonic-Mart/Products/safety-boots/red_wings_3228.png-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328867/Astonic-Mart/Products/safety-boots/red_wings_3228-black.jpg-5.png'
+            'assets/img/safety-boots/red wings 3228-black.jpg-6.png',
+            'assets/img/safety-boots/red wings 3228-black.jpg',
+            'assets/img/safety-boots/red wings 3228-black.jpg-2.jpg',
+            'assets/img/safety-boots/red wings 3228-black.jpg-3.jpg',
+            'assets/img/safety-boots/red wings 3228-black.jpg-4.jpg',
+            'assets/img/safety-boots/red wings 3228.png-5.webp',
+            'assets/img/safety-boots/red wings 3228-black.jpg-5.png'
         ],
         sizes: [40, 41, 42, 43, 44, 45, 46],
         inStock: false,
@@ -6501,12 +6509,12 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 15000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307578/Astonic-Mart/Products/hand%20gloves/arm_sleeve.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307578/Astonic-Mart/Products/hand%20gloves/arm_sleeve.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307578/Astonic-Mart/Products/hand%20gloves/arm_sleeve.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307581/Astonic-Mart/Products/hand%20gloves/arm_sleeve-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307583/Astonic-Mart/Products/hand%20gloves/arm_sleeve-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307584/Astonic-Mart/Products/hand%20gloves/arm_sleeve-6.jpg'
+            'assets/img/hand gloves/arm sleeve.jpg',
+            'assets/img/hand gloves/arm sleeve.jpg-2.jpg',
+            'assets/img/hand gloves/arm sleeve.jpg-3.jpg',
+            'assets/img/hand gloves/arm sleeve-4.jpg',
+            'assets/img/hand gloves/arm sleeve-5.jpg',
+            'assets/img/hand gloves/arm sleeve-6.jpg'
         ],
 
         inStock: true,
@@ -6553,10 +6561,10 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 130000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328859/Astonic-Mart/Products/safety-boots/red_wing_8204.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328863/Astonic-Mart/Products/safety-boots/red_wing_8204-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328863/Astonic-Mart/Products/safety-boots/red_wing_8204-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328863/Astonic-Mart/Products/safety-boots/red_wing_8204-4.jpg'
+            'assets/img/safety-boots/red wing 8204.jpg',
+            'assets/img/safety-boots/red wing 8204-2.jpg',
+            'assets/img/safety-boots/red wing 8204-3.jpeg',
+            'assets/img/safety-boots/red wing 8204-4.jpeg'
         ],
 
         inStock: true,
@@ -6607,11 +6615,11 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 22000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309488/Astonic-Mart/Products/nose%20mask/3M-FFP3-nose_mask.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309489/Astonic-Mart/Products/nose%20mask/3M-FFP3-nose_mask-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309490/Astonic-Mart/Products/nose%20mask/3M-FFP3-nose_mask-4.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309491/Astonic-Mart/Products/nose%20mask/3M-FFP3-nose_mask-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309493/Astonic-Mart/Products/nose%20mask/3M-FFP3-nose_mask-7.jpg'
+            'assets/img/nose mask/3M-FFP3-nose mask.jpg',
+            'assets/img/nose mask/3M-FFP3-nose mask-2.avif',
+            'assets/img/nose mask/3M-FFP3-nose mask-4.avif',
+            'assets/img/nose mask/3M-FFP3-nose mask-5.jpg',
+            'assets/img/nose mask/3M-FFP3-nose mask-7.jpg'
         ],
 
         inStock: true,
@@ -6661,9 +6669,9 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 30000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309021/Astonic-Mart/Products/media%20jackets/power_media_jacket.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309048/Astonic-Mart/Products/media%20jackets/power_media_jacket-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309080/Astonic-Mart/Products/media%20jackets/power_media_jacket-3.png'
+            'assets/img/media jackets/power media jacket.png',
+            'assets/img/media jackets/power media jacket-2.png',
+            'assets/img/media jackets/power media jacket-3.png'
         ],
 
         inStock: true,
@@ -6713,12 +6721,12 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309465/Astonic-Mart/Products/nose%20mask/3m_6800_full_face_mask.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309464/Astonic-Mart/Products/nose%20mask/3m_6800_full_face_mask.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309464/Astonic-Mart/Products/nose%20mask/3m_6800_full_face_mask.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309464/Astonic-Mart/Products/nose%20mask/3m_6800_full_face_mask.jpg-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309464/Astonic-Mart/Products/nose%20mask/3m_6800_full_face_mask.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309464/Astonic-Mart/Products/nose%20mask/3m_6800_full_face_mask.jpg-6.jpeg'
+            'assets/img/nose mask/3m 6800 full face mask.jpg-2.jpeg',
+            'assets/img/nose mask/3m 6800 full face mask.jpg',
+            'assets/img/nose mask/3m 6800 full face mask.jpg-3.jpg',
+            'assets/img/nose mask/3m 6800 full face mask.jpg-4.webp',
+            'assets/img/nose mask/3m 6800 full face mask.jpg-5.jpg',
+            'assets/img/nose mask/3m 6800 full face mask.jpg-6.jpeg'
         ],
 
         inStock: true,
@@ -6769,11 +6777,11 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         price: 23000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309472/Astonic-Mart/Products/nose%20mask/3m_8210_nose.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309472/Astonic-Mart/Products/nose%20mask/3m_8210_nose.png-2.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309472/Astonic-Mart/Products/nose%20mask/3m_8210_nose.png-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309472/Astonic-Mart/Products/nose%20mask/3m_8210_nose.png-4.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309472/Astonic-Mart/Products/nose%20mask/3m_8210_nose.png-5.jpg'
+            'assets/img/nose mask/3m 8210 nose.png',
+            'assets/img/nose mask/3m 8210 nose.png-2.jpeg',
+            'assets/img/nose mask/3m 8210 nose.png-3.webp',
+            'assets/img/nose mask/3m 8210 nose.png-4.jpeg',
+            'assets/img/nose mask/3m 8210 nose.png-5.jpg'
         ],
 
         inStock: true,
@@ -6824,7 +6832,7 @@ Suitable for factories, workshops, construction sites, airports, mining operatio
         discountPrice: 15000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311501/Astonic-Mart/Products/reflective%20jackets/Reflective_Safety_Vest_Black_Pockets.webp',
+            'assets/img/reflective jackets/Reflective Safety Vest Black Pockets.webp',
         ],
 
         inStock: false,
@@ -6886,9 +6894,9 @@ Its breathable and comfortable construction makes it suitable for extended worki
         discountPrice: 10500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311482/Astonic-Mart/Products/reflective%20jackets/blue_reflective_jackets_with_pockets.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311482/Astonic-Mart/Products/reflective%20jackets/blue_reflective_jackets_with_pockets.webp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311482/Astonic-Mart/Products/reflective%20jackets/blue_reflective_jackets_with_pockets.webp-3.avif'
+            'assets/img/reflective jackets/blue reflective jackets with pockets.webp',
+            'assets/img/reflective jackets/blue reflective jackets with pockets.webp-2.jpg',
+            'assets/img/reflective jackets/blue reflective jackets with pockets.webp-3.avif'
         ],
 
         inStock: true,
@@ -6952,9 +6960,9 @@ Its zipper front closure and comfortable fit make it suitable for long working h
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311513/Astonic-Mart/Products/reflective%20jackets/Royal_Blue_Reflective_Vest.jpg-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311533/Astonic-Mart/Products/reflective%20jackets/sky_Blue_Reflective_Vest.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311513/Astonic-Mart/Products/reflective%20jackets/Royal_Blue_Reflective_Vest.jpg'
+            'assets/img/reflective jackets/Royal Blue Reflective Vest.jpg-2.webp',
+            'assets/img/reflective jackets/sky Blue Reflective Vest.jpg-2.webp',
+            'assets/img/reflective jackets/Royal Blue Reflective Vest.jpg'
         ],
 
         inStock: true,
@@ -7018,10 +7026,10 @@ The front zipper closure allows easy wear and secure fitting while maintaining a
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311486/Astonic-Mart/Products/reflective%20jackets/lemon_and_orange_reflective_vest.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311487/Astonic-Mart/Products/reflective%20jackets/lemon_and_orange_reflective_vest-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311497/Astonic-Mart/Products/reflective%20jackets/lemon_reflective_jacket.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311499/Astonic-Mart/Products/reflective%20jackets/orange_reflective_jacket.webp'
+            'assets/img/reflective jackets/lemon and orange reflective vest.jpg',
+            'assets/img/reflective jackets/lemon and orange reflective vest-2.jpg',
+            'assets/img/reflective jackets/lemon reflective jacket.webp',
+            'assets/img/reflective jackets/orange reflective jacket.webp'
         ],
 
         inStock: true,
@@ -7085,8 +7093,8 @@ The front zipper closure ensures easy wearing and secure fitting while maintaini
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311498/Astonic-Mart/Products/reflective%20jackets/orange_net_reflective_jacket.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311488/Astonic-Mart/Products/reflective%20jackets/lemon_net_reflective_jacket.jpg'
+            'assets/img/reflective jackets/orange net reflective jacket.webp',
+            'assets/img/reflective jackets/lemon net reflective jacket.webp'
         ],
 
         inStock: true,
@@ -7149,11 +7157,11 @@ The bright lemon green and orange colors enhance daytime visibility, while the r
         discountPrice: 10000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311511/Astonic-Mart/Products/reflective%20jackets/reflective-safety-jacket_multi_colors-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311510/Astonic-Mart/Products/reflective%20jackets/reflective-safety-jacket_multi_colors.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311495/Astonic-Mart/Products/reflective%20jackets/lemon_reflective_jacket_with_pocket-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311490/Astonic-Mart/Products/reflective%20jackets/lemon_reflective_jacket_with_pocket-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311489/Astonic-Mart/Products/reflective%20jackets/lemon_reflective_jacket_with_pocket.webp'
+            'assets/img/reflective jackets/reflective-safety-jacket multi colors-2.webp',
+            'assets/img/reflective jackets/reflective-safety-jacket multi colors.jpg',
+            'assets/img/reflective jackets/lemon reflective jacket with pocket-3.webp',
+            'assets/img/reflective jackets/lemon reflective jacket with pocket-2.webp',
+            'assets/img/reflective jackets/lemon reflective jacket with pocket.webp'
         ],
 
         inStock: true,
@@ -7217,7 +7225,7 @@ Its lightweight and comfortable design allows for extended use while maintaining
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311485/Astonic-Mart/Products/reflective%20jackets/lemon_and_blue_combination.webp',
+            'assets/img/reflective jackets/lemon and blue combination.webp',
         ],
 
         inStock: true,
@@ -7279,11 +7287,11 @@ Its comfortable lightweight construction and front zipper closure make it suitab
         discountPrice: 48000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329583/Astonic-Mart/Products/tapes%20and%20adhesives/yellow_reflective_tape_4_inch_x_50m.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329583/Astonic-Mart/Products/tapes%20and%20adhesives/yellow_reflective_tape_4_inch_x_50m.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329583/Astonic-Mart/Products/tapes%20and%20adhesives/yellow_reflective_tape_4_inch_x_50m.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329583/Astonic-Mart/Products/tapes%20and%20adhesives/yellow_reflective_tape_4_inch_x_50m.webp-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329583/Astonic-Mart/Products/tapes%20and%20adhesives/yellow_reflective_tape_4_inch_x_50m.webp-5.webp'
+            'assets/img/tapes and adhesives/yellow reflective tape 4 inch x 50m.webp',
+            'assets/img/tapes and adhesives/yellow reflective tape 4 inch x 50m.webp-2.webp',
+            'assets/img/tapes and adhesives/yellow reflective tape 4 inch x 50m.webp-3.webp',
+            'assets/img/tapes and adhesives/yellow reflective tape 4 inch x 50m.webp-4.webp',
+            'assets/img/tapes and adhesives/yellow reflective tape 4 inch x 50m.webp-5.webp'
         ],
 
         inStock: true,
@@ -7333,11 +7341,11 @@ Its weather-resistant construction makes it suitable for both indoor and outdoor
         discountPrice: 25000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329579/Astonic-Mart/Products/tapes%20and%20adhesives/yelloe_reflective_tape_2_inch_x_50m.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329583/Astonic-Mart/Products/tapes%20and%20adhesives/yelloe_reflective_tape_2_inch_x_50m-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329578/Astonic-Mart/Products/tapes%20and%20adhesives/yelloe_reflective_tape_2_inch_x_50m.webp-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329578/Astonic-Mart/Products/tapes%20and%20adhesives/yelloe_reflective_tape_2_inch_x_50m.web-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329583/Astonic-Mart/Products/tapes%20and%20adhesives/yelloe_reflective_tape_2_inch_x_50m-2.jpg'
+            'assets/img/tapes and adhesives/yelloe reflective tape 2 inch x 50m.webp',
+            'assets/img/tapes and adhesives/yelloe reflective tape 2 inch x 50m-3.jpg',
+            'assets/img/tapes and adhesives/yelloe reflective tape 2 inch x 50m.webp-5.jpg',
+            'assets/img/tapes and adhesives/yelloe reflective tape 2 inch x 50m.web-4.jpg',
+            'assets/img/tapes and adhesives/yelloe reflective tape 2 inch x 50m-2.jpeg'
         ],
 
         inStock: true,
@@ -7387,11 +7395,11 @@ The weather-resistant and durable construction makes it suitable for both indoor
         discountPrice: 50000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329554/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape_4_inch.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329557/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape_4_inch-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329557/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape_4_inch-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329554/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape_4_inch-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329558/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape_4_inch-5.jpg'
+            'assets/img/tapes and adhesives/lemon and black reflective tape 4 inch.jpg',
+            'assets/img/tapes and adhesives/lemon and black reflective tape 4 inch-3.jpg',
+            'assets/img/tapes and adhesives/lemon and black reflective tape 4 inch-4.jpg',
+            'assets/img/tapes and adhesives/lemon and black reflective tape 4 inch-2.jpg',
+            'assets/img/tapes and adhesives/lemon and black reflective tape 4 inch-5.jpg'
 
         ],
 
@@ -7444,12 +7452,12 @@ The strong self-adhesive backing ensures secure attachment to floors, walls, bar
         discountPrice: 29000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329557/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329557/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329557/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape.webp-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329557/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape.webp-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329557/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape.webp-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329557/Astonic-Mart/Products/tapes%20and%20adhesives/lemon_and_black_reflective_tape.webp-6.jpg'
+            'assets/img/tapes and adhesives/lemon and black reflective tape.webp-2.webp',
+            'assets/img/tapes and adhesives/lemon and black reflective tape.webp',
+            'assets/img/tapes and adhesives/lemon and black reflective tape.webp-3.jpg',
+            'assets/img/tapes and adhesives/lemon and black reflective tape.webp-4.jpg',
+            'assets/img/tapes and adhesives/lemon and black reflective tape.webp-5.jpg',
+            'assets/img/tapes and adhesives/lemon and black reflective tape.webp-6.jpg'
         ],
 
         inStock: true,
@@ -7501,12 +7509,12 @@ The durable weather-resistant construction makes it suitable for both indoor and
         discountPrice: 28000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329563/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_2_by_50m.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329562/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_2_by_50m.webp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329563/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_2_by_50m.webp-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329563/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_2_by_50m.webp-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329563/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_2_by_50m.webp-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329563/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_2_by_50m.webp-6.jpg'
+            'assets/img/tapes and adhesives/red and orange adhesive tape 2 by 50m.webp',
+            'assets/img/tapes and adhesives/red and orange adhesive tape 2 by 50m.webp-2.jpeg',
+            'assets/img/tapes and adhesives/red and orange adhesive tape 2 by 50m.webp-3.jpg',
+            'assets/img/tapes and adhesives/red and orange adhesive tape 2 by 50m.webp-4.jpg',
+            'assets/img/tapes and adhesives/red and orange adhesive tape 2 by 50m.webp-5.jpg',
+            'assets/img/tapes and adhesives/red and orange adhesive tape 2 by 50m.webp-6.jpg'
         ],
 
         inStock: true,
@@ -7558,11 +7566,11 @@ The weather-resistant construction makes it suitable for indoor and outdoor use,
         discountPrice: 54000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329570/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_4_by_50m.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329570/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_4_by_50m.avif-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329575/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_4_by_50m-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329575/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_4_by_50m-4.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329575/Astonic-Mart/Products/tapes%20and%20adhesives/red_and_orange_adhesive_tape_4_by_50m-5.avif'
+            'assets/img/tapes and adhesives/red and orange adhesive tape 4 by 50m.webp',
+            'assets/img/tapes and adhesives/red and orange adhesive tape 4 by 50m.webp-2.avif',
+            'assets/img/tapes and adhesives/red and orange adhesive tape 4 by 50m-3.avif',
+            'assets/img/tapes and adhesives/red and orange adhesive tape 4 by 50m-4.avif',
+            'assets/img/tapes and adhesives/red and orange adhesive tape 4 by 50m-5.avif'
         ],
 
         inStock: true,
@@ -7613,10 +7621,10 @@ Its strong self-adhesive backing ensures secure attachment to metal, plastic, pa
         discountPrice: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328760/Astonic-Mart/Products/safety-boots/DAKAR_EW_S3_LEATHER_sj.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328760/Astonic-Mart/Products/safety-boots/DAKAR_EW_S3_LEATHER_sj-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328760/Astonic-Mart/Products/safety-boots/DAKAR_EW_S3_LEATHER_sj-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328760/Astonic-Mart/Products/safety-boots/DAKAR_EW_S3_LEATHER_sj-4.webp'
+            'assets/img/safety-boots/DAKAR EW S3 LEATHER sj.webp',
+            'assets/img/safety-boots/DAKAR EW S3 LEATHER sj-2.webp',
+            'assets/img/safety-boots/DAKAR EW S3 LEATHER sj-3.webp',
+            'assets/img/safety-boots/DAKAR EW S3 LEATHER sj-4.webp'
         ],
 
         inStock: true,
@@ -7690,9 +7698,9 @@ Designed for wet, muddy, dry, and uneven surfaces, this boot combines safety per
         price: 19000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305623/Astonic-Mart/Products/coveralls/green_coveralls-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305621/Astonic-Mart/Products/coveralls/green_coveralls.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305625/Astonic-Mart/Products/coveralls/green_coveralls-3.png'
+            'assets/img/coveralls/green coveralls-2.png',
+            'assets/img/coveralls/green coveralls.png',
+            'assets/img/coveralls/green coveralls-3.png'
         ],
 
         inStock: true,
@@ -7755,9 +7763,9 @@ Its ergonomic design allows freedom of movement while maintaining professional w
         discountPrice: 20000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304760/Astonic-Mart/Products/chemical%20wears/chemical_apron.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304761/Astonic-Mart/Products/chemical%20wears/chemical_apron.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304760/Astonic-Mart/Products/chemical%20wears/chemical_apron.jpg-3.jpeg'
+            'assets/img/chemical wears/chemical apron.jpg',
+            'assets/img/chemical wears/chemical apron.jpg-2.jpeg',
+            'assets/img/chemical wears/chemical apron.jpg-3.jpeg'
         ],
 
         inStock: true,
@@ -7819,14 +7827,14 @@ The waterproof construction helps protect clothing and the body from contaminati
         discountPrice: 23000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307595/Astonic-Mart/Products/hand%20gloves/kong_hand_gloves.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786332774/Astonic-Mart/Products/kong-original-impact-gloves.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307595/Astonic-Mart/Products/hand%20gloves/kong_hand_gloves.jpg-2.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307595/Astonic-Mart/Products/hand%20gloves/kong_hand_gloves.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307595/Astonic-Mart/Products/hand%20gloves/kong_hand_gloves.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307595/Astonic-Mart/Products/hand%20gloves/kong_hand_gloves.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307595/Astonic-Mart/Products/hand%20gloves/kong_hand_gloves.jpg-7.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307595/Astonic-Mart/Products/hand%20gloves/kong_hand_gloves.jpg-6.jpg',
+            'assets/img/hand gloves/kong hand gloves.jpg',
+            'assets/img/kong-original-impact-gloves.jpg',
+            'assets/img/hand gloves/kong hand gloves.jpg-2.jpeg',
+            'assets/img/hand gloves/kong hand gloves.jpg-3.jpg',
+            'assets/img/hand gloves/kong hand gloves.jpg-4.jpg',
+            'assets/img/hand gloves/kong hand gloves.jpg-5.jpg',
+            'assets/img/hand gloves/kong hand gloves.jpg-7.jpg',
+            'assets/img/hand gloves/kong hand gloves.jpg-6.jpg',
 
         ],
 
@@ -7889,11 +7897,11 @@ The gloves feature a seamless knitted liner with a protective coating that enhan
         discountPrice: 4000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309494/Astonic-Mart/Products/nose%20mask/disposable_mask.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309495/Astonic-Mart/Products/nose%20mask/disposable_mask.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309496/Astonic-Mart/Products/nose%20mask/disposable_mask.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309494/Astonic-Mart/Products/nose%20mask/disposable_mask.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309494/Astonic-Mart/Products/nose%20mask/disposable_mask.jpg-5.jpg'
+            'assets/img/nose mask/disposable mask.jpg',
+            'assets/img/nose mask/disposable mask.jpg-2.jpg',
+            'assets/img/nose mask/disposable mask.jpg-3.jpg',
+            'assets/img/nose mask/disposable mask.jpg-4.jpg',
+            'assets/img/nose mask/disposable mask.jpg-5.jpg'
         ],
 
         inStock: true,
@@ -7941,10 +7949,10 @@ The mask features a 3-layer filtration design and an adjustable nose pin that he
         discountPrice: 78000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328688/Astonic-Mart/Products/safety%20joggers/MANAGER-safety_jogger.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328688/Astonic-Mart/Products/safety%20joggers/MANAGER-safety_jogger.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328688/Astonic-Mart/Products/safety%20joggers/MANAGER-safety_jogger.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328688/Astonic-Mart/Products/safety%20joggers/MANAGER-safety_jogger.webp-4.webp'
+            'assets/img/safety joggers/MANAGER-safety jogger.webp',
+            'assets/img/safety joggers/MANAGER-safety jogger.webp-2.webp',
+            'assets/img/safety joggers/MANAGER-safety jogger.webp-3.webp',
+            'assets/img/safety joggers/MANAGER-safety jogger.webp-4.webp'
         ],
 
         inStock: true,
@@ -8017,9 +8025,9 @@ Manufactured with high-quality leather and advanced safety features, the boot of
         discountPrice: 32000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328915/Astonic-Mart/Products/safety-boots/tiger_master_safety_boot.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328915/Astonic-Mart/Products/safety-boots/tiger_master_safety_boot.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328915/Astonic-Mart/Products/safety-boots/tiger_master_safety_boot.webp-3.webp'
+            'assets/img/safety-boots/tiger master safety boot.webp',
+            'assets/img/safety-boots/tiger master safety boot.webp-2.webp',
+            'assets/img/safety-boots/tiger master safety boot.webp-3.webp'
         ],
 
 
@@ -8092,10 +8100,10 @@ Its rugged construction offers protection against impact, compression, slips, an
         discountPrice: 90000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328757/Astonic-Mart/Products/safety-boots/bestknight_safety_jogger-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328757/Astonic-Mart/Products/safety-boots/bestknight_safety_jogger.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328757/Astonic-Mart/Products/safety-boots/bestknight_safety_jogger.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328757/Astonic-Mart/Products/safety-boots/bestknight_safety_jogger.jpg-4.jpg'
+            'assets/img/safety-boots/bestknight safety jogger-2.jpg',
+            'assets/img/safety-boots/bestknight safety jogger.jpg',
+            'assets/img/safety-boots/bestknight safety jogger.jpg-3.jpg',
+            'assets/img/safety-boots/bestknight safety jogger.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -8169,10 +8177,10 @@ The sporty design combines safety, flexibility, and all-day comfort, making it i
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311505/Astonic-Mart/Products/reflective%20jackets/reflective-polo.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311504/Astonic-Mart/Products/reflective%20jackets/reflective-polo.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311507/Astonic-Mart/Products/reflective%20jackets/reflective-polo-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311506/Astonic-Mart/Products/reflective%20jackets/reflective-polo.jpg-4.webp'
+            'assets/img/reflective jackets/reflective-polo.jpg-3.webp',
+            'assets/img/reflective jackets/reflective-polo.jpg',
+            'assets/img/reflective jackets/reflective-polo-2.jpg',
+            'assets/img/reflective jackets/reflective-polo.jpg-4.webp'
         ],
 
         inStock: true,
@@ -8232,12 +8240,12 @@ Made from breathable fabric, it is suitable for extended work hours in hot and d
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307777/Astonic-Mart/Products/helmets%20and%20faceshield/vent_helmet.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307779/Astonic-Mart/Products/helmets%20and%20faceshield/vent_helmet-white.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307776/Astonic-Mart/Products/helmets%20and%20faceshield/vent_helmet_yellow.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307775/Astonic-Mart/Products/helmets%20and%20faceshield/vent_helmet_red.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307773/Astonic-Mart/Products/helmets%20and%20faceshield/vent_helmet_blue.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307778/Astonic-Mart/Products/helmets%20and%20faceshield/vent_helmet-2.webp'
+            'assets/img/helmets and faceshield/vent helmet.webp',
+            'assets/img/helmets and faceshield/vent helmet-white.jpg',
+            'assets/img/helmets and faceshield/vent helmet yellow.jpeg',
+            'assets/img/helmets and faceshield/vent helmet red.webp',
+            'assets/img/helmets and faceshield/vent helmet blue.jpg',
+            'assets/img/helmets and faceshield/vent helmet-2.webp'
         ],
 
         inStock: true,
@@ -8302,11 +8310,11 @@ It is suitable for construction sites, factories, warehouses, engineering projec
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328606/Astonic-Mart/Products/safety%20eye%20google/anti_fog_eye_google.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328606/Astonic-Mart/Products/safety%20eye%20google/anti_fog_eye_google.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328606/Astonic-Mart/Products/safety%20eye%20google/anti_fog_eye_google.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328606/Astonic-Mart/Products/safety%20eye%20google/anti_fog_eye_google.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328606/Astonic-Mart/Products/safety%20eye%20google/anti_fog_eye_google.jpg-5.jpg'
+            'assets/img/safety eye google/anti fog eye google.jpg',
+            'assets/img/safety eye google/anti fog eye google.jpg-2.jpg',
+            'assets/img/safety eye google/anti fog eye google.jpg-3.jpg',
+            'assets/img/safety eye google/anti fog eye google.jpg-4.jpg',
+            'assets/img/safety eye google/anti fog eye google.jpg-5.jpg'
         ],
 
         inStock: true,
@@ -8370,12 +8378,12 @@ The lightweight design and adjustable head strap provide a comfortable and secur
         discountPrice: 140000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304256/Astonic-Mart/Products/belt/adela_waist_belt.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304257/Astonic-Mart/Products/belt/adela_waist_belt.avif-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304256/Astonic-Mart/Products/belt/adela_waist_belt.avif-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304259/Astonic-Mart/Products/belt/adela_waist_belt.avif-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304256/Astonic-Mart/Products/belt/adela_waist_belt.avif-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304256/Astonic-Mart/Products/belt/adela_waist_belt.avif-6.jpg'
+            'assets/img/belt/adela waist belt.avif',
+            'assets/img/belt/adela waist belt.avif-2.avif',
+            'assets/img/belt/adela waist belt.avif-3.webp',
+            'assets/img/belt/adela waist belt.avif-4.jpg',
+            'assets/img/belt/adela waist belt.avif-5.jpg',
+            'assets/img/belt/adela waist belt.avif-6.jpg'
         ],
 
         inStock: true,
@@ -8430,13 +8438,13 @@ The belt features an adjustable elastic support system that offers comfort, stab
         model: 'Latex Coated',
         price: 3500,
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307659/Astonic-Mart/Products/hand%20gloves/rough_coated_gloves_blue.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307661/Astonic-Mart/Products/hand%20gloves/rough_coated_gloves_blue-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307662/Astonic-Mart/Products/hand%20gloves/rough_coated_gloves_blue-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307663/Astonic-Mart/Products/hand%20gloves/rough_coated_gloves_blue-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307663/Astonic-Mart/Products/hand%20gloves/rough_coated_gloves_blue-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307664/Astonic-Mart/Products/hand%20gloves/rough_coated_gloves_blue-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307665/Astonic-Mart/Products/hand%20gloves/rough_coated_gloves_blue-7.jpg'
+            'assets/img/hand gloves/rough coated gloves blue.webp',
+            'assets/img/hand gloves/rough coated gloves blue-2.webp',
+            'assets/img/hand gloves/rough coated gloves blue-3.jpg',
+            'assets/img/hand gloves/rough coated gloves blue-4.jpg',
+            'assets/img/hand gloves/rough coated gloves blue-5.jpg',
+            'assets/img/hand gloves/rough coated gloves blue-6.jpg',
+            'assets/img/hand gloves/rough coated gloves blue-7.jpg'
         ],
         inStock: true,
         jumiaLink: '',
@@ -8489,10 +8497,10 @@ Blue Latex Coated Safety Work Gloves are designed to provide excellent grip, han
         price: 3300,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307613/Astonic-Mart/Products/hand%20gloves/Nitrile_Coated_Hand_Gloves_red.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307614/Astonic-Mart/Products/hand%20gloves/Nitrile_Coated_Hand_Gloves_red-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307615/Astonic-Mart/Products/hand%20gloves/Nitrile_Coated_Hand_Gloves_red-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307617/Astonic-Mart/Products/hand%20gloves/Nitrile_Coated_Hand_Gloves_red-4.webp'
+            'assets/img/hand gloves/Nitrile Coated Hand Gloves red.webp',
+            'assets/img/hand gloves/Nitrile Coated Hand Gloves red-2.webp',
+            'assets/img/hand gloves/Nitrile Coated Hand Gloves red-3.webp',
+            'assets/img/hand gloves/Nitrile Coated Hand Gloves red-4.webp'
         ],
         inStock: true,
         jumiaLink: '',
@@ -8548,7 +8556,7 @@ Red Nitrile Coated Safety Hand Gloves are designed for superior grip, abrasion r
         model: 'Latex Coated',
         price: 3500,
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307603/Astonic-Mart/Products/hand%20gloves/Latex_Coated_Orange_Rubber.jpg'
+            'assets/img/hand gloves/Latex Coated Orange Rubber.jpg'
         ],
         inStock: true,
         jumiaLink: '',
@@ -8602,11 +8610,11 @@ Orange Latex Coated Safety Hand Gloves are designed to provide excellent grip, f
         price: 18500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311432/Astonic-Mart/Products/rainwears/short_safety_rainboot.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311432/Astonic-Mart/Products/rainwears/short_safety_rainboot.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311432/Astonic-Mart/Products/rainwears/short_safety_rainboot.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311432/Astonic-Mart/Products/rainwears/short_safety_rainboot.webp-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311432/Astonic-Mart/Products/rainwears/short_safety_rainboot.webp-5.webp'
+            'assets/img/rainwears/short safety rainboot.webp',
+            'assets/img/rainwears/short safety rainboot.webp-2.webp',
+            'assets/img/rainwears/short safety rainboot.webp-3.webp',
+            'assets/img/rainwears/short safety rainboot.webp-4.webp',
+            'assets/img/rainwears/short safety rainboot.webp-5.webp'
         ],
 
         sizes: [40, 41, 42, 43, 44, 45, 46],
@@ -8662,8 +8670,8 @@ Yellow Short Ankle Rain Boots are lightweight waterproof protective boots design
         price: 18500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311412/Astonic-Mart/Products/rainwears/black_short_rainboot-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311390/Astonic-Mart/Products/rainwears/black_short_rainboot.jpg'
+            'assets/img/rainwears/black short rainboot-2.png',
+            'assets/img/rainwears/black short rainboot.jpg'
         ],
 
         sizes: [40, 41, 42, 43, 44, 45, 46],
@@ -8718,10 +8726,10 @@ Black Short Ankle Rain Boots are durable waterproof footwear designed to protect
         price: 18500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311417/Astonic-Mart/Products/rainwears/long_rainboot.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311417/Astonic-Mart/Products/rainwears/long_rainboot.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311417/Astonic-Mart/Products/rainwears/long_rainboot.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311417/Astonic-Mart/Products/rainwears/long_rainboot.jpg-4.jpg'
+            'assets/img/rainwears/long rainboot.jpg',
+            'assets/img/rainwears/long rainboot.jpg-2.jpg',
+            'assets/img/rainwears/long rainboot.jpg-3.jpg',
+            'assets/img/rainwears/long rainboot.jpg-4.jpg'
         ],
 
         sizes: [40, 41, 42, 43, 44, 45, 46],
@@ -8778,11 +8786,11 @@ Yellow Long Rain Boots are durable waterproof protective boots designed to provi
         price: 12000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307738/Astonic-Mart/Products/helmets%20and%20faceshield/rokk_helmet.png-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307738/Astonic-Mart/Products/helmets%20and%20faceshield/rokk_helmet.png-3.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307738/Astonic-Mart/Products/helmets%20and%20faceshield/rokk_helmet.png-4.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307738/Astonic-Mart/Products/helmets%20and%20faceshield/rokk_helmet.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307738/Astonic-Mart/Products/helmets%20and%20faceshield/rokk_helmet.png-5.png'
+            'assets/img/helmets and faceshield/rokk helmet.png-2.png',
+            'assets/img/helmets and faceshield/rokk helmet.png-3.png',
+            'assets/img/helmets and faceshield/rokk helmet.png-4.png',
+            'assets/img/helmets and faceshield/rokk helmet.png',
+            'assets/img/helmets and faceshield/rokk helmet.png-5.png'
         ],
         inStock: true,
         jumiaLink: '',
@@ -8842,10 +8850,10 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
         price: 95000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309439/Astonic-Mart/Products/nose%20mask/303_nose_mask.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309440/Astonic-Mart/Products/nose%20mask/303_nose_mask-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309441/Astonic-Mart/Products/nose%20mask/303_nose_mask-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309442/Astonic-Mart/Products/nose%20mask/303_nose_mask-4.jpg'
+            'assets/img/nose mask/303 nose mask.jpg',
+            'assets/img/nose mask/303 nose mask-2.jpg',
+            'assets/img/nose mask/303 nose mask-3.jpg',
+            'assets/img/nose mask/303 nose mask-4.jpg'
         ],
 
         inStock: true,
@@ -8901,10 +8909,10 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309449/Astonic-Mart/Products/nose%20mask/306_nose_mask-.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309450/Astonic-Mart/Products/nose%20mask/306_nose_mask-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309451/Astonic-Mart/Products/nose%20mask/306_nose_mask-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309452/Astonic-Mart/Products/nose%20mask/306_nose_mask-4.jpg'
+            'assets/img/nose mask/306 nose mask-.jpg',
+            'assets/img/nose mask/306 nose mask-2.jpg',
+            'assets/img/nose mask/306 nose mask-3.webp',
+            'assets/img/nose mask/306 nose mask-4.jpg'
         ],
 
         inStock: true,
@@ -8959,11 +8967,11 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
         discountPrice: 90000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305631/Astonic-Mart/Products/coveralls/red_wings_coveralls.webp-3.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305631/Astonic-Mart/Products/coveralls/red_wings_coveralls.webp-4.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305631/Astonic-Mart/Products/coveralls/red_wings_coveralls.webp-5.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305631/Astonic-Mart/Products/coveralls/red_wings_coveralls.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305631/Astonic-Mart/Products/coveralls/red_wings_coveralls.webp-2.webp'
+            'assets/img/coveralls/red wings coveralls.webp-3.png',
+            'assets/img/coveralls/red wings coveralls.webp-4.png',
+            'assets/img/coveralls/red wings coveralls.webp-5.png',
+            'assets/img/coveralls/red wings coveralls.webp',
+            'assets/img/coveralls/red wings coveralls.webp-2.webp'
         ],
 
         inStock: true,
@@ -9032,11 +9040,11 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306540/Astonic-Mart/Products/fire%20wears/fire_shoe.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306542/Astonic-Mart/Products/fire%20wears/fire_shoe-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306543/Astonic-Mart/Products/fire%20wears/fire_shoe-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306546/Astonic-Mart/Products/fire%20wears/fire_shoe-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306548/Astonic-Mart/Products/fire%20wears/fire_shoe-5.jpg'
+            'assets/img/fire wears/fire shoe.jpg',
+            'assets/img/fire wears/fire shoe-2.jpg',
+            'assets/img/fire wears/fire shoe-3.jpg',
+            'assets/img/fire wears/fire shoe-4.jpg',
+            'assets/img/fire wears/fire shoe-5.jpg'
         ],
 
         inStock: true,
@@ -9108,8 +9116,8 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
         discountPrice: 30000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311443/Astonic-Mart/Products/rainwears/up_and_down_yellow_raincoat.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311445/Astonic-Mart/Products/rainwears/up_and_down_yellow_raincoat-2.jpg'
+            'assets/img/rainwears/up and down yellow raincoat.jpg',
+            'assets/img/rainwears/up and down yellow raincoat-2.jpeg'
         ],
 
         inStock: true,
@@ -9180,10 +9188,10 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
         price: 48000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328768/Astonic-Mart/Products/safety-boots/Ingco_Safety_boots%2C_SSH02SB.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328779/Astonic-Mart/Products/safety-boots/Ingco_Safety_boots%2C_SSH02SB-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328768/Astonic-Mart/Products/safety-boots/Ingco_Safety_boots%2C_SSH02SB.webp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328779/Astonic-Mart/Products/safety-boots/Ingco_Safety_boots%2C_SSH02SB-4.jpg'
+            'assets/img/safety-boots/Ingco Safety boots, SSH02SB.jpg',
+            'assets/img/safety-boots/Ingco Safety boots, SSH02SB-2.webp',
+            'assets/img/safety-boots/Ingco Safety boots, SSH02SB.jpg-2.jpg',
+            'assets/img/safety-boots/Ingco Safety boots, SSH02SB-4.png'
         ],
 
         inStock: true,
@@ -9252,11 +9260,11 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328779/Astonic-Mart/Products/safety-boots/ingco_safety_SSH01SB.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328779/Astonic-Mart/Products/safety-boots/ingco_safety_SSH01SB.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328779/Astonic-Mart/Products/safety-boots/ingco_safety_SSH01SB.webp-4.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328779/Astonic-Mart/Products/safety-boots/ingco_safety_SSH01SB.webp-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328779/Astonic-Mart/Products/safety-boots/ingco_safety_SSH01SB.webp-3.webp'
+            'assets/img/safety-boots/ingco safety SSH01SB.webp',
+            'assets/img/safety-boots/ingco safety SSH01SB.webp-2.webp',
+            'assets/img/safety-boots/ingco safety SSH01SB.webp-4.jpeg',
+            'assets/img/safety-boots/ingco safety SSH01SB.webp-5.webp',
+            'assets/img/safety-boots/ingco safety SSH01SB.webp-3.webp'
         ],
 
         inStock: true,
@@ -9326,10 +9334,10 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311430/Astonic-Mart/Products/rainwears/Rain_boot_INGCO_SSH092LYB-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311428/Astonic-Mart/Products/rainwears/Rain_boot_INGCO_SSH092LYB.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311429/Astonic-Mart/Products/rainwears/Rain_boot_INGCO_SSH092LYB-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311431/Astonic-Mart/Products/rainwears/Rain_boot_INGCO_SSH092LYB-4.jpg'
+            'assets/img/rainwears/Rain boot INGCO SSH092LYB-3.webp',
+            'assets/img/rainwears/Rain boot INGCO SSH092LYB.webp',
+            'assets/img/rainwears/Rain boot INGCO SSH092LYB-2.jpg',
+            'assets/img/rainwears/Rain boot INGCO SSH092LYB-4.jpg'
         ],
 
         inStock: true,
@@ -9396,13 +9404,13 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
         model: 'S1 PS',
 
         price: 89000,
-        discountPrice: 98000,
+        discountPrice: 980000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328694/Astonic-Mart/Products/safety%20joggers/RAPTOR-SJ.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328694/Astonic-Mart/Products/safety%20joggers/RAPTOR-SJ-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328696/Astonic-Mart/Products/safety%20joggers/RAPTOR-SJ-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328696/Astonic-Mart/Products/safety%20joggers/RAPTOR-SJ-4.webp'
+            'assets/img/safety joggers/RAPTOR-SJ.webp',
+            'assets/img/safety joggers/RAPTOR-SJ-2.webp',
+            'assets/img/safety joggers/RAPTOR-SJ-3.webp',
+            'assets/img/safety joggers/RAPTOR-SJ-4.webp'
         ],
 
         inStock: true,
@@ -9471,10 +9479,10 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
         discountPrice: 88000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328709/Astonic-Mart/Products/safety%20joggers/TURBO_S3S_SJ.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328709/Astonic-Mart/Products/safety%20joggers/TURBO_S3S_SJ.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328708/Astonic-Mart/Products/safety%20joggers/TURBO_S3S_SJ.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328708/Astonic-Mart/Products/safety%20joggers/TURBO_S3S_SJ.webp-4.webp'
+            'assets/img/safety joggers/TURBO S3S SJ.webp',
+            'assets/img/safety joggers/TURBO S3S SJ.webp-2.webp',
+            'assets/img/safety joggers/TURBO S3S SJ.webp-3.webp',
+            'assets/img/safety joggers/TURBO S3S SJ.webp-4.webp'
         ],
 
         inStock: true,
@@ -9528,11 +9536,11 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
         discountPrice: 65000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305521/Astonic-Mart/Products/cold%20room%20wears/cold_room_safety_boot.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305522/Astonic-Mart/Products/cold%20room%20wears/cold_room_safety_boot-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305523/Astonic-Mart/Products/cold%20room%20wears/cold_room_safety_boot-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305525/Astonic-Mart/Products/cold%20room%20wears/cold_room_safety_boot-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305526/Astonic-Mart/Products/cold%20room%20wears/cold_room_safety_boot-5.webp'
+            'assets/img/cold room wears/cold room safety boot.webp',
+            'assets/img/cold room wears/cold room safety boot-2.jpeg',
+            'assets/img/cold room wears/cold room safety boot-3.webp',
+            'assets/img/cold room wears/cold room safety boot-4.webp',
+            'assets/img/cold room wears/cold room safety boot-5.webp'
         ],
 
         inStock: true,
@@ -9587,11 +9595,11 @@ Roxx Industrial Safety Helmet is a lightweight protective hard hat designed to p
         price: 9900,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330049/Astonic-Mart/Products/traffic%20safety/wet_floor_caution_sign.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328721/Astonic-Mart/Products/safety%20signs/caution_wet_floor_sign-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328727/Astonic-Mart/Products/safety%20signs/caution_wet_floor_sign-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328727/Astonic-Mart/Products/safety%20signs/caution_wet_floor_sign-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328721/Astonic-Mart/Products/safety%20signs/caution_wet_floor_sign.png'
+            'assets/img/traffic safety/wet floor caution sign.webp',
+            'assets/img/safety signs/caution wet floor sign-2.jpg',
+            'assets/img/safety signs/caution wet floor sign-3.jpg',
+            'assets/img/safety signs/caution wet floor sign-4.jpg',
+            'assets/img/safety signs/caution wet floor sign.png'
         ],
 
         inStock: true,
@@ -9639,12 +9647,12 @@ The foldable A-frame design allows for easy storage and portability, making it c
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328735/Astonic-Mart/Products/safety%20signs/cone_caution_sign.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328735/Astonic-Mart/Products/safety%20signs/cone_caution_sign-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328736/Astonic-Mart/Products/safety%20signs/cone_caution_sign-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328737/Astonic-Mart/Products/safety%20signs/cone_caution_sign-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328736/Astonic-Mart/Products/safety%20signs/cone_caution_sign-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328742/Astonic-Mart/Products/safety%20signs/cone_caution_sign-6.jpg'
+            'assets/img/safety signs/cone caution sign.jpg',
+            'assets/img/safety signs/cone caution sign-3.avif',
+            'assets/img/safety signs/cone caution sign-2.jpg',
+            'assets/img/safety signs/cone caution sign-4.jpg',
+            'assets/img/safety signs/cone caution sign-5.jpg',
+            'assets/img/safety signs/cone caution sign-6.jpg'
         ],
 
         inStock: true,
@@ -9693,10 +9701,10 @@ The foldable A-frame design allows for easy storage and portability, making it c
         price: 10000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328753/Astonic-Mart/Products/safety%20signs/men_at_work_caution_sign-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328753/Astonic-Mart/Products/safety%20signs/men_at_work_caution_sign-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328750/Astonic-Mart/Products/safety%20signs/men_at_work_caution_sign.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328750/Astonic-Mart/Products/safety%20signs/men_at_work_caution_sign-2.webp'
+            'assets/img/safety signs/men at work caution sign-4.webp',
+            'assets/img/safety signs/men at work caution sign-3.jpg',
+            'assets/img/safety signs/men at work caution sign.jpeg',
+            'assets/img/safety signs/men at work caution sign-2.webp'
         ],
 
         inStock: true,
@@ -9747,10 +9755,10 @@ The foldable A-frame design allows for easy storage and portability, making it c
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328753/Astonic-Mart/Products/safety%20signs/working_in_prog_caution_sign.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328753/Astonic-Mart/Products/safety%20signs/working_in_prog_caution_sign-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328753/Astonic-Mart/Products/safety%20signs/working_in_prog_caution_sign-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328755/Astonic-Mart/Products/safety%20signs/working_in_prog_caution_sign-4.jpg'
+            'assets/img/safety signs/working in prog caution sign.jpg',
+            'assets/img/safety signs/working in prog caution sign-2.jpg',
+            'assets/img/safety signs/working in prog caution sign-3.jpg',
+            'assets/img/safety signs/working in prog caution sign-4.jpg'
         ],
 
         inStock: true,
@@ -9801,9 +9809,9 @@ The foldable A-frame design allows for easy storage and portability, making it c
         price: 12000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328732/Astonic-Mart/Products/safety%20signs/clean_in_prog.jpg-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328732/Astonic-Mart/Products/safety%20signs/clean_in_prog.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328732/Astonic-Mart/Products/safety%20signs/clean_in_prog.jpg'
+            'assets/img/safety signs/clean in prog.jpg-2.png',
+            'assets/img/safety signs/clean in prog.jpg-3.jpg',
+            'assets/img/safety signs/clean in prog.jpg'
         ],
 
         inStock: true,
@@ -9855,10 +9863,10 @@ The foldable A-frame design allows for easy storage and portability, making it c
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311421/Astonic-Mart/Products/rainwears/non_safety_rain_boot.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311421/Astonic-Mart/Products/rainwears/non_safety_rain_boot.webp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311421/Astonic-Mart/Products/rainwears/non_safety_rain_boot.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311421/Astonic-Mart/Products/rainwears/non_safety_rain_boot.webp-4.avif'
+            'assets/img/rainwears/non safety rain boot.webp',
+            'assets/img/rainwears/non safety rain boot.webp-2.jpg',
+            'assets/img/rainwears/non safety rain boot.webp-3.webp',
+            'assets/img/rainwears/non safety rain boot.webp-4.avif'
         ],
 
         inStock: true,
@@ -9909,9 +9917,9 @@ The foldable A-frame design allows for easy storage and portability, making it c
         discountPrice: 5500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328635/Astonic-Mart/Products/safety%20eye%20google/rokk_safety_google.png-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328635/Astonic-Mart/Products/safety%20eye%20google/rokk_safety_google.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328648/Astonic-Mart/Products/safety%20eye%20google/rokk_safety_google-3.png'
+            'assets/img/safety eye google/rokk safety google.png-2.png',
+            'assets/img/safety eye google/rokk safety google.png',
+            'assets/img/safety eye google/rokk safety google-3.png'
         ],
 
         inStock: true,
@@ -9961,7 +9969,7 @@ The foldable A-frame design allows for easy storage and portability, making it c
         price: 75000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305630/Astonic-Mart/Products/coveralls/red_horse_fire_coverall.png'
+            'assets/img/coveralls/red horse fire coverall.png'
         ],
 
         inStock: true,
@@ -10015,9 +10023,9 @@ The foldable A-frame design allows for easy storage and portability, making it c
         price: 8500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306008/Astonic-Mart/Products/disposables/Nurse_Clip_Cap_-_Surgical_Disposable_-_100pcs.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306010/Astonic-Mart/Products/disposables/Nurse_Clip_Cap_-_Surgical_Disposable_-_100pcs-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306013/Astonic-Mart/Products/disposables/Nurse_Clip_Cap_-_Surgical_Disposable_-_100pcs-3.avif'
+            'assets/img/disposables/Nurse Clip Cap - Surgical Disposable - 100pcs.webp',
+            'assets/img/disposables/Nurse Clip Cap - Surgical Disposable - 100pcs-2.webp',
+            'assets/img/disposables/Nurse Clip Cap - Surgical Disposable - 100pcs-3.avif'
         ],
 
         inStock: true,
@@ -10070,9 +10078,9 @@ The foldable A-frame design allows for easy storage and portability, making it c
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306007/Astonic-Mart/Products/disposables/disposable_shoe_cover-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306006/Astonic-Mart/Products/disposables/disposable_shoe_cover-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306004/Astonic-Mart/Products/disposables/disposable_shoe_cover.jpg'
+            'assets/img/disposables/disposable shoe cover-3.jpg',
+            'assets/img/disposables/disposable shoe cover-2.jpg',
+            'assets/img/disposables/disposable shoe cover.jpeg'
         ],
 
         inStock: true,
@@ -10126,11 +10134,11 @@ The foldable A-frame design allows for easy storage and portability, making it c
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307726/Astonic-Mart/Products/helmets%20and%20faceshield/Hard_Hat_Sun_Shield.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307726/Astonic-Mart/Products/helmets%20and%20faceshield/Hard_Hat_Sun_Shield.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307726/Astonic-Mart/Products/helmets%20and%20faceshield/Hard_Hat_Sun_Shield.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307726/Astonic-Mart/Products/helmets%20and%20faceshield/Hard_Hat_Sun_Shield.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307726/Astonic-Mart/Products/helmets%20and%20faceshield/Hard_Hat_Sun_Shield.jpg-5.jpg'
+            'assets/img/helmets and faceshield/Hard Hat Sun Shield.jpg',
+            'assets/img/helmets and faceshield/Hard Hat Sun Shield.jpg-2.jpg',
+            'assets/img/helmets and faceshield/Hard Hat Sun Shield.jpg-3.jpg',
+            'assets/img/helmets and faceshield/Hard Hat Sun Shield.jpg-4.jpg',
+            'assets/img/helmets and faceshield/Hard Hat Sun Shield.jpg-5.jpg'
         ],
 
         inStock: true,
@@ -10183,10 +10191,10 @@ The foldable A-frame design allows for easy storage and portability, making it c
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304304/Astonic-Mart/Products/belt/single_hook_body_harness.png-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304303/Astonic-Mart/Products/belt/single_hook_body_harness.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304306/Astonic-Mart/Products/belt/single_hook_body_harness-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304307/Astonic-Mart/Products/belt/single_hook_body_harness-4.jpg'
+            'assets/img/belt/single hook body harness.png-2.webp',
+            'assets/img/belt/single hook body harness.png',
+            'assets/img/belt/single hook body harness-3.jpg',
+            'assets/img/belt/single hook body harness-4.jpg'
         ],
 
         inStock: true,
@@ -10238,11 +10246,11 @@ The foldable A-frame design allows for easy storage and portability, making it c
         price: 55000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328918/Astonic-Mart/Products/safety-boots/TOTAL_Safety_Boots_S1P_TSP201S1P.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328924/Astonic-Mart/Products/safety-boots/TOTAL_Safety_Boots_S1P_TSP201S1P-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328922/Astonic-Mart/Products/safety-boots/TOTAL_Safety_Boots_S1P_TSP201S1P-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328917/Astonic-Mart/Products/safety-boots/TOTAL_Safety_Boots_S1P_TSP201S1P-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328918/Astonic-Mart/Products/safety-boots/TOTAL_Safety_Boots_S1P_TSP201S1P-2.webp'
+            'assets/img/safety-boots/TOTAL Safety Boots S1P (TSP201S1P).jpg',
+            'assets/img/safety-boots/TOTAL Safety Boots S1P (TSP201S1P)-5.jpg',
+            'assets/img/safety-boots/TOTAL Safety Boots S1P (TSP201S1P)-4.jpeg',
+            'assets/img/safety-boots/TOTAL Safety Boots S1P (TSP201S1P)-3.jpeg',
+            'assets/img/safety-boots/TOTAL Safety Boots S1P (TSP201S1P)-2.webp'
         ],
         sizes: [40, 41, 42, 43, 44, 45, 46],
         inStock: false,
@@ -10297,11 +10305,11 @@ The foldable A-frame design allows for easy storage and portability, making it c
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328924/Astonic-Mart/Products/safety-boots/TOTAL_Safety_Shoes_SB_TSP208SB-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328923/Astonic-Mart/Products/safety-boots/TOTAL_Safety_Shoes_SB_TSP208SB.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328927/Astonic-Mart/Products/safety-boots/TOTAL_Safety_Shoes_SB_TSP208SB-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328923/Astonic-Mart/Products/safety-boots/TOTAL_Safety_Shoes_SB_TSP208SB-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328929/Astonic-Mart/Products/safety-boots/TOTAL_Safety_Shoes_SB_TSP208SB-5.webp'
+            'assets/img/safety-boots/TOTAL Safety Shoes SB (TSP208SB)-3.jpg',
+            'assets/img/safety-boots/TOTAL Safety Shoes SB (TSP208SB).webp',
+            'assets/img/safety-boots/TOTAL Safety Shoes SB (TSP208SB)-4.jpeg',
+            'assets/img/safety-boots/TOTAL Safety Shoes SB (TSP208SB)-2.jpeg',
+            'assets/img/safety-boots/TOTAL Safety Shoes SB (TSP208SB)-5.jpeg'
         ],
 
         inStock: false,
@@ -10350,10 +10358,10 @@ The foldable A-frame design allows for easy storage and portability, making it c
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307666/Astonic-Mart/Products/hand%20gloves/rubber_hand_gloves.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307670/Astonic-Mart/Products/hand%20gloves/rubber_hand_gloves-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307671/Astonic-Mart/Products/hand%20gloves/rubber_hand_gloves-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307672/Astonic-Mart/Products/hand%20gloves/rubber_hand_gloves-4.png'
+            'assets/img/hand gloves/rubber hand gloves.jpg',
+            'assets/img/hand gloves/rubber hand gloves-2.jpg',
+            'assets/img/hand gloves/rubber hand gloves-3.jpg',
+            'assets/img/hand gloves/rubber hand gloves-4.png'
         ],
 
         inStock: true,
@@ -10400,9 +10408,9 @@ The foldable A-frame design allows for easy storage and portability, making it c
         price: 20000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328755/Astonic-Mart/Products/safety-boots/armstrong_safety_boot.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328755/Astonic-Mart/Products/safety-boots/armstrong_safety_boot-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328757/Astonic-Mart/Products/safety-boots/armstrong_safety_boot-3.jpg',
+            'assets/img/safety-boots/armstrong safety boot.webp',
+            'assets/img/safety-boots/armstrong safety boot-2.jpg',
+            'assets/img/safety-boots/armstrong safety boot-3.jpeg',
 
         ],
 
@@ -10465,11 +10473,11 @@ Ideal for construction and factory environments
         price: 55000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307730/Astonic-Mart/Products/helmets%20and%20faceshield/ingco_auto_weld_helmet.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307731/Astonic-Mart/Products/helmets%20and%20faceshield/ingco_auto_weld_helmet-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307732/Astonic-Mart/Products/helmets%20and%20faceshield/ingco_auto_weld_helmet-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307733/Astonic-Mart/Products/helmets%20and%20faceshield/ingco_auto_weld_helmet-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307734/Astonic-Mart/Products/helmets%20and%20faceshield/ingco_auto_weld_helmet-5.jpg'
+            'assets/img/helmets and faceshield/ingco auto weld helmet.jpg',
+            'assets/img/helmets and faceshield/ingco auto weld helmet-2.jpg',
+            'assets/img/helmets and faceshield/ingco auto weld helmet-3.jpg',
+            'assets/img/helmets and faceshield/ingco auto weld helmet-4.jpg',
+            'assets/img/helmets and faceshield/ingco auto weld helmet-5.jpg'
         ],
 
         inStock: true,
@@ -10540,8 +10548,8 @@ User Manual
         price: 22000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307633/Astonic-Mart/Products/hand%20gloves/PAC_FIRE_Heat_Resistant_Welding_Gloves.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307638/Astonic-Mart/Products/hand%20gloves/PAC_FIRE_Heat_Resistant_Welding_Gloves-2.png'
+            'assets/img/hand gloves/PAC FIRE Heat Resistant Welding Gloves.png',
+            'assets/img/hand gloves/PAC FIRE Heat Resistant Welding Gloves-2.png'
         ],
 
         inStock: true,
@@ -10589,11 +10597,11 @@ Designed for industrial and workshop environments
         brand: 'Motorola',
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330351/Astonic-Mart/Products/walkietalkies/motorola_mt-777_radio_WT.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330351/Astonic-Mart/Products/walkietalkies/motorola_mt-777_radio_WT-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330351/Astonic-Mart/Products/walkietalkies/motorola_mt-777_radio_WT-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330351/Astonic-Mart/Products/walkietalkies/motorola_mt-777_radio_WT-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330351/Astonic-Mart/Products/walkietalkies/motorola_mt-777_radio_WT-5.jpg'
+            'assets/img/walkietalkies/motorola mt-777 radio WT.jpg',
+            'assets/img/walkietalkies/motorola mt-777 radio WT-2.avif',
+            'assets/img/walkietalkies/motorola mt-777 radio WT-3.jpg',
+            'assets/img/walkietalkies/motorola mt-777 radio WT-4.jpg',
+            'assets/img/walkietalkies/motorola mt-777 radio WT-5.jpeg'
         ],
 
         inStock: true,
@@ -10644,10 +10652,10 @@ Easy channel selection and operation
         price: 88000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328704/Astonic-Mart/Products/safety%20joggers/SPEEDY_SJ.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328704/Astonic-Mart/Products/safety%20joggers/SPEEDY_SJ-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328706/Astonic-Mart/Products/safety%20joggers/SPEEDY_SJ-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328706/Astonic-Mart/Products/safety%20joggers/SPEEDY_SJ-4.webp'
+            'assets/img/safety joggers/SPEEDY SJ.webp',
+            'assets/img/safety joggers/SPEEDY SJ-2.webp',
+            'assets/img/safety joggers/SPEEDY SJ-3.webp',
+            'assets/img/safety joggers/SPEEDY SJ-4.webp'
         ],
 
         inStock: true,
@@ -10701,11 +10709,11 @@ Modern mid-cut professional design
         price: 290000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304715/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_BAND_SAW_350W_TS730301.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304716/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_BAND_SAW_350W_TS730301-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304716/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_BAND_SAW_350W_TS730301-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304679/Astonic-Mart/Products/chain%20and%20%20band%20saws/ingco_Gasoline_chain_saw_GCS5602411-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304718/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_BAND_SAW_350W_TS730301-5.jpg'
+            'assets/img/chain and  band saws/TOTAL BAND SAW 350W (TS730301).jpg',
+            'assets/img/chain and  band saws/TOTAL BAND SAW 350W (TS730301)-2.jpg',
+            'assets/img/chain and  band saws/TOTAL BAND SAW 350W (TS730301)-3.jpg',
+            'assets/img/chain and  band saws/ingco  Gasoline chain saw GCS5602411-4.jpg',
+            'assets/img/chain and  band saws/TOTAL BAND SAW 350W (TS730301)-5.jpeg'
         ],
 
         inStock: true,
@@ -10760,8 +10768,8 @@ Suitable for workshops and DIY applications
         price: 280000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304730/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_Lithium-ion_band_saw_20V_TBSLI201272.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304731/Astonic-Mart/Products/chain%20and%20%20band%20saws/TOTAL_Lithium-ion_band_saw_20V_TBSLI201272-2.webp',
+            'assets/img/chain and  band saws/TOTAL Lithium-ion band saw 20V (TBSLI201272).jpg',
+            'assets/img/chain and  band saws/TOTAL Lithium-ion band saw 20V (TBSLI201272)-2.webp',
         ],
 
         inStock: true,
@@ -10812,10 +10820,10 @@ Easy blade replacement and maintenance
         discountPrice: 322500,
         brand: 'Generic',
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306783/Astonic-Mart/Products/gas%20detectors/SMART_SENSOR_ST8904_4-in-1_Gas_Monitor.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306785/Astonic-Mart/Products/gas%20detectors/SMART_SENSOR_ST8904_4-in-1_Gas_Monitor-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306787/Astonic-Mart/Products/gas%20detectors/SMART_SENSOR_ST8904_4-in-1_Gas_Monitor-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306788/Astonic-Mart/Products/gas%20detectors/SMART_SENSOR_ST8904_4-in-1_Gas_Monitor-4.jpg'
+            'assets/img/gas detectors/SMART SENSOR ST8904 4-in-1 Gas Monitor.webp',
+            'assets/img/gas detectors/SMART SENSOR ST8904 4-in-1 Gas Monitor-2.avif',
+            'assets/img/gas detectors/SMART SENSOR ST8904 4-in-1 Gas Monitor-3.avif',
+            'assets/img/gas detectors/SMART SENSOR ST8904 4-in-1 Gas Monitor-4.jpg'
         ],
 
         inStock: true,
@@ -10887,14 +10895,14 @@ Ideal for industrial safety applications
         discountPrice: 79000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306774/Astonic-Mart/Products/gas%20detectors/smart_sensor_as8800l_gas_detector-1.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306775/Astonic-Mart/Products/gas%20detectors/smart_sensor_as8800l_gas_detector-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306777/Astonic-Mart/Products/gas%20detectors/smart_sensor_as8800l_gas_detector-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306778/Astonic-Mart/Products/gas%20detectors/smart_sensor_as8800l_gas_detector-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306780/Astonic-Mart/Products/gas%20detectors/smart_sensor_as8800l_gas_detector-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306780/Astonic-Mart/Products/gas%20detectors/smart_sensor_as8800l_gas_detector-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306782/Astonic-Mart/Products/gas%20detectors/smart_sensor_as8800l_gas_detector-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306773/Astonic-Mart/Products/gas%20detectors/smart_sensor_as8800l_gas_detector.jpg'
+            'assets/img/gas detectors/smart sensor as8800l gas detector-1.webp',
+            'assets/img/gas detectors/smart sensor as8800l gas detector-2.jpg',
+            'assets/img/gas detectors/smart sensor as8800l gas detector-3.jpg',
+            'assets/img/gas detectors/smart sensor as8800l gas detector-4.jpg',
+            'assets/img/gas detectors/smart sensor as8800l gas detector-5.jpg',
+            'assets/img/gas detectors/smart sensor as8800l gas detector-5.jpg',
+            'assets/img/gas detectors/smart sensor as8800l gas detector-6.jpg',
+            'assets/img/gas detectors/smart sensor as8800l gas detector.jpg'
         ],
 
         inStock: true,
@@ -10965,10 +10973,10 @@ Ideal for industrial and maintenance applications
         discountPrice: 79000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328763/Astonic-Mart/Products/safety-boots/DUNE_safety_SJ.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328763/Astonic-Mart/Products/safety-boots/DUNE_safety_SJ-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328763/Astonic-Mart/Products/safety-boots/DUNE_safety_SJ-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328763/Astonic-Mart/Products/safety-boots/DUNE_safety_SJ-4.webp'
+            'assets/img/safety-boots/DUNE safety SJ.webp',
+            'assets/img/safety-boots/DUNE safety SJ-2.webp',
+            'assets/img/safety-boots/DUNE safety SJ-3.webp',
+            'assets/img/safety-boots/DUNE safety SJ-4.webp'
         ],
 
         sizes: [39, 40, 41, 42, 43, 44, 45, 46],
@@ -11038,10 +11046,10 @@ Long service life
         discountPrice: 79000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328913/Astonic-Mart/Products/safety-boots/tactic_SJ.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328913/Astonic-Mart/Products/safety-boots/tactic_SJ.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328913/Astonic-Mart/Products/safety-boots/tactic_SJ.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328913/Astonic-Mart/Products/safety-boots/tactic_SJ.webp-4.webp'
+            'assets/img/safety-boots/tactic SJ.webp',
+            'assets/img/safety-boots/tactic SJ.webp-3.webp',
+            'assets/img/safety-boots/tactic SJ.webp-3.webp',
+            'assets/img/safety-boots/tactic SJ.webp-4.webp'
         ],
 
         sizes: [39, 40, 41, 42, 43, 44, 45, 46],
@@ -11104,7 +11112,7 @@ Professional work footwear
         brand: 'Ingco',
         price: 27000,
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306636/Astonic-Mart/Products/flashlights/ingco_flashlight_HCFL186503.jpg'
+            'assets/img/flashlights/ingco flashlight HCFL186503.jpg'
         ],
 
         model: 'HCFL186503',
@@ -11164,8 +11172,8 @@ Professional work footwear
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306659/Astonic-Mart/Products/flashlights/P50_LED_Rechargeable_Tactical_Flashlight_Ki.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306662/Astonic-Mart/Products/flashlights/P50_LED_Rechargeable_Tactical_Flashlight_Ki-2.png'
+            'assets/img/flashlights/P50 LED Rechargeable Tactical Flashlight Ki.png',
+            'assets/img/flashlights/P50 LED Rechargeable Tactical Flashlight Ki-2.png'
         ],
 
         model: 'P50',
@@ -11230,10 +11238,10 @@ Professional work footwear
         sizes: [39, 40, 41, 42, 43, 44, 45, 46],
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328674/Astonic-Mart/Products/safety%20joggers/ECONILA_safety_shoe.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328674/Astonic-Mart/Products/safety%20joggers/ECONILA_safety_shoe-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328674/Astonic-Mart/Products/safety%20joggers/ECONILA_safety_shoe-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328676/Astonic-Mart/Products/safety%20joggers/ECONILA_safety_shoe-4.webp'
+            'assets/img/safety joggers/ECONILA safety shoe.webp',
+            'assets/img/safety joggers/ECONILA safety shoe-2.webp',
+            'assets/img/safety joggers/ECONILA safety shoe-3.webp',
+            'assets/img/safety joggers/ECONILA safety shoe-4.webp'
         ],
 
         model: 'ECONILA S1 LOW',
@@ -11324,10 +11332,10 @@ Professional work footwear
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328680/Astonic-Mart/Products/safety%20joggers/ligero_SJ.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328680/Astonic-Mart/Products/safety%20joggers/ligero_SJ-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328680/Astonic-Mart/Products/safety%20joggers/ligero_SJ-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328684/Astonic-Mart/Products/safety%20joggers/ligero_SJ-4.webp'
+            'assets/img/safety joggers/ligero SJ.webp',
+            'assets/img/safety joggers/ligero SJ-2.webp',
+            'assets/img/safety joggers/ligero SJ-3.webp',
+            'assets/img/safety joggers/ligero SJ-4.webp'
         ],
 
         description: 'The Safety Jogger LIGERO S1P is an ultra-lightweight safety shoe designed for professionals who require reliable foot protection without sacrificing comfort. Featuring a steel toe cap, puncture-resistant midsole, anti-static properties, and energy-absorbing heel, it is ideal for warehouses, logistics, manufacturing, assembly lines, maintenance work, and light industrial environments.',
@@ -11408,10 +11416,10 @@ Ideal for warehouse and industrial use
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328800/Astonic-Mart/Products/safety-boots/jungle_rider_safety_boot-1.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328785/Astonic-Mart/Products/safety-boots/jungle_rider_safety_boot-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328814/Astonic-Mart/Products/safety-boots/jungle_rider_safety_boot-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328787/Astonic-Mart/Products/safety-boots/jungle_rider_safety_boot.jpg'
+            'assets/img/safety-boots/jungle rider safety boot-1.png',
+            'assets/img/safety-boots/jungle rider safety boot-2.jpeg',
+            'assets/img/safety-boots/jungle rider safety boot-3.webp',
+            'assets/img/safety-boots/jungle rider safety boot.jpg'
         ],
 
         description: 'The Jungle Rider Safety Boot is a durable industrial safety boot designed to provide reliable protection and comfort in demanding work environments. It features a reinforced steel toe cap, slip-resistant outsole, and oil-resistant sole construction, making it suitable for construction sites, factories, warehouses, workshops, oil and gas facilities, and general industrial applications.',
@@ -11491,9 +11499,9 @@ Designed for professional workers
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311414/Astonic-Mart/Products/rainwears/green_safety_rainboot.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311415/Astonic-Mart/Products/rainwears/green_safety_rainboot-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311413/Astonic-Mart/Products/rainwears/black_short_rainboot-3.jpg'
+            'assets/img/rainwears/green safety rainboot.avif',
+            'assets/img/rainwears/green safety rainboot-2.jpeg',
+            'assets/img/rainwears/black short rainboot-3.jpeg'
         ],
 
         description: 'The Green Safety Rain Boot is a heavy-duty waterproof safety boot designed to provide foot protection in wet, muddy, and hazardous working environments. Manufactured from durable PVC material and fitted with a protective steel toe cap, it is ideal for construction sites, agriculture, fisheries, factories, cleaning operations, mining, oil and gas facilities, and general industrial use.',
@@ -11573,10 +11581,10 @@ Ideal for industrial and agricultural use
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311446/Astonic-Mart/Products/rainwears/white_safety_rainboot.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311445/Astonic-Mart/Products/rainwears/up_and_down_yellow_raincoat-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311447/Astonic-Mart/Products/rainwears/white_safety_rainboot-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311448/Astonic-Mart/Products/rainwears/white_safety_rainboot-4.webp'
+            'assets/img/rainwears/white safety rainboot.webp',
+            'assets/img/rainwears/up and down yellow raincoat-2.jpeg',
+            'assets/img/rainwears/white safety rainboot-3.webp',
+            'assets/img/rainwears/white safety rainboot-4.webp'
         ],
 
         description: 'The White Safety Rain Boot is a waterproof industrial safety boot designed for use in food processing plants, pharmaceutical facilities, laboratories, agriculture, fisheries, cleaning operations, and industrial environments. Manufactured from durable PVC material and fitted with a protective steel toe cap, it offers excellent protection against water, mud, chemicals, and workplace hazards while ensuring comfort during prolonged use.',
@@ -11657,9 +11665,9 @@ Ideal for industrial and agricultural applications
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328895/Astonic-Mart/Products/safety-boots/safety_master_safety_boot.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328911/Astonic-Mart/Products/safety-boots/safety_master_safety_boot-3.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328915/Astonic-Mart/Products/safety-boots/tiger_master_safety_boot.webp-2.webp',
+            'assets/img/safety-boots/safety master safety boot.png',
+            'assets/img/safety-boots/safety master safety boot-3.png',
+            'assets/img/safety-boots/tiger master safety boot.webp-2.webp',
 
         ],
 
@@ -11748,7 +11756,7 @@ Suitable for indoor and outdoor industrial use
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311481/Astonic-Mart/Products/reflective%20jackets/4_pocket_reflective_vest.png',
+            'assets/img/reflective jackets/4 pocket reflective vest.png',
 
         ],
 
@@ -11822,10 +11830,10 @@ Ideal for construction and industrial environments
         discountPrice: 30000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328821/Astonic-Mart/Products/safety-boots/kaka_safety_boot.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328855/Astonic-Mart/Products/safety-boots/kaka_safety_boot-2.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328827/Astonic-Mart/Products/safety-boots/kaka_safety_boot-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328851/Astonic-Mart/Products/safety-boots/kaka_safety_boot-4.png'
+            'assets/img/safety-boots/kaka safety boot.png',
+            'assets/img/safety-boots/kaka safety boot-2.png',
+            'assets/img/safety-boots/kaka safety boot-3.webp',
+            'assets/img/safety-boots/kaka safety boot-4.png'
         ],
 
         inStock: true,
@@ -11873,8 +11881,8 @@ Ideal for construction and industrial environments
         discountPrice: 16000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330184/Astonic-Mart/Products/umbrella/black_and_blue_double_vent_umbrella.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330191/Astonic-Mart/Products/umbrella/black_and_blue_double_vent_umbrella-2.png'
+            'assets/img/umbrella/black and blue double vent umbrella.png',
+            'assets/img/umbrella/black and blue double vent umbrella-2.png'
         ],
 
         inStock: true,
@@ -11930,10 +11938,10 @@ Ideal for construction and industrial environments
         discountPrice: 150000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306406/Astonic-Mart/Products/earplugs/3m-e-a-rsoft-yellow-neons-uncorded-earplug.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306407/Astonic-Mart/Products/earplugs/3m-e-a-rsoft-yellow-neons-uncorded-earplug-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306409/Astonic-Mart/Products/earplugs/3m-e-a-rsoft-yellow-neons-uncorded-earplug-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306410/Astonic-Mart/Products/earplugs/3m-e-a-rsoft-yellow-neons-uncorded-earplug-4.webp'
+            'assets/img/earplugs/3m-e-a-rsoft-yellow-neons-uncorded-earplug.jpg',
+            'assets/img/earplugs/3m-e-a-rsoft-yellow-neons-uncorded-earplug-2.jpg',
+            'assets/img/earplugs/3m-e-a-rsoft-yellow-neons-uncorded-earplug-3.jpg',
+            'assets/img/earplugs/3m-e-a-rsoft-yellow-neons-uncorded-earplug-4.webp'
         ],
 
         inStock: true,
@@ -11989,8 +11997,8 @@ Ideal for construction and industrial environments
         price: 5500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328656/Astonic-Mart/Products/safety%20eye%20google/uvex_safety_eye_google.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328656/Astonic-Mart/Products/safety%20eye%20google/uvex_safety_eye_google-2.jpg'
+            'assets/img/safety eye google/uvex safety eye google.jpg',
+            'assets/img/safety eye google/uvex safety eye google-2.jpeg'
         ],
 
         inStock: true,
@@ -12046,13 +12054,13 @@ Ideal for construction and industrial environments
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306752/Astonic-Mart/Products/gas%20detectors/Elitech_Refrigerant_Gas_Leak_Detector.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306754/Astonic-Mart/Products/gas%20detectors/Elitech_Refrigerant_Gas_Leak_Detector-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306756/Astonic-Mart/Products/gas%20detectors/Elitech_Refrigerant_Gas_Leak_Detector-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306757/Astonic-Mart/Products/gas%20detectors/Elitech_Refrigerant_Gas_Leak_Detector-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306758/Astonic-Mart/Products/gas%20detectors/Elitech_Refrigerant_Gas_Leak_Detector-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306759/Astonic-Mart/Products/gas%20detectors/Elitech_Refrigerant_Gas_Leak_Detector-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306761/Astonic-Mart/Products/gas%20detectors/Elitech_Refrigerant_Gas_Leak_Detector-7.jpg'
+            'assets/img/gas detectors/Elitech Refrigerant Gas Leak Detector.jpg',
+            'assets/img/gas detectors/Elitech Refrigerant Gas Leak Detector-2.jpg',
+            'assets/img/gas detectors/Elitech Refrigerant Gas Leak Detector-3.jpg',
+            'assets/img/gas detectors/Elitech Refrigerant Gas Leak Detector-4.jpg',
+            'assets/img/gas detectors/Elitech Refrigerant Gas Leak Detector-5.jpg',
+            'assets/img/gas detectors/Elitech Refrigerant Gas Leak Detector-6.jpg',
+            'assets/img/gas detectors/Elitech Refrigerant Gas Leak Detector-7.jpg'
         ],
 
         inStock: true,
@@ -12118,12 +12126,12 @@ Ideal for construction and industrial environments
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306744/Astonic-Mart/Products/gas%20detectors/Elitech_Portable_Halogen_Refrigerant_Leak_Detector.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306746/Astonic-Mart/Products/gas%20detectors/Elitech_Portable_Halogen_Refrigerant_Leak_Detector-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306747/Astonic-Mart/Products/gas%20detectors/Elitech_Portable_Halogen_Refrigerant_Leak_Detector-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306748/Astonic-Mart/Products/gas%20detectors/Elitech_Portable_Halogen_Refrigerant_Leak_Detector-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306749/Astonic-Mart/Products/gas%20detectors/Elitech_Portable_Halogen_Refrigerant_Leak_Detector-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306750/Astonic-Mart/Products/gas%20detectors/Elitech_Portable_Halogen_Refrigerant_Leak_Detector-6.jpg',
+            'assets/img/gas detectors/Elitech Portable Halogen Refrigerant Leak Detector.webp',
+            'assets/img/gas detectors/Elitech Portable Halogen Refrigerant Leak Detector-2.jpg',
+            'assets/img/gas detectors/Elitech Portable Halogen Refrigerant Leak Detector-3.jpg',
+            'assets/img/gas detectors/Elitech Portable Halogen Refrigerant Leak Detector-4.jpg',
+            'assets/img/gas detectors/Elitech Portable Halogen Refrigerant Leak Detector-5.jpg',
+            'assets/img/gas detectors/Elitech Portable Halogen Refrigerant Leak Detector-6.jpg',
         ],
 
         inStock: true,
@@ -12190,10 +12198,10 @@ Ideal for construction and industrial environments
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328856/Astonic-Mart/Products/safety-boots/MODULO_S1PS_LOW_PERF.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328856/Astonic-Mart/Products/safety-boots/MODULO_S1PS_LOW_PERF-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328856/Astonic-Mart/Products/safety-boots/MODULO_S1PS_LOW_PERF-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328856/Astonic-Mart/Products/safety-boots/MODULO_S1PS_LOW_PERF-4.webp'
+            'assets/img/safety-boots/MODULO S1PS LOW PERF.webp',
+            'assets/img/safety-boots/MODULO S1PS LOW PERF-2.webp',
+            'assets/img/safety-boots/MODULO S1PS LOW PERF-3.webp',
+            'assets/img/safety-boots/MODULO S1PS LOW PERF-4.webp'
         ],
 
         inStock: true,
@@ -12248,9 +12256,9 @@ Ideal for construction and industrial environments
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309445/Astonic-Mart/Products/nose%20mask/303_nose_mask-8810SSA-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309443/Astonic-Mart/Products/nose%20mask/303_nose_mask-8810SSA.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309446/Astonic-Mart/Products/nose%20mask/303_nose_mask-8810SSA-3.jpg'
+            'assets/img/nose mask/303 nose mask-8810SSA-2.jpg',
+            'assets/img/nose mask/303 nose mask-8810SSA.jpeg',
+            'assets/img/nose mask/303 nose mask-8810SSA-3.jpeg'
         ],
 
         description: `The 3M 8810SSA Particulate Respirator is a lightweight disposable dust mask designed to help protect against dust and mist particles commonly encountered in construction, woodworking, cement handling, grinding, and general industrial applications.`,
@@ -12298,9 +12306,9 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306641/Astonic-Mart/Products/flashlights/new_age_head_lamp.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306642/Astonic-Mart/Products/flashlights/new_age_head_lamp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306643/Astonic-Mart/Products/flashlights/new_age_head_lamp3.webp'
+            'assets/img/flashlights/new age head lamp.jpg',
+            'assets/img/flashlights/new age head lamp-2.jpg',
+            'assets/img/flashlights/new age head lamp3.webp'
         ],
 
         description: `The New Power 9001 LED Rechargeable Headlight is a lightweight and durable hands-free lighting solution designed for camping, security operations, night walking, vehicle repairs, and outdoor adventures. It features a bright LED beam, rechargeable lithium battery, and an adjustable headband for comfortable extended use.`,
@@ -12352,10 +12360,10 @@ Accessories Included:
         price: 7800,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328712/Astonic-Mart/Products/safety%20joggers/X2000_SJ.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328716/Astonic-Mart/Products/safety%20joggers/X2000_SJ-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328716/Astonic-Mart/Products/safety%20joggers/X2000_SJ-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328715/Astonic-Mart/Products/safety%20joggers/X2000_SJ-4.webp'
+            'assets/img/safety joggers/X2000 SJ.webp',
+            'assets/img/safety joggers/X2000 SJ-2.webp',
+            'assets/img/safety joggers/X2000 SJ-3.webp',
+            'assets/img/safety joggers/X2000 SJ-4.webp'
         ],
 
         inStock: true,
@@ -12410,7 +12418,7 @@ Accessories Included:
         price: 99000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306762/Astonic-Mart/Products/gas%20detectors/INGCO_Digital_Gas_Indicator_HETGA01.webp'
+            'assets/img/gas detectors/INGCO Digital Gas Indicator HETGA01.webp'
         ],
 
         inStock: true,
@@ -12479,11 +12487,11 @@ Accessories Included:
         model: 'H10A',
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309478/Astonic-Mart/Products/nose%20mask/3M_PELTOR_Optime_105_Earmuffs_H10A-1.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309479/Astonic-Mart/Products/nose%20mask/3M_PELTOR_Optime_105_Earmuffs_H10A-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309480/Astonic-Mart/Products/nose%20mask/3M_PELTOR_Optime_105_Earmuffs_H10A-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309481/Astonic-Mart/Products/nose%20mask/3M_PELTOR_Optime_105_Earmuffs_H10A-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309482/Astonic-Mart/Products/nose%20mask/3M_PELTOR_Optime_105_Earmuffs_H10A-5.jpg'
+            'assets/img/nose mask/3M PELTOR Optime 105 Earmuffs H10A-1.webp',
+            'assets/img/nose mask/3M PELTOR Optime 105 Earmuffs H10A-2.jpeg',
+            'assets/img/nose mask/3M PELTOR Optime 105 Earmuffs H10A-3.webp',
+            'assets/img/nose mask/3M PELTOR Optime 105 Earmuffs H10A-4.jpeg',
+            'assets/img/nose mask/3M PELTOR Optime 105 Earmuffs H10A-5.jpeg'
         ],
 
         description: 'The 3M PELTOR Optime 105 H10A Earmuffs are premium over-the-head hearing protectors designed for extremely noisy industrial environments. With one of the highest noise reduction ratings available, they provide excellent protection for workers exposed to high noise levels in manufacturing, construction, mining, airports, and heavy equipment operations.',
@@ -12545,8 +12553,8 @@ User Instructions
         model: 'H520A',
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309485/Astonic-Mart/Products/nose%20mask/3M_PELTOR_Optime_II_Earmuffs_H520A-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309484/Astonic-Mart/Products/nose%20mask/3M_PELTOR_Optime_II_Earmuffs_H520A.jpg'
+            'assets/img/nose mask/3M PELTOR Optime II Earmuffs H520A-3.webp',
+            'assets/img/nose mask/3M PELTOR Optime II Earmuffs H520A.jpg'
         ],
 
         description: 'The 3M PELTOR Optime II H520A Earmuffs are professional hearing protectors designed for environments with moderate to high noise levels between 94 dB and 105 dB. They feature large ear cups with soft sealing rings, providing excellent comfort and effective noise attenuation for industrial, construction, airport, manufacturing, and maintenance applications.',
@@ -12607,9 +12615,9 @@ User Instructions
         discountPrice: 22000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307592/Astonic-Mart/Products/hand%20gloves/Dickies_Heavy_Duty_Waterproof_Impact_Gloves_-_Steel_Blue.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307593/Astonic-Mart/Products/hand%20gloves/Dickies_Heavy_Duty_Waterproof_Impact_Gloves_-_Steel_Blue-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307594/Astonic-Mart/Products/hand%20gloves/Dickies_Heavy_Duty_Waterproof_Impact_Gloves_-_Steel_Blue-3.webp'
+            'assets/img/hand gloves/Dickies Heavy Duty Waterproof Impact Gloves - Steel Blue.jpg',
+            'assets/img/hand gloves/Dickies Heavy Duty Waterproof Impact Gloves - Steel Blue-2.jpeg',
+            'assets/img/hand gloves/Dickies Heavy Duty Waterproof Impact Gloves - Steel Blue-3.webp'
         ],
 
         description: `
@@ -12666,10 +12674,10 @@ Accessories Included:
 
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786328927/Astonic-Mart/Products/safety-boots/VISITOR_INTEGRAL_tiger_grip.webp",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786328935/Astonic-Mart/Products/safety-boots/VISITOR_INTEGRAL_tiger_grip-2.jpg",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786328935/Astonic-Mart/Products/safety-boots/VISITOR_INTEGRAL_tiger_grip-3.webp",
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328935/Astonic-Mart/Products/safety-boots/VISITOR_INTEGRAL_tiger_grip-4.jpg',
+            "assets/img/safety-boots/VISITOR INTEGRAL tiger grip.webp",
+            "assets/img/safety-boots/VISITOR INTEGRAL tiger grip-2.jpg",
+            "assets/img/safety-boots/VISITOR INTEGRAL tiger grip-3.webp",
+            'assets/img/safety-boots/VISITOR INTEGRAL tiger grip-4.jpg',
         ],
 
         description: `
@@ -12738,10 +12746,10 @@ Safety Standards:
         brand: 'Safety Joggers',
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786328763/Astonic-Mart/Products/safety-boots/ECODEMPO_S3S_LOW_sj.webp",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786328763/Astonic-Mart/Products/safety-boots/ECODEMPO_S3S_LOW_sj.webp-2.webp",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786328768/Astonic-Mart/Products/safety-boots/ECODEMPO_S3S_LOW_sj-3.webp",
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328768/Astonic-Mart/Products/safety-boots/ECODEMPO_S3S_LOW_sj-4.webp'
+            "assets/img/safety-boots/ECODEMPO S3S LOW sj.webp",
+            "assets/img/safety-boots/ECODEMPO S3S LOW sj.webp-2.webp",
+            "assets/img/safety-boots/ECODEMPO S3S LOW sj-3.webp",
+            'assets/img/safety-boots/ECODEMPO S3S LOW sj-4.webp'
         ],
 
         description: `
@@ -12822,9 +12830,9 @@ Standards:
         price: 19000, // Add your selling price
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786309592/Astonic-Mart/Products/personal%20safety/pepper_spray.webp",
-            " https://res.cloudinary.com/taus5tit/image/upload/v1786309594/Astonic-Mart/Products/personal%20safety/pepper_spray-2.webp",
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309596/Astonic-Mart/Products/personal%20safety/pepper_spray-3.jpg'
+            "assets/img/personal safety/pepper spray.webp",
+            " assets/img/personal safety/pepper spray-2.webp",
+            'assets/img/personal safety/pepper spray-3.jpg'
         ],
 
         description: `Police Pepper Spray is a compact and effective personal safety device designed for self-defense in emergency situations. The 20ml canister delivers a powerful stream of irritant spray to temporarily disable an attacker, allowing you enough time to escape and seek help. Its lightweight design makes it easy to carry in a pocket, handbag, backpack, or on a keychain.`,
@@ -12873,7 +12881,7 @@ Standards:
         price: 35000, // Add your selling price
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786309591/Astonic-Mart/Products/personal%20safety/Fixed_Blade_Tactical_Survival_Knife_with_Sheath.webp",
+            "assets/img/personal safety/Fixed Blade Tactical Survival Knife with Sheath.webp",
 
         ],
 
@@ -12922,10 +12930,10 @@ Standards:
         price: 25000, // Add your selling price
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786309606/Astonic-Mart/Products/personal%20safety/WS-1203_Type_Stun_Gun.webp",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786309607/Astonic-Mart/Products/personal%20safety/WS-1203_Type_Stun_Gun-2.webp",
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309610/Astonic-Mart/Products/personal%20safety/WS-1203_Type_Stun_Gun-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309610/Astonic-Mart/Products/personal%20safety/WS-1203_Type_Stun_Gun-4.jpg'
+            "assets/img/personal safety/WS-1203 Type Stun Gun.webp",
+            "assets/img/personal safety/WS-1203 Type Stun Gun-2.webp",
+            'assets/img/personal safety/WS-1203 Type Stun Gun-3.jpg',
+            'assets/img/personal safety/WS-1203 Type Stun Gun-4.jpg'
         ],
 
         description: `The WS-1203 Type Stun Gun is a compact personal security device designed to provide a non-lethal means of self-defense. Its ergonomic design allows for comfortable handling, making it suitable for security personnel and authorized civilian users where permitted by law. Its portable size makes it convenient to carry for personal protection.`,
@@ -12968,10 +12976,10 @@ Standards:
         price: 22000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306620/Astonic-Mart/Products/flashlights/1101_type_flashlight.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306620/Astonic-Mart/Products/flashlights/1101_type_flashlight.webp2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306620/Astonic-Mart/Products/flashlights/1101_type_flashlight.webp3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306620/Astonic-Mart/Products/flashlights/1101_type_flashlight.webp4.webp'
+            'assets/img/flashlights/1101 type flashlight.webp',
+            'assets/img/flashlights/1101 type flashlight.webp2.webp',
+            'assets/img/flashlights/1101 type flashlight.webp3.webp',
+            'assets/img/flashlights/1101 type flashlight.webp4.webp'
         ],
 
         inStock: true,
@@ -13014,13 +13022,13 @@ Standards:
         price: 15500, // Add your selling price
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786309597/Astonic-Mart/Products/personal%20safety/tactical_pocket_knife.jpg",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786309598/Astonic-Mart/Products/personal%20safety/tactical_pocket_knife-2.jpg",
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309599/Astonic-Mart/Products/personal%20safety/tactical_pocket_knife-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309601/Astonic-Mart/Products/personal%20safety/tactical_pocket_knife-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309603/Astonic-Mart/Products/personal%20safety/tactical_pocket_knife-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309604/Astonic-Mart/Products/personal%20safety/tactical_pocket_knife-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309605/Astonic-Mart/Products/personal%20safety/tactical_pocket_knife-7.jpg'
+            "assets/img/personal safety/tactical pocket knife.jpg",
+            "assets/img/personal safety/tactical pocket knife-2.jpg",
+            'assets/img/personal safety/tactical pocket knife-3.jpg',
+            'assets/img/personal safety/tactical pocket knife-4.jpg',
+            'assets/img/personal safety/tactical pocket knife-5.jpg',
+            'assets/img/personal safety/tactical pocket knife-6.jpg',
+            'assets/img/personal safety/tactical pocket knife-7.jpg'
         ],
 
         description: `This folding EDC (Everyday Carry) pocket knife is designed for outdoor adventures, utility tasks, and emergency preparedness. It features a sharp stainless steel blade, a flipper opening mechanism for quick one-handed deployment, and a secure liner lock that keeps the blade safely in place during use. The integrated pocket clip provides convenient everyday carry.`,
@@ -13068,8 +13076,9 @@ Standards:
         price: 35000, // Add your selling price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429717/Astonic-Mart/Products/remaining-local-images/jssv0q3tggc8ckypzpux.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429718/Astonic-Mart/Products/remaining-local-images/ufcodqu90eo9dd3akonq.jpg'
+            'assets/img/personal safety/VISION-UK LG-V360L 360┬░ Infrared Motion Sensor-2.png',
+            "assets/img/personal safety/VISION-UK LG-V360L 360┬░ Infrared Motion Sensor.jpeg",
+
         ],
 
         description: `The VISION-UK LG-V360L Infrared Motion Sensor is a ceiling-mounted PIR sensor designed to automatically switch lighting or other connected electrical loads when motion is detected. It provides 360-degree coverage, making it ideal for offices, warehouses, corridors, stairways, garages, shops, and residential buildings while helping to reduce unnecessary energy consumption.`,
@@ -13118,13 +13127,13 @@ Standards:
         price: 39800, // Add your selling price
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786330341/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_2-in-1_Two-Way_Walkie_Talkie.jpg",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786330345/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_2-in-1_Two-Way_Walkie_Talkie-2.jpg",
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330344/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_2-in-1_Two-Way_Walkie_Talkie-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330344/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_2-in-1_Two-Way_Walkie_Talkie-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330344/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_2-in-1_Two-Way_Walkie_Talkie-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330344/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_2-in-1_Two-Way_Walkie_Talkie-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330348/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_2-in-1_Two-Way_Walkie_Talkie-7.jpg'
+            "assets/img/walkietalkies/Baofeng BF-888S 2-in-1 Two-Way Walkie Talkie.jpg",
+            "assets/img/walkietalkies/Baofeng BF-888S 2-in-1 Two-Way Walkie Talkie-2.jpg",
+            'assets/img/walkietalkies/Baofeng BF-888S 2-in-1 Two-Way Walkie Talkie-3.jpg',
+            'assets/img/walkietalkies/Baofeng BF-888S 2-in-1 Two-Way Walkie Talkie-4.jpg',
+            'assets/img/walkietalkies/Baofeng BF-888S 2-in-1 Two-Way Walkie Talkie-5.jpg',
+            'assets/img/walkietalkies/Baofeng BF-888S 2-in-1 Two-Way Walkie Talkie-6.jpg',
+            'assets/img/walkietalkies/Baofeng BF-888S 2-in-1 Two-Way Walkie Talkie-7.jpg'
         ],
 
         description: `The Baofeng BF-888S 2-in-1 is a twin-pack of compact UHF two-way radios that provide reliable short-range communication for security teams, construction sites, warehouses, hotels, events, and other professional environments. The radios feature rechargeable batteries, 16 programmable channels, voice prompts, and a built-in LED flashlight.`,
@@ -13176,10 +13185,10 @@ Standards:
         price: 18000, // Add your selling price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330348/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_Two-Way_Radio-1.jpg',
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786330348/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_Two-Way_Radio.jpg",
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330348/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_Two-Way_Radio-2.jpg',
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786330348/Astonic-Mart/Products/walkietalkies/Baofeng_BF-888S_Two-Way_Radio-3.jpg"
+            'assets/img/walkietalkies/Baofeng BF-888S Two-Way Radio-1.jpg',
+            "assets/img/walkietalkies/Baofeng BF-888S Two-Way Radio.jpeg",
+            'assets/img/walkietalkies/Baofeng BF-888S Two-Way Radio-2.jpg',
+            "assets/img/walkietalkies/Baofeng BF-888S Two-Way Radio-3.jpeg"
         ],
 
         description: `The Baofeng BF-888S is a compact handheld two-way radio designed for reliable short-range communication. It delivers clear voice transmission and is suitable for security personnel, warehouses, hotels, construction sites, event management, factories, schools, and outdoor activities. Its rechargeable battery and durable design make it ideal for daily professional use.`,
@@ -13234,13 +13243,13 @@ Standards:
         price: 13500, // Add your selling price
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786306627/Astonic-Mart/Products/flashlights/Duration_Power_DP-7045B_75W_LED_Search_Light.jpg",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786306628/Astonic-Mart/Products/flashlights/Duration_Power_DP-7045B_75W_LED_Search_Light-2.jpg",
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306629/Astonic-Mart/Products/flashlights/Duration_Power_DP-7045B_75W_LED_Search_Light-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306630/Astonic-Mart/Products/flashlights/Duration_Power_DP-7045B_75W_LED_Search_Light-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306632/Astonic-Mart/Products/flashlights/Duration_Power_DP-7045B_75W_LED_Search_Light-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306633/Astonic-Mart/Products/flashlights/Duration_Power_DP-7045B_75W_LED_Search_Light-7.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306634/Astonic-Mart/Products/flashlights/Duration_Power_DP-7045B_75W_LED_Search_Light-8.jpg'
+            "assets/img/flashlights/Duration Power DP-7045B 75W LED Search Light.jpeg",
+            "assets/img/flashlights/Duration Power DP-7045B 75W LED Search Light-2.jpeg",
+            'assets/img/flashlights/Duration Power DP-7045B 75W LED Search Light-3.jpg',
+            'assets/img/flashlights/Duration Power DP-7045B 75W LED Search Light-4.jpg',
+            'assets/img/flashlights/Duration Power DP-7045B 75W LED Search Light-6.jpg',
+            'assets/img/flashlights/Duration Power DP-7045B 75W LED Search Light-7.jpg',
+            'assets/img/flashlights/Duration Power DP-7045B 75W LED Search Light-8.jpg'
         ],
 
         description: `The Duration Power DP-7045B Rechargeable Search Light is a powerful portable lighting solution designed for security operations, outdoor activities, emergency response, patrol duties, camping, and power outage situations. It features a high-intensity LED light source, rechargeable battery system, and ergonomic carrying handle for comfortable operation.`,
@@ -13292,10 +13301,10 @@ Standards:
         price: 4000,
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786307618/Astonic-Mart/Products/hand%20gloves/Nitrile_Industrial_Safety_Gloves.webp",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786307618/Astonic-Mart/Products/hand%20gloves/Nitrile_Industrial_Safety_Gloves-2.jpg",
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307619/Astonic-Mart/Products/hand%20gloves/Nitrile_Industrial_Safety_Gloves-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307620/Astonic-Mart/Products/hand%20gloves/Nitrile_Industrial_Safety_Gloves-4.jpg'
+            "assets/img/hand gloves/Nitrile Industrial Safety Gloves.webp",
+            "assets/img/hand gloves/Nitrile Industrial Safety Gloves-2.jpg",
+            'assets/img/hand gloves/Nitrile Industrial Safety Gloves-3.webp',
+            'assets/img/hand gloves/Nitrile Industrial Safety Gloves-4.jpg'
         ],
 
         description: `The Heavy Duty Nitrile Industrial Safety Gloves are designed to provide reliable hand protection against chemicals, oils, grease, solvents, and various industrial hazards. Manufactured from high-quality nitrile rubber, these gloves offer excellent durability, flexibility, and grip while maintaining comfort during prolonged use. Suitable for industrial cleaning, chemical handling, maintenance, manufacturing, automotive workshops, laboratories, and general industrial applications.`,
@@ -13349,10 +13358,10 @@ Standards:
         price: 4000,
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786307618/Astonic-Mart/Products/hand%20gloves/Nitrile_Industrial_Safety_Gloves.webp",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786307618/Astonic-Mart/Products/hand%20gloves/Nitrile_Industrial_Safety_Gloves-2.jpg",
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307619/Astonic-Mart/Products/hand%20gloves/Nitrile_Industrial_Safety_Gloves-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307620/Astonic-Mart/Products/hand%20gloves/Nitrile_Industrial_Safety_Gloves-4.jpg'
+            "assets/img/hand gloves/Nitrile Industrial Safety Gloves.webp",
+            "assets/img/hand gloves/Nitrile Industrial Safety Gloves-2.jpg",
+            'assets/img/hand gloves/Nitrile Industrial Safety Gloves-3.webp',
+            'assets/img/hand gloves/Nitrile Industrial Safety Gloves-4.jpg'
         ],
 
         description: `The Heavy Duty Nitrile Industrial Safety Gloves are designed to provide reliable hand protection against chemicals, oils, grease, solvents, and various industrial hazards. Manufactured from high-quality nitrile rubber, these gloves offer excellent durability, flexibility, and grip while maintaining comfort during prolonged use. Suitable for industrial cleaning, chemical handling, maintenance, manufacturing, automotive workshops, laboratories, and general industrial applications.`,
@@ -13404,8 +13413,8 @@ Standards:
         price: 45000,
 
         images: [
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786328927/Astonic-Mart/Products/safety-boots/TOTAL_TSP202S1P_Safety_Boot.jpg",
-            "https://res.cloudinary.com/taus5tit/image/upload/v1786328931/Astonic-Mart/Products/safety-boots/TOTAL_TSP202S1P_Safety_Boot-2.webp"
+            "assets/img/safety-boots/TOTAL TSP202S1P Safety Boot.jpeg",
+            "assets/img/safety-boots/TOTAL TSP202S1P Safety Boot-2.webp"
         ],
 
         description: `The TOTAL TSP202S1P Safety Boot is a professional-grade safety footwear designed to provide reliable protection and all-day comfort in industrial, construction, agricultural, and workshop environments. It features a steel toe cap, steel midsole, anti-static properties, and a durable dual-density PU sole for enhanced safety and durability.`,
@@ -13458,10 +13467,10 @@ Standards:
         price: 200000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329560/Astonic-Mart/Products/tapes%20and%20adhesives/PVC_Floor_Marking_Tape.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329562/Astonic-Mart/Products/tapes%20and%20adhesives/PVC_Floor_Marking_Tape-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329562/Astonic-Mart/Products/tapes%20and%20adhesives/PVC_Floor_Marking_Tape-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329562/Astonic-Mart/Products/tapes%20and%20adhesives/PVC_Floor_Marking_Tape-4.jpg'
+            'assets/img/tapes and adhesives/PVC Floor Marking Tape.avif',
+            'assets/img/tapes and adhesives/PVC Floor Marking Tape-2.jpeg',
+            'assets/img/tapes and adhesives/PVC Floor Marking Tape-3.jpg',
+            'assets/img/tapes and adhesives/PVC Floor Marking Tape-4.jpeg'
         ],
 
         colors: [
@@ -13529,10 +13538,10 @@ Accessories: Ready to use (no additional accessories required)
         discountPrice: 95000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304264/Astonic-Mart/Products/belt/INGCO_Safety_Harness_Belt_HSH501420.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304265/Astonic-Mart/Products/belt/INGCO_Safety_Harness_Belt_HSH501420-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304266/Astonic-Mart/Products/belt/INGCO_Safety_Harness_Belt_HSH501420-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304270/Astonic-Mart/Products/belt/INGCO_Safety_Harness_Belt_HSH501420-4.webp'
+            'assets/img/belt/INGCO Safety Harness Belt (HSH501420).jpeg',
+            'assets/img/belt/INGCO Safety Harness Belt (HSH501420)-2.jpg',
+            'assets/img/belt/INGCO Safety Harness Belt (HSH501420)-3.jpg',
+            'assets/img/belt/INGCO Safety Harness Belt (HSH501420)-4.webp'
         ],
 
         description:
@@ -13607,10 +13616,10 @@ User Manual
         discountPrice: 60000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304271/Astonic-Mart/Products/belt/ingco_safety_harness_belt_hsh501502.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304273/Astonic-Mart/Products/belt/ingco_safety_harness_belt_hsh501502-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304272/Astonic-Mart/Products/belt/ingco_safety_harness_belt_hsh501502-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304279/Astonic-Mart/Products/belt/ingco_safety_harness_belt_hsh501502-3.jpg'
+            'assets/img/belt/ingco safety harness belt hsh501502.webp',
+            'assets/img/belt/ingco safety harness belt hsh501502-2.jpeg',
+            'assets/img/belt/ingco safety harness belt hsh501502-1.jpg',
+            'assets/img/belt/ingco safety harness belt hsh501502-3.jpg'
         ],
 
         description:
@@ -13675,9 +13684,9 @@ User Manual
         discountPrice: 940000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304439/Astonic-Mart/Products/breathing%20apparatus/Self_Contained_Breathing_Apparatus_SCBA_Set.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304447/Astonic-Mart/Products/breathing%20apparatus/Self_Contained_Breathing_Apparatus_SCBA_Set-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304446/Astonic-Mart/Products/breathing%20apparatus/Self_Contained_Breathing_Apparatus_SCBA_Set-2.png'
+            'assets/img/breathing apparatus/Self Contained Breathing Apparatus (SCBA) Set.webp',
+            'assets/img/breathing apparatus/Self Contained Breathing Apparatus (SCBA) Set-3.jpg',
+            'assets/img/breathing apparatus/Self Contained Breathing Apparatus (SCBA) Set-2.png'
         ],
 
         description:
@@ -13744,10 +13753,10 @@ User Manual
         discountPrice: 1285000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304426/Astonic-Mart/Products/breathing%20apparatus/6.8L_300Bar_Positive_Pressure_SCBA_Breathing_Apparatus.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304426/Astonic-Mart/Products/breathing%20apparatus/6.8L_300Bar_Positive_Pressure_SCBA_Breathing_Apparatus.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304429/Astonic-Mart/Products/breathing%20apparatus/6.8L_300Bar_Positive_Pressure_SCBA_Breathing_Apparatus-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304429/Astonic-Mart/Products/breathing%20apparatus/6.8L_300Bar_Positive_Pressure_SCBA_Breathing_Apparatus-3.jpg'
+            'assets/img/breathing apparatus/6.8L 300Bar Positive Pressure SCBA Breathing Apparatus.jpg',
+            'assets/img/breathing apparatus/6.8L 300Bar Positive Pressure SCBA Breathing Apparatus.jpg',
+            'assets/img/breathing apparatus/6.8L 300Bar Positive Pressure SCBA Breathing Apparatus-2.avif',
+            'assets/img/breathing apparatus/6.8L 300Bar Positive Pressure SCBA Breathing Apparatus-3.jpeg'
         ],
 
         description:
@@ -13826,14 +13835,14 @@ User Manual
         discountPrice: 5000000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304430/Astonic-Mart/Products/breathing%20apparatus/Portable_Gasoline_Driven_Breathing_Air_Compressor.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304431/Astonic-Mart/Products/breathing%20apparatus/Portable_Gasoline_Driven_Breathing_Air_Compressor-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304432/Astonic-Mart/Products/breathing%20apparatus/Portable_Gasoline_Driven_Breathing_Air_Compressor-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304433/Astonic-Mart/Products/breathing%20apparatus/Portable_Gasoline_Driven_Breathing_Air_Compressor-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304434/Astonic-Mart/Products/breathing%20apparatus/Portable_Gasoline_Driven_Breathing_Air_Compressor-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304435/Astonic-Mart/Products/breathing%20apparatus/Portable_Gasoline_Driven_Breathing_Air_Compressor-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304437/Astonic-Mart/Products/breathing%20apparatus/Portable_Gasoline_Driven_Breathing_Air_Compressor-7.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304438/Astonic-Mart/Products/breathing%20apparatus/Portable_Gasoline_Driven_Breathing_Air_Compressor-8.jpg'
+            'assets/img/breathing apparatus/Portable Gasoline Driven Breathing Air Compressor.jpg',
+            'assets/img/breathing apparatus/Portable Gasoline Driven Breathing Air Compressor-2.jpg',
+            'assets/img/breathing apparatus/Portable Gasoline Driven Breathing Air Compressor-3.jpg',
+            'assets/img/breathing apparatus/Portable Gasoline Driven Breathing Air Compressor-4.jpg',
+            'assets/img/breathing apparatus/Portable Gasoline Driven Breathing Air Compressor-5.jpg',
+            'assets/img/breathing apparatus/Portable Gasoline Driven Breathing Air Compressor-6.jpg',
+            'assets/img/breathing apparatus/Portable Gasoline Driven Breathing Air Compressor-7.jpg',
+            'assets/img/breathing apparatus/Portable Gasoline Driven Breathing Air Compressor-8.jpg'
         ],
 
         description:
@@ -13907,11 +13916,11 @@ User Manual
         discountPrice: 49000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307768/Astonic-Mart/Products/helmets%20and%20faceshield/uvex_pheos_B-WR_safety_helmet-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307769/Astonic-Mart/Products/helmets%20and%20faceshield/uvex_pheos_B-WR_safety_helmet-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307770/Astonic-Mart/Products/helmets%20and%20faceshield/uvex_pheos_B-WR_safety_helmet-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307771/Astonic-Mart/Products/helmets%20and%20faceshield/uvex_pheos_B-WR_safety_helmet-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307772/Astonic-Mart/Products/helmets%20and%20faceshield/uvex_pheos_B-WR_safety_helmet-5.avif'
+            'assets/img/helmets and faceshield/uvex pheos B-WR safety helmet-1.jpeg',
+            'assets/img/helmets and faceshield/uvex pheos B-WR safety helmet-2.avif',
+            'assets/img/helmets and faceshield/uvex pheos B-WR safety helmet-3.jpeg',
+            'assets/img/helmets and faceshield/uvex pheos B-WR safety helmet-4.jpeg',
+            'assets/img/helmets and faceshield/uvex pheos B-WR safety helmet-5.avif'
         ],
 
         description:
@@ -13986,7 +13995,7 @@ User Manual
         discountPrice: 43000,
 
         images: [
-            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786305642/Astonic-Mart/Products/coveralls/total_tsp6011_workwear_top.webp'
+            'src/assets/img/coveralls/total tsp6011 workwear top.webp'
         ],
 
         description:
@@ -14057,10 +14066,10 @@ User Information Tag
         price: 370000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308819/Astonic-Mart/Products/lockout%20stations/Portable_Lockout_Tagout_LOTO_Station_Kit.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308822/Astonic-Mart/Products/lockout%20stations/Portable_Lockout_Tagout_LOTO_Station_Kit-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308826/Astonic-Mart/Products/lockout%20stations/Portable_Lockout_Tagout_LOTO_Station_Kit-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308827/Astonic-Mart/Products/lockout%20stations/Portable_Lockout_Tagout_LOTO_Station_Kit-4.webp'
+            'assets/img/lockout stations/Portable Lockout Tagout (LOTO) Station Kit.webp',
+            'assets/img/lockout stations/Portable Lockout Tagout (LOTO) Station Kit-2.webp',
+            'assets/img/lockout stations/Portable Lockout Tagout (LOTO) Station Kit-3.webp',
+            'assets/img/lockout stations/Portable Lockout Tagout (LOTO) Station Kit-4.webp'
         ],
 
         inStock: true,
@@ -14109,7 +14118,7 @@ User Information Tag
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329063/Astonic-Mart/Products/security%20gears/CHLORIDE_UK_Emergency_Door_Release_Break_Glass_Unit.png',
+            'assets/img/security gears/CHLORIDE UK Emergency Door Release Break Glass Unit.png',
 
         ],
 
@@ -14167,7 +14176,7 @@ Reliable performance for emergency exit and fire safety systems
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329051/Astonic-Mart/Products/security%20gears/Chloride_UK_Manual_Call_Point_with_LED_Indicator.png',
+            'assets/img/security gears/Chloride UK Manual Call Point with LED Indicator.png',
 
         ],
 
@@ -14212,7 +14221,7 @@ Reliable performance for emergency exit and fire safety systems
         price: 27000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307578/Astonic-Mart/Products/hand%20gloves/Aluminized_Heat_Resistant_Gloves.jpg',
+            'assets/img/hand gloves/Aluminized Heat Resistant Gloves.jpg',
         ],
 
         inStock: true,
@@ -14255,13 +14264,13 @@ Reliable performance for emergency exit and fire safety systems
         discountPrice: 165000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306765/Astonic-Mart/Products/gas%20detectors/NF-604_Halogen_Gas_Detector.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306766/Astonic-Mart/Products/gas%20detectors/NF-604_Halogen_Gas_Detector-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306767/Astonic-Mart/Products/gas%20detectors/NF-604_Halogen_Gas_Detector-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306768/Astonic-Mart/Products/gas%20detectors/NF-604_Halogen_Gas_Detector-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306769/Astonic-Mart/Products/gas%20detectors/NF-604_Halogen_Gas_Detector-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306771/Astonic-Mart/Products/gas%20detectors/NF-604_Halogen_Gas_Detector-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306772/Astonic-Mart/Products/gas%20detectors/NF-604_Halogen_Gas_Detector-7.jpg'
+            'assets/img/gas detectors/NF-604 Halogen Gas Detector.jpeg',
+            'assets/img/gas detectors/NF-604 Halogen Gas Detector-2.jpg',
+            'assets/img/gas detectors/NF-604 Halogen Gas Detector-3.jpg',
+            'assets/img/gas detectors/NF-604 Halogen Gas Detector-4.jpg',
+            'assets/img/gas detectors/NF-604 Halogen Gas Detector-5.jpg',
+            'assets/img/gas detectors/NF-604 Halogen Gas Detector-6.jpg',
+            'assets/img/gas detectors/NF-604 Halogen Gas Detector-7.jpg'
         ],
 
         videos: [],
@@ -14324,10 +14333,10 @@ Reliable performance for emergency exit and fire safety systems
         showSimilar: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331900/Astonic-Mart/Products/nose%20mask/3M_6003_Organic_Vapor_and_Acid_Gas_Cartridge.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331900/Astonic-Mart/Products/nose%20mask/3M_6003_Organic_Vapor_and_Acid_Gas_Cartridge-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331900/Astonic-Mart/Products/nose%20mask/3M_6003_Organic_Vapor_and_Acid_Gas_Cartridge-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331900/Astonic-Mart/Products/nose%20mask/3M_6003_Organic_Vapor_and_Acid_Gas_Cartridge-3.jpg'
+            'assets/img/nose mask/3M 6003 Organic Vapor & Acid Gas Cartridge.jpg',
+            'assets/img/nose mask/3M 6003 Organic Vapor & Acid Gas Cartridge-1.jpg',
+            'assets/img/nose mask/3M 6003 Organic Vapor & Acid Gas Cartridge-2.jpg',
+            'assets/img/nose mask/3M 6003 Organic Vapor & Acid Gas Cartridge-3.jpg'
         ],
 
         inStock: true,
@@ -14370,4 +14379,3 @@ Durable construction for dependable performance
    
 
 ];
-

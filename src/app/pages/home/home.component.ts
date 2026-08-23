@@ -17,6 +17,7 @@ export class HomeComponent implements AfterViewInit {
 
   dealsOfWeek: Product[] = [];
   carouselProducts: Product[] = [];
+  carouselProductsLoop: Product[] = [];
 
 
   latestProducts: Product[] = [];
@@ -25,6 +26,54 @@ export class HomeComponent implements AfterViewInit {
   selectedVideo: SafeResourceUrl | null = null;
   selectedPreviewImage: string | null = null;
 
+
+
+  topBrands = [
+    {
+      name: 'Dewalt',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653674/dewalt-logo-png_zdkbie.png'
+    },
+    {
+      name: 'Bosch',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653675/bosch_logo_nxyuvy.jpg'
+    },
+    {
+      name: 'Red Wing',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653696/red-wing-logo_vi6qz0.png'
+    },
+    {
+      name: 'Maxmech',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653695/maxmech_logo.jpg2_ii5gnk.jpg'
+    },
+    {
+      name: 'Karcher',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653675/karcher_logo_mx5nh8.png'
+    },
+    {
+      name: 'Makita',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653675/makita_logo_rmtl7y.png'
+    },
+    {
+      name: 'Ingco',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653675/inggco_logo_uigxor.jpg'
+    },
+    {
+      name: 'Safety Jogger',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653700/safety_jogger_logo_t5zdlu.jpg'
+    },
+    {
+      name: 'Total',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653708/total_logo_l6bimy.png'
+    },
+    {
+      name: '3M',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653674/3mlogo_nmxw71.jpg'
+    },
+    {
+      name: 'MSA Safety',
+      image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653696/MSA_safety_logo_i96rhh.png'
+    }
+  ];
 
 
   
@@ -60,6 +109,7 @@ export class HomeComponent implements AfterViewInit {
       this.searchService.getProductById(20),
       this.searchService.getProductById(30),
       this.searchService.getProductById(40),
+      this.searchService.getProductById(2167),
       this.searchService.getProductById(50),
       this.searchService.getProductById(60),
       this.searchService.getProductById(70),
@@ -67,16 +117,23 @@ export class HomeComponent implements AfterViewInit {
       this.searchService.getProductById(90),
       this.searchService.getProductById(100),
       this.searchService.getProductById(110),
-         this.searchService.getProductById(80),
+      this.searchService.getProductById(80),
+      this.searchService.getProductById(2007),
+      this.searchService.getProductById(2120),
       this.searchService.getProductById(90),
       this.searchService.getProductById(100),
       this.searchService.getProductById(7018),
-         this.searchService.getProductById(65),
+      this.searchService.getProductById(65),
+     this.searchService.getProductById(2170),
       this.searchService.getProductById(88),
       this.searchService.getProductById(25),
       this.searchService.getProductById(9026)
     ].filter(Boolean) as Product[];
 
+    this.carouselProductsLoop = [
+      ...this.carouselProducts,
+      ...this.carouselProducts
+    ];
 
 
     this.latestProducts = [
@@ -103,30 +160,33 @@ export class HomeComponent implements AfterViewInit {
     ].filter(Boolean) as Product[];
     setTimeout(() => {
 
+      if (window.innerWidth <= 576) {
+        return;
+      }
+
       const slider = $('.active-exclusive-product-slider');
 
-      // destroy old instance completely
       if (slider.hasClass('owl-loaded')) {
         slider.trigger('destroy.owl.carousel');
         slider.removeClass('owl-loaded');
         slider.find('.owl-stage-outer').children().unwrap();
       }
 
-      // rebuild fresh
       slider.owlCarousel({
         items: 1,
         loop: true,
         autoplay: true,
         nav: true,
         dots: false,
-        smartSpeed: 700
+        smartSpeed: 900
       });
 
-    }, 700);
-
+    }, 900);
 
     this.startCounters();
     this.initializeClock();
+
+
     setTimeout(() => {
       $('.video-slider').owlCarousel({
         loop: true,
@@ -134,7 +194,7 @@ export class HomeComponent implements AfterViewInit {
         nav: true,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 4000,
+        autoplayTimeout:5000,
         smartSpeed: 700,
 
         mouseDrag: true,

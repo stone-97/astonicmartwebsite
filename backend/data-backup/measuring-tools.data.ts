@@ -17,7 +17,7 @@ export const MEASURING_TOOL_PRODUCTS: Product[] = [
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311330/Astonic-Mart/Products/pumping%20machines/2_inches_liquid_control_flow_meter.jpg'
+            'assets/img/pumping machines/2 inches liquid control flow meter.jpg'
         ],
 
         inStock: true,
@@ -66,12 +66,12 @@ export const MEASURING_TOOL_PRODUCTS: Product[] = [
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306706/Astonic-Mart/Products/fuel%20testing%20and%20measuring/petrol_compression_kit-8pcs.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310781/Astonic-Mart/Products/pressure%20kits/8pcs_engine_compression_kit.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310783/Astonic-Mart/Products/pressure%20kits/8pcs_engine_compression_kit.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310784/Astonic-Mart/Products/pressure%20kits/8pcs_engine_compression_kit.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310785/Astonic-Mart/Products/pressure%20kits/8pcs_engine_compression_kit.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310786/Astonic-Mart/Products/pressure%20kits/8pcs_engine_compression_kit.jpg-6.jpg'
+            'assets/img/fuel testing and measuring/petrol compression kit-8pcs.jpg',
+            'assets/img/pressure kits/8pcs engine compression kit.jpg-2.jpg',
+            'assets/img/pressure kits/8pcs engine compression kit.jpg-3.jpg',
+            'assets/img/pressure kits/8pcs engine compression kit.jpg-4.jpg',
+            'assets/img/pressure kits/8pcs engine compression kit.jpg-5.jpg',
+            'assets/img/pressure kits/8pcs engine compression kit.jpg-6.jpg'
         ],
 
         inStock: true,
@@ -116,7 +116,9 @@ export const MEASURING_TOOL_PRODUCTS: Product[] = [
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306696/Astonic-Mart/Products/fuel%20testing%20and%20measuring/hydrometer.jpg',
+            'assets/img/fuel testing and measuring/hydrometer.jpg',
+            'assets/img/automotive/hydrometer-2.jpg',
+            'assets/img/automotive/hydrometer-3.jpg'
         ],
 
         inStock: true,
@@ -163,9 +165,9 @@ export const MEASURING_TOOL_PRODUCTS: Product[] = [
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306698/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Measuring_Can-20l.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786324728/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Measuring_Can-20l-4.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306701/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Measuring_Can-20l-4.webp'
+            'assets/img/fuel testing and measuring/Measuring Can-20l.avif',
+            'assets/img/fuel testing and measuring/Measuring Can-20l-4.avif',
+            'assets/img/fuel testing and measuring/Measuring Can-20l-4.webp'
         ],
 
         inStock: true,
@@ -211,11 +213,11 @@ export const MEASURING_TOOL_PRODUCTS: Product[] = [
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306703/Astonic-Mart/Products/fuel%20testing%20and%20measuring/mitutoyo_Digital_Calliper_12inch.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304620/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-12_inch-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304617/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-12_inch.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304619/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-12_inch-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304618/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-12_inch-2.webp'
+            'assets/img/fuel testing and measuring/mitutoyo Digital Calliper 12inch.webp',
+            'assets/img/calipers/mitutoyo digital caliper-12 inch-4.webp',
+            'assets/img/calipers/mitutoyo digital caliper-12 inch.webp',
+            'assets/img/calipers/mitutoyo digital caliper-12 inch-3.webp',
+            'assets/img/calipers/mitutoyo digital caliper-12 inch-2.webp'
         ],
 
         inStock: true,
@@ -264,10 +266,10 @@ export const MEASURING_TOOL_PRODUCTS: Product[] = [
         price: 12000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329604/Astonic-Mart/Products/thermometers/HTC-1_Digital_Thermometer_And_Hygrometer.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329606/Astonic-Mart/Products/thermometers/HTC-1_Digital_Thermometer_And_Hygrometer-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329606/Astonic-Mart/Products/thermometers/HTC-1_Digital_Thermometer_And_Hygrometer-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329606/Astonic-Mart/Products/thermometers/HTC-1_Digital_Thermometer_And_Hygrometer-4.jpg'
+            'assets/img/thermometers/HTC-1 Digital Thermometer And Hygrometer.jpg',
+            'assets/img/thermometers/HTC-1 Digital Thermometer And Hygrometer-2.jpg',
+            'assets/img/thermometers/HTC-1 Digital Thermometer And Hygrometer-3.jpg',
+            'assets/img/thermometers/HTC-1 Digital Thermometer And Hygrometer-4.jpg'
         ],
 
         inStock: true,
@@ -330,11 +332,11 @@ Accessories Included:
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306704/Astonic-Mart/Products/fuel%20testing%20and%20measuring/mitutoyo_vernier_Calliper_12inch.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304607/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_12_inch-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304608/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_12_inch-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304609/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_12_inch-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304606/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_12_inch.webp'
+            'assets/img/fuel testing and measuring/mitutoyo vernier Calliper 12inch.webp',
+            'assets/img/calipers/mitutoyo analogue caliper 12 inch-2.webp',
+            'assets/img/calipers/mitutoyo analogue caliper 12 inch-3.webp',
+            'assets/img/calipers/mitutoyo analogue caliper 12 inch-4.webp',
+            'assets/img/calipers/mitutoyo analogue caliper 12 inch.webp'
         ],
 
         inStock: true,
@@ -383,10 +385,10 @@ Accessories Included:
         price: 145000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308953/Astonic-Mart/Products/measuring%20wheels/bosch_measuring_wheels.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308967/Astonic-Mart/Products/measuring%20wheels/bosch_measuring_wheels-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308970/Astonic-Mart/Products/measuring%20wheels/bosch_measuring_wheels-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308971/Astonic-Mart/Products/measuring%20wheels/bosch_measuring_wheels-4.jpg'
+            'assets/img/measuring wheels/bosch measuring wheels.webp',
+            'assets/img/measuring wheels/bosch measuring wheels-2.jpg',
+            'assets/img/measuring wheels/bosch measuring wheels-3.jpg',
+            'assets/img/measuring wheels/bosch measuring wheels-4.jpg'
         ],
 
         inStock: true,
@@ -433,7 +435,9 @@ Accessories Included:
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306852/Astonic-Mart/Products/general%20meters/DUOYI_Digital_Earth_Ground_Resistance_Tester_-_DY4100-2.jpg',
+            'assets/img/general meters/DUOYI Digital Earth Ground Resistance Tester - DY4100-2.jpg',
+            'assets/img/measuring/duoyi-dy4100-2.jpg',
+            'assets/img/measuring/duoyi-dy4100-3.jpg'
         ],
 
         inStock: true,
@@ -481,7 +485,9 @@ Accessories Included:
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306862/Astonic-Mart/Products/general%20meters/Mastech_MS2101_AC_DC_Digital_Clamp_Meter.jpg',
+            'assets/img/general meters/Mastech MS2101 AC DC Digital Clamp Meter.jpg',
+            'assets/img/measuring/mastech-ms2101-2.jpg',
+            'assets/img/measuring/mastech-ms2101-3.jpg'
         ],
 
         inStock: true,
@@ -531,7 +537,9 @@ Accessories Included:
         price: 12000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329602/Astonic-Mart/Products/thermometers/Food_Thermometer_Probe_Digital_Cooking_Food_Kitchen_BBQ.jpg',
+            'assets/img/thermometers/Food Thermometer Probe Digital Cooking Food Kitchen BBQ.jpg',
+            'assets/img/thermometers/food-thermometer-2.jpg',
+            'assets/img/thermometers/food-thermometer-3.jpg'
         ],
 
         inStock: true,
@@ -575,7 +583,9 @@ Accessories Included:
         price: 180000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329601/Astonic-Mart/Products/thermometers/fluke-62-max-infrared-thermometer2.jpg',
+            'assets/img/thermometers/fluke-62-max-infrared-thermometer2.jpg',
+            'assets/img/thermometers/fluke-62-max-2.jpg',
+            'assets/img/thermometers/fluke-62-max-3.jpg'
         ],
 
         inStock: true,
@@ -626,7 +636,9 @@ Accessories Included:
         price: 15000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329606/Astonic-Mart/Products/thermometers/petrol_and_desiel_thermometer.webp',
+            'assets/img/thermometers/petrol and desiel thermometer.webp',
+            'assets/img/thermometers/glass-petrol-thermometer-2.jpg',
+            'assets/img/thermometers/glass-petrol-thermometer-3.jpg'
         ],
 
         inStock: true,
@@ -669,7 +681,9 @@ Accessories Included:
         price: 65000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306860/Astonic-Mart/Products/general%20meters/Ingco_50m_Laser_Distance_Meter.jpg',
+            'assets/img/general meters/Ingco 50m Laser Distance Meter.jpg',
+            'assets/img/measuring/ingco-laser-distance-50m-2.jpg',
+            'assets/img/measuring/ingco-laser-distance-50m-3.jpg'
         ],
 
         inStock: true,
@@ -715,7 +729,9 @@ Accessories Included:
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308901/Astonic-Mart/Products/measuring%20tapes/ingco_fibreglass_measuring_tape-50m.jpg',
+            'assets/img/measuring tapes/ingco fibreglass measuring tape-50m.jpeg',
+            'assets/img/measuring/ingco-hfmt8250-2.jpg',
+            'assets/img/measuring/ingco-hfmt8250-3.jpg'
         ],
 
         inStock: true,
@@ -760,7 +776,9 @@ Accessories Included:
         price: 7000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308899/Astonic-Mart/Products/measuring%20tapes/INGCO_Tape_Measure_Steel_5Mx19mm.avif',
+            'assets/img/measuring tapes/INGCO  Tape Measure Steel 5Mx19mm.avif',
+            'assets/img/measuring/ingco-hsmt08519-1-2.jpg',
+            'assets/img/measuring/ingco-hsmt08519-1-3.jpg'
         ],
 
         inStock: true,
@@ -807,9 +825,9 @@ Accessories Included:
         price: 95000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306826/Astonic-Mart/Products/general%20guages/mitutoyo_dial_guage_indicator_with_base.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306827/Astonic-Mart/Products/general%20guages/mitutoyo_dial_guage_indicator_with_base.webp2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306825/Astonic-Mart/Products/general%20guages/mitutoyo_dial_guage_indicator_stand.jpg'
+            'assets/img/general guages/mitutoyo dial guage indicator with base.webp',
+            'assets/img/general guages/mitutoyo dial guage indicator with base.webp2.webp',
+            'assets/img/general guages/mitutoyo dial guage indicator stand.webp'
         ],
 
         inStock: true,
@@ -855,9 +873,9 @@ Accessories Included:
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309195/Astonic-Mart/Products/multimeters/total_multimeters.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309204/Astonic-Mart/Products/multimeters/Total_TMT47503_Digital_Multimeter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309205/Astonic-Mart/Products/multimeters/Total_TMT47503_Digital_Multimeter-3.jpg'
+            'assets/img/multimeters/total multimeters.webp',
+            'assets/img/multimeters/Total TMT47503 Digital Multimeter-2.jpg',
+            'assets/img/multimeters/Total TMT47503 Digital Multimeter-3.jpg'
         ],
 
         inStock: true,
@@ -910,7 +928,9 @@ Accessories Included:
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304206/Astonic-Mart/Products/battery%20and%20battery%20chargers/maxmech_cd_650-battery_tester.jpg',
+            'assets/img/battery and battery chargers/maxmech cd 650-battery tester.jpg',
+            'assets/img/chargers/maxmech-bc650-2.jpg',
+            'assets/img/chargers/maxmech-bc650-3.jpg'
         ],
 
         inStock: true,
@@ -970,7 +990,9 @@ This charger is reliable, efficient, and essential for automotive and industrial
         price: 45000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306817/Astonic-Mart/Products/general%20guages/Instruments_Digital_Outside_Micrometer_Screw_Gauge_0-25mm.jpg',
+            'assets/img/general guages/Instruments Digital Outside Micrometer Screw Gauge 0-25mm.jpg',
+            'assets/img/measuring/digital-micrometer-0-25-2.jpg',
+            'assets/img/measuring/digital-micrometer-0-25-3.jpg'
         ],
 
         inStock: true,
@@ -1019,7 +1041,9 @@ This charger is reliable, efficient, and essential for automotive and industrial
         price: 25000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306824/Astonic-Mart/Products/general%20guages/Micrometer_Screw_Gauge_25mm_Accuracy_0.01mm_analogue.jpg',
+            'assets/img/general guages/Micrometer Screw Gauge 25mm Accuracy 0.01mm analogue.jpg',
+            'assets/img/measuring/analogue-micrometer-0-25-2.jpg',
+            'assets/img/measuring/analogue-micrometer-0-25-3.jpg'
         ],
 
         inStock: true,
@@ -1066,7 +1090,9 @@ This charger is reliable, efficient, and essential for automotive and industrial
         price: 8000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331806/Astonic-Mart/Products/generaltesters/Single_Phase_Non-Contact_AC_Voltage_Tester_Pen_AC-8_12_1000V.jpg',
+            'assets/img/generaltesters/Single Phase Non-Contact AC Voltage Tester Pen AC-8 (12–1000V).jpg',
+            'assets/img/testers/ac-voltage-tester-pen-2.jpg',
+            'assets/img/testers/ac-voltage-tester-pen-3.jpg'
         ],
 
         inStock: true,
@@ -1110,7 +1136,9 @@ This charger is reliable, efficient, and essential for automotive and industrial
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306818/Astonic-Mart/Products/general%20guages/manifold_guga.jpg',
+            'assets/img/general guages/manifold guga.jpg',
+            'assets/img/hvac/manifold-gauge-set-2.jpg',
+            'assets/img/hvac/manifold-gauge-set-3.jpg'
         ],
 
         inStock: true,
@@ -1158,7 +1186,9 @@ This charger is reliable, efficient, and essential for automotive and industrial
         price: 65000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307170/Astonic-Mart/Products/generaltesters/water_testers.webp',
+            'assets/img/generaltesters/water testers.webp',
+            'assets/img/testers/water-quality-tester-2.jpg',
+            'assets/img/testers/water-quality-tester-3.jpg'
         ],
 
         inStock: true,
@@ -1207,7 +1237,9 @@ This charger is reliable, efficient, and essential for automotive and industrial
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306865/Astonic-Mart/Products/generaltesters/alcohol_tester.jpg',
+            'assets/img/generaltesters/alcohol tester.jpg',
+            'assets/img/testers/alcohol-tester-2.jpg',
+            'assets/img/testers/alcohol-tester-3.jpg'
         ],
 
         inStock: true,
@@ -1258,7 +1290,7 @@ This charger is reliable, efficient, and essential for automotive and industrial
         discountPrice: 22000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306916/Astonic-Mart/Products/generaltesters/pH-Meter-4_in_1.png'
+            'assets/img/generaltesters/pH-Meter-4 in 1.png'
         ],
 
         inStock: true,
@@ -1315,9 +1347,9 @@ Durable metal probe
         price: 155000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306909/Astonic-Mart/Products/generaltesters/digital_concrete_tester_hammer.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306909/Astonic-Mart/Products/generaltesters/digital_concrete_tester_hammer.png-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306909/Astonic-Mart/Products/generaltesters/digital_concrete_tester_hammer.png'
+            'assets/img/generaltesters/digital concrete tester hammer.png',
+            'assets/img/generaltesters/digital concrete tester hammer.png-4.jpg',
+            'assets/img/generaltesters/digital concrete tester hammer.png'
         ],
 
         inStock: true,
@@ -1362,7 +1394,9 @@ Durable metal probe
         price: 120000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306858/Astonic-Mart/Products/general%20meters/grain_moisture_meter.jpg',
+            'assets/img/general meters/grain moisture meter.jpg',
+            'assets/img/testers/grain-moisture-meter-2.jpg',
+            'assets/img/testers/grain-moisture-meter-3.jpg'
         ],
 
         inStock: true,
@@ -1409,7 +1443,9 @@ Durable metal probe
         price: 12000, // adjust based on your selling price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308720/Astonic-Mart/Products/lasers%20and%20measurement%20tools/ingco_spirit_level_30cm.jpg',
+            'assets/img/lasers and measurement tools/ingco spirit level 30cm.jpg',
+            'assets/img/measuring/spirit-level-30cm-2.jpg',
+            'assets/img/measuring/spirit-level-30cm-3.jpg'
         ],
 
         inStock: true,
@@ -1447,14 +1483,16 @@ Durable metal probe
     {
         id: 13030,
         name: 'PRO GOL 32 D Optical Level',
-        category: 'dumping-levels',
+        category: 'dumpy-levels',
         group: 'Measuring And Testing',
         parentCategory: 'leveling tools',
         brand: 'Bosch',
         price: 280000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308668/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GOL_32_D.webp',
+            'assets/img/lasers and measurement tools/BOSCH PRO GOL 32 D.webp',
+            'assets/img/measuring/optical-level-2.jpg',
+            'assets/img/measuring/optical-level-3.jpg'
         ],
 
         inStock: true,
@@ -1506,11 +1544,11 @@ Durable metal probe
         price: 165000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308587/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_BT160_Lightweight_tripod.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330055/Astonic-Mart/Products/tripods/bosch_bt160_survey_tripod-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330059/Astonic-Mart/Products/tripods/bosch_bt160_survey_tripod-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330057/Astonic-Mart/Products/tripods/bosch_bt160_survey_tripod.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330058/Astonic-Mart/Products/tripods/bosch_bt160_survey_tripod-4.webp'
+            'assets/img/lasers and measurement tools/Bosch BT160 Lightweight tripod.webp',
+            'assets/img/tripods/bosch bt160 survey tripod-2.webp',
+            'assets/img/tripods/bosch bt160 survey tripod-3.webp',
+            'assets/img/tripods/bosch bt160 survey tripod.webp',
+            'assets/img/tripods/bosch bt160 survey tripod-4.webp'
         ],
 
         inStock: true,
@@ -1559,12 +1597,12 @@ Durable metal probe
         discountPrice: 1198255,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308646/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80_Laser.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308646/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80_Laser.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308646/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80_Laser.webp-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308646/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80_Laser.webp-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308646/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80_Laser.webp-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308646/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80_Laser.webp-6.jpg'
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80  Laser.webp',
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80  Laser.webp-2.webp',
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80  Laser.webp-3.jpg',
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80  Laser.webp-4.jpg',
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80  Laser.webp-5.jpg',
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80  Laser.webp-6.jpg'
         ],
         videos: ['https://www.amazon.ae/vdp/19a86c5f1d934d52a35d267a079c8157?aci=amzn1.ive.seller.video.19a86c5f1d934d52a35d267a079c8157&product=B07BDR3566&ref=cm_sw_cp_r_ib_dt_kDiyKHllmCENu'
 
@@ -1622,7 +1660,9 @@ Durable metal probe
         price: 8500, // adjust to your selling price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331806/Astonic-Mart/Products/scales/Spring_Balance_Hook_Weighing_Scale_Kilo_and_LBS.jpg',
+            'assets/img/scales/Spring Balance Hook Weighing Scale Kilo & LBS.jpg',
+            'assets/img/measuring/spring-balance-2.jpg',
+            'assets/img/measuring/spring-balance-3.jpg'
         ],
 
         inStock: true,
@@ -1670,7 +1710,9 @@ Durable metal probe
         price: 75000, // adjust based on your selling price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329011/Astonic-Mart/Products/scales/Triple_Beam_Balance.webp',
+            'assets/img/scales/Triple Beam Balance.webp',
+            'assets/img/measuring/triple-beam-balance-2.jpg',
+            'assets/img/measuring/triple-beam-balance-3.jpg'
         ],
 
         inStock: true,
@@ -1718,7 +1760,9 @@ Durable metal probe
         price: 180000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328974/Astonic-Mart/Products/scales/Analog_Platform_Mechanical_Scale_-_300kg.avif',
+            'assets/img/scales/Analog Platform Mechanical Scale - 300kg.avif',
+            'assets/img/measuring/platform-scale-300kg-2.jpg',
+            'assets/img/measuring/platform-scale-300kg-3.jpg'
         ],
 
         inStock: true,
@@ -1767,7 +1811,9 @@ Durable metal probe
         price: 950000, // adjust based on your market
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328989/Astonic-Mart/Products/scales/Electronic_Analytical_Lab_Weighing_Balance_-_220g_X_0.0001mg.webp',
+            'assets/img/scales/Electronic Analytical Lab Weighing Balance - 220g X 0.0001mg.webp',
+            'assets/img/measuring/analytical-balance-2.jpg',
+            'assets/img/measuring/analytical-balance-3.jpg'
         ],
 
         inStock: true,
@@ -1818,7 +1864,9 @@ Durable metal probe
         price: 220000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328972/Astonic-Mart/Products/scales/A-12_Digital_Platform_Scale_-_500KG.webp',
+            'assets/img/scales/A-12 Digital Platform Scale - 500KG.webp',
+            'assets/img/measuring/a12-platform-scale-2.jpg',
+            'assets/img/measuring/a12-platform-scale-3.jpg'
         ],
 
         inStock: true,
@@ -1867,7 +1915,9 @@ Durable metal probe
         price: 35000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331806/Astonic-Mart/Products/scales/20kg_Mechanical_Weighing_Scale_.jpg',
+            'assets/img/scales/20kg Mechanical Weighing Scale –.jpg',
+            'assets/img/measuring/mechanical-scale-20kg-2.jpg',
+            'assets/img/measuring/mechanical-scale-20kg-3.jpg'
         ],
 
         inStock: true,
@@ -1916,7 +1966,9 @@ Durable metal probe
         price: 18000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328993/Astonic-Mart/Products/scales/High_Precision_Electronic_Digital_Kitchen_Scale_-_10kg_Capacity.jpg',
+            'assets/img/scales/High Precision Electronic Digital Kitchen Scale - 10kg Capacity.jpg',
+            'assets/img/measuring/digital-kitchen-scale-2.jpg',
+            'assets/img/measuring/digital-kitchen-scale-3.jpg'
         ],
 
         inStock: true,
@@ -1965,7 +2017,9 @@ Durable metal probe
         price: 180000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328989/Astonic-Mart/Products/scales/crane-scale-500x500-1ton.webp2.webp',
+            'assets/img/scales/crane-scale-500x500-1ton.webp2.webp',
+            'assets/img/measuring/crane-scale-1ton-2.jpg',
+            'assets/img/measuring/crane-scale-1ton-3.jpg'
         ],
 
         inStock: true,
@@ -2017,7 +2071,9 @@ Durable metal probe
         price: 45000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328993/Astonic-Mart/Products/scales/hanging_scales-300kg_2.webp',
+            'assets/img/scales/hanging scales-300kg 2.webp',
+            'assets/img/measuring/hanging-scale-300kg-2.jpg',
+            'assets/img/measuring/hanging-scale-300kg-3.jpg'
         ],
 
         inStock: true,
@@ -2068,7 +2124,9 @@ Durable metal probe
         price: 35000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328993/Astonic-Mart/Products/scales/hanging_scales-200kg.jpg',
+            'assets/img/scales/hanging scales-200kg.jpg',
+            'assets/img/measuring/hanging-scale-200kg-2.jpg',
+            'assets/img/measuring/hanging-scale-200kg-3.jpg'
         ],
 
         inStock: true,
@@ -2117,7 +2175,9 @@ Durable metal probe
         price: 65000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328976/Astonic-Mart/Products/scales/CAMRY_Digital_Electronic_Pricing_Scale_30KG_Capacity.jpg',
+            'assets/img/scales/CAMRY Digital Electronic Pricing Scale 30KG Capacity.jpg',
+            'assets/img/measuring/camry-pricing-scale-30kg-2.jpg',
+            'assets/img/measuring/camry-pricing-scale-30kg-3.jpg'
         ],
 
         inStock: true,
@@ -2166,7 +2226,9 @@ Durable metal probe
         price: 12000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328994/Astonic-Mart/Products/scales/Glass_Bathroom_Scale_-_150kg.webp',
+            'assets/img/scales/Glass Bathroom Scale - 150kg.webp',
+            'assets/img/measuring/bathroom-scale-2.jpg',
+            'assets/img/measuring/bathroom-scale-3.jpg'
         ],
 
         inStock: true,
@@ -2213,7 +2275,9 @@ Durable metal probe
         price: 15000, // adjust based on your market price
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328989/Astonic-Mart/Products/scales/Digital_Pocket_Scale_500g_0.01g.jpg',
+            'assets/img/scales/Digital Pocket Scale 500g 0.01g.jpg',
+            'assets/img/measuring/pocket-scale-500g-2.jpg',
+            'assets/img/measuring/pocket-scale-500g-3.jpg'
         ],
 
         inStock: true,
@@ -2263,10 +2327,10 @@ Durable metal probe
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308937/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_50m.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308942/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_50m-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308938/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_50m.jpg-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308939/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_50m.jpg-4.avif'
+            'assets/img/measuring tapes/total fibreglass meauring tape 50m.jpg',
+            'assets/img/measuring tapes/total fibreglass meauring tape 50m-2.jpg',
+            'assets/img/measuring tapes/total fibreglass meauring tape 50m.jpg-3.avif',
+            'assets/img/measuring tapes/total fibreglass meauring tape 50m.jpg-4.avif'
         ],
 
         inStock: true,
@@ -2312,7 +2376,9 @@ Durable metal probe
         price: 6500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306702/Astonic-Mart/Products/fuel%20testing%20and%20measuring/measuring_cylinder-1000ml.jpg',
+            'assets/img/fuel testing and measuring/measuring cylinder-1000ml.jpg',
+            'assets/img/measuring tools/plastic measuring cylinder 1000ml 2.jpg',
+            'assets/img/measuring tools/plastic measuring cylinder 1000ml 3.jpg'
         ],
 
         inStock: true,
@@ -2352,10 +2418,10 @@ Durable metal probe
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306874/Astonic-Mart/Products/generaltesters/atc_pocket_ph_meter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306875/Astonic-Mart/Products/generaltesters/atc_pocket_ph_meter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306876/Astonic-Mart/Products/generaltesters/atc_pocket_ph_meter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306878/Astonic-Mart/Products/generaltesters/atc_pocket_ph_meter-4.jpg'
+            'assets/img/generaltesters/atc pocket ph meter.jpg',
+            'assets/img/generaltesters/atc pocket ph meter-2.jpg',
+            'assets/img/generaltesters/atc pocket ph meter-3.jpg',
+            'assets/img/generaltesters/atc pocket ph meter-4.jpg'
         ],
 
         inStock: true,
@@ -2400,7 +2466,9 @@ Durable metal probe
         price: 15000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306917/Astonic-Mart/Products/generaltesters/Rj11_and_Rj_45_Network_Cable_Tester-2.jpg',
+            'assets/img/generaltesters/Rj11 and Rj 45 Network Cable Tester-2.jpg',
+            'assets/img/measuring tools/network cable tester rj11 rj45 2.jpg',
+            'assets/img/measuring tools/network cable tester rj11 rj45 3.jpg'
         ],
 
         inStock: true,
@@ -2440,7 +2508,9 @@ Durable metal probe
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306863/Astonic-Mart/Products/general%20meters/Quality_Meter_Regulator_For_Gas_Cylinder.webp',
+            'assets/img/general meters/Quality Meter Regulator For Gas Cylinder.webp',
+            'assets/img/tools/gas regulator meter 2.jpg',
+            'assets/img/tools/gas regulator meter 3.jpg'
         ],
 
         inStock: true,
@@ -2483,9 +2553,9 @@ Durable metal probe
         discountPrice: 140000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306914/Astonic-Mart/Products/generaltesters/generic_ca2000_digital_alcohol_detector_kits-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306912/Astonic-Mart/Products/generaltesters/generic_ca2000_digital_alcohol_detector_kits.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306913/Astonic-Mart/Products/generaltesters/generic_ca2000_digital_alcohol_detector_kits-2.jpg'
+            'assets/img/generaltesters/generic ca2000 digital alcohol detector kits-3.jpg',
+            'assets/img/generaltesters/generic ca2000 digital alcohol detector kits.jpg',
+            'assets/img/generaltesters/generic ca2000 digital alcohol detector kits-2.jpeg'
         ],
 
         videos: [
@@ -2546,10 +2616,10 @@ Durable metal probe
         discountPrice: 165000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308709/Astonic-Mart/Products/lasers%20and%20measurement%20tools/ingco_line_laser-green_beams_HLL305205.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308710/Astonic-Mart/Products/lasers%20and%20measurement%20tools/ingco_line_laser-green_beams_HLL305205.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308709/Astonic-Mart/Products/lasers%20and%20measurement%20tools/ingco_line_laser-green_beams_HLL305205.jpg-3.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308709/Astonic-Mart/Products/lasers%20and%20measurement%20tools/ingco_line_laser-green_beams_HLL305205.jpg-4.jpeg'
+            'assets/img/lasers and measurement tools/ingco line laser-green beams HLL305205.jpg',
+            'assets/img/lasers and measurement tools/ingco line laser-green beams HLL305205.jpg-2.jpeg',
+            'assets/img/lasers and measurement tools/ingco line laser-green beams HLL305205.jpg-3.jpeg',
+            'assets/img/lasers and measurement tools/ingco line laser-green beams HLL305205.jpg-4.jpeg'
         ],
 
         jumiaLink: '',
@@ -2631,10 +2701,10 @@ Durable metal probe
         discountPrice: 108000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308716/Astonic-Mart/Products/lasers%20and%20measurement%20tools/ingco_line_laser-red_beams_HLL305205.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308718/Astonic-Mart/Products/lasers%20and%20measurement%20tools/ingco_line_laser-red_beams_HLL305205.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308716/Astonic-Mart/Products/lasers%20and%20measurement%20tools/ingco_line_laser-red_beams_HLL305205.jpg-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308716/Astonic-Mart/Products/lasers%20and%20measurement%20tools/ingco_line_laser-red_beams_HLL305205.jpg-4.jpeg'
+            'assets/img/lasers and measurement tools/ingco line laser-red beams HLL305205.jpg',
+            'assets/img/lasers and measurement tools/ingco line laser-red beams HLL305205.jpg-3.jpeg',
+            'assets/img/lasers and measurement tools/ingco line laser-red beams HLL305205.jpg-2.webp',
+            'assets/img/lasers and measurement tools/ingco line laser-red beams HLL305205.jpg-4.jpeg'
         ],
 
         jumiaLink: '',
@@ -2713,10 +2783,10 @@ Durable metal probe
         discountPrice: 155000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308588/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_generic_16lines_laser_level_with_tripod.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308592/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_generic_16lines_laser_level_with_tripod-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308591/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_generic_16lines_laser_level_with_tripod-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308590/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_generic_16lines_laser_level_with_tripod-2.jpg'
+            'assets/img/lasers and measurement tools/bosch generic 16lines laser level with tripod.jpg',
+            'assets/img/lasers and measurement tools/bosch generic 16lines laser level with tripod-4.jpg',
+            'assets/img/lasers and measurement tools/bosch generic 16lines laser level with tripod-3.jpg',
+            'assets/img/lasers and measurement tools/bosch generic 16lines laser level with tripod-2.jpg'
         ],
 
         videos: [
@@ -2796,10 +2866,10 @@ Durable metal probe
         discountPrice: 255000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308702/Astonic-Mart/Products/lasers%20and%20measurement%20tools/dewalt_generic_16lines_laser_level_with_tripod.jpg-3.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308708/Astonic-Mart/Products/lasers%20and%20measurement%20tools/dewalt_generic_16lines_laser_level_with_tripod.jpg-4.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308702/Astonic-Mart/Products/lasers%20and%20measurement%20tools/dewalt_generic_16lines_laser_level_with_tripod.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308590/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_generic_16lines_laser_level_with_tripod-2.jpg'
+            'assets/img/lasers and measurement tools/dewalt generic 16lines laser level with tripod.jpg-3.png',
+            'assets/img/lasers and measurement tools/dewalt generic 16lines laser level with tripod.jpg-4.avif',
+            'assets/img/lasers and measurement tools/dewalt generic 16lines laser level with tripod.jpg',
+            'assets/img/lasers and measurement tools/bosch generic 16lines laser level with tripod-2.jpg'
         ],
 
         videos: [
@@ -2883,9 +2953,9 @@ Durable metal probe
         discountPrice: 160000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328968/Astonic-Mart/Products/scales/300kg_Electronic_Digital_Wireless_Platform_scale-2.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328968/Astonic-Mart/Products/scales/300kg_Electronic_Digital_Wireless_Platform_scale-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328968/Astonic-Mart/Products/scales/300kg_Electronic_Digital_Wireless_Platform_scale.jpg'
+            'assets/img/scales/300kg Electronic Digital Wireless Platform scale-2.jpg-3.webp',
+            'assets/img/scales/300kg Electronic Digital Wireless Platform scale-2.jpg',
+            'assets/img/scales/300kg Electronic Digital Wireless Platform scale.jpg'
         ],
 
         videos: [
@@ -2966,9 +3036,9 @@ Durable metal probe
         discountPrice: 170000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306665/Astonic-Mart/Products/fuel%20testing%20and%20measuring/10l_measuring_can-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306666/Astonic-Mart/Products/fuel%20testing%20and%20measuring/10l_measuring_can-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306664/Astonic-Mart/Products/fuel%20testing%20and%20measuring/10l_measuring_can.avif'
+            'assets/img/fuel testing and measuring/10l measuring can-2.webp',
+            'assets/img/fuel testing and measuring/10l measuring can-3.jpg',
+            'assets/img/fuel testing and measuring/10l measuring can.avif'
         ],
 
         videos: [
@@ -3044,12 +3114,12 @@ Durable metal probe
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308674/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Professional_GLM_50-27_CG_line_laser.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308675/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Professional_GLM_50-27_CG_line_laser-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308676/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Professional_GLM_50-27_CG_line_laser-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308677/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Professional_GLM_50-27_CG_line_laser-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308678/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Professional_GLM_50-27_CG_line_laser-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308681/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Professional_GLM_50-27_CG_line_laser-5.jpg'
+            'assets/img/lasers and measurement tools/Bosch Professional GLM 50-27 CG line laser.jpg',
+            'assets/img/lasers and measurement tools/Bosch Professional GLM 50-27 CG line laser-1.jpg',
+            'assets/img/lasers and measurement tools/Bosch Professional GLM 50-27 CG line laser-2.webp',
+            'assets/img/lasers and measurement tools/Bosch Professional GLM 50-27 CG line laser-3.webp',
+            'assets/img/lasers and measurement tools/Bosch Professional GLM 50-27 CG line laser-4.jpg',
+            'assets/img/lasers and measurement tools/Bosch Professional GLM 50-27 CG line laser-5.jpg'
         ],
 
         description:
@@ -3115,9 +3185,9 @@ Durable metal probe
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305234/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_dc_Clamp_Meter_DCM62002.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305234/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_dc_Clamp_Meter_DCM62002.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305234/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_dc_Clamp_Meter_DCM62002.webp-4.jpg'
+            'assets/img/clamp and multimeters/INGCO Digital AC dc Clamp Meter (DCM62002).jpg',
+            'assets/img/clamp and multimeters/INGCO Digital AC dc Clamp Meter (DCM62002).jpg-2.webp',
+            'assets/img/clamp and multimeters/INGCO Digital AC dc Clamp Meter (DCM62002).jpg-4.jpg'
         ],
 
         inStock: true,
@@ -3163,9 +3233,9 @@ Compact and portable design`
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305216/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_Clamp_Meter_DCM66001.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305216/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_Clamp_Meter_DCM66001.jpg-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305216/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_Clamp_Meter_DCM66001.jpg-3.webp'
+            'assets/img/clamp and multimeters/INGCO Digital AC Clamp Meter (DCM66001).jpg',
+            'assets/img/clamp and multimeters/INGCO Digital AC Clamp Meter (DCM66001).jpg-2.webp',
+            'assets/img/clamp and multimeters/INGCO Digital AC Clamp Meter (DCM66001).jpg-3.webp'
 
         ],
 
@@ -3213,11 +3283,11 @@ Compact and easy-to-use design`
         price: 120000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305166/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_DC_AC_Clamp_Meter_1000A_DCM100015.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305210/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_DC_AC_Clamp_Meter_1000A_DCM100015-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305212/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_DC_AC_Clamp_Meter_1000A_DCM100015-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305214/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_DC_AC_Clamp_Meter_1000A_DCM100015-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305215/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_DC_AC_Clamp_Meter_1000A_DCM100015-5.jpg',
+            'assets/img/clamp and multimeters/INGCO DC AC Clamp Meter 1000A (DCM100015).jpg',
+            'assets/img/clamp and multimeters/INGCO DC AC Clamp Meter 1000A (DCM100015)-2.jpg',
+            'assets/img/clamp and multimeters/INGCO DC AC Clamp Meter 1000A (DCM100015)-3.jpg',
+            'assets/img/clamp and multimeters/INGCO DC AC Clamp Meter 1000A (DCM100015)-4.jpg',
+            'assets/img/clamp and multimeters/INGCO DC AC Clamp Meter 1000A (DCM100015)-5.jpg',
 
         ],
 
@@ -3267,11 +3337,11 @@ Suitable for industrial and professional electrical work`
         price: 110000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305224/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_Clamp_Meter_1000A_DCM10004.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305233/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_Clamp_Meter_1000A_DCM10004-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305230/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_Clamp_Meter_1000A_DCM10004-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305228/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_Clamp_Meter_1000A_DCM10004-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305225/Astonic-Mart/Products/clamp%20and%20multimeters/INGCO_Digital_AC_Clamp_Meter_1000A_DCM10004-2.jpg'
+            'assets/img/clamp and multimeters/INGCO Digital AC Clamp Meter 1000A (DCM10004).jpg',
+            'assets/img/clamp and multimeters/INGCO Digital AC Clamp Meter 1000A (DCM10004)-5.webp',
+            'assets/img/clamp and multimeters/INGCO Digital AC Clamp Meter 1000A (DCM10004)-4.jpg',
+            'assets/img/clamp and multimeters/INGCO Digital AC Clamp Meter 1000A (DCM10004)-3.jpg',
+            'assets/img/clamp and multimeters/INGCO Digital AC Clamp Meter 1000A (DCM10004)-2.jpg'
         ],
 
         inStock: true,
@@ -3317,9 +3387,9 @@ Suitable for industrial electrical maintenance`
         price: 120000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305247/Astonic-Mart/Products/clamp%20and%20multimeters/TOTAL_DC_AC_Clamp_Meter_1000A_TMT4100051-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305249/Astonic-Mart/Products/clamp%20and%20multimeters/TOTAL_DC_AC_Clamp_Meter_1000A_TMT4100051-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305249/Astonic-Mart/Products/clamp%20and%20multimeters/TOTAL_DC_AC_Clamp_Meter_1000A_TMT4100051-3.jpg',
+            'assets/img/clamp and multimeters/TOTAL DC AC Clamp Meter 1000A (TMT4100051)-2.webp',
+            'assets/img/clamp and multimeters/TOTAL DC AC Clamp Meter 1000A (TMT4100051)-3.jpg',
+            'assets/img/clamp and multimeters/TOTAL DC AC Clamp Meter 1000A (TMT4100051)-3.jpg',
 
         ],
 
@@ -3364,7 +3434,7 @@ Suitable for industrial and professional use`
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305251/Astonic-Mart/Products/clamp%20and%20multimeters/total_dc_AC_Clamp_Meter_600A_TMT766001.jpg',
+            'assets/img/clamp and multimeters/total dc AC Clamp Meter 600A TMT766001.jpg',
 
         ],
 
@@ -3419,7 +3489,7 @@ Professional industrial-grade design`
         price: 75000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305246/Astonic-Mart/Products/clamp%20and%20multimeters/total_AC_Clamp_Meter_600A_TMT766001.jpg-2.webp',
+            'assets/img/clamp and multimeters/total  AC Clamp Meter 600A TMT766001.jpg-2.webp',
 
         ],
 
@@ -3467,9 +3537,9 @@ Professional electrical testing tool`
         price: 110000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305252/Astonic-Mart/Products/clamp%20and%20multimeters/TOTAL_Digital_AC_Clamp_Meter_1000A_TMT410004.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305252/Astonic-Mart/Products/clamp%20and%20multimeters/TOTAL_Digital_AC_Clamp_Meter_1000A_TMT410004.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305252/Astonic-Mart/Products/clamp%20and%20multimeters/TOTAL_Digital_AC_Clamp_Meter_1000A_TMT410004.jpg'
+            'assets/img/clamp and multimeters/TOTAL Digital AC Clamp Meter 1000A (TMT410004).jpg',
+            'assets/img/clamp and multimeters/TOTAL Digital AC Clamp Meter 1000A (TMT410004).jpg-2.jpg',
+            'assets/img/clamp and multimeters/TOTAL Digital AC Clamp Meter 1000A (TMT410004).jpg'
         ],
 
         inStock: true,
@@ -3518,12 +3588,12 @@ Suitable for industrial and professional electrical testing`
         price: 120000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308693/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch-glm-40-laser-distance_meter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308693/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch-glm-40-laser-distance_meter.jpg-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308693/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch-glm-40-laser-distance_meter.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308693/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch-glm-40-laser-distance_meter.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308693/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch-glm-40-laser-distance_meter.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308693/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch-glm-40-laser-distance_meter.jpg-6.jpg'
+            'assets/img/lasers and measurement tools/bosch-glm-40-laser-distance meter.webp',
+            'assets/img/lasers and measurement tools/bosch-glm-40-laser-distance meter.webp-2.webp',
+            'assets/img/lasers and measurement tools/bosch-glm-40-laser-distance meter.webp-3.webp',
+            'assets/img/lasers and measurement tools/bosch-glm-40-laser-distance meter.webp-4.jpg',
+            'assets/img/lasers and measurement tools/bosch-glm-40-laser-distance meter.webp-5.jpg',
+            'assets/img/lasers and measurement tools/bosch-glm-40-laser-distance meter.webp-6.jpg'
         ],
 
         inStock: true,
@@ -3576,11 +3646,11 @@ Shock-resistant housing`
         price: 1100000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306866/Astonic-Mart/Products/generaltesters/analogue_concrete_testers.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306867/Astonic-Mart/Products/generaltesters/analogue_concrete_testers.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306866/Astonic-Mart/Products/generaltesters/analogue_concrete_testers.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306866/Astonic-Mart/Products/generaltesters/analogue_concrete_testers.webp-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306866/Astonic-Mart/Products/generaltesters/analogue_concrete_testers.webp-5.webp'
+            'assets/img/generaltesters/analogue concrete testers.webp',
+            'assets/img/generaltesters/analogue concrete testers.webp-2.webp',
+            'assets/img/generaltesters/analogue concrete testers.webp-3.webp',
+            'assets/img/generaltesters/analogue concrete testers.webp-4.webp',
+            'assets/img/generaltesters/analogue concrete testers.webp-5.webp'
         ],
 
         inStock: true,
@@ -3628,10 +3698,10 @@ Ideal for civil engineering and construction inspections`
         price: 85000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305241/Astonic-Mart/Products/clamp%20and%20multimeters/MASTECH_MS2001_AC_1000A_AC_Digital_Clamp_Meter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305244/Astonic-Mart/Products/clamp%20and%20multimeters/MASTECH_MS2001_AC_1000A_AC_Digital_Clamp_Meter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305245/Astonic-Mart/Products/clamp%20and%20multimeters/MASTECH_MS2001_AC_1000A_AC_Digital_Clamp_Meter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305240/Astonic-Mart/Products/clamp%20and%20multimeters/MASTECH_MS2001_AC_1000A_AC_Digital_Clamp_Meter.jpg'
+            'assets/img/clamp and multimeters/MASTECH MS2001 AC 1000A AC Digital Clamp Meter-2.jpg',
+            'assets/img/clamp and multimeters/MASTECH MS2001 AC 1000A AC Digital Clamp Meter-3.jpg',
+            'assets/img/clamp and multimeters/MASTECH MS2001 AC 1000A AC Digital Clamp Meter-4.jpg',
+            'assets/img/clamp and multimeters/MASTECH MS2001 AC 1000A AC Digital Clamp Meter.jpg'
         ],
 
         inStock: true,
@@ -3684,12 +3754,12 @@ Suitable for professional electrical applications`
         discountPrice: 240000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308732/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Total_laser_level_30m_Red_laser_beams-_TLL306505.webp-4.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308732/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Total_laser_level_30m_Red_laser_beams-_TLL306505.webp-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308732/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Total_laser_level_30m_Red_laser_beams-_TLL306505.webp-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308732/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Total_laser_level_30m_Red_laser_beams-_TLL306505.webp-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308733/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Total_laser_level_30m_Red_laser_beams-_TLL306505.webp-2_copy.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308732/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Total_laser_level_30m_Red_laser_beams-_TLL306505.webp'
+            'assets/img/lasers and measurement tools/Total laser level 30m (Red laser beams)- TLL306505.webp-4.jpg-5.jpg',
+            'assets/img/lasers and measurement tools/Total laser level 30m (Red laser beams)- TLL306505.webp-4.jpg',
+            'assets/img/lasers and measurement tools/Total laser level 30m (Red laser beams)- TLL306505.webp-6.jpg',
+            'assets/img/lasers and measurement tools/Total laser level 30m (Red laser beams)- TLL306505.webp-3.jpg',
+            'assets/img/lasers and measurement tools/Total laser level 30m (Red laser beams)- TLL306505.webp-2 copy.webp',
+            'assets/img/lasers and measurement tools/Total laser level 30m (Red laser beams)- TLL306505.webp'
 
         ],
 
@@ -3770,11 +3840,11 @@ Accessories
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306813/Astonic-Mart/Products/general%20guages/dial_guage_indicator.webp-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306810/Astonic-Mart/Products/general%20guages/dial_guage_indicator.webp-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306808/Astonic-Mart/Products/general%20guages/dial_guage_indicator.webp-4.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306808/Astonic-Mart/Products/general%20guages/dial_guage_indicator.webp-5.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306808/Astonic-Mart/Products/general%20guages/dial_guage_indicator.webp'
+            'assets/img/general guages/dial guage indicator.webp-3.avif',
+            'assets/img/general guages/dial guage indicator.webp-2.avif',
+            'assets/img/general guages/dial guage indicator.webp-4.avif',
+            'assets/img/general guages/dial guage indicator.webp-5.avif',
+            'assets/img/general guages/dial guage indicator.webp'
         ],
 
         videos: [],
@@ -3849,12 +3919,12 @@ Accessories
         discountPrice: 65000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304635/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-8_inch-6.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304633/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-8_inch-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304633/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-8_inch-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304632/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-8_inch-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304634/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-8_inch-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304631/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-8_inch.webp',
+            'assets/img/calipers/mitutoyo digital caliper-8 inch-6.webp',
+            'assets/img/calipers/mitutoyo digital caliper-8 inch-4.webp',
+            'assets/img/calipers/mitutoyo digital caliper-8 inch-4.webp',
+            'assets/img/calipers/mitutoyo digital caliper-8 inch-2.webp',
+            'assets/img/calipers/mitutoyo digital caliper-8 inch-5.webp',
+            'assets/img/calipers/mitutoyo digital caliper-8 inch.webp',
         ],
 
         videos: [],
@@ -3930,13 +4000,13 @@ Accessories
         discountPrice: 45000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304621/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-6_inch.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304629/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-6_inch-7.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304623/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-6_inch-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304624/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-6_inch-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304625/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-6_inch-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304626/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-6_inch-6.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304622/Astonic-Mart/Products/calipers/mitutoyo_digital_caliper-6_inch-2.webp'
+            'assets/img/calipers/mitutoyo digital caliper-6 inch.webp',
+            'assets/img/calipers/mitutoyo digital caliper-6 inch-7.webp',
+            'assets/img/calipers/mitutoyo digital caliper-6 inch-3.webp',
+            'assets/img/calipers/mitutoyo digital caliper-6 inch-4.webp',
+            'assets/img/calipers/mitutoyo digital caliper-6 inch-5.webp',
+            'assets/img/calipers/mitutoyo digital caliper-6 inch-6.webp',
+            'assets/img/calipers/mitutoyo digital caliper-6 inch-2.webp'
         ],
 
         videos: [],
@@ -4011,10 +4081,10 @@ Accessories
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304611/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_6_inch-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304612/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_6_inch-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304610/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_6_inch.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304607/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_12_inch-2.webp',
+            'assets/img/calipers/mitutoyo analogue caliper 6 inch-3.jpg',
+            'assets/img/calipers/mitutoyo analogue caliper 6 inch-4.webp',
+            'assets/img/calipers/mitutoyo analogue caliper 6 inch.webp',
+            'assets/img/calipers/mitutoyo analogue caliper 12 inch-2.webp',
         ],
 
         videos: [],
@@ -4085,10 +4155,10 @@ Accessories
         discountPrice: 65000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304614/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_8_inch-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304613/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_8_inch.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304615/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_8_inch-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304616/Astonic-Mart/Products/calipers/mitutoyo_analogue_caliper_8_inch-4.jpg'
+            'assets/img/calipers/mitutoyo analogue caliper 8 inch-2.jpg',
+            'assets/img/calipers/mitutoyo analogue caliper 8 inch.jpg',
+            'assets/img/calipers/mitutoyo analogue caliper 8 inch-3.jpg',
+            'assets/img/calipers/mitutoyo analogue caliper 8 inch-4.jpg'
         ],
 
         videos: [],
@@ -4158,8 +4228,8 @@ Accessories
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304598/Astonic-Mart/Products/calipers/analogue_caliper_12_inch.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304599/Astonic-Mart/Products/calipers/analogue_caliper_12_inch.jpg-2.jpg'
+            'assets/img/calipers/analogue caliper 12 inch.jpg',
+            'assets/img/calipers/analogue caliper 12 inch.jpg-2.jpg'
         ],
 
         videos: [],
@@ -4233,11 +4303,11 @@ Accessories
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304600/Astonic-Mart/Products/calipers/digital_caliper-12_inch.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304600/Astonic-Mart/Products/calipers/digital_caliper-12_inch.webp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304600/Astonic-Mart/Products/calipers/digital_caliper-12_inch.webp-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304600/Astonic-Mart/Products/calipers/digital_caliper-12_inch.webp-4.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304600/Astonic-Mart/Products/calipers/digital_caliper-12_inch.webp-5.avif'
+            'assets/img/calipers/digital caliper-12 inch.webp',
+            'assets/img/calipers/digital caliper-12 inch.webp-2.jpg',
+            'assets/img/calipers/digital caliper-12 inch.webp-3.jpg',
+            'assets/img/calipers/digital caliper-12 inch.webp-4.avif',
+            'assets/img/calipers/digital caliper-12 inch.webp-5.avif'
         ],
 
         videos: [],
@@ -4312,12 +4382,12 @@ Accessories
         discountPrice: 1157250,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308638/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_PRO_GLL_12V-100-33_CG.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308638/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_PRO_GLL_12V-100-33_CG.jpg-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308638/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_PRO_GLL_12V-100-33_CG.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308638/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_PRO_GLL_12V-100-33_CG.jpg-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308638/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_PRO_GLL_12V-100-33_CG.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308638/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_PRO_GLL_12V-100-33_CG.jpg-5.jpg'
+            'assets/img/lasers and measurement tools/bosch PRO GLL 12V-100-33 CG.webp',
+            'assets/img/lasers and measurement tools/bosch PRO GLL 12V-100-33 CG.webp-2.webp',
+            'assets/img/lasers and measurement tools/bosch PRO GLL 12V-100-33 CG.webp-3.webp',
+            'assets/img/lasers and measurement tools/bosch PRO GLL 12V-100-33 CG.webp-4.webp',
+            'assets/img/lasers and measurement tools/bosch PRO GLL 12V-100-33 CG.webp-5.jpg',
+            'assets/img/lasers and measurement tools/bosch PRO GLL 12V-100-33 CG.webp-5.jpg'
         ],
 
         videos: [
@@ -4403,11 +4473,11 @@ Accessories
         discountPrice: 1109000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308657/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80CG_Laser.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308658/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80CG_Laser.webp-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308659/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80CG_Laser.webp-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308657/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80CG_Laser.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308657/Astonic-Mart/Products/lasers%20and%20measurement%20tools/BOSCH_PRO_GLL_3-80CG_Laser.jpg-6.jpg'
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80CG  Laser.webp',
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80CG  Laser.webp-2.jpg',
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80CG  Laser.webp-3.jpg',
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80CG  Laser.webp-5.jpg',
+            'assets/img/lasers and measurement tools/BOSCH PRO GLL 3-80CG  Laser.webp-6.jpg'
         ],
 
         videos: [],
@@ -4492,9 +4562,9 @@ Accessories
         ],
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328971/Astonic-Mart/Products/scales/3ton_industrial_platform_scale-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328971/Astonic-Mart/Products/scales/3ton_industrial_platform_scale.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328971/Astonic-Mart/Products/scales/3ton_industrial_platform_scale.webp-3.avif'
+            'assets/img/scales/3ton industrial platform scale-2.webp',
+            'assets/img/scales/3ton industrial platform scale.webp',
+            'assets/img/scales/3ton industrial platform scale.webp-3.avif'
         ],
 
         inStock: true,
@@ -4548,12 +4618,12 @@ Available in multiple platform sizes, the scale accommodates a wide variety of g
         price: 420000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307339/Astonic-Mart/Products/gps%20trackers/Garmin-Etrex-10-GPS-Tracker.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307339/Astonic-Mart/Products/gps%20trackers/Garmin-Etrex-10-GPS-Tracker.jpg-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307339/Astonic-Mart/Products/gps%20trackers/Garmin-Etrex-10-GPS-Tracker.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307339/Astonic-Mart/Products/gps%20trackers/Garmin-Etrex-10-GPS-Tracker.jpg-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307339/Astonic-Mart/Products/gps%20trackers/Garmin-Etrex-10-GPS-Tracker.jpg-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307339/Astonic-Mart/Products/gps%20trackers/Garmin-Etrex-10-GPS-Tracker.jpg-6.webp',
+            'assets/img/gps trackers/Garmin-Etrex-10-GPS-Tracker.jpg',
+            'assets/img/gps trackers/Garmin-Etrex-10-GPS-Tracker.jpg-2.webp',
+            'assets/img/gps trackers/Garmin-Etrex-10-GPS-Tracker.jpg-3.webp',
+            'assets/img/gps trackers/Garmin-Etrex-10-GPS-Tracker.jpg-4.webp',
+            'assets/img/gps trackers/Garmin-Etrex-10-GPS-Tracker.jpg-5.webp',
+            'assets/img/gps trackers/Garmin-Etrex-10-GPS-Tracker.jpg-6.webp',
         ],
 
         inStock: true,
@@ -4611,9 +4681,9 @@ With long battery life, track logging capability and simple operation, the Garmi
 
         images: [
 
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308931/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_100m.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308932/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_100m-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308940/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_50m.jpg-5.avif'
+            'assets/img/measuring tapes/total fibreglass meauring tape 100m.jpg',
+            'assets/img/measuring tapes/total fibreglass meauring tape 100m-2.jpg',
+            'assets/img/measuring tapes/total fibreglass meauring tape 50m.jpg-5.avif'
         ],
 
         inStock: true,
@@ -4660,11 +4730,11 @@ With long battery life, track logging capability and simple operation, the Garmi
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308901/Astonic-Mart/Products/measuring%20tapes/ingco_fibreglass_measuring_tape-50m.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308942/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_50m-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308938/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_50m.jpg-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308939/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_50m.jpg-4.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308940/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_50m.jpg-5.avif'
+            'assets/img/measuring tapes/ingco fibreglass measuring tape-50m.jpeg',
+            'assets/img/measuring tapes/total fibreglass meauring tape 50m-2.jpg',
+            'assets/img/measuring tapes/total fibreglass meauring tape 50m.jpg-3.avif',
+            'assets/img/measuring tapes/total fibreglass meauring tape 50m.jpg-4.avif',
+            'assets/img/measuring tapes/total fibreglass meauring tape 50m.jpg-5.avif'
         ],
 
         inStock: true,
@@ -4711,10 +4781,10 @@ With long battery life, track logging capability and simple operation, the Garmi
         price: 15000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308933/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_30m.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308935/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_30m.jpeg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308934/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_30m.jpeg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308933/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_30m.jpg'
+            'assets/img/measuring tapes/total fibreglass meauring tape 30m.jpeg-4.jpg',
+            'assets/img/measuring tapes/total fibreglass meauring tape 30m.jpeg-3.jpg',
+            'assets/img/measuring tapes/total fibreglass meauring tape 30m.jpeg-2.jpg',
+            'assets/img/measuring tapes/total fibreglass meauring tape 30m.jpeg'
         ],
 
         inStock: true,
@@ -4765,11 +4835,11 @@ With long battery life, track logging capability and simple operation, the Garmi
         price: 22000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308945/Astonic-Mart/Products/measuring%20tapes/TOTAL_Steel_Measuring_Tape_50m.jpg-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308944/Astonic-Mart/Products/measuring%20tapes/TOTAL_Steel_Measuring_Tape_50m.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308946/Astonic-Mart/Products/measuring%20tapes/TOTAL_Steel_Measuring_Tape_50m.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308944/Astonic-Mart/Products/measuring%20tapes/TOTAL_Steel_Measuring_Tape_50m.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308947/Astonic-Mart/Products/measuring%20tapes/TOTAL_Steel_Measuring_Tape_50m.jpg-4.jpg'
+            'assets/img/measuring tapes/TOTAL Steel Measuring Tape 50m.jpg-2.webp',
+            'assets/img/measuring tapes/TOTAL Steel Measuring Tape 50m.jpg',
+            'assets/img/measuring tapes/TOTAL Steel Measuring Tape 50m.jpg-3.jpg',
+            'assets/img/measuring tapes/TOTAL Steel Measuring Tape 50m.jpg-5.jpg',
+            'assets/img/measuring tapes/TOTAL Steel Measuring Tape 50m.jpg-4.jpg'
         ],
 
         inStock: true,
@@ -4820,14 +4890,14 @@ TOTAL Steel Measuring Tape 50M TMT56006 is a durable long-distance measuring too
         price: 130000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-6.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-7.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-8.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306707/Astonic-Mart/Products/fuel%20testing%20and%20measuring/tu_15_engine_compression_kit.webp-3.webp'
+            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-4.webp',
+            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-6.webp',
+            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-5.webp',
+            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-7.webp',
+            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-8.webp',
+            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp',
+            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-2.webp',
+            'assets/img/fuel testing and measuring/tu 15 engine compression kit.webp-3.webp'
         ],
 
         inStock: true,
@@ -4876,12 +4946,12 @@ TOTAL Steel Measuring Tape 50M TMT56006 is a durable long-distance measuring too
         price: 130000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306687/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306689/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306690/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306691/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306692/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306693/Astonic-Mart/Products/fuel%20testing%20and%20measuring/Diesel_Engine_Compression_Tester_kit-6.jpg'
+            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit.jpg',
+            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit-2.jpg',
+            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit-3.jpg',
+            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit-4.jpg',
+            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit-5.jpg',
+            'assets/img/fuel testing and measuring/Diesel Engine Compression Tester kit-6.jpg'
         ],
 
         inStock: true,
@@ -4930,11 +5000,11 @@ TOTAL Steel Measuring Tape 50M TMT56006 is a durable long-distance measuring too
         price: 130000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306667/Astonic-Mart/Products/fuel%20testing%20and%20measuring/12pcs_compression_kit.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306685/Astonic-Mart/Products/fuel%20testing%20and%20measuring/12pcs_compression_kit-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306667/Astonic-Mart/Products/fuel%20testing%20and%20measuring/12pcs_compression_kit.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306667/Astonic-Mart/Products/fuel%20testing%20and%20measuring/12pcs_compression_kit.jpg-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306667/Astonic-Mart/Products/fuel%20testing%20and%20measuring/12pcs_compression_kit.jpg-3.webp'
+            'assets/img/fuel testing and measuring/12pcs compression kit.jpeg',
+            'assets/img/fuel testing and measuring/12pcs compression kit-2.jpeg',
+            'assets/img/fuel testing and measuring/12pcs compression kit.jpeg-3.webp',
+            'assets/img/fuel testing and measuring/12pcs compression kit.jpeg-4.webp',
+            'assets/img/fuel testing and measuring/12pcs compression kit.jpeg-3.webp'
         ],
 
         inStock: true,
@@ -4982,13 +5052,13 @@ TOTAL Steel Measuring Tape 50M TMT56006 is a durable long-distance measuring too
         discountPrice: 55000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310773/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-4.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-6.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310772/Astonic-Mart/Products/pressure%20kits/2pcs_engine_compression_kit.jpg-7.jpg'
+            'assets/img/pressure kits/2pcs engine compression kit.jpg',
+            'assets/img/pressure kits/2pcs engine compression kit.jpg-2.jpg',
+            'assets/img/pressure kits/2pcs engine compression kit.jpg-3.jpg',
+            'assets/img/pressure kits/2pcs engine compression kit.jpg-4.avif',
+            'assets/img/pressure kits/2pcs engine compression kit.jpg-5.jpg',
+            'assets/img/pressure kits/2pcs engine compression kit.jpg-6.jpeg',
+            'assets/img/pressure kits/2pcs engine compression kit.jpg-7.jpg'
         ],
 
         inStock: true,
@@ -5047,10 +5117,10 @@ Supplied in a durable storage case, the tester is ideal for workshops, garages, 
         discountPrice: 330000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309121/Astonic-Mart/Products/moisture%20meters/National_DMA-N_Digital_Moisture_Meter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309120/Astonic-Mart/Products/moisture%20meters/National_DMA-N_Digital_Moisture_Meter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309124/Astonic-Mart/Products/moisture%20meters/National_DMA-N_Digital_Moisture_Meter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309122/Astonic-Mart/Products/moisture%20meters/National_DMA-N_Digital_Moisture_Meter-3.jpg'
+            'assets/img/moisture meters/National DMA-N Digital Moisture Meter-2.jpg',
+            'assets/img/moisture meters/National DMA-N Digital Moisture Meter.jpg',
+            'assets/img/moisture meters/National DMA-N Digital Moisture Meter-4.jpeg',
+            'assets/img/moisture meters/National DMA-N Digital Moisture Meter-3.jpg'
         ],
 
         inStock: true,
@@ -5108,13 +5178,13 @@ The device features automatic temperature compensation, digital LCD display, fas
         discountPrice: 250000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309094/Astonic-Mart/Products/moisture%20meters/grain_moisture_analyzer_lds-1g.webp-7.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309088/Astonic-Mart/Products/moisture%20meters/grain_moisture_analyzer_lds-1g.webp-6.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309088/Astonic-Mart/Products/moisture%20meters/grain_moisture_analyzer_lds-1g.webp-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309088/Astonic-Mart/Products/moisture%20meters/grain_moisture_analyzer_lds-1g.webp-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309088/Astonic-Mart/Products/moisture%20meters/grain_moisture_analyzer_lds-1g.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309097/Astonic-Mart/Products/moisture%20meters/grain_moisture_analyzer_lds-1g-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309096/Astonic-Mart/Products/moisture%20meters/grain_moisture_analyzer_lds-1g-2.webp'
+            'assets/img/moisture meters/grain moisture analyzer lds-1g.webp-7.webp',
+            'assets/img/moisture meters/grain moisture analyzer lds-1g.webp-6.webp',
+            'assets/img/moisture meters/grain moisture analyzer lds-1g.webp-5.webp',
+            'assets/img/moisture meters/grain moisture analyzer lds-1g.webp-3.webp',
+            'assets/img/moisture meters/grain moisture analyzer lds-1g.webp',
+            'assets/img/moisture meters/grain moisture analyzer lds-1g-4.webp',
+            'assets/img/moisture meters/grain moisture analyzer lds-1g-2.webp'
         ],
 
         inStock: true,
@@ -5191,12 +5261,12 @@ The analyzer features automatic weighing, automatic temperature compensation, mo
         discountPrice: 820000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309098/Astonic-Mart/Products/moisture%20meters/halogen_moisture_anaylzers.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309098/Astonic-Mart/Products/moisture%20meters/halogen_moisture_anaylzers.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309098/Astonic-Mart/Products/moisture%20meters/halogen_moisture_anaylzers.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309098/Astonic-Mart/Products/moisture%20meters/halogen_moisture_anaylzers.jpg-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309098/Astonic-Mart/Products/moisture%20meters/halogen_moisture_anaylzers.jpg-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309098/Astonic-Mart/Products/moisture%20meters/halogen_moisture_anaylzers.jpg-6.jpg'
+            'assets/img/moisture meters/halogen moisture anaylzers.jpg',
+            'assets/img/moisture meters/halogen moisture anaylzers.jpg-2.jpg',
+            'assets/img/moisture meters/halogen moisture anaylzers.jpg-3.jpg',
+            'assets/img/moisture meters/halogen moisture anaylzers.jpg-4.jpg',
+            'assets/img/moisture meters/halogen moisture anaylzers.jpg-5.jpg',
+            'assets/img/moisture meters/halogen moisture anaylzers.jpg-6.jpg'
         ],
 
         inStock: true,
@@ -5255,12 +5325,12 @@ The analyzer combines precision weighing technology with a halogen heating syste
         discountPrice: 3800000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309126/Astonic-Mart/Products/moisture%20meters/ohaus_mb120_moisture_analyzer.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309127/Astonic-Mart/Products/moisture%20meters/ohaus_mb120_moisture_analyzer-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309128/Astonic-Mart/Products/moisture%20meters/ohaus_mb120_moisture_analyzer-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309129/Astonic-Mart/Products/moisture%20meters/ohaus_mb120_moisture_analyzer-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309130/Astonic-Mart/Products/moisture%20meters/ohaus_mb120_moisture_analyzer-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309131/Astonic-Mart/Products/moisture%20meters/ohaus_mb120_moisture_analyzer-6.jpg'
+            'assets/img/moisture meters/ohaus mb120 moisture analyzer.jpg',
+            'assets/img/moisture meters/ohaus mb120 moisture analyzer-2.webp',
+            'assets/img/moisture meters/ohaus mb120 moisture analyzer-3.jpeg',
+            'assets/img/moisture meters/ohaus mb120 moisture analyzer-4.jpeg',
+            'assets/img/moisture meters/ohaus mb120 moisture analyzer-5.jpg',
+            'assets/img/moisture meters/ohaus mb120 moisture analyzer-6.jpeg'
         ],
 
         inStock: true,
@@ -5321,11 +5391,11 @@ The analyzer features a large color touchscreen display, multiple drying profile
         discountPrice: 60000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309082/Astonic-Mart/Products/moisture%20meters/gm605_moisture_meter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309083/Astonic-Mart/Products/moisture%20meters/gm605_moisture_meter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309084/Astonic-Mart/Products/moisture%20meters/gm605_moisture_meter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309086/Astonic-Mart/Products/moisture%20meters/gm605_moisture_meter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309087/Astonic-Mart/Products/moisture%20meters/gm605_moisture_meter-5.jpg'
+            'assets/img/moisture meters/gm605 moisture meter.jpg',
+            'assets/img/moisture meters/gm605 moisture meter-2.jpg',
+            'assets/img/moisture meters/gm605 moisture meter-3.jpg',
+            'assets/img/moisture meters/gm605 moisture meter-4.jpg',
+            'assets/img/moisture meters/gm605 moisture meter-5.jpg'
         ],
 
         inStock: true,
@@ -5395,11 +5465,11 @@ The meter features a digital LCD display, multiple wood species selection, fast 
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309114/Astonic-Mart/Products/moisture%20meters/MD7822_Digital_Moisture_Meter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309115/Astonic-Mart/Products/moisture%20meters/MD7822_Digital_Moisture_Meter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309116/Astonic-Mart/Products/moisture%20meters/MD7822_Digital_Moisture_Meter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309117/Astonic-Mart/Products/moisture%20meters/MD7822_Digital_Moisture_Meter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309119/Astonic-Mart/Products/moisture%20meters/MD7822_Digital_Moisture_Meter-5.jpg'
+            'assets/img/moisture meters/MD7822 Digital Moisture Meter.jpg',
+            'assets/img/moisture meters/MD7822 Digital Moisture Meter-2.jpg',
+            'assets/img/moisture meters/MD7822 Digital Moisture Meter-3.jpg',
+            'assets/img/moisture meters/MD7822 Digital Moisture Meter-4.jpg',
+            'assets/img/moisture meters/MD7822 Digital Moisture Meter-5.jpg'
         ],
 
         inStock: true,
@@ -5463,12 +5533,12 @@ The meter features a digital LCD display, fast response time, automatic temperat
 
         images: [
 
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331807/Astonic-Mart/Products/moisture%20meters/randd_mt28_moisture_meter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331813/Astonic-Mart/Products/moisture%20meters/randd_mt28_moisture_meter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331813/Astonic-Mart/Products/moisture%20meters/randd_mt28_moisture_meter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309082/Astonic-Mart/Products/moisture%20meters/gm605_moisture_meter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331814/Astonic-Mart/Products/moisture%20meters/randd_mt28_moisture_meter-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331814/Astonic-Mart/Products/moisture%20meters/randd_mt28_moisture_meter-6.jpg'
+            'assets/img/moisture meters/r&d mt28 moisture meter-2.jpg',
+            'assets/img/moisture meters/r&d mt28 moisture meter.jpg',
+            'assets/img/moisture meters/r&d mt28 moisture meter-4.jpg',
+            'assets/img/moisture meters/gm605 moisture meter.jpg',
+            'assets/img/moisture meters/r&d mt28 moisture meter-5.jpg',
+            'assets/img/moisture meters/r&d mt28 moisture meter-6.jpg'
         ],
 
         inStock: true,
@@ -5532,11 +5602,11 @@ It is suitable for carpenters, furniture manufacturers, timber merchants, buildi
         discountPrice: 78000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330055/Astonic-Mart/Products/tripods/bosch_bt150_tripod-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330051/Astonic-Mart/Products/tripods/bosch_bt150_tripod.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330051/Astonic-Mart/Products/tripods/bosch_bt150_tripod.webp-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330051/Astonic-Mart/Products/tripods/bosch_bt150_tripod.webp-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330051/Astonic-Mart/Products/tripods/bosch_bt150_tripod.webp-5.jpg'
+            'assets/img/tripods/bosch bt150 tripod-2.webp',
+            'assets/img/tripods/bosch bt150 tripod.webp',
+            'assets/img/tripods/bosch bt150 tripod.webp-3.jpeg',
+            'assets/img/tripods/bosch bt150 tripod.webp-4.jpg',
+            'assets/img/tripods/bosch bt150 tripod.webp-5.jpeg'
         ],
 
         inStock: true,
@@ -5590,10 +5660,10 @@ The tripod features adjustable telescopic legs, a circular vial for accurate set
         discountPrice: 42000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330064/Astonic-Mart/Products/tripods/total_survey_tripod_TLLT01152.jpg-1.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330064/Astonic-Mart/Products/tripods/total_survey_tripod_TLLT01152.jpg-2.jpeg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330064/Astonic-Mart/Products/tripods/total_survey_tripod_TLLT01152.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330071/Astonic-Mart/Products/tripods/total_survey_tripod_TLLT01152-3.jpg'
+            'assets/img/tripods/total survey tripod (TLLT01152).jpg-1.webp',
+            'assets/img/tripods/total survey tripod (TLLT01152).jpg-2.jpeg',
+            'assets/img/tripods/total survey tripod (TLLT01152).jpg',
+            'assets/img/tripods/total survey tripod (TLLT01152)-3.jpg'
         ],
 
         inStock: true,
@@ -5648,10 +5718,10 @@ The lightweight design makes it easy to transport while maintaining excellent st
         discountPrice: 40000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330062/Astonic-Mart/Products/tripods/INGCO_survey_Tripod_HLLT01152.jpg-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330062/Astonic-Mart/Products/tripods/INGCO_survey_Tripod_HLLT01152.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330062/Astonic-Mart/Products/tripods/INGCO_survey_Tripod_HLLT01152.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330062/Astonic-Mart/Products/tripods/INGCO_survey_Tripod_HLLT01152.jpg-4.webp'
+            'assets/img/tripods/INGCO survey Tripod  (HLLT01152).jpg-3.jpg',
+            'assets/img/tripods/INGCO survey Tripod  (HLLT01152).jpg',
+            'assets/img/tripods/INGCO survey Tripod  (HLLT01152).jpg-2.jpg',
+            'assets/img/tripods/INGCO survey Tripod  (HLLT01152).jpg-4.webp'
         ],
 
         inStock: true,
@@ -5702,10 +5772,10 @@ The tripod features adjustable legs, universal mounting threads, and a compact p
         discountPrice: 140000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330061/Astonic-Mart/Products/tripods/Dual_Lock_Heavy_Duty_Alum_Tripod.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330061/Astonic-Mart/Products/tripods/Dual_Lock_Heavy_Duty_Alum_Tripod-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330062/Astonic-Mart/Products/tripods/Dual_Lock_Heavy_Duty_Alum_Tripod-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786330061/Astonic-Mart/Products/tripods/Dual_Lock_Heavy_Duty_Alum_Tripod-4.webp'
+            'assets/img/tripods/Dual Lock Heavy Duty Alum Tripod.webp',
+            'assets/img/tripods/Dual Lock Heavy Duty Alum Tripod-2.webp',
+            'assets/img/tripods/Dual Lock Heavy Duty Alum Tripod-3.webp',
+            'assets/img/tripods/Dual Lock Heavy Duty Alum Tripod-4.webp'
         ],
 
         inStock: true,
@@ -5758,10 +5828,10 @@ The tripod features a dual-lock leg system for enhanced rigidity and stability, 
         discountPrice: 1350000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308669/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_PRO_GRL_300_HV.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308669/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_PRO_GRL_300_HV.webp-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308672/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_PRO_GRL_300_HV-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308669/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_PRO_GRL_300_HV.webp-4.jpg'
+            'assets/img/lasers and measurement tools/bosch PRO GRL 300 HV.webp',
+            'assets/img/lasers and measurement tools/bosch PRO GRL 300 HV.webp-2.webp',
+            'assets/img/lasers and measurement tools/bosch PRO GRL 300 HV-3.webp',
+            'assets/img/lasers and measurement tools/bosch PRO GRL 300 HV.webp-4.jpg'
         ],
 
         inStock: true,
@@ -5832,10 +5902,10 @@ The laser features automatic self-leveling, shock warning protection, variable r
         discountPrice: 1500000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429660/Astonic-Mart/Products/remaining-local-images/cqbzqbymhddx1z9rym3o.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429661/Astonic-Mart/Products/remaining-local-images/gjjqejnc8p3ld6k2e3gm.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429662/Astonic-Mart/Products/remaining-local-images/uamxidcecebdkg3b9ttw.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429665/Astonic-Mart/Products/remaining-local-images/vmzew55kxqb3evsydpze.jpg'
+            'assets/img/lasers and measurement tools/Bosch PRO GRL 300 HV +bt160.jpg',
+            'assets/img/lasers and measurement tools/Bosch PRO GRL 300 HV +bt160.jpg-2.webp',
+            'assets/img/lasers and measurement tools/Bosch PRO GRL 300 HV +bt160.jpg-3.webp',
+            'assets/img/lasers and measurement tools/Bosch PRO GRL 300 HV +bt160.jpg-4.webp'
         ],
 
         inStock: true,
@@ -5914,10 +5984,10 @@ The rotary laser provides both horizontal and vertical laser projection with aut
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328987/Astonic-Mart/Products/scales/camry_electronic_kitchen_scale_ek3250.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328989/Astonic-Mart/Products/scales/camry_electronic_kitchen_scale_ek3250-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328987/Astonic-Mart/Products/scales/camry_electronic_kitchen_scale_ek3250-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328990/Astonic-Mart/Products/scales/camry_electronic_kitchen_scale_ek3250-3.jpg'
+            'assets/img/scales/camry electronic kitchen scale ek3250.jpg',
+            'assets/img/scales/camry electronic kitchen scale ek3250-4.jpg',
+            'assets/img/scales/camry electronic kitchen scale ek3250-2.jpg',
+            'assets/img/scales/camry electronic kitchen scale ek3250-3.jpg'
         ],
 
         inStock: true,
@@ -5990,9 +6060,9 @@ The scale is equipped with a high-precision strain gauge sensor system, providin
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308893/Astonic-Mart/Products/measuring%20tapes/darling_Fiberglass_50m_Measuring_Tape.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308894/Astonic-Mart/Products/measuring%20tapes/darling_Fiberglass_50m_Measuring_Tape.jpg-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308893/Astonic-Mart/Products/measuring%20tapes/darling_Fiberglass_50m_Measuring_Tape.jpg-3.jpg'
+            'assets/img/measuring tapes/darling Fiberglass 50m Measuring Tape.jpg',
+            'assets/img/measuring tapes/darling Fiberglass 50m Measuring Tape.jpg-2.jpg',
+            'assets/img/measuring tapes/darling Fiberglass 50m Measuring Tape.jpg-3.jpg'
         ],
 
         inStock: true,
@@ -6054,13 +6124,13 @@ Darling Fiberglass Measuring Tape 50m / 165ft is a durable long-distance measuri
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307162/Astonic-Mart/Products/generaltesters/UNI-T_UT521_DIGITAL_EARTH_TESTER.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307163/Astonic-Mart/Products/generaltesters/UNI-T_UT521_DIGITAL_EARTH_TESTER-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307164/Astonic-Mart/Products/generaltesters/UNI-T_UT521_DIGITAL_EARTH_TESTER-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307166/Astonic-Mart/Products/generaltesters/UNI-T_UT521_DIGITAL_EARTH_TESTER-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307167/Astonic-Mart/Products/generaltesters/UNI-T_UT521_DIGITAL_EARTH_TESTER-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307168/Astonic-Mart/Products/generaltesters/UNI-T_UT521_DIGITAL_EARTH_TESTER-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307169/Astonic-Mart/Products/generaltesters/UNI-T_UT521_DIGITAL_EARTH_TESTER-7.jpg'
+            'assets/img/generaltesters/UNI-T UT521 DIGITAL EARTH TESTER.jpg',
+            'assets/img/generaltesters/UNI-T UT521 DIGITAL EARTH TESTER-2.jpg',
+            'assets/img/generaltesters/UNI-T UT521 DIGITAL EARTH TESTER-3.jpg',
+            'assets/img/generaltesters/UNI-T UT521 DIGITAL EARTH TESTER-4.jpg',
+            'assets/img/generaltesters/UNI-T UT521 DIGITAL EARTH TESTER-5.jpg',
+            'assets/img/generaltesters/UNI-T UT521 DIGITAL EARTH TESTER-6.jpg',
+            'assets/img/generaltesters/UNI-T UT521 DIGITAL EARTH TESTER-7.jpg'
         ],
 
         inStock: true,
@@ -6129,11 +6199,11 @@ UNI-T UT521 Digital Earth Tester is a professional grounding resistance measurin
         price: 60000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308950/Astonic-Mart/Products/measuring%20wheels/analogue_distance_measuring_wheel-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308952/Astonic-Mart/Products/measuring%20wheels/analogue_distance_measuring_wheel-7.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308951/Astonic-Mart/Products/measuring%20wheels/analogue_distance_measuring_wheel-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308950/Astonic-Mart/Products/measuring%20wheels/analogue_distance_measuring_wheel-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308949/Astonic-Mart/Products/measuring%20wheels/analogue_distance_measuring_wheel-2.jpg'
+            'assets/img/measuring wheels/analogue distance measuring wheel-5.jpg',
+            'assets/img/measuring wheels/analogue distance measuring wheel-7.jpg',
+            'assets/img/measuring wheels/analogue distance measuring wheel-6.jpg',
+            'assets/img/measuring wheels/analogue distance measuring wheel-4.jpg',
+            'assets/img/measuring wheels/analogue distance measuring wheel-2.jpg'
         ],
 
         inStock: true,
@@ -6199,12 +6269,12 @@ Suitable for indoor and outdoor applications
         price: 65000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308990/Astonic-Mart/Products/measuring%20wheels/qldz-10_distance_measuring_wheel-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308989/Astonic-Mart/Products/measuring%20wheels/qldz-10_distance_measuring_wheel-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308991/Astonic-Mart/Products/measuring%20wheels/qldz-10_distance_measuring_wheel-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308992/Astonic-Mart/Products/measuring%20wheels/qldz-10_distance_measuring_wheel-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308993/Astonic-Mart/Products/measuring%20wheels/qldz-10_distance_measuring_wheel-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308994/Astonic-Mart/Products/measuring%20wheels/qldz-10_distance_measuring_wheel-7.jpg'
+            'assets/img/measuring wheels/qldz-10 distance measuring wheel-3.jpg',
+            'assets/img/measuring wheels/qldz-10 distance measuring wheel-2.jpg',
+            'assets/img/measuring wheels/qldz-10 distance measuring wheel-4.webp',
+            'assets/img/measuring wheels/qldz-10 distance measuring wheel-5.jpg',
+            'assets/img/measuring wheels/qldz-10 distance measuring wheel-6.jpg',
+            'assets/img/measuring wheels/qldz-10 distance measuring wheel-7.jpg'
         ],
 
         inStock: true,
@@ -6270,8 +6340,8 @@ Reliable performance in field conditions
         price: 95000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308995/Astonic-Mart/Products/measuring%20wheels/TOTAL_Digital_Display_Measuring_Wheel.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308997/Astonic-Mart/Products/measuring%20wheels/TOTAL_Digital_Display_Measuring_Wheel-2.jpg',
+            'assets/img/measuring wheels/TOTAL Digital Display Measuring Wheel.jpg',
+            'assets/img/measuring wheels/TOTAL Digital Display Measuring Wheel-2.jpeg',
 
         ],
 
@@ -6337,10 +6407,10 @@ Reliable field performance
         price: 90000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308972/Astonic-Mart/Products/measuring%20wheels/ingco_measuring_wheel.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308973/Astonic-Mart/Products/measuring%20wheels/ingco_measuring_wheel-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308975/Astonic-Mart/Products/measuring%20wheels/ingco_measuring_wheel-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308977/Astonic-Mart/Products/measuring%20wheels/ingco_measuring_wheel-4.webp'
+            'assets/img/measuring wheels/ingco measuring wheel.jpg',
+            'assets/img/measuring wheels/ingco measuring wheel-2.webp',
+            'assets/img/measuring wheels/ingco measuring wheel-3.jpeg',
+            'assets/img/measuring wheels/ingco measuring wheel-4.webp'
         ],
 
         inStock: true,
@@ -6402,14 +6472,14 @@ Reliable and accurate measurements
         price: 150000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310805/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310797/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310799/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310800/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310803/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310805/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310808/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310813/Astonic-Mart/Products/pressure%20kits/Fuel_Injection_Pressure_Tester_Kit_Gauge_0-140_PSI-7.jpg'
+            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-5.jpg',
+            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI.jpg',
+            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-2.jpg',
+            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-3.jpg',
+            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-4.jpg',
+            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-5.jpg',
+            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-6.jpg',
+            'assets/img/pressure kits/Fuel Injection Pressure Tester Kit Gauge 0-140 PSI-7.jpg'
         ],
 
         inStock: true,
@@ -6486,13 +6556,13 @@ User Manual
         brand: 'Generic',
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310788/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310790/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310791/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310792/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310793/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310795/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786310796/Astonic-Mart/Products/pressure%20kits/9PCS_Petrol_Engine_Cylinder_Compression_Tester_Kit-7.jpg'
+            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit.jpg',
+            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-2.jpg',
+            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-3.jpg',
+            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-4.jpg',
+            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-5.jpg',
+            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-6.jpg',
+            'assets/img/pressure kits/9PCS Petrol Engine Cylinder Compression Tester Kit-7.jpg'
         ],
 
         inStock: true,
@@ -6570,9 +6640,9 @@ Accessories:
         price: 80000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328976/Astonic-Mart/Products/scales/Camry_Acs-30-je11_30kg_Digital_Weighing_Scale-2.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328976/Astonic-Mart/Products/scales/Camry_Acs-30-je11_30kg_Digital_Weighing_Scale-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328974/Astonic-Mart/Products/scales/Camry_Acs-30-je11_30kg_Digital_Weighing_Scale.jpg'
+            'assets/img/scales/Camry Acs-30-je11 30kg Digital Weighing Scale-2.avif',
+            'assets/img/scales/Camry Acs-30-je11 30kg Digital Weighing Scale-3.avif',
+            'assets/img/scales/Camry Acs-30-je11 30kg Digital Weighing Scale.jpeg'
         ],
 
         inStock: true,
@@ -6625,9 +6695,9 @@ Ideal for commercial weighing applications
         price: 80000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328974/Astonic-Mart/Products/scales/camry_acs-30-c41.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328974/Astonic-Mart/Products/scales/camry_acs-30-c41-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328974/Astonic-Mart/Products/scales/camry_acs-30-c41-3.webp'
+            'assets/img/scales/camry acs-30-c41.avif',
+            'assets/img/scales/camry acs-30-c41-2.jpg',
+            'assets/img/scales/camry acs-30-c41-3.webp'
         ],
 
         inStock: true,
@@ -6679,11 +6749,11 @@ Suitable for shops, supermarkets and warehouses
         price: 130000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308724/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Milwaukee_330ft_Laser_Distance_Meter.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308727/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Milwaukee_330ft_Laser_Distance_Meter-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308730/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Milwaukee_330ft_Laser_Distance_Meter-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308729/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Milwaukee_330ft_Laser_Distance_Meter-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308731/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Milwaukee_330ft_Laser_Distance_Meter-5.jpg'
+            'assets/img/lasers and measurement tools/Milwaukee  330ft Laser Distance Meter.webp',
+            'assets/img/lasers and measurement tools/Milwaukee  330ft Laser Distance Meter-2.webp',
+            'assets/img/lasers and measurement tools/Milwaukee  330ft Laser Distance Meter-4.webp',
+            'assets/img/lasers and measurement tools/Milwaukee  330ft Laser Distance Meter-3.webp',
+            'assets/img/lasers and measurement tools/Milwaukee  330ft Laser Distance Meter-5.jpg'
         ],
 
         inStock: true,
@@ -6740,12 +6810,12 @@ Ideal for professional and industrial applications
         discountPrice: 45000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786324914/Astonic-Mart/Products/generaltesters/SMART_SENSOR_AR8011_Water_Quality_Tester-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307155/Astonic-Mart/Products/generaltesters/SMART_SENSOR_AR8011_Water_Quality_Tester-2.jpg',
-            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786307157/Astonic-Mart/Products/generaltesters/SMART_SENSOR_AR8011_Water_Quality_Tester-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307158/Astonic-Mart/Products/generaltesters/SMART_SENSOR_AR8011_Water_Quality_Tester-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786307160/Astonic-Mart/Products/generaltesters/SMART_SENSOR_AR8011_Water_Quality_Tester-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306987/Astonic-Mart/Products/generaltesters/SMART_SENSOR_AR8011_Water_Quality_Tester.jpg'
+            'assets/img/generaltesters/SMART SENSOR AR8011 Water Quality Tester-1.jpeg',
+            'assets/img/generaltesters/SMART SENSOR AR8011 Water Quality Tester-2.jpg',
+            'src/assets/img/generaltesters/SMART SENSOR AR8011 Water Quality Tester-3.jpg',
+            'assets/img/generaltesters/SMART SENSOR AR8011 Water Quality Tester-4.jpg',
+            'assets/img/generaltesters/SMART SENSOR AR8011 Water Quality Tester-5.jpg',
+            'assets/img/generaltesters/SMART SENSOR AR8011 Water Quality Tester.jpg'
         ],
 
         inStock: true,
@@ -6808,14 +6878,14 @@ Professional-grade performance
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308742/Astonic-Mart/Products/lasers%20and%20measurement%20tools/unit_laser_meter_100m.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308743/Astonic-Mart/Products/lasers%20and%20measurement%20tools/unit_laser_meter_100m-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308744/Astonic-Mart/Products/lasers%20and%20measurement%20tools/unit_laser_meter_100m-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308745/Astonic-Mart/Products/lasers%20and%20measurement%20tools/unit_laser_meter_100m-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308747/Astonic-Mart/Products/lasers%20and%20measurement%20tools/unit_laser_meter_100m-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308747/Astonic-Mart/Products/lasers%20and%20measurement%20tools/unit_laser_meter_100m-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308750/Astonic-Mart/Products/lasers%20and%20measurement%20tools/unit_laser_meter_100m-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308751/Astonic-Mart/Products/lasers%20and%20measurement%20tools/unit_laser_meter_100m-7.jpg'
+            'assets/img/lasers and measurement tools/unit laser meter 100m.png',
+            'assets/img/lasers and measurement tools/unit laser meter 100m-2.jpeg',
+            'assets/img/lasers and measurement tools/unit laser meter 100m-3.jpg',
+            'assets/img/lasers and measurement tools/unit laser meter 100m-4.jpg',
+            'assets/img/lasers and measurement tools/unit laser meter 100m-5.jpg',
+            'assets/img/lasers and measurement tools/unit laser meter 100m-5.jpg',
+            'assets/img/lasers and measurement tools/unit laser meter 100m-6.jpg',
+            'assets/img/lasers and measurement tools/unit laser meter 100m-7.jpg'
         ],
 
         inStock: true,
@@ -6880,8 +6950,8 @@ Professional-grade performance
         discountPrice: 120000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304596/Astonic-Mart/Products/calipers/500mm_vernier_caliper.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304597/Astonic-Mart/Products/calipers/500mm_vernier_caliper-2.jpg'
+            'assets/img/calipers/500mm vernier caliper.jpg',
+            'assets/img/calipers/500mm vernier caliper-2.jpg'
         ],
 
         model: 'VC500',
@@ -6965,11 +7035,11 @@ Professional-grade performance
         ],
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308888/Astonic-Mart/Products/measuring%20tapes/30m_fishing_tape.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308889/Astonic-Mart/Products/measuring%20tapes/30m_fishing_tape-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308890/Astonic-Mart/Products/measuring%20tapes/30m_fishing_tape-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308891/Astonic-Mart/Products/measuring%20tapes/30m_fishing_tape-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308892/Astonic-Mart/Products/measuring%20tapes/30m_fishing_tape-5.jpg'
+            'assets/img/measuring tapes/30m fishing tape.jpg',
+            'assets/img/measuring tapes/30m fishing tape-2.jpeg',
+            'assets/img/measuring tapes/30m fishing tape-3.jpg',
+            'assets/img/measuring tapes/30m fishing tape-4.jpg',
+            'assets/img/measuring tapes/30m fishing tape-5.jpg'
         ],
 
         inStock: true,
@@ -7028,11 +7098,11 @@ Professional-grade performance
         capacity: '5KG',
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328985/Astonic-Mart/Products/scales/Camry_EK5055_digital_kitchen_scale.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328984/Astonic-Mart/Products/scales/Camry_EK5055_digital_kitchen_scale-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328988/Astonic-Mart/Products/scales/Camry_EK5055_digital_kitchen_scale-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328987/Astonic-Mart/Products/scales/Camry_EK5055_digital_kitchen_scale-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328987/Astonic-Mart/Products/scales/Camry_EK5055_digital_kitchen_scale-6.jpg'
+            'assets/img/scales/Camry EK5055 digital kitchen scale.jpg',
+            'assets/img/scales/Camry EK5055 digital kitchen scale-2.jpg',
+            'assets/img/scales/Camry EK5055 digital kitchen scale-3.jpg',
+            'assets/img/scales/Camry EK5055 digital kitchen scale-4.jpg',
+            'assets/img/scales/Camry EK5055 digital kitchen scale-6.jpg'
         ],
 
         model: 'EK5055',
@@ -7087,12 +7157,12 @@ Professional-grade performance
         discountPrice: 29600,
         capacity: '5KG',
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328981/Astonic-Mart/Products/scales/camry_ek4150_electronic_kitchen_scale.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328981/Astonic-Mart/Products/scales/camry_ek4150_electronic_kitchen_scale-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328981/Astonic-Mart/Products/scales/camry_ek4150_electronic_kitchen_scale-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328986/Astonic-Mart/Products/scales/camry_ek4150_electronic_kitchen_scale-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328984/Astonic-Mart/Products/scales/camry_ek4150_electronic_kitchen_scale-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328984/Astonic-Mart/Products/scales/camry_ek4150_electronic_kitchen_scale-6.jpg'
+            'assets/img/scales/camry ek4150 electronic kitchen scale.jpg',
+            'assets/img/scales/camry ek4150 electronic kitchen scale-2.jpg',
+            'assets/img/scales/camry ek4150 electronic kitchen scale-3.jpg',
+            'assets/img/scales/camry ek4150 electronic kitchen scale-4.jpg',
+            'assets/img/scales/camry ek4150 electronic kitchen scale-5.jpg',
+            'assets/img/scales/camry ek4150 electronic kitchen scale-6.jpg'
         ],
 
         model: 'EK4150',
@@ -7148,10 +7218,10 @@ Professional-grade performance
         capacity: '5KG',
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328976/Astonic-Mart/Products/scales/Camry_ek3211_electronic_kitchen_scale-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328979/Astonic-Mart/Products/scales/Camry_ek3211_electronic_kitchen_scale-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328981/Astonic-Mart/Products/scales/Camry_ek3211_electronic_kitchen_scale-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786328981/Astonic-Mart/Products/scales/Camry_ek3211_electronic_kitchen_scale-4.webp'
+            'assets/img/scales/Camry ek3211 electronic kitchen scale-1.jpg',
+            'assets/img/scales/Camry ek3211 electronic kitchen scale-2.jpeg',
+            'assets/img/scales/Camry ek3211 electronic kitchen scale-3.jpeg',
+            'assets/img/scales/Camry ek3211 electronic kitchen scale-4.webp'
         ],
 
         model: 'EK3211',
@@ -7209,12 +7279,12 @@ Professional-grade performance
         discountPrice: 78000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308594/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_GLL_2_line_laser-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308596/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_GLL_2_line_laser-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308599/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_GLL_2_line_laser-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308601/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_GLL_2_line_laser-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308604/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_GLL_2_line_laser-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308607/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_GLL_2_line_laser-6.jpg'
+            'assets/img/lasers and measurement tools/bosch GLL 2 line laser-1.jpg',
+            'assets/img/lasers and measurement tools/bosch GLL 2 line laser-2.jpg',
+            'assets/img/lasers and measurement tools/bosch GLL 2 line laser-3.jpg',
+            'assets/img/lasers and measurement tools/bosch GLL 2 line laser-4.jpg',
+            'assets/img/lasers and measurement tools/bosch GLL 2 line laser-5.jpg',
+            'assets/img/lasers and measurement tools/bosch GLL 2 line laser-6.jpg'
         ],
 
         model: 'GLL 2',
@@ -7268,14 +7338,14 @@ Professional-grade performance
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308682/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Three-Line_Laser_GLL_2-50_Professional.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308684/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Three-Line_Laser_GLL_2-50_Professional-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308685/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Three-Line_Laser_GLL_2-50_Professional-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308686/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Three-Line_Laser_GLL_2-50_Professional-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308687/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Three-Line_Laser_GLL_2-50_Professional-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308689/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Three-Line_Laser_GLL_2-50_Professional-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308689/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Three-Line_Laser_GLL_2-50_Professional-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308690/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_Three-Line_Laser_GLL_2-50_Professional-7.jpg'
+            'assets/img/lasers and measurement tools/Bosch Three-Line Laser GLL 2-50 Professional.webp',
+            'assets/img/lasers and measurement tools/Bosch Three-Line Laser GLL 2-50 Professional-2.webp',
+            'assets/img/lasers and measurement tools/Bosch Three-Line Laser GLL 2-50 Professional-3.webp',
+            'assets/img/lasers and measurement tools/Bosch Three-Line Laser GLL 2-50 Professional-4.jpeg',
+            'assets/img/lasers and measurement tools/Bosch Three-Line Laser GLL 2-50 Professional-5.jpg',
+            'assets/img/lasers and measurement tools/Bosch Three-Line Laser GLL 2-50 Professional-6.jpg',
+            'assets/img/lasers and measurement tools/Bosch Three-Line Laser GLL 2-50 Professional-6.jpg',
+            'assets/img/lasers and measurement tools/Bosch Three-Line Laser GLL 2-50 Professional-7.jpg'
         ],
 
         model: 'GLL 2-50',
@@ -7332,11 +7402,11 @@ Professional-grade performance
         discountPrice: 170000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308632/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_gms_120_professional.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308633/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_gms_120_professional-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308634/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_gms_120_professional-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308636/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_gms_120_professional-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308638/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_gms_120_professional-5.jpg'
+            'assets/img/lasers and measurement tools/bosch gms 120 professional.jpg',
+            'assets/img/lasers and measurement tools/bosch gms 120 professional-2.jpeg',
+            'assets/img/lasers and measurement tools/bosch gms 120 professional-3.jpeg',
+            'assets/img/lasers and measurement tools/bosch gms 120 professional-4.jpg',
+            'assets/img/lasers and measurement tools/bosch gms 120 professional-5.jpg'
         ],
 
         model: 'GMS 120-27',
@@ -7402,10 +7472,10 @@ Professional-grade performance
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308927/Astonic-Mart/Products/measuring%20tapes/jumlee_steel_measuring_tapes_100m.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308929/Astonic-Mart/Products/measuring%20tapes/jumlee_steel_measuring_tapes_100m-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308903/Astonic-Mart/Products/measuring%20tapes/jumlee_measuring_tapes_100m-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308905/Astonic-Mart/Products/measuring%20tapes/jumlee_measuring_tapes_50m.jpg'
+            'assets/img/measuring tapes/jumlee steel measuring tapes 100m.png',
+            'assets/img/measuring tapes/jumlee steel measuring tapes 100m-3.jpg',
+            'assets/img/measuring tapes/jumlee measuring tapes 100m-2.jpg',
+            'assets/img/measuring tapes/jumlee measuring tapes 50m.jpg'
         ],
 
         description: 'The JUMLEE Long Steel Tape Measure is a professional-grade open reel measuring tape designed for land surveying, road construction, civil engineering, landscaping, fencing, agriculture, and general construction work. It features a durable steel measuring blade, ergonomic winding handle, impact-resistant frame, and a pointed ground spike for accurate long-distance measurements in outdoor environments.',
@@ -7506,9 +7576,9 @@ Professional surveying and construction tool
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306804/Astonic-Mart/Products/general%20guages/0-25mm_digital_indicator.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306806/Astonic-Mart/Products/general%20guages/0-25mm_digital_indicator-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306807/Astonic-Mart/Products/general%20guages/0-25mm_digital_indicator-3.webp'
+            'assets/img/general guages/0-25mm digital indicator.webp',
+            'assets/img/general guages/0-25mm digital indicator-2.webp',
+            'assets/img/general guages/0-25mm digital indicator-3.webp'
         ],
 
         description: 'The 0-25mm Digital Indicator is a high-precision measuring instrument designed for dimensional inspection, machine setup, alignment, runout measurement, flatness checking, and quality control applications. Featuring a digital display with 0.001mm resolution, it provides accurate and repeatable measurements in workshops, machine shops, manufacturing plants, metrology labs, and engineering environments.',
@@ -7594,7 +7664,9 @@ Professional-grade measuring instrument
 
         brand: 'Generic',
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786304194/Astonic-Mart/Products/battery%20and%20battery%20chargers/KW600_Car_Battery_Tester_12V_100_To_2000CCA.jpg',
+            'assets/img/battery and battery chargers/KW600 Car Battery Tester 12V 100 To 2000CCA.jpg',
+            'assets/img/automotive/kw600-2.jpg',
+            'assets/img/automotive/kw600-3.jpg'
         ],
 
         inStock: true,
@@ -7659,7 +7731,7 @@ Professional-grade measuring instrument
         ],
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329008/Astonic-Mart/Products/scales/ricool_platform_digital_scales.png'
+            'assets/img/scales/ricool platform digital scales.png'
         ],
 
         inStock: true,
@@ -7719,11 +7791,11 @@ Professional-grade measuring instrument
         discountPrice: 400000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331813/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Milwaukee_M12_360_3-Plane_Green_Laser_Kit.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331839/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Milwaukee_M12_360_3-Plane_Green_Laser_Kit-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331823/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Milwaukee_M12_360_3-Plane_Green_Laser_Kit-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331822/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Milwaukee_M12_360_3-Plane_Green_Laser_Kit-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786331825/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Milwaukee_M12_360_3-Plane_Green_Laser_Kit-5.webp'
+            'assets/img/lasers and measurement tools/Milwaukee M12 360° 3-Plane Green Laser Kit.webp',
+            'assets/img/lasers and measurement tools/Milwaukee M12 360° 3-Plane Green Laser Kit-2.webp',
+            'assets/img/lasers and measurement tools/Milwaukee M12 360° 3-Plane Green Laser Kit-3.webp',
+            'assets/img/lasers and measurement tools/Milwaukee M12 360° 3-Plane Green Laser Kit-4.webp',
+            'assets/img/lasers and measurement tools/Milwaukee M12 360° 3-Plane Green Laser Kit-5.webp'
         ],
 
         inStock: true,
@@ -7780,8 +7852,8 @@ Professional-grade measuring instrument
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329618/Astonic-Mart/Products/thickness%20guages/Digital_Thickness_Gauge_0-12.7mm.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329619/Astonic-Mart/Products/thickness%20guages/Digital_Thickness_Gauge_0-12.7mm-2.webp'
+            'assets/img/thickness guages/Digital Thickness Gauge 0-12.7mm.png',
+            'assets/img/thickness guages/Digital Thickness Gauge 0-12.7mm-2.webp'
         ],
 
         description: `The Digital Thickness Gauge is a precision measuring instrument designed for accurately measuring the thickness of paper, leather, rubber, plastic sheets, foam, textiles, cardboard and other materials. It features a digital LCD display for easy reading and high measurement accuracy.`,
@@ -7836,12 +7908,12 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306884/Astonic-Mart/Products/generaltesters/bosmere-ph-meter.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306884/Astonic-Mart/Products/generaltesters/bosmere-ph-meter.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306879/Astonic-Mart/Products/generaltesters/bosmere_ph_meter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306885/Astonic-Mart/Products/generaltesters/bosmere-ph-meter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306881/Astonic-Mart/Products/generaltesters/bosmere_ph_meter-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306882/Astonic-Mart/Products/generaltesters/bosmere_ph_meter-6.jpg'
+            'assets/img/generaltesters/bosmere-ph-meter.webp',
+            'assets/img/generaltesters/bosmere-ph-meter.webp',
+            'assets/img/generaltesters/bosmere ph meter-3.jpg',
+            'assets/img/generaltesters/bosmere-ph-meter-4.jpg',
+            'assets/img/generaltesters/bosmere ph meter-5.jpg',
+            'assets/img/generaltesters/bosmere ph meter-6.jpg'
         ],
 
         description: `The Bosmere Soil pH Meter is a practical gardening tool designed to measure soil acidity and alkalinity quickly and accurately. It helps gardeners determine the ideal soil conditions for flowers, vegetables, shrubs, lawns, and other plants without the need for batteries or chemicals.`,
@@ -7891,10 +7963,10 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329604/Astonic-Mart/Products/thermometers/GM320_Infrared_Thermometer.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329604/Astonic-Mart/Products/thermometers/GM320_Infrared_Thermometer-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329604/Astonic-Mart/Products/thermometers/GM320_Infrared_Thermometer-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329604/Astonic-Mart/Products/thermometers/GM320_Infrared_Thermometer-4.jpg'
+            'assets/img/thermometers/GM320 Infrared Thermometer.jpeg',
+            'assets/img/thermometers/GM320 Infrared Thermometer-2.jpg',
+            'assets/img/thermometers/GM320 Infrared Thermometer-3.jpeg',
+            'assets/img/thermometers/GM320 Infrared Thermometer-4.jpeg'
         ],
 
         description: `The GM320 Infrared Thermometer is a non-contact temperature measuring instrument designed for fast and accurate surface temperature readings. It is widely used in electrical maintenance, HVAC systems, automotive diagnostics, industrial inspections, food processing, and home applications. The laser targeting system enables precise measurement from a safe distance.`,
@@ -7951,11 +8023,11 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309107/Astonic-Mart/Products/moisture%20meters/Luster_Leaf_Digital_Moisture_Meter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309108/Astonic-Mart/Products/moisture%20meters/Luster_Leaf_Digital_Moisture_Meter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309109/Astonic-Mart/Products/moisture%20meters/Luster_Leaf_Digital_Moisture_Meter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309111/Astonic-Mart/Products/moisture%20meters/Luster_Leaf_Digital_Moisture_Meter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309112/Astonic-Mart/Products/moisture%20meters/Luster_Leaf_Digital_Moisture_Meter-5.jpg'
+            'assets/img/moisture meters/Luster Leaf Digital Moisture Meter.jpg',
+            'assets/img/moisture meters/Luster Leaf Digital Moisture Meter-2.jpg',
+            'assets/img/moisture meters/Luster Leaf Digital Moisture Meter-3.jpg',
+            'assets/img/moisture meters/Luster Leaf Digital Moisture Meter-4.jpg',
+            'assets/img/moisture meters/Luster Leaf Digital Moisture Meter-5.jpg'
         ],
 
         description: `The Luster Leaf Digital Moisture Meter is a precision gardening instrument designed to measure soil moisture levels quickly and accurately. It helps gardeners, landscapers, and farmers determine when plants need watering, promoting healthier plant growth and preventing overwatering or underwatering.`,
@@ -8009,12 +8081,12 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308626/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_glm_50-27_laser_measure.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308627/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_glm_50-27_laser_measure.jpg-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308628/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_glm_50-27_laser_measure.jpg-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308629/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_glm_50-27_laser_measure.jpg-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308630/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_glm_50-27_laser_measure.jpg-5.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308626/Astonic-Mart/Products/lasers%20and%20measurement%20tools/bosch_glm_50-27_laser_measure.jpg-6.webp'
+            'assets/img/lasers and measurement tools/bosch glm 50-27 laser measure.jpg',
+            'assets/img/lasers and measurement tools/bosch glm 50-27 laser measure.jpg-2.webp',
+            'assets/img/lasers and measurement tools/bosch glm 50-27 laser measure.jpg-3.webp',
+            'assets/img/lasers and measurement tools/bosch glm 50-27 laser measure.jpg-4.webp',
+            'assets/img/lasers and measurement tools/bosch glm 50-27 laser measure.jpg-5.webp',
+            'assets/img/lasers and measurement tools/bosch glm 50-27 laser measure.jpg-6.webp'
         ],
 
         description: `The Bosch GLM 50-27 C Professional Laser Distance Meter is a rugged and highly accurate measuring tool designed for construction, surveying, interior fitting, electrical installation, and engineering applications. Featuring Bluetooth connectivity, a color display, and IP65 protection, it enables fast and precise distance, area, volume, and indirect measurements while allowing data transfer to mobile devices through the Bosch MeasureOn app.`,
@@ -8081,15 +8153,15 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308608/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_GLM_150-27_C_Professional_Laser_Distance_Meter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308609/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_GLM_150-27_C_Professional_Laser_Distance_Meter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308610/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_GLM_150-27_C_Professional_Laser_Distance_Meter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308612/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_GLM_150-27_C_Professional_Laser_Distance_Meter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308613/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_GLM_150-27_C_Professional_Laser_Distance_Meter-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308616/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_GLM_150-27_C_Professional_Laser_Distance_Meter-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308618/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_GLM_150-27_C_Professional_Laser_Distance_Meter-7.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308622/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_GLM_150-27_C_Professional_Laser_Distance_Meter-8.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308624/Astonic-Mart/Products/lasers%20and%20measurement%20tools/Bosch_GLM_150-27_C_Professional_Laser_Distance_Meter-9.jpg'
+            'assets/img/lasers and measurement tools/Bosch GLM 150-27 C Professional Laser Distance Meter.jpg',
+            'assets/img/lasers and measurement tools/Bosch GLM 150-27 C Professional Laser Distance Meter-2.jpg',
+            'assets/img/lasers and measurement tools/Bosch GLM 150-27 C Professional Laser Distance Meter-3.jpg',
+            'assets/img/lasers and measurement tools/Bosch GLM 150-27 C Professional Laser Distance Meter-4.jpg',
+            'assets/img/lasers and measurement tools/Bosch GLM 150-27 C Professional Laser Distance Meter-5.jpg',
+            'assets/img/lasers and measurement tools/Bosch GLM 150-27 C Professional Laser Distance Meter-6.jpg',
+            'assets/img/lasers and measurement tools/Bosch GLM 150-27 C Professional Laser Distance Meter-7.jpg',
+            'assets/img/lasers and measurement tools/Bosch GLM 150-27 C Professional Laser Distance Meter-8.jpg',
+            'assets/img/lasers and measurement tools/Bosch GLM 150-27 C Professional Laser Distance Meter-9.jpg'
         ],
 
         description: `The Bosch GLM 150-27 C Professional Laser Distance Meter is a heavy-duty long-range measuring device designed for construction, engineering, surveying, and industrial applications. With a measuring range of up to 150 meters, Bluetooth connectivity, integrated camera viewfinder, and IP54 protection, it delivers accurate measurements even in bright outdoor conditions.`,
@@ -8164,7 +8236,12 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309204/Astonic-Mart/Products/multimeters/Total_TMT47503_Digital_Multimeter-2.jpg',
+            'assets/img/multimeters/UNI-T UT890D+ Digital Multimeter.jpg',
+            'assets/img/multimeters/Total TMT47503 Digital Multimeter-2.jpg',
+            'assets/img/multimeters/UNI-T UT890D+ Digital Multimeter-3.jpg',
+            'assets/img/multimeters/UNI-T UT890D+ Digital Multimeter-4.jpg',
+            'assets/img/multimeters/UNI-T UT890D+ Digital Multimeter-5.jpg',
+            'assets/img/multimeters/UNI-T UT890D+ Digital Multimeter-6.jpg'
         ],
 
         description: `The UNI-T UT890D+ Digital Multimeter is a professional True RMS measuring instrument designed for electricians, technicians, maintenance personnel, and electronics enthusiasts. It provides accurate measurements of AC/DC voltage, current, resistance, capacitance, frequency, temperature, and continuity with NCV non-contact voltage detection for safer operation.`,
@@ -8227,12 +8304,12 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309148/Astonic-Mart/Products/multimeters/dt9205a_digital_multimeter-1.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309149/Astonic-Mart/Products/multimeters/dt9205a_digital_multimeter-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309151/Astonic-Mart/Products/multimeters/dt9205a_digital_multimeter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309152/Astonic-Mart/Products/multimeters/dt9205a_digital_multimeter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309152/Astonic-Mart/Products/multimeters/dt9205a_digital_multimeter-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309152/Astonic-Mart/Products/multimeters/dt9205a_digital_multimeter-5.jpg'
+            'assets/img/multimeters/dt9205a digital multimeter-1.webp',
+            'assets/img/multimeters/dt9205a digital multimeter-2.webp',
+            'assets/img/multimeters/dt9205a digital multimeter-3.jpg',
+            'assets/img/multimeters/dt9205a digital multimeter-4.jpg',
+            'assets/img/multimeters/dt9205a digital multimeter-5.jpg',
+            'assets/img/multimeters/dt9205a digital multimeter-5.jpg'
         ],
 
         description: `The DT9205A Digital Multimeter is a versatile electrical testing instrument designed for measuring AC/DC voltage, AC/DC current, resistance, capacitance, and transistor gain. It features a large LCD display, overload protection, and multiple testing functions, making it suitable for electricians, technicians, students, and DIY users.`,
@@ -8314,13 +8391,13 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309174/Astonic-Mart/Products/multimeters/MASTECH_MAS830L_Digital_Multimeter-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309175/Astonic-Mart/Products/multimeters/MASTECH_MAS830L_Digital_Multimeter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309176/Astonic-Mart/Products/multimeters/MASTECH_MAS830L_Digital_Multimeter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309178/Astonic-Mart/Products/multimeters/MASTECH_MAS830L_Digital_Multimeter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309179/Astonic-Mart/Products/multimeters/MASTECH_MAS830L_Digital_Multimeter-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309180/Astonic-Mart/Products/multimeters/MASTECH_MAS830L_Digital_Multimeter-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309181/Astonic-Mart/Products/multimeters/MASTECH_MAS830L_Digital_Multimeter-7.jpg'
+            'assets/img/multimeters/MASTECH MAS830L Digital Multimeter-1.jpg',
+            'assets/img/multimeters/MASTECH MAS830L Digital Multimeter-2.jpg',
+            'assets/img/multimeters/MASTECH MAS830L Digital Multimeter-3.jpg',
+            'assets/img/multimeters/MASTECH MAS830L Digital Multimeter-4.jpg',
+            'assets/img/multimeters/MASTECH MAS830L Digital Multimeter-5.jpg',
+            'assets/img/multimeters/MASTECH MAS830L Digital Multimeter-6.jpg',
+            'assets/img/multimeters/MASTECH MAS830L Digital Multimeter-7.jpg'
         ],
 
         description: `The MASTECH MAS830L Digital Multimeter is a compact and reliable electrical measuring instrument designed for electricians, technicians, students, and DIY users. It measures AC/DC voltage, DC current, resistance, and includes continuity, diode, and transistor testing functions. The large LCD display with backlight ensures easy reading in various working environments.`,
@@ -8399,10 +8476,10 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309159/Astonic-Mart/Products/multimeters/INGCO_DM200_Digital_Multimeter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309162/Astonic-Mart/Products/multimeters/INGCO_DM200_Digital_Multimeter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309168/Astonic-Mart/Products/multimeters/INGCO_DM200_Digital_Multimeter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309172/Astonic-Mart/Products/multimeters/INGCO_DM200_Digital_Multimeter-4.jpg'
+            'assets/img/multimeters/INGCO DM200 Digital Multimeter.jpg',
+            'assets/img/multimeters/INGCO DM200 Digital Multimeter-2.jpg',
+            'assets/img/multimeters/INGCO DM200 Digital Multimeter-3.jpg',
+            'assets/img/multimeters/INGCO DM200 Digital Multimeter-4.jpg'
         ],
 
         description: `The INGCO DM200 Digital Multimeter is a compact and reliable measuring instrument designed for electrical troubleshooting, maintenance, and testing applications. It features a 2000-count LCD display with backlight and can measure AC/DC voltage, DC current, resistance, and perform diode and battery testing.`,
@@ -8475,13 +8552,13 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309138/Astonic-Mart/Products/multimeters/Digital_Multimeter_INGCO_DM7504-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309140/Astonic-Mart/Products/multimeters/Digital_Multimeter_INGCO_DM7504-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309141/Astonic-Mart/Products/multimeters/Digital_Multimeter_INGCO_DM7504-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309142/Astonic-Mart/Products/multimeters/Digital_Multimeter_INGCO_DM7504-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309144/Astonic-Mart/Products/multimeters/Digital_Multimeter_INGCO_DM7504-5.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309145/Astonic-Mart/Products/multimeters/Digital_Multimeter_INGCO_DM7504-6.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309146/Astonic-Mart/Products/multimeters/Digital_Multimeter_INGCO_DM7504-7.jpg'
+            'assets/img/multimeters/Digital Multimeter INGCO DM7504-1.jpg',
+            'assets/img/multimeters/Digital Multimeter INGCO DM7504-2.jpg',
+            'assets/img/multimeters/Digital Multimeter INGCO DM7504-3.jpg',
+            'assets/img/multimeters/Digital Multimeter INGCO DM7504-4.jpg',
+            'assets/img/multimeters/Digital Multimeter INGCO DM7504-5.jpg',
+            'assets/img/multimeters/Digital Multimeter INGCO DM7504-6.jpg',
+            'assets/img/multimeters/Digital Multimeter INGCO DM7504-7.jpg'
         ],
 
         description: `The INGCO DM7504 is a professional-grade True RMS digital multimeter designed for electricians, technicians, industrial maintenance personnel, and electronics professionals. It features a 6000-count display, auto-ranging operation, NCV detection, temperature measurement, frequency measurement, and CAT III 1000V / CAT IV 600V safety ratings for reliable and safe electrical testing.`,
@@ -8586,10 +8663,10 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309197/Astonic-Mart/Products/multimeters/TOTAL_TMT46001_Digital_Multimeter-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309199/Astonic-Mart/Products/multimeters/TOTAL_TMT46001_Digital_Multimeter-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309201/Astonic-Mart/Products/multimeters/TOTAL_TMT46001_Digital_Multimeter-3.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309203/Astonic-Mart/Products/multimeters/TOTAL_TMT46001_Digital_Multimeter-4.jpg'
+            'assets/img/multimeters/TOTAL TMT46001 Digital Multimeter-1.jpg',
+            'assets/img/multimeters/TOTAL TMT46001 Digital Multimeter-2.jpeg',
+            'assets/img/multimeters/TOTAL TMT46001 Digital Multimeter-3.jpg',
+            'assets/img/multimeters/TOTAL TMT46001 Digital Multimeter-4.jpg'
         ],
 
         description: `The TOTAL TMT46001 Digital Multimeter is a compact electrical testing instrument designed for measuring AC/DC voltage, DC current, resistance, continuity, and diode functions. It is suitable for electricians, technicians, students, and DIY users performing troubleshooting, maintenance, and electrical inspections.`,
@@ -8659,8 +8736,8 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309184/Astonic-Mart/Products/multimeters/TOTAL_Digital_multimeter_600V_AC_DC_TMT516004-1.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309192/Astonic-Mart/Products/multimeters/TOTAL_Digital_multimeter_600V_AC_DC_TMT516004-2.jpg'
+            'assets/img/multimeters/TOTAL Digital multimeter 600V  AC DC (TMT516004)-1.jpg',
+            'assets/img/multimeters/TOTAL Digital multimeter 600V  AC DC (TMT516004)-2.jpg'
         ],
 
         description: `The TOTAL TMT516004 is a professional True RMS digital multimeter designed for electrical troubleshooting, industrial maintenance, electronics testing, and field service applications. Featuring a 6000-count display, smart measurement functions, NCV detection, capacitance and frequency measurement, it delivers accurate readings for both AC and DC circuits.`,
@@ -8737,8 +8814,8 @@ Accessories Included:
         inStock: true,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306820/Astonic-Mart/Products/general%20guages/Micrometer_inside_micromter_50_to_1000mm.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306822/Astonic-Mart/Products/general%20guages/Micrometer_inside_micromter_50_to_1000mm-2.png'
+            'assets/img/general guages/Micrometer inside micromter 50 to 1000mm.png',
+            'assets/img/general guages/Micrometer inside micromter 50 to 1000mm-2.png'
         ],
 
         description: `
@@ -8798,7 +8875,7 @@ Accessories Included:
         price: 4500,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306851/Astonic-Mart/Products/general%20measuring%20tools/60cm_600mm_Stainless_Steel.jpg'
+            'assets/img/general measuring tools/60cm 600mm Stainless Steel.jpg'
         ],
 
         inStock: true,
@@ -8841,9 +8918,9 @@ Accessories Included:
         price: 75000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306886/Astonic-Mart/Products/generaltesters/digital_alcohol_tester_breadth_analyser.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306900/Astonic-Mart/Products/generaltesters/digital_alcohol_tester_breadth_analyser-3.avif',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306887/Astonic-Mart/Products/generaltesters/digital_alcohol_tester_breadth_analyser-2.webp'
+            'assets/img/generaltesters/digital alcohol tester breadth analyser.webp',
+            'assets/img/generaltesters/digital alcohol tester breadth analyser-3.avif',
+            'assets/img/generaltesters/digital alcohol tester breadth analyser-2.webp'
         ],
 
         inStock: true,
@@ -8902,9 +8979,9 @@ Accessories Included:
         price: 30000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329599/Astonic-Mart/Products/testing%20paste/kolor_kust_gasoline_guaging_paste-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329599/Astonic-Mart/Products/testing%20paste/kolor_kust_gasoline_guaging_paste-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329599/Astonic-Mart/Products/testing%20paste/kolor_kust_gasoline_guaging_paste-5.jpg'
+            'assets/img/testing paste/kolor kust gasoline guaging paste-4.jpeg',
+            'assets/img/testing paste/kolor kust gasoline guaging paste-3.webp',
+            'assets/img/testing paste/kolor kust gasoline guaging paste-5.jpeg'
         ],
 
         inStock: true,
@@ -8952,8 +9029,8 @@ Accessories Included:
         price: 18000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329597/Astonic-Mart/Products/testing%20paste/kolor_kust_gasoline_guaging_paste.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329597/Astonic-Mart/Products/testing%20paste/kolor_kust_gasoline_guaging_paste.jpg-2.jpeg'
+            'assets/img/testing paste/kolor kust gasoline guaging paste.jpeg',
+            'assets/img/testing paste/kolor kust gasoline guaging paste.jpeg-2.jpeg'
         ],
 
         inStock: true,
@@ -9001,9 +9078,9 @@ Accessories Included:
         price: 19000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329599/Astonic-Mart/Products/testing%20paste/kolor_water_finding_paste.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329601/Astonic-Mart/Products/testing%20paste/kolor_water_finding_paste-2.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786329601/Astonic-Mart/Products/testing%20paste/kolor_water_finding_paste-3.jpg'
+            'assets/img/testing paste/kolor water finding paste.jpeg',
+            'assets/img/testing paste/kolor water finding paste-2.jpg',
+            'assets/img/testing paste/kolor water finding paste-3.jpg'
         ],
 
         inStock: true,
@@ -9057,10 +9134,10 @@ Accessories Included:
         model: '179',
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309153/Astonic-Mart/Products/multimeters/fluke_179_true_rms_multimeter.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309155/Astonic-Mart/Products/multimeters/fluke_179_true_rms_multimeter-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309157/Astonic-Mart/Products/multimeters/fluke_179_true_rms_multimeter-4.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786309156/Astonic-Mart/Products/multimeters/fluke_179_true_rms_multimeter-3.webp'
+            'assets/img/multimeters/fluke 179 true rms multimeter.jpg',
+            'assets/img/multimeters/fluke 179 true rms multimeter-2.webp',
+            'assets/img/multimeters/fluke 179 true rms multimeter-4.jpeg',
+            'assets/img/multimeters/fluke 179 true rms multimeter-3.webp'
         ],
 
         description: 'The Fluke 179 True RMS Digital Multimeter is a professional-grade handheld meter designed for troubleshooting and maintenance of electrical and electronic systems. It provides accurate True RMS measurements for non-linear signals and features voltage, current, resistance, capacitance, frequency, and temperature measurement functions.',
@@ -9130,8 +9207,8 @@ User Manual
 
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306848/Astonic-Mart/Products/general%20guages/mitutoyo_outside_micrometer_150-300mm.jpg',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306849/Astonic-Mart/Products/general%20guages/mitutoyo_outside_micrometer_150-300mm-2.jpg'
+            'assets/img/general guages/mitutoyo outside micrometer 150-300mm.jpg',
+            'assets/img/general guages/mitutoyo outside micrometer 150-300mm-2.jpg'
         ],
 
         description: 'The Mitutoyo Outside Micrometer 150-300mm is a precision measuring instrument designed for accurate external dimension measurement of shafts, pipes, machined parts, and industrial components. Manufactured to high metrology standards, it provides reliable and repeatable measurements for workshop, inspection, and quality control applications.',
@@ -9186,11 +9263,11 @@ User Manual
         model: '293 Series',
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306841/Astonic-Mart/Products/general%20guages/Mitutoyo_Digimatic_Micrometer_0-25mm.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306842/Astonic-Mart/Products/general%20guages/Mitutoyo_Digimatic_Micrometer_0-25mm-2.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306844/Astonic-Mart/Products/general%20guages/Mitutoyo_Digimatic_Micrometer_0-25mm-3.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306845/Astonic-Mart/Products/general%20guages/Mitutoyo_Digimatic_Micrometer_0-25mm-4.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306847/Astonic-Mart/Products/general%20guages/Mitutoyo_Digimatic_Micrometer_0-25mm-5.webp'
+            'assets/img/general guages/Mitutoyo Digimatic Micrometer 0-25mm.webp',
+            'assets/img/general guages/Mitutoyo Digimatic Micrometer 0-25mm-2.webp',
+            'assets/img/general guages/Mitutoyo Digimatic Micrometer 0-25mm-3.webp',
+            'assets/img/general guages/Mitutoyo Digimatic Micrometer 0-25mm-4.webp',
+            'assets/img/general guages/Mitutoyo Digimatic Micrometer 0-25mm-5.webp'
         ],
 
         description: 'The Mitutoyo Digimatic Micrometer 0-25mm is a high-precision digital measuring instrument designed for accurate external dimension measurement in workshops, inspection departments, laboratories, and manufacturing environments. Featuring a large LCD display, carbide-tipped measuring faces, and 0.001mm resolution, it delivers reliable and repeatable measurements.',
