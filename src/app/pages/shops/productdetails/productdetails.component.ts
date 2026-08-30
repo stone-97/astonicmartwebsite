@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { SearchService } from '../../../core/services/search.service';
 import { Product } from '../../../core/models/Product';
@@ -54,7 +55,8 @@ export class ProductdetailsComponent implements OnInit {
     private cartService: CartService,
     private router: Router,
     private sanitizer: DomSanitizer,
-    public cloudinaryService: CloudinaryService
+    public cloudinaryService: CloudinaryService,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) { }
 
   ngOnInit(): void {
@@ -88,8 +90,9 @@ export class ProductdetailsComponent implements OnInit {
         );
       }
 
-      this.currentUrl = window.location.href;
-
+      if (isPlatformBrowser(this.platformId)) {
+        this.currentUrl = window.location.href;
+      }
       this.whatsappLink =
         `https://wa.me/?text=Check out this product: ${this.product.name} - ₦${this.product.price} ${this.currentUrl}`;
 
