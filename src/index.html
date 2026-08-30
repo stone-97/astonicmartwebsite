@@ -18,7 +18,7 @@
 
   <!-- Mobile Specific Meta -->
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 
 	<!-- Favicon-->
 
@@ -155,7 +155,7 @@
 
 
 
-<script src="https://js.paystack.co/v1/inline.js"></script>
+<script src="https://js.paystack.co/v2/inline.js"></script>
 
 
 
@@ -366,6 +366,67 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
+
+<script>
+  /*
+   * Astonic Mart - Mobile Sidebar Controls
+   *
+   * Handles:
+   * 1. Browse Categories
+   * 2. Product Filters
+   *
+   * Mobile only.
+   * Desktop remains unchanged.
+   */
+
+  document.addEventListener('click', function (event) {
+
+    /* Mobile only */
+    if (window.innerWidth > 767) {
+      return;
+    }
+
+
+    /* =====================================================
+       BROWSE CATEGORIES
+       ===================================================== */
+
+    const categoryHead =
+      event.target.closest('.sidebar-categories > .head');
+
+    if (categoryHead) {
+
+      const sidebar =
+        categoryHead.closest('.sidebar-categories');
+
+      if (sidebar) {
+        sidebar.classList.toggle('mobile-open');
+      }
+
+      return;
+    }
+
+
+    /* =====================================================
+       PRODUCT FILTERS
+       ===================================================== */
+
+    const filterHead =
+      event.target.closest('.sidebar-filter > .top-filter-head');
+
+    if (filterHead) {
+
+      const filter =
+        filterHead.closest('.sidebar-filter');
+
+      if (filter) {
+        filter.classList.toggle('mobile-filter-open');
+      }
+
+    }
+
+  });
+</script>
 
 </body>
 
