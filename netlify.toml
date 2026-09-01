@@ -1,2 +1,8 @@
 [build]
   publish = "dist/astonicmarts/browser"
+  command = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
