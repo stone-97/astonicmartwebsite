@@ -125,6 +125,10 @@ export class ProductdetailsComponent implements OnInit {
 
     const canonicalUrl = `https://astonicmart.com/product/${product.id}`;
 
+    this.updateCanonicalUrl(canonicalUrl);
+
+    this.titleService.setTitle(title);
+
     this.titleService.setTitle(title);
 
     this.metaService.updateTag({
@@ -165,6 +169,23 @@ export class ProductdetailsComponent implements OnInit {
     }
 
     this.addProductStructuredData(product);
+  }
+
+  // =========================
+  // CANONICAL URL
+  // =========================
+  private updateCanonicalUrl(canonicalUrl: string): void {
+    let canonicalLink = this.document.querySelector(
+      'link[rel="canonical"]'
+    ) as HTMLLinkElement | null;
+
+    if (!canonicalLink) {
+      canonicalLink = this.document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      this.document.head.appendChild(canonicalLink);
+    }
+
+    canonicalLink.setAttribute('href', canonicalUrl);
   }
 
   // =========================
