@@ -1,5 +1,5 @@
 import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
+import { isPlatformBrowser, DOCUMENT } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { SearchService } from '../../../core/services/search.service';
 import { Product } from '../../../core/models/Product';
@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { CloudinaryService } from '../../../cloudinary.service';
+import { Title, Meta } from '@angular/platform-browser';
+
 @Component({
   selector: 'app-productdetails',
   templateUrl: './productdetails.component.html',
@@ -56,7 +58,10 @@ export class ProductdetailsComponent implements OnInit {
     private router: Router,
     private sanitizer: DomSanitizer,
     public cloudinaryService: CloudinaryService,
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) private platformId: Object,
+    private titleService: Title,
+    private metaService: Meta,
+    @Inject(DOCUMENT) private document: Document,
   ) { }
 
   ngOnInit(): void {
@@ -81,6 +86,8 @@ export class ProductdetailsComponent implements OnInit {
         return;
       }
 
+      this.updateProductSeo(this.product);
+
       this.generateBreadcrumb(this.product);
 
       if (this.product.showSimilar === true) {
@@ -104,6 +111,104 @@ export class ProductdetailsComponent implements OnInit {
 
     });
 
+  }
+
+  // =========================
+  // PRODUCT SEO
+  // =========================
+  private updateProductSeo(product: Product): void {
+    const title = `${product.name} | Astonic Mart`;
+
+    const description = product.description
+      ? product.description.replace(/\s+/g, ' ').trim().slice(0, 160)
+      : `${product.name} by ${product.brand}. Available at Astonic Mart, Nigeria.`;
+
+    const canonicalUrl = `https://astonicmart.com/product/${product.id}`;
+
+    this.titleService.setTitle(title);
+
+    this.metaService.updateTag({
+      name: 'description',
+      content: description
+    });
+
+    this.metaService.updateTag({
+      name: 'robots',
+      content: 'index, follow'
+    });
+
+    this.metaService.updateTag({
+      property: 'og:type',
+      content: 'product'
+    });
+
+    this.metaService.updateTag({
+      property: 'og:title',
+      content: title
+    });
+
+    this.metaService.updateTag({
+      property: 'og:description',
+      content: description
+    });
+
+    this.metaService.updateTag({
+      property: 'og:url',
+      content: canonicalUrl
+    });
+
+    if (product.images?.length) {
+      this.metaService.updateTag({
+        property: 'og:image',
+        content: product.images[0]
+      });
+    }
+
+    this.addProductStructuredData(product);
+  }
+
+  // =========================
+  // PRODUCT STRUCTURED DATA
+  // =========================
+  private addProductStructuredData(product: Product): void {
+
+    const existingScript = this.document.getElementById(
+      'product-structured-data'
+    );
+
+    if (existingScript) {
+      existingScript.remove();
+    }
+
+    const script = this.document.createElement('script');
+
+    script.id = 'product-structured-data';
+    script.type = 'application/ld+json';
+
+    const productData = {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: product.name,
+      image: product.images?.length ? [product.images[0]] : [],
+      description: product.description,
+      brand: {
+        '@type': 'Brand',
+        name: product.brand
+      },
+      offers: {
+        '@type': 'Offer',
+        url: `https://astonicmart.com/product/${product.id}`,
+        priceCurrency: 'NGN',
+        price: product.discountPrice || product.price,
+        availability: product.inStock
+          ? 'https://schema.org/InStock'
+          : 'https://schema.org/OutOfStock'
+      }
+    };
+
+    script.textContent = JSON.stringify(productData);
+
+    this.document.head.appendChild(script);
   }
 
   // =========================
