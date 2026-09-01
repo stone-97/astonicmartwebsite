@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://astonicmart.com/sitemap.xml
