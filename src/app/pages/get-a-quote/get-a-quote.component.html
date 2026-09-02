@@ -149,50 +149,54 @@
 
         </div>
 
-        <!-- SELECTED PRODUCTS -->
-        <div *ngIf="selectedProducts.length > 0" class="mt-4">
+       <!-- SELECTED PRODUCTS -->
+<div *ngIf="selectedProducts.length > 0" class="mt-4 selected-products">
 
-          <h5>Selected Products</h5>
+  <h5>Selected Products</h5>
 
-          <table class="table table-bordered">
-            <thead>
-              <tr>
-                <th>Product</th>
-                <th width="150">Qty</th>
-                <th width="150">Price</th>
-                <th width="150">Total</th>
-                <th></th>
-              </tr>
-            </thead>
+  <div class="quote-products-table">
 
-            <tbody>
-              <tr *ngFor="let item of selectedProducts; let i = index">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th width="150">Qty</th>
+          <th width="150">Price</th>
+          <th width="150">Total</th>
+          <th></th>
+        </tr>
+      </thead>
 
-                <td>{{ item.name }}</td>
+      <tbody>
+        <tr *ngFor="let item of selectedProducts; let i = index">
 
-                <td>
-                  <input type="number"
-                    class="form-control text-center"
-                    [value]="item.quantity"
-                    (input)="onQtyChange($event, item)"
-                    min="1">
-                </td>
+          <td>{{ item.name }}</td>
 
-                <td>₦{{ item.price }}</td>
+          <td>
+            <input type="number"
+              class="form-control text-center"
+              [value]="item.quantity"
+              (input)="onQtyChange($event, item)"
+              min="1">
+          </td>
 
-                <td>₦{{ item.price * item.quantity }}</td>
+          <td>₦{{ item.price }}</td>
 
-                <td>
-                  <button type="button"
-                    class="btn btn-danger btn-sm"
-                    (click)="removeProduct(i)">
-                    ❌
-                  </button>
-                </td>
+          <td>₦{{ item.price * item.quantity }}</td>
 
-              </tr>
-            </tbody>
-          </table>
+          <td>
+            <button type="button"
+              class="btn btn-danger btn-sm"
+              (click)="removeProduct(i)">
+              ❌
+            </button>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
 
           <div class="text-end">
             <h5>Total: ₦{{ totalAmount }}</h5>

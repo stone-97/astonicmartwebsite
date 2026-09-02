@@ -18,3 +18,47 @@ label {
     margin-bottom: 6px;
     display: block;
 }
+
+
+/* =========================================================
+   MOBILE BULK ORDERS PAGE WIDTH CONTROL
+   ========================================================= */
+
+@media (max-width: 576px) {
+
+  :host {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+}
+
+/* =========================================================
+   MOBILE WHATSAPP BUTTON FIX
+   ========================================================= */
+
+@media (max-width: 576px) {
+
+    .btn-success.w-100 {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        display: block;
+        box-sizing: border-box;
+        padding: 10px 12px !important;
+        text-align: center;
+        white-space: nowrap;
+        font-size: 16px !important;
+        line-height: 1.5 !important;
+    }
+
+}
