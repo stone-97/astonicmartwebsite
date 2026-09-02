@@ -250,7 +250,7 @@ export const POWER_TOOL_PRODUCTS: Product[] = [
 
 {
     id: 5,
-        name: 'Ingco 1500W Thickness Planer (5ΓÇô153mm)',
+        name: 'Ingco 1500W Thickness Planer',
             category: 'planers',
                 group: 'power-tools',
                     brand: 'Ingco',
@@ -269,12 +269,12 @@ The Ingco 1500W Thickness Planer is a professional woodworking machine designed 
 The machine supports planing thickness from 5mm to 153mm, allowing users to work on a wide range of wood sizes and materials. Its durable construction and stable base provide reliable performance during operation, while the adjustable cutting depth ensures precise control for professional finishing results.
 The Ingco thickness planer is ideal for carpenters, furniture manufacturers, and woodworking professionals who require efficient and accurate wood surface preparation.
 Items Included in the Package:
-ΓÇó 1 ├ù Ingco 1500W Thickness Planer
-ΓÇó 1 ├ù Set of Planer Blades
-ΓÇó 1 ├ù Push Block
-ΓÇó 1 ├ù Dust Extraction Port
-ΓÇó 1 ├ù Adjustment Tools / Wrench
-ΓÇó 1 ├ù User Manual
+Ingco 1500W Thickness Planer
+Set of Planer Blades
+ Push Block
+Dust Extraction Port
+Adjustment Tools / Wrench
+User Manual
 `,
 
                                         specification: `
@@ -1809,7 +1809,7 @@ Items Included in the Package:
             category: 'heat-guns',
                 group: 'power-tools',
                     brand: 'Ingco',
-                        price: 18500,
+                        price: 500,
 
                             images: [
                                 'https://res.cloudinary.com/taus5tit/image/upload/v1786307701/Astonic-Mart/Products/heatguns/ingco_HG200028_Heat_gun.jpg'
@@ -5599,8 +5599,8 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                         images: [
                                             'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-5.jpg',
                                             'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-2.jpg',
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig saws and recip saws/Maxmech_Jig_Saw_Machine.jpg',
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308513/Astonic-Mart/Products/jig saws and recip saws/Maxmech_Jig_Saw_Machine.jpeg-2.jpg',
                                             'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-3.jpg'
                                         ],
 

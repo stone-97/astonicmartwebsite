@@ -1,4 +1,4 @@
-ï»¿import { Product } from '../models/Product';
+import { Product } from '../models/Product';
 
 export const HAND_TOOL_PRODUCTS: Product[] = [
 
@@ -9,7 +9,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
 
    {
      id: 16001,
-     name: 'INGCO Combination Spanner Set 12pcs 6Î“Ã‡Ã´32mm HKSPA1143',
+     name: 'INGCO Combination Spanner Set 12pcs 6GÇô32mm HKSPA1143',
      category: 'spanners-and-wrenches',
        group: 'hand tools',
      brand: 'INGCO',
@@ -30,7 +30,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - Model: HKSPA1143
   - Brand: INGCO
   - Number of Pieces: 12 pcs
-  - Size Range: 6mm Î“Ã‡Ã´ 32mm
+  - Size Range: 6mm GÇô 32mm
   - Material: Chrome Vanadium Steel (Cr-V)
   - Finish: Polished / anti-corrosion coating
   - Type: Combination (Open-end + Ring-end)
@@ -55,7 +55,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
 
    {
      id: 16002,
-     name: '1/2 Inch Drive Socket Wrench Set Î“Ã‡Ã´ 24 Pcs Professional Tool Kit',
+     name: '1/2 Inch Drive Socket Wrench Set GÇô 24 Pcs Professional Tool Kit',
      category: 'sockets-and-racthets',
         group: 'hand tools',
      brand: 'Generic',
@@ -63,13 +63,13 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786329327/Astonic-Mart/Products/spanners%20and%20wrenches/half_Inch_Drive_Tools_Socket_Wrench_Set_-_24_Pcs.jpg',
-     
+
      ],
 
      inStock: true,
      kongaLink: '',
 
-     description: `The 1/2 Inch Drive Socket Wrench Set Î“Ã‡Ã´ 24 Pcs is a complete and versatile tool kit designed for automotive repair, mechanical work, and general maintenance. Built with durable chrome vanadium steel, the set offers strength, durability, and resistance to corrosion. It includes a variety of socket sizes along with a ratchet handle and essential accessories, making it suitable for tightening and loosening nuts and bolts with ease. The 1/2" drive size provides high torque capability, ideal for heavy-duty applications. Supplied in a sturdy storage case, it ensures easy organization and portability.`,
+     description: `The 1/2 Inch Drive Socket Wrench Set GÇô 24 Pcs is a complete and versatile tool kit designed for automotive repair, mechanical work, and general maintenance. Built with durable chrome vanadium steel, the set offers strength, durability, and resistance to corrosion. It includes a variety of socket sizes along with a ratchet handle and essential accessories, making it suitable for tightening and loosening nuts and bolts with ease. The 1/2" drive size provides high torque capability, ideal for heavy-duty applications. Supplied in a sturdy storage case, it ensures easy organization and portability.`,
 
      specification: `
   - Product Name: Socket Wrench Set
@@ -155,7 +155,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      images: [
       'https://res.cloudinary.com/taus5tit/image/upload/v1786329018/Astonic-Mart/Products/screw%20drivers/Ingco_6_pcs_Screwdriver_set_-_HKSDO628.jpg2.jpg',
        'https://res.cloudinary.com/taus5tit/image/upload/v1786329018/Astonic-Mart/Products/screw%20drivers/Ingco_6_pcs_Screwdriver_set_-_HKSDO628.jpg',
-  
+
      ],
 
      inStock: true,
@@ -323,7 +323,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
    },
 
 
- 
+
 
 
    {
@@ -332,7 +332,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'sockets-and-racthets',
         group: 'hand tools',
      brand: 'TOTAL',
-     price: 8500, // adjust based on your market price (prices vary widely by region, often equivalent to $4Î“Ã‡Ã´15 USD)
+     price: 8500, // adjust based on your market price (prices vary widely by region, often equivalent to $4GÇô15 USD)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786329286/Astonic-Mart/Products/sockets%20and%20ratchets/Total_Ratchet_Wrench_1_by_4_inch.webp',
@@ -381,7 +381,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'screw-drivers',
         group: 'hand tools',
      brand: 'INGCO',
-     price: 9675, // adjust based on your market price (commonly around Î“Ã©Âª9,000 - Î“Ã©Âª15,000 in Nigeria)
+     price: 9675, // adjust based on your market price (commonly around Géª9,000 - Géª15,000 in Nigeria)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786306349/Astonic-Mart/Products/drivers/Ingco_6_pcs_Screwdriver_set_-_HKSDO628.jpg',
@@ -401,12 +401,12 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - Blade Type: Round shank
   - Handle: New design ergonomic PP + TPR grip
   - Contents:
-    Î“Ã‡Ã³ 1 pc Slotted (SL) 5.5 x 5 x 75mm
-    Î“Ã‡Ã³ 1 pc Slotted (SL) 5.5 x 5 x 100mm
-    Î“Ã‡Ã³ 1 pc Slotted (SL) 6.5 x 6 x 150mm
-    Î“Ã‡Ã³ 1 pc Phillips (PH) 1 x 5 x 75mm
-    Î“Ã‡Ã³ 1 pc Phillips (PH) 1 x 5 x 100mm
-    Î“Ã‡Ã³ 1 pc (additional size as per standard set)
+    GÇó 1 pc Slotted (SL) 5.5 x 5 x 75mm
+    GÇó 1 pc Slotted (SL) 5.5 x 5 x 100mm
+    GÇó 1 pc Slotted (SL) 6.5 x 6 x 150mm
+    GÇó 1 pc Phillips (PH) 1 x 5 x 75mm
+    GÇó 1 pc Phillips (PH) 1 x 5 x 100mm
+    GÇó 1 pc (additional size as per standard set)
   - Finish: Heat-treated blades for higher hardness and durability
   - Usage: General purpose, DIY, electrical, mechanical, and household repairs
   `,
@@ -431,7 +431,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'general-drivers',
         group: 'hand tools',
      brand: 'Generic',
-     price: 18500, // adjust based on your market price (commonly Î“Ã©Âª15,000 - Î“Ã©Âª25,000 in Nigeria for similar 8-piece long sets)
+     price: 18500, // adjust based on your market price (commonly Géª15,000 - Géª25,000 in Nigeria for similar 8-piece long sets)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786306348/Astonic-Mart/Products/drivers/8PCS-Magnetic-Nut-Driver.jpg',
@@ -478,7 +478,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'crimping-tools',
         group: 'hand tools',
      brand: 'Generic',
-     price: 65000, // adjust based on your market price (commonly Î“Ã©Âª55,000 - Î“Ã©Âª120,000 in Nigeria depending on brand and dies included)
+     price: 65000, // adjust based on your market price (commonly Géª55,000 - Géª120,000 in Nigeria depending on brand and dies included)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786305643/Astonic-Mart/Products/crimping%20tools/4-120mm_Hydraulic_Cable_Lug_Crimping_Tools.webp',
@@ -488,16 +488,16 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      jumiaLink: '',
      kongaLink: '',
 
-     description: `The 4-120mm Hydraulic Cable Lug Crimping Tool is a heavy-duty manual hydraulic crimper designed for securely attaching copper and aluminum cable lugs, terminals, and connectors to power cables. It delivers powerful crimping force through its hydraulic mechanism, making it ideal for electrical installations, battery cables, welding cables, industrial wiring, and solar/power distribution projects. The tool comes with a set of interchangeable hexagonal crimping dies covering the 4-120mmâ”¬â–“ range, ensuring precise and reliable hexagonal crimps.`,
+     description: `The 4-120mm Hydraulic Cable Lug Crimping Tool is a heavy-duty manual hydraulic crimper designed for securely attaching copper and aluminum cable lugs, terminals, and connectors to power cables. It delivers powerful crimping force through its hydraulic mechanism, making it ideal for electrical installations, battery cables, welding cables, industrial wiring, and solar/power distribution projects. The tool comes with a set of interchangeable hexagonal crimping dies covering the 4-120mm-¦ range, ensuring precise and reliable hexagonal crimps.`,
 
      specification: `
   - Product Name: Hydraulic Cable Lug Crimping Tool
-  - Crimping Range: 4-120mmâ”¬â–“ (copper & aluminum lugs)
+  - Crimping Range: 4-120mm-¦ (copper & aluminum lugs)
   - Crimping Force: 8 Ton (approx. 80kN)
   - Crimping Stroke: 12mm
   - Overall Dimension: 300 x 95 x 65 mm
-  - Head Rotation: 180â”¬â–‘ for easy operation in tight spaces
-  - Dies Included: Typically 8 sets - 4, 6, 10, 16, 25, 35, 50, 70, 95, 120mmâ”¬â–“ (hexagonal dies)
+  - Head Rotation: 180-¦ for easy operation in tight spaces
+  - Dies Included: Typically 8 sets - 4, 6, 10, 16, 25, 35, 50, 70, 95, 120mm-¦ (hexagonal dies)
   - Material: High-strength steel with hydraulic cylinder
   - Handle: Two-hand operation with release valve
   - Packaging: Plastic carrying case / box
@@ -505,10 +505,10 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   `,
 
      features: `
-  - Wide crimping range from 4mmâ”¬â–“ to 120mmâ”¬â–“ for versatile cable lug applications
+  - Wide crimping range from 4mm-¦ to 120mm-¦ for versatile cable lug applications
   - Powerful 8-ton hydraulic force for strong, secure, and professional crimps
   - Hexagonal crimping dies for uniform and reliable compression
-  - 180â”¬â–‘ rotatable head for convenient use in confined spaces
+  - 180-¦ rotatable head for convenient use in confined spaces
   - Built-in safety release valve to prevent over-crimping
   - Durable construction with heat-treated components for long service life
   - Ergonomic two-hand handles for reduced operator fatigue
@@ -526,7 +526,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'chisels-and-punches',
         group: 'hand tools',
      brand: 'INGCO',
-     price: 18500, // adjust based on your market price (commonly Î“Ã©Âª7,500 - Î“Ã©Âª12,000 in Nigeria)
+     price: 18500, // adjust based on your market price (commonly Géª7,500 - Géª12,000 in Nigeria)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786304779/Astonic-Mart/Products/chisels%20and%20punches/4PCS_Wood_Chisel_-_INGCO_HKTWC0401.webp',
@@ -575,11 +575,11 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'allen-keys',
       group: 'hand tools',
      brand: 'Bosch',
-     price: 14500, // adjust based on your market price (commonly Î“Ã©Âª12,000 - Î“Ã©Âª18,000 in Nigeria)
+     price: 14500, // adjust based on your market price (commonly Géª12,000 - Géª18,000 in Nigeria)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786304023/Astonic-Mart/Products/allen%20keys%20and%20hand%20riveters/bosc-allen-keys-9pcs.webp',
-   
+
      ],
 
      inStock: true,
@@ -666,7 +666,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'utility-knives-and-blades',
         group: 'hand tools',
      brand: 'INGCO',
-     price: 6500, // adjust based on your market price (commonly Î“Ã©Âª4,200 - Î“Ã©Âª8,000 in Nigeria)
+     price: 6500, // adjust based on your market price (commonly Géª4,200 - Géª8,000 in Nigeria)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786311388/Astonic-Mart/Products/putty%2C%20utility%20knives%20and%20blades/INGCO_utility_knife_HUK615.jpg',
@@ -715,7 +715,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'putty-knives',
         group: 'hand tools',
      brand: 'Generic',
-     price: 12500, // adjust based on your market price (commonly Î“Ã©Âª10,000 - Î“Ã©Âª18,000 in Nigeria for similar 3-piece sets)
+     price: 12500, // adjust based on your market price (commonly Géª10,000 - Géª18,000 in Nigeria for similar 3-piece sets)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786311389/Astonic-Mart/Products/putty%2C%20utility%20knives%20and%20blades/Putty_Knife_Scraper_2_and_3_inch.jpg',
@@ -734,9 +734,9 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - Handle Material: Ergonomic plastic with rubberized grip
   - Blade Type: Flexible for smooth application and scraping
   - Set Includes:
-    Î“Ã‡Ã³ 1 pc 2" Putty Knife Î“Ã‡Ã´ ideal for small patches, tight corners, and detail work
-    Î“Ã‡Ã³ 1 pc 3" Putty Knife Î“Ã‡Ã´ versatile for general spreading, filling, and scraping
-    Î“Ã‡Ã³ 1 pc 5" Putty Knife Î“Ã‡Ã´ perfect for larger surfaces, drywall taping, and smoothing
+    GÇó 1 pc 2" Putty Knife GÇô ideal for small patches, tight corners, and detail work
+    GÇó 1 pc 3" Putty Knife GÇô versatile for general spreading, filling, and scraping
+    GÇó 1 pc 5" Putty Knife GÇô perfect for larger surfaces, drywall taping, and smoothing
   - Design: Strong blade-to-handle connection (full tang in quality sets)
   - Usage: Drywall repair, sheetrock finishing, plaster work, paint scraping, wallpaper removal, adhesive application
   `,
@@ -762,12 +762,12 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
    group: 'hand tools',
   parentCategory: 'hand tools accessories',
      brand: 'Generic',
-     price: 8500, // adjust based on your market price (commonly Î“Ã©Âª6,000 - Î“Ã©Âª12,000 in Nigeria)
+     price: 8500, // adjust based on your market price (commonly Géª6,000 - Géª12,000 in Nigeria)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786306040/Astonic-Mart/Products/drill%20bits%20and%20screws/5_PieceFlat-Wood-Bit-Set.jpg',
        'https://res.cloudinary.com/taus5tit/image/upload/v1786306041/Astonic-Mart/Products/drill%20bits%20and%20screws/5_Piece_Flat_Wood_Bit_Set_2__13832-2.jpg',
-       
+
      ],
 
      inStock: true,
@@ -808,7 +808,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   group: 'hand tools',
   parentCategory: 'hand tools accessories',
      brand: 'TOTAL',
-     price: 12500, // adjust based on your market price (commonly Î“Ã©Âª9,000 - Î“Ã©Âª15,000 in Nigeria)
+     price: 12500, // adjust based on your market price (commonly Géª9,000 - Géª15,000 in Nigeria)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786307572/Astonic-Mart/Products/hammers%20and%20mallets/Total_Rubber_Hammer_Mallet_16oz_-_THT761616.avif',
@@ -856,7 +856,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   group: 'hand tools',
   parentCategory: 'hand tools accessories',
      brand: 'Bosch',
-     price: 4500, // adjust based on your market price (commonly Î“Ã©Âª3,500 - Î“Ã©Âª6,000 in Nigeria for single piece)
+     price: 4500, // adjust based on your market price (commonly Géª3,500 - Géª6,000 in Nigeria for single piece)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786306051/Astonic-Mart/Products/drill%20bits%20and%20screws/Bosch-CYL-3-Concrete-drill-bit-8_x_80_x_120_mm.jpg',
@@ -905,7 +905,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'polishingpads-and-buffers',
        group: 'hand tools',
      brand: 'Generic',
-     price: 18500, // adjust based on your market price (commonly Î“Ã©Âª12,000 - Î“Ã©Âª25,000 in Nigeria for 31-piece kits)
+     price: 18500, // adjust based on your market price (commonly Géª12,000 - Géª25,000 in Nigeria for 31-piece kits)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786328935/Astonic-Mart/Products/sand%20papers%20and%20disc/Buffing_Polishing_Pads_-_3_Inch_31_Pieces.jpg',
@@ -922,10 +922,10 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - Pad Diameter: 3 Inch (75mm)
   - Total Pieces: 31
   - Typical Contents:
-    Î“Ã‡Ã³ 24-25 pcs Foam Sponge Polishing Pads (various colors: orange/heavy cut, yellow/fine cut, white/finishing, black/ultra-fine)
-    Î“Ã‡Ã³ 2 pcs Wool Buffing Pads
-    Î“Ã‡Ã³ 1-2 pcs Hook & Loop Backing Plate / Drill Adapter
-    Î“Ã‡Ã³ 2 pcs Suction Cups or additional accessories
+    GÇó 24-25 pcs Foam Sponge Polishing Pads (various colors: orange/heavy cut, yellow/fine cut, white/finishing, black/ultra-fine)
+    GÇó 2 pcs Wool Buffing Pads
+    GÇó 1-2 pcs Hook & Loop Backing Plate / Drill Adapter
+    GÇó 2 pcs Suction Cups or additional accessories
   - Material: Premium foam sponge + natural or synthetic wool
   - Backing: Hook & Loop (Velcro) system
   - Shank: 1/4" hex drill adapter for standard drills
@@ -953,7 +953,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
        group: 'hand tools',
   parentCategory: 'hand tools accessories',
      brand: 'Stanley',
-     price: 18500, // adjust based on your market price (commonly Î“Ã©Âª15,000 - Î“Ã©Âª28,000 in Nigeria)
+     price: 18500, // adjust based on your market price (commonly Géª15,000 - Géª28,000 in Nigeria)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786329778/Astonic-Mart/Products/tools%20box%20and%20bags/Stanley_16_Inch_Tools_Box-2.webp',
@@ -1002,7 +1002,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
        group: 'hand tools',
   parentCategory: 'hand tools accessories',
      brand: 'INGCO',
-     price: 24500, // adjust based on your market price (commonly Î“Ã©Âª18,000 - Î“Ã©Âª32,000 in Nigeria)
+     price: 24500, // adjust based on your market price (commonly Géª18,000 - Géª32,000 in Nigeria)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786329775/Astonic-Mart/Products/tools%20box%20and%20bags/ingco-tool-bag-backpack-industrial-8kg.webp',
@@ -1049,7 +1049,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'tile-cutters',
      group: 'hand tools',
      brand: 'TOTAL',
-     price: 85000, // adjust based on your market price (commonly Î“Ã©Âª65,000 - Î“Ã©Âª110,000 in Nigeria for 1200mm models)
+     price: 85000, // adjust based on your market price (commonly Géª65,000 - Géª110,000 in Nigeria for 1200mm models)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786329625/Astonic-Mart/Products/tiles%20cutters/total_tile_cutter_120mm_THT571201.jpg',
@@ -1073,7 +1073,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - Handle Material: Aluminum die-cast
   - Sliders: Extra-long aluminum sliders for smooth gliding
   - Net Weight: 15kg
-  - Features: Direct line cutting and diagonal (45â”¬â–‘) cutting capability
+  - Features: Direct line cutting and diagonal (45-¦) cutting capability
   - Packaging: Comes with carrying bag
   - Usage: Ceramic tiles, porcelain tiles, floor tiles, wall tiles, large-format tiles
   `,
@@ -1084,7 +1084,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - Heavy-duty steel base ensures stability and durability during operation
   - Aluminum die-cast handle for smooth scoring and breaking action
   - Extra-long aluminum sliders for effortless gliding and accurate alignment
-  - Supports both straight and diagonal (45â”¬â–‘) cutting
+  - Supports both straight and diagonal (45-¦) cutting
   - Robust construction with 15kg weight for professional stability
   - Includes convenient carrying bag for easy transport and storage
   - Ideal for professional tilers, contractors, and large flooring projects
@@ -1100,7 +1100,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'bearing-pullers',
        group: 'hand tools',
      brand: 'VEVOR',
-     price: 250000, // adjust based on your market price (commonly Î“Ã©Âª45,000 - Î“Ã©Âª85,000 in Nigeria)
+     price: 250000, // adjust based on your market price (commonly Géª45,000 - Géª85,000 in Nigeria)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786304254/Astonic-Mart/Products/bearing%20pullers/VEVOR_Bearing_Puller_Kit_14-Piece%2C_5_Ton.jpg',
@@ -1119,15 +1119,15 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - Pulling Capacity: 5 Ton (approx. 10,000 lbs / 50 kN)
   - Material: 45# Steel (high-strength carbon steel)
   - Separator Jaws:
-    Î“Ã‡Ã³ Small Jaw: Adjustable 1.2" - 2.0" (â”œÃ¿30-50mm)
-    Î“Ã‡Ã³ Large Jaw: Adjustable 2.0" - 2.8" (â”œÃ¿50-70mm)
+    GÇó Small Jaw: Adjustable 1.2" - 2.0" (+ÿ30-50mm)
+    GÇó Large Jaw: Adjustable 2.0" - 2.8" (+ÿ50-70mm)
   - Components Included:
-    Î“Ã‡Ã³ 2 x Bearing Separators (splitters)
-    Î“Ã‡Ã³ 4 x Hex Push-Puller Legs
-    Î“Ã‡Ã³ 4 x Extension Screws/Rods
-    Î“Ã‡Ã³ 1 x Lead Screw (center forcing screw)
-    Î“Ã‡Ã³ 2 x Puller Legs / Yoke
-    Î“Ã‡Ã³ 1 x Yoke
+    GÇó 2 x Bearing Separators (splitters)
+    GÇó 4 x Hex Push-Puller Legs
+    GÇó 4 x Extension Screws/Rods
+    GÇó 1 x Lead Screw (center forcing screw)
+    GÇó 2 x Puller Legs / Yoke
+    GÇó 1 x Yoke
   - Surface Treatment: Anti-rust coating
   - Design: Tapered knife-edge jaws for easy insertion
   - Packaging: Heavy-duty plastic carrying case
@@ -1159,7 +1159,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      group: 'hand tools',
      parentCategory: 'hand tools accessories',
      brand: 'Bosch',
-     price: 18500, // adjust based on your market price (commonly Î“Ã©Âª12,000 - Î“Ã©Âª28,000 in Nigeria depending on tooth count)
+     price: 18500, // adjust based on your market price (commonly Géª12,000 - Géª28,000 in Nigeria depending on tooth count)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786328963/Astonic-Mart/Products/saw%20blades/bosch-circular-saw-blade-0-inch.webp',
@@ -1177,10 +1177,10 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - Diameter: 10 Inch / 254mm
   - Arbor Size: 5/8" (15.88mm) with reduction ring options (common 25.4mm or 30mm variants)
   - Typical Tooth Counts:
-    Î“Ã‡Ã³ 24T - Fast ripping / rough cuts
-    Î“Ã‡Ã³ 40T - General purpose wood cutting
-    Î“Ã‡Ã³ 60T - Fine finish crosscuts
-    Î“Ã‡Ã³ 72T/80T - Laminate, melamine, ultra-fine finish
+    GÇó 24T - Fast ripping / rough cuts
+    GÇó 40T - General purpose wood cutting
+    GÇó 60T - Fine finish crosscuts
+    GÇó 72T/80T - Laminate, melamine, ultra-fine finish
   - Kerf (Cutting Width): Approx. 2.5 - 3.2mm (thin kerf design)
   - Plate Thickness: Approx. 1.8 - 2.2mm
   - Tooth Material: Brute Carbide / C3 or C4 micrograin carbide
@@ -1211,7 +1211,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'hand-saws',
      group: 'hand tools',
      brand: 'INGCO',
-     price: 12500, // adjust based on your market price (commonly Î“Ã©Âª8,000 - Î“Ã©Âª18,000 in Nigeria)
+     price: 12500, // adjust based on your market price (commonly Géª8,000 - Géª18,000 in Nigeria)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786307696/Astonic-Mart/Products/hand%20saws/INGCO_Hand_Saw_22_inch_550mm_HHAS08550.webp',
@@ -1261,7 +1261,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      category: 'flaring-tools',
      group: 'hand tools',
      brand: 'Generic / Professional',
-     price: 55000, // adjust based on your market price (commonly Î“Ã©Âª35,000 - Î“Ã©Âª80,000 in Nigeria depending on quality and brand)
+     price: 55000, // adjust based on your market price (commonly Géª35,000 - Géª80,000 in Nigeria depending on quality and brand)
 
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786306597/Astonic-Mart/Products/flaringtools%20and%20saws/hvac_flaring_tool_kit.jpg',
@@ -1271,21 +1271,21 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      jumiaLink: '',
      kongaLink: '',
 
-     description: `This Professional HVAC Copper Tube Flaring & Swaging Tool Kit is a complete set designed for air conditioning, refrigeration, and HVAC technicians. It allows precise 45â”¬â–‘ flaring and swaging (expanding) of soft copper, aluminum, and brass tubing for leak-proof connections. The kit includes a heavy-duty flaring tool with multiple dies, swaging adapters, a mini tube cutter for clean cuts (up to 1-1/8"), a reamer/deburring tool, and often a ratchet wrench. Packed in a sturdy carrying case, it is ideal for installing and repairing split AC units, refrigerators, freezers, and commercial refrigeration systems. The tools produce professional, uniform flares and swages that ensure strong, reliable joints when brazed or connected with flare nuts.`,
+     description: `This Professional HVAC Copper Tube Flaring & Swaging Tool Kit is a complete set designed for air conditioning, refrigeration, and HVAC technicians. It allows precise 45-¦ flaring and swaging (expanding) of soft copper, aluminum, and brass tubing for leak-proof connections. The kit includes a heavy-duty flaring tool with multiple dies, swaging adapters, a mini tube cutter for clean cuts (up to 1-1/8"), a reamer/deburring tool, and often a ratchet wrench. Packed in a sturdy carrying case, it is ideal for installing and repairing split AC units, refrigerators, freezers, and commercial refrigeration systems. The tools produce professional, uniform flares and swages that ensure strong, reliable joints when brazed or connected with flare nuts.`,
 
      specification: `
   - Product Name: HVAC Copper Tube Flaring & Swaging Tool Kit with Pipe Cutter
-  - Flaring Type: 45â”¬â–‘ Single Flare (eccentric cone or bar type)
+  - Flaring Type: 45-¦ Single Flare (eccentric cone or bar type)
   - Tube Sizes (Flaring): 1/8", 3/16", 1/4", 5/16", 3/8", 1/2", 5/8", 3/4" O.D. (3-19mm approx.)
   - Swaging Adapters: 5 or 7 pieces including 3-in-1 (3/16", 1/4", 3/8"), 5/16", 1/2", 5/8", 3/4"
   - Pipe Cutter Capacity: 1/8" to 1-1/8" (3-28mm)
   - Material: High-strength alloy steel, chrome-plated swivel and dies
   - Included Tools:
-    Î“Ã‡Ã³ Flaring Tool (with yoke and cone)
-    Î“Ã‡Ã³ Swaging Punch/Adapters set
-    Î“Ã‡Ã³ Mini Tube Cutter (rolling blade)
-    Î“Ã‡Ã³ Reamer / Deburring Tool
-    Î“Ã‡Ã³ Ratchet Wrench (for some kits)
+    GÇó Flaring Tool (with yoke and cone)
+    GÇó Swaging Punch/Adapters set
+    GÇó Mini Tube Cutter (rolling blade)
+    GÇó Reamer / Deburring Tool
+    GÇó Ratchet Wrench (for some kits)
   - Packaging: Heavy-duty plastic carrying case
   - Usage: Air conditioning installation, refrigeration repair, HVAC maintenance, plumbing
   `,
@@ -1293,7 +1293,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      features: `
   - Complete professional kit for both flaring and swaging copper tubes
   - Wide size range covering most common HVAC and refrigeration tubing
-  - Produces clean, precise 45â”¬â–‘ flares for secure leak-free connections
+  - Produces clean, precise 45-¦ flares for secure leak-free connections
   - Swaging adapters allow expanding tube ends for slip-fit brazed joints
   - Sharp tube cutter delivers burr-free straight cuts
   - Deburring tool ensures smooth tube ends before flaring
@@ -1313,7 +1313,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
      group: 'hand tools',
      parentCategory: 'hand tools accessories',
      brand: 'INGCO',
-     price: 12500, // adjust based on your market price (commonly Î“Ã©Âª8,000 - Î“Ã©Âª18,000 in Nigeria)
+     price: 12500, // adjust based on your market price (commonly Géª8,000 - Géª18,000 in Nigeria)
 
      images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429585/Astonic-Mart/Products/remaining-local-images/kcurx9zks4nj3vnii07v.jpg',
@@ -1334,10 +1334,10 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - Arbor Size: 10mm (25/64")
   - Total Pieces: 30 pcs
   - Set Contents:
-    Î“Ã‡Ã³ 20 pcs Abrasive Metal Cutting Discs: 76mm â”œÃ¹ 1.2mm â”œÃ¹ 10mm (thin for fast, clean cuts on metal, steel, inox)
-    Î“Ã‡Ã³ 4 pcs Abrasive Metal Grinding Discs: 76mm â”œÃ¹ 4.0mm â”œÃ¹ 10mm (thicker for grinding and smoothing metal)
-    Î“Ã‡Ã³ 4 pcs Wet Diamond Discs: 76mm, blade width 7mm (for cutting ceramic tile, porcelain, stone)
-    Î“Ã‡Ã³ 2 pcs Flap Discs: 76mm, Grit P80 (for sanding, rust removal, and surface finishing)
+    GÇó 20 pcs Abrasive Metal Cutting Discs: 76mm +ù 1.2mm +ù 10mm (thin for fast, clean cuts on metal, steel, inox)
+    GÇó 4 pcs Abrasive Metal Grinding Discs: 76mm +ù 4.0mm +ù 10mm (thicker for grinding and smoothing metal)
+    GÇó 4 pcs Wet Diamond Discs: 76mm, blade width 7mm (for cutting ceramic tile, porcelain, stone)
+    GÇó 2 pcs Flap Discs: 76mm, Grit P80 (for sanding, rust removal, and surface finishing)
   - Material: High-quality abrasive grains with fiberglass reinforcement
   - Max RPM: Suitable for mini angle grinders (typically up to 12,000 - 15,000 RPM)
   - Packaging: Color box
@@ -1350,7 +1350,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - 4 thick grinding discs for effective weld removal and surface smoothing
   - 4 wet diamond discs ideal for clean cuts on tiles, ceramics, and stone
   - 2 flap discs (P80 grit) for sanding and finishing metal surfaces
-  - Standard 76mm (3") size with 10mm arbor Î“Ã‡Ã´ fits most mini angle grinders
+  - Standard 76mm (3") size with 10mm arbor GÇô fits most mini angle grinders
   - Reinforced construction for safety and longer disc life
   - Great value for professional mechanics, fabricators, tilers, and DIY users
   - Compact and convenient storage in color box
@@ -1366,7 +1366,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
        group: 'hand tools',
   parentCategory: 'hand tools accessories',
      brand: 'Dewalt',
-     price: 18500, // adjust based on your market price (commonly Î“Ã©Âª12,000 - Î“Ã©Âª25,000 in Nigeria)
+     price: 18500, // adjust based on your market price (commonly Géª12,000 - Géª25,000 in Nigeria)
 
      images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429587/Astonic-Mart/Products/remaining-local-images/yaoq1ce5yzhkcwfhmeji.jpg'
@@ -1385,14 +1385,14 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   - Bit Length: 25mm
   - Material: High-quality S2 steel (shock-resistant)
   - Set Contents (32 pcs total):
-    Î“Ã‡Ã³ Phillips (PH): PH1, PH2 (x2), PH3 Î“Ã¥Ã† 4 pcs
-    Î“Ã‡Ã³ Pozi (PZ): PZ1, PZ2 (x2), PZ3 Î“Ã¥Ã† 4 pcs
-    Î“Ã‡Ã³ Slotted (SL): 3mm, 4mm, 5mm, 6.5mm Î“Ã¥Ã† 4 pcs
-    Î“Ã‡Ã³ Hex (H): 3mm, 4mm, 5mm, 6mm Î“Ã¥Ã† 4 pcs
-    Î“Ã‡Ã³ Torx (T): T10, T15, T20, T25, T27, T30, T40 Î“Ã¥Ã† 7 pcs
-    Î“Ã‡Ã³ Security Torx (TH / TPX): T10H, T15H, T20H, T25H, T27H, T30H, T40H Î“Ã¥Ã† 7 pcs
-    Î“Ã‡Ã³ 1 pc Magnetic Quick-Change Bit Holder (ClicFix style)
-    Î“Ã‡Ã³ 1 pc 1/4" Socket Adapter
+    GÇó Phillips (PH): PH1, PH2 (x2), PH3 GåÆ 4 pcs
+    GÇó Pozi (PZ): PZ1, PZ2 (x2), PZ3 GåÆ 4 pcs
+    GÇó Slotted (SL): 3mm, 4mm, 5mm, 6.5mm GåÆ 4 pcs
+    GÇó Hex (H): 3mm, 4mm, 5mm, 6mm GåÆ 4 pcs
+    GÇó Torx (T): T10, T15, T20, T25, T27, T30, T40 GåÆ 7 pcs
+    GÇó Security Torx (TH / TPX): T10H, T15H, T20H, T25H, T27H, T30H, T40H GåÆ 7 pcs
+    GÇó 1 pc Magnetic Quick-Change Bit Holder (ClicFix style)
+    GÇó 1 pc 1/4" Socket Adapter
   - Case: Extra small tough case with belt clip
   - Usage: Impact drivers, drill/drivers, manual screwdrivers, assembly, maintenance, furniture, electronics
   `,
@@ -1461,7 +1461,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   brand: 'Ingco',
 
   price: 8500,
-  
+
 
   images: [
     'https://res.cloudinary.com/taus5tit/image/upload/v1786304759/Astonic-Mart/Products/chalk%20line%20reels/ingco_chalk_line_reels_HCLR0130.webp-2.jpg',
@@ -1531,7 +1531,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
 
    {
      id: 16033,
-     name: '45â”¬â–‘ Flaring and Swaging Tool Kit',
+     name: '45-¦ Flaring and Swaging Tool Kit',
       category: 'flaring-tools',
      group: 'hand tools',
      brand: 'Generic / Professional',
@@ -1555,7 +1555,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
 
      inStock: true,
 
-     description: 'The Froid 45â”¬â–‘ Flaring and Swaging Tool Kit is a professional refrigeration and air-conditioning pipe processing set designed for accurate copper tube flaring and swaging operations. Built with durable hardened steel components and precision clamping bars, this tool kit provides smooth and reliable pipe expansion and flare formation for HVAC technicians, refrigeration engineers and maintenance professionals.',
+     description: 'The Froid 45-¦ Flaring and Swaging Tool Kit is a professional refrigeration and air-conditioning pipe processing set designed for accurate copper tube flaring and swaging operations. Built with durable hardened steel components and precision clamping bars, this tool kit provides smooth and reliable pipe expansion and flare formation for HVAC technicians, refrigeration engineers and maintenance professionals.',
 
      specification: `
   - Product Name: Froid Flaring and Swaging Tool Kit
@@ -1600,7 +1600,7 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
   `,
 
      features: `
-  - Professional 45â”¬â–‘ precision flaring system
+  - Professional 45-¦ precision flaring system
   - Durable hardened steel construction
   - Smooth and accurate flare formation
   - Suitable for HVAC and refrigeration work
@@ -1636,8 +1636,8 @@ export const HAND_TOOL_PRODUCTS: Product[] = [
 Its durable steel body construction provides strength and long-lasting performance, while the ergonomic handle design ensures comfortable operation during prolonged use. The compact and lightweight structure allows easy handling and precise stapling performance.
 This staple gun is ideal for fixing fabric, leather, wood, plastic sheets, wiring insulation, and light materials efficiently. It is suitable for professional craftsmen, furniture makers, decorators, technicians, and DIY users.
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ INGCO 3 In 1 Staple Gun
-Î“Ã‡Ã³ User Manual`,
+GÇó 1 +ù INGCO 3 In 1 Staple Gun
+GÇó User Manual`,
 
      specification: `Category: Staple Guns
 Parent Category: Hand Tools
@@ -1668,7 +1668,7 @@ Ideal for professional and DIY applications`,
   category: 'staple-guns',
        group: 'hand tools',
      brand: 'INGCO',
-    
+
      price: 17500,
      images: [
        'https://res.cloudinary.com/taus5tit/image/upload/v1786309259/Astonic-Mart/Products/nailers%20and%20staplers/INGCO_2-IN-1_STAPLE_GUN_-_HSG1406.jpg',
@@ -1684,8 +1684,8 @@ Its strong steel body construction ensures durability and reliable performance d
 The compact and lightweight structure allows easy handling, precise stapling, and convenient storage. It is suitable for fixing fabric, leather, wood, plastic sheets, and light materials efficiently.
 The staple gun is ideal for furniture makers, decorators, technicians, craftsmen, and DIY users.
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ INGCO 2 In 1 Staple Gun
-Î“Ã‡Ã³ User Manual`,
+GÇó 1 +ù INGCO 2 In 1 Staple Gun
+GÇó User Manual`,
 
      specification: `Category: Staple Guns
 Parent Category: Hand Tools
@@ -1732,8 +1732,8 @@ Manufactured with a durable steel body, the tool provides strong and reliable fa
 The compact and portable structure allows accurate stapling and convenient handling for both professional and DIY users. It is suitable for fixing fabric, leather, wood, plastic sheets, insulation materials, and light construction materials.
 This staple gun is ideal for furniture makers, decorators, technicians, craftsmen, and maintenance personnel.
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ TOTAL 3 In 1 Staple Gun
-Î“Ã‡Ã³ User Manual`,
+GÇó 1 +ù TOTAL 3 In 1 Staple Gun
+GÇó User Manual`,
 
      specification: `Category: Staple Guns
 Parent Category: Hand Tools
@@ -1779,8 +1779,8 @@ Its heavy-duty steel body construction provides reliable strength and long servi
 The compact and lightweight structure allows easy handling and precise stapling performance. It is ideal for fixing fabric, leather, insulation materials, plastic sheets, wood, and light construction materials.
 This staple gun is suitable for technicians, furniture makers, decorators, craftsmen, and home users.
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ TOTAL 2 In 1 Staple Gun
-Î“Ã‡Ã³ User Manual`,
+GÇó 1 +ù TOTAL 2 In 1 Staple Gun
+GÇó User Manual`,
 
   specification: `Category: Staple Guns
 Parent Category: Hand Tools
@@ -1808,7 +1808,7 @@ Ideal for professional and DIY use`,
 
 {
   id: 16038,
-  name: 'PT5000 Pneumatic Rivet Gun Pull Nail Machine (3Î“Ã‡Ã´5mm)',
+  name: 'PT5000 Pneumatic Rivet Gun Pull Nail Machine (3GÇô5mm)',
  category: 'hand-riveters',
         group: 'hand tools',
 brand: 'generic',
@@ -1827,19 +1827,19 @@ brand: 'generic',
 Powered by compressed air, the rivet gun delivers strong pulling force with reduced operator effort, making it ideal for continuous production and heavy-duty workshop operations. Its lightweight ergonomic design improves comfort during prolonged use while ensuring stable and accurate riveting performance.
 The PT5000 features durable industrial-grade construction for long service life and reliable operation in demanding working environments. It is commonly used in metal fabrication, vehicle body repair, furniture production, sheet metal assembly, and maintenance workshops.
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ PT5000 Pneumatic Rivet Gun
-Î“Ã‡Ã³ Multiple Rivet Nose Pieces
-Î“Ã‡Ã³ Adjustment Tools
-Î“Ã‡Ã³ User Manual`,
+GÇó 1 +ù PT5000 Pneumatic Rivet Gun
+GÇó Multiple Rivet Nose Pieces
+GÇó Adjustment Tools
+GÇó User Manual`,
 
   specification: `Category: Pneumatic Rivet Guns
 Parent Category: Air Compressor Accessories
 Brand: Generic
 Model: PT5000
 Tool Type: Pneumatic Rivet Gun
-Rivet Capacity: 3mm Î“Ã‡Ã´ 5mm
+Rivet Capacity: 3mm GÇô 5mm
 Compatible Rivets: Aluminium, Iron, Stainless Steel
-Working Pressure: 0.5 Î“Ã‡Ã´ 0.7 MPa
+Working Pressure: 0.5 GÇô 0.7 MPa
 Operation Type: Air-powered
 Material: Industrial-grade Metal Construction
 Application: Blind rivet installation
@@ -1880,12 +1880,12 @@ Ideal for fabrication and automotive applications`,
 Manufactured from durable hardened alloy steel, the taps and dies provide accurate thread cutting performance and long service life under demanding working conditions. The set includes a variety of metric tap and die sizes, along with essential accessories for efficient threading operations.
 The tools are neatly organized inside a durable storage case for convenient transportation, protection, and easy access during use. It is ideal for professional mechanics, technicians, engineers, fabricators, and DIY users.
 Items Included in the Package:
-Î“Ã‡Ã³ Tap Wrenches
-Î“Ã‡Ã³ Die Stock Handle
-Î“Ã‡Ã³ Screwdriver
-Î“Ã‡Ã³ Thread Gauge
-Î“Ã‡Ã³ Assorted Taps and Dies
-Î“Ã‡Ã³ Durable Storage Case`,
+GÇó Tap Wrenches
+GÇó Die Stock Handle
+GÇó Screwdriver
+GÇó Thread Gauge
+GÇó Assorted Taps and Dies
+GÇó Durable Storage Case`,
 
      specification: `Category: Tap and Die Sets
 Parent Category: Hand Tools
@@ -1918,7 +1918,7 @@ Ideal for mechanics, technicians, and fabricators`,
  category: 'tap-and-die',
    group: 'hand tools',
   brand: 'Generic',
- 
+
 
   price: 140000,
 
@@ -1935,14 +1935,14 @@ Ideal for mechanics, technicians, and fabricators`,
 Manufactured from durable hardened alloy steel, the taps and dies provide precise thread cutting performance, high wear resistance, and long service life under demanding working conditions. The set contains a wide range of metric tap and die sizes together with essential threading accessories for efficient operation.
 All tools are neatly arranged inside a durable blow-mold storage case for easy organization, transportation, and protection during storage. This threading kit is ideal for mechanics, technicians, engineers, machinists, fabricators, and DIY users.
 Items Included in the Package:
-Î“Ã‡Ã³ Assorted Metric Taps
-Î“Ã‡Ã³ Assorted Metric Dies
-Î“Ã‡Ã³ Tap Wrenches
-Î“Ã‡Ã³ Die Stock Handle
-Î“Ã‡Ã³ Screwdriver
-Î“Ã‡Ã³ Thread Gauge
-Î“Ã‡Ã³ T-Bar Handle
-Î“Ã‡Ã³ Durable Storage Case`,
+GÇó Assorted Metric Taps
+GÇó Assorted Metric Dies
+GÇó Tap Wrenches
+GÇó Die Stock Handle
+GÇó Screwdriver
+GÇó Thread Gauge
+GÇó T-Bar Handle
+GÇó Durable Storage Case`,
 
   specification: `Category: Tap and Die Sets
 Parent Category: Hand Tools
@@ -1991,10 +1991,10 @@ Ideal for mechanics, technicians, and fabricators`,
 The tools are made from high-quality hardened steel and feature ergonomically designed insulated handles for comfortable grip and enhanced control during operation. The set is suitable for electrical installation, maintenance, testing, repairs, and general electrical work in residential, commercial, and industrial environments.
 Supplied in a convenient storage package, the tool set is ideal for professionals requiring reliable insulated hand tools for everyday electrical tasks.
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ Insulated Combination Pliers
-Î“Ã‡Ã³ 1 â”œÃ¹ Insulated Long Nose Pliers
-Î“Ã‡Ã³ 1 â”œÃ¹ Insulated Diagonal Cutting Pliers
-Î“Ã‡Ã³ 1 â”œÃ¹ Insulated Cable Cutter`,
+GÇó 1 +ù Insulated Combination Pliers
+GÇó 1 +ù Insulated Long Nose Pliers
+GÇó 1 +ù Insulated Diagonal Cutting Pliers
+GÇó 1 +ù Insulated Cable Cutter`,
 
   specification: `Category: Insulated Tools
 Parent Category: Electrical Tools
@@ -2044,11 +2044,11 @@ Ideal for electricians and maintenance professionals`,
 Manufactured from premium S2 steel, the interchangeable screwdriver blades offer excellent durability, strength, and wear resistance. The interchangeable handle design reduces storage space while providing flexibility for various screw types and sizes.
 The set also includes a voltage tester for quick electrical checks, making it a practical solution for professional electrical work. All components are supplied in a durable canvas carrying bag for convenient storage and transportation.
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ Interchangeable Insulated Handle
-Î“Ã‡Ã³ 7 â”œÃ¹ Slotted Insulated Blades
-Î“Ã‡Ã³ 3 â”œÃ¹ Phillips Insulated Blades
-Î“Ã‡Ã³ 1 â”œÃ¹ Voltage Tester (3.0 â”œÃ¹ 70mm)
-Î“Ã‡Ã³ 1 â”œÃ¹ Canvas Storage Bag`,
+GÇó 1 +ù Interchangeable Insulated Handle
+GÇó 7 +ù Slotted Insulated Blades
+GÇó 3 +ù Phillips Insulated Blades
+GÇó 1 +ù Voltage Tester (3.0 +ù 70mm)
+GÇó 1 +ù Canvas Storage Bag`,
 
      specification: `Category: Insulated Tools
 Parent Category: Electrical Tools
@@ -2103,12 +2103,12 @@ Ideal for professional electrical work`,
 Manufactured with high-quality insulated shafts and ergonomic handles, the set delivers excellent durability, comfort, and control during operation. The screwdrivers are suitable for both slotted and Phillips screws commonly found in electrical panels, switchgear, distribution boards, and industrial equipment.
 The set is supplied in a compact blister package for easy storage and transportation, making it ideal for professional and everyday electrical work.
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ SL3.0 â”œÃ¹ 75mm Insulated Screwdriver
-Î“Ã‡Ã³ 1 â”œÃ¹ SL4.0 â”œÃ¹ 100mm Insulated Screwdriver
-Î“Ã‡Ã³ 1 â”œÃ¹ SL6.5 â”œÃ¹ 150mm Insulated Screwdriver
-Î“Ã‡Ã³ 1 â”œÃ¹ PH0 â”œÃ¹ 60mm Insulated Screwdriver
-Î“Ã‡Ã³ 1 â”œÃ¹ PH1 â”œÃ¹ 80mm Insulated Screwdriver
-Î“Ã‡Ã³ 1 â”œÃ¹ PH2 â”œÃ¹ 100mm Insulated Screwdriver`,
+GÇó 1 +ù SL3.0 +ù 75mm Insulated Screwdriver
+GÇó 1 +ù SL4.0 +ù 100mm Insulated Screwdriver
+GÇó 1 +ù SL6.5 +ù 150mm Insulated Screwdriver
+GÇó 1 +ù PH0 +ù 60mm Insulated Screwdriver
+GÇó 1 +ù PH1 +ù 80mm Insulated Screwdriver
+GÇó 1 +ù PH2 +ù 100mm Insulated Screwdriver`,
 
   specification: `Category: Insulated Tools
 Parent Category: Electrical Tools
@@ -2118,8 +2118,8 @@ Number of Pieces: 6 Pieces
 Voltage Rating: 1000V AC
 Certification: VDE + GS Certified
 Screwdriver Types: Slotted and Phillips
-Slotted Sizes: SL3.0â”œÃ¹75mm, SL4.0â”œÃ¹100mm, SL6.5â”œÃ¹150mm
-Phillips Sizes: PH0â”œÃ¹60mm, PH1â”œÃ¹80mm, PH2â”œÃ¹100mm
+Slotted Sizes: SL3.0+ù75mm, SL4.0+ù100mm, SL6.5+ù150mm
+Phillips Sizes: PH0+ù60mm, PH1+ù80mm, PH2+ù100mm
 Shank Type: Round Shank
 Handle Type: Ergonomic Insulated Handle
 Application: Electrical installation and maintenance
@@ -2204,11 +2204,11 @@ Packed in a durable blow-molded storage case, the set keeps all components organ
      description: `The Pressol Grease Gun is a high-quality manual lubrication tool designed for applying grease to mechanical components such as bearings, joints, and moving machine parts. Manufactured with durable materials, it delivers reliable performance for automotive servicing, industrial maintenance, agricultural machinery, and construction equipment. The grease gun works by pumping lubricating grease through a nozzle directly into grease fittings, ensuring proper lubrication and reducing wear on critical machine components. Its ergonomic lever handle provides strong pressure for efficient grease delivery while maintaining comfortable operation. Pressol grease guns are widely used in workshops, garages, and maintenance operations due to their durability, precise grease flow, and long service life.
 
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ Pressol Grease Gun
-Î“Ã‡Ã³ 1 â”œÃ¹ High-Pressure Flexible Hose
-Î“Ã‡Ã³ 1 â”œÃ¹ Steel Extension Tube
-Î“Ã‡Ã³ 1 â”œÃ¹ 4-Jaw Grease Coupler
-Î“Ã‡Ã³ 1 â”œÃ¹ User Manual`,
+GÇó 1 +ù Pressol Grease Gun
+GÇó 1 +ù High-Pressure Flexible Hose
+GÇó 1 +ù Steel Extension Tube
+GÇó 1 +ù 4-Jaw Grease Coupler
+GÇó 1 +ù User Manual`,
 
      specification: `
   Brand: Pressol
@@ -2250,10 +2250,10 @@ Items Included in the Package:
      description: `The Ingco Grease Gun GRG015001 is a heavy-duty manual lubrication tool designed for applying grease to mechanical components such as bearings, joints, and moving machine parts. Built with a durable 1.2mm steel tube and aluminum-cast head, it delivers strong pressure and reliable performance for automotive servicing, industrial maintenance, agricultural machinery, and construction equipment. The grease gun supports both 14oz grease cartridges and 400cc bulk filling, giving users flexibility depending on the lubrication method. Its ergonomic lever design allows smooth and controlled grease delivery, while the high-pressure pumping mechanism ensures grease reaches tight lubrication points efficiently. This tool is widely used in workshops, garages, and maintenance operations to reduce friction, prevent wear, and extend machine life.
 
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ Ingco Grease Gun GRG015001
-Î“Ã‡Ã³ 1 â”œÃ¹ 12" High-Pressure Flexible Nylon Hose
-Î“Ã‡Ã³ 1 â”œÃ¹ Metallic Bend Spout
-Î“Ã‡Ã³ 1 â”œÃ¹ User Manual`,
+GÇó 1 +ù Ingco Grease Gun GRG015001
+GÇó 1 +ù 12" High-Pressure Flexible Nylon Hose
+GÇó 1 +ù Metallic Bend Spout
+GÇó 1 +ù User Manual`,
 
      specification: `
   Brand: Ingco
@@ -2429,7 +2429,7 @@ Items Included in the Package:
 
 {
   id: 16050,
-  name: 'TOTAL THCT070 Hydraulic Crimping Tool 4-70mmâ”¬â–“',
+  name: 'TOTAL THCT070 Hydraulic Crimping Tool 4-70mm-¦',
   category: 'crimping-tools',
   group: 'hand tools',
 
@@ -2460,7 +2460,7 @@ Supplied with multiple interchangeable crimping dies, the THCT070 supports a wid
   - Product Name: Hydraulic Crimping Tool
   - Model: THCT070
   - Brand: TOTAL
-  - Crimping Range: Cu 4-70mmâ”¬â–“
+  - Crimping Range: Cu 4-70mm-¦
   - Crimping Force: 45KN
   - Crimping Type: Hexagon Crimping
   - Stroke: 11mm
@@ -2471,14 +2471,14 @@ Supplied with multiple interchangeable crimping dies, the THCT070 supports a wid
   - Packaging: BMC Carrying Case
 
     accessories:
-  - Crimping Dies: 4, 6, 8, 10, 16, 25, 35, 50, 70mmâ”¬â–“
+  - Crimping Dies: 4, 6, 8, 10, 16, 25, 35, 50, 70mm-¦
   - Sealing O-Ring Set
   - BMC Carrying Case
   `,
 
   features: `
   - Powerful 45KN hydraulic crimping force
-  - Suitable for 4-70mmâ”¬â–“ copper conductors
+  - Suitable for 4-70mm-¦ copper conductors
   - Durable hydraulic pressure system
   - Hexagonal crimping for secure connections
   - Includes multiple interchangeable dies
@@ -2587,8 +2587,8 @@ Maxmech AN T-50E Air Stapler is a pneumatic fastening tool designed for upholste
   - Lubricating Oil
   - User Manual
   `,
- 
-  
+
+
   features: `
   - Lightweight pneumatic design
   - Compatible with 16-50mm staples
@@ -2640,14 +2640,14 @@ Maxmech AN ST-64E Pneumatic Concrete Nailer is a heavy-duty air-powered fastenin
   - Body Material: Aluminum Alloy
   - Application: Concrete Fastening, Interior Finishing, Cable Duct Installation and Construction Work
 
-    accessories: 
+    accessories:
   - 1 x Maxmech AN ST-64E Concrete Nailer
   - Hex Wrench Set
   - Lubricating Oil
   - User Manual
   `,
 
-  
+
   features: `
   - Heavy-duty pneumatic concrete nailer
   - Compatible with 18-64mm ST concrete nails
@@ -2674,7 +2674,7 @@ Maxmech AN ST-64E Pneumatic Concrete Nailer is a heavy-duty air-powered fastenin
   group: 'hand tools',
   model: 'AN C-1013J',
   price: 42000,
-  
+
   images: [
     'https://res.cloudinary.com/taus5tit/image/upload/v1786309350/Astonic-Mart/Products/nailers%20and%20staplers/maxmech_AN_C-1013J.jpg'
   ],
@@ -2707,7 +2707,7 @@ Maxmech AN C-1013J Air Stapler is a lightweight pneumatic stapling tool designed
   - User Manual
   `,
 
-  
+
   features: `
   - Lightweight and compact design
   - Compatible with 4-13mm staples
@@ -2743,7 +2743,7 @@ Maxmech AN C-1013J Air Stapler is a lightweight pneumatic stapling tool designed
     'https://res.cloudinary.com/taus5tit/image/upload/v1786309303/Astonic-Mart/Products/nailers%20and%20staplers/ingco_air_nailer_ACN50401-5.jpg',
      'https://res.cloudinary.com/taus5tit/image/upload/v1786309306/Astonic-Mart/Products/nailers%20and%20staplers/ingco_air_nailer_ACN50401-6.jpg',
     'https://res.cloudinary.com/taus5tit/image/upload/v1786309308/Astonic-Mart/Products/nailers%20and%20staplers/ingco_air_nailer_ACN50401-7.jpg',
-   
+
   ],
   inStock: true,
   jumiaLink: '',
@@ -2775,7 +2775,7 @@ Accessories Included:
 - 200 x Staples
 - User Manual
 `,
-  
+
   features: `
   - 2-in-1 nailer and stapler design
   - Compatible with 15-50mm brad nails
@@ -3113,11 +3113,11 @@ Suitable for primers, base coats, clear coats and other coating materials, the S
   model: '8PCS VDE Insulated Screwdriver Set',
 
   price: 37000,
- 
+
 
   images: [
     'https://res.cloudinary.com/taus5tit/image/upload/v1786329014/Astonic-Mart/Products/screw%20drivers/8pcs_screw_driver_set.jpg',
-    'assets/sEdimg/screw drivers/8pcs screw driver set.jpg-2.jpg',
+
     'https://res.cloudinary.com/taus5tit/image/upload/v1786329014/Astonic-Mart/Products/screw%20drivers/8pcs_screw_driver_set.jpg-3.jpg',
     'https://res.cloudinary.com/taus5tit/image/upload/v1786329014/Astonic-Mart/Products/screw%20drivers/8pcs_screw_driver_set.jpg-4.jpg',
     'https://res.cloudinary.com/taus5tit/image/upload/v1786329014/Astonic-Mart/Products/screw%20drivers/8pcs_screw_driver_set.jpg-5.jpg',
@@ -3190,8 +3190,8 @@ The tool features long nose pliers as the main component and integrates multiple
 Supplied with a durable nylon pouch, the multi-function tool can be conveniently attached to a belt for quick access whenever needed.
 
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ INGCO Foldable Multi-Function Tool
-Î“Ã‡Ã³ 1 â”œÃ¹ Nylon Carrying Pouch`,
+GÇó 1 +ù INGCO Foldable Multi-Function Tool
+GÇó 1 +ù Nylon Carrying Pouch`,
 
      specification: `
 Category: Multi-Tools
@@ -3236,12 +3236,12 @@ Ideal for workshops, field work, camping, and emergency repairs
   price: 65000,
 
   images: [
-  
+
     'https://res.cloudinary.com/taus5tit/image/upload/v1786309403/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Air_Concrete_Nailer_TAT8641.jpg',
     'https://res.cloudinary.com/taus5tit/image/upload/v1786309404/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Air_Concrete_Nailer_TAT8641-2.jpg',
     'https://res.cloudinary.com/taus5tit/image/upload/v1786309405/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Air_Concrete_Nailer_TAT8641-3.jpg',
     'https://res.cloudinary.com/taus5tit/image/upload/v1786309406/Astonic-Mart/Products/nailers%20and%20staplers/TOTAL_Air_Concrete_Nailer_TAT8641-4.jpg'
-    
+
   ],
 
   inStock: true,
@@ -3259,7 +3259,7 @@ Ideal for workshops, field work, camping, and emergency repairs
   Operating Pressure: 5 - 8 Bar (75 - 116 PSI)
   Air Inlet: 1/4"
   Weight: 3.5 kg
-  Dimensions: 37 â”œÃ¹ 29 â”œÃ¹ 11 cm
+  Dimensions: 37 +ù 29 +ù 11 cm
 
   Accessories:
   Europe Type Connector
@@ -3275,7 +3275,7 @@ Ideal for workshops, field work, camping, and emergency repairs
   Compatible with 18 mm to 64 mm concrete nails
   Large 70-piece magazine capacity
   Durable construction for professional use
-  Operates at 5Î“Ã‡Ã´8 bar air pressure
+  Operates at 5GÇô8 bar air pressure
   Suitable for concrete and masonry fastening applications
   Multiple air connectors included
   Ergonomic design for improved handling
@@ -3358,16 +3358,16 @@ Ideal for workshops, field work, camping, and emergency repairs
   description: `The TOTAL THT102286 Combination Spanner Set is a professional-grade 8-piece wrench set designed for automotive repairs, machinery maintenance, workshop operations, and general mechanical applications. Manufactured from high-quality Chrome Vanadium (Cr-V) steel, the spanners provide excellent strength, durability, and resistance to wear and corrosion. Each spanner features an open-end jaw on one side and a ring-end wrench on the other, allowing users to work efficiently on various nuts and bolts. The fine polished finish enhances corrosion resistance while providing a professional appearance. Supplied on a durable plastic hanger for organized storage and easy transportation, this set is an essential addition to any mechanic's, technician's, or DIY enthusiast's toolbox.
 
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ 6mm Combination Spanner
-Î“Ã‡Ã³ 1 â”œÃ¹ 8mm Combination Spanner
-Î“Ã‡Ã³ 1 â”œÃ¹ 10mm Combination Spanner
-Î“Ã‡Ã³ 1 â”œÃ¹ 12mm Combination Spanner
-Î“Ã‡Ã³ 1 â”œÃ¹ 14mm Combination Spanner
-Î“Ã‡Ã³ 1 â”œÃ¹ 15mm Combination Spanner
-Î“Ã‡Ã³ 1 â”œÃ¹ 17mm Combination Spanner
-Î“Ã‡Ã³ 1 â”œÃ¹ 19mm Combination Spanner
-Î“Ã‡Ã³ 1 â”œÃ¹ Plastic Storage Hanger`,
-  
+GÇó 1 +ù 6mm Combination Spanner
+GÇó 1 +ù 8mm Combination Spanner
+GÇó 1 +ù 10mm Combination Spanner
+GÇó 1 +ù 12mm Combination Spanner
+GÇó 1 +ù 14mm Combination Spanner
+GÇó 1 +ù 15mm Combination Spanner
+GÇó 1 +ù 17mm Combination Spanner
+GÇó 1 +ù 19mm Combination Spanner
+GÇó 1 +ù Plastic Storage Hanger`,
+
   specification: `
 Category: Spanners & Wrenches
 Parent Category: Hand Tools
@@ -3383,7 +3383,7 @@ Corrosion Resistant: Yes
 Storage: Plastic Hanger
 Application: Mechanical and Maintenance Work
 `,
-  
+
   features: `
 Manufactured from durable Chrome Vanadium steel
 8 commonly used metric spanner sizes included
@@ -3398,7 +3398,7 @@ Organized storage with plastic hanger
 Professional-grade construction
 Long service life under demanding conditions
 `,
-  
+
   jumiaLink: 'https://www.jumia.com.ng/',
   kongaLink: 'https://www.konga.com/'
 },
@@ -3425,9 +3425,9 @@ Long service life under demanding conditions
   description: `The TOTAL THT171246 Pipe Wrench is a heavy-duty professional plumbing tool designed for gripping, tightening, and loosening threaded pipes, fittings, and cylindrical workpieces. Constructed with a durable ductile cast iron body and a high-strength Cr-Mo movable jaw, this wrench delivers excellent gripping performance and long-lasting durability in demanding work environments. Its self-tightening jaw design provides a secure hold on pipes while reducing slippage during operation. The 600mm length offers increased leverage for handling stubborn pipe connections and heavy-duty plumbing tasks. Suitable for plumbers, maintenance technicians, construction workers, and industrial applications, this pipe wrench is built to withstand rigorous daily use.
 
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ TOTAL Pipe Wrench 24" / 600mm
-Î“Ã‡Ã³ 1 â”œÃ¹ Paper Card Packaging`,
-  
+GÇó 1 +ù TOTAL Pipe Wrench 24" / 600mm
+GÇó 1 +ù Paper Card Packaging`,
+
   specification: `
 Category: Plumbing Tools
 Parent Category: Hand Tools
@@ -3445,7 +3445,7 @@ Application: Pipe Gripping and Turning
 Suitable For: Plumbing, Maintenance and Industrial Work
 Packing: Paper Card
 `,
-  
+
   features: `
 Heavy-duty 24-inch pipe wrench
 Strong ductile cast iron body construction
@@ -3460,7 +3460,7 @@ Professional-grade performance
 Comfortable handling and operation
 Reliable for workshop and industrial use
 `,
-  
+
   jumiaLink: 'https://www.jumia.com.ng/',
   kongaLink: 'https://www.konga.com/'
 },
@@ -3487,8 +3487,8 @@ Reliable for workshop and industrial use
   description: `The 121PCS Socket Set is a comprehensive professional tool kit designed for automotive repair, mechanical maintenance, workshop operations, industrial servicing, and general-purpose fastening applications. Manufactured from durable chrome vanadium steel, the set contains a wide range of sockets, ratchets, extension bars, combination spanners, bits, adapters, and accessories required for everyday repair and maintenance work. The tools are organized inside a heavy-duty blow-molded carrying case for easy storage, transportation, and quick access on the job. Suitable for mechanics, technicians, engineers, and DIY users.
 
 Items Included in the Package:
-Î“Ã‡Ã³ 121PCS Socket and Tool Set
-Î“Ã‡Ã³ Blow-Molded Carrying Case`,
+GÇó 121PCS Socket and Tool Set
+GÇó Blow-Molded Carrying Case`,
 
   specification: `
 Category: Socket Sets
@@ -3583,7 +3583,7 @@ Blow-Molded Carrying Case
   description: `F Series Brad Nails are premium-quality finishing nails designed for use with pneumatic and electric brad nailers. Manufactured from durable galvanized steel, these nails provide excellent holding strength while producing a clean and professional finish with minimal surface marking. They are widely used in furniture production, cabinet making, interior finishing, moulding installation, trim work, door and window frames, upholstery, and general woodworking applications. Available in multiple lengths, F Series Brad Nails offer reliable fastening performance for both professional craftsmen and DIY users.
 
 Items Included in the Package:
-Î“Ã‡Ã³ 1 â”œÃ¹ Box of F Series Brad Nails`,
+GÇó 1 +ù Box of F Series Brad Nails`,
 
   specification: `
 Category: Brad Nails
@@ -3664,7 +3664,7 @@ Maximum Peripheral Speed: 80m/s
 Suitable For: Angle Grinders
 
 Accessories Included:
-1 â”œÃ¹ Metal Cutting Disc
+1 +ù Metal Cutting Disc
   `,
 
   features: `
@@ -3720,7 +3720,7 @@ Application: Dry and Wet Cutting
 Compatible Machine: Angle Grinder and Cut-Off Saw
 
 Accessories Included:
-1 â”œÃ¹ Bosch Diamond Cutting Disc 230mm
+1 +ù Bosch Diamond Cutting Disc 230mm
   `,
 
   features: `
@@ -3773,8 +3773,8 @@ Cutting Direction: Right Hand
 Storage: Plastic Storage Case
 
 Accessories Included:
-10 â”œÃ¹ HSS Drill Bits 5.0mm
-1 â”œÃ¹ Storage Case
+10 +ù HSS Drill Bits 5.0mm
+1 +ù Storage Case
   `,
 
   features: `
@@ -3846,8 +3846,8 @@ Functions Included:
 12. Hex Key
 
 Accessories Included:
-1 â”œÃ¹ INGCO HMFH0121 Multi-Function Hammer
-1 â”œÃ¹ Storage Pouch
+1 +ù INGCO HMFH0121 Multi-Function Hammer
+1 +ù Storage Pouch
   `,
 
   features: `
@@ -3902,7 +3902,7 @@ Application: Metal Grinding and Tool Sharpening
 Compatible Machine: Bench Grinders
 
 Accessories Included:
-1 â”œÃ¹ Vitrified Grinding Wheel
+1 +ù Vitrified Grinding Wheel
   `,
 
   features: `
@@ -3954,20 +3954,20 @@ Material: Aluminum Oxide Grinding Stone
 Compatible Tools: Mini Drill / Rotary Tool
 
 Grinding Stone Sizes:
-Cylindrical Type: 16 â”œÃ¹ 25mm
-Bullet Type: 20 â”œÃ¹ 21mm
-Cone Type: 19 â”œÃ¹ 32mm
-T-Type: 13 â”œÃ¹ 25mm
-Round Type: 20 â”œÃ¹ 23mm
+Cylindrical Type: 16 +ù 25mm
+Bullet Type: 20 +ù 21mm
+Cone Type: 19 +ù 32mm
+T-Type: 13 +ù 25mm
+Round Type: 20 +ù 23mm
 
 Application: Grinding, Sharpening, Deburring and Polishing
 
 Accessories Included:
-1 â”œÃ¹ Cylindrical Grinding Stone
-1 â”œÃ¹ Bullet Grinding Stone
-1 â”œÃ¹ Cone Grinding Stone
-1 â”œÃ¹ T-Type Grinding Stone
-1 â”œÃ¹ Round Grinding Stone
+1 +ù Cylindrical Grinding Stone
+1 +ù Bullet Grinding Stone
+1 +ù Cone Grinding Stone
+1 +ù T-Type Grinding Stone
+1 +ù Round Grinding Stone
   `,
 
   features: `
@@ -4026,7 +4026,7 @@ Compatible Machine: Bench Grinder
 Suitable Materials: Steel, Cast Iron and General Metals
 
 Accessories Included:
-1 â”œÃ¹ Carborundum Grinding Wheel
+1 +ù Carborundum Grinding Wheel
   `,
 
   features: `
@@ -4230,7 +4230,7 @@ Ideal for workshop and fabrication applications
   group: 'hand tools',
   brand: 'Generic',
   price: 27000,
- 
+
 
   images: [
     'https://res.cloudinary.com/taus5tit/image/upload/v1786329720/Astonic-Mart/Products/tools%20box%20and%20bags/15inch_plalstic_empty_tool_box.avif',
@@ -4467,18 +4467,18 @@ Ideal for workshop and fabrication applications
   Application: Electrical Installation and Maintenance
 
   Set Contents:
-  - Slotted Screwdriver: 3.0 â”œÃ¹ 75mm
-  - Slotted Screwdriver: 4.0 â”œÃ¹ 100mm
-  - Slotted Screwdriver: 5.5 â”œÃ¹ 125mm
-  - Phillips Screwdriver: PH0 â”œÃ¹ 60mm
-  - Phillips Screwdriver: PH1 â”œÃ¹ 80mm
-  - Phillips Screwdriver: PH2 â”œÃ¹ 100mm
+  - Slotted Screwdriver: 3.0 +ù 75mm
+  - Slotted Screwdriver: 4.0 +ù 100mm
+  - Slotted Screwdriver: 5.5 +ù 125mm
+  - Phillips Screwdriver: PH0 +ù 60mm
+  - Phillips Screwdriver: PH1 +ù 80mm
+  - Phillips Screwdriver: PH2 +ù 100mm
 
   Accessories Included:
   - 3 x Insulated Slotted Screwdrivers
   - 3 x Insulated Phillips Screwdrivers
   `,
-  
+
   features: `
   VDE certified for electrical safety
   Safe for live working up to 1000V AC
@@ -4534,7 +4534,7 @@ Ideal for workshop and fabrication applications
   - 1 x 6" Long Nose Pliers
   - 1 x 6" Diagonal Cutting Pliers
   `,
-  
+
   features: `
   High-quality drop forged steel construction
   Durable and corrosion-resistant finish
@@ -4807,7 +4807,7 @@ Ideal for workshop and fabrication applications
       price: 16500,
       inStock: true
     },
- 
+
 
   ],
 
@@ -4815,11 +4815,11 @@ Ideal for workshop and fabrication applications
 
   specification: `
 Model Range:
-Î“Ã‡Ã³ THT7210006 Î“Ã‡Ã´ 1KG
-Î“Ã‡Ã³ THT7215006 Î“Ã‡Ã´ 1.5KG
-Î“Ã‡Ã³ THT7220006 Î“Ã‡Ã´ 2KG
-Î“Ã‡Ã³ THT7240006 Î“Ã‡Ã´ 4KG
-Î“Ã‡Ã³ THT7250006 Î“Ã‡Ã´ 5KG
+GÇó THT7210006 GÇô 1KG
+GÇó THT7215006 GÇô 1.5KG
+GÇó THT7220006 GÇô 2KG
+GÇó THT7240006 GÇô 4KG
+GÇó THT7250006 GÇô 5KG
 
 Head Material: Drop-forged high carbon steel
 Handle Material: Fiberglass with rubber grip
@@ -4828,18 +4828,18 @@ Application: Stone breaking, masonry work, demolition, construction
 Finish: Powder-coated hammer head for corrosion resistance
 
 Accessories Included:
-Î“Ã‡Ã³ Fiberglass handle
-Î“Ã‡Ã³ Protective rubber grip
+GÇó Fiberglass handle
+GÇó Protective rubber grip
 `,
 
   features: `
-Î“Ã‡Ã³ Heavy-duty forged steel head
-Î“Ã‡Ã³ Fiberglass handle absorbs vibration
-Î“Ã‡Ã³ Anti-slip rubber grip
-Î“Ã‡Ã³ Suitable for demolition and masonry work
-Î“Ã‡Ã³ Corrosion-resistant finish
-Î“Ã‡Ã³ Well-balanced design for maximum striking force
-Î“Ã‡Ã³ Available in multiple weight options
+GÇó Heavy-duty forged steel head
+GÇó Fiberglass handle absorbs vibration
+GÇó Anti-slip rubber grip
+GÇó Suitable for demolition and masonry work
+GÇó Corrosion-resistant finish
+GÇó Well-balanced design for maximum striking force
+GÇó Available in multiple weight options
 `,
 
   showSimilar: true
@@ -4900,11 +4900,11 @@ Accessories Included:
 
   specification: `
 Model Range:
-Î“Ã‡Ã³ HSTH8802 Î“Ã‡Ã´ 1KG
-Î“Ã‡Ã³ HSTH8803 Î“Ã‡Ã´ 1.5KG
-Î“Ã‡Ã³ HSTH8804 Î“Ã‡Ã´ 2KG
-Î“Ã‡Ã³ HSTH03498 Î“Ã‡Ã´ 4KG
-Î“Ã‡Ã³ HSTH03598 Î“Ã‡Ã´ 5KG
+GÇó HSTH8802 GÇô 1KG
+GÇó HSTH8803 GÇô 1.5KG
+GÇó HSTH8804 GÇô 2KG
+GÇó HSTH03498 GÇô 4KG
+GÇó HSTH03598 GÇô 5KG
 
 Head Material: Drop-forged 45# carbon steel
 Handle Material: Fiberglass
@@ -4914,19 +4914,19 @@ Application: Stone breaking, demolition, masonry work, construction
 Finish: Corrosion-resistant coated head
 
 Accessories Included:
-Î“Ã‡Ã³ Fiberglass handle
-Î“Ã‡Ã³ Anti-slip rubber grip
+GÇó Fiberglass handle
+GÇó Anti-slip rubber grip
 `,
 
   features: `
-Î“Ã‡Ã³ Drop-forged hammerhead
-Î“Ã‡Ã³ Manufactured from 45# carbon steel
-Î“Ã‡Ã³ Heat-treated for longer service life
-Î“Ã‡Ã³ Fiberglass handle reduces vibration
-Î“Ã‡Ã³ Anti-slip comfortable grip
-Î“Ã‡Ã³ Suitable for stone and masonry work
-Î“Ã‡Ã³ Well-balanced striking force
-Î“Ã‡Ã³ Available in multiple weight options
+GÇó Drop-forged hammerhead
+GÇó Manufactured from 45# carbon steel
+GÇó Heat-treated for longer service life
+GÇó Fiberglass handle reduces vibration
+GÇó Anti-slip comfortable grip
+GÇó Suitable for stone and masonry work
+GÇó Well-balanced striking force
+GÇó Available in multiple weight options
 `,
 
 
@@ -4963,45 +4963,45 @@ Storage Case: Aluminum Carry Case
 Application: Woodworking, Furniture Making, Cabinetry, Joinery and Decorative Routing
 
 Bit Set Includes:
-Î“Ã‡Ã³ 12.7mm Mortising Bit
-Î“Ã‡Ã³ 12.7mm Combination Bit
-Î“Ã‡Ã³ 9.5mm Dovetail Bit
-Î“Ã‡Ã³ 12.7mm Dovetail Bit
-Î“Ã‡Ã³ 12.7mm 90â”¬â–‘ Grooving Bit
-Î“Ã‡Ã³ 9.5mm Round Nose Bit
-Î“Ã‡Ã³ 12.7mm Round Nose Bit
-Î“Ã‡Ã³ 9.5mm Trimming Bit
-Î“Ã‡Ã³ 6.35mm Panel Pilot Bit
-Î“Ã‡Ã³ 6.35mm Straight Bit
-Î“Ã‡Ã³ 9.5mm Straight Bit
-Î“Ã‡Ã³ 12.7mm Straight Bit
-Î“Ã‡Ã³ 19.0mm Straight Bit
-Î“Ã‡Ã³ 12.7mm Flush Trim Bit
-Î“Ã‡Ã³ 3.2mm Round Over Bit
-Î“Ã‡Ã³ 4.76mm Round Over Bit
-Î“Ã‡Ã³ 6.35mm Round Over Bit
-Î“Ã‡Ã³ 9.5mm Round Over Bit
-Î“Ã‡Ã³ 6.35mm Cove Bit
-Î“Ã‡Ã³ 9.5mm Cove Bit
-Î“Ã‡Ã³ 4.0mm Roman Ogee Bit
-Î“Ã‡Ã³ 30mm 45â”¬â–‘ Chamfer Bit
-Î“Ã‡Ã³ 6.35mm Rabbeting Bit
-Î“Ã‡Ã³ 12.7mm Rabbeting Bit
+GÇó 12.7mm Mortising Bit
+GÇó 12.7mm Combination Bit
+GÇó 9.5mm Dovetail Bit
+GÇó 12.7mm Dovetail Bit
+GÇó 12.7mm 90-¦ Grooving Bit
+GÇó 9.5mm Round Nose Bit
+GÇó 12.7mm Round Nose Bit
+GÇó 9.5mm Trimming Bit
+GÇó 6.35mm Panel Pilot Bit
+GÇó 6.35mm Straight Bit
+GÇó 9.5mm Straight Bit
+GÇó 12.7mm Straight Bit
+GÇó 19.0mm Straight Bit
+GÇó 12.7mm Flush Trim Bit
+GÇó 3.2mm Round Over Bit
+GÇó 4.76mm Round Over Bit
+GÇó 6.35mm Round Over Bit
+GÇó 9.5mm Round Over Bit
+GÇó 6.35mm Cove Bit
+GÇó 9.5mm Cove Bit
+GÇó 4.0mm Roman Ogee Bit
+GÇó 30mm 45-¦ Chamfer Bit
+GÇó 6.35mm Rabbeting Bit
+GÇó 12.7mm Rabbeting Bit
 
 Accessories Included:
-Î“Ã‡Ã³ 24 Router Bits
-Î“Ã‡Ã³ Aluminum Carry Case
+GÇó 24 Router Bits
+GÇó Aluminum Carry Case
 `,
 
   features: `
-Î“Ã‡Ã³ 8mm shank design
-Î“Ã‡Ã³ Tungsten carbide cutting edges
-Î“Ã‡Ã³ Precision-ground cutters
-Î“Ã‡Ã³ Suitable for professional and DIY woodworking
-Î“Ã‡Ã³ Wide range of profile shapes
-Î“Ã‡Ã³ Durable hardened steel body
-Î“Ã‡Ã³ Organized aluminum storage case
-Î“Ã‡Ã³ Ideal for trimming, grooving, profiling and decorative edge work
+GÇó 8mm shank design
+GÇó Tungsten carbide cutting edges
+GÇó Precision-ground cutters
+GÇó Suitable for professional and DIY woodworking
+GÇó Wide range of profile shapes
+GÇó Durable hardened steel body
+GÇó Organized aluminum storage case
+GÇó Ideal for trimming, grooving, profiling and decorative edge work
 `,
 
   showSimilar: true
@@ -5039,20 +5039,20 @@ Segment Type: Laser Welded
 Usage: Professional Construction and Installation Work
 
 Accessories Included:
-Î“Ã‡Ã³ 150mm Diamond Core Drill Bit
-Î“Ã‡Ã³ Pilot Drill Bit (where applicable)
-Î“Ã‡Ã³ Adapter/Arbor (where applicable)
+GÇó 150mm Diamond Core Drill Bit
+GÇó Pilot Drill Bit (where applicable)
+GÇó Adapter/Arbor (where applicable)
 `,
 
   features: `
-Î“Ã‡Ã³ Fast and efficient drilling
-Î“Ã‡Ã³ High-strength steel body
-Î“Ã‡Ã³ Durable diamond cutting segments
-Î“Ã‡Ã³ Suitable for concrete and masonry
-Î“Ã‡Ã³ Long service life
-Î“Ã‡Ã³ Excellent debris removal
-Î“Ã‡Ã³ Professional-grade construction
-Î“Ã‡Ã³ Precision cutting performance
+GÇó Fast and efficient drilling
+GÇó High-strength steel body
+GÇó Durable diamond cutting segments
+GÇó Suitable for concrete and masonry
+GÇó Long service life
+GÇó Excellent debris removal
+GÇó Professional-grade construction
+GÇó Precision cutting performance
 `,
 
  sizes: ['150mm'],
@@ -5304,7 +5304,7 @@ Accessories Included:
     price: 25000
   }
   ],
-  
+
   inStock: true,
 
   description: `The INGCO Circular Saw Blade is designed for fast, accurate, and clean cutting of wood and wood-based materials. Manufactured from high-quality steel with precision-ground teeth, it delivers excellent cutting performance and durability for professional and DIY applications.`,
@@ -5509,7 +5509,7 @@ Accessories Included:
 - Guide Rail Material: Chrome-Plated Steel
 - Cutting Wheel Material: Tungsten Carbide
 - Cutting Wheel Size: 22mm
-- Cutting Thickness: 6 Î“Ã‡Ã´ 15mm
+- Cutting Thickness: 6 GÇô 15mm
 - Handle Type: Ergonomic Lever Handle
 - Measurement Guide: Adjustable Angle Guide
 - Application: Ceramic, Porcelain and Wall Tiles
@@ -5568,7 +5568,7 @@ Accessories Included:
 
   specification: `
 - Product Name: Heavy Duty Drill Chuck
-- Chuck Capacity: 1.5mm Î“Ã‡Ã´ 13mm
+- Chuck Capacity: 1.5mm GÇô 13mm
 - Maximum Bit Size: 13mm (1/2")
 - Type: Keyed Drill Chuck
 - Material: Hardened Steel
@@ -5579,8 +5579,8 @@ Accessories Included:
 - Usage: Wood, Metal, Plastic and Masonry Drilling
 
 Accessories Included:
-- 1 â”œÃ¹ 13mm Drill Chuck
-- 1 â”œÃ¹ Chuck Key
+- 1 +ù 13mm Drill Chuck
+- 1 +ù Chuck Key
   `,
 
   features: `
@@ -5641,7 +5641,7 @@ Accessories Included:
 - Corrosion Resistance: Yes
 
 Accessories Included:
-- 1 â”œÃ¹ MT2 to JT3 Drill Chuck Arbor
+- 1 +ù MT2 to JT3 Drill Chuck Arbor
   `,
 
   features: `
@@ -5678,36 +5678,36 @@ Accessories Included:
   description: 'Professional 5-drawer heavy-duty steel tool chest designed for organized storage of hand tools, accessories, and workshop equipment. Features a spacious top compartment, lockable drawers, anti-slip liners, and a durable powder-coated finish suitable for garages, workshops, and industrial maintenance environments.',
 
   specification: `
-Î“Ã‡Ã³ Product Type: Tool Chest
-Î“Ã‡Ã³ Brand: Covenant
-Î“Ã‡Ã³ Model: 5-Drawer Tool Chest
-Î“Ã‡Ã³ Material: Heavy-Duty Steel
-Î“Ã‡Ã³ Finish: Powder-Coated Red Finish
-Î“Ã‡Ã³ Number of Drawers: 5
-Î“Ã‡Ã³ Top Storage Compartment: Yes
-Î“Ã‡Ã³ Lockable: Yes
-Î“Ã‡Ã³ Drawer Lining: Anti-Slip Mats
-Î“Ã‡Ã³ Drawer Operation: Smooth Ball-Bearing Slides
-Î“Ã‡Ã³ Handle Type: Side Carry Handles
-Î“Ã‡Ã³ Corrosion Resistant: Yes
-Î“Ã‡Ã³ Industrial Grade Construction: Yes
-Î“Ã‡Ã³ Suitable For: Workshops, Garages, Maintenance Teams, Industrial Applications
-Î“Ã‡Ã³ Accessories Included:
+GÇó Product Type: Tool Chest
+GÇó Brand: Covenant
+GÇó Model: 5-Drawer Tool Chest
+GÇó Material: Heavy-Duty Steel
+GÇó Finish: Powder-Coated Red Finish
+GÇó Number of Drawers: 5
+GÇó Top Storage Compartment: Yes
+GÇó Lockable: Yes
+GÇó Drawer Lining: Anti-Slip Mats
+GÇó Drawer Operation: Smooth Ball-Bearing Slides
+GÇó Handle Type: Side Carry Handles
+GÇó Corrosion Resistant: Yes
+GÇó Industrial Grade Construction: Yes
+GÇó Suitable For: Workshops, Garages, Maintenance Teams, Industrial Applications
+GÇó Accessories Included:
   - Lock and Keys
   - Anti-Slip Drawer Liners
 `,
-  
+
   features: `
-Î“Ã‡Ã³ 5 spacious storage drawers
-Î“Ã‡Ã³ Large top compartment for bulky tools
-Î“Ã‡Ã³ Heavy-duty steel construction
-Î“Ã‡Ã³ Smooth sliding drawer mechanism
-Î“Ã‡Ã³ Lockable design for added security
-Î“Ã‡Ã³ Anti-slip drawer liners protect tools
-Î“Ã‡Ã³ Durable powder-coated finish
-Î“Ã‡Ã³ Side handles for easy lifting and transport
-Î“Ã‡Ã³ Ideal for mechanics, technicians and workshops
-Î“Ã‡Ã³ Keeps tools organized and readily accessible
+GÇó 5 spacious storage drawers
+GÇó Large top compartment for bulky tools
+GÇó Heavy-duty steel construction
+GÇó Smooth sliding drawer mechanism
+GÇó Lockable design for added security
+GÇó Anti-slip drawer liners protect tools
+GÇó Durable powder-coated finish
+GÇó Side handles for easy lifting and transport
+GÇó Ideal for mechanics, technicians and workshops
+GÇó Keeps tools organized and readily accessible
 `
 },
 
@@ -5751,16 +5751,16 @@ User Manual
 `,
 
   features: `
-Î“Ã‡Ã³ Three heavy-duty suction cups
-Î“Ã‡Ã³ Strong cast aluminum handle
-Î“Ã‡Ã³ Secure lever-lock mechanism
-Î“Ã‡Ã³ Suitable for glass and tile installation
-Î“Ã‡Ã³ Ideal for granite and marble handling
-Î“Ã‡Ã³ Non-slip ergonomic grip
-Î“Ã‡Ã³ Durable industrial construction
-Î“Ã‡Ã³ Easy attachment and release
-Î“Ã‡Ã³ Lightweight and portable
-Î“Ã‡Ã³ Professional-grade lifting tool
+GÇó Three heavy-duty suction cups
+GÇó Strong cast aluminum handle
+GÇó Secure lever-lock mechanism
+GÇó Suitable for glass and tile installation
+GÇó Ideal for granite and marble handling
+GÇó Non-slip ergonomic grip
+GÇó Durable industrial construction
+GÇó Easy attachment and release
+GÇó Lightweight and portable
+GÇó Professional-grade lifting tool
 `,
 
 
@@ -5769,7 +5769,7 @@ User Manual
 
 {
   id: 16104,
-  name: "Auger Drill Bit for Wood (230mm / 350mm, 6Î“Ã‡Ã´25mm)",
+  name: "Auger Drill Bit for Wood (230mm / 350mm, 6GÇô25mm)",
      category: 'drill-bits',
    group: 'hand tools',
   parentCategory: 'hand tools accessories',
@@ -5796,28 +5796,28 @@ Material: Heat-Treated High Carbon Steel
 Finish: Black Oxide
 Application: Woodworking
 Suitable Materials:
-Î“Ã‡Ã³ Softwood
-Î“Ã‡Ã³ Hardwood
-Î“Ã‡Ã³ Timber
-Î“Ã‡Ã³ Plywood
-Î“Ã‡Ã³ MDF
-Î“Ã‡Ã³ Particle Board
+GÇó Softwood
+GÇó Hardwood
+GÇó Timber
+GÇó Plywood
+GÇó MDF
+GÇó Particle Board
 
 Available Hole Diameters:
-Î“Ã‡Ã³ 6 mm
-Î“Ã‡Ã³ 8 mm
-Î“Ã‡Ã³ 10 mm
-Î“Ã‡Ã³ 12 mm
-Î“Ã‡Ã³ 14 mm
-Î“Ã‡Ã³ 16 mm
-Î“Ã‡Ã³ 18 mm
-Î“Ã‡Ã³ 20 mm
-Î“Ã‡Ã³ 22 mm
-Î“Ã‡Ã³ 25 mm
+GÇó 6 mm
+GÇó 8 mm
+GÇó 10 mm
+GÇó 12 mm
+GÇó 14 mm
+GÇó 16 mm
+GÇó 18 mm
+GÇó 20 mm
+GÇó 22 mm
+GÇó 25 mm
 
 Available Overall Lengths:
-Î“Ã‡Ã³ 230 mm
-Î“Ã‡Ã³ 350 mm
+GÇó 230 mm
+GÇó 350 mm
 
 Shank Type: Hex Shank
 Tip Type: Self-Feeding Screw Point
@@ -5826,76 +5826,76 @@ Cutting Edge: Precision Ground
 Corrosion Resistant: Yes
 
 Accessories Included:
-Î“Ã‡Ã³ 1 â”œÃ¹ Auger Drill Bit
+GÇó 1 +ù Auger Drill Bit
 `,
 
   features: `
-Î“Ã‡Ã³ Self-feeding screw tip for fast drilling
-Î“Ã‡Ã³ Deep spiral flute for efficient chip removal
-Î“Ã‡Ã³ Produces clean and accurate holes
-Î“Ã‡Ã³ Heat-treated high carbon steel construction
-Î“Ã‡Ã³ Durable and wear resistant
-Î“Ã‡Ã³ Hex shank reduces slippage
-Î“Ã‡Ã³ Suitable for hand drills and power drills
-Î“Ã‡Ã³ Ideal for woodworking and carpentry
-Î“Ã‡Ã³ Excellent for deep-hole drilling
-Î“Ã‡Ã³ Long service life
+GÇó Self-feeding screw tip for fast drilling
+GÇó Deep spiral flute for efficient chip removal
+GÇó Produces clean and accurate holes
+GÇó Heat-treated high carbon steel construction
+GÇó Durable and wear resistant
+GÇó Hex shank reduces slippage
+GÇó Suitable for hand drills and power drills
+GÇó Ideal for woodworking and carpentry
+GÇó Excellent for deep-hole drilling
+GÇó Long service life
 `,
 
 
   variations: [
     {
-      size: "6mm â”œÃ¹ 230mm",
+      size: "6mm +ù 230mm",
       price: 0,
       inStock: true
     },
     {
-      size: "8mm â”œÃ¹ 230mm",
+      size: "8mm +ù 230mm",
       price: 0,
       inStock: true
     },
     {
-      size: "10mm â”œÃ¹ 230mm",
+      size: "10mm +ù 230mm",
       price: 0,
       inStock: true
     },
     {
-      size: "12mm â”œÃ¹ 230mm",
+      size: "12mm +ù 230mm",
       price: 0,
       inStock: true
     },
     {
-      size: "14mm â”œÃ¹ 230mm",
+      size: "14mm +ù 230mm",
       price: 0,
       inStock: true
     },
     {
-      size: "16mm â”œÃ¹ 230mm",
+      size: "16mm +ù 230mm",
       price: 0,
       inStock: true
     },
     {
-      size: "18mm â”œÃ¹ 230mm",
+      size: "18mm +ù 230mm",
       price: 0,
       inStock: true
     },
     {
-      size: "22mm â”œÃ¹ 230mm",
+      size: "22mm +ù 230mm",
       price: 0,
       inStock: true
     },
     {
-      size: "18mm â”œÃ¹ 350mm",
+      size: "18mm +ù 350mm",
       price: 0,
       inStock: true
     },
     {
-      size: "22mm â”œÃ¹ 350mm",
+      size: "22mm +ù 350mm",
       price: 0,
       inStock: true
     },
     {
-      size: "25mm â”œÃ¹ 350mm",
+      size: "25mm +ù 350mm",
       price: 0,
       inStock: true
     }
@@ -5926,29 +5926,29 @@ Accessories Included:
   description: `The Manual Concrete Nail Gun Wall Fastening Tool Kit is designed for fast and efficient installation of nails into concrete walls, brick walls, steel structures, and masonry surfaces. It provides a convenient fastening solution for electrical, plumbing, HVAC, ceiling, and construction applications. The kit includes assorted fastening pins and accessories packed in a durable carrying case.`,
 
   specification: `
-Î“Ã‡Ã³ Product Type: Manual Concrete Nail Gun Kit
-Î“Ã‡Ã³ Operation Type: Manual Impact Fastening
-Î“Ã‡Ã³ Body Material: Hardened Steel
-Î“Ã‡Ã³ Handle Type: Ergonomic T-Handle
-Î“Ã‡Ã³ Application: Concrete, Brick, Masonry, Steel
-Î“Ã‡Ã³ Heavy-Duty Construction
-Î“Ã‡Ã³ Portable Carrying Case
-Î“Ã‡Ã³ Easy Fastener Loading System
-Î“Ã‡Ã³ Durable Impact Mechanism
-Î“Ã‡Ã³ Suitable for Professional and DIY Use
-Î“Ã‡Ã³ Accessories: Concrete Nail Gun, Carrying Case, 200PCS Fastening Nails/Pins, Safety Glasses, Protective Gloves, Cleaning Brush, Replacement Springs, Spare Components
+GÇó Product Type: Manual Concrete Nail Gun Kit
+GÇó Operation Type: Manual Impact Fastening
+GÇó Body Material: Hardened Steel
+GÇó Handle Type: Ergonomic T-Handle
+GÇó Application: Concrete, Brick, Masonry, Steel
+GÇó Heavy-Duty Construction
+GÇó Portable Carrying Case
+GÇó Easy Fastener Loading System
+GÇó Durable Impact Mechanism
+GÇó Suitable for Professional and DIY Use
+GÇó Accessories: Concrete Nail Gun, Carrying Case, 200PCS Fastening Nails/Pins, Safety Glasses, Protective Gloves, Cleaning Brush, Replacement Springs, Spare Components
 `,
 
   features: `
-Î“Ã‡Ã³ Fast installation of nails into concrete surfaces
-Î“Ã‡Ã³ Durable heavy-duty steel construction
-Î“Ã‡Ã³ Ergonomic anti-slip handle
-Î“Ã‡Ã³ Compact and portable design
-Î“Ã‡Ã³ Suitable for construction and maintenance work
-Î“Ã‡Ã³ Easy operation and maintenance
-Î“Ã‡Ã³ Includes safety accessories
-Î“Ã‡Ã³ Ideal for cable clips, electrical installations, piping supports, and ceiling fixing
-Î“Ã‡Ã³ Comes with storage case for easy transportation
+GÇó Fast installation of nails into concrete surfaces
+GÇó Durable heavy-duty steel construction
+GÇó Ergonomic anti-slip handle
+GÇó Compact and portable design
+GÇó Suitable for construction and maintenance work
+GÇó Easy operation and maintenance
+GÇó Includes safety accessories
+GÇó Ideal for cable clips, electrical installations, piping supports, and ceiling fixing
+GÇó Comes with storage case for easy transportation
 `,
 
   model: "200PCS Concrete Nail Gun Kit",
@@ -5997,34 +5997,34 @@ Accessories Included:
   description: `The Fiberglass Fish Tape Cable Puller Duct Rodder is designed for pulling cables and wires through conduits, ducts, underground pipelines, and telecommunications channels. Manufactured from high-strength fiberglass, it offers excellent flexibility, durability, and resistance to corrosion, making it suitable for electrical, telecom, utility, and construction applications.`,
 
   specification: `
-Î“Ã‡Ã³ Product Type: Fiberglass Fish Tape / Duct Rodder
-Î“Ã‡Ã³ Rod Diameter: 6mm
-Î“Ã‡Ã³ Material: High-Strength Fiberglass
-Î“Ã‡Ã³ Frame Material: Powder-Coated Steel
-Î“Ã‡Ã³ Rod Color: Yellow
-Î“Ã‡Ã³ Flexible and Durable Construction
-Î“Ã‡Ã³ Corrosion Resistant
-Î“Ã‡Ã³ High Tensile Strength
-Î“Ã‡Ã³ Suitable for Underground Ducts and Conduits
-Î“Ã‡Ã³ Easy-Grip Reel Handle
-Î“Ã‡Ã³ Applications: Cable Installation, Telecommunications, Electrical Wiring, Utility Maintenance
-Î“Ã‡Ã³ Variations:
+GÇó Product Type: Fiberglass Fish Tape / Duct Rodder
+GÇó Rod Diameter: 6mm
+GÇó Material: High-Strength Fiberglass
+GÇó Frame Material: Powder-Coated Steel
+GÇó Rod Color: Yellow
+GÇó Flexible and Durable Construction
+GÇó Corrosion Resistant
+GÇó High Tensile Strength
+GÇó Suitable for Underground Ducts and Conduits
+GÇó Easy-Grip Reel Handle
+GÇó Applications: Cable Installation, Telecommunications, Electrical Wiring, Utility Maintenance
+GÇó Variations:
   - 100m Length
   - 200m Length
   - 300m Length
-Î“Ã‡Ã³ Accessories: Fiberglass Rod, Reel Frame, Pulling Eye, Guide Head
+GÇó Accessories: Fiberglass Rod, Reel Frame, Pulling Eye, Guide Head
 `,
 
   features: `
-Î“Ã‡Ã³ High-strength fiberglass construction
-Î“Ã‡Ã³ Excellent flexibility for navigating bends
-Î“Ã‡Ã³ Corrosion and weather resistant
-Î“Ã‡Ã³ Easy cable pulling through ducts and conduits
-Î“Ã‡Ã³ Durable steel reel frame
-Î“Ã‡Ã³ Suitable for long-distance cable installations
-Î“Ã‡Ã³ Lightweight and portable design
-Î“Ã‡Ã³ Ideal for electrical and telecom contractors
-Î“Ã‡Ã³ Available in multiple lengths
+GÇó High-strength fiberglass construction
+GÇó Excellent flexibility for navigating bends
+GÇó Corrosion and weather resistant
+GÇó Easy cable pulling through ducts and conduits
+GÇó Durable steel reel frame
+GÇó Suitable for long-distance cable installations
+GÇó Lightweight and portable design
+GÇó Ideal for electrical and telecom contractors
+GÇó Available in multiple lengths
 `,
 
   model: "6mm Fiberglass Fish Tape",
@@ -6051,31 +6051,31 @@ Accessories Included:
   description: `The Heavy-Duty Retractable Utility Knife is a professional cutting tool designed for precision, durability, and safety. It features a retractable replaceable blade with a secure locking mechanism for controlled cutting. Ideal for construction, packaging, flooring, electrical work, and general maintenance, it delivers reliable performance in both industrial and DIY applications.`,
 
   specification: `
-Î“Ã‡Ã³ Product Type: Retractable Utility Knife
-Î“Ã‡Ã³ Blade Type: Replaceable Trapezoid Utility Blade
-Î“Ã‡Ã³ Blade Material: High Carbon Steel
-Î“Ã‡Ã³ Body Material: Die-Cast Metal
-Î“Ã‡Ã³ Blade Lock: Sliding Lock Mechanism
-Î“Ã‡Ã³ Handle Design: Ergonomic Non-Slip Grip
-Î“Ã‡Ã³ Retractable Blade: Yes
-Î“Ã‡Ã³ Heavy-Duty Construction
-Î“Ã‡Ã³ Corrosion Resistant Finish
-Î“Ã‡Ã³ Compact and Lightweight
-Î“Ã‡Ã³ Suitable for Left and Right-Handed Users
-Î“Ã‡Ã³ Applications: Carton Cutting, Carpet Installation, Plastic Sheet Cutting, Vinyl Cutting, Leather Cutting, Drywall, Roofing and General Maintenance
-Î“Ã‡Ã³ Accessories: Utility Knife, Replaceable Utility Blade
+GÇó Product Type: Retractable Utility Knife
+GÇó Blade Type: Replaceable Trapezoid Utility Blade
+GÇó Blade Material: High Carbon Steel
+GÇó Body Material: Die-Cast Metal
+GÇó Blade Lock: Sliding Lock Mechanism
+GÇó Handle Design: Ergonomic Non-Slip Grip
+GÇó Retractable Blade: Yes
+GÇó Heavy-Duty Construction
+GÇó Corrosion Resistant Finish
+GÇó Compact and Lightweight
+GÇó Suitable for Left and Right-Handed Users
+GÇó Applications: Carton Cutting, Carpet Installation, Plastic Sheet Cutting, Vinyl Cutting, Leather Cutting, Drywall, Roofing and General Maintenance
+GÇó Accessories: Utility Knife, Replaceable Utility Blade
 `,
 
   features: `
-Î“Ã‡Ã³ Durable die-cast metal body
-Î“Ã‡Ã³ Sharp replaceable blade
-Î“Ã‡Ã³ Smooth retractable blade mechanism
-Î“Ã‡Ã³ Secure blade locking system
-Î“Ã‡Ã³ Comfortable ergonomic grip
-Î“Ã‡Ã³ Compact and easy to carry
-Î“Ã‡Ã³ Suitable for professional and DIY use
-Î“Ã‡Ã³ Ideal for warehouse, workshop and construction applications
-Î“Ã‡Ã³ Quick blade replacement
+GÇó Durable die-cast metal body
+GÇó Sharp replaceable blade
+GÇó Smooth retractable blade mechanism
+GÇó Secure blade locking system
+GÇó Comfortable ergonomic grip
+GÇó Compact and easy to carry
+GÇó Suitable for professional and DIY use
+GÇó Ideal for warehouse, workshop and construction applications
+GÇó Quick blade replacement
 `,
 
 
@@ -6114,11 +6114,11 @@ Accessories Included:
 - Application: Putty application, drywall finishing, plaster work, scraping paint, wallpaper removal, adhesive spreading
 
 - Available Variations:
-  Î“Ã‡Ã³ 4" (100mm)
-  Î“Ã‡Ã³ 5" (125mm)
+  GÇó 4" (100mm)
+  GÇó 5" (125mm)
 
 - Accessories:
-  Î“Ã‡Ã³ 1 â”œÃ¹ TOCDO Putty Knife
+  GÇó 1 +ù TOCDO Putty Knife
   `,
 
   features: `
@@ -6189,12 +6189,12 @@ User Guide
 `,
 
 features: `
-Î“Ã‡Ã³ Comprehensive 31-piece assortment
-Î“Ã‡Ã³ Fits a wide variety of vehicle brands
-Î“Ã‡Ã³ Durable heat-treated steel construction
-Î“Ã‡Ã³ Corrosion-resistant finish
-Î“Ã‡Ã³ Easy identification of socket sizes
-Î“Ã‡Ã³ Ideal for garages and professional workshops
+GÇó Comprehensive 31-piece assortment
+GÇó Fits a wide variety of vehicle brands
+GÇó Durable heat-treated steel construction
+GÇó Corrosion-resistant finish
+GÇó Easy identification of socket sizes
+GÇó Ideal for garages and professional workshops
 `,
 
 
@@ -6206,7 +6206,7 @@ features: `
 
 {
   id: 16110,
-  name: 'Manual Ratcheting Pipe Threader Kit - 1/2"Î“Ã‡Ã´1" NPT',
+  name: 'Manual Ratcheting Pipe Threader Kit - 1/2"GÇô1" NPT',
   category: 'pipe-threaders',
   group: 'hand tools',
   brand: 'Generic',
@@ -6269,16 +6269,16 @@ Instruction Manual
 `,
 
   features: `
-Î“Ã‡Ã³ Heavy-duty cast iron construction
-Î“Ã‡Ã³ Reversible ratcheting mechanism
-Î“Ã‡Ã³ Precision-machined NPT dies
-Î“Ã‡Ã³ Portable and compact design
-Î“Ã‡Ã³ Easy die replacement system
-Î“Ã‡Ã³ Suitable for field and workshop use
-Î“Ã‡Ã³ Produces clean and accurate threads
-Î“Ã‡Ã³ Corrosion-resistant finish
-Î“Ã‡Ã³ Comfortable ergonomic handle
-Î“Ã‡Ã³ Ideal for professional plumbers and maintenance technicians
+GÇó Heavy-duty cast iron construction
+GÇó Reversible ratcheting mechanism
+GÇó Precision-machined NPT dies
+GÇó Portable and compact design
+GÇó Easy die replacement system
+GÇó Suitable for field and workshop use
+GÇó Produces clean and accurate threads
+GÇó Corrosion-resistant finish
+GÇó Comfortable ergonomic handle
+GÇó Ideal for professional plumbers and maintenance technicians
 `,
 
   inStock: true,
@@ -6295,7 +6295,7 @@ Instruction Manual
   category: 'pipe-threaders',
   group: 'hand tools',
   brand: 'Generic',
- 
+
   price: 188000,
 
   images: [
@@ -6359,16 +6359,16 @@ User Manual
 `,
 
   features: `
-Î“Ã‡Ã³ Heavy-duty cast iron ratchet body
-Î“Ã‡Ã³ Hardened alloy steel threading dies
-Î“Ã‡Ã³ Reversible ratchet operation
-Î“Ã‡Ã³ Precise and clean thread cutting
-Î“Ã‡Ã³ Portable storage case included
-Î“Ã‡Ã³ Suitable for professional plumbers
-Î“Ã‡Ã³ Corrosion-resistant components
-Î“Ã‡Ã³ Easy die replacement
-Î“Ã‡Ã³ Durable construction
-Î“Ã‡Ã³ Designed for field and workshop use
+GÇó Heavy-duty cast iron ratchet body
+GÇó Hardened alloy steel threading dies
+GÇó Reversible ratchet operation
+GÇó Precise and clean thread cutting
+GÇó Portable storage case included
+GÇó Suitable for professional plumbers
+GÇó Corrosion-resistant components
+GÇó Easy die replacement
+GÇó Durable construction
+GÇó Designed for field and workshop use
 `,
 
   inStock: true,
@@ -6396,13 +6396,13 @@ User Manual
     'https://res.cloudinary.com/taus5tit/image/upload/v1786306595/Astonic-Mart/Products/flaringtools%20and%20saws/ecentric_flaring_tools-7.jpg'
   ],
 
-  description: 'The Eccentric Flaring Tool Kit is a professional-grade refrigeration and air conditioning service tool designed for producing smooth, precise and leak-free 45â”¬â–‘ flares on copper tubing. Its eccentric cone mechanism ensures uniform flare formation with minimal effort, making it ideal for HVAC installation, maintenance and repair work.',
+  description: 'The Eccentric Flaring Tool Kit is a professional-grade refrigeration and air conditioning service tool designed for producing smooth, precise and leak-free 45-¦ flares on copper tubing. Its eccentric cone mechanism ensures uniform flare formation with minimal effort, making it ideal for HVAC installation, maintenance and repair work.',
 
   specification: `
 Brand: Generic
 Model: Eccentric Flaring Tool Kit
 Type: Eccentric Copper Tube Flaring Tool
-Flare Type: 45â”¬â–‘ Single Flare
+Flare Type: 45-¦ Single Flare
 Material: Hardened Steel and Aluminum Alloy
 Cone Type: Eccentric Rolling Cone
 Tube Compatibility:
@@ -6437,16 +6437,16 @@ User Manual
 `,
 
   features: `
-Î“Ã‡Ã³ Precision eccentric cone mechanism
-Î“Ã‡Ã³ Produces smooth and uniform flares
-Î“Ã‡Ã³ Creates accurate 45â”¬â–‘ flare angles
-Î“Ã‡Ã³ Suitable for refrigeration copper tubing
-Î“Ã‡Ã³ Heavy-duty aluminum construction
-Î“Ã‡Ã³ Compact and portable design
-Î“Ã‡Ã³ Corrosion-resistant components
-Î“Ã‡Ã³ Easy to operate
-Î“Ã‡Ã³ Reduces tubing deformation
-Î“Ã‡Ã³ Ideal for HVAC technicians and installers
+GÇó Precision eccentric cone mechanism
+GÇó Produces smooth and uniform flares
+GÇó Creates accurate 45-¦ flare angles
+GÇó Suitable for refrigeration copper tubing
+GÇó Heavy-duty aluminum construction
+GÇó Compact and portable design
+GÇó Corrosion-resistant components
+GÇó Easy to operate
+GÇó Reduces tubing deformation
+GÇó Ideal for HVAC technicians and installers
 `,
 
   inStock: true,
@@ -6491,30 +6491,30 @@ User Manual
     'The Boosman Club Hammer is a heavy-duty striking tool engineered for demolition, masonry, metalworking and construction tasks. It features a forged steel head and an ergonomic rubber-coated fiberglass handle for improved grip, shock absorption and durability.',
 
   specification: `
-Î“Ã‡Ã³ Product Type: Club Hammer
-Î“Ã‡Ã³ Brand: Boosman
-Î“Ã‡Ã³ Head Material: Drop Forged Carbon Steel
-Î“Ã‡Ã³ Handle Material: Fiberglass with Rubber Grip
-Î“Ã‡Ã³ Available Sizes: 2kg, 3kg
-Î“Ã‡Ã³ Handle Type: Anti-slip Ergonomic Grip
-Î“Ã‡Ã³ Finish: Powder Coated Head
-Î“Ã‡Ã³ Shock Absorption: Yes
-Î“Ã‡Ã³ Corrosion Resistant: Yes
-Î“Ã‡Ã³ Application: Construction, Masonry, Demolition, Metalworking
+GÇó Product Type: Club Hammer
+GÇó Brand: Boosman
+GÇó Head Material: Drop Forged Carbon Steel
+GÇó Handle Material: Fiberglass with Rubber Grip
+GÇó Available Sizes: 2kg, 3kg
+GÇó Handle Type: Anti-slip Ergonomic Grip
+GÇó Finish: Powder Coated Head
+GÇó Shock Absorption: Yes
+GÇó Corrosion Resistant: Yes
+GÇó Application: Construction, Masonry, Demolition, Metalworking
 
 Accessories Included:
-Î“Ã‡Ã³ Protective Packaging
+GÇó Protective Packaging
   `,
 
   features: `
-Î“Ã‡Ã³ Heavy-duty forged steel construction
-Î“Ã‡Ã³ Durable fiberglass handle
-Î“Ã‡Ã³ Comfortable anti-slip grip
-Î“Ã‡Ã³ Excellent balance for efficient striking
-Î“Ã‡Ã³ High impact resistance
-Î“Ã‡Ã³ Suitable for demolition and masonry work
-Î“Ã‡Ã³ Long service life
-Î“Ã‡Ã³ Professional-grade build quality
+GÇó Heavy-duty forged steel construction
+GÇó Durable fiberglass handle
+GÇó Comfortable anti-slip grip
+GÇó Excellent balance for efficient striking
+GÇó High impact resistance
+GÇó Suitable for demolition and masonry work
+GÇó Long service life
+GÇó Professional-grade build quality
   `,
 
   inStock: true,
@@ -6557,18 +6557,18 @@ Accessories Included:
   - Material: Heat Treated Forged Steel
   - Finish: Corrosion Resistant Coating
   - Separator Sizes:
-    Î“Ã‡Ã³ 30Î“Ã‡Ã´50 mm
-    Î“Ã‡Ã³ 50Î“Ã‡Ã´75 mm
+    GÇó 30GÇô50 mm
+    GÇó 50GÇô75 mm
   - Puller Type: Two-Jaw Bearing Separator
   - Pulling Method: Mechanical
   - Application: Bearing, Gear and Pulley Removal
   - Suitable For:
-    Î“Ã‡Ã³ Bearings
-    Î“Ã‡Ã³ Gears
-    Î“Ã‡Ã³ Bushings
-    Î“Ã‡Ã³ Pulleys
-    Î“Ã‡Ã³ Flywheels
-    Î“Ã‡Ã³ Shafts
+    GÇó Bearings
+    GÇó Gears
+    GÇó Bushings
+    GÇó Pulleys
+    GÇó Flywheels
+    GÇó Shafts
   - Storage: Blow Molded Carrying Case
   `,
 
@@ -6623,9 +6623,9 @@ Accessories Included:
   - Suitable For: Workshops, Garages, Factories and Maintenance Operations
 
   Accessories Included:
-  - 1 â”œÃ¹ Air Blow Gun
-  - 1 â”œÃ¹ Extended Stainless Steel Nozzle
-  - 1 â”œÃ¹ Quick Coupler Connector
+  - 1 +ù Air Blow Gun
+  - 1 +ù Extended Stainless Steel Nozzle
+  - 1 +ù Quick Coupler Connector
   `,
 
   features: `
@@ -6679,8 +6679,8 @@ Accessories Included:
   - Packing: Sliding Card Packaging
 
   Accessories Included:
-  - 1 â”œÃ¹ Air Blow Gun
-  - 1 â”œÃ¹ Nitto Type Connector
+  - 1 +ù Air Blow Gun
+  - 1 +ù Nitto Type Connector
   `,
 
   features: `
@@ -6753,13 +6753,13 @@ Accessories Included:
 
 {
   id: 16118,
-  name: 'Heavy Duty Pipe Cutter 4Î“Ã‡Ã´55mm',
+  name: 'Heavy Duty Pipe Cutter 4GÇô55mm',
   group: 'hand-tools',
   category: 'pipe-cutters',
   showSimilar: true,
   brand: 'Generic',
   price: 32000,
-  
+
 
   images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429614/Astonic-Mart/Products/remaining-local-images/sq02qfc1qeoo6sr0uwn4.webp',
@@ -6771,11 +6771,11 @@ Accessories Included:
 
   inStock: true,
 
-  description: 'The Heavy Duty Pipe Cutter 4Î“Ã‡Ã´55mm is a professional tubing cutter designed for precise cutting of copper, aluminum, brass and thin-wall steel pipes. Its adjustable cutting mechanism accommodates pipe diameters from 4 mm to 55 mm, making it suitable for plumbing, HVAC installations, refrigeration servicing and general maintenance work. The ergonomic adjustment knob ensures smooth operation and accurate cuts with minimal effort.',
+  description: 'The Heavy Duty Pipe Cutter 4GÇô55mm is a professional tubing cutter designed for precise cutting of copper, aluminum, brass and thin-wall steel pipes. Its adjustable cutting mechanism accommodates pipe diameters from 4 mm to 55 mm, making it suitable for plumbing, HVAC installations, refrigeration servicing and general maintenance work. The ergonomic adjustment knob ensures smooth operation and accurate cuts with minimal effort.',
 
   specification: `
   - Product Name: Heavy Duty Pipe Cutter
-  - Cutting Capacity: 4Î“Ã‡Ã´55 mm
+  - Cutting Capacity: 4GÇô55 mm
   - Type: Adjustable Pipe Cutter
   - Body Material: Cast Aluminum Alloy
   - Blade Material: Hardened Alloy Steel
@@ -6785,11 +6785,11 @@ Accessories Included:
   - Application: Plumbing, HVAC, Refrigeration and Maintenance
   - Finish: Powder Coated
   - Color: Red
-  - Weight: Approx. 0.6Î“Ã‡Ã´0.8 kg
+  - Weight: Approx. 0.6GÇô0.8 kg
 
   Accessories Included
-  - 1 â”œÃ¹ Pipe Cutter
-  - 1 â”œÃ¹ Cutting Wheel
+  - 1 +ù Pipe Cutter
+  - 1 +ù Cutting Wheel
   `,
 
   features: `
@@ -6833,26 +6833,26 @@ Accessories Included:
   - Material: Chrome Vanadium Steel (Cr-V)
   - Finish: Mirror Polished / Chrome Plated
   - Measurement System: Metric
-  - Sizes Included: 8 mm Î“Ã‡Ã´ 24 mm
+  - Sizes Included: 8 mm GÇô 24 mm
   - Hardness: Heat Treated
   - Corrosion Resistance: Yes
   - Application: Automotive, Mechanical and Industrial Maintenance
 
   Accessories Included
-  - 1 â”œÃ¹ 8 mm Combination Spanner
-  - 1 â”œÃ¹ 10 mm Combination Spanner
-  - 1 â”œÃ¹ 11 mm Combination Spanner
-  - 1 â”œÃ¹ 12 mm Combination Spanner
-  - 1 â”œÃ¹ 13 mm Combination Spanner
-  - 1 â”œÃ¹ 14 mm Combination Spanner
-  - 1 â”œÃ¹ 15 mm Combination Spanner
-  - 1 â”œÃ¹ 16 mm Combination Spanner
-  - 1 â”œÃ¹ 17 mm Combination Spanner
-  - 1 â”œÃ¹ 18 mm Combination Spanner
-  - 1 â”œÃ¹ 19 mm Combination Spanner
-  - 1 â”œÃ¹ 21 mm Combination Spanner
-  - 1 â”œÃ¹ 22 mm Combination Spanner
-  - 1 â”œÃ¹ 24 mm Combination Spanner
+  - 1 +ù 8 mm Combination Spanner
+  - 1 +ù 10 mm Combination Spanner
+  - 1 +ù 11 mm Combination Spanner
+  - 1 +ù 12 mm Combination Spanner
+  - 1 +ù 13 mm Combination Spanner
+  - 1 +ù 14 mm Combination Spanner
+  - 1 +ù 15 mm Combination Spanner
+  - 1 +ù 16 mm Combination Spanner
+  - 1 +ù 17 mm Combination Spanner
+  - 1 +ù 18 mm Combination Spanner
+  - 1 +ù 19 mm Combination Spanner
+  - 1 +ù 21 mm Combination Spanner
+  - 1 +ù 22 mm Combination Spanner
+  - 1 +ù 24 mm Combination Spanner
   `,
 
   features: `
@@ -6875,7 +6875,7 @@ Accessories Included:
 
 {
   id: 16120,
-  name: '23 Pcs Combination Wrench Set (6Î“Ã‡Ã´23mm)',
+  name: '23 Pcs Combination Wrench Set (6GÇô23mm)',
    category: 'spanners-and-wrenches',
        group: 'hand tools',
   showSimilar: true,
@@ -6888,12 +6888,12 @@ Accessories Included:
 
   inStock: true,
 
-  description: 'The 23 Pieces Combination Wrench Set (6Î“Ã‡Ã´23 mm) is a professional-grade tool kit designed for automotive, industrial, mechanical and maintenance applications. Each wrench combines an open-end and ring-end design for versatility, allowing users to work efficiently in confined spaces while providing excellent grip and torque transfer. Manufactured from premium chrome vanadium steel, the set delivers outstanding strength, wear resistance and long-lasting performance.',
+  description: 'The 23 Pieces Combination Wrench Set (6GÇô23 mm) is a professional-grade tool kit designed for automotive, industrial, mechanical and maintenance applications. Each wrench combines an open-end and ring-end design for versatility, allowing users to work efficiently in confined spaces while providing excellent grip and torque transfer. Manufactured from premium chrome vanadium steel, the set delivers outstanding strength, wear resistance and long-lasting performance.',
 
   specification: `
   - Product Name: Combination Wrench Set
   - Number of Pieces: 23
-  - Size Range: 6Î“Ã‡Ã´23 mm
+  - Size Range: 6GÇô23 mm
   - Type: Combination Wrench Set
   - Material: Chrome Vanadium Steel (Cr-V)
   - Finish: Mirror Polished / Chrome Plated
@@ -6903,31 +6903,31 @@ Accessories Included:
   - Application: Automotive, Mechanical, Industrial and Maintenance Work
 
   Accessories Included
-  - 1 â”œÃ¹ 6 mm Combination Wrench
-  - 1 â”œÃ¹ 7 mm Combination Wrench
-  - 1 â”œÃ¹ 8 mm Combination Wrench
-  - 1 â”œÃ¹ 9 mm Combination Wrench
-  - 1 â”œÃ¹ 10 mm Combination Wrench
-  - 1 â”œÃ¹ 11 mm Combination Wrench
-  - 1 â”œÃ¹ 12 mm Combination Wrench
-  - 1 â”œÃ¹ 13 mm Combination Wrench
-  - 1 â”œÃ¹ 14 mm Combination Wrench
-  - 1 â”œÃ¹ 15 mm Combination Wrench
-  - 1 â”œÃ¹ 16 mm Combination Wrench
-  - 1 â”œÃ¹ 17 mm Combination Wrench
-  - 1 â”œÃ¹ 18 mm Combination Wrench
-  - 1 â”œÃ¹ 19 mm Combination Wrench
-  - 1 â”œÃ¹ 20 mm Combination Wrench
-  - 1 â”œÃ¹ 21 mm Combination Wrench
-  - 1 â”œÃ¹ 22 mm Combination Wrench
-  - 1 â”œÃ¹ 23 mm Combination Wrench
+  - 1 +ù 6 mm Combination Wrench
+  - 1 +ù 7 mm Combination Wrench
+  - 1 +ù 8 mm Combination Wrench
+  - 1 +ù 9 mm Combination Wrench
+  - 1 +ù 10 mm Combination Wrench
+  - 1 +ù 11 mm Combination Wrench
+  - 1 +ù 12 mm Combination Wrench
+  - 1 +ù 13 mm Combination Wrench
+  - 1 +ù 14 mm Combination Wrench
+  - 1 +ù 15 mm Combination Wrench
+  - 1 +ù 16 mm Combination Wrench
+  - 1 +ù 17 mm Combination Wrench
+  - 1 +ù 18 mm Combination Wrench
+  - 1 +ù 19 mm Combination Wrench
+  - 1 +ù 20 mm Combination Wrench
+  - 1 +ù 21 mm Combination Wrench
+  - 1 +ù 22 mm Combination Wrench
+  - 1 +ù 23 mm Combination Wrench
   - Storage Rack / Carrying Pouch Included
 
   `,
 
   features: `
   - Professional 23-piece combination wrench set
-  - Covers commonly used metric sizes from 6Î“Ã‡Ã´23 mm
+  - Covers commonly used metric sizes from 6GÇô23 mm
   - Open-end and ring-end configuration
   - High-strength chrome vanadium steel construction
   - Heat-treated for enhanced durability
@@ -6975,13 +6975,13 @@ Accessories Included:
   - Storage: Blow-Molded Carrying Case
 
   Accessories Included
-  - 1 â”œÃ¹ 1/4" Ratchet Handle
-  - 1 â”œÃ¹ 3/8" Ratchet Handle
-  - 1 â”œÃ¹ 1/4" Extension Bar
-  - 1 â”œÃ¹ 3/8" Extension Bar
-  - 1 â”œÃ¹ Universal Joint
-  - 1 â”œÃ¹ Spinner Handle
-  - 1 â”œÃ¹ Sliding T-Bar
+  - 1 +ù 1/4" Ratchet Handle
+  - 1 +ù 3/8" Ratchet Handle
+  - 1 +ù 1/4" Extension Bar
+  - 1 +ù 3/8" Extension Bar
+  - 1 +ù Universal Joint
+  - 1 +ù Spinner Handle
+  - 1 +ù Sliding T-Bar
   - Assorted 1/4" Metric Sockets
   - Assorted 3/8" Metric Sockets
   - Bit Adapter
@@ -7033,20 +7033,20 @@ Accessories Included:
   - Ratchet Mechanism: 72-Tooth
   - Measurement System: Metric
   - Sizes Included:
-    Î“Ã‡Ã³ 8 mm
-    Î“Ã‡Ã³ 10 mm
-    Î“Ã‡Ã³ 12 mm
-    Î“Ã‡Ã³ 13 mm
-    Î“Ã‡Ã³ 14 mm
-    Î“Ã‡Ã³ 17 mm
-    Î“Ã‡Ã³ 19 mm
+    GÇó 8 mm
+    GÇó 10 mm
+    GÇó 12 mm
+    GÇó 13 mm
+    GÇó 14 mm
+    GÇó 17 mm
+    GÇó 19 mm
   - Corrosion Resistant: Yes
   - Storage: Plastic Carrying Holder
   - Application: Automotive, Mechanical, Industrial and Maintenance Work
 
   Accessories Included
-  - 7 â”œÃ¹ Ratcheting Combination Wrenches
-  - 1 â”œÃ¹ Portable Storage Case
+  - 7 +ù Ratcheting Combination Wrenches
+  - 1 +ù Portable Storage Case
   `,
 
   features: `
@@ -7062,7 +7062,7 @@ Accessories Included:
   - Professional-grade durability
   `,
 
-  
+
   jumiaLink: 'https://www.jumia.com.ng/generic-7-piece-ratchet-wrench-set-419476658.html',
 },
 
@@ -7086,7 +7086,7 @@ Accessories Included:
 
   inStock: true,
 
-  description: 'The 7 Pieces Flexible Head Ratcheting Wrench Set is designed for automotive, industrial and maintenance applications. Featuring a 180â”¬â–‘ pivoting ratcheting box-end, the wrenches provide improved accessibility in tight working areas. Manufactured from premium chrome vanadium steel, they offer excellent durability, corrosion resistance and high torque capability.',
+  description: 'The 7 Pieces Flexible Head Ratcheting Wrench Set is designed for automotive, industrial and maintenance applications. Featuring a 180-¦ pivoting ratcheting box-end, the wrenches provide improved accessibility in tight working areas. Manufactured from premium chrome vanadium steel, they offer excellent durability, corrosion resistance and high torque capability.',
 
   specification: `
   - Product Name: Flexible Head Ratcheting Wrench Set
@@ -7094,27 +7094,27 @@ Accessories Included:
   - Material: Chrome Vanadium Steel (CR-V)
   - Type: Flexible Head Combination Wrench
   - Ratchet Mechanism: 72-Tooth
-  - Head Design: 180â”¬â–‘ Pivoting Head
+  - Head Design: 180-¦ Pivoting Head
   - Measurement System: Metric
   - Sizes Included:
-    Î“Ã‡Ã³ 8 mm
-    Î“Ã‡Ã³ 10 mm
-    Î“Ã‡Ã³ 12 mm
-    Î“Ã‡Ã³ 13 mm
-    Î“Ã‡Ã³ 14 mm
-    Î“Ã‡Ã³ 17 mm
-    Î“Ã‡Ã³ 19 mm
+    GÇó 8 mm
+    GÇó 10 mm
+    GÇó 12 mm
+    GÇó 13 mm
+    GÇó 14 mm
+    GÇó 17 mm
+    GÇó 19 mm
   - Finish: Mirror Polished
   - Corrosion Resistant: Yes
 
   Accessories Included
-  - 7 â”œÃ¹ Flexible Head Ratcheting Wrenches
-  - 1 â”œÃ¹ Plastic Carrying Holder
+  - 7 +ù Flexible Head Ratcheting Wrenches
+  - 1 +ù Plastic Carrying Holder
   `,
 
   features: `
   - 7-piece metric wrench set
-  - Flexible 180â”¬â–‘ rotating head
+  - Flexible 180-¦ rotating head
   - Ratcheting box-end design
   - 72-tooth mechanism for tight spaces
   - Chrome vanadium steel construction
@@ -7136,7 +7136,7 @@ Accessories Included:
   name: 'Bosch Diamond Cutting Disc 125mm',
   category: 'cutting-and-grinding-discs',
   group: 'hand tools',
-  parentCategory: 'hand tools accessories', 
+  parentCategory: 'hand tools accessories',
   showSimilar: true,
   brand: 'Bosch',
 
@@ -7159,8 +7159,8 @@ Accessories Included:
   - Brand: Bosch
   - Disc Diameter: 125 mm
   - Bore Diameter: 22.23 mm
-  - Segment Height: 7Î“Ã‡Ã´10 mm
-  - Cutting Width: 1.8Î“Ã‡Ã´2.2 mm
+  - Segment Height: 7GÇô10 mm
+  - Cutting Width: 1.8GÇô2.2 mm
   - Disc Type: Segmented Diamond Disc
   - Maximum Speed: 12,250 rpm
   - Compatible Tool: 125 mm Angle Grinder
@@ -7168,7 +7168,7 @@ Accessories Included:
   - Usage: Dry and Wet Cutting (Model Dependent)
 
   Accessories Included
-  - 1 â”œÃ¹ Bosch Diamond Cutting Disc 125mm
+  - 1 +ù Bosch Diamond Cutting Disc 125mm
   `,
 
   features: `
@@ -7195,7 +7195,7 @@ Accessories Included:
   brand: 'Bosch',
 
   price: 28000,
-  
+
 
   images: [
     'https://res.cloudinary.com/taus5tit/image/upload/v1786328963/Astonic-Mart/Products/saw%20blades/Bosch_Eco_for_Wood_Circular_Saw_Blade_235mm.jpg',
@@ -7217,14 +7217,14 @@ Accessories Included:
   - Cutting Width: 2.8 mm
   - Number of Teeth: 24T
   - Tooth Geometry: ATB
-  - Hook Angle: 18â”¬â–‘
-  - Relief Angle: 13â”¬â–‘
+  - Hook Angle: 18-¦
+  - Relief Angle: 13-¦
   - Maximum Speed: 6,500 rpm
   - Application: Wood Cutting
   - Material Compatibility: Softwood, Hardwood, Plywood and Timber
 
   Accessories Included
-  - 1 â”œÃ¹ Bosch Eco for Wood Circular Saw Blade 235mm
+  - 1 +ù Bosch Eco for Wood Circular Saw Blade 235mm
   `,
 
   features: `
@@ -7286,12 +7286,12 @@ Accessories Included:
   - Brand: Bosch
   - Material: HSS-G
   - Quantity per Pack: 10 Pieces
-  - Size Range: 2.5Î“Ã‡Ã´5mm
+  - Size Range: 2.5GÇô5mm
   - Application: Metal Drilling
 
   Accessories Included
-  - 10 â”œÃ¹ HSS-G Drill Bits
-  - 1 â”œÃ¹ Plastic Storage Case
+  - 10 +ù HSS-G Drill Bits
+  - 1 +ù Plastic Storage Case
   `,
 
   features: `
@@ -7382,12 +7382,12 @@ Accessories Included:
   - Brand: Bosch
   - Material: HSS-G
   - Quantity per Pack: 5 Pieces
-  - Size Range: 6Î“Ã‡Ã´12.5mm
+  - Size Range: 6GÇô12.5mm
   - Application: Metal Drilling
 
   Accessories Included
-  - 5 â”œÃ¹ HSS-G Drill Bits
-  - 1 â”œÃ¹ Plastic Storage Case
+  - 5 +ù HSS-G Drill Bits
+  - 1 +ù Plastic Storage Case
   `,
 
   features: `
@@ -7436,11 +7436,11 @@ Accessories Included:
   - Application: HVAC, Refrigeration and Plumbing
 
   Accessories Included
-  - 1 â”œÃ¹ Pipe Expander Tool
-  - 7 â”œÃ¹ Expansion Dies
-  - 1 â”œÃ¹ Tube Cutter
-  - 1 â”œÃ¹ Deburring Tool
-  - 1 â”œÃ¹ Carrying Case
+  - 1 +ù Pipe Expander Tool
+  - 7 +ù Expansion Dies
+  - 1 +ù Tube Cutter
+  - 1 +ù Deburring Tool
+  - 1 +ù Carrying Case
   `,
 
   features: `
@@ -7493,14 +7493,14 @@ Accessories Included:
   - Suitable For: Automotive, Industrial and Mechanical Maintenance
 
   Accessories Included
-  - 1 â”œÃ¹ 10 Ton Mechanical Ram
-  - 1 â”œÃ¹ Bearing Separator
-  - 2 â”œÃ¹ Separator Extensions
-  - 4 â”œÃ¹ Puller Arms
-  - 2 â”œÃ¹ Yokes
-  - 4 â”œÃ¹ Extension Rods
+  - 1 +ù 10 Ton Mechanical Ram
+  - 1 +ù Bearing Separator
+  - 2 +ù Separator Extensions
+  - 4 +ù Puller Arms
+  - 2 +ù Yokes
+  - 4 +ù Extension Rods
   - Fasteners and Adapters
-  - 1 â”œÃ¹ Carrying Case
+  - 1 +ù Carrying Case
   `,
 
   features: `
@@ -7551,14 +7551,14 @@ Accessories Included:
   - Storage: Blow Molded Carrying Case
 
   Accessories Included
-  - 1 â”œÃ¹ 10 Ton Hydraulic Ram
-  - 1 â”œÃ¹ Bearing Separator
-  - 2 â”œÃ¹ Puller Bars
+  - 1 +ù 10 Ton Hydraulic Ram
+  - 1 +ù Bearing Separator
+  - 2 +ù Puller Bars
   - Extension Rods
   - Connecting Rods
   - Fasteners and Adapters
-  - 1 â”œÃ¹ Operating Handle
-  - 1 â”œÃ¹ Carrying Case
+  - 1 +ù Operating Handle
+  - 1 +ù Carrying Case
   `,
 
   features: `
@@ -7595,7 +7595,7 @@ Accessories Included:
 
   inStock: true,
 
-     description: 'The HHY-60B Hydraulic Crimping Tool Kit is a professional-grade remote hydraulic crimping system designed for crimping copper and aluminium cable lugs up to 500mmâ”¬â–“. Equipped with a high-pressure hydraulic pump, interchangeable dies and a robust crimping head, this tool ensures secure and reliable cable terminations for electrical installations, power distribution systems, switchgear manufacturing and industrial maintenance applications. Supplied in a heavy-duty metal storage box for safe transport and organization.',
+     description: 'The HHY-60B Hydraulic Crimping Tool Kit is a professional-grade remote hydraulic crimping system designed for crimping copper and aluminium cable lugs up to 500mm-¦. Equipped with a high-pressure hydraulic pump, interchangeable dies and a robust crimping head, this tool ensures secure and reliable cable terminations for electrical installations, power distribution systems, switchgear manufacturing and industrial maintenance applications. Supplied in a heavy-duty metal storage box for safe transport and organization.',
 
      specification: `
   - Product Name: Hydraulic Crimping Tool Kit
@@ -7603,8 +7603,8 @@ Accessories Included:
   - Type: Remote Hydraulic Crimper
   - Operation: Manual Hydraulic Pump
   - Crimping Force: 60 Ton
-  - Crimping Capacity: Up to 500mmâ”¬â–“
-  - Crimping Range: 16Î“Ã‡Ã´500mmâ”¬â–“
+  - Crimping Capacity: Up to 500mm-¦
+  - Crimping Range: 16GÇô500mm-¦
   - Head Type: C-Type Crimping Head
   - Hydraulic Pressure: 700 Bar
   - Suitable Material: Copper and Aluminium Cable Lugs
@@ -7615,18 +7615,18 @@ Accessories Included:
   - Storage: Heavy-Duty Metal Tool Box
 
   Accessories Included
-  - 1 â”œÃ¹ Hydraulic Crimping Head
-  - 1 â”œÃ¹ Manual Hydraulic Pump
-  - 1 â”œÃ¹ High Pressure Hydraulic Hose
+  - 1 +ù Hydraulic Crimping Head
+  - 1 +ù Manual Hydraulic Pump
+  - 1 +ù High Pressure Hydraulic Hose
   - Crimping Die Sets
   - Couplers and Connectors
   - Operating Handle
-  - 1 â”œÃ¹ Steel Storage Box
+  - 1 +ù Steel Storage Box
   `,
 
      features: `
   - Powerful 60-ton hydraulic crimping force
-  - Crimps copper and aluminium lugs up to 500mmâ”¬â–“
+  - Crimps copper and aluminium lugs up to 500mm-¦
   - High-pressure hydraulic pump system
   - Precision crimping for reliable electrical connections
   - Interchangeable dies for multiple cable sizes
@@ -7648,7 +7648,7 @@ Accessories Included:
   showSimilar: true,
 
   price: 85000,
- 
+
 
   images: [
     'https://res.cloudinary.com/taus5tit/image/upload/v1786305666/Astonic-Mart/Products/crimping%20tools/Manual_Steel_Strapping_Tensioner_and_Sealer_Tool_Set.jpg',
@@ -7666,8 +7666,8 @@ Accessories Included:
   - Type: Manual Strapping Tool Kit
   - Material: Hardened Steel
   - Strap Type: Steel Strapping
-  - Strap Width Compatibility: 13Î“Ã‡Ã´19mm
-  - Strap Thickness: 0.4Î“Ã‡Ã´0.8mm
+  - Strap Width Compatibility: 13GÇô19mm
+  - Strap Thickness: 0.4GÇô0.8mm
   - Operation: Manual
   - Handle Material: Rubber Coated Steel
   - Application: Packaging and Pallet Securing
@@ -7675,8 +7675,8 @@ Accessories Included:
   - Finish: Corrosion Resistant Coating
 
   Accessories Included
-  - 1 â”œÃ¹ Manual Steel Strap Tensioner
-  - 1 â”œÃ¹ Manual Steel Strap Sealer
+  - 1 +ù Manual Steel Strap Tensioner
+  - 1 +ù Manual Steel Strap Sealer
   `,
 
   features: `
@@ -7702,7 +7702,7 @@ Accessories Included:
   showSimilar: true,
 
   price: 65000,
- 
+
 
   images: [
     'https://res.cloudinary.com/taus5tit/image/upload/v1786304567/Astonic-Mart/Products/cable%20pullers/Cable_Puller_Fish_Tape_50m.webp',
@@ -7735,8 +7735,8 @@ Accessories Included:
   - Reusable: Yes
 
   Accessories Included
-  - 1 â”œÃ¹ 50m Cable Puller Fish Tape
-  - 2 â”œÃ¹ Pulling Loops
+  - 1 +ù 50m Cable Puller Fish Tape
+  - 2 +ù Pulling Loops
   `,
 
   features: `
@@ -7791,9 +7791,9 @@ Accessories Included:
   - Usage: Automotive and Industrial Maintenance
 
   Accessories Included
-  - 1 â”œÃ¹ Slide Hammer
-  - 1 â”œÃ¹ Pulling Spindle
-  - 8 â”œÃ¹ Expanding Collets
+  - 1 +ù Slide Hammer
+  - 1 +ù Pulling Spindle
+  - 8 +ù Expanding Collets
   - Extension Adapters
   - Fasteners
   - Blow Molded Carrying Case
@@ -7843,7 +7843,7 @@ Accessories Included:
   - Brand: LainKeen
   - Type: Blind Hole Bearing Puller Kit
   - Extraction Method: Slide Hammer
-  - Pulling Range: 8Î“Ã‡Ã´32mm
+  - Pulling Range: 8GÇô32mm
   - Material: Heat Treated Alloy Steel
   - Finish: Black Oxide and Chrome Plated
   - Application: Internal Bearing Removal
@@ -7852,11 +7852,11 @@ Accessories Included:
   - Usage: Automotive and Industrial Maintenance
 
   Accessories Included
-  - 1 â”œÃ¹ Slide Hammer
-  - 1 â”œÃ¹ T-Handle
-  - 8 â”œÃ¹ Expanding Collets
-  - 2 â”œÃ¹ Adapters
-  - 1 â”œÃ¹ Blow Molded Carrying Case
+  - 1 +ù Slide Hammer
+  - 1 +ù T-Handle
+  - 8 +ù Expanding Collets
+  - 2 +ù Adapters
+  - 1 +ù Blow Molded Carrying Case
   `,
 
   features: `
@@ -7900,7 +7900,7 @@ Accessories Included:
   - Product Name: Ratchet Cable Cutter XLJ-500
   - Model: XLJ-500
   - Type: Ratchet Cable Cutter
-  - Cutting Capacity: Up to 500mmâ”¬â–“
+  - Cutting Capacity: Up to 500mm-¦
   - Blade Material: Hardened Steel
   - Handle Material: Rubber Coated Grip
   - Operation: Manual Ratcheting Mechanism
@@ -7942,7 +7942,7 @@ Accessories Included:
 
   images: [
     'https://res.cloudinary.com/taus5tit/image/upload/v1786309611/Astonic-Mart/Products/pipe%20benders/4_Inch_Hydraulic_Pipe_Bender.jpg',
-   
+
   ],
 
   inStock: true,
@@ -7960,7 +7960,7 @@ Accessories Included:
   - Capacity: 4 Inch
   - Type: Hydraulic Pipe Bending Machine
   - Operation: Manual Hydraulic
-  - Bending Angle: Up to 90â”¬â–‘
+  - Bending Angle: Up to 90-¦
   - Frame Material: Heavy-Duty Steel
   - Hydraulic System: Integrated Hydraulic Cylinder
   - Suitable Material: Steel, Galvanized and Metal Pipes
@@ -7969,7 +7969,7 @@ Accessories Included:
   - Finish: Corrosion Resistant Coating
 
   Accessories Included
-  - 1 â”œÃ¹ Hydraulic Pipe Bender
+  - 1 +ù Hydraulic Pipe Bender
   - Bending Dies
   - Hydraulic Cylinder
   - Support Rollers
@@ -7995,7 +7995,7 @@ Accessories Included:
 {
   id: 16138,
 
-  name: 'Covenant 3/4" Torque Wrench 100â€“500Nm',
+  name: 'Covenant 3/4" Torque Wrench 100–500Nm',
   category: 'torque-wrenches',
   group: 'Hand Tools',
   brand: 'Covenant',
@@ -8006,12 +8006,12 @@ Accessories Included:
 
   images: [
     'https://res.cloudinary.com/taus5tit/image/upload/v1786548653/Astonic-Mart/Products/torque%20wrenches/Covenant_3_4_inches_Torque_Wrench_100-500nm.png',
-   
+
   ],
 
   inStock: true,
 
-  description: 'The Covenant 3/4-inch Drive Torque Wrench is a professional heavy-duty hand tool designed for accurate torque application in automotive, industrial and mechanical maintenance operations. Featuring a torque range of 100â€“500Nm, this click-type torque wrench ensures precise fastening, helping to prevent over-tightening and component damage. Ideal for trucks, heavy equipment, construction machinery and industrial servicing.',
+  description: 'The Covenant 3/4-inch Drive Torque Wrench is a professional heavy-duty hand tool designed for accurate torque application in automotive, industrial and mechanical maintenance operations. Featuring a torque range of 100–500Nm, this click-type torque wrench ensures precise fastening, helping to prevent over-tightening and component damage. Ideal for trucks, heavy equipment, construction machinery and industrial servicing.',
 
   specification: `
   - Product Name: Torque Wrench
@@ -8019,9 +8019,9 @@ Accessories Included:
   - Model: TC-193-10
   - Type: Click Torque Wrench
   - Drive Size: 3/4"
-  - Torque Range: 100â€“500Nm
+  - Torque Range: 100–500Nm
   - Unit of Measurement: Newton Meter (Nm)
-  - Accuracy: â”¬â–’4%
+  - Accuracy: -¦4%
   - Material: Chrome Vanadium Steel
   - Finish: Chrome Plated
   - Handle Type: Anti-slip Grip
@@ -8076,37 +8076,37 @@ showSimilar: true,
 Model: CT-999F
 Type: Ratcheting Tube Bender Kit
 Operation: Manual Ratcheting
-Maximum Bending Angle: 90â”¬â–‘
+Maximum Bending Angle: 90-¦
 Tube Sizes:
-Î“Ã‡Ã³ 1/4" (6mm)
-Î“Ã‡Ã³ 5/16" (8mm)
-Î“Ã‡Ã³ 3/8" (10mm)
-Î“Ã‡Ã³ 1/2" (12mm)
-Î“Ã‡Ã³ 5/8" (16mm)
-Î“Ã‡Ã³ 3/4" (19mm)
-Î“Ã‡Ã³ 7/8" (22mm)
+GÇó 1/4" (6mm)
+GÇó 5/16" (8mm)
+GÇó 3/8" (10mm)
+GÇó 1/2" (12mm)
+GÇó 5/8" (16mm)
+GÇó 3/4" (19mm)
+GÇó 7/8" (22mm)
 Suitable Materials:
-Î“Ã‡Ã³ Copper Tubing
-Î“Ã‡Ã³ Aluminium Tubing
-Î“Ã‡Ã³ Brass Tubing
-Î“Ã‡Ã³ Thin-wall Steel Tubing
+GÇó Copper Tubing
+GÇó Aluminium Tubing
+GÇó Brass Tubing
+GÇó Thin-wall Steel Tubing
 Recommended Tube Wall Thickness: Up to 1.2mm
 Case: Heavy-duty Plastic Carrying Case
 
 Accessories:
-Î“Ã‡Ã³ Ratcheting Tube Bender
-Î“Ã‡Ã³ 7 Bending Dies
-Î“Ã‡Ã³ Tube Cutter
-Î“Ã‡Ã³ Deburring Tool
-Î“Ã‡Ã³ Fixed Supports
-Î“Ã‡Ã³ Carrying Case
+GÇó Ratcheting Tube Bender
+GÇó 7 Bending Dies
+GÇó Tube Cutter
+GÇó Deburring Tool
+GÇó Fixed Supports
+GÇó Carrying Case
 `,
 
   features: `
 Professional ratcheting tube bending mechanism
 Produces smooth, kink-free bends
 Interchangeable dies for seven tube sizes
-Bends tubing up to 90â”¬â–‘
+Bends tubing up to 90-¦
 Compact design for working in confined spaces
 Suitable for HVAC and refrigeration installations
 Ideal for plumbing and hydraulic systems
@@ -8208,7 +8208,7 @@ Designed for electrical maintenance and repair, the set includes a variety of sl
   - Machine Compatibility: 100mm (4") Angle Grinders
 
   Package Includes:
-  - 1 â”œÃ¹ Bosch PRO Stainless Steel Cutting Disc 100 â”œÃ¹ 1.0 â”œÃ¹ 16mm
+  - 1 +ù Bosch PRO Stainless Steel Cutting Disc 100 +ù 1.0 +ù 16mm
   `,
      features: `
   - Premium Bosch PRO cutting disc for professional use
@@ -8255,7 +8255,7 @@ category: 'cutting-and-grinding-discs',
   - Reinforcement: Fiberglass Reinforced
 
   Package Includes:
-  - 1 â”œÃ¹ Bosch Standard for Metal Cutting Disc
+  - 1 +ù Bosch Standard for Metal Cutting Disc
   `,
   features: `
   - Designed for general-purpose metal cutting
@@ -8290,13 +8290,13 @@ category: 'cutting-and-grinding-discs',
   inStock: true,
   jumiaLink: '',
   kongaLink: '',
-  description: `The INGCO HWSP15608 Wire Stripper and Cutter is a professional hand tool designed for fast, accurate, and damage-free stripping of electrical wires. It features precision 65Mn steel blades capable of stripping wire sizes from 0.5mmâ”¬â–“ to 6mmâ”¬â–“, making it suitable for electricians, technicians, installers, and DIY users. The integrated cutting function allows users to cut wires efficiently without switching tools, while the ergonomic PP and TPR-coated handles provide a comfortable, non-slip grip for extended use. Ideal for electrical installations, maintenance, repairs, automotive wiring, and industrial applications.`,
+  description: `The INGCO HWSP15608 Wire Stripper and Cutter is a professional hand tool designed for fast, accurate, and damage-free stripping of electrical wires. It features precision 65Mn steel blades capable of stripping wire sizes from 0.5mm-¦ to 6mm-¦, making it suitable for electricians, technicians, installers, and DIY users. The integrated cutting function allows users to cut wires efficiently without switching tools, while the ergonomic PP and TPR-coated handles provide a comfortable, non-slip grip for extended use. Ideal for electrical installations, maintenance, repairs, automotive wiring, and industrial applications.`,
   specification: `
   - Brand: INGCO
   - Model: HWSP15608
   - Product Type: Wire Stripper and Cutter
-  - Stripping Capacity: 0.5mmâ”¬â–“ Î“Ã‡Ã´ 6mmâ”¬â–“
-  - Product Size: 178 â”œÃ¹ 85mm
+  - Stripping Capacity: 0.5mm-¦ GÇô 6mm-¦
+  - Product Size: 178 +ù 85mm
   - Blade Material: 65Mn Steel
   - Handle Material: PP Covered TPR
   - Cutting Function: Yes
@@ -8305,10 +8305,10 @@ category: 'cutting-and-grinding-discs',
   - Packaging: Double Blister
 
   Package Includes:
-  - 1 â”œÃ¹ INGCO HWSP15608 Wire Stripper and Cutter
+  - 1 +ù INGCO HWSP15608 Wire Stripper and Cutter
   `,
   features: `
-  - Precision wire stripping from 0.5mmâ”¬â–“ to 6mmâ”¬â–“
+  - Precision wire stripping from 0.5mm-¦ to 6mm-¦
   - Built-in wire cutting function
   - Durable 65Mn hardened steel blades
   - Comfortable PP and TPR ergonomic handles
@@ -8348,20 +8348,20 @@ showSimilar: true,
   - Brand: HSCO
   - Model: HS06B
   - Product Type: Self-Adjusting Ferrule Crimper
-  - Crimp Range: 0.25Î“Ã‡Ã´6mmâ”¬â–“
+  - Crimp Range: 0.25GÇô6mm-¦
   - Crimp Type: Square Crimp
   - Adjustment: Automatic
   - Handle: Ergonomic Soft Grip
   - Material: Hardened Steel
 
   Package Includes:
-  - 1 â”œÃ¹ Self-Adjusting Ferrule Crimping Tool
+  - 1 +ù Self-Adjusting Ferrule Crimping Tool
   `,
 
   features: `
   - Automatic self-adjusting mechanism
   - Square crimp profile
-  - Crimps 0.25Î“Ã‡Ã´6mmâ”¬â–“ ferrules
+  - Crimps 0.25GÇô6mm-¦ ferrules
   - Professional-grade construction
   - Comfortable ergonomic handles
   - Fast and consistent crimping
@@ -8400,7 +8400,7 @@ showSimilar: true,
   - Application: Cable Cutting
 
   Package Includes:
-  - 1 â”œÃ¹ Ratchet Cable Cutter
+  - 1 +ù Ratchet Cable Cutter
   `,
 
   features: `
@@ -8450,7 +8450,7 @@ showSimilar: true,
 - Compatible Applications: Bearings, Bushings, Gears, Pulleys, Sleeves & Seals
 - Storage Case: Heavy-Duty Blow-Moulded Carrying Case
 - Application: Automotive, Industrial & Mechanical Maintenance
-- Weight: Approx. 8Î“Ã‡Ã´12 kg (depending on model)
+- Weight: Approx. 8GÇô12 kg (depending on model)
 - Accessories Included: Puller Jaws, Cross Beam, Forcing Screw, Adapters, Extension Rods, Hex Keys, Carrying Case
   `,
 
@@ -8489,34 +8489,34 @@ showSimilar: true,
     'The INGCO SSB922EF Sabre Saw Blade is a premium bi-metal reciprocating saw blade engineered for fast, smooth, and precise cutting of metal materials. Its flexible construction and 18 TPI tooth configuration deliver clean cuts while minimizing blade breakage. Ideal for cutting sheet metal, steel pipes, metal profiles, stainless steel, and non-ferrous metals. Compatible with INGCO reciprocating saws and most other saws featuring a universal 1/2-inch shank.',
 
   specification: `
-Î“Ã‡Ã³ Model: SSB922EF
-Î“Ã‡Ã³ Product Type: Sabre / Reciprocating Saw Blade
-Î“Ã‡Ã³ Brand: INGCO
-Î“Ã‡Ã³ Blade Material: Bi-Metal (BIM)
-Î“Ã‡Ã³ Blade Length: 150 mm (6")
-Î“Ã‡Ã³ Blade Width: 19 mm
-Î“Ã‡Ã³ Blade Thickness: 0.9 mm
-Î“Ã‡Ã³ Teeth Per Inch (TPI): 18
-Î“Ã‡Ã³ Tooth Design: Milled & Wavy Set
-Î“Ã‡Ã³ Shank Type: Universal 1/2" Shank
-Î“Ã‡Ã³ Quantity: 2 Pieces per Pack
-Î“Ã‡Ã³ Cutting Capacity:
-  - Thin Sheet Metal: 1.5 Î“Ã‡Ã´ 4 mm
-  - Pipes & Profiles: â”œÃ¿5 Î“Ã‡Ã´ 100 mm
-Î“Ã‡Ã³ Suitable For: Steel, Stainless Steel, Non-Ferrous Metals, Metal Pipes & Profiles
-Î“Ã‡Ã³ Compatible With: INGCO RS8008 and most reciprocating saws with universal shank
+GÇó Model: SSB922EF
+GÇó Product Type: Sabre / Reciprocating Saw Blade
+GÇó Brand: INGCO
+GÇó Blade Material: Bi-Metal (BIM)
+GÇó Blade Length: 150 mm (6")
+GÇó Blade Width: 19 mm
+GÇó Blade Thickness: 0.9 mm
+GÇó Teeth Per Inch (TPI): 18
+GÇó Tooth Design: Milled & Wavy Set
+GÇó Shank Type: Universal 1/2" Shank
+GÇó Quantity: 2 Pieces per Pack
+GÇó Cutting Capacity:
+  - Thin Sheet Metal: 1.5 GÇô 4 mm
+  - Pipes & Profiles: +ÿ5 GÇô 100 mm
+GÇó Suitable For: Steel, Stainless Steel, Non-Ferrous Metals, Metal Pipes & Profiles
+GÇó Compatible With: INGCO RS8008 and most reciprocating saws with universal shank
 `,
 
   features: `
-Î“Ã‡Ã³ Premium Bi-Metal construction for long service life
-Î“Ã‡Ã³ Flexible blade minimizes breakage during heavy-duty use
-Î“Ã‡Ã³ 18 TPI provides fast and clean metal cutting
-Î“Ã‡Ã³ Milled & wavy tooth design reduces vibration
-Î“Ã‡Ã³ Universal 1/2-inch shank fits most reciprocating saws
-Î“Ã‡Ã³ Suitable for cutting steel, stainless steel and non-ferrous metals
-Î“Ã‡Ã³ Ideal for fabrication, plumbing, HVAC and automotive applications
-Î“Ã‡Ã³ Durable heat-treated teeth for extended cutting performance
-Î“Ã‡Ã³ Supplied as a convenient 2-piece set
+GÇó Premium Bi-Metal construction for long service life
+GÇó Flexible blade minimizes breakage during heavy-duty use
+GÇó 18 TPI provides fast and clean metal cutting
+GÇó Milled & wavy tooth design reduces vibration
+GÇó Universal 1/2-inch shank fits most reciprocating saws
+GÇó Suitable for cutting steel, stainless steel and non-ferrous metals
+GÇó Ideal for fabrication, plumbing, HVAC and automotive applications
+GÇó Durable heat-treated teeth for extended cutting performance
+GÇó Supplied as a convenient 2-piece set
 `
 },
 
@@ -8541,31 +8541,31 @@ showSimilar: true,
     'The Flicker Manual Drain Cleaning Machine is a portable hand-operated drain auger designed for clearing blocked sinks, floor drains, showers, bathtubs, toilets, and small sewer lines. It features a heavy-duty steel drum housing a flexible spring steel cable that effectively removes hair, grease, soap residue, sludge, and other common drain blockages. Its compact design and easy hand-crank operation make it suitable for plumbers, maintenance professionals, and DIY users.',
 
   specification: `
-Î“Ã‡Ã³ Product Type: Manual Drain Cleaning Machine
-Î“Ã‡Ã³ Brand: Flicker
-Î“Ã‡Ã³ Operation: Manual Hand Crank
-Î“Ã‡Ã³ Drum Material: Heavy-Duty Steel
-Î“Ã‡Ã³ Cable Material: High-Carbon Spring Steel
-Î“Ã‡Ã³ Cable Length: 15Î“Ã‡Ã´20 m (depending on model)
-Î“Ã‡Ã³ Cable Diameter: 8Î“Ã‡Ã´10 mm
-Î“Ã‡Ã³ Pipe Capacity: 20Î“Ã‡Ã´100 mm
-Î“Ã‡Ã³ Handle Type: Ergonomic Manual Crank
-Î“Ã‡Ã³ Housing: Enclosed Steel Drum
-Î“Ã‡Ã³ Weight: Approx. 7Î“Ã‡Ã´10 kg
-Î“Ã‡Ã³ Application: Drain & Pipe Cleaning
+GÇó Product Type: Manual Drain Cleaning Machine
+GÇó Brand: Flicker
+GÇó Operation: Manual Hand Crank
+GÇó Drum Material: Heavy-Duty Steel
+GÇó Cable Material: High-Carbon Spring Steel
+GÇó Cable Length: 15GÇô20 m (depending on model)
+GÇó Cable Diameter: 8GÇô10 mm
+GÇó Pipe Capacity: 20GÇô100 mm
+GÇó Handle Type: Ergonomic Manual Crank
+GÇó Housing: Enclosed Steel Drum
+GÇó Weight: Approx. 7GÇô10 kg
+GÇó Application: Drain & Pipe Cleaning
 `,
 
   features: `
-Î“Ã‡Ã³ Heavy-duty enclosed steel drum
-Î“Ã‡Ã³ Flexible spring steel cable for efficient blockage removal
-Î“Ã‡Ã³ Manual crank operationÎ“Ã‡Ã¶no electricity required
-Î“Ã‡Ã³ Removes grease, hair, soap residue and sludge
-Î“Ã‡Ã³ Suitable for sinks, showers, bathtubs, floor drains and toilets
-Î“Ã‡Ã³ Durable and corrosion-resistant construction
-Î“Ã‡Ã³ Compact, lightweight and portable
-Î“Ã‡Ã³ Easy to transport and store
-Î“Ã‡Ã³ Ideal for residential, commercial and maintenance applications
-Î“Ã‡Ã³ Low maintenance and simple to operate
+GÇó Heavy-duty enclosed steel drum
+GÇó Flexible spring steel cable for efficient blockage removal
+GÇó Manual crank operationGÇöno electricity required
+GÇó Removes grease, hair, soap residue and sludge
+GÇó Suitable for sinks, showers, bathtubs, floor drains and toilets
+GÇó Durable and corrosion-resistant construction
+GÇó Compact, lightweight and portable
+GÇó Easy to transport and store
+GÇó Ideal for residential, commercial and maintenance applications
+GÇó Low maintenance and simple to operate
 `
 },
 
@@ -8593,33 +8593,33 @@ showSimilar: true,
     'The STAREX ST108720 Plaster Tyrolean Machine is a professional hand-operated plaster sprayer designed for applying Tyrolean, roughcast, and textured cement coatings to interior and exterior walls. Featuring a heavy-duty galvanized steel body, adjustable texture control, and replaceable flicker rollers, it delivers an even decorative finish while reducing application time and labour. Ideal for construction professionals, plasterers, painters, and renovation contractors.',
 
   specification: `
-Î“Ã‡Ã³ Model: ST108720
-Î“Ã‡Ã³ Brand: STAREX
-Î“Ã‡Ã³ Product Type: Manual Plaster Tyrolean Machine
-Î“Ã‡Ã³ Operation: Hand Crank
-Î“Ã‡Ã³ Body Material: Galvanized Steel
-Î“Ã‡Ã³ Roller Material: Spring Steel Flicker Rollers
-Î“Ã‡Ã³ Handle Material: Steel with Plastic Grip
-Î“Ã‡Ã³ Texture Control: Adjustable Pressure Bar
-Î“Ã‡Ã³ Reducer Plate: Removable
-Î“Ã‡Ã³ Application Method: Manual Flicking Action
-Î“Ã‡Ã³ Suitable Materials: Cement Mortar, Tyrolean Coating, Roughcast Render, Decorative Wall Texture
-Î“Ã‡Ã³ Application: Interior & Exterior Walls
-Î“Ã‡Ã³ Weight: Approx. 1 Î“Ã‡Ã´ 2 kg
+GÇó Model: ST108720
+GÇó Brand: STAREX
+GÇó Product Type: Manual Plaster Tyrolean Machine
+GÇó Operation: Hand Crank
+GÇó Body Material: Galvanized Steel
+GÇó Roller Material: Spring Steel Flicker Rollers
+GÇó Handle Material: Steel with Plastic Grip
+GÇó Texture Control: Adjustable Pressure Bar
+GÇó Reducer Plate: Removable
+GÇó Application Method: Manual Flicking Action
+GÇó Suitable Materials: Cement Mortar, Tyrolean Coating, Roughcast Render, Decorative Wall Texture
+GÇó Application: Interior & Exterior Walls
+GÇó Weight: Approx. 1 GÇô 2 kg
 `,
 
   features: `
-Î“Ã‡Ã³ Heavy-duty galvanized steel construction
-Î“Ã‡Ã³ Hand-operatedÎ“Ã‡Ã¶no electricity required
-Î“Ã‡Ã³ Adjustable pressure bar for texture control
-Î“Ã‡Ã³ Replaceable spring steel flicker rollers
-Î“Ã‡Ã³ Produces consistent Tyrolean and roughcast finishes
-Î“Ã‡Ã³ Suitable for decorative cement and render coatings
-Î“Ã‡Ã³ Easy to clean and maintain
-Î“Ã‡Ã³ Lightweight and portable
-Î“Ã‡Ã³ Corrosion-resistant construction
-Î“Ã‡Ã³ Ideal for professional plasterers and construction contractors
-Î“Ã‡Ã³ Suitable for residential, commercial and industrial projects
+GÇó Heavy-duty galvanized steel construction
+GÇó Hand-operatedGÇöno electricity required
+GÇó Adjustable pressure bar for texture control
+GÇó Replaceable spring steel flicker rollers
+GÇó Produces consistent Tyrolean and roughcast finishes
+GÇó Suitable for decorative cement and render coatings
+GÇó Easy to clean and maintain
+GÇó Lightweight and portable
+GÇó Corrosion-resistant construction
+GÇó Ideal for professional plasterers and construction contractors
+GÇó Suitable for residential, commercial and industrial projects
 `
 },
 
@@ -8772,10 +8772,10 @@ Storage Case: Heavy-Duty Blow-Molded Plastic Case
 Suitable For: Automotive, Industrial, Agricultural and Mechanical Maintenance
 
 Package Includes:
-2 â”œÃ¹ 16-Inch Snap Ring Pliers
-4 â”œÃ¹ Straight Tips
-4 â”œÃ¹ Bent Tips
-1 â”œÃ¹ Blow-Molded Carrying Case
+2 +ù 16-Inch Snap Ring Pliers
+4 +ù Straight Tips
+4 +ù Bent Tips
+1 +ù Blow-Molded Carrying Case
 `,
 
     features: `
@@ -8833,19 +8833,19 @@ Application: Electrical, Utility, Industrial & Construction
 `,
 
   features: `
-Î“Ã‡Ã³ Heavy-duty manual hydraulic cable cutter
-Î“Ã‡Ã³ 1000mm long handles for increased leverage
-Î“Ã‡Ã³ Cuts copper, aluminum and armored cables
-Î“Ã‡Ã³ High-strength hardened steel cutting blades
-Î“Ã‡Ã³ Built-in hydraulic mechanism reduces cutting effort
-Î“Ã‡Ã³ Durable corrosion-resistant construction
-Î“Ã‡Ã³ Suitable for electrical contractors and utility maintenance
-Î“Ã‡Ã³ Comfortable anti-slip handles
-Î“Ã‡Ã³ Reliable for field and industrial applications
+GÇó Heavy-duty manual hydraulic cable cutter
+GÇó 1000mm long handles for increased leverage
+GÇó Cuts copper, aluminum and armored cables
+GÇó High-strength hardened steel cutting blades
+GÇó Built-in hydraulic mechanism reduces cutting effort
+GÇó Durable corrosion-resistant construction
+GÇó Suitable for electrical contractors and utility maintenance
+GÇó Comfortable anti-slip handles
+GÇó Reliable for field and industrial applications
 `,
 
 },
-  
+
 ];
 
 

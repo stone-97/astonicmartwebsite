@@ -105,3 +105,92 @@ input[type="number"] {
   min-width: 80px;
   text-align: center;
 }
+
+
+/* =========================================================
+   MOBILE SELECTED PRODUCTS
+   ========================================================= */
+
+@media (max-width: 576px) {
+
+  .selected-products {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .selected-products table {
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+    margin-bottom: 0;
+  }
+
+  /* Hide table header on mobile */
+  .selected-products thead {
+    display: none;
+  }
+
+  /* Turn each product row into a card */
+  .selected-products tbody,
+  .selected-products tr,
+  .selected-products td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .selected-products tr {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    background: #fff;
+  }
+
+  .selected-products td {
+    border: 0 !important;
+    padding: 7px 0 !important;
+    text-align: left;
+    overflow-wrap: anywhere;
+  }
+
+  /* Product name */
+  .selected-products td:nth-child(1) {
+    font-weight: 600;
+    padding-bottom: 12px !important;
+  }
+
+  /* Qty */
+  .selected-products td:nth-child(2)::before {
+    content: "Qty: ";
+    font-weight: 600;
+  }
+
+  .selected-products td:nth-child(2) input {
+    display: inline-block;
+    width: 80px;
+    max-width: 80px;
+    margin-left: 5px;
+  }
+
+  /* Price */
+  .selected-products td:nth-child(3)::before {
+    content: "Price: ";
+    font-weight: 600;
+  }
+
+  /* Total */
+  .selected-products td:nth-child(4)::before {
+    content: "Total: ";
+    font-weight: 600;
+  }
+
+  /* Remove button */
+  .selected-products td:nth-child(5) {
+    text-align: right;
+    padding-top: 4px !important;
+  }
+
+}

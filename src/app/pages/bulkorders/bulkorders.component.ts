@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Country, State } from 'country-state-city';
+import Country from 'country-state-city/lib/country';
+import State from 'country-state-city/lib/state';
 
 @Component({
   selector: 'app-bulkorders',

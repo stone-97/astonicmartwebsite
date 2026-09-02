@@ -1,4 +1,36 @@
 ﻿<div
+  *ngIf="selectedVideo"
+  class="video-popup"
+  (click)="closeVideo()"
+>
+  <div
+    class="video-popup-content"
+    (click)="$event.stopPropagation()"
+  >
+
+    <button
+      type="button"
+      class="video-popup-close"
+      (click)="closeVideo()"
+      aria-label="Close video"
+    >
+      ×
+    </button>
+
+    <div class="video-popup-player">
+      <iframe
+        [src]="selectedVideo"
+        allow="autoplay; encrypted-media; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div
   class="image-preview-overlay"
   *ngIf="selectedPreviewImage"
   (click)="closePreview()"
@@ -805,11 +837,15 @@
 
 
 
-<section class="video-showcase py-5" *ngIf="videoFeeds.length > 0">
+<section class="video-showcase" *ngIf="videoFeeds.length > 0">
+
   <div class="container">
 
-    <div class="text-center mb-5">
-      <span class="video-mini-title">ASTONIC MART MEDIA</span>
+    <div class="video-section-heading text-center">
+
+      <span class="video-mini-title">
+        ASTONIC MART MEDIA
+      </span>
 
       <h2 class="video-main-title">
         See Astonic Mart In Action
@@ -820,51 +856,115 @@
         and industrial equipment showcases that reflect our commitment to
         <strong>Accuracy In Every Tool.</strong>
       </p>
+
     </div>
 
-<div class="video-slider owl-carousel">
 
-  <div
-    class="item"
-    *ngFor="let video of videoFeeds"
-  >
-    <div class="video-card">
+    <div class="video-carousel-wrapper">
 
-      <div class="video-thumb" (click)="openVideo(video.link)">
-        <img [src]="getThumbnail(video.link)" alt="video cover">
+      <button
+        type="button"
+        class="video-carousel-btn video-carousel-prev"
+        (click)="previousVideo()">
+        &#10094;
+      </button>
 
-        <div class="play-btn">
-          &#9654;
+
+      <div class="video-carousel-viewport">
+
+        <div class="video-carousel-track">
+
+          <article
+            class="video-slide"
+            *ngFor="let video of videoFeeds; let i = index"
+            [class.active-video]="i === currentVideoIndex">
+
+            <div class="video-card">
+
+<!-- VIDEO THUMBNAIL -->
+<button
+  type="button"
+  class="video-thumb"
+  (click)="openVideo(video.link)">
+
+  <img
+    [src]="getThumbnail(video.link)"
+    [alt]="video.title">
+
+  <span class="video-thumb-overlay"></span>
+
+  <span class="play-btn">
+    &#9654;
+  </span>
+
+</button>
+              <div class="video-content">
+
+                <span class="video-category">
+                  {{ video.category }}
+                </span>
+
+                <h5>
+                  {{ video.title }}
+                </h5>
+
+                <p>
+                  {{ video.description }}
+                </p>
+
+                <button
+                  type="button"
+                  class="video-watch-btn"
+                  (click)="openVideo(video.link)">
+
+                  {{ video.action || 'Watch Video' }}
+
+                  <span>&#8594;</span>
+
+                </button>
+
+              </div>
+
+            </div>
+
+          </article>
+
         </div>
+
       </div>
 
-      <div class="video-content">
-        <h5>{{ video.title }}</h5>
-        <p>{{ video.description }}</p>
-      </div>
+
+      <button
+        type="button"
+        class="video-carousel-btn video-carousel-next"
+        (click)="nextVideo()">
+        &#10095;
+      </button>
 
     </div>
+
+
+    <div class="video-mobile-hint">
+      <span>&#8592;</span>
+      Swipe to explore
+      <span>&#8594;</span>
+    </div>
+
+
+    <div class="video-carousel-dots">
+
+      <button
+        type="button"
+        *ngFor="let video of videoFeeds; let i = index"
+        [class.active]="i === currentVideoIndex"
+        (click)="goToVideo(i)">
+      </button>
+
+    </div>
+
   </div>
 
-</div>
-
-  </div>
 </section>
-<div class="video-modal" *ngIf="selectedVideo" (click)="closeVideo()">
-  <div class="video-modal-content" (click)="$event.stopPropagation()">
-
-    <span class="close-btn" (click)="closeVideo()">Ã—</span>
-
-    <iframe
-      width="100%"
-      height="450"
-      [src]="selectedVideo"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
-
-  </div>
-</div>
 
 
 

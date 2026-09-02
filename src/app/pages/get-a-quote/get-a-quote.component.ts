@@ -4,7 +4,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { SearchService } from '../../core/services/search.service';
 import * as emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
-import { Country, State } from 'country-state-city';
+import Country from 'country-state-city/lib/country';
+import State from 'country-state-city/lib/state';
 
 @Component({
   selector: 'app-get-a-quote',

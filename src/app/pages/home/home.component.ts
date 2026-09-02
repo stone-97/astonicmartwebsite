@@ -1,33 +1,24 @@
-import { Component, AfterViewInit, Inject, PLATFORM_ID } from '@angular/core';
+import {
+  Component, AfterViewInit, Inject, PLATFORM_ID,} from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { SearchService } from '../../core/services/search.service';
 import { Product } from '../../core/models/Product';
 import { Router } from '@angular/router';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-
 declare var $: any;
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements AfterViewInit {
-
-
   dealsOfWeek: Product[] = [];
   carouselProducts: Product[] = [];
   carouselProductsLoop: Product[] = [];
-
-
   latestProducts: Product[] = [];
   comingProducts: Product[] = [];
-
-  selectedVideo: SafeResourceUrl | null = null;
-  selectedPreviewImage: string | null = null;
-
-
-
+selectedVideo: SafeResourceUrl | null = null;
+selectedPreviewImage: string | null = null;
   topBrands = [
     {
       name: 'Dewalt',
@@ -74,35 +65,24 @@ export class HomeComponent implements AfterViewInit {
       image: 'https://res.cloudinary.com/taus5tit/image/upload/v1786653696/MSA_safety_logo_i96rhh.png'
     }
   ];
-
-
-  
   previewImage(img: string, event: Event) {
     event.stopPropagation();
     this.selectedPreviewImage = img;
   }
-
   closePreview() {
     this.selectedPreviewImage = null;
   }
-
-
   constructor(
     private sanitizer: DomSanitizer,
     private searchService: SearchService,
     private router: Router,
     @Inject(PLATFORM_ID) private platformId: Object
   ) { }
-
   ngAfterViewInit(): void {
-
     if (!isPlatformBrowser(this.platformId)) {
       return;
     }
-
     this.dealsOfWeek = this.searchService.getDealsOfWeek();
-
-
     this.carouselProducts = [
       this.searchService.getProductById(1),
       this.searchService.getProductById(10),
@@ -129,13 +109,10 @@ export class HomeComponent implements AfterViewInit {
       this.searchService.getProductById(25),
       this.searchService.getProductById(9026)
     ].filter(Boolean) as Product[];
-
     this.carouselProductsLoop = [
       ...this.carouselProducts,
       ...this.carouselProducts
     ];
-
-
     this.latestProducts = [
       this.searchService.getProductById(1),
       this.searchService.getProductById(2),
@@ -146,8 +123,6 @@ export class HomeComponent implements AfterViewInit {
       this.searchService.getProductById(7),
       this.searchService.getProductById(8)
     ].filter(Boolean) as Product[];
-
-
     this.comingProducts = [
       this.searchService.getProductById(9),
       this.searchService.getProductById(10),
@@ -159,19 +134,15 @@ export class HomeComponent implements AfterViewInit {
       this.searchService.getProductById(16)
     ].filter(Boolean) as Product[];
     setTimeout(() => {
-
       if (window.innerWidth <= 576) {
         return;
       }
-
       const slider = $('.active-exclusive-product-slider');
-
       if (slider.hasClass('owl-loaded')) {
         slider.trigger('destroy.owl.carousel');
         slider.removeClass('owl-loaded');
         slider.find('.owl-stage-outer').children().unwrap();
       }
-
       slider.owlCarousel({
         items: 1,
         loop: true,
@@ -180,79 +151,62 @@ export class HomeComponent implements AfterViewInit {
         dots: false,
         smartSpeed: 900
       });
-
     }, 900);
-
     this.startCounters();
     this.initializeClock();
-
-
-    setTimeout(() => {
-      $('.video-slider').owlCarousel({
-        loop: true,
-        margin: 20,
-        nav: true,
-        dots: false,
-        autoplay: true,
-        autoplayTimeout:5000,
-        smartSpeed: 700,
-
-        mouseDrag: true,
-        touchDrag: true,
-        pullDrag: false,
-
-        responsive: {
-          0: {
-            items: 1
-          },
-          768: {
-            items: 2
-          },
-          992: {
-            items: 4
-          }
-        }
-      });
-    }, 800);
-    
   }
-
   initializeClock() {
-
-
     if (!isPlatformBrowser(this.platformId)) {
       return;
     }
-
-    
     const deadline =
       new Date(Date.now() + 30 * 24 * 60 * 60 * 1000);
-
     const clock = document.getElementById('clockdiv');
     if (!clock) return;
-
     const daysSpan = clock.querySelector('.days') as HTMLElement;
     const hoursSpan = clock.querySelector('.hours') as HTMLElement;
     const minutesSpan = clock.querySelector('.minutes') as HTMLElement;
     const secondsSpan = clock.querySelector('.seconds') as HTMLElement;
-
     setInterval(() => {
       const t = deadline.getTime() - new Date().getTime();
-
       const days = Math.floor(t / (1000 * 60 * 60 * 24));
       const hours = Math.floor((t / (1000 * 60 * 60)) % 24);
       const minutes = Math.floor((t / 1000 / 60) % 60);
       const seconds = Math.floor((t / 1000) % 60);
-
       daysSpan.innerHTML = String(days);
       hoursSpan.innerHTML = ('0' + hours).slice(-2);
       minutesSpan.innerHTML = ('0' + minutes).slice(-2);
       secondsSpan.innerHTML = ('0' + seconds).slice(-2);
     }, 1000);
   }
-
-  
-
+  // =========================================================
+  // VIDEO CAROUSEL STATE
+  // =========================================================
+  currentVideoIndex = 0;
+  previousVideo(): void {
+    if (!this.videoFeeds.length) {
+      return;
+    }
+    this.currentVideoIndex =
+      this.currentVideoIndex === 0
+        ? this.videoFeeds.length - 1
+        : this.currentVideoIndex - 1;
+  }
+  nextVideo(): void {
+    if (!this.videoFeeds.length) {
+      return;
+    }
+    this.currentVideoIndex =
+      this.currentVideoIndex === this.videoFeeds.length - 1
+        ? 0
+        : this.currentVideoIndex + 1;
+  }
+  goToVideo(index: number): void {
+    if (index < 0 || index >= this.videoFeeds.length) {
+      return;
+    }
+    this.currentVideoIndex = index;
+  }
   videoFeeds = [
     {
       category: 'PRODUCT SHOWCASE',
@@ -262,7 +216,6 @@ export class HomeComponent implements AfterViewInit {
       action: 'Watch Demonstration',
       link: 'https://youtube.com/shorts/x5cmWLqHI-Q?feature=share'
     },
-
     {
       category: 'DELIVERY',
       title: 'Reliable Delivery & Fulfillment',
@@ -271,16 +224,14 @@ export class HomeComponent implements AfterViewInit {
       action: 'View Delivery Process',
       link: 'https://youtube.com/shorts/x5cmWLqHI-Q?feature=share'
     },
-
     {
       category: 'SAFETY EQUIPMENT',
       title: 'Industrial Safety Solutions',
       description:
         'Watch our protective gear and workplace safety equipment in action.',
       action: 'Watch Safety Demo',
-      link: 'PASTE_VIDEO_LINK_HERE'
+      link: 'https://youtu.be/AQu-WgP79Nc?si=Q3nTHuwkTQxkOute'
     },
-
     // {
     //   category: 'MACHINERY',
     //   title: 'Heavy Equipment Demonstration',
@@ -289,7 +240,6 @@ export class HomeComponent implements AfterViewInit {
     //   action: 'See Equipment',
     //   link: 'PASTE_VIDEO_LINK_HERE'
     // },
-
     {
       category: 'CUSTOMER ORDERS',
       title: 'Order Processing & Dispatch',
@@ -298,7 +248,6 @@ export class HomeComponent implements AfterViewInit {
       action: 'View Process',
       link: 'PASTE_VIDEO_LINK_HERE'
     },
-
     // {
     //   category: 'GLOBAL SHIPPING',
     //   title: 'International Delivery Network',
@@ -308,79 +257,57 @@ export class HomeComponent implements AfterViewInit {
     //   link: 'PASTE_VIDEO_LINK_HERE'
     // }
   ];
-
-
-
   getThumbnail(link: string) {
     const shortsMatch = link.match(/shorts\/([^?]+)/);
     const watchMatch = link.match(/[?&]v=([^&]+)/);
-
     const videoId = shortsMatch?.[1] || watchMatch?.[1];
-
     return `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
   }
-
   openVideo(link: string) {
     const shortsMatch = link.match(/shorts\/([^?]+)/);
     const watchMatch = link.match(/[?&]v=([^&]+)/);
-
     const videoId = shortsMatch?.[1] || watchMatch?.[1];
-
+    if (!videoId) {
+      return;
+    }
+    // DESKTOP: existing popup
     this.selectedVideo =
       this.sanitizer.bypassSecurityTrustResourceUrl(
         `https://www.youtube.com/embed/${videoId}?autoplay=1`
       );
   }
-
   closeVideo() {
     this.selectedVideo = null;
   }
-
   getVideoLink(link: string) {
     const shortsMatch = link.match(/shorts\/([^?]+)/);
     const watchMatch = link.match(/[?&]v=([^&]+)/);
-
     const videoId = shortsMatch?.[1] || watchMatch?.[1];
-
+    if (!videoId) {
+      return '';
+    }
     return this.sanitizer.bypassSecurityTrustResourceUrl(
-      `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`
+      `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&playsinline=1`
     );
   }
-
-
-
   openProduct(product: Product) {
     this.router.navigate(['/product', product.id]);
   }
-
   startCounters() {
     const counters = document.querySelectorAll('.counter');
-
     counters.forEach((counter: any) => {
-
       const target = +counter.getAttribute('data-target');
-
       let count = 0;
-
       const updateCounter = () => {
-
         const increment = target / 100;
-
         if (count < target) {
-
           count += increment;
-
           counter.innerText = Math.ceil(count);
-
           setTimeout(updateCounter, 20);
-
         } else {
-
           counter.innerText = target;
-
         }
       };
-
       updateCounter();
     });
   }
