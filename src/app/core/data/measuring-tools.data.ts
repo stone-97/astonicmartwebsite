@@ -804,7 +804,7 @@ Accessories Included:
 
 
         brand: 'Mitutoyo',
-        price: 95000,
+        price: 88000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786306826/Astonic-Mart/Products/general%20guages/mitutoyo_dial_guage_indicator_with_base.webp',
@@ -813,7 +813,7 @@ Accessories Included:
         ],
 
         inStock: true,
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/mitutoyo-dial-gauge-indicator-with-magnetic-base-precision-measurement-tool-set-419385968.html',
         kongaLink: '',
 
         description: `The Mitutoyo Dial Indicator 2046S with Magnetic Base 7011S is a precision measuring instrument used for accurately measuring small linear distances and detecting deviations in mechanical components.It is widely used in machining,engineering,and quality control applications to check alignment,runout,and flatness.The dial indicator features a clear analog display with high sensitivity,while the magnetic base provides a stable and adjustable mounting on metal surfaces for hands-free operation.This combination ensures reliable and precise measurements in workshop and industrial environments.`,
@@ -4711,7 +4711,7 @@ With long battery life, track logging capability and simple operation, the Garmi
         price: 15000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786308933/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_30m.jpg-4.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308936/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_30m.jpeg-4.jpg',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308935/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_30m.jpeg-3.jpg',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308934/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_30m.jpeg-2.jpg',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308933/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_30m.jpg'

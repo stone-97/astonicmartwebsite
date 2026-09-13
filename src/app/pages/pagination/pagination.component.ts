@@ -3,7 +3,8 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { SearchService } from '../../core/services/search.service';
 import { Subscription } from 'rxjs';
 import { Product } from '../../core/models/Product';
-
+import { SeoService } from '../../core/services/seo.service';
+import { CATEGORY_SEO_MAP } from '../../core/data/category-seo.data';
 @Component({
   selector: 'app-pagination',
   templateUrl: './pagination.component.html',
@@ -29,10 +30,11 @@ constructor(
   private router: Router,
   private route: ActivatedRoute,
   private searchService: SearchService,
+  private seoService: SeoService
 ) { }
 
   ngOnInit(): void {
-    this.loadUniqueFilters();
+  
 
     this.route.queryParams.subscribe(params => {
 
@@ -45,6 +47,19 @@ constructor(
       this.priorityBrand = brand || '';
       this.priorityParentCategory = parentCategory || '';
       this.priorityGroup = group || '';
+
+      this.loadUniqueFilters(
+        parentCategory,
+        group,
+        priority
+      );
+
+      this.updatePaginationSeo(
+        brand,
+        parentCategory,
+        group,
+        priority
+      );
       const query =
         this.searchService.currentSearchQueryValue;
 
@@ -56,14 +71,54 @@ constructor(
         this.applyFilters(query);
       });
   }
-  private loadUniqueFilters() {
-    const allProducts = this.searchService.getProducts();
-    this.uniqueBrands = [...new Set(allProducts.map((p) => p.brand))].sort();
+  private loadUniqueFilters(
+    parentCategory: string = '',
+    group: string = '',
+    priority: string = ''
+  ): void {
+
+    let products = this.searchService.getProducts();
+
+    if (parentCategory) {
+      products = products.filter(
+        p =>
+          p.parentCategory?.toLowerCase().trim() ===
+          parentCategory.toLowerCase().trim() ||
+          p.group?.toLowerCase().trim() ===
+          parentCategory.toLowerCase().trim()
+      );
+    }
+    else if (group) {
+      products = products.filter(
+        p =>
+          p.group?.toLowerCase().trim() ===
+          group.toLowerCase().trim()
+      );
+    }
+    else if (priority) {
+      products = products.filter(
+        p =>
+          p.category?.toLowerCase().trim() ===
+          priority.toLowerCase().trim()
+      );
+    }
+
+    this.uniqueBrands = [
+      ...new Set(
+        products
+          .map(p => p.brand)
+          .filter(Boolean)
+      )
+    ].sort();
+
     this.uniqueCategories = [
-      ...new Set(allProducts.map((p) => p.category)),
+      ...new Set(
+        products
+          .map(p => p.category)
+          .filter(Boolean)
+      )
     ].sort();
   }
-
   applyFilters(searchQuery: string = '') {
 
     let list = this.searchService.getProducts();
@@ -124,12 +179,7 @@ constructor(
         );
       }
 
-      const others = list.filter(product => !prioritized.includes(product));
-
-      this.filteredProducts = [
-        ...prioritized,
-        ...others
-      ];
+      this.filteredProducts = prioritized;
     }
 
     
@@ -159,6 +209,60 @@ constructor(
   }
 
 
+
+  private updatePaginationSeo(
+    brand: string,
+    parentCategory: string,
+    group: string,
+    priority: string
+  ): void {
+
+    if (brand && parentCategory) {
+
+      const categoryName =
+        CATEGORY_SEO_MAP[`/${parentCategory}`] || parentCategory
+          .replace(/-/g, ' ')
+          .replace(/\b\w/g, letter => letter.toUpperCase());
+
+      this.seoService.updateSeo(
+        `${brand} ${categoryName}`,
+        `Shop ${brand} ${categoryName.toLowerCase()} at Astonic Mart. Browse quality products available in Nigeria.`,
+        `/pagination?brand=${encodeURIComponent(brand)}&parentCategory=${encodeURIComponent(parentCategory)}`
+      );
+
+      return;
+    }
+
+    if (brand) {
+      this.seoService.updateBrandSeo(
+        brand,
+        `/pagination?brand=${encodeURIComponent(brand)}`
+      );
+      return;
+    }
+
+    if (group) {
+      this.seoService.updateCategorySeo(
+        group,
+        `/pagination?group=${encodeURIComponent(group)}`
+      );
+      return;
+    }
+
+    if (priority) {
+      this.seoService.updateCategorySeo(
+        priority,
+        `/pagination?priority=${encodeURIComponent(priority)}`
+      );
+      return;
+    }
+
+    this.seoService.updateSeo(
+      'Products',
+      'Browse safety equipment, PPE, power tools, industrial tools and construction equipment at Astonic Mart.',
+      '/pagination'
+    );
+  }
 
   toggleBrandFilter(brand: string) {
     const idx = this.selectedBrands.indexOf(brand);

@@ -250,12 +250,13 @@ export const POWER_TOOL_PRODUCTS: Product[] = [
 
 {
     id: 5,
-        name: 'Ingco 1500W Thickness Planer',
+        name: 'Ingco 1500W Thickness Planer - TP15003',
             category: 'planers',
                 group: 'power-tools',
                     brand: 'Ingco',
                         price: 550000,
-
+    showSimilar: true,
+    model: " TP15003",
                             images: [
                                 'https://res.cloudinary.com/taus5tit/image/upload/v1786309717/Astonic-Mart/Products/planers/ingco-1500w-thickness-planer.webp',
                                 'https://res.cloudinary.com/taus5tit/image/upload/v1786309700/Astonic-Mart/Products/planers/ingco_1500w_thickness_planer.webp2.webp',
@@ -277,7 +278,7 @@ Adjustment Tools / Wrench
 User Manual
 `,
 
-                                        specification: `
+        specification: `
   Brand: Ingco
   Power Input: 1500W
   Voltage: 220V ΓÇô 240V
@@ -299,7 +300,7 @@ User Manual
   Easy-to-adjust cutting depth control
   `,
 
-                                                jumiaLink: 'https://www.jumia.com.ng/',
+    jumiaLink: 'https://www.jumia.com.ng/ingco-thickness-planer-1500w-professional-wood-planing-machine-419360689.html',
                                                     kongaLink: 'https://www.konga.com/'
 },
 
@@ -428,7 +429,8 @@ Items Included in the Package:
                 brand: 'Ingco',
                     group: 'power-tools',
                         price: 235000,
-
+    showSimilar: true,
+    inStock: true,
                             videos: [
                                 'https://youtu.be/au8IZEqTMXI?si=tW3r0hKnxkPvlefs',
                             ],
@@ -471,7 +473,7 @@ Items Included in the Package:
   `,
 
     jumiaLink: 'https://www.jumia.com.ng/ingco-1050w-drywall-sander-wall-ceiling-finishing-machine-419584235.html',
-                                                    kongaLink: 'https://www.konga.com/'
+                kongaLink: 'https://www.konga.com/'
 },
 
 
@@ -901,8 +903,8 @@ Items Included in the Package:
   Suitable for fabrication, construction, and engineering work
   `,
 
-                                                    jumiaLink: 'https://www.jumia.com.ng/',
-                                                        kongaLink: 'https://www.konga.com/'
+    jumiaLink: 'https://www.jumia.com.ng/eurotek-35mm-magnetic-drill-industrial-magnetic-base-drilling-machine-419386317.html',
+                                                        kongaLink: ''
 },
 
 
@@ -910,7 +912,7 @@ Items Included in the Package:
 {
     id: 17,
         name: 'Maxmech Multi Functional Rotary Hammer Machine-RH 1000-28  1000W',
-            category: 'electric-rotary-hammer-drills',
+            category: 'electrical-rotary-hammer-drills',
                 group: 'power-tools',
                     childCategory: 'rotary-hammer-drills',
                         parentCategory: 'drills',
@@ -1128,7 +1130,7 @@ Items Included in the Package:
             category: 'hand-mixers',
                 group: 'power-tools',
                     brand: 'Total',
-                        price: 55000,
+                        price: 135000,
 
                             images: [
                                 'https://res.cloudinary.com/taus5tit/image/upload/v1786307694/Astonic-Mart/Products/hand%20mixers/total_hand_mixer-1400w.jpg'
@@ -1158,8 +1160,8 @@ Items Included in the Package:
   Suitable for construction and renovation work
   `,
 
-                                                jumiaLink: 'https://www.jumia.com.ng/',
-                                                    kongaLink: 'https://www.konga.com/'
+    jumiaLink: 'https://www.jumia.com.ng/total-hand-mixer-1400w-industrial-electric-mixer-419475368.html',
+                                                    kongaLink: ''
 },
 
 
@@ -1169,7 +1171,7 @@ Items Included in the Package:
             category: 'hand-mixers',
                 group: 'power-tools',
                     brand: 'Total',
-                        price: 68000,
+                        price: 160000,
 
                             images: [
                                 'https://res.cloudinary.com/taus5tit/image/upload/v1786307695/Astonic-Mart/Products/hand%20mixers/total_hand_mixer-1800w.jpg'
@@ -1197,8 +1199,8 @@ Items Included in the Package:
   Strong and reliable design for demanding job sites
   `,
 
-                                                jumiaLink: 'https://www.jumia.com.ng/',
-                                                    kongaLink: 'https://www.konga.com/'
+                                                jumiaLink: 'https://www.jumia.com.ng/total-double-pad-electric-paint-mixer-1800w-419455052.html',
+                                                    kongaLink: ''
 },
 
 
@@ -1573,7 +1575,8 @@ Items Included in the Package:
                     parentCategory: 'drills',
 
                         price: 185000,
-
+    showSimilar: true,
+    model: 'CDLI20668',
                             brand: 'ingco',
 
                                 inStock: true,
@@ -1585,6 +1588,10 @@ Items Included in the Package:
                                         'https://res.cloudinary.com/taus5tit/image/upload/v1786323969/Astonic-Mart/Products/drills/INGCO_CDLI206681_20V_Cordless_Brushless_Drill_66Nm.jpg-4.jpg',
 
                                     ],
+
+
+    jumiaLink: 'https://www.jumia.com.ng/ingco-cdli20668-20v-brushless-cordless-drill-66nm-2-speed-420178749.html',
+    kongaLink: '',
 
                                         description:
     'The INGCO CDLI20668 cordless drill is a professional 20V brushless drilling and fastening tool designed for construction works, workshop operations, fabrication, furniture installation and industrial maintenance applications. Equipped with a high-performance brushless motor and maximum torque output of 66Nm, it delivers powerful drilling and screw driving performance with improved durability, longer runtime and reduced heat generation. Its ergonomic compact body design provides comfortable handling and improved control during prolonged operation.',
@@ -1629,7 +1636,7 @@ Items Included in the Package:
 {
     id: 32,
         name: 'TOTAL Rotary Hammer SDS-PLUS 800W (TH308268)',
-            category: 'electric-rotary-hammer-drills',
+            category: 'electrical-rotary-hammer-drills',
                 group: 'power-tools',
                     childCategory: 'rotary-hammer-drills',
                         parentCategory: 'drills',
@@ -1685,7 +1692,7 @@ Items Included in the Package:
     id: 33,
 
         name: 'TOTAL Rotary Hammer SDS-PLUS 1300W (TH311366)',
-            category: 'electric-rotary-hammer-drills',
+            category: 'electrical-rotary-hammer-drills',
                 group: 'power-tools',
                     childCategory: 'rotary-hammer-drills',
                         parentCategory: 'drills',
@@ -2106,7 +2113,8 @@ Items Included in the Package:
                     group: 'power-tools',
                         brand: 'Total',
                             price: 95000,
-
+       showSimilar: true,
+    model: "TAT40342",
                                 images: [
                                     'https://res.cloudinary.com/taus5tit/image/upload/v1786307967/Astonic-Mart/Products/impact-wrench/TOTAL_AIR_IMPACT_WRENCH_3_quarter_-_1.600Nm_TAT40342.jpg'
                                 ],
@@ -2137,7 +2145,7 @@ Items Included in the Package:
   Ideal for truck, bus, heavy equipment maintenance, and industrial fastening tasks
   `,
 
-                                                    jumiaLink: 'https://www.jumia.com.ng/',
+    jumiaLink: 'https://www.jumia.com.ng/ingco-demolition-breaker-1700w-heavy-duty-concrete-breaker-electric-jack-hammer-419377662.html',
                                                         kongaLink: 'https://www.konga.com/'
 },
 
@@ -2150,7 +2158,7 @@ Items Included in the Package:
                 parentCategory: 'jack-hammers',
                     group: 'power-tools',
                         brand: 'Ingco',
-                            price: 195000,
+                            price: 330000,
 
                                 images: [
                                     'https://res.cloudinary.com/taus5tit/image/upload/v1786305967/Astonic-Mart/Products/demolition%20breakers/ingco_demo_breaker-pdb17008.jpg'
@@ -2183,8 +2191,8 @@ Items Included in the Package:
   Comes complete with 2 chisels for immediate use
   `,
 
-                                                    jumiaLink: 'https://www.jumia.com.ng/',
-                                                        kongaLink: 'https://www.konga.com/'
+    jumiaLink: 'https://www.jumia.com.ng/ingco-demolition-breaker-1700w-heavy-duty-concrete-breaker-electric-jack-hammer-419377662.html',
+                                                        kongaLink: ''
 },
 
 
@@ -2886,7 +2894,7 @@ Items Included in the Package:
                                 ],
 
                                     jumiaLink: '',
-                                        kongaLink: '',
+    kongaLink: 'https://www.jumia.com.ng/total-1050w-drywall-sander-with-led-light-tws10501-420272428.html',
 
                                             inStock: true,
 
@@ -3596,7 +3604,7 @@ Items Included in the Package:
                                             'https://www.youtube.com/watch?v=7x4z8V7wJ0g'
                                         ],
 
-                                            jumiaLink: 'https://www.jumia.com.ng/makita-original-4-in-1-cordless-drilling-machine-combo-kit-419287379.html',
+    jumiaLink: 'https://www.jumia.com.ng/makita-cordless-combo-kit-drilldriver-impact-driver-reciprocating-saw-hammer-drill-419417190.html',
                                                 kongaLink: '',
 
                                                     inStock: true,
@@ -5355,7 +5363,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                                     'https://www.youtube.com/watch?v=7Yx6xQmT3jQ'
                                                 ],
 
-                                                    jumiaLink: '',
+    jumiaLink: 'https://www.jumia.com.ng/total-tidli20558-20v-brushless-cordless-impact-drill-55nm-420272878.html',
                                                         kongaLink: '',
 
                                                             inStock: true,
@@ -5405,8 +5413,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
   - Plastic Carrying Case
   - User Manual
   `,
-
-                                                                        features: `
+    features: `
   - High-efficiency brushless motor technology
   - Powerful 66Nm high torque performance
   - Compact lightweight ergonomic design
@@ -5597,11 +5604,10 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                     discountPrice: 85000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-5.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-4.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig saws and recip saws/Maxmech_Jig_Saw_Machine.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308513/Astonic-Mart/Products/jig saws and recip saws/Maxmech_Jig_Saw_Machine.jpeg-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-3.jpg'
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786134521/Maxmech_Jig_Saw_Machine.jpeg-4_qmqktw.jpg',
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308518/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpeg-5.jpg',
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786308513/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpeg-2.jpg'
+                                          
                                         ],
 
                                             videos: [
@@ -5766,7 +5772,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                 discountPrice: 120000,
 
                                     images: [
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328593/Astonic-Mart/Products/routers/ingco_eletric_router-1600w_RT160028-2.jpg-3.webp',
+                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786328597/Astonic-Mart/Products/routers/ingco_eletric_router-1600w_RT160028-2.jpeg-3.webp',
                                         'https://res.cloudinary.com/taus5tit/image/upload/v1786328593/Astonic-Mart/Products/routers/ingco_eletric_router-1600w_RT160028.jpg',
                                         'https://res.cloudinary.com/taus5tit/image/upload/v1786328598/Astonic-Mart/Products/routers/ingco_eletric_router-1600w_RT160028-4.webp',
                                         'https://res.cloudinary.com/taus5tit/image/upload/v1786328593/Astonic-Mart/Products/routers/ingco_eletric_router-1600w_RT160028-2.jpg'
@@ -7081,7 +7087,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
                         brand: 'MAXMECH',
 
                             price: 115000,
-                                discountPrice: 98000,
+                                discountPrice: 103000,
 
                                     images: [
                                         'https://res.cloudinary.com/taus5tit/image/upload/v1786328597/Astonic-Mart/Products/routers/maxmech_router_er_1600-12.jpg',
@@ -7092,7 +7098,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                             'https://www.youtube.com/watch?v=4mQ7L2pR9vA'
                                         ],
 
-                                            jumiaLink: '',
+    jumiaLink: 'https://www.jumia.com.ng/maxmech-1600w-electric-router-machine-419467230.html',
                                                 kongaLink: '',
 
                                                     inStock: true,
@@ -7419,7 +7425,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
                                                 'https://www.youtube.com/watch?v=9mL2Q4vR7pA'
                                             ],
 
-                                                jumiaLink: '',
+    jumiaLink: 'https://www.jumia.com.ng/total-th217088-demolition-breaker-heavy-duty-jack-hammer-419427365.html',
                                                     kongaLink: '',
 
                                                         inStock: true,
@@ -8141,7 +8147,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
 {
     id: 125,
         name: 'MAXMECH Rotary Hammer 800W (RH800-26)',
-            category: 'electric-rotary-hammer-drills',
+            category: 'electrical-rotary-hammer-drills',
                 group: 'power-tools',
                     childCategory: 'rotary-hammer-drills',
                         parentCategory: 'drills',
@@ -8485,13 +8491,13 @@ Ideal for construction, fabrication, carpentry and maintenance work
 
                         brand: 'TOTAL Tools',
 
-                            price: 170000,
-                                discountPrice: 130000,
+                            price: 150000,
+                                discountPrice: 115000,
 
                                     images: [
                                         'https://res.cloudinary.com/taus5tit/image/upload/v1786305583/Astonic-Mart/Products/combo%20kits/total_cordless_tile_vibrtor.jpg',
                                         'https://res.cloudinary.com/taus5tit/image/upload/v1786305585/Astonic-Mart/Products/combo%20kits/total_cordless_tile_vibrtor-2.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786305583/Astonic-Mart/Products/combo%20kits/total_cordless_tile_vibrtor.jpg-2.png'
+                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786220492/total_cordless_tile_vibrtor.jpeg-2_wfgxwp.png'
                                     ],
 
                                         videos: [
@@ -8538,8 +8544,7 @@ Ideal for construction, fabrication, carpentry and maintenance work
   - Charger (Depending on Package)
   - User Manual
   `,
-
-                                                                features: `
+                     features: `
   - Powerful cordless tile vibration system
   - Improves tile adhesive bonding
   - Removes trapped air beneath tiles
@@ -9189,6 +9194,14 @@ Ideal for construction and maintenance work
                     parentCategory: 'drills',
                         price: 145000,
 
+                         showSimilar: true,
+                            model: 'CDLI205581',
+
+                            
+    jumiaLink: 'https://www.jumia.com.ng/ingco-cdli205582-20v-brushless-cordless-drill-55nm-420178734.html',
+                                                        kongaLink: '',
+
+
                             brand: 'INGCO',
 
                                 inStock: true,
@@ -9438,10 +9451,10 @@ Accessories
                                     discountPrice: 810000,
 
                                         images: [
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306056/Astonic-Mart/Products/drills/50mm_magnetic_drills.jpg-4.avif',
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786070767/50mm_magnetic_drills.jpeg-4_litn6i.avif',
                                             'https://res.cloudinary.com/taus5tit/image/upload/v1786306056/Astonic-Mart/Products/drills/50mm_magnetic_drills.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306056/Astonic-Mart/Products/drills/50mm_magnetic_drills.jpg-2.jpg',
-                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786306056/Astonic-Mart/Products/drills/50mm_magnetic_drills.jpg-3.jpeg'
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786070747/50mm_magnetic_drills_qwtccr.jpg',
+                                            'https://res.cloudinary.com/taus5tit/image/upload/v1786070767/50mm_magnetic_drills.jpeg-4_litn6i.avif'
                                         ],
 
                                             videos: [],
@@ -9518,7 +9531,7 @@ Accessories
                                 model: 'CS2358',
 
                                     price: 175000,
-                                        discountPrice: 165000,
+                                        discountPrice: 160000,
 
                                             images: [
                                                 'https://res.cloudinary.com/taus5tit/image/upload/v1786304982/Astonic-Mart/Products/circular%20and%20mitre%20saws/ingco_circular_saw_2200w_CS2358.jpg',
@@ -9527,11 +9540,16 @@ Accessories
                                                 'https://res.cloudinary.com/taus5tit/image/upload/v1786304982/Astonic-Mart/Products/circular%20and%20mitre%20saws/ingco_circular_saw_2200w_CS2358.jpg-4.webp'
                                             ],
 
+
+                                            
+    jumiaLink: 'https://www.jumia.com.ng/ingco-cs2358-2200w-circular-saw-9-420175016.html',
+                                                        kongaLink: '',
+
                                                 inStock: true,
 
                                                     description: `The INGCO CS2358 Circular Saw is a powerful heavy-duty cutting tool designed for professional woodworking, carpentry and construction applications. Equipped with a high-performance motor and a large cutting blade, it delivers fast, precise and efficient cutting through wood, plywood, MDF boards and other construction materials. Its ergonomic design and adjustable cutting settings make it suitable for both workshop and job-site use.`,
 
-                                                        specification: `
+     specification: `
   - Product Name: Circular Saw
   - Brand: INGCO
   - Model: CS2358
@@ -10036,13 +10054,13 @@ Its robust construction, ergonomic side handle, and large 230mm disc capacity ma
 
 {
     id: 151,
-        name: 'INGCO AG24008 Angle Grinder 2400W 230mm',
+        name: 'INGCO AG24008 Angle Grinder 2400W 230m - AG24008',
             category: 'electric-angle-grinders',
                 parentCategory: 'grinders',
                     childCategory: 'angle-grinders',
                         group: 'power-tools',
                             brand: 'INGCO',
-
+    model: 'AG24008',
                                 price: 135000,
                                     discountPrice: 125000,
                                         power: '2400W',
@@ -10054,9 +10072,10 @@ Its robust construction, ergonomic side handle, and large 230mm disc capacity ma
                                                 'https://res.cloudinary.com/taus5tit/image/upload/v1786307448/Astonic-Mart/Products/grinders/INGCO_AG24008_Angle_Grinder_2400W-2.webp'
                                             ],
 
-                                                inStock: true,
-
-                                                    jumiaLink: '',
+                              inStock: true,
+                 showSimilar: true,
+                           
+    jumiaLink: 'https://www.jumia.com.ng/ingco-ag24008-2400w-angle-grinder-230mm-6400rpm-420177344.html',
                                                         kongaLink: '',
 
                                                             description: `
@@ -10364,10 +10383,12 @@ The saw features an adjustable spark guard, ergonomic handle, heavy-duty metal b
                                 power: '1800W',
 
                                     images: [
+                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307698/Astonic-Mart/Products/heatguns/bosch_heat_guns.jpeg-3.jpg',
                                         'https://res.cloudinary.com/taus5tit/image/upload/v1786307697/Astonic-Mart/Products/heatguns/bosch_heat_guns.jpg-4.webp',
                                         'https://res.cloudinary.com/taus5tit/image/upload/v1786307699/Astonic-Mart/Products/heatguns/bosch_heat_guns-2.jpg',
                                         'https://res.cloudinary.com/taus5tit/image/upload/v1786307697/Astonic-Mart/Products/heatguns/bosch_heat_guns.jpg',
-                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307698/Astonic-Mart/Products/heatguns/bosch_heat_guns.jpeg-3.jpg'
+                                        'https://res.cloudinary.com/taus5tit/image/upload/v1786307698/Astonic-Mart/Products/heatguns/bosch_heat_guns.jpeg-4.webp',
+                                    
                                     ],
 
                                         inStock: true,
@@ -10482,7 +10503,7 @@ The ergonomic design ensures comfortable handling, while the adjustable temperat
 {
     id: 158,
         name: 'TOTAL Rotary Hammer SDS-Plus 1500W',
-            category: 'electric-rotary-hammer-drills',
+            category: 'electrical-rotary-hammer-drills',
                 group: 'power-tools',
                     childCategory: 'rotary-hammer-drills',
                         parentCategory: 'drills',
@@ -10631,7 +10652,7 @@ Its SDS-Plus chuck system allows quick bit changes, while the rotary hammer func
 {
     id: 160,
         name: 'INGCO Rotary Hammer 800W SDS-Plus',
-            category: 'electric-rotary-hammer-drills',
+            category: 'electrical-rotary-hammer-drills',
                 group: 'power-tools',
                     childCategory: 'rotary-hammer-drills',
                         parentCategory: 'drills',
@@ -11486,7 +11507,7 @@ Maxmech HM 1000-120 Electric Hand Mixer is a professional-grade mixing machine d
 
 {
     id: 172,
-        name: 'Eurotek Industrial Magnetic Drill Press',
+        name: 'Eurotek Industrial Magnetic Drill Press -28MM',
             category: 'magnetic-drills',
                 group: 'power-tools',
                     parentCategory: 'drills',
@@ -11624,7 +11645,8 @@ Eurotek J1A-28 Industrial Magnetic Drill Press is a heavy-duty portable drilling
             category: 'jig-saws',
                 parentCategory: 'saws',
                     group: 'power-tools',
-
+    showSimilar: true,
+                            model: 'JS80028',
                         brand: 'INGCO',
                             price: 89500,
                                 power: '800W',
@@ -11674,8 +11696,8 @@ Eurotek J1A-28 Industrial Magnetic Drill Press is a heavy-duty portable drilling
   Ideal for professional workshops, construction sites, and DIY projects
   `,
 
-                                                            jumiaLink: 'https://www.jumia.com.ng/',
-                                                                kongaLink: 'https://www.konga.com/'
+    jumiaLink: 'https://www.jumia.com.ng/ingco-js80028-800w-jig-saw-420177275.html',
+                                                                kongaLink: ''
 },
 
 {
@@ -11686,9 +11708,9 @@ Eurotek J1A-28 Industrial Magnetic Drill Press is a heavy-duty portable drilling
                     group: 'power-tools',
 
                         brand: 'INGCO',
-                            price: 1550000,
+                            price: 150000,
                                 power: '20V',
-                                    discountPrice: 148000,
+                                    discountPrice: 138000,
 
                                         images: [
                                             'https://res.cloudinary.com/taus5tit/image/upload/v1786308486/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/INGCO_Cordless_Jig_Saw_CJSLI8501-2.jpg',
@@ -11745,7 +11767,7 @@ Color Box Packaging
                         brand: 'TOTAL',
                             price: 95000,
                                 power: '12V',
-                                    discountPrice: 90000,
+                                    discountPrice: 80000,
 
                                         images: [
                                             'https://res.cloudinary.com/taus5tit/image/upload/v1786329936/Astonic-Mart/Products/tools%20sets/total_81_Pcs_tools_set_THKTHP10812.jpg',
@@ -13582,7 +13604,7 @@ User Manual
 {
     id: 202,
         name: 'Bosch GBH 220 Professional Rotary Hammer Drill',
-            category: 'electric-rotary-hammer-drills',
+            category: 'electrical-rotary-hammer-drills',
                 group: 'power-tools',
                     childCategory: 'rotary-hammer-drills',
                         parentCategory: 'drills',
@@ -14122,7 +14144,9 @@ Ideal for professional and home use
     id: 210,
         name: 'TOTAL Cordless Spray Gun TSGLI20406',
             category: 'spray-guns',
-                group: 'power-tools',
+            group: 'power-tools',
+                  showSimilar: true,
+                
                     brand: 'TOTAL',
                         price: 99000,
                             power: '20V Lithium-Ion',
@@ -15272,8 +15296,8 @@ Professional-grade chainsaw accessory
                         brand: 'Ingco',
                             model: 'AG750282',
 
-                                price: 33000,
-                                    discountPrice: 30000,
+                                price: 50000,
+                                    discountPrice: 45000,
 
                                         images: [
                                             'https://res.cloudinary.com/taus5tit/image/upload/v1786307458/Astonic-Mart/Products/grinders/ingco_Angle_Grinder_750W_-_115mm.jpg',
@@ -15283,7 +15307,7 @@ Professional-grade chainsaw accessory
                                             'https://res.cloudinary.com/taus5tit/image/upload/v1786307462/Astonic-Mart/Products/grinders/ingco_Angle_Grinder_750W_-_115mm-5.jpg'
                                         ],
 
-                                            inStock: true,
+                                            inStock: false,
 
                                                 description: `The INGCO AG750282 Angle Grinder is a compact and efficient 750W power tool designed for cutting, grinding, polishing, and surface preparation applications. Featuring a durable high-performance motor and a 100mm (4") disc capacity, it delivers reliable performance for workshop, fabrication, construction, and maintenance tasks. Its lightweight ergonomic design improves user comfort and control, making it ideal for both professional tradesmen and DIY users.`,
 
@@ -19380,9 +19404,80 @@ Suitable for cutting steel pipes, angle iron, rebar and structural steel
 Ideal for workshops, fabrication shops and construction sites
   `,
 
-  jumiaLink: 'https://www.jumia.com.ng/',
-  kongaLink: 'https://www.konga.com/'
+  jumiaLink: '',
+  kongaLink: ''
 },
+
+
+    {
+        id: 292,
+        name: 'TOTAL 20V Cordless Lithium-Ion Spray Gun TSGLI20406 with Battery & Charger',
+        category: 'spray-guns',
+        group: 'power-tools',
+        showSimilar: true,
+        brand: 'TOTAL',
+        price: 88000,
+        power: '20V Lithium-Ion',
+        capacity: '800ml Paint Container',
+        discountPrice: 80000,
+
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1789234124/TOTAL_20V_Cordless_Lithium-Ion_Spray_Gun_with_1_x_Battery-tlgsli20042_Charger-_fnhxhk.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1789234124/TOTAL_20V_Cordless_Lithium-Ion_Spray_Gun_with_1_x_Battery-tlgsli20042_Charger-2_g8lzrv.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1789234124/TOTAL_20V_Cordless_Lithium-Ion_Spray_Gun_with_1_x_Battery-tlgsli20042_Charger-4_pjanmb.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1789234124/TOTAL_20V_Cordless_Lithium-Ion_Spray_Gun_with_1_x_Battery-tlgsli20042_Charger-5_rdk1eo.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1789234123/TOTAL_20V_Cordless_Lithium-Ion_Spray_Gun_with_1_x_Battery-tlgsli20042_Charger-3_rfiuir.jpg'
+        ],
+
+        inStock: true,
+
+        description: 'The TOTAL TSGLI20406 Cordless Spray Gun is a portable 20V lithium-ion paint spraying tool designed for smooth and efficient application of paints, stains, varnishes, primers, and protective coatings. Its cordless design provides unrestricted movement, making it suitable for indoor and outdoor painting projects. The ergonomic design provides comfortable handling during use.\n\nThe spray gun delivers up to 800ml/min maximum flow with adjustable spray settings for even and consistent paint application. It is suitable for painting furniture, walls, doors, fences, cabinets, wood and other surfaces. This starter kit includes a 20V 2.0Ah lithium-ion battery and fast charger, allowing the spray gun to be used immediately without purchasing the battery and charger separately.',
+
+        
+        specification: `
+Product Type: Cordless Spray Gun
+Model: TSGLI20406
+Brand: TOTAL
+Voltage: 20V
+Battery Type: Lithium-Ion
+Battery Capacity: 2.0Ah
+Battery Included: 1 x 20V 2.0Ah Battery
+Charger Included: 1 x Fast Charger
+Spraying Pressure: 0.1-0.2 Bar
+Maximum Flow Rate: 800ml/min
+Maximum Viscosity: 120 DIN-s
+Container Capacity: 800ml
+Nozzle: 2 Copper Nozzles
+Spray Pattern: Adjustable
+Operation: Cordless
+Application: Paint, Varnish, Primer, Stain and Wood Protection
+Suitable For: Wood, Metal, Walls, Furniture, Doors and Fences
+Package Includes: Spray Gun, 2.0Ah Battery, Fast Charger, 2 Copper Nozzles, Viscosity Measuring Cup and Nozzle Cleaning Needle
+  `,
+
+        features: `
+20V cordless operation
+Includes 1 x 20V 2.0Ah lithium-ion battery
+Includes fast charger
+800ml paint container
+Maximum flow rate of 800ml/min
+Maximum viscosity of 120 DIN-s
+0.1-0.2 Bar spraying pressure
+Adjustable spray settings
+2 copper nozzles included
+Viscosity measuring cup included
+Nozzle cleaning needle included
+Even and consistent paint distribution
+Lightweight and ergonomic design
+Suitable for indoor and outdoor painting
+Ideal for walls, furniture, doors, fences and wood surfaces
+Compatible with TOTAL P20S battery system
+
+  `,
+
+        jumiaLink: 'https://www.jumia.com.ng/total-20v-cordless-lithium-ion-spray-gun-with-1-x-battery-tlgsli20042-charger-420215065.html',
+        kongaLink: ''
+    },
 
 ];
 

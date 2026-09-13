@@ -1,4 +1,4 @@
-/* .slider-img */
+ï»¿/* .slider-img */
 /* slider ends */
 /* start section */
 .stats-section .container-fluid {
@@ -474,7 +474,7 @@
 }
 /* Watermark scrolling */
 .banner-overlay:before {
-  content: "ASTONIC MART • ASTONIC MART • ASTONIC MART • ASTONIC MART • ASTONIC MART • ASTONIC MART • ";
+  content: "ASTONIC MART ï¿½ ASTONIC MART ï¿½ ASTONIC MART ï¿½ ASTONIC MART ï¿½ ASTONIC MART ï¿½ ASTONIC MART ï¿½ ";
   position: absolute;
   top: 30%;
   left: 0;
@@ -780,7 +780,7 @@ top: -25px;
 }
 /* one clean arrow only */
 ::ng-deep .custom-exclusive-slider .owl-prev::before {
-  content: "?";
+content: "â€¹";
   position: absolute;
   inset: 0;
   display: flex;
@@ -791,7 +791,7 @@ top: -25px;
   text-indent: 0;
 }
 ::ng-deep .custom-exclusive-slider .owl-next::before {
-  content: "?";
+content: "â€º";
   position: absolute;
   inset: 0;
   display: flex;
@@ -1366,14 +1366,32 @@ top: -25px;
 .single-features {
   background: transparent !important;
 }
+
 /* Mobile */
-@media (max-width:768px) {
+@media (max-width: 768px) {
+  .single-exclusive-slider {
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 20px 15px !important;
+    margin: 10px !important;
+    box-sizing: border-box !important;
+  }
+
   .single-exclusive-slider img {
-    width: 280px !important;
-    height: 280px !important;
-    padding: 15px !important;
+    width: 180px !important;
+    height: 180px !important;
+    padding: 5px !important;
+  }
+
+  .single-exclusive-slider .product-image {
+    margin-bottom: 10px !important;
+  }
+
+  .single-exclusive-slider .product-details {
+    width: 100% !important;
   }
 }
+
 @media (max-width: 991px) {
   .exclusive-left {
     padding: 35px 20px !important;
@@ -2029,6 +2047,64 @@ box-shadow:
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
+  }
+}
+
+
+@media (max-width: 576px) {
+
+  :host,
+  :host ::ng-deep body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  :host ::ng-deep html {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .home-page,
+  .home-page * {
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* Desktop: keep Exclusive Deals inside the viewport */
+@media (min-width: 992px) {
+
+  .exclusive-deal-area,
+  .exclusive-deal-area .container-fluid,
+  .exclusive-deal-area .row {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .exclusive-left,
+  .exclusive-right {
+    min-width: 0 !important;
+    box-sizing: border-box;
+  }
+
+  .exclusive-left .primary-btn {
+    max-width: 100% !important;
+  }
+
+  .active-exclusive-product-slider {
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  :host {
+    display: block;
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
   }
 }

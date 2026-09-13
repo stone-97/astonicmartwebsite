@@ -220,7 +220,12 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         brand: 'INGCO',
         price: 45000, // adjust based on your market price (commonly Γéª35,000 - Γéª65,000 in Nigeria)
 
-        images: [],
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1788938175/INGCO_Industrial_Soft_Grip_Handle_Wheelbarrow_90L_HHWB64018G_w8hkij.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1788938412/INGCO_Industrial_Soft_Grip_Handle_Wheelbarrow_90L_HHWB64018G_-3_uyltof.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1788938175/INGCO_Industrial_Soft_Grip_Handle_Wheelbarrow_90L_HHWB64018G_w8hkij.jpg'
+
+        ],
 
         inStock: true,
         jumiaLink: '',
@@ -362,10 +367,13 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
         category: 'rebar-machines',
         group: 'construction equipments',
         brand: 'Generic',
-        price: 4020000, // adjust based on your market price (commonly Γéª150,000 - Γéª250,000 in Nigeria)
+        price: 2500000, // adjust based on your market price (commonly Γéª150,000 - Γéª250,000 in Nigeria)
 
         images: [
-            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786311457/Astonic-Mart/Products/rebar%20machines/rod_benders_50mm.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786311457/Astonic-Mart/Products/rebar%20machines/rod_benders_50mm.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1788939029/Rod_Bender_-_50mm_jl05kb.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1788939028/Rod_Bender_-_50mm_fikbhm.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1788939224/Rod_Bender_-_50mm-3_hddkgp.jpg'
         ],
 
         inStock: true,
@@ -405,54 +413,54 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
 
 
 
-    {
-        id: 19010,
-        name: 'SGT KNOTS Twisted ProManila Rope ΓÇô 1.25" x 10ft (Tan)',
-        category: 'ropes',
-        group: 'construction equipments',
-        brand: 'SGT KNOTS',
-        price: 28000, // adjust based on your market (commonly Γéª25,000 - Γéª45,000 in Nigeria depending on import cost)
+//     {
+//         id: 19010,
+//         name: 'SGT KNOTS Twisted ProManila Rope  1.25" x 10ft (Tan)',
+//         category: 'ropes',
+//         group: 'construction equipments',
+//         brand: 'SGT KNOTS',
+//         price: 28000, // adjust based on your market (commonly Γéª25,000 - Γéª45,000 in Nigeria depending on import cost)
 
-        images: [],
+//         images: [],
 
-        inStock: true,
-        jumiaLink: '',
-        kongaLink: '',
+//         inStock: true,
+//         jumiaLink: '',
+//         kongaLink: '',
 
-        description: `The SGT KNOTS Twisted ProManila Rope is a high-quality synthetic alternative to traditional Manila rope, designed for superior strength, durability, and resistance to harsh weather conditions. Measuring 1.25 inches in diameter and 10 feet in length, this tan-colored rope offers the natural look of manila while outperforming it in longevity and performance. Unlike natural fibers, ProManila rope resists rot, mold, moisture, and UV damage, making it ideal for both indoor and outdoor applications. It is perfect for construction, landscaping, marine use, lifting, pulling, and decorative purposes.`,
+//         description: `The SGT KNOTS Twisted ProManila Rope is a high-quality synthetic alternative to traditional Manila rope, designed for superior strength, durability, and resistance to harsh weather conditions. Measuring 1.25 inches in diameter and 10 feet in length, this tan-colored rope offers the natural look of manila while outperforming it in longevity and performance. Unlike natural fibers, ProManila rope resists rot, mold, moisture, and UV damage, making it ideal for both indoor and outdoor applications. It is perfect for construction, landscaping, marine use, lifting, pulling, and decorative purposes.`,
 
-        specification: `
-  - Product Name: Twisted ProManila Rope
-  - Brand: SGT KNOTS
-  - Diameter: 1.25 inches (approx. 32mm)
-  - Length: 10 feet (approx. 3 meters)
-  - Material: Synthetic polypropylene (UnManila)
-  - Color: Tan (natural manila appearance)
-  - Construction: 3-strand twisted rope
-  - ┘à┘é╪º┘ê┘à╪¬: High resistance to moisture, UV, and chemicals
-  - Weight: Lightweight and easy to handle
-  - Usage: General-purpose, marine, construction, landscaping, decor
-  `,
+//         specification: `
+//   - Product Name: Twisted ProManila Rope
+//   - Brand: SGT KNOTS
+//   - Diameter: 1.25 inches (approx. 32mm)
+//   - Length: 10 feet (approx. 3 meters)
+//   - Material: Synthetic polypropylene (UnManila)
+//   - Color: Tan (natural manila appearance)
+//   - Construction: 3-strand twisted rope
+//   - ┘à┘é╪º┘ê┘à╪¬: High resistance to moisture, UV, and chemicals
+//   - Weight: Lightweight and easy to handle
+//   - Usage: General-purpose, marine, construction, landscaping, decor
+//   `,
 
-        features: `
-  - Synthetic alternative to natural Manila rope with enhanced durability
-  - Resistant to rot, mildew, moisture, and UV exposure
-  - Strong and flexible for heavy-duty applications
-  - Lightweight and easy to handle compared to natural fiber ropes
-  - Maintains shape and strength even in wet conditions
-  - Ideal for indoor and outdoor use
-  - Natural tan color for aesthetic and decorative purposes
-  - Suitable for tying, pulling, lifting, and general utility work
-  - Long-lasting performance with minimal maintenance
-  - Trusted quality from SGT KNOTS brand
-  `
-    },
+//         features: `
+//   - Synthetic alternative to natural Manila rope with enhanced durability
+//   - Resistant to rot, mildew, moisture, and UV exposure
+//   - Strong and flexible for heavy-duty applications
+//   - Lightweight and easy to handle compared to natural fiber ropes
+//   - Maintains shape and strength even in wet conditions
+//   - Ideal for indoor and outdoor use
+//   - Natural tan color for aesthetic and decorative purposes
+//   - Suitable for tying, pulling, lifting, and general utility work
+//   - Long-lasting performance with minimal maintenance
+//   - Trusted quality from SGT KNOTS brand
+//   `
+//     },
 
 
 
     {
         id: 19011,
-        name: 'Total Power Trowel ΓÇô 6.5HP Concrete Finishing Machine',
+        name: 'Total Power Trowel 6.5HP Concrete Finishing Machine',
         category: 'power-trowels',
         group: 'construction equipments',
         brand: 'Total',

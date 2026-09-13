@@ -7,9 +7,9 @@ export const MARINE_OFFSHORE_PRODUCTS: Product[] = [
         id: 28000,
         name: 'Safety Life Buoy Offshore Ring 2.5kg',
         category: 'life-buoys',
-        group: 'marine Offshore',
+        group: 'marine And Offshore',
         brand: 'Generic',
-        price: 22000,
+        price: 57600,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308792/Astonic-Mart/Products/life%20saving%20eq/life_buoy_2.5kg.jpg'
@@ -46,9 +46,9 @@ export const MARINE_OFFSHORE_PRODUCTS: Product[] = [
         id: 28001,
         name: 'Automatic Inflatable Life Jacket',
         category: 'life-jackets',
-        group: 'marine Offshore',
+        group: 'marine And Offshore',
         brand: 'Generic',
-        price: 65000,
+        price: 80000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308791/Astonic-Mart/Products/life%20saving%20eq/automatic_life_jacket.avif',
@@ -85,8 +85,8 @@ export const MARINE_OFFSHORE_PRODUCTS: Product[] = [
         name: '8" HDPE Pipe Dredge Floater',
         category: 'dredge-pipe-floaters',
         brand: 'Generic',
-        group: 'marine Offshore',
-        price: 450000,
+        group: 'marine And Offshore',
+        price: 390000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308884/Astonic-Mart/Products/marine%20offshore/pipe_floater.webp',
@@ -133,10 +133,9 @@ export const MARINE_OFFSHORE_PRODUCTS: Product[] = [
         id: 28003,
         name: 'Yamaha Adult XL Marine Life Jacket 150N',
         category: 'life-jackets',
-        group: 'marine Offshore',
-        parentCategory: 'marine-safety',
+        group: 'marine And Offshore',
         brand: 'Yamaha',
-        price: 35000,
+        price: 45000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308810/Astonic-Mart/Products/life%20saving%20eq/Yamaha-Life-Jacket-1.jpg',
@@ -184,10 +183,9 @@ Reliable flotation performance
         id: 28004,
         name: 'Yamaha Adult XL Marine Life Jacket 150N',
         category: 'life-jackets',
-        group: 'marine Offshore',
-        parentCategory: 'marine-safety',
+        group: 'marine And Offshore',
         brand: 'Yamaha',
-        price: 28000,
+        price: 45000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429648/Astonic-Mart/Products/remaining-local-images/mxwzfzma9tpr7hj7sroj.jpg',
@@ -230,6 +228,58 @@ Lightweight construction
 Reliable flotation performance
   `
     },
+
+
+
+    {
+        id: 28005,
+        name: 'SGT KNOTS Twisted ProManila Rope  1.25" x 10ft (Tan)',
+        group: 'marine And Offshore',
+        category: 'marine-safety-equipment',
+        brand: 'Generic',
+        price: 450000, // adjust based on your market (commonly Γéª25,000 - Γéª45,000 in Nigeria depending on import cost)
+
+        images: [ 
+            'https://res.cloudinary.com/taus5tit/image/upload/v1788940666/Twisted_ProManila_Rope_1.25x_10ft_Tan_gme8jb.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1788940659/Twisted_ProManila_Rope_1.25x_10ft_Tan_-1_at92lt.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1788940655/Twisted_ProManila_Rope_1.25x_10ft_Tan_-2_amvj4k.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1788940654/Twisted_ProManila_Rope_1.25x_10ft_Tan_-3_ucwmxl.jpg'
+        ],
+
+        inStock: true,
+        jumiaLink: '',
+        kongaLink: '',
+
+        description: `The SGT KNOTS Twisted ProManila Rope is a high-quality synthetic alternative to traditional Manila rope, designed for superior strength, durability, and resistance to harsh weather conditions. Measuring 1.25 inches in diameter and 10 feet in length, this tan-colored rope offers the natural look of manila while outperforming it in longevity and performance. Unlike natural fibers, ProManila rope resists rot, mold, moisture, and UV damage, making it ideal for both indoor and outdoor applications. It is perfect for construction, landscaping, marine use, lifting, pulling, and decorative purposes.`,
+
+        specification: `
+  - Product Name: Twisted ProManila Rope
+  - Brand: SGT KNOTS
+  - Diameter: 1.25 inches (approx. 32mm)
+  - Length: 10 feet (approx. 3 meters)
+  - Material: Synthetic polypropylene (UnManila)
+  - Color: Tan (natural manila appearance)
+  - Construction: 3-strand twisted rope
+  - ┘à┘é╪º┘ê┘à╪¬: High resistance to moisture, UV, and chemicals
+  - Weight: Lightweight and easy to handle
+  - Usage: General-purpose, marine, construction, landscaping, decor
+  `,
+
+        features: `
+  - Synthetic alternative to natural Manila rope with enhanced durability
+  - Resistant to rot, mildew, moisture, and UV exposure
+  - Strong and flexible for heavy-duty applications
+  - Lightweight and easy to handle compared to natural fiber ropes
+  - Maintains shape and strength even in wet conditions
+  - Ideal for indoor and outdoor use
+  - Natural tan color for aesthetic and decorative purposes
+  - Suitable for tying, pulling, lifting, and general utility work
+  - Long-lasting performance with minimal maintenance
+  - Trusted quality from SGT KNOTS brand
+  `
+    },
+
+
 
 
     // ends at 30000

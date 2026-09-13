@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from '../../../core/services/cart.service';
+import { AnalyticsService } from '../../../core/services/analytics.service';
 
 @Component({
   selector: 'app-shoppingcart',
@@ -10,7 +11,10 @@ export class ShoppingcartComponent implements OnInit {
 
   cartItems: any[] = [];
 
-  constructor(private cartService: CartService) { }
+  constructor(
+    private cartService: CartService,
+    private analyticsService: AnalyticsService
+  ) { }
 
   ngOnInit() {
 
@@ -39,5 +43,18 @@ export class ShoppingcartComponent implements OnInit {
 
   getTotal() {
     return this.cartService.getTotal();
+  }
+
+  beginCheckout() {
+    this.analyticsService.event('begin_checkout', {
+      currency: 'NGN',
+      value: this.getTotal(),
+      items: this.cartItems.map(item => ({
+        item_id: item.id?.toString(),
+        item_name: item.name,
+        price: item.price,
+        quantity: item.quantity
+      }))
+    });
   }
 }

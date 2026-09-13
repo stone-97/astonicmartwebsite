@@ -4,13 +4,14 @@ import { SearchService } from '../../../core/services/search.service';
 import { Category } from '../../../core/models/category.model';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PaginationService } from '../../../core/services/pagination.service';
+import { SeoService } from '../../../core/services/seo.service';
 
 @Component({
   selector: 'app-gardentools',
   templateUrl: './gardentools.component.html',
   styleUrl: './gardentools.component.css'
 })
-export class GardentoolsComponent {
+export class GardentoolsComponent implements OnInit {
 
 
  
@@ -28,11 +29,18 @@ export class GardentoolsComponent {
   constructor
     (private SearchService: SearchService,
       private route: ActivatedRoute,
-      private router: Router,
+    private router: Router,
+    private seoService: SeoService,
       public paginationService: PaginationService) { }
 
 
   ngOnInit() {
+
+    this.seoService.updateSeo(
+      'Garden Tools in Nigeria',
+      'Shop quality garden tools at Astonic Mart. Browse reliable garden equipment and tools available across Nigeria.',
+      '/garden-tools'
+    );
 
     // load electric pressure washer products only
     this.products =

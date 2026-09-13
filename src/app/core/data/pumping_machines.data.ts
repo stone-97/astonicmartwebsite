@@ -292,8 +292,9 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
          category: 'fuel-transfer-pumps',
          group: 'pumping machines',
          brand: 'Generic',
-         price: 320000,
-    
+         price: 330000,
+          showSimilar: true,
+
          images: [
            'https://res.cloudinary.com/taus5tit/image/upload/v1786311378/Astonic-Mart/Products/pumping%20machines/electric_fuel_desiel_transfer_oil_pump.webp'
          ],
@@ -326,8 +327,8 @@ export const PUMPING_MACHINES_PRODUCTS: Product[] = [
       Not suitable for gasoline or highly flammable fuels
       `,
     
-         jumiaLink: 'https://www.jumia.com.ng/',
-         kongaLink: 'https://www.konga.com/'
+         jumiaLink: 'https://www.jumia.com.ng/generic-electric-oil-ago-transfer-pump-16gpm-with-meter-manual-nozzle-419406788.html',
+         kongaLink: ''
        },
     
     

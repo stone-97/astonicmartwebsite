@@ -179,12 +179,12 @@ getSimilarProducts(category: string, excludeId: number): Product[] {
   getDealsOfWeek(): Product[] {
   return [
     this.getProductById(13051),
-    this.getProductById(60),
-    this.getProductById(3),
-    this.getProductById(109),
-    this.getProductById(212),
+    this.getProductById(9031),
+    this.getProductById(2021),
+    this.getProductById(70),
+    this.getProductById(2244),
     this.getProductById(6),
-    this.getProductById(7),
+    this.getProductById(19006),
     this.getProductById(8),
     this.getProductById(13017)
   ].filter(Boolean) as Product[];

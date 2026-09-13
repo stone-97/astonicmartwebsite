@@ -400,7 +400,7 @@ This air compressor is a reliable and essential machine for mechanics, technicia
         ],
 
         inStock: true,
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/maxmech-cut-100-plasma-cutter-industrial-metal-cutting-machine-419470040.html',
         kongaLink: '',
 
         description: `The Maxmech CUT-100 Plasma Cutter is a heavy-duty industrial cutting machine designed for precise and efficient cutting of various conductive metals including steel,stainless steel,and aluminium.It delivers up to 100A output power,making it suitable for professional fabrication,construction,and workshop applications.The machine uses advanced inverter technology to ensure stable arc performance,high efficiency,and reliable operation even under demanding conditions.It features high-frequency arc ignition for smooth and contactless cutting,improving accuracy and reducing material damage.The CUT-100 is capable of cutting thick metal materials up to approximately 30mm depending on usage conditions,making it ideal for heavy-duty tasks.It is built with overload and thermal protection systems to enhance safety and durability.The compact and portable design allows easy movement within the workshop,while maintaining strong performance for continuous operation.`,
@@ -2508,10 +2508,9 @@ Accessories
         name: 'Maxmech Plasma Cutter CUT-60',
         category: 'plasma-cutters',
         group: 'Electrical Equipments',
-
         brand: 'Maxmech',
         model: 'CUT-60',
-
+        showSimilar: true,
         price: 570000,
 
         images: [
@@ -2520,9 +2519,9 @@ Accessories
         ],
 
         inStock: true,
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/maxmech-cut-60-plasma-cutter-60a-inverter-cutting-machine-419470066.html',
         kongaLink: '',
-
+       
         description: `
 Maxmech CUT-60 Plasma Cutter is a professional inverter plasma cutting machine designed for clean, fast and accurate cutting of conductive metals including mild steel, stainless steel, galvanized steel, aluminum and copper. Utilizing advanced inverter technology, the machine delivers stable cutting performance, high efficiency and reduced power consumption.
 The machine features a non-contact pilot arc starting system that improves cutting quality and extends consumable life. Its compact and portable design makes it suitable for fabrication workshops, construction sites, maintenance operations and industrial metalworking applications.
@@ -3189,7 +3188,7 @@ Portable Oxygen Acetylene Welding and Cutting Kit is a complete gas welding, bra
         brand: 'WORXFLEX',
         model: 'MMA320',
 
-        price: 32000,
+        price: 320000,
         discountPrice: 290000,
 
         images: [
@@ -4305,7 +4304,8 @@ Reliable welding performance
         group: 'Electrical Equipments',
         brand: 'TOTAL',
         model: 'TTAC2506',
-
+      showSimilar: true,
+                    
         price: 85000,
         discountPrice: 80000,
 
@@ -4321,7 +4321,7 @@ Reliable welding performance
         ],
 
         inStock: true,
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/total-auto-air-compressor-ttac2506-420075026.html',
         kongaLink: '',
 
         description: `The TOTAL TTAC2506 Auto Air Compressor is a heavy-duty 12V portable air compressor designed for rapid tyre inflation and emergency roadside applications. Equipped with a powerful duplex (twin-cylinder) system, it delivers a high airflow rate of 45L/min and a maximum pressure of 120 PSI. The compressor connects directly to a vehicle battery using battery clips, ensuring stable power delivery for demanding inflation tasks. It features an integrated work light for night-time use, a durable pressure gauge for accurate readings, and comes with multiple adapters for inflating tyres, sports equipment, air mattresses and other inflatables. The included canvas carrying bag makes transportation and storage convenient.`,

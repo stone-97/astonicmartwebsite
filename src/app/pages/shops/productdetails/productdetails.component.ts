@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { CloudinaryService } from '../../../cloudinary.service';
-import { Title, Meta } from '@angular/platform-browser';
+import { SeoService } from '../../../core/services/seo.service';
 
 @Component({
   selector: 'app-productdetails',
@@ -59,8 +59,7 @@ export class ProductdetailsComponent implements OnInit {
     private sanitizer: DomSanitizer,
     public cloudinaryService: CloudinaryService,
     @Inject(PLATFORM_ID) private platformId: Object,
-    private titleService: Title,
-    private metaService: Meta,
+    private seoService: SeoService,
     @Inject(DOCUMENT) private document: Document,
   ) { }
 
@@ -88,6 +87,8 @@ export class ProductdetailsComponent implements OnInit {
 
       this.updateProductSeo(this.product);
 
+      this.addProductStructuredData(this.product);
+      this.addBreadcrumbStructuredData(this.product);
       this.generateBreadcrumb(this.product);
 
       if (this.product.showSimilar === true) {
@@ -112,65 +113,24 @@ export class ProductdetailsComponent implements OnInit {
     });
 
   }
-
   // =========================
   // PRODUCT SEO
   // =========================
   private updateProductSeo(product: Product): void {
-    const title = `${product.name} | Astonic Mart`;
-
     const description = product.description
       ? product.description.replace(/\s+/g, ' ').trim().slice(0, 160)
       : `${product.name} by ${product.brand}. Available at Astonic Mart, Nigeria.`;
 
-    const canonicalUrl = `https://astonicmart.com/product/${product.id}`;
-
-    this.updateCanonicalUrl(canonicalUrl);
-
-    this.titleService.setTitle(title);
-
-    this.titleService.setTitle(title);
-
-    this.metaService.updateTag({
-      name: 'description',
-      content: description
-    });
-
-    this.metaService.updateTag({
-      name: 'robots',
-      content: 'index, follow'
-    });
-
-    this.metaService.updateTag({
-      property: 'og:type',
-      content: 'product'
-    });
-
-    this.metaService.updateTag({
-      property: 'og:title',
-      content: title
-    });
-
-    this.metaService.updateTag({
-      property: 'og:description',
-      content: description
-    });
-
-    this.metaService.updateTag({
-      property: 'og:url',
-      content: canonicalUrl
-    });
-
-    if (product.images?.length) {
-      this.metaService.updateTag({
-        property: 'og:image',
-        content: product.images[0]
-      });
-    }
+    this.seoService.updateSeo(
+      product.name,
+      description,
+      `/product/${product.id}`,
+      product.images?.[0] ||
+      'https://astonicmart.com/assets/img/astonic%20slide%20white%20(1).png'
+    );
 
     this.addProductStructuredData(product);
   }
-
   // =========================
   // CANONICAL URL
   // =========================
@@ -232,6 +192,64 @@ export class ProductdetailsComponent implements OnInit {
     this.document.head.appendChild(script);
   }
 
+  private addBreadcrumbStructuredData(product: Product): void {
+    const existingScript = this.document.getElementById(
+      'breadcrumb-structured-data'
+    );
+
+    if (existingScript) {
+      existingScript.remove();
+    }
+
+    const groupMap: Record<string, string> = {
+      'power-tools': 'Power Tools',
+      'ppe': 'Safety & PPE',
+      'safety ppe': 'Safety & PPE'
+    };
+
+    const groupName =
+      groupMap[product.group || ''] ||
+      this.formatCategory(product.group || '');
+
+    const breadcrumbData = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://astonicmart.com/'
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Shop',
+          item: 'https://astonicmart.com/shopcategories'
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: groupName
+        },
+        {
+          '@type': 'ListItem',
+          position: 4,
+          name: product.name,
+          item: `https://astonicmart.com/product/${product.id}`
+        }
+      ]
+    };
+
+    const script = this.document.createElement('script');
+
+    script.id = 'breadcrumb-structured-data';
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(breadcrumbData);
+
+    this.document.head.appendChild(script);
+  }
+
   // =========================
   // IMAGE CONTROL
   // =========================
@@ -273,7 +291,15 @@ export class ProductdetailsComponent implements OnInit {
   }
 
 
+  increaseQuantity(): void {
+    this.quantity++;
+  }
 
+  decreaseQuantity(): void {
+    if (this.quantity > 1) {
+      this.quantity--;
+    }
+  }
 
   // =========================
   // BREADCRUMB

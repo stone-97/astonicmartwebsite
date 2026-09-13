@@ -456,7 +456,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         group: 'cleaning and garden supplies',
         parentCategory: 'vacuum cleaners',
         brand: 'Total',
-        price: 85000,
+        price: 125000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786330259/Astonic-Mart/Products/vacuum%20cleaners%20and%20hoses/TOTAL_40084_TVLI2006-20V_Battery_Cyclone_Vacuum_Cleaner.webp',
@@ -727,7 +727,7 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
     {
         id: 22017,
         name: 'High Pressure Hose Connector for Pressure Washers',
-        category: 'pressure-washer-accessories',
+        category: 'pressure-washers-accessories',
         group: 'cleaning and garden supplies',
         parentCategory: 'pressure washers',
         brand: 'Generic',
@@ -819,7 +819,9 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
         parentCategory: 'lawn mowers',
         brand: 'TOTAL',
         price: 650000,
-
+        discountPrice: 580000,
+             showSimilar: true,
+               model: "TGT196201",
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308786/Astonic-Mart/Products/lawn%20mowers/TOTAL_TGT196201_Gasoline_Lawn_Mower_3.5KW_4.8HP.jpg',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308787/Astonic-Mart/Products/lawn%20mowers/TOTAL_TGT196201_Gasoline_Lawn_Mower_3.5KW_4.8HP-2.jpg',
@@ -857,8 +859,8 @@ export const CLEANING_AND_GARDEN_SUPPLIES_PRODUCTS: Product[] = [
   Low maintenance and reliable operation
   `,
 
-        jumiaLink: 'https://www.jumia.com.ng/catalog/?q=total+lawn+mower',
-        kongaLink: 'https://www.konga.com/search?search=total+lawn+mower'
+        jumiaLink: 'https://www.jumia.com.ng/total-tgt196201-gasoline-lawn-mower-3.5kw-4.8hp-419427217.html',
+        kongaLink: ''
     },
 
 
@@ -2792,7 +2794,8 @@ Items Included in the Package:
         ],
 
         inStock: true,
-
+          showSimilar: true,
+     
         description: `The TOTAL High Pressure Washer TGT11316 is a compact and efficient cleaning machine designed for domestic and light commercial cleaning applications. Powered by a durable 1400W motor with pure copper wire construction, this pressure washer delivers reliable cleaning performance for vehicles, walls, outdoor floors, driveways, machinery, and workshop equipment.
 With a maximum pressure output of 130 bar, the machine effectively removes dirt, mud, grease, and stubborn stains using a strong and stable water flow system. Its auto stop system helps reduce power consumption and extends motor lifespan during operation.
 The pressure washer features a lightweight and portable design for easy movement and storage, while the included 5-meter high-pressure hose provides flexibility and convenient reach during cleaning tasks. It is ideal for homeowners, workshops, garages, car wash operations, and maintenance use.
@@ -2833,7 +2836,7 @@ Items Included in the Package:
  Suitable for home, garage, workshop, and car wash applications
  `,
 
-        jumiaLink: 'https://www.jumia.com.ng/',
+        jumiaLink: 'https://www.jumia.com.ng/total-electric-pressure-washer-1400w-1900-psi-419731359.html',
         kongaLink: 'https://www.konga.com/'
     },
 
@@ -3787,10 +3790,11 @@ Suitable for farms, estates, gardens, road maintenance and commercial landscapin
 
         ],
 
-        inStock: true,
-        jumiaLink: '',
+        inStock: false,
+        jumiaLink: 'https://www.jumia.com.ng/ingco-cpwli2036-20v-cordless-pressure-washer-420177430.html',
         kongaLink: '',
-
+      showSimilar: true,
+                          
         description: `INGCO Cordless Pressure Washer CPWLI20082 is a portable high-performance cleaning machine designed for convenient outdoor and mobile cleaning applications without the need for direct power connection. Powered by a rechargeable lithium-ion battery system, the pressure washer delivers efficient cleaning performance for vehicles, motorcycles, outdoor furniture, walls, windows, garden tools and general maintenance tasks. Its lightweight cordless design ensures easy movement and flexibility, making it suitable for home, workshop and outdoor cleaning operations. The washer features a durable motor system, high-pressure water output and convenient portable operation for efficient everyday cleaning tasks.`,
 
 
@@ -3842,9 +3846,9 @@ Suitable for farms, estates, gardens, road maintenance and commercial landscapin
             'https://res.cloudinary.com/taus5tit/image/upload/v1786310877/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20362.png-5.jpg',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786310872/Astonic-Mart/Products/pressure%20washers/INGCO_Cordless_Pw_CPWLI20362.jpg-6.jpg'
         ],
-
+       showSimilar: true,
         inStock: true,
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/ingco-cpwli2036-20v-cordless-pressure-washer-420177430.html',
         kongaLink: '',
 
         description: `INGCO P20S Cordless Pressure Washer CPWLI20362 is a portable high-performance cleaning machine designed for convenient outdoor and mobile cleaning applications without the need for direct power connection. Powered by the INGCO 20V P20S lithium-ion battery platform, the washer delivers efficient cleaning performance for vehicles, motorcycles, outdoor furniture, windows, walls, garden tools and general maintenance tasks. Its lightweight cordless design provides excellent mobility and flexibility, making it ideal for home, workshop and outdoor cleaning operations. The pressure washer features an auto stop system, high water flow rate and self-suction capability for efficient cleaning from buckets, tanks or tap water sources.`,
@@ -6018,7 +6022,7 @@ User Manual
     {
         id: 22096,
         name: 'High Pressure Washer Pump Head Assembly',
-        category: 'pressure-washer-accessories',
+        category: 'pressure-washers-accessories',
         group: 'cleaning and garden supplies',
         parentCategory: 'pressure washers',
         brand: 'Generic',
@@ -6095,7 +6099,7 @@ User Manual
     {
         id: 22097,
         name: 'Garden Hose Quick Connector Set (3PCS)',
-        category: 'pressure-washer-accessories',
+        category: 'pressure-washers-accessories',
         group: 'cleaning and garden supplies',
         parentCategory: 'pressure washers',
         brand: 'Generic',
@@ -6315,7 +6319,7 @@ Accessories Included:
     {
         id: 22101,
         name: 'Engine Cleaning Spray Gun with 40cm Nozzle & 1.2m Siphon Hose',
-        category: 'pressure-washer-accessories',
+        category: 'pressure-washers-accessories',
         group: 'cleaning and garden supplies',
         parentCategory: 'pressure washers',
         showSimilar: true,

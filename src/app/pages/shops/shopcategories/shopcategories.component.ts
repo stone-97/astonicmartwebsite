@@ -4,6 +4,7 @@ import { SearchService } from '../../../core/services/search.service';
 import { Product } from '../../../core/models/Product';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PaginationService } from '../../../core/services/pagination.service';
+import { SeoService } from '../../../core/services/seo.service';
 
 
 interface CategoryItem {
@@ -44,6 +45,7 @@ export class ShopcategoriesComponent implements OnInit {
 
   constructor(private searchService: SearchService,
     private route: ActivatedRoute, private router: Router,
+    private seoService: SeoService,
     public paginationService: PaginationService) { }
   goToPagination() {
     this.router.navigate(['/pagnation']);
@@ -55,6 +57,12 @@ export class ShopcategoriesComponent implements OnInit {
     this.uniqueBrands = [
       ...new Set(this.products.map(p => p.brand))
     ].sort();
+
+    this.seoService.updateSeo(
+      'Safety Equipment & Industrial Tools',
+      'Shop safety equipment, PPE, power tools, industrial tools and construction equipment at Astonic Mart. Find quality products for professionals, businesses and industrial applications across Nigeria.',
+      '/shopcategories'
+    );
 
     // Single subscription for query params
     this.route.queryParams.subscribe(queryParams => {
@@ -212,14 +220,14 @@ export class ShopcategoriesComponent implements OnInit {
 
 
   featuredBrands = [
-    { name: 'Ingco', link: '/brand/ingco' },
-    { name: 'Total', link: '/brand/total' },
-    { name: 'Bosch', link: '/brand/bosch' },
-    { name: '3M', link: '/brand/3m' },
-    { name: 'Stanley', link: '/brand/stanley' },
-    { name: 'Edon', link: '/brand/edon' },
-    { name: 'Tolsen', link: '/brand/tolsen' },
-    { name: 'Makita', link: '/brand/makita' }
+    { name: 'Ingco', link: '/pagination?brand=Ingco' },
+    { name: 'Total', link: '/pagination?brand=Total' },
+    { name: 'Bosch', link: '/pagination?brand=Bosch' },
+    { name: '3M', link: '/pagination?brand=3M' },
+    { name: 'Stanley', link: '/pagination?brand=Stanley' },
+    { name: 'Edon', link: '/pagination?brand=Edon' },
+    { name: 'Tolsen', link: '/pagination?brand=Tolsen' },
+    { name: 'Makita', link: '/pagination?brand=Makita' }
   ];
 
   // safety ppes
@@ -245,15 +253,15 @@ export class ShopcategoriesComponent implements OnInit {
 
 
   ppeBrands = [
-    { name: "Beta", link: "/beta" },
-    { name: "Dickies", link: "/dickies" },
-    { name: "Portwest", link: "/portwest" },
-    { name: "Redwings", link: "/redwings" },
-    { name: "Safety Jogger", link: "/safetyjogger" },
-    { name: "Super Steel", link: "/supersteel" },
-    { name: "3M", link: "/threem" },
-    { name: "MSA safety", link: "/msa" },
-    { name: "Uvex", link: "/uvex" }
+    { name: "Beta", link: "/pagination?brand=Beta&parentCategory=ppe" },
+    { name: "Dickies", link: "/pagination?brand=Dickies&parentCategory=ppe" },
+    { name: "Portwest", link: "/pagination?brand=Portwest&parentCategory=ppe" },
+    { name: "Redwings", link: "/pagination?brand=Redwings&parentCategory=ppe" },
+    { name: "Safety Jogger", link: "/pagination?brand=Safety%20Jogger&parentCategory=ppe" },
+    { name: "Super Steel", link: "/pagination?brand=Super%20Steel&parentCategory=ppe" },
+    { name: "3M", link: "/pagination?brand=3M&parentCategory=ppe" },
+    { name: "MSA safety", link: "/pagination?brand=MSA%20safety&parentCategory=ppe" },
+    { name: "Uvex", link: "/pagination?brand=Uvex&parentCategory=ppe" }
   ];
 
   ppeClothing = [
@@ -405,13 +413,13 @@ export class ShopcategoriesComponent implements OnInit {
       { name: 'Industrial Pressure Washers', link: '/industrialpressurewashers' },
       { name: 'Cordless Pressure Washers', link: '/cordlesspressurewashers' }
     ],
-    brands: [
-      { name: 'Ingco', link: '/ingco' },
-      { name: 'Bosch', link: '/bosch' },
-      { name: 'Maxmech', link: '/maxmech' },
-      { name: 'Karcher', link: '/karcher' },
-       { name: 'Total', link: '/total' }
-    ],
+   brands: [
+  { name: 'Ingco', link: '/pagination?brand=Ingco&parentCategory=pressure-washers' },
+  { name: 'Bosch', link: '/pagination?brand=Bosch&parentCategory=pressure-washers' },
+  { name: 'Maxmech', link: '/pagination?brand=Maxmech&parentCategory=pressure-washers' },
+  { name: 'Karcher', link: '/pagination?brand=Karcher&parentCategory=pressure-washers' },
+  { name: 'Total', link: '/pagination?brand=Total&parentCategory=pressure-washers' }
+],
     accessories: {
       name: 'Pressure Washer Accessories',
       link: '/pressurewashersaccessories'
@@ -423,13 +431,11 @@ export class ShopcategoriesComponent implements OnInit {
     { name: 'Electric Blowers', link: '/electricblowers' },
     { name: 'Gasoline Blowers', link: '/gasolineblowers' }
   ];
-
   blowerBrands = [
-    { name: 'Bosch', link: '/bosch-blowers' },
-    // { name: 'Makita', link: '/makita-blowers' },
-    { name: 'Ingco', link: '/ingco-blowers' },
-    { name: 'Total', link: '/total-blowers' }
-  ];
+    { name: 'Bosch', link: '/bosch-blowers' },   
+    { name: 'Makita', link: '/makita-blowers' },
+    { name: 'Ingco', link: '/ingco-blowers' },     
+   { name: 'Total', link: '/total-blowers' }   ];
 
 
 
@@ -886,9 +892,9 @@ export class ShopcategoriesComponent implements OnInit {
         { name: 'Industrial Vacuum Cleaners', link: '/industrialvacuumcleaners' }
       ],
       brands: [
-        { name: 'Ingco', link: '/ingco' },
-        { name: 'Total', link: '/total' },
-        { name: 'Bosch', link: '/bosch' }
+        { name: 'Ingco', link: '/pagination?brand=Ingco&parentCategory=vacuum%20cleaners' },
+        { name: 'Total', link: '/pagination?brand=Total&parentCategory=vacuum%20cleaners' },
+        { name: 'Bosch', link: '/pagination?brand=Bosch&parentCategory=vacuum%20cleaners' }
       ]
     },
 
@@ -898,9 +904,9 @@ export class ShopcategoriesComponent implements OnInit {
         { name: 'Electric And Cordless Lawn Mowers', link: '/electricandcordlesslawnmowers' }
       ],
       brands: [
-        { name: 'Ingco', link: '/ingco' },
-        { name: 'Total', link: '/total' },
-        { name: 'Prince Garden', link: '/princegarden' }
+        { name: 'Ingco', link: '/pagination?brand=Ingco&parentCategory=lawn%20mowers' },
+        { name: 'Total', link: '/pagination?brand=Total&parentCategory=lawn%20mowers' },
+        { name: 'Prince Garden', link: '/pagination?brand=Prince%20Garden&parentCategory=lawn%20mowers' }
       ]
     },
 
@@ -910,9 +916,9 @@ export class ShopcategoriesComponent implements OnInit {
         { name: 'Cordless Brush Cutters', link: '/cordlessbrushcutters' }
       ],
       brands: [
-        { name: 'Ingco', link: '/ingco' },
-        { name: 'Total', link: '/total' },
-        { name: 'Maxmech', link: '/maxmech' }
+        { name: 'Ingco', link: '/pagination?brand=Ingco&parentCategory=brush-cutter' },
+        { name: 'Total', link: '/pagination?brand=Total&parentCategory=brush-cutter' },
+        { name: 'Maxmech', link: '/pagination?brand=Maxmech&parentCategory=brush-cutter' }
       ],
       accessories: { name: 'Brush Cutter Accessories', link: '/brushcutteraccessories' }
     }

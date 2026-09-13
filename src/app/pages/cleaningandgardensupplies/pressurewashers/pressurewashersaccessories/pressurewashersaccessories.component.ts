@@ -39,7 +39,7 @@ export class PressurewashersaccessoriesComponent {
     // load electric pressure washer products only
     this.products =
       this.SearchService.getProductsByCategory(
-        'pressure-washer-accessories');
+        'pressure-washers-accessories');
 
     // default view
     this.filteredProducts = [...this.products];

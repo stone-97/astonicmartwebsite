@@ -36,7 +36,7 @@ export class ElectricrotaryhammerdrillsComponent {
     // load electric pressure washer products only
     this.products =
       this.SearchService.getProductsByCategory(
-        'electric-rotary-hammer-drills');
+        'electrical-rotary-hammer-drills');
 
     // default view
     this.filteredProducts = [...this.products];

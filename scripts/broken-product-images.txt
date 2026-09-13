@@ -1,0 +1,78 @@
+Product ID: 19006
+Title: INGCO Industrial Soft Grip Handle Wheelbarrow 90L (HHWB64018G)
+Reason: Could not load image
+Content-Type: Unknown
+Image: 
+----------------------------------------
+Product ID: 19008
+Title: Rod Bender - 50mm
+Reason: Could not load image
+Content-Type: Unknown
+Image: src/https://res.cloudinary.com/taus5tit/image/upload/v1786311457/Astonic-Mart/Products/rebar%20machines/rod_benders_50mm.webp
+----------------------------------------
+Product ID: 19010
+Title: SGT KNOTS Twisted ProManila Rope ΓÇô 1.25&quot; x 10ft (Tan)
+Reason: Could not load image
+Content-Type: Unknown
+Image: 
+----------------------------------------
+Product ID: 13084
+Title: TOTAL Fiberglass Measuring Tape 30M (TMTF12306)
+Reason: HTTP 404
+Content-Type: image/gif
+Image: https://res.cloudinary.com/taus5tit/image/upload/v1786308933/Astonic-Mart/Products/measuring%20tapes/total_fibreglass_meauring_tape_30m.jpg-4.jpg
+----------------------------------------
+Product ID: 94
+Title: MAXMECH Jig Saw Machine 650W
+Reason: HTTP 404
+Content-Type: application/octet-stream
+Image: https://res.cloudinary.com/taus5tit/image/upload/v1786308512/Astonic-Mart/Products/jig%20saws%20and%20recip%20saws/Maxmech_Jig_Saw_Machine.jpg-5.jpg
+----------------------------------------
+Product ID: 96
+Title: INGCO Electric Router 1600W (RT160028)
+Reason: HTTP 404
+Content-Type: image/gif
+Image: https://res.cloudinary.com/taus5tit/image/upload/v1786328593/Astonic-Mart/Products/routers/ingco_eletric_router-1600w_RT160028-3.webp
+----------------------------------------
+Product ID: 141
+Title: 50mm Magnetic Drill
+Reason: HTTP 404
+Content-Type: application/octet-stream
+Image: https://res.cloudinary.com/taus5tit/image/upload/v1786306056/Astonic-Mart/Products/drills/50mm_magnetic_drills.jpg-4.avif
+----------------------------------------
+Product ID: 156
+Title: Bosch PRO GHG 180 Heat Gun
+Reason: HTTP 404
+Content-Type: image/gif
+Image: https://res.cloudinary.com/taus5tit/image/upload/v1786307697/Astonic-Mart/Products/heatguns/bosch_heat_guns.jpg-4.webp
+----------------------------------------
+Product ID: 2021
+Title: Safety Jogger SAREK Anti-Fog Safety Goggles
+Reason: Could not load image
+Content-Type: Unknown
+Image: /https://res.cloudinary.com/taus5tit/image/upload/v1786328654/Astonic-Mart/Products/safety%20eye%20google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles-2.webp
+----------------------------------------
+Product ID: 2094
+Title: Work Racer Cold Room Jacket and Trouser
+Reason: HTTP 404
+Content-Type: application/octet-stream
+Image: https://res.cloudinary.com/taus5tit/image/upload/v1786305379/Astonic-Mart/Products/cold%20room%20wears/cold_jack_and_trouser.png-2.png
+----------------------------------------
+Product ID: 2244
+Title: TOTAL TSP6011 Heavy Duty Workwear Jacket
+Reason: Could not load image
+Content-Type: Unknown
+Image: src/https://res.cloudinary.com/taus5tit/image/upload/v1786305642/Astonic-Mart/Products/coveralls/total_tsp6011_workwear_top.webp
+----------------------------------------
+Product ID: 9025
+Title: 3 Step ΓÇô 8 Step Aluminium Step Ladder
+Reason: Could not load image
+Content-Type: Unknown
+Image: /https://res.cloudinary.com/taus5tit/image/upload/v1786308562/Astonic-Mart/Products/ladders/aluminium-step-ladders-1.jpg
+----------------------------------------
+Product ID: 9031
+Title: Radiator Pressure Leakage Tester Tool Kit 14PCS
+Reason: Could not load image
+Content-Type: Unknown
+Image: /https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp
+----------------------------------------

@@ -1,6 +1,7 @@
 import { Injectable, Inject, PLATFORM_ID } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { isPlatformBrowser } from '@angular/common';
+import { AnalyticsService } from './analytics.service';
 
 export interface CartItem {
   id: number;
@@ -21,7 +22,8 @@ export class CartService {
   cart$ = this.cartSubject.asObservable();
 
   constructor(
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) private platformId: Object,
+    private analyticsService: AnalyticsService
   ) {
     this.loadCart();
   }
@@ -60,6 +62,17 @@ export class CartService {
     }
 
     this.saveCart();
+
+    this.analyticsService.event('add_to_cart', {
+      currency: 'NGN',
+      value: item.price * item.quantity,
+      items: [{
+        item_id: item.id.toString(),
+        item_name: item.name,
+        price: item.price,
+        quantity: item.quantity
+      }]
+    });
   }
 
   increaseQty(id: number) {

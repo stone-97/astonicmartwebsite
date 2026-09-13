@@ -86,17 +86,17 @@ $(document).ready(function(){
     /*=================================
     Javascript for exclusive area carousel
     ==================================*/
-    if (window.innerWidth > 576) {
-        $(".active-exclusive-product-slider").owlCarousel({
-            items: 1,
-            autoplay: false,
-            autoplayTimeout: 5000,
-            loop: true,
-            nav: true,
-            navText: ["<img src='img/product/prev.png'>","<img src='img/product/next.png'>"],
-            dots: false
-        });
-    }
+    // if (window.innerWidth > 576) {
+    //     $(".active-exclusive-product-slider").owlCarousel({
+    //         items: 1,
+    //         autoplay: false,
+    //         autoplayTimeout: 5000,
+    //         loop: true,
+    //         nav: true,
+    //         navText: ["<img src='img/product/prev.png'>","<img src='img/product/next.png'>"],
+    //         dots: false
+    //     });
+    // }
     //--------- Accordion Icon Change ---------//
 
     $('.collapse').on('shown.bs.collapse', function(){

@@ -5,6 +5,7 @@ import * as emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import Country from 'country-state-city/lib/country';
 import State from 'country-state-city/lib/state';
+import { AnalyticsService } from '../../../core/services/analytics.service';
 
 @Component({
   selector: 'app-productcheckout',
@@ -45,7 +46,8 @@ export class ProductcheckoutComponent implements OnInit {
 
   constructor(
     private cartService: CartService,
-    private router: Router
+    private router: Router,
+    private analyticsService: AnalyticsService
   ) { }
 
 
@@ -172,6 +174,17 @@ export class ProductcheckoutComponent implements OnInit {
       this.sendEmailsAfterPayment('Pay on Delivery');
 
       this.orderPlaced = true;
+
+      this.analyticsService.purchase(
+        this.orderId,
+        this.totalAmount,
+        this.cartItems.map(item => ({
+          item_id: item.id?.toString(),
+          item_name: item.name,
+          quantity: item.quantity,
+          price: item.price
+        }))
+      );
       Swal.fire('Success', 'Order placed (Pay on Delivery)', 'success');
 
       // ✅ SAVE ORDER
@@ -219,6 +232,7 @@ export class ProductcheckoutComponent implements OnInit {
 
       // Send email to admin and customer
       this.sendEmailsAfterPayment('International Quote Requested');
+      this.analyticsService.generateLead(this.totalAmount);
 
       Swal.fire(
         'Request Submitted',
@@ -422,6 +436,19 @@ export class ProductcheckoutComponent implements OnInit {
               paymentChannel:
                 verification.channel
             };
+
+
+            // GA4: Successful purchase
+            this.analyticsService.purchase(
+              this.orderId,
+              totalAmount,
+              this.cartItems.map(item => ({
+                item_id: item.id?.toString(),
+                item_name: item.name,
+                quantity: item.quantity,
+                price: item.price
+              }))
+            );
 
             // Send email only AFTER verification
             await this.sendEmailsAfterPayment(

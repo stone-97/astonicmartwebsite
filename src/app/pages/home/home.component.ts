@@ -1,10 +1,10 @@
-import {
-  Component, AfterViewInit, Inject, PLATFORM_ID,} from '@angular/core';
+import {Component, AfterViewInit, Inject, PLATFORM_ID,} from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { SearchService } from '../../core/services/search.service';
 import { Product } from '../../core/models/Product';
 import { Router } from '@angular/router';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { SeoService } from '../../core/services/seo.service';
 declare var $: any;
 @Component({
   selector: 'app-home',
@@ -76,12 +76,22 @@ selectedPreviewImage: string | null = null;
     private sanitizer: DomSanitizer,
     private searchService: SearchService,
     private router: Router,
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) private platformId: Object,
+    private seoService: SeoService
   ) { }
   ngAfterViewInit(): void {
+
+    
     if (!isPlatformBrowser(this.platformId)) {
       return;
     }
+
+    this.seoService.updateSeo(
+      'Safety Equipment, PPE & Industrial Tools in Nigeria',
+      'Discover quality safety equipment, PPE, power tools, industrial tools and construction equipment at Astonic Mart. Shop trusted products for professionals, businesses and industrial applications across Nigeria.',
+      '/'
+    );
+    
     this.dealsOfWeek = this.searchService.getDealsOfWeek();
     this.carouselProducts = [
       this.searchService.getProductById(1),
@@ -114,30 +124,29 @@ selectedPreviewImage: string | null = null;
       ...this.carouselProducts
     ];
     this.latestProducts = [
-      this.searchService.getProductById(1),
+      this.searchService.getProductById(139),
       this.searchService.getProductById(2),
       this.searchService.getProductById(3),
-      this.searchService.getProductById(4),
-      this.searchService.getProductById(5),
+      this.searchService.getProductById(54),
+      this.searchService.getProductById(30002),
       this.searchService.getProductById(6),
       this.searchService.getProductById(7),
-      this.searchService.getProductById(8)
+      this.searchService.getProductById(30015)
     ].filter(Boolean) as Product[];
     this.comingProducts = [
       this.searchService.getProductById(9),
       this.searchService.getProductById(10),
       this.searchService.getProductById(11),
       this.searchService.getProductById(12),
-      this.searchService.getProductById(13),
+      this.searchService.getProductById(22096),
       this.searchService.getProductById(14),
       this.searchService.getProductById(15),
       this.searchService.getProductById(16)
     ].filter(Boolean) as Product[];
+
     setTimeout(() => {
-      if (window.innerWidth <= 576) {
-        return;
-      }
       const slider = $('.active-exclusive-product-slider');
+
       if (slider.hasClass('owl-loaded')) {
         slider.trigger('destroy.owl.carousel');
         slider.removeClass('owl-loaded');
@@ -147,9 +156,15 @@ selectedPreviewImage: string | null = null;
         items: 1,
         loop: true,
         autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: false,
         nav: true,
+        navText: ['‹', '›'],
         dots: false,
-        smartSpeed: 900
+        smartSpeed: 900,
+        mouseDrag: true,
+        touchDrag: true,
+        pullDrag: true
       });
     }, 900);
     this.startCounters();

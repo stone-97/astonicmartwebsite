@@ -311,6 +311,26 @@
   font-weight: bold;
 }
 
+/* Discount price in search suggestions */
+.suggestion-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.suggestion-price .discount-price {
+  color: #28a745;
+  font-weight: 700;
+}
+
+.suggestion-price .original-price {
+  color: #999;
+  font-size: 13px;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+
 .no-results {
   padding: 20px;
   text-align: center;

@@ -22,18 +22,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { ProductdetailsComponent } from './pages/shops/productdetails/productdetails.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { BybrandsComponent } from './pages/ppe/bybrands/bybrands.component';
-import { BetaComponent } from './pages/ppe/bybrands/beta/beta.component';
-import { DickiesComponent } from './pages/ppe/bybrands/dickies/dickies.component';
-import { PortwestComponent } from './pages/ppe/bybrands/portwest/portwest.component';
-import { RedwingsComponent } from './pages/ppe/bybrands/redwings/redwings.component';
-import { SupersteelComponent } from './pages/ppe/bybrands/supersteel/supersteel.component';
 import { PPeComponent } from './pages/ppe/ppe.component';
-import { BoschComponent } from './pages/powertools/bybrands/bosch/bosch.component';
-import { IngcoComponent } from './pages/powertools/bybrands/ingco/ingco.component';
-import { MakitaComponent } from './pages/powertools/bybrands/makita/makita.component';
-import { MaxmechComponent } from './pages/powertools/bybrands/maxmech/maxmech.component';
-import { StanleyComponent } from './pages/powertools/bybrands/stanley/stanley.component';
-import { TotalComponent } from './pages/powertools/bybrands/total/total.component';
 import { CuttingmachinesComponent } from './pages/powertools/bycategories/cuttingmachines/cuttingmachines.component';
 import { DrillsComponent } from './pages/powertools/bycategories/drills/drills.component';
 import { GrindersComponent } from './pages/powertools/bycategories/grinders/grinders.component';
@@ -49,7 +38,6 @@ import { PufoamsealantsComponent } from './pages/sealantadhesive/pufoamsealants/
 import { SiliconesealantsComponent } from './pages/sealantadhesive/siliconesealants/siliconesealants.component';
 import { TilesadhesivesComponent } from './pages/sealantadhesive/tilesadhesives/tilesadhesives.component';
 import { GluesComponent } from './pages/sealantadhesive/glues/glues.component';
-import { DewaltComponent } from './pages/powertools/bybrands/dewalt/dewalt.component';
 import { ContactadhesivesComponent } from './pages/sealantadhesive/contactadhesives/contactadhesives.component';
 import { TrafficsafetyComponent } from './pages/fireandtrafficsafety/trafficsafety/trafficsafety.component';
 import { FiresafetyComponent } from './pages/fireandtrafficsafety/firesafety/firesafety.component';
@@ -96,9 +84,6 @@ import { DumpinglevelsComponent } from './pages/measuringandtesting/leveltools/d
 import { LaserlevelsComponent } from './pages/measuringandtesting/leveltools/laserlevels/laserlevels.component';
 import { SpiritlevelsComponent } from './pages/measuringandtesting/leveltools/spiritlevels/spiritlevels.component';
 import { SurveytripodsComponent } from './pages/measuringandtesting/leveltools/surveytripods/surveytripods.component';
-import { SafetyjoggersComponent } from './pages/ppe/bybrands/safetyjoggers/safetyjoggers.component';
-import { ThreeMComponent } from './pages/ppe/bybrands/three-m/three-m.component';
-import { UvexComponent } from './pages/ppe/bybrands/uvex/uvex.component';
 import { BycategoryComponent } from './pages/cleaningandgardensupplies/pressurewashers/bycategory/bycategory.component';
 import { PowertoolsComponent } from './pages/powertools/powertools.component';
 import { CordeddrillsComponent } from './pages/powertools/bycategories/drills/cordeddrills/cordeddrills.component';
@@ -181,13 +166,11 @@ import { WaterandpumphoseComponent } from './pages/cleaningandgardensupplies/hos
 import { LawnmowersComponent } from './pages/cleaningandgardensupplies/lawnmowers/lawnmowers.component';
 import { ElectricandcordlesslawnmowerComponent } from './pages/cleaningandgardensupplies/lawnmowers/bycategory/electriclandcordlessawnmower/electriclandcordlessawnmower.component';
 import { GasolinelawnmowerComponent } from './pages/cleaningandgardensupplies/lawnmowers/bycategory/gasolinelawnmower/gasolinelawnmower.component';
-import { PrincegardenComponent } from './pages/cleaningandgardensupplies/lawnmowers/bybrands/princegarden/princegarden.component';
 import { PressurewashersComponent } from './pages/cleaningandgardensupplies/pressurewashers/pressurewashers.component';
 import { CordlesspressurewashersComponent } from './pages/cleaningandgardensupplies/pressurewashers/bycategory/cordlesspressurewashers/cordlesspressurewashers.component';
 import { ElectricpressurewashersComponent } from './pages/cleaningandgardensupplies/pressurewashers/bycategory/electricpressurewashers/electricpressurewashers.component';
 import { IndustrialpressurewashersComponent } from './pages/cleaningandgardensupplies/pressurewashers/bycategory/industrialpressurewashers/industrialpressurewashers.component';
 import { PetrolpressureswashersComponent } from './pages/cleaningandgardensupplies/pressurewashers/bycategory/petrolpressureswashers/petrolpressureswashers.component';
-import { KarcherComponent } from './pages/cleaningandgardensupplies/pressurewashers/bybrands/karcher/karcher.component';
 import { VacuumcleanersComponent } from './pages/cleaningandgardensupplies/vacuumcleaners/vacuumcleaners.component';
 import { IndustrialvacummcleanersComponent } from './pages/cleaningandgardensupplies/vacuumcleaners/bycategory/industrialvacummcleaners/industrialvacummcleaners.component';
 import { CyclonevacuumcleanersComponent } from './pages/cleaningandgardensupplies/vacuumcleaners/bycategory/cyclonevacuumcleaners/cyclonevacuumcleaners.component';
@@ -195,7 +178,6 @@ import { WetanddryvacuumcleanersComponent } from './pages/cleaningandgardensuppl
 import { FarmequipmentsComponent } from './pages/farmequipments/farmequipments.component';
 import { FarmtoolsComponent } from './pages/farmequipments/farmtools/farmtools.component';
 import { FarmmachinesComponent } from './pages/farmequipments/farmmachines/farmmachines.component';
-import { MsaComponent } from './pages/ppe/bybrands/msa/msa.component';
 import { CordlessimpactwrenchesComponent } from './pages/powertools/bycategories/impactwrenches/cordlessimpactwrenches/cordlessimpactwrenches.component';
 import { PnuematicimpactwrenchesComponent } from './pages/powertools/bycategories/impactwrenches/pnuematicimpactwrenches/pnuematicimpactwrenches.component';
 import { ElectricalequipmentsComponent } from './pages/electricalequipments/electricalequipments.component';
@@ -286,7 +268,6 @@ import { PalletetrucksComponent } from './pages/workshopgarage/lifting/palletetr
 import { PalletstackersComponent } from './pages/workshopgarage/lifting/palletstackers/palletstackers.component';
 import { ChainblocksandhoistsComponent } from './pages/workshopgarage/lifting/chainblocksandhoists/chainblocksandhoists.component';
 import { TrolleysComponent } from './pages/workshopgarage/lifting/trolleys/trolleys.component';
-import { EdonComponent } from './pages/powertools/bybrands/edon/edon.component';
 import { SecurityandsurveillanceComponent } from './pages/ppe/bycategory/securityandsurveillance/securityandsurveillance.component';
 import { SecuritygearsComponent } from './pages/ppe/bycategory/securityandsurveillance/securitygears/securitygears.component';
 import { StanchionsComponent } from './pages/ppe/bycategory/securityandsurveillance/stanchions/stanchions.component';
@@ -423,6 +404,7 @@ import { HandgearwinchesComponent } from './pages/handtools/category/handgearwin
 import { GeneralconcreteequipmentComponent } from './pages/constructionequipment/generalconcreteequipment/generalconcreteequipment.component';
 import { GasolinejackhammersComponent } from './pages/powertools/bycategories/jackhammers/gasolinejackhammers/gasolinejackhammers.component';
 import { DippingtapeComponent } from './pages/measuringandtesting/generalmeasuringinstruments/dippingtape/dippingtape.component';
+import { ClothingComponent } from './pages/ppe/bycategory/clothing/clothing.component';
 
 
 
@@ -464,19 +446,10 @@ const routes: Routes = [
   { path: "ppe", component: PPeComponent },
   // bybrands
   { path: "bybrands", component: BybrandsComponent },
-  { path: "beta", component: BetaComponent },
-  { path: "dickies", component: DickiesComponent },
-  { path: "portwest", component: PortwestComponent },
-  { path: "redwings", component: RedwingsComponent },
-  { path: "supersteel", component: SupersteelComponent },
-  { path: "safetyjogger", component: SafetyjoggersComponent },
-  { path: "threem", component: ThreeMComponent },
-  { path: "msa", component: MsaComponent },
-  { path: "uvex", component: UvexComponent },
 
   //  Bycategory
   { path: "bycategory", component: BycategoryComponent },
-  { path: "clothing", component: SupersteelComponent },
+  { path: "clothing", component: ClothingComponent },
   { path: "disposables", component: DisposablesComponent },
   { path: "coveralls", component: CoverallsComponent },
   { path: "fireresistantwears", component: FireresistantwearsComponent },
@@ -524,14 +497,6 @@ const routes: Routes = [
   // powertools
   { path: "powertools", component: PowertoolsComponent },
   { path: "bybrands", component: BybrandsComponent },
-  { path: "bosch", component: BoschComponent },
-  { path: "ingco", component: IngcoComponent },
-  { path: "makita", component: MakitaComponent },
-  { path: "maxmech", component: MaxmechComponent },
-  { path: "stanley", component: StanleyComponent },
-  { path: "total", component: TotalComponent },
-  { path: "dewalt", component: DewaltComponent },
-  { path: "edon", component: EdonComponent },
 
 
 
@@ -629,7 +594,7 @@ const routes: Routes = [
   { path: "lifebuoys", component: LifebuoysComponent },
   { path: "lifejackets", component: LifejacketsComponent },
   { path: "lifevests", component: LifevestsComponent },
-  { path: "marinesafetyequipments", component: MarinesafetyequipmentsComponent },
+  { path: "marinesafetyequipment", component: MarinesafetyequipmentsComponent },
 
   //  safety&traffic
   //  Fire safety
@@ -867,12 +832,6 @@ const routes: Routes = [
 
   //  Bybrands
   { path: "bybrands", component: BybrandsComponent },
-  { path: "bosch", component: BoschComponent },
-  { path: "ingco", component: IngcoComponent },
-  { path: "makita", component: MakitaComponent },
-  { path: "maxmech", component: MaxmechComponent },
-  { path: "stanley", component: StanleyComponent },
-  { path: "total", component: TotalComponent },
 
 
   // Constructionequipment
@@ -913,10 +872,6 @@ const routes: Routes = [
 
   //  Bybrands
   { path: "bybrands", component: BybrandsComponent },
-  { path: "bosch", component: BoschComponent },
-  { path: "ingco", component: IngcoComponent },
-  { path: "maxmech", component: MaxmechComponent },
-  { path: "total", component: TotalComponent },
 
   //  Brushcutters
   { path: "brushcutters", component: BrushcuttersComponent },
@@ -929,9 +884,6 @@ const routes: Routes = [
 
   //  Bybrands
   { path: "bybrands", component: BybrandsComponent },
-  { path: "ingco", component: IngcoComponent },
-  { path: "maxmech", component: MaxmechComponent },
-  { path: "total", component: TotalComponent },
 
 
   //  hose
@@ -948,9 +900,6 @@ const routes: Routes = [
   { path: "electricandcordlesslawnmowers", component: ElectricandcordlesslawnmowerComponent },
   { path: "gasolinelawnmowers", component: GasolinelawnmowerComponent },
   // Bybrands
-  { path: "ingco", component: IngcoComponent },
-  { path: "princegarden", component: PrincegardenComponent },
-  { path: "total", component: TotalComponent },
 
   { path: "scrubbersandsweepers", component: ScrubbersandsweepersComponent },
   { path: "cleaningaccessories", component: CleaningaccessoriesComponent },
@@ -970,10 +919,6 @@ const routes: Routes = [
 
   //  Bybrands
   { path: "bybrands", component: BybrandsComponent },
-  { path: "ingco", component: IngcoComponent },
-  { path: "maxmech", component: MaxmechComponent },
-  { path: "total", component: TotalComponent },
-  { path: "karcher", component: KarcherComponent },
 
   //  Vacuumcleaners
   { path: "vacuumecleaners", component: VacuumcleanersComponent },
@@ -985,8 +930,6 @@ const routes: Routes = [
 
   //  Bybrands
   { path: "bybrands", component: BybrandsComponent },
-  { path: "ingco", component: IngcoComponent },
-  { path: "total", component: TotalComponent },
 
   //  Farmequipments
   { path: "farmequipments", component: FarmequipmentsComponent },

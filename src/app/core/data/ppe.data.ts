@@ -60,7 +60,7 @@ export const PPE_PRODUCTS: Product[] = [
         category: 'Hand-gloves',
         group: 'ppe',
         brand: 'Mechanix',
-        price: 42000,
+        price: 18000,
 
         sizes: ['M', 'L', 'XL', 'XXL', 'XXXL'],
         colors: [
@@ -943,8 +943,9 @@ Items Included in the Package:
         group: 'safety ppe',
         brand: 'Safety Jogger',
         price: 32000,
-        images: ['/https://res.cloudinary.com/taus5tit/image/upload/v1786328654/Astonic-Mart/Products/safety%20eye%20google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles-2.webp',
-            'shttps://res.cloudinary.com/taus5tit/image/upload/v1786328651/Astonic-Mart/Products/safety%20eye%20google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles.webp',
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328654/Astonic-Mart/Products/safety%20eye%20google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786328651/Astonic-Mart/Products/safety%20eye%20google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles.webp',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786328651/Astonic-Mart/Products/safety%20eye%20google/Safety-Jogger-SAREK-Anti-Fog-Safety-Goggles.webp-3.png'
 
         ],
@@ -1554,7 +1555,7 @@ Items Included in the Package:
         category: 'emergency-eye-wash',
         group: 'safety ppe',
         brand: 'Generic',
-        price: 350000,
+        price: 358000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786306445/Astonic-Mart/Products/eye%20wash%20station/emergency_eye_wash_station.jpg2.webp',
@@ -2408,7 +2409,7 @@ Items Included in the Package:
         parentCategory: 'head protections',
         group: 'safety ppe',
         brand: 'TOTAL',
-        price: 55000,
+        price: 65000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786307722/Astonic-Mart/Products/helmets%20and%20faceshield/1TOTAL_TSP9103-Auto-Darkening-Welding-Helmet.jpg',
@@ -2450,8 +2451,8 @@ Items Included in the Package:
   Solar-powered with backup battery for reliability
   `,
 
-        jumiaLink: 'https://www.jumia.com.ng/catalog/?q=total+welding+helmet',
-        kongaLink: 'https://www.konga.com/search?search=total+welding+helmet'
+        jumiaLink: 'https://www.jumia.com.ng/total-tsp9103-auto-darkening-welding-helmet-419427415.html',
+        kongaLink: ''
     },
 
 
@@ -4884,10 +4885,10 @@ Reliable workplace safety protection`
         parentCategory: 'clothing',
         brand: 'Work Racer',
         model: 'WR-CRJT',
-        price: 85000,
+        price: 95000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786305379/Astonic-Mart/Products/cold%20room%20wears/cold_jack_and_trouser.png-2.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786068007/cold_jack_and_trouser.jpeg-2_uam8am.png',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786305379/Astonic-Mart/Products/cold%20room%20wears/cold_jack_and_trouser.png',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786305510/Astonic-Mart/Products/cold%20room%20wears/cold_room_jacket.jpg-2.png',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786305510/Astonic-Mart/Products/cold%20room%20wears/cold_room_jacket.jpg-3.webp',
@@ -13986,7 +13987,7 @@ User Manual
         discountPrice: 43000,
 
         images: [
-            'src/https://res.cloudinary.com/taus5tit/image/upload/v1786305642/Astonic-Mart/Products/coveralls/total_tsp6011_workwear_top.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786305642/Astonic-Mart/Products/coveralls/total_tsp6011_workwear_top.webp'
         ],
 
         description:
@@ -14247,13 +14248,13 @@ Reliable performance for emergency exit and fire safety systems
     {
         id: 2249,
         name: 'NF-604 Halogen Gas Detector',
-        category: 'gas-detectors',
-        group: 'Measuring And Testing',
-        parentCategory: 'testing instruments',
+       category: 'gas-detectors',
+        group: 'safety ppe',
         brand: 'NOYAFA',
-        price: 150000,
-        discountPrice: 165000,
-
+        price: 130000,
+        discountPrice: 120000,
+        showSimilar: true,
+                            model: 'Generic',
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786306765/Astonic-Mart/Products/gas%20detectors/NF-604_Halogen_Gas_Detector.jpg',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786306766/Astonic-Mart/Products/gas%20detectors/NF-604_Halogen_Gas_Detector-2.jpg',
@@ -14267,7 +14268,7 @@ Reliable performance for emergency exit and fire safety systems
         videos: [],
 
         inStock: true,
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/noyafa-nf-604-halogen-gas-detector-refrigerant-leak-detector-with-flexible-probe-419920184.html',
         kongaLink: '',
 
         description: `The NOYAFA NF-604 Halogen Gas Detector is a professional refrigerant leak detector designed for HVAC technicians, refrigeration engineers, and industrial maintenance professionals. It accurately detects halogen refrigerant leaks in air conditioning systems, refrigeration equipment, gas pipelines, and fire suppression systems. Featuring a high-sensitivity semiconductor sensor, flexible gooseneck probe, color display, and triple alarm system (audible, visual, and vibration), the NF-604 delivers fast and reliable leak detection in demanding environments.`,

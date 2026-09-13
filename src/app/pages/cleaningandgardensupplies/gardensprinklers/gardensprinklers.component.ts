@@ -4,13 +4,14 @@ import { SearchService } from '../../../core/services/search.service';
 import { Category } from '../../../core/models/category.model';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PaginationService } from '../../../core/services/pagination.service';
+import { SeoService } from '../../../core/services/seo.service';
 
 @Component({
   selector: 'app-gardensprinklers',
   templateUrl: './gardensprinklers.component.html',
   styleUrl: './gardensprinklers.component.css'
 })
-export class GardensprinklersComponent {
+export class GardensprinklersComponent implements OnInit {
 
   dealsOfWeek: Product[] = [];
 
@@ -27,11 +28,17 @@ export class GardensprinklersComponent {
     (private SearchService: SearchService,
       private route: ActivatedRoute,
       private router: Router,
+        private seoService: SeoService,
       public paginationService: PaginationService) { }
 
 
   ngOnInit() {
 
+    this.seoService.updateSeo(
+      'Garden Sprinklers in Nigeria',
+      'Shop quality garden sprinklers at Astonic Mart. Browse reliable garden irrigation and watering equipment available across Nigeria.',
+      '/garden-sprinklers'
+    );
     // load electric pressure washer products only
     this.products =
       this.SearchService.getProductsByCategory(

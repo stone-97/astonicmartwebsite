@@ -543,7 +543,7 @@ Equipped with strong wheels for smooth movement, this pallet truck enhances prod
         group: 'Workshop And Garage',
         parentCategory: 'lifting',
         brand: 'Generic',
-        price: 190000,
+        price: 185000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308274/Astonic-Mart/Products/jack%20%20and%20lifts/hydraulic_floor_jack_3T.jpg',
@@ -1290,7 +1290,7 @@ These extension ladders are essential tools for professionals and homeowners who
 
     {
         id: 9025,
-        name: '3 Step ΓÇô 8 Step Aluminium Step Ladder',
+        name: '3 Step 8 Step Aluminium Step Ladder',
         category: 'step-ladders',
         group: 'Workshop And Garage',
         parentCategory: 'ladders',
@@ -1307,8 +1307,10 @@ These extension ladders are essential tools for professionals and homeowners who
         ],
 
         images: [
-            '/https://res.cloudinary.com/taus5tit/image/upload/v1786308562/Astonic-Mart/Products/ladders/aluminium-step-ladders-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786308562/Astonic-Mart/Products/ladders/aluminium-step-ladders-1.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786134799/aluminium-step-ladders-1.jpg2_rfssir.jpg',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786308564/Astonic-Mart/Products/ladders/aluminium-step-ladders-1.jpg3.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786134799/aluminium-step-ladders-1.jpg2_rfssir.jpg'
         ],
 
         inStock: true,
@@ -1352,7 +1354,7 @@ The foldable design allows for easy storage in tight spaces, making it a conveni
 
     {
         id: 9026,
-        name: '4 Step ΓÇô 8 Step Fibreglass Step Ladder (Non-Conductive)',
+        name: '4 Step 8 Step Fibreglass Step Ladder (Non-Conductive)',
         category: 'step-ladders',
         group: 'Workshop And Garage',
         parentCategory: 'ladders',
@@ -1678,17 +1680,17 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
         discountPrice: 145000,
 
         images: [
-            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp',
-            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-2.webp',
-            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-3.webp',
-            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-4.webp',
-            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-5.webp',
-            '/https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-6.webp'
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-2.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-3.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-4.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-5.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786310818/Astonic-Mart/Products/pressure%20kits/radiator_tester_kits.webp-6.webp'
 
 
         ],
 
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/generic-radiator-pressure-tester-14pcs-kit-419467933.html',
         kongaLink: '',
 
         inStock: true,
@@ -1920,8 +1922,8 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
 
         brand: 'Generic',
 
-        price: 80000,
-        discountPrice: 75000,
+        price: 89000,
+        discountPrice: 83000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786324208/Astonic-Mart/Products/drills/tools_box_kit_set_with_electric_drill_13mm_machine.jpg-3.jpeg',
@@ -1933,7 +1935,7 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
             'https://www.youtube.com/watch?v=5tR2L9pW6xA'
         ],
 
-        jumiaLink: 'https://www.jumia.com.ng/tools-box-kit-set-with-electric-drill-13mm-machine-generic-mpg11971789.html',
+        jumiaLink: 'https://www.jumia.com.ng/generic-tools-box-kit-set-with-13mm-electric-drill-machine-complete-home-professional-tool-kit-419396941.html',
         kongaLink: '',
 
         inStock: true,
@@ -7069,8 +7071,8 @@ Long service life
         brand: 'DASS',
         model: '15L Grease Bucket',
 
-        price: 48000,
-        discountPrice: 45000,
+        price: 480000,
+        discountPrice: 450000,
 
         capacity: '15 Litres',
 
@@ -7122,8 +7124,8 @@ Reliable lubrication performance
         group: 'Workshop And Garage',
         brand: 'DASS',
         model: '20L Grease Bucket',
-        price: 62000,
-        discountPrice: 59000,
+        price: 620000,
+        discountPrice: 590000,
         capacity: '20 Litres',
 
         images: [
@@ -7236,7 +7238,7 @@ Ideal for home and commercial use
 
         brand: 'TOTAL',
         model: 'THT118302',
-
+    
         price: 320000,
         discountPrice: 285000,
 
@@ -7248,6 +7250,11 @@ Ideal for home and commercial use
             'https://res.cloudinary.com/taus5tit/image/upload/v1786307367/Astonic-Mart/Products/grease%20buckets/TOTAL_THT118302_Grease_Bucket-3.jpg',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786307368/Astonic-Mart/Products/grease%20buckets/TOTAL_THT118302_Grease_Bucket-4.jpg'
         ],
+
+        
+    jumiaLink: 'https://www.jumia.com.ng/total-tht118302-pnuematic-grease-bucket-419427289.html',
+                                                        kongaLink: '',
+
 
         inStock: true,
         showSimilar: true,
@@ -7576,24 +7583,24 @@ Professional-grade performance
 
     {
         id: 9129,
-        name: '750lbs Engine Stand with 360┬░ Rotating Head',
+        name: '750lbs Engine Stand with 360T Rotating Head',
         category: 'jack-and-lifts',
         group: 'Workshop And Garage',
         parentCategory: 'lifting',
         brand: 'Generic',
-        price: 330000,
+        price: 370000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429789/Astonic-Mart/Products/remaining-local-images/oqju7gtkjildtfnlwmm0.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429791/Astonic-Mart/Products/remaining-local-images/bpj3j5kak6zu7snjtxgl.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429794/Astonic-Mart/Products/remaining-local-images/knzoj6pgpkec7ffzjwi8.webp',
+
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429807/Astonic-Mart/Products/remaining-local-images/wgg9y7e2e9egv5r51vjg.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786429789/Astonic-Mart/Products/remaining-local-images/oqju7gtkjildtfnlwmm0.webp',            
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429795/Astonic-Mart/Products/remaining-local-images/fh9xybuseotbby0dane7.webp',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429797/Astonic-Mart/Products/remaining-local-images/tny9flieytdlwlixrwk1.webp',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429799/Astonic-Mart/Products/remaining-local-images/n8iuqoltu4zk8t075wgt.webp',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429801/Astonic-Mart/Products/remaining-local-images/vjdunjltppla2veyktpm.webp',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429803/Astonic-Mart/Products/remaining-local-images/jkdoja4yefuct8u8t7bh.webp',
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429805/Astonic-Mart/Products/remaining-local-images/oustps4pkkmq34m8wqkx.webp',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786429807/Astonic-Mart/Products/remaining-local-images/wgg9y7e2e9egv5r51vjg.webp'
+
         ],
 
         inStock: true,

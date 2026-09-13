@@ -40,7 +40,7 @@ export class MarinesafetyequipmentsComponent {
     // load electric pressure washer products only
     this.products =
       this.SearchService.getProductsByCategory(
-        'marine-safety-equipments');
+        'marine-safety-equipment');
 
     // default view
     this.filteredProducts = [...this.products];

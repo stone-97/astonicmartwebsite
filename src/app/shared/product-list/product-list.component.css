@@ -12,7 +12,9 @@
 }
 
 
-
+/* =========================================================
+   PRODUCT CARD
+   ========================================================= */
 
 .single-product {
   height: 100%;
@@ -26,105 +28,41 @@
   object-fit: contain;
 }
 
-.product-details {
-  flex-grow: 1;
+.single-product .product-details {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  gap: 5px;
-}
-
-.single-product .product-details h6 {
-  margin-bottom: 0;
-}
-
-.single-product .price {
-  margin-bottom: 0;
-}
-
-.single-product .prd-bottom {
-  margin-top: 5px;
-}
-
-.single-product .product-details {
   padding: 10px 0;
 }
 
 
-
-
-/* Main Categories (e.g., PPE, Power Tools) */
-.main-nav-list>a {
-  font-size: 15px;
-  font-weight: 200;
-  color: #1a1a1a;
-  /* Dark color for main categories */
-  background-color: #f8f9fa;
-  /* Light background */
-  padding: 10px 15px;
-  display: block;
-  border-left: 3px solid #ffba00;
-  /* Red bar to highlight main category */
-  transition: background-color 0.3s, color 0.3s;
+/* Product name */
+.single-product .product-details h6 {
+  min-height: 42px;
+  margin-bottom: 5px;
+  line-height: 1.3;
 }
 
 
-
-.main-nav-list>a:hover {
-  background-color: #ffba00;
-  /* Hover effect for main category */
-  color: white;
-}
-
-/* Subcategories (child <li>) */
-.main-nav-list.child>a {
-  font-size: 16px;
-  font-weight: 200;
-  color: #333;
-  padding-left: 30px;
-  /* Indent for hierarchy */
-  border-left: 2px solid #041e38;
-  /* Optional left bar to indicate subcat */
-}
-
-.main-nav-list.child>a:hover {
-  background-color: #041e38;
-  color: white;
-}
-
-/* List Items (links inside subcategories) */
-.main-nav-list.child ul li a {
-  font-size: 14px;
-  font-weight: normal;
-  color: #555;
-  padding-left: 45px;
-  /* More indentation for items */
-}
-
-.main-nav-list.child ul li a:hover {
-  color: #f3c50d;
-  /* Hover effect for items */
-  text-decoration: underline;
-}
-
-/* Optional: arrow icon rotation on collapse open */
-a[data-toggle="collapse"]>.lnr-arrow-right {
-  transition: transform 0.3s;
-}
-
-a[data-toggle="collapse"].collapsed>.lnr-arrow-right {
-  transform: rotate(0deg);
-}
-
-a[data-toggle="collapse"]:not(.collapsed)>.lnr-arrow-right {
-  transform: rotate(90deg);
+/* Product name link */
+.single-product .product-details h6 a {
+  color: #041e38;
+  text-decoration: none;
 }
 
 
-.price {
+/* =========================================================
+   PRICE
+   ========================================================= */
+
+.single-product .price {
+  min-height: 24px;
+  margin-bottom: 5px;
+
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .selling-price {
@@ -137,6 +75,164 @@ a[data-toggle="collapse"]:not(.collapsed)>.lnr-arrow-right {
   text-decoration: line-through;
   font-size: 14px;
 }
+
+
+/* =========================================================
+   PRODUCT ACTION ICONS
+   ========================================================= */
+.single-product .prd-bottom {
+  margin-top: 5px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+/* Make all four action buttons exactly equal */
+.single-product .prd-bottom .social-info {
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  max-width: 34px;
+
+  margin: 0;
+  padding: 0;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  border-radius: 50%;
+  background: #041e38;
+  color: #fff;
+
+  text-decoration: none;
+  cursor: pointer;
+
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+
+/* Center every icon inside its circle */
+.single-product .prd-bottom .social-info>span {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fff;
+  font-size: 15px;
+  line-height: 1;
+}
+
+
+/* Hide hover text */
+.single-product .prd-bottom .social-info .hover-text {
+  display: none;
+}
+
+
+/* Hover effect */
+.single-product .prd-bottom .social-info:hover {
+  background: #ffba00;
+}
+
+.single-product .prd-bottom .social-info:hover>span {
+  color: #041e38;
+}
+
+
+/* =========================================================
+   MAIN CATEGORIES
+   ========================================================= */
+
+.main-nav-list>a {
+  font-size: 15px;
+  font-weight: 200;
+  color: #1a1a1a;
+
+  background-color: #f8f9fa;
+
+  padding: 10px 15px;
+
+  display: block;
+
+  border-left: 3px solid #ffba00;
+
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.main-nav-list>a:hover {
+  background-color: #ffba00;
+  color: white;
+}
+
+
+/* =========================================================
+   SUBCATEGORIES
+   ========================================================= */
+
+.main-nav-list.child>a {
+  font-size: 16px;
+  font-weight: 200;
+  color: #333;
+
+  padding-left: 30px;
+
+  border-left: 2px solid #041e38;
+}
+
+.main-nav-list.child>a:hover {
+  background-color: #041e38;
+  color: white;
+}
+
+
+/* =========================================================
+   LIST ITEMS INSIDE SUBCATEGORIES
+   ========================================================= */
+
+.main-nav-list.child ul li a {
+  font-size: 14px;
+  font-weight: normal;
+  color: #555;
+
+  padding-left: 45px;
+}
+
+.main-nav-list.child ul li a:hover {
+  color: #f3c50d;
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   COLLAPSE ARROW
+   ========================================================= */
+
+a[data-toggle="collapse"]>.lnr-arrow-right {
+  transition: transform 0.3s;
+}
+
+a[data-toggle="collapse"].collapsed>.lnr-arrow-right {
+  transform: rotate(0deg);
+}
+
+a[data-toggle="collapse"]:not(.collapsed)>.lnr-arrow-right {
+  transform: rotate(90deg);
+}
+
 
 /* =========================================================
    MOBILE PRODUCT GRID
@@ -154,29 +250,47 @@ a[data-toggle="collapse"]:not(.collapsed)>.lnr-arrow-right {
     padding-right: 6px;
   }
 
+
+  /* Product card */
   .single-product {
     width: 100%;
   }
 
+
+  /* Product image */
   .single-product img {
     height: 160px;
     width: 100%;
     object-fit: contain;
   }
 
+
+  /* Product details */
   .single-product .product-details {
+    flex: 1;
     padding: 8px 4px;
-    gap: 4px;
   }
 
+
+  /* Product name */
   .single-product .product-details h6 {
+    min-height: 42px;
+
     font-size: 13px;
     line-height: 1.35;
+
+    margin-bottom: 5px;
   }
 
+
+  /* Price */
   .single-product .price {
+    min-height: 22px;
+
     gap: 5px;
     flex-wrap: wrap;
+
+    margin-bottom: 5px;
   }
 
   .selling-price {
@@ -187,8 +301,26 @@ a[data-toggle="collapse"]:not(.collapsed)>.lnr-arrow-right {
     font-size: 12px;
   }
 
+
+  /* Action icons */
   .single-product .prd-bottom {
-    margin-top: 4px;
+    margin-top: auto;
+    gap: 6px;
+  }
+
+
+  /* Smaller circles on mobile */
+  .single-product .prd-bottom .social-info {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    max-width: 32px;
+  }
+
+
+  /* Smaller icons on mobile */
+  .single-product .prd-bottom .social-info>span {
+    font-size: 14px;
   }
 
 }

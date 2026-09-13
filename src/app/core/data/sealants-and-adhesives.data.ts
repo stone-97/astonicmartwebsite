@@ -612,7 +612,7 @@ Ideal for roofing and waterproofing projects`
         category: 'silicone-sealants',
         group: 'sealants and adhesives',
         brand: 'Soujplus',
-        price: 8500,
+        price: 13500,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786329254/Astonic-Mart/Products/silicone%20and%20adhesives/soulj_plus_sealants-2.png',

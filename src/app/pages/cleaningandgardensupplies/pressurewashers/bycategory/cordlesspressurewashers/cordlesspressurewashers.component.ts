@@ -37,7 +37,7 @@ export class CordlesspressurewashersComponent {
     // load electric pressure washer products only
     this.products =
       this.SearchService.getProductsByCategory(
-        'cordless-pressure-washer');
+        'cordless-pressure-washers');
 
     // default view
     this.filteredProducts = [...this.products];

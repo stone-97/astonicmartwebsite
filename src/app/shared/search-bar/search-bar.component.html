@@ -28,7 +28,25 @@
       <div class="suggestion-info">
         <h6 class="suggestion-name">{{ product.name }}</h6>
         <p class="suggestion-meta">{{ product.category }} • {{ product.brand }}</p>
-        <p class="suggestion-price">₦{{ product.price | number }}</p>
+     <div class="suggestion-price">
+  <ng-container *ngIf="product.discountPrice && product.discountPrice < product.price; else regularPrice">
+
+    <span class="discount-price">
+      ₦{{ product.discountPrice | number }}
+    </span>
+
+    <span class="original-price">
+      ₦{{ product.price | number }}
+    </span>
+
+  </ng-container>
+
+  <ng-template #regularPrice>
+    <span class="regular-price">
+      ₦{{ product.price | number }}
+    </span>
+  </ng-template>
+</div>
       </div>
     </div>
 

@@ -405,7 +405,7 @@ With a long length of 500 meters, this caution tape provides extended coverage, 
         group: 'fire and traffic safety',
         parentCategory: 'traffic safety',
         brand: 'Generic',
-        price: 85000,
+        price: 110000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786330013/Astonic-Mart/Products/traffic%20safety/pvc_expandable_barrier.jpg',
@@ -468,7 +468,7 @@ Equipped with smooth-rolling wheels, this mobile barricade is easy to transport 
         ],
 
         inStock: true,
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/generic-convex-traffic-safety-mirror-60cm-80cm-100cm-blind-spot-mirror-419390852.html',
         kongaLink: '',
 
         description: `
@@ -710,14 +710,15 @@ This handheld metal detector is an essential tool for modern security operations
         group: 'fire and traffic safety',
         parentCategory: 'traffic safety',
         brand: 'Generic',
-        price: 65000,
-
+        price: 89000,
+      showSimilar: true,
+             
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786330000/Astonic-Mart/Products/traffic%20safety/inspection_mirror-30cm.jpg'
         ],
 
         inStock: true,
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/generic-under-car-inspection-mirror-with-adjustable-telescoping-handle-419410561.html',
         kongaLink: '',
 
         description: `
@@ -986,7 +987,7 @@ This undercarriage inspection mirror is an essential tool for improving security
             'https://www.youtube.com/watch?v=7mN3Lk2Q8vQ'
         ],
 
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/generic-convex-traffic-safety-mirror-60cm-80cm-100cm-blind-spot-mirror-419390852.html',
         kongaLink: '',
 
         inStock: true,
@@ -1064,7 +1065,7 @@ This undercarriage inspection mirror is an essential tool for improving security
             'https://www.youtube.com/watch?v=7mN3Lk2Q8vQ'
         ],
 
-        jumiaLink: '',
+        jumiaLink: 'https://www.jumia.com.ng/generic-convex-traffic-safety-mirror-60cm-80cm-100cm-blind-spot-mirror-419390852.html',
         kongaLink: '',
 
         inStock: true,

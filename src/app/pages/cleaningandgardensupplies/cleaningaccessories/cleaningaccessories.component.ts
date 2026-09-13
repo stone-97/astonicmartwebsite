@@ -4,13 +4,14 @@ import { SearchService } from '../../../core/services/search.service';
 import { Category } from '../../../core/models/category.model';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PaginationService } from '../../../core/services/pagination.service';
+import { SeoService } from '../../../core/services/seo.service';
 
 @Component({
   selector: 'app-cleaningaccessories',
   templateUrl: './cleaningaccessories.component.html',
   styleUrl: './cleaningaccessories.component.css'
 })
-export class CleaningaccessoriesComponent {
+export class CleaningaccessoriesComponent implements OnInit {
 
 
   dealsOfWeek: Product[] = [];
@@ -28,11 +29,18 @@ export class CleaningaccessoriesComponent {
     (private SearchService: SearchService,
       private route: ActivatedRoute,
       private router: Router,
+      private seoService: SeoService,
       public paginationService: PaginationService) { }
 
 
   ngOnInit() {
 
+
+    this.seoService.updateSeo(
+      'Cleaning Accessories in Nigeria',
+      'Shop quality cleaning accessories at Astonic Mart. Browse cleaning tools, equipment and accessories available across Nigeria.',
+      '/cleaning-accessories'
+    );
     // load electric pressure washer products only
     this.products =
       this.SearchService.getProductsByCategory(

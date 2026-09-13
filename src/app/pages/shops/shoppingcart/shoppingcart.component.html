@@ -73,9 +73,13 @@
         <h4>Subtotal: ₦{{ getTotal() }}</h4>
         <h3>Total: ₦{{ getTotal()}}</h3>
 
-        <a routerLink="/productcheckout" class="primary-btn mt-3">
-          Proceed to Checkout
-        </a>
+    <a
+  routerLink="/productcheckout"
+  (click)="beginCheckout()"
+  class="primary-btn mt-3"
+>
+  Proceed to Checkout
+</a>
       </div>
 
     </div>

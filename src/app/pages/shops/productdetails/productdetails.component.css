@@ -1015,3 +1015,9 @@ border:2px solid black;
   width: 100%;
   border: none;
 }
+
+
+.gig-logo {
+  width: 100px;
+  height: auto;
+}

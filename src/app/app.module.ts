@@ -1,4 +1,4 @@
-
+import { CommonModule } from '@angular/common';
 import { environment } from '../environments/environment';
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
@@ -311,7 +311,6 @@ import { LifebuoysComponent } from './pages/marineandoffshore/lifebuoys/lifebuoy
 import { MarinesafetyequipmentsComponent } from './pages/marineandoffshore/marinesafetyequipments/marinesafetyequipments.component';
 import { LifevestsComponent } from './pages/marineandoffshore/lifevests/lifevests.component';
 import { LifejacketsComponent } from './pages/marineandoffshore/lifejackets/lifejackets.component';
-import { SafetyjoggersComponent } from './pages/ppe/bybrands/safetyjoggers/safetyjoggers.component';
 import { CablerampsComponent } from './pages/fireandtrafficsafety/trafficsafety/cableramps/cableramps.component';
 import { TrafficcontrolsystemsComponent } from './pages/fireandtrafficsafety/trafficsafety/trafficcontrolsystems/trafficcontrolsystems.component';
 import { EmergencyalertsystemsComponent } from './pages/fireandtrafficsafety/firesafety/emergencyalertsystems/emergencyalertsystems.component';
@@ -401,6 +400,7 @@ import { HandgearwinchesComponent } from './pages/handtools/category/handgearwin
 import { GeneralconcreteequipmentComponent } from './pages/constructionequipment/generalconcreteequipment/generalconcreteequipment.component';
 import { GasolinejackhammersComponent } from './pages/powertools/bycategories/jackhammers/gasolinejackhammers/gasolinejackhammers.component';
 import { DippingtapeComponent } from './pages/measuringandtesting/generalmeasuringinstruments/dippingtape/dippingtape.component';
+import { SafetyjoggersComponent } from './pages/ppe/bybrands/safetyjoggers/safetyjoggers.component';
 
 
 
@@ -734,7 +734,7 @@ import { DippingtapeComponent } from './pages/measuringandtesting/generalmeasuri
     LifevestsComponent,
     LifejacketsComponent,
     SafetyjoggersComponent,
-    CablerampsComponent,
+    CablerampsComponent, 
     TrafficcontrolsystemsComponent,
     EmergencyalertsystemsComponent,
     TapesandadhesivesComponent,
@@ -847,7 +847,8 @@ import { DippingtapeComponent } from './pages/measuringandtesting/generalmeasuri
     FormsModule,
     HttpClientModule,
     ReactiveFormsModule,
-    NgSelectModule
+    NgSelectModule,
+    CommonModule,
 
 
   ],
