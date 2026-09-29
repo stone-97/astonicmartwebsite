@@ -36,7 +36,7 @@ export class DrumrollercompactorsComponent {
     // load electric pressure washer products only
     this.products =
       this.SearchService.getProductsByCategory(
-        'drum-roller-compactors');
+        '/drumr-oller-compactors');
 
     // default view
     this.filteredProducts = [...this.products];

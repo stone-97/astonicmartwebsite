@@ -1,6 +1,12 @@
 [build]
   publish = "dist/astonicmarts/browser"
-  command = ""
+command = "npm run build && node scripts/merchant-feed.js"
+
+[[headers]]
+  for = "/google-merchant-feed.xml"
+
+  [headers.values]
+    Content-Type = "application/xml; charset=UTF-8"
 
 [[redirects]]
   from = "/*"

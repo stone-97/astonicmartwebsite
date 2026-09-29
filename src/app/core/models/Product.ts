@@ -21,8 +21,10 @@ export interface Product {
   parentCategory?: string;
   childCategory?: string;
   discountPrice?: number;  
-
+  landingColor?: string;
   images: string[];
+  promoImages?: string[];
+  promoCaptions?: string[];
   group?: string;
   videos?: string[]; 
  
@@ -32,7 +34,7 @@ export interface Product {
 
   // 👇 For complex products (ladders, machines, etc.)
   variations?: ProductVariation[];
-
+  relatedProducts?: number[];
   // 👇 Keep this (good for generators, pumps, etc.)
   powerOptions?: {
     power: string;

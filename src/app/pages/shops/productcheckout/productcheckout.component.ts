@@ -51,30 +51,36 @@ export class ProductcheckoutComponent implements OnInit {
   ) { }
 
 
-
   ngOnInit() {
+
     this.cartItems = this.cartService.getItems();
 
     // ✅ EmailJS (keep this)
     emailjs.init('F4cX3cLntLb5WG5ox');
 
-    // ✅ NEW: Load countries
+    // ✅ Load countries
     this.countries = Country.getAllCountries();
 
-    // ✅ NEW: Set Nigeria as default
+    // ✅ Set Nigeria as default
     const nigeria = this.countries.find(c => c.name === 'Nigeria');
 
     if (nigeria) {
       this.formData.country = nigeria.isoCode;
       this.loadStates(nigeria.isoCode);
     }
+
+    // ✅ Meta Pixel - InitiateCheckout event
+    this.trackInitiateCheckout();
   }
+
+
   loadStates(countryCode: string) {
     this.states = State.getStatesOfCountry(countryCode);
 
     // ✅ Set Lagos as default if Nigeria
     if (countryCode === 'NG') {
       const lagos = this.states.find(s => s.name === 'Lagos');
+
       if (lagos) {
         this.formData.state = lagos.isoCode;
       }
@@ -84,9 +90,34 @@ export class ProductcheckoutComponent implements OnInit {
   }
 
 
+  // ✅ Meta Pixel - InitiateCheckout
+  trackInitiateCheckout(): void {
+
+    if (typeof window === 'undefined') return;
+
+    const fbq = (window as any).fbq;
+
+    if (fbq && this.cartItems.length > 0) {
+
+      fbq('track', 'InitiateCheckout', {
+        content_ids: this.cartItems.map(item => String(item.id)),
+        content_type: 'product',
+        value: this.getTotal(),
+        currency: 'NGN',
+        num_items: this.cartItems.reduce(
+          (total, item) => total + item.quantity,
+          0
+        )
+      });
+
+    }
+  }
+
+
   getTotal() {
     return this.cartService.getTotal();
   }
+
 
   // ================= DELIVERY LOGIC (LAGOS ONLY) =================
   onCityChange() {
@@ -111,9 +142,24 @@ export class ProductcheckoutComponent implements OnInit {
     // 🇳🇬 Other Nigeria states
     if (country === 'NG') {
       this.deliveryType = 'outside';
-      this.deliveryMessage = '📦 Nigeria: Pay 50% now, balance on delivery';
-      this.selectedPayment = 'transfer';
       this.totalAmount = this.getTotal();
+
+      // Orders below ₦50,000
+      if (this.totalAmount < 50000) {
+        this.deliveryMessage =
+          '📦 Outside Lagos: Delivery charges apply to orders below ₦50,000. The delivery fee will depend on the nature, size, weight, destination, and applicable logistics cost.';
+
+        this.selectedPayment = 'online';
+      }
+
+      // Orders ₦50,000 and above
+      else {
+        this.deliveryMessage =
+          '📦 Outside Lagos: 20% payment is required before processing, with the remaining balance payable on delivery. Applicable delivery charges will be communicated where necessary.';
+
+        this.selectedPayment = 'transfer';
+      }
+
       return;
     }
 
@@ -156,6 +202,24 @@ export class ProductcheckoutComponent implements OnInit {
       return;
     }
 
+    // Meta Pixel - InitiateCheckout
+    if (typeof window !== 'undefined') {
+      const fbq = (window as any).fbq;
+
+      if (fbq) {
+        fbq('track', 'InitiateCheckout', {
+          content_ids: this.cartItems.map(item => String(item.id)),
+          content_type: 'product',
+          value: this.getTotal(),
+          currency: 'NGN',
+          num_items: this.cartItems.reduce(
+            (total, item) => total + item.quantity,
+            0
+          )
+        });
+      }
+    }
+
     this.orderId = 'AST-' + Math.floor(Math.random() * 100000);
     this.totalAmount = this.getTotal();
 
@@ -185,6 +249,20 @@ export class ProductcheckoutComponent implements OnInit {
           price: item.price
         }))
       );
+
+      // Meta Pixel - Purchase event
+      if (typeof window !== 'undefined') {
+        const fbq = (window as any).fbq;
+
+        if (fbq) {
+          fbq('track', 'Purchase', {
+            content_ids: this.cartItems.map(item => String(item.id)),
+            content_type: 'product',
+            value: this.totalAmount,
+            currency: 'NGN'
+          });
+        }
+      }
       Swal.fire('Success', 'Order placed (Pay on Delivery)', 'success');
 
       // ✅ SAVE ORDER
@@ -233,6 +311,19 @@ export class ProductcheckoutComponent implements OnInit {
       // Send email to admin and customer
       this.sendEmailsAfterPayment('International Quote Requested');
       this.analyticsService.generateLead(this.totalAmount);
+
+      // Meta Pixel - Lead event
+      if (typeof window !== 'undefined') {
+        const fbq = (window as any).fbq;
+
+        if (fbq) {
+          fbq('track', 'Lead', {
+            content_name: 'International Quote Request',
+            value: this.totalAmount,
+            currency: 'NGN'
+          });
+        }
+      }
 
       Swal.fire(
         'Request Submitted',
@@ -450,6 +541,20 @@ export class ProductcheckoutComponent implements OnInit {
               }))
             );
 
+            // Meta Pixel - Purchase event
+            if (typeof window !== 'undefined') {
+              const fbq = (window as any).fbq;
+
+              if (fbq) {
+                fbq('track', 'Purchase', {
+                  content_ids: this.cartItems.map(item => String(item.id)),
+                  content_type: 'product',
+                  value: totalAmount,
+                  currency: 'NGN'
+                });
+              }
+            }
+
             // Send email only AFTER verification
             await this.sendEmailsAfterPayment(
               'Full Payment Completed'
@@ -536,7 +641,7 @@ export class ProductcheckoutComponent implements OnInit {
 
     Swal.fire('Success', 'Payment recorded. We will verify shortly.', 'success');
 
-    this.sendEmailsAfterPayment('50% Payment Reported');
+    this.sendEmailsAfterPayment('20% Payment Reported');
 
     // ✅ SAVE ORDER
     localStorage.setItem('order', JSON.stringify(orderData));
@@ -584,27 +689,28 @@ Payment will be collected when your order is delivered.`;
     // =====================================================
     // OUTSIDE LAGOS - 50% BANK TRANSFER
     // =====================================================
-    else if (status === '50% Payment Reported') {
+  
+    else if (status === '20% Payment Reported') {
 
-      const deposit = Math.round(this.totalAmount * 0.5);
+      const deposit = Math.round(this.totalAmount * 0.2);
       const balance = this.totalAmount - deposit;
 
       adminPaymentInfo =
         `Payment Method: Bank Transfer
 
-50% Payment Made: ₦${formatAmount(deposit)}
+20% Payment Made: ₦${formatAmount(deposit)}
 Balance on Delivery: ₦${formatAmount(balance)}
 
-The customer has reported making the 50% payment.
+The customer has reported making the 20% payment.
 Please verify the payment before processing the order.`;
 
       customerPaymentInfo =
         `Payment Method: Bank Transfer
 
-50% Payment Made: ₦${formatAmount(deposit)}
+20% Payment Made: ₦${formatAmount(deposit)}
 Balance on Delivery: ₦${formatAmount(balance)}
 
-Your 50% payment has been reported.
+Your 20% payment has been reported.
 We will verify the payment and begin processing your order once the payment is confirmed.`;
     }
 
@@ -690,14 +796,14 @@ Shipping costs, customs duties and taxes will be calculated and quoted separatel
 
       // Keep these in case your admin template still uses them
       part_payment:
-        status === '50% Payment Reported'          ? Math.round(this.totalAmount * 0.5)
+        status === '20% Payment Reported'
+          ? Math.round(this.totalAmount * 0.2)
           : '',
 
-    
-        balance:
-      status === '50% Payment Reported'
+      balance:
+        status === '20% Payment Reported'
           ? this.totalAmount -
-          Math.round(this.totalAmount * 0.5)
+          Math.round(this.totalAmount * 0.2)
           : ''
     };
 

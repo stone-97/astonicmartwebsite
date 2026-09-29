@@ -1,0 +1,923 @@
+<div class="landing-page" *ngIf="product as p">
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+  <header class="landing-header">
+    <div class="container header-inner">
+
+      <a routerLink="/" class="landing-logo">
+        ASTONIC <span>MART</span>
+      </a>
+
+      <div class="header-tagline">
+        Tools You Can Trust.
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- =========================
+       HERO
+  ========================== -->
+  <section class="hero-section">
+
+    <div class="container hero-grid">
+
+      <!-- PRODUCT VISUAL -->
+      <div class="hero-visual">
+
+        <div class="product-card">
+
+          <div
+            class="product-badge"
+            [style.background-color]="p.landingColor || '#071a33'"
+          >
+            {{ p.brand }}
+          </div>
+
+          <!-- MAIN PRODUCT IMAGE -->
+          <img
+            [src]="selectedImage"
+            [alt]="p.name"
+            class="hero-product-image"
+          >
+
+        </div>
+
+        <!-- PRODUCT IMAGE THUMBNAILS -->
+        <div
+          class="product-thumbnails"
+          *ngIf="p.images.length"
+        >
+
+          <button
+            type="button"
+            class="thumbnail"
+            *ngFor="let image of p.images"
+            [class.active]="image === selectedImage"
+            (click)="selectImage(image)"
+          >
+            <img
+              [src]="image"
+              [alt]="p.name"
+            >
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <!-- PRODUCT INFORMATION -->
+      <div class="hero-content">
+
+        <div class="product-brand">
+          {{ p.brand }}
+        </div>
+
+        <h1>
+          {{ p.name }}
+        </h1>
+
+        <div class="product-code" *ngIf="p.model">
+          Model: {{ p.model }}
+        </div>
+
+
+        <!-- PRICE -->
+        <div class="pricing">
+
+          <div
+            class="old-price"
+            *ngIf="p.discountPrice"
+          >
+            ₦{{ p.price | number }}
+          </div>
+
+        <div class="current-price">
+  ₦{{ getCurrentPrice() | number }}
+</div>
+
+          <div
+            class="save-badge"
+            *ngIf="p.discountPrice"
+          >
+            SAVE ₦{{ (p.price - p.discountPrice) | number }}
+          </div>
+
+        </div>
+
+
+        <!-- VARIATIONS -->
+<div class="variation-section" *ngIf="p.variations?.length">
+
+  <h4>Available Capacity</h4>
+
+  <div class="variation-buttons">
+    <button
+      *ngFor="let variation of p.variations"
+      type="button"
+      [class.active]="selectedVariation?.size === variation.size"
+      (click)="selectVariation(variation)"
+    >
+      {{ variation.size }}
+    </button>
+  </div>
+
+</div>
+
+        <!-- SHORT DESCRIPTION -->
+        <p class="hero-description">
+          {{ getShortDescription(p.description) }}
+        </p>
+
+
+        
+
+        <!-- TRUST / DELIVERY -->
+        <div class="trust-list">
+
+          <div class="trust-item">
+            <span class="trust-icon">✓</span>
+            <div>
+              <strong>Nationwide Delivery</strong>
+              <small>We deliver across Nigeria</small>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <span class="trust-icon">✓</span>
+            <div>
+              <strong>Secure Ordering</strong>
+              <small>Safe and convenient checkout</small>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <span class="trust-icon">✓</span>
+            <div>
+              <strong>Reliable Support</strong>
+              <small>We're available to assist you</small>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- CTA -->
+        <div class="hero-actions">
+
+          <button
+            type="button"
+            class="quote-btn"
+            (click)="getQuote()"
+          >
+            GET A QUOTE
+          </button>
+
+          <button
+            type="button"
+            class="whatsapp-btn"
+          (click)="scrollToWhatsAppForm()"
+          >
+            ORDER VIA WHATSAPP
+          </button>
+
+        </div>
+
+
+
+        <div
+          class="marketplace-buttons"
+          *ngIf="product.jumiaLink"
+        >
+
+          <span>Prefer to buy on Jumia?</span>
+
+          <a
+            [href]="product.jumiaLink"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="jumia-btn"
+          >
+            Buy on Jumia
+          </a>
+
+        </div>
+
+
+        <div class="payment-note">
+          Secure payment options available at checkout
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+<!-- =========================
+     WHATSAPP ORDER FORM
+========================== -->
+<section
+  class="whatsapp-order-section"
+  id="whatsapp-order-form"
+>
+
+  <div class="container">
+
+    <div class="whatsapp-modal-content">
+
+      <div class="whatsapp-modal-header">
+
+        <h2>
+          Order via WhatsApp
+        </h2>
+
+        <p>
+          Enter your details to complete your order.
+        </p>
+
+      </div>
+
+
+      <!-- CUSTOMER FORM -->
+      <div class="whatsapp-form">
+
+        <!-- FULL NAME -->
+        <div class="form-group">
+
+          <label>
+            Full Name *
+          </label>
+
+          <input
+            type="text"
+            [(ngModel)]="whatsappForm.fullName"
+            placeholder="Enter your full name"
+          >
+
+        </div>
+
+
+        <!-- EMAIL -->
+        <div class="form-group">
+
+          <label>
+            Email Address 
+          </label>
+
+          <input
+            type="email"
+            [(ngModel)]="whatsappForm.email"
+            placeholder="Enter your email address"
+          >
+
+        </div>
+
+
+        <!-- PHONE -->
+        <div class="form-group">
+
+          <label>
+            Phone Number *
+          </label>
+
+          <input
+            type="tel"
+            [(ngModel)]="whatsappForm.phone"
+            placeholder="08012345678"
+          >
+
+        </div>
+
+
+        <!-- ALTERNATIVE PHONE -->
+        <div class="form-group">
+
+          <label>
+            Alternative Phone Number
+          </label>
+
+          <input
+            type="tel"
+            [(ngModel)]="whatsappForm.altPhone"
+            placeholder="Alternative phone number"
+          >
+
+        </div>
+
+
+        <!-- STATE + CITY -->
+        <div class="form-row">
+
+          <div class="form-group">
+
+            <label>
+              State *
+            </label>
+
+            <input
+              type="text"
+              [(ngModel)]="whatsappForm.state"
+              placeholder="Lagos"
+            >
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>
+              City *
+            </label>
+
+            <input
+              type="text"
+              [(ngModel)]="whatsappForm.city"
+              placeholder="Ikeja"
+            >
+
+          </div>
+
+        </div>
+
+
+        <!-- DELIVERY ADDRESS -->
+        <div class="form-group">
+
+          <label>
+            Delivery Address *
+          </label>
+
+          <textarea
+            [(ngModel)]="whatsappForm.address"
+            rows="3"
+            placeholder="Enter your full delivery address"
+          ></textarea>
+
+        </div>
+
+
+        <!-- SUBMIT -->
+        <button
+          type="button"
+          class="whatsapp-submit-btn"
+          (click)="submitWhatsAppOrder()"
+        >
+           SUBMIT ORDER
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- =========================
+       TRUST BAR
+  ========================== -->
+  <section class="trust-bar">
+
+    <div class="container trust-grid">
+
+      <div class="trust-column">
+        <strong>QUALITY PRODUCTS</strong>
+        <span>Tools built for the job</span>
+      </div>
+
+      <div class="trust-column">
+        <strong>NATIONWIDE DELIVERY</strong>
+        <span>Delivery across Nigeria</span>
+      </div>
+
+      <div class="trust-column">
+        <strong>SECURE CHECKOUT</strong>
+        <span>Safe online ordering</span>
+      </div>
+
+      <div class="trust-column">
+        <strong>EXPERT SUPPORT</strong>
+        <span>We're here to help</span>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       VISUAL PRODUCT BENEFITS
+  ========================== -->
+  <section class="benefits-section">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <span>WHY THIS PRODUCT?</span>
+
+        <h2>
+          More Than Just a Tool
+        </h2>
+
+        <p>
+          Designed to give you the power and versatility you need for the job.
+        </p>
+
+      </div>
+
+
+      <div
+        class="benefits-grid"
+        *ngIf="p.promoImages?.length"
+      >
+
+        <div
+          class="benefit-card"
+          *ngFor="let image of p.promoImages; let i = index"
+        >
+
+          <img
+            [src]="image"
+            [alt]="p.name"
+          >
+
+          <h3 *ngIf="p.promoCaptions?.[i]">
+            {{ p.promoCaptions?.[i] }}
+          </h3>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       PRODUCT VIDEO
+  ========================== -->
+  <section
+    class="video-section"
+    *ngIf="p.videos?.length"
+  >
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <span>PRODUCT VIDEO</span>
+
+        <h2>
+          See It in Action
+        </h2>
+
+        <p>
+          Take a closer look at the product and what it can do.
+        </p>
+
+      </div>
+
+
+      <div class="video-card">
+
+        <div class="video-wrapper">
+
+          <iframe
+            [src]="getSafeVideoUrl(p.videos?.[0] || '')"
+            title="Product Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FEATURES
+  ========================== -->
+  <section class="features-section">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <span>KEY FEATURES</span>
+
+        <h2>
+          Built for Performance
+        </h2>
+
+      </div>
+
+
+      <div class="features-content">
+
+        <div
+          class="feature-item"
+          *ngFor="let feature of getFeatureList(p.features)"
+        >
+
+          <span class="feature-check">
+            ✓
+          </span>
+
+          <span class="feature-text">
+            {{ feature }}
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       SPECIFICATIONS
+  ========================== -->
+  <section class="specifications-section">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <span>SPECIFICATIONS</span>
+
+        <h2>
+          Product Specifications
+        </h2>
+
+      </div>
+
+
+      <div class="specifications-content">
+
+        <div
+          class="specification-item"
+          *ngFor="let spec of getSpecificationList(p.specification)"
+        >
+
+          <span
+            class="specification-label"
+            *ngIf="spec.label"
+          >
+            {{ spec.label }}
+          </span>
+
+          <span class="specification-value">
+            {{ spec.value }}
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       PRODUCT DETAILS
+  ========================== -->
+  <section class="details-section">
+
+    <div class="container details-container">
+
+      <div class="section-heading">
+
+        <span>
+          PRODUCT INFORMATION
+        </span>
+
+        <h2>
+          Product Details
+        </h2>
+
+      </div>
+
+
+      <div
+        class="description-content"
+        [innerHTML]="p.description"
+      ></div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+     RELATED PRODUCTS
+========================== -->
+<section
+  class="related-products-section"
+  *ngIf="p.showSimilar && p.relatedProducts?.length"
+>
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span>YOU MAY ALSO LIKE</span>
+
+      <h2>
+        Complete Your Order
+      </h2>
+
+      <p>
+        You may also be interested in these products.
+      </p>
+
+    </div>
+
+
+    <div class="related-products-grid">
+
+      <ng-container
+        *ngFor="let relatedId of p.relatedProducts"
+      >
+
+        <ng-container
+      *ngIf="getRelatedProduct(relatedId) as relatedProduct"
+        >
+
+          <div class="related-product-card">
+
+            <!-- PRODUCT IMAGE -->
+            <a
+              [routerLink]="['/product-landing', relatedProduct.id]"
+              class="related-product-image"
+            >
+
+              <img
+            [src]="relatedProduct.images[0]"
+                [alt]="relatedProduct.name"
+              >
+
+            </a>
+
+
+            <!-- PRODUCT INFO -->
+            <div class="related-product-info">
+
+              <div class="related-product-brand">
+                {{ relatedProduct.brand }}
+              </div>
+
+              <h3>
+                {{ relatedProduct.name }}
+              </h3>
+
+
+              <!-- PRICE -->
+              <div class="related-product-price">
+
+                <span
+                  class="related-old-price"
+                  *ngIf="relatedProduct.discountPrice"
+                >
+                  ₦{{ relatedProduct.price | number }}
+                </span>
+
+                <span class="related-current-price">
+                  ₦{{ (relatedProduct.discountPrice || relatedProduct.price) | number }}
+                </span>
+
+              </div>
+
+
+              <!-- ACTIONS -->
+              <div class="related-product-actions">
+
+                <!-- VIEW PRODUCT -->
+                <a
+                  [routerLink]="['/product-landing', relatedProduct.id]"
+                  class="related-view-btn"
+                >
+                  VIEW PRODUCT
+                </a>
+
+
+                <!-- ADD TO CURRENT ORDER -->
+                <button
+                  type="button"
+                  class="related-add-btn"
+                  (click)="addToOrder(relatedProduct)"
+                >
+                  + ADD TO ORDER
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </ng-container>
+
+      </ng-container>
+
+    </div>
+
+
+    <!-- CURRENT ORDER SUMMARY -->
+    <div
+      class="landing-order-summary"
+      *ngIf="orderItems.length > 1"
+    >
+
+      <div class="order-summary-header">
+
+        <div>
+          <span>YOUR ORDER</span>
+
+          <h3>
+            Selected Products
+          </h3>
+        </div>
+
+        <strong>
+          ₦{{ getOrderTotal() | number }}
+        </strong>
+
+      </div>
+
+
+      <div class="order-summary-items">
+
+        <div
+          class="order-summary-item"
+          *ngFor="let item of orderItems"
+        >
+
+          <div class="order-summary-product">
+
+            <img
+           [src]="item.product.images[0]"
+              [alt]="item.product.name"
+            >
+
+            <div>
+
+              <strong>
+                {{ item.product.name }}
+              </strong>
+
+              <small>
+                ₦{{ (item.product.discountPrice || item.product.price) | number }}
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="order-summary-controls">
+
+            <button
+              type="button"
+              (click)="updateOrderQuantity(
+                item.product.id,
+                item.quantity - 1
+              )"
+           [disabled]="item.product.id === product.id"
+            >
+              −
+            </button>
+
+            <span>
+              {{ item.quantity }}
+            </span>
+
+            <button
+              type="button"
+              (click)="updateOrderQuantity(
+                item.product.id,
+                item.quantity + 1
+              )"
+            >
+              +
+            </button>
+
+
+            <button
+              type="button"
+              class="remove-order-item"
+              (click)="removeFromOrder(item.product.id)"
+           [disabled]="item.product.id === product.id"
+              title="Remove product"
+            >
+              ×
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="order-summary-total">
+
+        <span>
+          Order Total
+        </span>
+
+        <strong>
+          ₦{{ getOrderTotal() | number }}
+        </strong>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- =========================
+       FINAL CTA
+  ========================== -->
+  <section class="final-cta">
+
+    <div class="container">
+
+      <span class="cta-label">
+        READY TO ORDER?
+      </span>
+
+      <h2>
+        Get the TOTAL 20V 3-in-1 Combo Kit Today
+      </h2>
+
+      <p>
+        Order now from Astonic Mart and get this professional cordless tool kit
+        delivered to you.
+      </p>
+
+
+      <div class="hero-actions">
+
+        <button
+          type="button"
+          class="quote-btn"
+          (click)="getQuote()"
+        >
+          GET A QUOTE
+        </button>
+
+        <button
+          type="button"
+          class="whatsapp-btn"
+          (click)="orderOnWhatsApp()"
+        >
+          ORDER VIA WHATSAPP
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</div>
+
+
+<!-- =========================
+     PRODUCT NOT FOUND
+========================== -->
+<div
+  class="product-not-found"
+  *ngIf="!product"
+>
+
+  <h2>
+    Product Not Found
+  </h2>
+
+  <p>
+    The product you're looking for could not be found.
+  </p>
+
+  <a routerLink="/">
+    Return to Astonic Mart
+  </a>
+
+</div>

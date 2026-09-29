@@ -426,7 +426,7 @@ Accessories Included:
         category: 'general-testers',
         group: 'Measuring And Testing',
         parentCategory: 'General Measuring Instruments',
-
+        showSimilar: true,
 
         brand: 'Duoyi',
         price: 120000,
@@ -4545,7 +4545,7 @@ Available in multiple platform sizes, the scale accommodates a wide variety of g
         brand: 'Garmin',
         model: 'eTrex 10',
 
-        price: 420000,
+        price: 370000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786307339/Astonic-Mart/Products/gps%20trackers/Garmin-Etrex-10-GPS-Tracker.jpg',
@@ -7137,7 +7137,7 @@ Professional-grade performance
     },
 
     {
-        id: 6121,
+        id: 13121,
         name: 'Camry EK3211 Electronic Kitchen Scale',
         category: 'kitchen-scales',
         group: 'Measuring And Testing',
@@ -7199,7 +7199,7 @@ Professional-grade performance
     },
 
     {
-        id: 6122,
+        id: 13122,
         name: 'Bosch GLL 2 Professional Line Laser',
         category: 'laser-levels',
         group: 'Measuring And Testing',
@@ -7258,7 +7258,7 @@ Professional-grade performance
     },
 
     {
-        id: 6123,
+        id: 13123,
         name: 'Bosch GLL 2-50 Professional Line Laser',
         category: 'laser-levels',
         group: 'Measuring And Testing',
@@ -7322,7 +7322,7 @@ Professional-grade performance
     },
 
     {
-        id: 6124,
+        id: 13124,
         name: 'Bosch GMS 120-27 Professional Detector',
         category: 'scanners-and-detectors',
         group: 'Measuring And Testing',
@@ -7389,7 +7389,7 @@ Professional-grade performance
     },
 
     {
-        id: 6125,
+        id: 13125,
         name: 'JUMLEE Long Steel Tape Measure',
         category: 'measuring-tapes',
         group: 'Measuring And Testing',
@@ -7493,7 +7493,7 @@ Professional surveying and construction tool
     },
 
     {
-        id: 6126,
+        id: 13126,
         name: 'Digital Indicator 0-25mm, 0.001mm Resolution',
         category: 'dial-indicators',
         group: 'Measuring And Testing',
@@ -7585,7 +7585,7 @@ Professional-grade measuring instrument
     },
 
     {
-        id: 6127,
+        id: 13127,
         name: 'KW600 Car Battery Tester – 12V 100–2000CCA Diagnostic Tool',
         category: 'battery-testers',
         group: 'Measuring And Testing',
@@ -7630,7 +7630,7 @@ Professional-grade measuring instrument
 
 
     {
-        id: 6128,
+        id: 13128,
         name: 'RICOOL Electronic Platform Weighing Scale',
         category: 'platform-scales',
         group: 'Measuring And Testing',
@@ -7707,7 +7707,7 @@ Professional-grade measuring instrument
     },
 
     {
-        id: 6129,
+        id: 13129,
         name: 'Milwaukee M12 360° 3-Plane Green Laser Kit',
         category: 'laser-levels',
         group: 'Measuring And Testing',
@@ -7769,7 +7769,7 @@ Professional-grade measuring instrument
     },
 
     {
-        id: 6130,
+        id: 13130,
         name: 'Digital Thickness Gauge 0-12.7mm',
         category: 'thickness-guages',
         group: 'Measuring And Testing',
@@ -7823,7 +7823,7 @@ Accessories Included:
     },
 
     {
-        id: 6131,
+        id: 13131,
         name: 'Bosmere Soil pH Meter',
         category: 'ph-meters',
         parentCategory: 'General Measuring Instruments',
@@ -7879,7 +7879,7 @@ Accessories Included:
     },
 
     {
-        id: 6132,
+        id: 13132,
         name: 'GM320 Infrared Thermometer',
         category: 'infrared-thermometers',
         parentCategory: 'General Measuring Instruments',
@@ -7940,7 +7940,7 @@ Accessories Included:
     },
 
     {
-        id: 6133,
+        id: 13133,
         name: 'Luster Leaf Digital Moisture Meter',
         category: 'moisture-testers',
         parentCategory: 'General Measuring Instruments',
@@ -7997,7 +7997,7 @@ Accessories Included:
     },
 
     {
-        id: 6134,
+        id: 13134,
         name: 'Bosch GLM 50-27 C Laser Distance Meter',
         category: 'laser-distance-meters',
         parentCategory: 'leveling tools',
@@ -8070,7 +8070,7 @@ Accessories Included:
 
 
     {
-        id: 6135,
+        id: 13135,
         name: 'Bosch GLM 150-27 C Professional Laser Distance Meter',
         category: 'laser-distance-meters',
         parentCategory: 'leveling tools',
@@ -8152,7 +8152,7 @@ Accessories Included:
 
 
     {
-        id: 6136,
+        id: 13136,
         name: 'UNI-T UT890D+ Digital Multimeter',
         category: 'multimeters',
         parentCategory: 'General Measuring Instruments',
@@ -8215,7 +8215,7 @@ Accessories Included:
     },
 
     {
-        id: 6137,
+        id: 13137,
         name: 'DT9205A Digital Multimeter',
         category: 'multimeters',
         parentCategory: 'General Measuring Instruments',
@@ -8303,7 +8303,7 @@ Accessories Included:
     },
 
     {
-        id: 6138,
+        id: 13138,
         name: 'MASTECH MAS830L Digital Multimeter',
         category: 'multimeters',
         parentCategory: 'General Measuring Instruments',
@@ -8463,7 +8463,7 @@ Accessories Included:
     },
 
     {
-        id: 6140,
+        id: 13140,
         name: 'INGCO DM7504 True RMS Digital Multimeter',
         category: 'multimeters',
         parentCategory: 'General Measuring Instruments',
@@ -8574,7 +8574,7 @@ Accessories Included:
 
 
     {
-        id: 6141,
+        id: 13141,
         name: 'TOTAL TMT46001 Digital Multimeter',
         category: 'multimeters',
         parentCategory: 'General Measuring Instruments',
@@ -8647,7 +8647,7 @@ Accessories Included:
     },
 
     {
-        id: 6142,
+        id: 13142,
         name: 'TOTAL TMT516004 600V True RMS Digital Multimeter',
         category: 'multimeters',
         parentCategory: 'General Measuring Instruments',
@@ -8725,7 +8725,7 @@ Accessories Included:
     },
 
     {
-        id: 6143,
+        id: 13143,
         name: 'Mitutoyo Inside Micrometer Set 50-1000mm',
         category: 'analogue-micrometers',
         group: 'Measuring And Testing',
@@ -8830,7 +8830,7 @@ Accessories Included:
     },
 
     {
-        id: 6146,
+        id: 13146,
         name: 'Digital Breath Alcohol Tester',
         category: 'alcohol-testers',
         group: 'Measuring And Testing',
@@ -8942,7 +8942,7 @@ Accessories Included:
     },
 
     {
-        id: 6148,
+        id: 13148,
         name: 'Gasoline Gauging Paste (Standard Type)',
         category: 'testing-paste',
         group: 'Measuring And Testing',
@@ -8991,7 +8991,7 @@ Accessories Included:
     },
 
     {
-        id: 6149,
+        id: 13149,
         name: 'Kolor Kut Water Finding Paste (Original)',
         category: 'testing-paste',
         group: 'Measuring And Testing',
@@ -9044,7 +9044,7 @@ Accessories Included:
     },
 
     {
-        id: 6150,
+        id: 13150,
         name: 'Fluke 179 True RMS Digital Multimeter',
         category: 'multimeters',
         group: 'Measuring And Testing',
@@ -9118,7 +9118,7 @@ User Manual
     },
 
     {
-        id: 6151,
+        id: 13151,
         name: 'Mitutoyo Outside Micrometer 150-300mm',
         category: 'micrometers',
         group: 'Measuring And Testing',
@@ -9173,7 +9173,7 @@ User Manual
     },
 
     {
-        id: 6152,
+        id: 13152,
         name: 'Mitutoyo Digimatic Micrometer 0-25mm',
         category: 'digital-micrometers',
         group: 'Measuring And Testing',
@@ -9236,6 +9236,221 @@ User Manual
 
 
         showSimilar: true
+    },
+
+
+    {
+        id: 13153,
+        name: 'Tronson TSG-17 RF Signal Generator 100kHz-150MHz',
+        category: 'general-testers',
+        group: 'Measuring And Testing',
+        parentCategory: 'General Measuring Instruments',
+        brand: 'Tronson',
+        price: 250000,
+
+        images: [
+          "https://res.cloudinary.com/taus5tit/image/upload/v1790173004/Tronson_TSG-17_RF_Signal_Generator_100kHz-150MHz_rxwe0i.jpg",
+          'https://res.cloudinary.com/taus5tit/image/upload/v1790173004/Tronson_TSG-17_RF_Signal_Generator_100kHz-150MHz-4_ymspct.jpg',
+          'https://res.cloudinary.com/taus5tit/image/upload/v1790173004/Tronson_TSG-17_RF_Signal_Generator_100kHz-150MHz-2_ze7rjb.jpg',
+          'https://res.cloudinary.com/taus5tit/image/upload/v1790173004/Tronson_TSG-17_RF_Signal_Generator_100kHz-150MHz-2_ze7rjb.jpg',
+          'https://res.cloudinary.com/taus5tit/image/upload/v1790173004/Tronson_TSG-17_RF_Signal_Generator_100kHz-150MHz-5_itff3w.jpg'
+        ],
+
+        inStock: true,
+        kongaLink: '',
+        showSimilar: true,
+
+        description: `The Tronson TSG-17 RF Signal Generator is a compact bench-top radio frequency signal generator designed for testing, servicing, troubleshooting and alignment of RF circuits, radios and communication equipment. It generates RF and AM signals across a frequency range of 100kHz to 150MHz and supports six selectable frequency bands. The generator also provides third-harmonic output up to 450MHz, adjustable RF output level and internal or external AM modulation, making it suitable for electronic technicians, radio servicing, laboratories, educational institutions and general RF testing applications.`,
+
+        specification: `
+  - Product Name: TSG-17 RF Signal Generator
+  - Model: TSG-17
+  - Type: Radio Frequency (RF) Signal Generator
+  - Frequency Range: 100kHz to 150MHz
+  - Third Harmonic: Up to 450MHz
+  - Frequency Bands: 6 bands
+  - Band A: 100kHz to 300kHz
+  - Band B: 300kHz to 1MHz
+  - Band C: 1MHz to 3.2MHz
+  - Band D: 3MHz to 10MHz
+  - Band E: 10MHz to 35MHz
+  - Band F: 32MHz to 150MHz
+  - Frequency Accuracy: ±5%
+  - Output Waveform: RF / AM signal waveform
+  - Output: RF and AM
+  - RF Output: >100mV RMS at frequencies up to 35MHz
+  - Output Level Control: 1mV to 100mV
+  - Output Impedance: 600Ω
+  - External Modulation: 150Hz to 1.5kHz
+  - External Modulation Amplitude: Adjustable from 0 to 30%
+  - Power Supply: 220V ±10%, 50Hz
+  - Dimensions: 239 × 140 × 200mm
+  - Weight: Approximately 2.5kg
+  `,
+
+        features: `
+  - Wide 100kHz to 150MHz RF frequency range
+  - Six selectable frequency bands
+  - Third harmonic output up to 450MHz
+  - RF and AM signal output
+  - Adjustable RF output level from 1mV to 100mV
+  - 600Ω output impedance
+  - Supports external modulation
+  - Compact bench-top design
+  - Suitable for radio and RF circuit testing
+  - Useful for servicing and troubleshooting electronic equipment
+  - Suitable for technicians, laboratories and educational applications
+  `,
+
+        jumiaLink: ''
+    },
+
+    {
+        id: 13154,
+        name: 'LongWei LW-1641 2MHz Function Signal Generator',
+        category: 'general-testers',
+        group: 'Measuring And Testing',
+        parentCategory: 'General Measuring Instruments',
+        brand: 'LongWei',
+        price: 230000,
+
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790174096/LongWei_LW-1641_2MHz_Function_Signal_Generator_f65prl.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790174096/LongWei_LW-1641_2MHz_Function_Signal_Generator-2_v1y5yy.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790174096/LongWei_LW-1641_2MHz_Function_Signal_Generator-4_r4mxjy.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790174096/LongWei_LW-1641_2MHz_Function_Signal_Generator-3_qxctzc.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790174096/LongWei_LW-1641_2MHz_Function_Signal_Generator-4_r4mxjy.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790174096/LongWei_LW-1641_2MHz_Function_Signal_Generator-5_unrw5g.jpg'
+                ],
+
+        inStock: true,
+        kongaLink: '',
+        showSimilar: true,
+
+        description: `The LongWei LW-1641 2MHz Function Signal Generator is a versatile electronic test instrument designed for generating and testing different types of electrical waveforms. It produces sine, triangle, square, positive and negative pulse, and positive and negative ramp waveforms across a frequency range of 0.1Hz to 2MHz. The unit features adjustable DC bias, waveform symmetry control, TTL/CMOS synchronous output and an integrated frequency counter, making it suitable for electronics laboratories, circuit testing, teaching, research, servicing and pulse-circuit experiments.`,
+
+        specification: `
+  - Product Name: Function Signal Generator
+  - Model: LW-1641
+  - Brand: LongWei
+  - Frequency Range: 0.1Hz to 2MHz
+  - Output Waveforms: Sine, triangle, square, positive/negative pulse, positive/negative ramp
+  - Output Impedance: 50Ω ±10%
+  - Output Amplitude: ≥20Vp-p (open circuit)
+  - DC Voltage/Bias: 0 to ±10V continuously adjustable
+  - Symmetry Range: 90:10 to 10:90
+  - Square Wave Rise Time: <100ns
+  - Sine Wave Distortion: <1% at 10Hz to 100kHz
+  - Frequency Response: ±0.5dB from 0.1Hz to 100kHz
+  - High-Frequency Response: ±1dB from 100kHz to 2MHz
+  - TTL Output: Low ≤0.4V, High ≥3.5V
+  - CMOS Output: Low ≤0.5V, High 5V to 14V adjustable
+  - TTL/CMOS Rise Time: <100ns
+  - VCF Input: DC to 1kHz
+  - Maximum Voltage-Controlled Ratio: 1000:1
+  - Frequency Counter: 1Hz to 30MHz
+  - Frequency Counter Sensitivity: 100mV RMS
+  - Maximum Frequency Counter Input: 150V AC+DC
+  - Input Impedance: ≥1MΩ / 20pF
+  - Input Attenuation: 20dB
+  - Measurement Accuracy: <0.003% ±1 digit
+  - Power Supply: 220V/110V ±10%, 50/60Hz
+  - Dimensions: 270 × 225 × 90mm
+  - Weight: Approximately 2.5kg
+  `,
+
+        features: `
+  - 0.1Hz to 2MHz frequency range
+  - Generates multiple standard waveforms
+  - Sine, triangle and square wave output
+  - Positive and negative pulse output
+  - Positive and negative ramp output
+  - Adjustable DC bias from 0 to ±10V
+  - Adjustable waveform symmetry from 90:10 to 10:90
+  - TTL and CMOS synchronous outputs
+  - Built-in frequency counter
+  - VCF input for voltage-controlled frequency adjustment
+  - Low sine-wave distortion
+  - Suitable for electronics testing and laboratory applications
+  - Useful for teaching, research, circuit development and servicing
+  `,
+
+        jumiaLink: ''
+    },
+
+
+
+    {
+        id: 13155,
+        name: 'Garmin GPSMAP 79sc Marine Handheld GPS',
+        category: 'gps-trackers',
+        group: 'Measuring And Testing',
+        parentCategory: 'general measuring instruments',
+        brand: 'Garmin',
+        price: 0,
+
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790177141/garmin_gpsmap_79sc_n2paon.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790177140/garmin_gpsmap_79sc_jtjkye.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790176957/garmin_gpsmap_79sc-4_yhxfat.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790176934/garmin_gpsmap_79sc-5_rfz9zo.jpg'
+        ],
+
+        inStock: true,
+        kongaLink: '',
+        showSimilar: true,
+
+        description: `The Garmin GPSMAP 79sc is a rugged marine handheld GPS navigator designed for reliable navigation on water and outdoors. It features a sunlight-readable 3-inch color display, multi-GNSS satellite support, a 3-axis tilt-compensated electronic compass and preloaded BlueChart g3 coastal charts. Its floating, water-resistant design makes it suitable for boating, marine navigation, fishing, outdoor navigation and other demanding environments. The device provides up to 19 hours of battery life and has 8GB of internal memory for storing waypoints, routes and tracks.`,
+
+        specification: `
+  - Product Name: Garmin GPSMAP 79sc
+  - Product Type: Marine Handheld GPS Navigator
+  - Part Number: 010-02635-02
+  - Display Type: Transflective 65K-color TFT
+  - Display Size: 3 inches diagonal
+  - Display Resolution: 240 × 400 pixels
+  - Lens Material: Chemically strengthened glass
+  - Satellite Systems: GPS, GLONASS, Galileo, QZSS and SBAS
+  - Electronic Compass: 3-axis tilt-compensated compass
+  - Preloaded Mapping: BlueChart g3 coastal charts
+  - Worldwide Basemap: Yes
+  - Internal Memory: 8GB
+  - External Memory: microSD up to 32GB
+  - Waypoints: Up to 10,000
+  - Routes: Up to 250
+  - Tracks: Up to 250 saved tracks
+  - Track Log: Up to 20,000 points
+  - Battery Type: 2 × AA batteries
+  - Battery Life: Up to 19 hours
+  - Water Rating: IPX6 and IPX7
+  - Floating: Yes
+  - Operating Temperature: -20°C to 60°C
+  - Dimensions: 6.77 × 17.40 × 4.23 cm
+  - Weight: 282g with batteries
+  - Interface: High-speed microUSB and NMEA 0183 compatible
+  - Wireless Connectivity: Garmin Connect compatible
+  - MIL-STD-810: Yes, thermal, shock and water
+  `,
+
+        features: `
+  - Rugged marine handheld GPS navigator
+  - Preloaded BlueChart g3 coastal charts
+  - Supports multiple global satellite navigation systems
+  - 3-axis tilt-compensated electronic compass
+  - Sunlight-readable 3-inch color display
+  - Floating design for marine use
+  - IPX6 and IPX7 water resistance
+  - Up to 19 hours of battery life
+  - 8GB internal memory
+  - Supports microSD cards up to 32GB
+  - Stores up to 10,000 waypoints
+  - Supports up to 250 routes
+  - Suitable for boating, fishing and marine navigation
+  - Suitable for outdoor navigation and exploration
+  - Rugged construction for demanding environments
+  `,
+
+        jumiaLink: ''
     },
     // measuring and testing ends at 16000
 

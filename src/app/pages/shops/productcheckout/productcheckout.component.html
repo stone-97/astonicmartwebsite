@@ -93,55 +93,56 @@
       Address is required
     </div>
   </div>
-<!-- COUNTRY -->
-<div class="col-md-6 form-group">
-  <label for="country">Country</label>
-  <select
-    id="country"
-    class="form-control no-nice-select"
-    [ngClass]="{'is-invalid': country.invalid && country.touched}"
-    [(ngModel)]="formData.country"
-    name="country"
-    #country="ngModel"
-    required
-    (change)="loadStates(formData.country); onCityChange()"
-  >
-    <option value="">Select Country</option>
 
-    <option *ngFor="let c of countries" [value]="c.isoCode">
-      {{ c.name }}
-    </option>
-  </select>
+  <!-- COUNTRY -->
+  <div class="col-md-6 form-group">
+    <label for="country">Country</label>
+    <select
+      id="country"
+      class="form-control no-nice-select"
+      [ngClass]="{'is-invalid': country.invalid && country.touched}"
+      [(ngModel)]="formData.country"
+      name="country"
+      #country="ngModel"
+      required
+      (change)="loadStates(formData.country); onCityChange()"
+    >
+      <option value="">Select Country</option>
 
-  <div *ngIf="country.invalid && country.touched" class="invalid-feedback">
-    Country is required
+      <option *ngFor="let c of countries" [value]="c.isoCode">
+        {{ c.name }}
+      </option>
+    </select>
+
+    <div *ngIf="country.invalid && country.touched" class="invalid-feedback">
+      Country is required
+    </div>
   </div>
-</div>
 
-<!-- STATE -->
-<div class="col-md-6 form-group">
-  <label for="state">State</label>
-  <select
-    id="state"
-    class="form-control no-nice-select"
-    [ngClass]="{'is-invalid': state.invalid && state.touched}"
-    [(ngModel)]="formData.state"
-    name="state"
-    #state="ngModel"
-    required
-    (change)="onCityChange()"
-  >
-    <option value="">Select State</option>
+  <!-- STATE -->
+  <div class="col-md-6 form-group">
+    <label for="state">State</label>
+    <select
+      id="state"
+      class="form-control no-nice-select"
+      [ngClass]="{'is-invalid': state.invalid && state.touched}"
+      [(ngModel)]="formData.state"
+      name="state"
+      #state="ngModel"
+      required
+      (change)="onCityChange()"
+    >
+      <option value="">Select State</option>
 
-    <option *ngFor="let s of states" [value]="s.isoCode">
-      {{ s.name }}
-    </option>
-  </select>
+      <option *ngFor="let s of states" [value]="s.isoCode">
+        {{ s.name }}
+      </option>
+    </select>
 
-  <div *ngIf="state.invalid && state.touched" class="invalid-feedback">
-    State is required
+    <div *ngIf="state.invalid && state.touched" class="invalid-feedback">
+      State is required
+    </div>
   </div>
-</div>
 
   <!-- CITY -->
   <div class="col-md-6 form-group">
@@ -220,52 +221,80 @@
   </small>
 </div>
 
+
 <!-- OUTSIDE LAGOS -->
 <div *ngIf="deliveryType === 'outside'" class="payment_item">
 
-  <div>
-    <input type="radio"
-           name="payment"
-           value="transfer"
-           [(ngModel)]="selectedPayment"
-           [ngModelOptions]="{standalone: true}">
-    <label><strong>Pay 50% Now, Balance on Delivery</strong></label>
+  <!-- ORDERS ₦50,000 AND ABOVE -->
+  <div *ngIf="getTotal() >= 50000">
+
+    <div>
+      <input type="radio"
+             name="payment"
+             value="transfer"
+             [(ngModel)]="selectedPayment"
+             [ngModelOptions]="{standalone: true}">
+
+      <label>
+        <strong>Pay 20% Now, Balance on Delivery</strong>
+      </label>
+    </div>
+
+    <p style="color:#ff9800;">
+      ✔ Pay 20% now<br>
+      ✔ Balance on delivery
+    </p>
+
+    <!-- 20% PAYMENT CALCULATION -->
+    <div *ngIf="selectedPayment === 'transfer'" style="margin-top:10px;">
+
+      <p>
+        <strong>20% To Pay Now:</strong>
+        ₦{{ getTotal() * 0.2 | number:'1.0-0' }}
+      </p>
+
+      <p>
+        <strong>Balance:</strong>
+        ₦{{ getTotal() * 0.8 | number:'1.0-0' }}
+      </p>
+
+    </div>
+
+    <hr>
+
+    <!-- FULL PAYMENT -->
+    <div>
+      <input type="radio"
+             name="payment"
+             value="online"
+             [(ngModel)]="selectedPayment"
+             [ngModelOptions]="{standalone: true}">
+
+      <label>
+        <strong>Pay Full Amount with Card</strong>
+      </label>
+    </div>
+
   </div>
 
-  <p style="color:#ff9800;">
-    ✔ Pay 50% now<br>
-    ✔ Balance on delivery
-  </p>
 
-  <!-- ✅ ADD THIS EXACTLY HERE -->
-  <div *ngIf="selectedPayment === 'transfer'" style="margin-top:10px;">
+  <!-- ORDERS BELOW ₦50,000 -->
+  <div *ngIf="getTotal() < 50000"
+       class="alert alert-warning">
 
-  <p>
-  <strong>50% To Pay Now:</strong>
-  ₦{{ getTotal() * 0.5 | number:'1.0-0' }}
-</p>
+    <strong>Delivery Charges Apply</strong>
 
-<p>
-  <strong>Balance:</strong>
-  ₦{{ getTotal() * 0.5 | number:'1.0-0' }}
-</p>
+    <p class="mb-0 mt-2">
+      For orders below ₦50,000 outside Lagos, delivery charges are
+      payable by the customer. The applicable delivery fee depends
+      on the nature, size, weight, destination, and logistics cost
+      of the goods.
+    </p>
 
-  </div>
-
-  <hr>
-
-  <div>
-    <input type="radio"
-           name="payment"
-           value="online"
-           [(ngModel)]="selectedPayment"
-           [ngModelOptions]="{standalone: true}">
-    <label><strong> Pay Full Amount with Card</strong></label>
   </div>
 
 </div>
-
-  <!-- ✅ INTERNATIONAL (NOW OUTSIDE) -->
+  <!-- INTERNATIONAL -->
  <div *ngIf="deliveryType === 'international'" class="payment_item">
 
   <label>
@@ -282,11 +311,14 @@
 
 </div>
 
+
 <!-- DELIVERY INFO -->
 <div class="alert alert-info mt-2">
-  🚚 Lagos Delivery: Pay when your item arrives at your location.
+  🚚 <strong>Delivery:</strong>
+  Free delivery may apply depending on the product, order and destination.
+  Delivery fees may apply to orders below ₦50,000.
+  Outside Lagos orders of ₦50,000+ require 20% payment before processing.
 </div>
-
 <!-- DELIVERY POLICY -->
 <a routerLink="/deliverypolicy" class="delivery-link">
   📦 View delivery policy
@@ -326,7 +358,7 @@
   <div *ngIf="selectedPayment === 'transfer'">
 
     <div class="alert alert-warning">
-      Pay <strong>50% (₦{{ totalAmount * 0.5 | number:'1.0-0' }})</strong> now
+      Pay <strong>20% (₦{{ totalAmount * 0.2 | number:'1.0-0' }})</strong> now
     </div>
 
     <p><strong>Bank:</strong> Fidelity Bank</p>

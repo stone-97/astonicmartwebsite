@@ -713,6 +713,63 @@ Battery and Charger Sold Separately
         showSimilar: true
     },
 
+
+    {
+  id: 25014,
+  name: '6.5HP Corn Maize Thresher Machine',
+     category: 'farm-machines',
+        group: 'farm equipments',
+  brand: 'Generic',
+  price: 550000,
+
+  images: [
+  'https://res.cloudinary.com/taus5tit/image/upload/v1790177991/6.5HP_Corn_Maize_Thresher_Machine_kdqasv.avif',
+  'https://res.cloudinary.com/taus5tit/image/upload/v1790177991/6.5HP_Corn_Maize_Thresher_Machine-2_cmpm5y.jpg',
+  'https://res.cloudinary.com/taus5tit/image/upload/v1790177991/6.5HP_Corn_Maize_Thresher_Machine_jwcsvt.jpg',
+  'https://res.cloudinary.com/taus5tit/image/upload/v1790177991/6.5HP_Corn_Maize_Thresher_Machine_xdcwq5.jpg',
+  'https://res.cloudinary.com/taus5tit/image/upload/v1790177991/6.5HP_Corn_Maize_Thresher_Machine_kdqasv.avif',
+  'https://res.cloudinary.com/taus5tit/image/upload/v1790177990/6.5HP_Corn_Maize_Thresher_Machine-4_n7g7s0.jpg'
+  ],
+
+  inStock: true,
+  kongaLink: '',
+  showSimilar: true,
+
+  description: `The 6.5HP Corn Maize Thresher Machine is a gasoline-powered agricultural machine designed to efficiently separate maize grains from corn cobs. Powered by a 6.5HP petrol engine, it provides fast and continuous threshing while reducing manual labour and processing time. The machine is suitable for farmers, agricultural cooperatives, maize processors and other farm operations requiring efficient post-harvest maize processing.`,
+
+  specification: `
+  - Product Name: Corn Maize Thresher Machine
+  - Engine Power: 6.5HP
+  - Engine Type: Petrol / Gasoline Engine
+  - Engine Model: GX200
+  - Machine Type: Maize / Corn Thresher
+  - Threshing Capacity: 1,000–1,500 kg/hour
+  - Application: Dry maize / corn cobs
+  - Operation: Continuous feeding
+  - Threshing Method: Rotating threshing drum
+  - Drive System: Belt driven
+  - Construction: Heavy-duty steel frame
+  - Power Source: Gasoline / Petrol
+  - Suitable For: Farms, agricultural processing and maize production
+  `,
+
+  features: `
+  - Powerful 6.5HP petrol engine
+  - Efficient separation of maize grains from cobs
+  - 1,000–1,500 kg/hour working capacity
+  - Continuous feeding operation
+  - Designed for dried maize
+  - Reduces manual threshing labour
+  - Fast and efficient grain separation
+  - Durable heavy-duty steel construction
+  - Portable design for farm use
+  - Does not require electricity
+  - Suitable for farmers, cooperatives and agro-processing businesses
+  `,
+
+  jumiaLink: ''
+},
+
     // farm equipments ends at 27000
 
 ]

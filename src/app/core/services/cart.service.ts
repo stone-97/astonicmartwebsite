@@ -73,6 +73,21 @@ export class CartService {
         quantity: item.quantity
       }]
     });
+
+    // Meta Pixel - AddToCart event
+    if (typeof window !== 'undefined') {
+      const fbq = (window as any).fbq;
+
+      if (fbq) {
+        fbq('track', 'AddToCart', {
+          content_ids: [String(item.id)],
+          content_type: 'product',
+          content_name: item.name,
+          value: item.price * item.quantity,
+          currency: 'NGN'
+        });
+      }
+    }
   }
 
   increaseQty(id: number) {

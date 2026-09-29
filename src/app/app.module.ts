@@ -401,6 +401,7 @@ import { GeneralconcreteequipmentComponent } from './pages/constructionequipment
 import { GasolinejackhammersComponent } from './pages/powertools/bycategories/jackhammers/gasolinejackhammers/gasolinejackhammers.component';
 import { DippingtapeComponent } from './pages/measuringandtesting/generalmeasuringinstruments/dippingtape/dippingtape.component';
 import { SafetyjoggersComponent } from './pages/ppe/bybrands/safetyjoggers/safetyjoggers.component';
+import { ProductLandingComponent } from './pages/product-landing/product-landing.component';
 
 
 
@@ -821,7 +822,8 @@ import { SafetyjoggersComponent } from './pages/ppe/bybrands/safetyjoggers/safet
     HandgearwinchesComponent,
     GeneralconcreteequipmentComponent,
     GasolinejackhammersComponent,
-   DippingtapeComponent
+   DippingtapeComponent,
+   ProductLandingComponent
 
 
 

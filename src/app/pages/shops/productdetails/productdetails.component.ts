@@ -101,9 +101,26 @@ export class ProductdetailsComponent implements OnInit {
       if (isPlatformBrowser(this.platformId)) {
         this.currentUrl = window.location.href;
       }
-      this.whatsappLink =
-        `https://wa.me/?text=Check out this product: ${this.product.name} - ₦${this.product.price} ${this.currentUrl}`;
 
+
+      const price = this.selectedPrice || this.product.price;
+
+      const message = `Hello Astonic Mart 👋
+
+I would like to place an order for:
+
+🛠️ Product: ${this.product.name}
+
+💰 Price: ₦${price.toLocaleString()}
+📦 Quantity: ${this.quantity}
+
+Please confirm the product availability and guide me through the ordering and delivery process.
+
+Thank you.`;
+
+      this.whatsappLink =
+        `https://wa.me/2349074375786?text=${encodeURIComponent(message)}`;
+      
       this.facebookLink =
         `https://www.facebook.com/sharer/sharer.php?u=${this.currentUrl}`;
 

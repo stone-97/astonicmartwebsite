@@ -315,51 +315,7 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
     },
 
 
-    {
-        id: 19009,
-        name: 'Steel Rod Cutter - 40mm',
-        category: 'rebar-machines',
-        group: 'construction equipments',
-        brand: 'Generic',
-        price: 450000, // adjust based on your market price (commonly Γéª130,000 - Γéª220,000 in Nigeria)
-
-        images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786311458/Astonic-Mart/Products/rebar%20machines/Steel-Rod-Cutting-Machine-40mm.webp',
-
-        ],
-
-        inStock: true,
-        jumiaLink: '',
-        kongaLink: '',
-
-        description: `The Steel Rod Cutter 40mm is a heavy-duty manual rebar cutting machine designed for cutting mild steel reinforcement bars (rebar) up to 40mm diameter. It is widely used on construction sites, fabrication yards, and engineering projects for fast, clean, and accurate cutting of steel rods. Built with a strong steel frame and high-strength cutting blades, this cutter delivers efficient performance with minimal effort. Its long handle design provides excellent leverage, allowing operators to cut thick rods smoothly without electricity. This machine is an essential tool for steel fixers, contractors, and construction professionals who require reliable and precise cutting operations.`,
-
-        specification: `
-  - Product Name: Manual Steel Rod Cutter / Rebar Cutter
-  - Max Cutting Capacity: 40mm (mild steel rebar)
-  - Cutting Type: Manual shear cutting
-  - Blade Material: Hardened alloy steel
-  - Frame Material: Heavy-duty steel construction
-  - Operation: Manual with long leverage handle
-  - Cutting Speed: Fast and efficient manual cutting
-  - Weight: Approx. 100 - 160 kg (depending on model)
-  - Dimensions: Approx. 1000 x 700 x 800 mm
-  - Usage: Construction sites, steel fabrication, reinforcement work, engineering projects
-  `,
-
-        features: `
-  - Cuts rebar up to 40mm diameter efficiently
-  - Heavy-duty steel frame ensures durability and stability
-  - Sharp, hardened blades provide clean and precise cuts
-  - Long handle design reduces operator effort
-  - No electricity required ΓÇô perfect for remote job sites
-  - Fast manual cutting improves work productivity
-  - Suitable for mild steel and reinforced bars
-  - Compact and rugged design for site use
-  - Reliable performance for continuous heavy-duty operations
-  - Essential tool for builders, contractors, and steel fabricators
-  `
-    },
+  
 
     {
         id: 19008,
@@ -410,51 +366,104 @@ export const CONSTRUCTION_EQUIPMENTS_PRODUCTS: Product[] = [
     },
 
 
+    {
+        id: 19009,
+        name: 'Steel Rod Cutter - 40mm',
+        category: 'rebar-machines',
+        group: 'construction equipments',
+        brand: 'Generic',
+        price: 1800000, // adjust based on your market price (commonly Γéª130,000 - Γéª220,000 in Nigeria)
+
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790435959/iron_bender_40mm-1_pnrvca.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790435960/iron_bender_40mm-2_kjemhp.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790435960/iron_bender_40mm-3_aejhsa.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790435960/iron_bender_40mm_boec7g.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790435960/iron_bender_40mm-4_awifbp.jpg'
+
+        ],
+
+        inStock: true,
+        jumiaLink: '',
+        kongaLink: '',
+
+        description: `The Steel Rod Cutter 40mm is a heavy-duty manual rebar cutting machine designed for cutting mild steel reinforcement bars (rebar) up to 40mm diameter. It is widely used on construction sites, fabrication yards, and engineering projects for fast, clean, and accurate cutting of steel rods. Built with a strong steel frame and high-strength cutting blades, this cutter delivers efficient performance with minimal effort. Its long handle design provides excellent leverage, allowing operators to cut thick rods smoothly without electricity. This machine is an essential tool for steel fixers, contractors, and construction professionals who require reliable and precise cutting operations.`,
+
+        specification: `
+  - Product Name: Manual Steel Rod Cutter / Rebar Cutter
+  - Max Cutting Capacity: 40mm (mild steel rebar)
+  - Cutting Type: Manual shear cutting
+  - Blade Material: Hardened alloy steel
+  - Frame Material: Heavy-duty steel construction
+  - Operation: Manual with long leverage handle
+  - Cutting Speed: Fast and efficient manual cutting
+  - Weight: Approx. 100 - 160 kg (depending on model)
+  - Dimensions: Approx. 1000 x 700 x 800 mm
+  - Usage: Construction sites, steel fabrication, reinforcement work, engineering projects
+  `,
+
+        features: `
+  - Cuts rebar up to 40mm diameter efficiently
+  - Heavy-duty steel frame ensures durability and stability
+  - Sharp, hardened blades provide clean and precise cuts
+  - Long handle design reduces operator effort
+  - No electricity required ΓÇô perfect for remote job sites
+  - Fast manual cutting improves work productivity
+  - Suitable for mild steel and reinforced bars
+  - Compact and rugged design for site use
+  - Reliable performance for continuous heavy-duty operations
+  - Essential tool for builders, contractors, and steel fabricators
+  `
+    },
 
 
+{
+  id: 19008,
+  name: 'Rod Bender - 40mm',
+  category: 'rebar-machines',
+  group: 'construction equipments',
+  brand: 'Generic',
+  price: 2500000,
 
-//     {
-//         id: 19010,
-//         name: 'SGT KNOTS Twisted ProManila Rope  1.25" x 10ft (Tan)',
-//         category: 'ropes',
-//         group: 'construction equipments',
-//         brand: 'SGT KNOTS',
-//         price: 28000, // adjust based on your market (commonly Γéª25,000 - Γéª45,000 in Nigeria depending on import cost)
+  images: [
+    'https://res.cloudinary.com/taus5tit/image/upload/v1786311457/Astonic-Mart/Products/rebar%20machines/rod_benders_50mm.webp',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1788939029/Rod_Bender_-_50mm_jl05kb.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1788939028/Rod_Bender_-_50mm_fikbhm.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1788939224/Rod_Bender_-_50mm-3_hddkgp.jpg'
+  ],
 
-//         images: [],
+  inStock: true,
+  jumiaLink: '',
+  kongaLink: '',
 
-//         inStock: true,
-//         jumiaLink: '',
-//         kongaLink: '',
+  description: `The Rod Bender 40mm is a heavy-duty electric rebar bending machine designed for bending mild steel reinforcement bars up to 40mm diameter. It is suitable for construction sites, steel fabrication workshops, and civil engineering projects where accurate and consistent rebar bending is required. The machine features a robust steel frame, heavy-duty bending components, multiple bending positions, and an electric-powered drive system for efficient operation. It is ideal for bending reinforcement bars used in columns, beams, slabs, foundations, stirrups, and other structural applications.`,
 
-//         description: `The SGT KNOTS Twisted ProManila Rope is a high-quality synthetic alternative to traditional Manila rope, designed for superior strength, durability, and resistance to harsh weather conditions. Measuring 1.25 inches in diameter and 10 feet in length, this tan-colored rope offers the natural look of manila while outperforming it in longevity and performance. Unlike natural fibers, ProManila rope resists rot, mold, moisture, and UV damage, making it ideal for both indoor and outdoor applications. It is perfect for construction, landscaping, marine use, lifting, pulling, and decorative purposes.`,
+  specification: `
+  - Product Name: Electric Rod Bender / Rebar Bending Machine
+  - Maximum Bending Capacity: 40mm
+  - Operation: Electric
+  - Bending Angle: 0° - 180°
+  - Frame Material: Heavy-duty steel
+  - Bending Components: Heavy-duty bending disc, pins and rollers
+  - Control: Electric control panel with start/stop buttons
+  - Design: Heavy-duty industrial construction
+  - Application: Rebar bending and steel reinforcement fabrication
+  - Usage: Construction sites, steel fabrication workshops, civil engineering projects
+  `,
 
-//         specification: `
-//   - Product Name: Twisted ProManila Rope
-//   - Brand: SGT KNOTS
-//   - Diameter: 1.25 inches (approx. 32mm)
-//   - Length: 10 feet (approx. 3 meters)
-//   - Material: Synthetic polypropylene (UnManila)
-//   - Color: Tan (natural manila appearance)
-//   - Construction: 3-strand twisted rope
-//   - ┘à┘é╪º┘ê┘à╪¬: High resistance to moisture, UV, and chemicals
-//   - Weight: Lightweight and easy to handle
-//   - Usage: General-purpose, marine, construction, landscaping, decor
-//   `,
-
-//         features: `
-//   - Synthetic alternative to natural Manila rope with enhanced durability
-//   - Resistant to rot, mildew, moisture, and UV exposure
-//   - Strong and flexible for heavy-duty applications
-//   - Lightweight and easy to handle compared to natural fiber ropes
-//   - Maintains shape and strength even in wet conditions
-//   - Ideal for indoor and outdoor use
-//   - Natural tan color for aesthetic and decorative purposes
-//   - Suitable for tying, pulling, lifting, and general utility work
-//   - Long-lasting performance with minimal maintenance
-//   - Trusted quality from SGT KNOTS brand
-//   `
-//     },
+  features: `
+  - Bends reinforcement bars up to 40mm diameter
+  - Electric-powered operation for efficient bending
+  - Heavy-duty steel construction for durability
+  - Robust bending disc and interchangeable bending pins
+  - Produces accurate and consistent bends
+  - Suitable for bending rebar for columns, beams, slabs and foundations
+  - Designed for construction and steel fabrication applications
+  - Stable wheeled design for easier movement around the worksite
+  - Simple electric control panel for convenient operation
+  - Suitable for professional contractors and steel fabricators
+  `
+},
 
 
 
@@ -1873,17 +1882,18 @@ User Manual
 
     {
         id: 19034,
-        name: 'VR880 2 Ton Ride-On Double Drum Road Roller',
+        name: 'VR880 Ride-On Double Drum Road Roller-2 Ton',
         category: 'drum-roller-compactors',
         group: 'Construction equipments',
         showSimilar: true,
         brand: 'Generic',
         price: 2200000,
-        discountPrice: 2100000,
+        discountPrice: 2000000,
 
         images: [
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306392/Astonic-Mart/Products/drum%20rollers/VR880_2_Ton_Ride-On_Double_Drum_Road_Roller.png',
-            'https://res.cloudinary.com/taus5tit/image/upload/v1786306393/Astonic-Mart/Products/drum%20rollers/VR880_2_Ton_Ride-On_Double_Drum_Road_Roller-2.jpg'
+
+            'https://res.cloudinary.com/taus5tit/image/upload/v1786306393/Astonic-Mart/Products/drum%20rollers/VR880_2_Ton_Ride-On_Double_Drum_Road_Roller-2.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790436528/Astonic-Mart/Products/drum%20rollers/VR880_2_Ton_Ride-On_Double_Drum_Road_Roller.webp'
         ],
 
         videos: [],
@@ -2424,6 +2434,242 @@ Ideal for commercial and industrial flooring projects
 `,
         jumiaLink: 'https://www.jumia.com.ng/',
         kongaLink: 'https://www.konga.com/'
-    }
+    },
+
+
+    {
+  id: 19044,
+  name: 'Electric Pipe Tube Bender Metal Steel Tube Bending Machine',
+  category: 'rebar-machines',
+  group: 'construction equipments',
+  brand: 'Generic',
+
+  price: 1550000,
+
+  images: [
+    'https://res.cloudinary.com/taus5tit/image/upload/v1790175468/Electric_Pipe_Tube_Bender_lbgewu.jpg',
+      'https://res.cloudinary.com/taus5tit/image/upload/v1790175468/Electric_Pipe_Tube_Bender-2_b8kbzd.avif',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1790175468/Electric_Pipe_Tube_Bender-3_ymoxma.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1790175469/Electric_Pipe_Tube_Bender-4_c1dr68.jpg',
+    'https://res.cloudinary.com/taus5tit/image/upload/v1790175468/Electric_Pipe_Tube_Bender-5_pcdwom.jpg'
+   
+  ],
+
+  inStock: true,
+  kongaLink: '',
+  showSimilar: true,
+
+  description: `The Electric Pipe Tube Bender is a heavy-duty metal bending machine designed for bending round and square metal pipes into different arcs and curves without heating or filling. It is suitable for construction, greenhouse structures, carports, metal doors, workshops, railings and general metal fabrication. The machine uses an electric motor and geared roller system to bend pipes smoothly and consistently to the required radius.`,
+
+  specification: `
+  - Product Name: Electric Pipe Tube Bender
+  - Machine Type: Electric Pipe and Tube Bending Machine
+  - Motor Power: 2.2kW (3HP)
+  - Voltage: 220V
+  - Phase: Single Phase
+  - Maximum Pipe Wall Thickness: 0–2mm
+  - Bending Method: Cold bending
+  - Drive System: Gear / Turbo Reducer
+  - Operation: Forward and reverse bending
+  - Round Pipe Dies: 15 pcs
+  - Square Pipe Dies: 9 pcs
+  - Round Tube Die Specifications: 19/22, 25/63, 25/51, 32/38, 76mm
+  - Square Tube Die Specifications: 20/60, 25/50, 30/40mm
+  - Application: Round and square metal pipes
+  - Bending: Adjustable to required radius
+  - Construction: Heavy-duty steel frame
+  - Suitable For: Steel, iron and other suitable metal tubing
+  `,
+
+  features: `
+  - Powerful 2.2kW (3HP) electric motor
+  - 220V single-phase operation
+  - Suitable for round and square pipes
+  - Includes 15 round pipe dies
+  - Includes 9 square pipe dies
+  - Cold bending without heating or pipe filling
+  - Forward and reverse bending operation
+  - Gear-driven roller system
+  - Adjustable bending radius
+  - Heavy-duty steel construction
+  - Suitable for construction and metal fabrication
+  - Ideal for greenhouse frames, carports, doors and workshops
+  `,
+
+  jumiaLink: ''
+},
+
+
+{
+  id: 19045,
+  name: 'Ride-On Double Drum Road Roller - 3 Ton',
+  category: 'drum-roller-compactors',
+  group: 'Construction equipments',
+  showSimilar: true,
+  brand: 'Generic',
+  price: 3500000,
+  discountPrice: 3200000,
+
+
+    images: [
+
+        'https://res.cloudinary.com/taus5tit/image/upload/v1786306393/Astonic-Mart/Products/drum%20rollers/VR880_2_Ton_Ride-On_Double_Drum_Road_Roller-2.jpg',
+        'https://res.cloudinary.com/taus5tit/image/upload/v1790436528/Astonic-Mart/Products/drum%20rollers/VR880_2_Ton_Ride-On_Double_Drum_Road_Roller.webp'
+    ],
+
+
+  videos: [],
+
+  inStock: true,
+  jumiaLink: '',
+  kongaLink: '',
+
+  description: `The 3 Ton Ride-On Double Drum Road Roller is a heavy-duty vibratory compaction machine designed for asphalt paving, road construction, parking lots, sidewalks, bridges, sports grounds, foundations, and other civil engineering projects. Featuring dual steel drums, hydraulic drive, and a powerful diesel engine, it delivers strong and uniform compaction performance while providing excellent maneuverability. Its ride-on design makes it suitable for professional contractors, road construction companies, and municipal infrastructure projects.`,
+
+  specification: `
+- Product Name: Ride-On Double Drum Road Roller
+- Operating Weight: 3 Ton
+- Brand: Generic
+- Drum Type: Double Steel Drum
+- Drum Width: Approx. 900 mm
+- Drum Diameter: Approx. 560 mm
+- Vibration Type: Hydraulic Vibratory System
+- Exciting Force: Approx. 30 kN
+- Travel Speed: 0 – 8 km/h
+- Climbing Ability: Up to 30%
+- Steering System: Hydraulic Articulated Steering
+- Drive Type: Hydraulic Drive
+- Engine Type: Single-Cylinder Air-Cooled Diesel Engine
+- Starting System: Electric Start
+- Water Tank: Integrated Sprinkler System
+- Fuel Type: Diesel
+- Application: Asphalt, Soil, Gravel, Sand, Pavement & Road Compaction
+  `,
+
+  features: `
+- 3-ton operating weight for effective heavy-duty compaction
+- Double steel drums for uniform and smooth surface finishing
+- Powerful diesel engine with electric start
+- Hydraulic drive for smooth and reliable operation
+- Hydraulic vibratory system for high compaction performance
+- Comfortable ride-on operator platform
+- Hydraulic articulated steering for easy maneuverability
+- Integrated water sprinkler system helps prevent asphalt from sticking to the drums
+- Heavy-duty construction for long service life
+- Suitable for asphalt, soil, gravel, sand and pavement compaction
+- Ideal for road construction, parking lots, driveways, walkways, bridges and foundation projects
+  `
+},
+
+
+{
+  id: 19046,
+  name: '1000L Concrete Bucket',
+    category: 'general-concrete-equipment',
+    group: 'Construction Equipment',
+  showSimilar: true,
+  brand: 'Generic',
+  price: 2800000,
+  discountPrice: 2600000,
+
+  images: [
+  'https://res.cloudinary.com/taus5tit/image/upload/v1790438634/1000l_concrete_bucket_joq08n.png',
+  'https://res.cloudinary.com/taus5tit/image/upload/v1790438633/1000l_concrete_bucket-3_infhay.png',
+  'https://res.cloudinary.com/taus5tit/image/upload/v1790438634/1000l_concrete_bucket-2_mhzeln.png'
+  ],
+
+  videos: [],
+
+  inStock: true,
+  jumiaLink: '',
+  kongaLink: '',
+
+  description: `The 1000L Concrete Bucket is a heavy-duty construction equipment designed for the efficient handling, lifting, transporting, and controlled discharge of concrete on construction sites. With a 1000-litre capacity, this concrete bucket is suitable for concrete placement in foundations, columns, beams, slabs, walls, and other structural works. Its strong steel construction, reinforced support frame, lifting points, and bottom discharge gate provide reliable operation and controlled concrete delivery. It is suitable for use with cranes and other lifting equipment on construction projects.`,
+
+  specification: `
+- Product Name: 1000L Concrete Bucket
+- Capacity: 1000 Litres
+- Approximate Capacity: 1.0 m³
+- Material: Heavy-Duty Steel
+- Bucket Type: Vertical Concrete Placement Bucket
+- Discharge Type: Bottom Discharge
+- Discharge Gate: Manual Controlled Gate
+- Frame: Reinforced Steel Support Frame
+- Lifting Points: Heavy-Duty Lifting Loops
+- Surface Finish: Painted Steel
+- Application: Concrete Handling, Lifting & Placement
+- Suitable For: Construction Sites, Building Projects, Foundations, Columns, Beams & Slabs
+- Lifting Method: Crane / Lifting Equipment
+  `,
+
+  features: `
+- 1000-litre capacity for efficient concrete handling
+- Heavy-duty steel construction for demanding construction applications
+- Reinforced support frame provides stability during lifting and operation
+- Heavy-duty lifting points for crane handling
+- Bottom discharge system allows controlled concrete placement
+- Manual discharge gate for regulating concrete flow
+- Suitable for transporting and placing concrete at elevated or difficult-to-reach locations
+- Durable painted steel body
+- Designed for repeated use on construction sites
+- Suitable for contractors, civil engineering companies and building projects
+  `
+},
+
+
+
+    {
+        id: 19047,
+        name: '500L Concrete Bucket',
+         category: 'general-concrete-equipment',
+        group: 'Construction Equipment',
+        showSimilar: true,
+        brand: 'Generic',
+        price: 2000000,
+        discountPrice:1800000,
+
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790439091/500l_concrete_bucket-2_t8n4hi.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790439091/500l_concrete_bucket_riwqet.png'
+        ],
+
+        videos: [],
+
+        inStock: true,
+        jumiaLink: '',
+        kongaLink: '',
+
+        description: `The 500L Concrete Bucket is a heavy-duty construction equipment designed for lifting, transporting, and controlled discharge of concrete on construction sites. With a 500-litre capacity, it is suitable for concrete placement in foundations, columns, beams, slabs, walls, and other structural works. The bucket features a strong steel body, reinforced support frame, heavy-duty lifting points, and a controlled bottom discharge system for efficient and precise concrete placement. It is suitable for use with cranes and other lifting equipment.`,
+
+        specification: `
+- Product Name: 500L Concrete Bucket
+- Capacity: 500 Litres
+- Approximate Capacity: 0.5 m³
+- Material: Heavy-Duty Steel
+- Bucket Type: Vertical Concrete Placement Bucket
+- Discharge Type: Bottom Discharge
+- Discharge Gate: Manual Controlled Gate
+- Frame: Reinforced Steel Support Frame
+- Lifting Points: Heavy-Duty Lifting Loops
+- Surface Finish: Painted Steel
+- Application: Concrete Handling, Lifting & Placement
+- Suitable For: Construction Sites, Building Projects, Foundations, Columns, Beams & Slabs
+- Lifting Method: Crane / Lifting Equipment
+  `,
+
+        features: `
+- 500-litre capacity for efficient concrete handling
+- Heavy-duty steel construction for demanding construction applications
+- Reinforced support frame provides stability during lifting and operation
+- Heavy-duty lifting points for crane handling
+- Bottom discharge system allows controlled concrete placement
+- Manual discharge gate for regulating concrete flow
+- Suitable for transporting and placing concrete at elevated or difficult-to-reach locations
+- Durable painted steel body
+- Compact size makes it suitable for projects with limited working space
+- Designed for repeated use on construction sites
+- Suitable for contractors, civil engineering companies and building projects
+  `
+    },
     // construction equipments ends at 21000
 ]

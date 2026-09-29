@@ -1,3 +1,4 @@
+import { ProductLandingComponent } from './pages/product-landing/product-landing.component';
 
 
 import { FallarrestorsComponent } from './pages/ppe/bycategory/fallarrestors/fallarrestors.component';
@@ -413,6 +414,7 @@ import { ClothingComponent } from './pages/ppe/bycategory/clothing/clothing.comp
 
 
 const routes: Routes = [
+  { path: "product-landing/:id", component: ProductLandingComponent },
 
   { path: "", component: HomeComponent },
   { path: "index", component: HomeComponent },

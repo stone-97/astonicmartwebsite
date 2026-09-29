@@ -63,3 +63,5 @@ backend/.env
 backend/backup-*/
 backup-before-firebase-cleanup/
 firebase-debug-deploy.txt
+
+compressed images.backup/

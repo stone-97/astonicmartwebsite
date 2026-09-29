@@ -1,5 +1,9 @@
+/* =========================================================
+   EXISTING FORM STYLES
+========================================================= */
+
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .form-control {
@@ -18,10 +22,7 @@ select.form-control {
     margin-bottom: 10px;
 }
 
-
-
-/* error messages */
-
+/* Error messages */
 .invalid-feedback {
     display: block;
     font-size: 13px;
@@ -38,6 +39,297 @@ label {
     display: block;
 }
 
-.form-group {
-    margin-bottom: 15px;
+
+/* =========================================================
+   WHATSAPP ORDER SECTION
+========================================================= */
+
+.whatsapp-order-section {
+    padding: 70px 20px;
+    background: #f5f8fc;
+}
+
+.whatsapp-order-section .container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   ORDER FORM CARD
+========================================================= */
+
+.whatsapp-order-section .whatsapp-modal-content {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 40px;
+    box-shadow: 0 12px 40px rgba(7, 26, 51, 0.10);
+    border: 1px solid #e5eaf0;
+}
+
+
+/* =========================================================
+   FORM HEADER
+========================================================= */
+
+.whatsapp-order-section .whatsapp-modal-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.whatsapp-order-section .whatsapp-modal-header h2 {
+    margin: 0 0 8px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #071a33;
+}
+
+.whatsapp-order-section .whatsapp-modal-header p {
+    margin: 0;
+    color: #687789;
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   PRODUCT SUMMARY
+========================================================= */
+
+.whatsapp-order-section .whatsapp-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 18px 20px;
+    margin-bottom: 28px;
+    background: #f1f5f9;
+    border-left: 4px solid #ffba00;
+    border-radius: 10px;
+}
+
+.whatsapp-order-section .whatsapp-product strong {
+    color: #071a33;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.whatsapp-order-section .whatsapp-product span {
+    color: #071a33;
+    font-size: 18px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   WHATSAPP FORM
+========================================================= */
+
+.whatsapp-order-section .whatsapp-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* =========================================================
+   FORM GROUP
+========================================================= */
+
+.whatsapp-order-section .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 0;
+}
+
+.whatsapp-order-section .form-group label {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #071a33;
+}
+
+.whatsapp-order-section .form-group label span {
+    font-weight: 400;
+    color: #8994a3;
+}
+
+
+/* =========================================================
+   INPUTS
+========================================================= */
+
+.whatsapp-order-section .form-group input,
+.whatsapp-order-section .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 15px;
+    border: 1px solid #d7dee7;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #071a33;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.whatsapp-order-section .form-group input {
+    height: 48px;
+}
+
+.whatsapp-order-section .form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.whatsapp-order-section .form-group input::placeholder,
+.whatsapp-order-section .form-group textarea::placeholder {
+    color: #a5adb8;
+}
+
+
+/* =========================================================
+   INPUT FOCUS
+========================================================= */
+
+.whatsapp-order-section .form-group input:focus,
+.whatsapp-order-section .form-group textarea:focus {
+    border-color: #071a33;
+    box-shadow: 0 0 0 3px rgba(7, 26, 51, 0.08);
+}
+
+
+/* =========================================================
+   STATE + CITY
+========================================================= */
+
+.whatsapp-order-section .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+
+/* =========================================================
+   QUANTITY
+========================================================= */
+
+.whatsapp-order-section .form-group input[type="number"] {
+    max-width: 180px;
+}
+
+
+/* =========================================================
+   SUBMIT BUTTON
+========================================================= */
+
+.whatsapp-order-section .whatsapp-submit-btn {
+    width: 100%;
+    min-height: 52px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 9px;
+    background: #25d366;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.whatsapp-order-section .whatsapp-submit-btn:hover {
+    background: #1ebe5d;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(37, 211, 102, 0.25);
+}
+
+.whatsapp-order-section .whatsapp-submit-btn:active {
+    transform: translateY(0);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .whatsapp-order-section {
+        padding: 45px 15px;
+    }
+
+    .whatsapp-order-section .whatsapp-modal-content {
+        padding: 25px 18px;
+        border-radius: 14px;
+    }
+
+    .whatsapp-order-section .whatsapp-modal-header {
+        margin-bottom: 22px;
+    }
+
+    .whatsapp-order-section .whatsapp-modal-header h2 {
+        font-size: 24px;
+    }
+
+    .whatsapp-order-section .whatsapp-modal-header p {
+        font-size: 14px;
+    }
+
+    .whatsapp-order-section .whatsapp-product {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7px;
+        padding: 15px;
+    }
+
+    .whatsapp-order-section .whatsapp-product strong {
+        font-size: 14px;
+    }
+
+    .whatsapp-order-section .whatsapp-product span {
+        font-size: 17px;
+    }
+
+    .whatsapp-order-section .form-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .whatsapp-order-section .form-group input[type="number"] {
+        max-width: 100%;
+    }
+
+    .whatsapp-order-section .form-group input,
+    .whatsapp-order-section .form-group textarea {
+        font-size: 16px;
+    }
+
+    .whatsapp-order-section .whatsapp-submit-btn {
+        min-height: 54px;
+        font-size: 14px;
+    }
+}
+
+
+/* =========================================================
+   SMALL PHONES
+========================================================= */
+
+@media (max-width: 400px) {
+
+    .whatsapp-order-section {
+        padding: 35px 12px;
+    }
+
+    .whatsapp-order-section .whatsapp-modal-content {
+        padding: 22px 15px;
+    }
+
+    .whatsapp-order-section .whatsapp-modal-header h2 {
+        font-size: 22px;
+    }
+
 }

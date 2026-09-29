@@ -1841,8 +1841,8 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
 
         brand: 'Generic',
 
-        price: 270000,
-        discountPrice: 250000,
+        price: 260000,
+        discountPrice: 230000,
 
         images: [
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429782/Astonic-Mart/Products/remaining-local-images/c7n5uqa4qkezu31rfrqy.jpg',
@@ -1853,8 +1853,31 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
             'https://res.cloudinary.com/taus5tit/image/upload/v1786429787/Astonic-Mart/Products/remaining-local-images/vepnhe5b0zqqbuiqwq20.jpg'
         ],
 
+
+        
+        promoImages: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790131041/3t_jack_stand-2_wvyqzo.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790131040/3t_jack_stand_tjbcet.avif',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790131040/3t_floor_jack-3_mnwyhq.webp',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790131040/3t_floor_jack_rtf4xr.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790131654/3t_floor_jack-4_zq0cr5.png',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790131743/3t_floor_jack-5_crpebd.png'
+        ],
+
+        promoCaptions: [
+            '3-Ton Jack Stand Specifications & Adjustable Height',
+            'Double-Lock Protection & Reinforced Steel Support',
+            '3-Ton Maximum Lifting Capacity',
+            'Strong Hydraulic System & Heavy-Duty Construction',
+            'Heavy-Duty 3-Ton Hydraulic Floor Jack',
+            'Wide Saddle for Secure Vehicle Lifting'
+        ],
+
+     
+        relatedProducts: [9194,9011, 9070, 9102, 9048, 9115, 9149, 9071,],
+
         videos: [
-            'https://www.youtube.com/watch?v=6dT4Q9mL1rE'
+            'https://youtube.com/shorts/yPI4ckR26zo?feature=share'
         ],
 
         jumiaLink: 'https://www.jumia.com.ng/generic-3-ton-hydraulic-floor-jack-3t-jack-stand-set-complete-car-lifting-kit-419521443.html',
@@ -2316,7 +2339,7 @@ These fibreglass step ladders are reliable, durable, and essential for safe work
 
     {
         id: 9039,
-        name: 'Electric Drum Barrel Oil Pump ΓÇô 1600W',
+        name: 'Electric Drum Barrel Oil Pump 1600W',
         category: 'rotary-pumps',
         group: 'Workshop And Garage',
         brand: 'Generic',
@@ -5936,7 +5959,7 @@ The Cordless Drill Tool Set is a complete home and workshop repair kit designed 
 
 
         variations: [
-            { size: '3 Ton', price: 580000, inStock: true },
+            { size: '3 Ton', price: 58000, inStock: true },
             { size: '6 Ton', price: 98000, inStock: true }
         ],
 
@@ -7880,7 +7903,7 @@ Accessories Included:
         brand: 'Baldwin',
         model: '200-W30',
 
-        price: 16000,
+        price: 165000,
 
 
         images: [
@@ -11877,6 +11900,62 @@ Easy maintenance design
 Suitable for multiple industrial and agricultural machines
 Ideal replacement engine for generators, pumps, compactors, mixers, and cultivators
 `
+    },
+
+
+
+
+    {
+        id: 9194,
+        name: '2 Ton Hydraulic Floor Jack Heavy Duty Steel Car Lifting Jack',
+        category: 'jack-and-lifts',
+        group: 'Workshop And Garage',
+        parentCategory: 'lifting',
+        brand: 'Generic',
+        price: 120000,
+
+        images: [
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790294757/2ton_floor_jack_wjxemm.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790294757/2ton_floor_jack-3_qhdkt8.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790294755/2ton_floor_jack-4_mzfsb0.jpg',
+            'https://res.cloudinary.com/taus5tit/image/upload/v1790294755/2ton_floor_jack-4_mzfsb0.jpg'
+        ],
+
+        inStock: true,
+        jumiaLink: '',
+        kongaLink: '',
+
+        description: `
+2 Ton Hydraulic Floor Jack is a durable and practical lifting tool designed for raising cars and other light vehicles during maintenance, tire changes, and repair work. It is suitable for automotive workshops, garages, tire service centers, and home garages.
+Built with strong steel construction, this floor jack provides reliable support and stability during vehicle lifting. Its hydraulic lifting mechanism allows smooth operation with reduced effort, while the long handle provides better leverage and convenient control.
+The compact floor-jack design allows easy positioning underneath vehicles, while the caster wheels make it easy to move around the workshop. With a 2-ton lifting capacity, it is suitable for many cars and light-duty vehicle applications.
+`,
+
+        specification: `
+  - Product Name: Hydraulic Floor Jack
+  - Capacity: 2 Ton (2000 kg)
+  - Material: Heavy-duty steel
+  - Operation: Hydraulic manual pump
+  - Lifting Range: Approx. 130 mm – 330 mm (varies by model)
+  - Handle: Long handle for easy lifting
+  - Wheels: Swivel caster wheels for mobility
+  - Base: Wide and stable base design
+  - Usage: Vehicle lifting, tire changes and repairs
+  - Application: Cars and light vehicles
+  `,
+
+        features: `
+  - 2-ton lifting capacity
+  - Heavy-duty steel construction
+  - Smooth hydraulic lifting mechanism
+  - Compact floor-jack design
+  - Wide and stable base
+  - Swivel caster wheels for easy movement
+  - Long operating handle
+  - Suitable for cars and light vehicles
+  - Ideal for automotive workshops and home garages
+  - Useful for tire changes, servicing and vehicle repairs
+  `
     },
     // workshop and garage ends at 11000
 
