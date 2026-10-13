@@ -1,6 +1,7 @@
+
 [build]
   publish = "dist/astonicmarts/browser"
-  command = "npm run build && node scripts/merchant-feed.js"
+  command = "npm run build"
 
 [build.environment]
   NETLIFY_SKIP_ANGULAR_PLUGIN = "true"
@@ -10,12 +11,6 @@
   [headers.values]
     Content-Type = "application/xml; charset=UTF-8"
     Cache-Control = "public, max-age=3600"
-
-[[redirects]]
-  from = "/google-merchant-feed.xml"
-  to = "/google-merchant-feed.xml"
-  status = 200
-  force = true
 
 [[redirects]]
   from = "/*"
